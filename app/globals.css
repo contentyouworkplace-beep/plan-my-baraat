@@ -3,25 +3,149 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #fcfbf9; /* soft warm ivory */
+  --foreground: #1c1917; /* charcoal stone-900 */
+  --gold: #b8860b;      /* dark goldenrod */
+  --gold-light: #e5cc93; /* champagne */
+  --gold-dark: #8c6200;  /* deep bronze gold */
+  --crimson: #9f1239;    /* wine red rose-800 */
+  --crimson-light: #be123c;
+  --card-bg: #ffffff;
+  --border-color: rgba(184, 134, 11, 0.15); /* warm gold border */
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-outfit), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: var(--font-cinzel), Georgia, serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f1ea;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6cfc4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--gold);
+}
+
+/* Glassmorphism Panels (Light Mode) */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+  box-shadow: 
+    0 10px 30px -15px rgba(184, 134, 11, 0.08), 
+    0 4px 12px -4px rgba(0, 0, 0, 0.02);
+}
+
+.glass-panel-hover {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-panel-hover:hover {
+  border-color: rgba(184, 134, 11, 0.35);
+  box-shadow: 
+    0 20px 40px -20px rgba(184, 134, 11, 0.18), 
+    0 4px 20px -5px rgba(0, 0, 0, 0.04);
+  transform: translateY(-3px);
+}
+
+/* Shimmer and Gradients */
+.gold-text-shimmer {
+  background: linear-gradient(
+    to right,
+    #8c6200 0%,
+    #dfc282 25%,
+    #b8860b 50%,
+    #dfc282 75%,
+    #8c6200 100%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shine 5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
   }
+}
+
+/* Custom Background Patterns */
+.bg-mandap {
+  background-image: radial-gradient(rgba(184, 134, 11, 0.06) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Elegant Divider */
+.elegant-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+}
+.elegant-divider::before, .elegant-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(184, 134, 11, 0.3), transparent);
+}
+
+/* Premium Form Inputs (Light Theme) */
+input, select, textarea {
+  background-color: #ffffff;
+  border: 1px solid #e2dbcd;
+  color: #1c1917;
+  transition: all 0.2s ease-in-out;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(184, 134, 11, 0.12);
+  outline: none;
+}
+
+/* Hide default ranges input styles */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #e2dbcd;
+  height: 6px;
+  border-radius: 3px;
+  border: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--gold);
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.1s;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+/* Active Bottom Nav Mobile Shadows */
+.mobile-bottom-nav {
+  box-shadow: 0 -4px 20px -2px rgba(184, 134, 11, 0.06), 0 -2px 10px rgba(0,0,0,0.02);
 }

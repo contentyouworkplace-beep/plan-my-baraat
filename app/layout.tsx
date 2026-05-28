@@ -17,6 +17,10 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Plan My Baraat | Premium Wedding Procession Planner",
   description: "Organize the ultimate wedding procession with real-time budget tracking, interactive timeline designer, custom guest safa selectors, song voting, route simulations, and luxury digital invitations.",
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({

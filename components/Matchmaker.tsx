@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { Sparkles, MapPin, Calculator, Users, Star } from "lucide-react";
-import { Vendor, calculateBudgetAllocation } from "@/lib/vendorData";
+import { Vendor, calculateBudgetAllocation, CITIES } from "@/lib/vendorData";
 
 interface MatchmakerProps {
   vendors: Vendor[];
@@ -12,11 +12,73 @@ export default function Matchmaker({ vendors, onSelectVendor }: MatchmakerProps)
   const [city, setCity] = useState("Udaipur");
   const [guests, setGuests] = useState(300);
   const [style, setStyle] = useState("Royal Palace");
+  const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({
+    "Entry & Procession": true // Open first group by default
+  });
+
+  const toggleGroup = (groupName: string) => {
+    setExpandedGroups(prev => ({
+      ...prev,
+      [groupName]: !prev[groupName]
+    }));
+  };
+
+
+
+  // Group cities by type and state/country for premium display
+  const groupedCities = useMemo(() => {
+    const featured = CITIES.filter(c => c.featured);
+    const international = CITIES.filter(c => c.isInternational && !c.featured);
+    const domestic = CITIES.filter(c => !c.isInternational && !c.featured);
+
+    const domesticByState: Record<string, typeof domestic> = {};
+    domestic.forEach(c => {
+      if (!domesticByState[c.state]) {
+        domesticByState[c.state] = [];
+      }
+      domesticByState[c.state].push(c);
+    });
+
+    const internationalByCountry: Record<string, typeof international> = {};
+    international.forEach(c => {
+      if (!internationalByCountry[c.state]) {
+        internationalByCountry[c.state] = [];
+      }
+      internationalByCountry[c.state].push(c);
+    });
+
+    return {
+      featured,
+      domesticByState: Object.entries(domesticByState).sort((a, b) => a[0].localeCompare(b[0])),
+      internationalByCountry: Object.entries(internationalByCountry).sort((a, b) => a[0].localeCompare(b[0]))
+    };
+  }, []);
 
   // Get budget allocation breakdown based on total budget and style
   const allocations = useMemo(() => {
     return calculateBudgetAllocation(budget, style);
   }, [budget, style]);
+
+  // Group the detailed allocations under 7 parent categories for a clean, professional display in the wizard
+  const groupedAllocations = useMemo(() => {
+    const groups: Record<string, { group: string; amount: number; percentage: number; items: typeof allocations }> = {};
+    
+    allocations.forEach(alloc => {
+      if (!groups[alloc.group]) {
+        groups[alloc.group] = {
+          group: alloc.group,
+          amount: 0,
+          percentage: 0,
+          items: []
+        };
+      }
+      groups[alloc.group].amount += alloc.amount;
+      groups[alloc.group].percentage += alloc.percentage;
+      groups[alloc.group].items.push(alloc);
+    });
+
+    return Object.values(groups);
+  }, [allocations]);
 
   // Find matching vendors in the selected city.
   const recommendedVendors = useMemo(() => {
@@ -121,8 +183,24 @@ export default function Matchmaker({ vendors, onSelectVendor }: MatchmakerProps)
               onChange={(e) => setCity(e.target.value)}
               className="w-full bg-white border border-stone-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-amber-500 text-stone-800 font-medium cursor-pointer"
             >
-              {["Udaipur", "Jaipur", "Goa", "Delhi-NCR", "Mumbai", "Bengaluru", "Agra", "Jodhpur", "Kerala", "Shimla", "Mussoorie", "Hyderabad", "Pune", "Chennai", "Kolkata", "Amritsar", "Rishikesh", "Varanasi", "Lucknow", "Mahabalipuram"].map((c) => (
-                <option key={c} value={c}>{c}</option>
+              <optgroup label="Popular Destinations">
+                {groupedCities.featured.map((c) => (
+                  <option key={c.name} value={c.name}>{c.name}</option>
+                ))}
+              </optgroup>
+              <optgroup label="International Reach">
+                {groupedCities.internationalByCountry.map(([, cities]) => (
+                  cities.map((c) => (
+                    <option key={c.name} value={c.name}>{c.name}</option>
+                  ))
+                ))}
+              </optgroup>
+              {groupedCities.domesticByState.map(([state, cities]) => (
+                <optgroup key={state} label={`${state} (India)`}>
+                  {cities.map((c) => (
+                    <option key={c.name} value={c.name}>{c.name}</option>
+                  ))}
+                </optgroup>
               ))}
             </select>
           </div>
@@ -171,23 +249,59 @@ export default function Matchmaker({ vendors, onSelectVendor }: MatchmakerProps)
             Suggested Budget Breakdown
           </h3>
 
-          <div className="space-y-4">
-            {allocations.map((alloc) => (
-              <div key={alloc.category} className="space-y-1.5">
-                <div className="flex justify-between items-baseline text-xs font-semibold">
-                  <span className="text-stone-700">{alloc.category} ({alloc.percentage}%)</span>
-                  <span className="text-amber-700 font-bold">{formatPrice(alloc.amount)}</span>
+          <div className="space-y-4 max-h-[450px] overflow-y-auto pr-2 scrollbar-thin">
+            {groupedAllocations.map((groupAlloc) => {
+              const isExpanded = !!expandedGroups[groupAlloc.group];
+              const displayPercentage = Math.round(groupAlloc.percentage * 10) / 10;
+              
+              return (
+                <div key={groupAlloc.group} className="border border-stone-150 rounded-xl p-3 bg-stone-50/50 hover:bg-stone-55 transition-colors">
+                  {/* Group Header Row */}
+                  <div 
+                    onClick={() => toggleGroup(groupAlloc.group)}
+                    className="flex justify-between items-center cursor-pointer select-none"
+                  >
+                    <div className="space-y-0.5 flex-1">
+                      <div className="flex justify-between text-xs font-bold text-stone-900 pr-4">
+                        <span>{groupAlloc.group} ({displayPercentage}%)</span>
+                        <span className="text-amber-700">{formatPrice(groupAlloc.amount)}</span>
+                      </div>
+                      {/* Group Progress Bar */}
+                      <div className="w-full bg-stone-200 h-1.5 rounded-full overflow-hidden mt-1.5">
+                        <div
+                          className="bg-gold-gradient h-full rounded-full transition-all duration-500"
+                          style={{ width: `${displayPercentage}%` }}
+                        />
+                      </div>
+                    </div>
+                    {/* Toggle Arrow */}
+                    <span className="text-stone-400 text-[10px] font-black transition-transform duration-200 ml-2">
+                      {isExpanded ? "▲" : "▼"}
+                    </span>
+                  </div>
+
+                  {/* Expanded Items List */}
+                  {isExpanded && (
+                    <div className="mt-3 pl-3 border-l-2 border-stone-200/80 space-y-3 pt-1 animate-fade-down">
+                      {groupAlloc.items.map((item) => (
+                        <div key={item.category} className="space-y-1">
+                          <div className="flex justify-between text-[11px] font-medium text-stone-600">
+                            <span>{item.category} ({item.percentage}%)</span>
+                            <span className="text-stone-800 font-semibold">{formatPrice(item.amount)}</span>
+                          </div>
+                          <div className="w-full bg-stone-100 h-1 rounded-full overflow-hidden">
+                            <div
+                              className="bg-amber-500/85 h-full rounded-full"
+                              style={{ width: `${item.percentage * 5}%` }} // scaling visualization
+                            />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
-                
-                {/* Visual Progress Bar */}
-                <div className="w-full bg-stone-100 h-2 rounded-full overflow-hidden border border-stone-200">
-                  <div
-                    className="bg-gold-gradient h-full rounded-full transition-all duration-500"
-                    style={{ width: `${alloc.percentage}%` }}
-                  />
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
 
           <div className="bg-stone-50 border border-stone-100 p-4 rounded-xl text-center">

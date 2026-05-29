@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { Plus, Sparkles, Building, CheckCircle } from "lucide-react";
-import { Vendor } from "@/lib/vendorData";
+import { Vendor, CITIES, CATEGORIES } from "@/lib/vendorData";
 import confetti from "canvas-confetti";
 
 interface AddVendorFormProps {
@@ -23,6 +23,35 @@ export default function AddVendorForm({ onAddVendor }: AddVendorFormProps) {
   const [vegOnly, setVegOnly] = useState(false);
   const [services, setServices] = useState("");
   const [description, setDescription] = useState("");
+  
+  // Group cities by type and state/country for premium display
+  const groupedCities = useMemo(() => {
+    const featured = CITIES.filter(c => c.featured);
+    const international = CITIES.filter(c => c.isInternational && !c.featured);
+    const domestic = CITIES.filter(c => !c.isInternational && !c.featured);
+
+    const domesticByState: Record<string, typeof domestic> = {};
+    domestic.forEach(c => {
+      if (!domesticByState[c.state]) {
+        domesticByState[c.state] = [];
+      }
+      domesticByState[c.state].push(c);
+    });
+
+    const internationalByCountry: Record<string, typeof international> = {};
+    international.forEach(c => {
+      if (!internationalByCountry[c.state]) {
+        internationalByCountry[c.state] = [];
+      }
+      internationalByCountry[c.state].push(c);
+    });
+
+    return {
+      featured,
+      domesticByState: Object.entries(domesticByState).sort((a, b) => a[0].localeCompare(b[0])),
+      internationalByCountry: Object.entries(internationalByCountry).sort((a, b) => a[0].localeCompare(b[0]))
+    };
+  }, []);
   
   // Submit state
   const [success, setSuccess] = useState(false);
@@ -135,8 +164,8 @@ export default function AddVendorForm({ onAddVendor }: AddVendorFormProps) {
                   onChange={(e) => setCategory(e.target.value)}
                   className="w-full bg-white border border-stone-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-amber-500 text-stone-800 cursor-pointer"
                 >
-                  {["Venues", "Photographers", "Makeup Artists", "Decorators", "DJ & Band", "Caterers", "Mehndi Artists"].map((cat) => (
-                    <option key={cat} value={cat}>{cat}</option>
+                  {CATEGORIES.map((cat) => (
+                    <option key={cat.id} value={cat.name}>{cat.name}</option>
                   ))}
                 </select>
               </div>
@@ -151,8 +180,24 @@ export default function AddVendorForm({ onAddVendor }: AddVendorFormProps) {
                   onChange={(e) => setCity(e.target.value)}
                   className="w-full bg-white border border-stone-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-amber-500 text-stone-800 cursor-pointer"
                 >
-                  {["Udaipur", "Jaipur", "Goa", "Delhi-NCR", "Mumbai", "Bengaluru", "Agra", "Jodhpur", "Kerala", "Shimla", "Mussoorie", "Hyderabad", "Pune", "Chennai", "Kolkata", "Amritsar", "Rishikesh", "Varanasi", "Lucknow", "Mahabalipuram"].map((c) => (
-                    <option key={c} value={c}>{c}</option>
+                  <optgroup label="Popular Destinations">
+                    {groupedCities.featured.map((c) => (
+                      <option key={c.name} value={c.name}>{c.name}</option>
+                    ))}
+                  </optgroup>
+                  <optgroup label="International Reach">
+                    {groupedCities.internationalByCountry.map(([, cities]) => (
+                      cities.map((c) => (
+                        <option key={c.name} value={c.name}>{c.name}</option>
+                      ))
+                    ))}
+                  </optgroup>
+                  {groupedCities.domesticByState.map(([state, cities]) => (
+                    <optgroup key={state} label={`${state} (India)`}>
+                      {cities.map((c) => (
+                        <option key={c.name} value={c.name}>{c.name}</option>
+                      ))}
+                    </optgroup>
                   ))}
                 </select>
               </div>

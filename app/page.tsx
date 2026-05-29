@@ -15,7 +15,37 @@ import {
   Home as HomeIcon,
   X,
   Building,
-  Calculator
+  Calculator,
+  Calendar,
+  Shirt,
+  Activity,
+  Mail,
+  Gift,
+  BookOpen,
+  Gem,
+  Car,
+  Plane,
+  Cake,
+  Flower2,
+  Bus,
+  Bike,
+  Mic,
+  Truck,
+  Users,
+  Shield,
+  Lightbulb,
+  Flame,
+  Wind,
+  Package,
+  Umbrella,
+  GlassWater,
+  ShieldAlert,
+  UserCheck,
+  Video,
+  Tv,
+  Volume2,
+  Layers,
+  Zap
 } from "lucide-react";
 
 // Mock Database & Helpers
@@ -24,7 +54,8 @@ import {
   CATEGORIES, 
   INITIAL_VENDORS, 
   Vendor, 
-  Review 
+  Review,
+  generateVendorsForCity
 } from "@/lib/vendorData";
 
 // Components
@@ -55,6 +86,54 @@ export default function Home() {
   const [minRating, setMinRating] = useState<number>(0);
   const [venueCapacity, setVenueCapacity] = useState<number>(0);
   const [sortBy, setSortBy] = useState<string>("featured");
+
+  // Group cities by type and state/country for premium select display
+  const groupedCities = useMemo(() => {
+    const featured = CITIES.filter(c => c.featured);
+    const international = CITIES.filter(c => c.isInternational && !c.featured);
+    const domestic = CITIES.filter(c => !c.isInternational && !c.featured);
+
+    // Group domestic by state
+    const domesticByState: Record<string, typeof domestic> = {};
+    domestic.forEach(c => {
+      if (!domesticByState[c.state]) {
+        domesticByState[c.state] = [];
+      }
+      domesticByState[c.state].push(c);
+    });
+
+    // Group international by country
+    const internationalByCountry: Record<string, typeof international> = {};
+    international.forEach(c => {
+      if (!internationalByCountry[c.state]) {
+        internationalByCountry[c.state] = [];
+      }
+      internationalByCountry[c.state].push(c);
+    });
+
+    return {
+      featured,
+      domesticByState: Object.entries(domesticByState).sort((a, b) => a[0].localeCompare(b[0])),
+      internationalByCountry: Object.entries(internationalByCountry).sort((a, b) => a[0].localeCompare(b[0]))
+    };
+  }, []);
+
+  // Generate vendors on-demand for cities that don't have them in state yet
+  useEffect(() => {
+    if (searchCity && searchCity !== "All") {
+      const hasVendors = vendors.some(
+        (v) => v.city.toLowerCase() === searchCity.toLowerCase()
+      );
+      if (!hasVendors) {
+        const newVendors = generateVendorsForCity(searchCity);
+        setVendors((prev) => {
+          const updated = [...prev, ...newVendors];
+          localStorage.setItem("pmv_vendors", JSON.stringify(updated));
+          return updated;
+        });
+      }
+    }
+  }, [searchCity, vendors]);
 
   // LocalStorage Hydration
   useEffect(() => {
@@ -176,25 +255,15 @@ export default function Home() {
 
   // Get matching category icon for Category card rendering
   const getCategoryIcon = (categoryName: string) => {
-    switch (categoryName.toLowerCase()) {
-      case "venues":
-        return HomeIcon;
-      case "photographers":
-        return Camera;
-      case "makeup artists":
-        return Sparkles;
-      case "decorators":
-        return SlidersHorizontal;
-      case "dj & band":
-      case "music":
-        return Music;
-      case "caterers":
-        return Utensils;
-      case "mehndi artists":
-        return Paintbrush;
-      default:
-        return Sparkles;
+    const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
+      Sparkles, Search, Heart, Star, SlidersHorizontal, ChevronRight, Camera, Utensils, Music, Paintbrush, HomeIcon, X, Building, Calculator, Calendar, Shirt, Activity, Mail, Gift, BookOpen, Gem, Car, Plane, Cake, Flower2, Bus, Bike, Mic, Truck, Users, Shield, Lightbulb, Flame, Wind, Package, Umbrella, GlassWater, ShieldAlert, UserCheck, Video, Tv, Volume2, Layers, Zap
+    };
+    const catObj = CATEGORIES.find(c => c.name.toLowerCase() === categoryName.toLowerCase());
+    if (catObj && catObj.icon) {
+      if (catObj.icon === "Home") return HomeIcon;
+      return iconMap[catObj.icon] || Sparkles;
     }
+    return Sparkles;
   };
 
   // Featured lists for Homepage
@@ -389,8 +458,24 @@ export default function Home() {
                       className="w-full bg-transparent text-xs md:text-sm font-semibold text-stone-800 border-none p-0 focus:ring-0 focus:outline-none cursor-pointer"
                     >
                       <option value="All">All Cities</option>
-                      {CITIES.map((c) => (
-                        <option key={c.name} value={c.name}>{c.name}</option>
+                      <optgroup label="Popular Destinations">
+                        {groupedCities.featured.map((c) => (
+                          <option key={c.name} value={c.name}>{c.name}</option>
+                        ))}
+                      </optgroup>
+                      <optgroup label="International Reach">
+                        {groupedCities.internationalByCountry.map(([, cities]) => (
+                          cities.map((c) => (
+                            <option key={c.name} value={c.name}>{c.name}</option>
+                          ))
+                        ))}
+                      </optgroup>
+                      {groupedCities.domesticByState.map(([state, cities]) => (
+                        <optgroup key={state} label={`${state} (India)`}>
+                          {cities.map((c) => (
+                            <option key={c.name} value={c.name}>{c.name}</option>
+                          ))}
+                        </optgroup>
                       ))}
                     </select>
                   </div>
@@ -627,11 +712,27 @@ export default function Home() {
                   <select
                     value={searchCity}
                     onChange={(e) => setSearchCity(e.target.value)}
-                    className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-amber-500 text-stone-850 cursor-pointer"
+                    className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-amber-500 text-stone-855 cursor-pointer"
                   >
                     <option value="All">All Cities</option>
-                    {CITIES.map((c) => (
-                      <option key={c.name} value={c.name}>{c.name}</option>
+                    <optgroup label="Popular Destinations">
+                      {groupedCities.featured.map((c) => (
+                        <option key={c.name} value={c.name}>{c.name}</option>
+                      ))}
+                    </optgroup>
+                    <optgroup label="International Reach">
+                      {groupedCities.internationalByCountry.map(([, cities]) => (
+                        cities.map((c) => (
+                          <option key={c.name} value={c.name}>{c.name}</option>
+                        ))
+                      ))}
+                    </optgroup>
+                    {groupedCities.domesticByState.map(([state, cities]) => (
+                      <optgroup key={state} label={`${state} (India)`}>
+                        {cities.map((c) => (
+                          <option key={c.name} value={c.name}>{c.name}</option>
+                        ))}
+                      </optgroup>
                     ))}
                   </select>
                 </div>

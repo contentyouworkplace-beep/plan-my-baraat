@@ -95,12 +95,25 @@ ALTER TABLE crm_notes ENABLE ROW LEVEL SECURITY;
 ALTER TABLE crm_uploaded_files ENABLE ROW LEVEL SECURITY;
 
 -- Allow anonymous or authenticated access for easy testing (as requested, prepare structure)
+DROP POLICY IF EXISTS "Allow all access for cities" ON crm_cities;
 CREATE POLICY "Allow all access for cities" ON crm_cities FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow all access for categories" ON crm_categories;
 CREATE POLICY "Allow all access for categories" ON crm_categories FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow all access for packages" ON crm_vendor_packages;
 CREATE POLICY "Allow all access for packages" ON crm_vendor_packages FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow all access for vendors" ON crm_vendors;
 CREATE POLICY "Allow all access for vendors" ON crm_vendors FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow all access for leads" ON crm_customer_leads;
 CREATE POLICY "Allow all access for leads" ON crm_customer_leads FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow all access for notes" ON crm_notes;
 CREATE POLICY "Allow all access for notes" ON crm_notes FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow all access for files" ON crm_uploaded_files;
 CREATE POLICY "Allow all access for files" ON crm_uploaded_files FOR ALL USING (true) WITH CHECK (true);
 
 -- ─── STORAGE BUCKET CREATION ────────────────────────────────────────────────

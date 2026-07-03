@@ -7,12 +7,14 @@ interface VendorDetailModalProps {
   vendor: Vendor;
   onClose: () => void;
   onAddReview: (vendorId: string, review: Omit<Review, "id" | "date">) => void;
+  onAddInquiry?: (inquiry: { name: string; phone: string; date: string; msg: string }) => void;
 }
 
 export default function VendorDetailModal({
   vendor,
   onClose,
-  onAddReview
+  onAddReview,
+  onAddInquiry
 }: VendorDetailModalProps) {
   // Image selection state
   const [activeImage, setActiveImage] = useState(vendor.imageUrl);
@@ -33,6 +35,15 @@ export default function VendorDetailModal({
   const handleInquirySubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!inquiryName || !inquiryPhone || !inquiryDate) return;
+
+    if (onAddInquiry) {
+      onAddInquiry({
+        name: inquiryName,
+        phone: inquiryPhone,
+        date: inquiryDate,
+        msg: inquiryMsg
+      });
+    }
 
     setInquirySubmitted(true);
     confetti({

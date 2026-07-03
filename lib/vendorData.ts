@@ -30,6 +30,7 @@ export interface Vendor {
   services: string[];
   description: string;
   featured: boolean;
+  verified?: boolean;
 }
 
 export interface City {
@@ -64,14 +65,12 @@ export function generateVendorsForCity(cityName: string, citySeedOffset?: number
 
       // Deterministic image pool based on category group
       let imagePool = ["/images/venue_luxury.png", "/images/hero_bg.png", "/images/decor_mandap.png"];
-      if (catObj.group === "Music & Entertainment") {
+      if (catObj.group === "Photography") {
         imagePool = ["/images/photo_candid.png", "/images/hero_bg.png", "/images/venue_luxury.png"];
-      } else if (catObj.group === "Groom Royal Styling") {
+      } else if (catObj.group === "Makeup & Styling") {
         imagePool = ["/images/makeup_bride.png", "/images/photo_candid.png", "/images/decor_mandap.png"];
-      } else if (catObj.group === "Decoration & Experience") {
+      } else if (catObj.group === "Catering") {
         imagePool = ["/images/decor_mandap.png", "/images/hero_bg.png", "/images/venue_luxury.png"];
-      } else if (catObj.group === "Wedding Production") {
-        imagePool = ["/images/photo_candid.png", "/images/hero_bg.png", "/images/venue_luxury.png"];
       }
       
       const mainImage = imagePool[vendorIdx % imagePool.length];
@@ -86,27 +85,27 @@ export function generateVendorsForCity(cityName: string, citySeedOffset?: number
       let basePrice = 20000;
       let priceUnit = "per event";
 
-      if (catObj.group === "Entry & Procession") {
-        basePrice = 15000 + (uniqueSeed % 8) * 5000;
-        priceUnit = "per event";
-      } else if (catObj.group === "Music & Entertainment") {
-        basePrice = 20000 + (uniqueSeed % 10) * 4000;
+      if (catObj.group === "Venues") {
+        basePrice = 150000 + (uniqueSeed % 8) * 50000;
         priceUnit = "per day";
-      } else if (catObj.group === "Groom Royal Styling") {
-        basePrice = 10000 + (uniqueSeed % 6) * 3000;
+      } else if (catObj.group === "Catering") {
+        basePrice = 800 + (uniqueSeed % 10) * 200;
+        priceUnit = "per plate";
+      } else if (catObj.group === "Decoration") {
+        basePrice = 50000 + (uniqueSeed % 6) * 15000;
+        priceUnit = "per event";
+      } else if (catObj.group === "Photography") {
+        basePrice = 40000 + (uniqueSeed % 8) * 10000;
+        priceUnit = "per day";
+      } else if (catObj.group === "Makeup & Styling") {
+        basePrice = 15000 + (uniqueSeed % 8) * 4000;
         priceUnit = "per package";
-      } else if (catObj.group === "Decoration & Experience") {
-        basePrice = 25000 + (uniqueSeed % 8) * 8000;
+      } else if (catObj.group === "Entertainment") {
+        basePrice = 30000 + (uniqueSeed % 10) * 8000;
         priceUnit = "per event";
-      } else if (catObj.group === "Guest Experience") {
-        basePrice = 12000 + (uniqueSeed % 8) * 2000;
+      } else if (catObj.group === "Baraat Processions") {
+        basePrice = 25000 + (uniqueSeed % 12) * 5000;
         priceUnit = "per event";
-      } else if (catObj.group === "Wedding Production") {
-        basePrice = 30000 + (uniqueSeed % 10) * 10000;
-        priceUnit = "per day";
-      } else if (catObj.group === "Luxury Add-ons") {
-        basePrice = 50000 + (uniqueSeed % 12) * 15000;
-        priceUnit = "per day";
       }
 
       // Ratings between 4.4 and 5.0
@@ -120,7 +119,7 @@ export function generateVendorsForCity(cityName: string, citySeedOffset?: number
           author: "Aman Preet",
           rating: Math.ceil(rating),
           date: "2026-03-12",
-          comment: `We booked them for our Baraat in ${cityName} and the service was absolutely top notch. Extremely professional behavior and gorgeous execution!`
+          comment: `We booked them for our wedding in ${cityName} and the service was absolutely top notch. Extremely professional behavior and gorgeous execution!`
         },
         {
           id: `rev-${uniqueSeed}-2`,
@@ -133,20 +132,20 @@ export function generateVendorsForCity(cityName: string, citySeedOffset?: number
 
       // Services mapping
       let servicesList = ["Bespoke Arrangements", "Premium Customer Service", "Dedicated Account Manager"];
-      if (catObj.group === "Entry & Procession") {
-        servicesList = ["Uniformed operators", "Floral embellishments", "Backup safety guards", "Ceremonial flags"];
-      } else if (catObj.group === "Music & Entertainment") {
-        servicesList = ["Professional audio systems", "Traditional percussionists", "Custom song lists", "Backup power source"];
-      } else if (catObj.group === "Groom Royal Styling") {
-        servicesList = ["Stylist assistance", "Premium fabric choices", "Ceremonial accessories", "Matching safa draping"];
-      } else if (catObj.group === "Decoration & Experience") {
-        servicesList = ["Cold pyrotechnics", "Ambient pathway light towers", "Safety clearance certificates", "Live effects operator"];
-      } else if (catObj.group === "Guest Experience") {
-        servicesList = ["Hospitality desks", "Uniformed valet service", "Processional hydration stations", "High profile guest escort"];
-      } else if (catObj.group === "Wedding Production") {
-        servicesList = ["Multi-angle cinematic footage", "Licensed drone coverage", "Live screen streaming", "Premium line array sound"];
-      } else if (catObj.group === "Luxury Add-ons") {
-        servicesList = ["Palace thematic design backdrop", "VIP transport escort", "Specialized animal handlers", "Groom aerial entry flight"];
+      if (catObj.group === "Venues") {
+        servicesList = ["Air Conditioned Hall", "Valet Parking Space", "24/7 Power Backup", "Dedicated Changing Rooms"];
+      } else if (catObj.group === "Catering") {
+        servicesList = ["Premium Buffet Setup", "Live Food Counters", "Customizable Menu Options", "Uniformed Serving Staff"];
+      } else if (catObj.group === "Decoration") {
+        servicesList = ["Mandap Styling Decor", "LED Spotlights Setup", "Fresh Flower Accessories", "Seating Carpet Layouts"];
+      } else if (catObj.group === "Photography") {
+        servicesList = ["Candid Digital Coverage", "Cinematic Teaser Trailer", "Drone Outdoor Angles", "Pre-Wedding Couple Shoot"];
+      } else if (catObj.group === "Makeup & Styling") {
+        servicesList = ["Airbrush Bridal Makeup", "Saree & Lehenga Draping", "Pre-bridal Facial Sessions", "Premium Cosmetics Only"];
+      } else if (catObj.group === "Entertainment") {
+        servicesList = ["Premium Sound Output", "Wireless Handheld Mics", "Custom Music Playlist", "Live DJ Mixing Console"];
+      } else if (catObj.group === "Baraat Processions") {
+        servicesList = ["Ceremonial Chariot Ride", "Uniformed Dhol Artists", "Cold Pyrotechnics Gates", "Safety escorts blockades"];
       }
 
       generatedList.push({
@@ -163,11 +162,11 @@ export function generateVendorsForCity(cityName: string, citySeedOffset?: number
         galleryUrls: gallery,
         address: `Palace Road, Near Heritage Center, ${cityName}`,
         contact: `+91 98765 ${String(10000 + uniqueSeed).substring(1)}`,
-        capacity: undefined,
-        vegOnly: undefined,
+        capacity: catObj.group === "Venues" ? 300 + (uniqueSeed % 5) * 100 : undefined,
+        vegOnly: catObj.group === "Catering" || catObj.group === "Venues" ? (uniqueSeed % 2 === 0) : undefined,
         services: servicesList,
         description: `The premier provider of ${catObj.name} in ${cityName}. Famous for outstanding execution, premium themes, and localized packages designed to fit your unique Indian celebration budget.`,
-        featured: vendorIdx === 0 && (catObj.group === "Wedding Production" || catObj.group === "Luxury Add-ons")
+        featured: vendorIdx === 0 && (catObj.group === "Venues" || catObj.group === "Photography")
       });
     }
   });
@@ -175,12 +174,12 @@ export function generateVendorsForCity(cityName: string, citySeedOffset?: number
   return generatedList;
 }
 
-// Generates initial vendors only for the top 5 featured cities to keep memory footprint light (5 cities * 53 categories * 3 vendors = 795 vendors)
+// Generates initial vendors for the 6 target cities to pre-seed the database
 export function generateVendors(): Vendor[] {
   const generatedList: Vendor[] = [];
-  const cityNames = FEATURED_CITIES.slice(0, 5).map(c => c.name);
+  const targetCities = ["Delhi-NCR", "Mumbai", "Ahmedabad", "Surat", "Vadodara", "Bengaluru"];
 
-  cityNames.forEach((cityName, cityIdx) => {
+  targetCities.forEach((cityName, cityIdx) => {
     generatedList.push(...generateVendorsForCity(cityName, cityIdx));
   });
 

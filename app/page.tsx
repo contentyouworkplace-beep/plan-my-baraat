@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 
 import React, { useState, useEffect, useMemo } from "react";
@@ -8,45 +10,14 @@ import {
   Star, 
   SlidersHorizontal,
   ChevronRight,
-  Camera,
-  Utensils,
-  Music,
-  Paintbrush,
-  Home as HomeIcon,
   X,
   Building,
-  Calculator,
   Calendar,
-  Shirt,
-  Activity,
-  Mail,
-  Gift,
-  BookOpen,
-  Gem,
-  Car,
-  Plane,
-  Cake,
-  Flower2,
-  Bus,
-  Bike,
-  Mic,
-  Truck,
-  Users,
-  Shield,
-  Lightbulb,
-  Flame,
-  Wind,
-  Package,
-  Umbrella,
-  GlassWater,
-  ShieldAlert,
-  UserCheck,
-  Video,
-  Tv,
-  Volume2,
-  Layers,
-  Zap
+  RefreshCw,
+  Plus
 } from "lucide-react";
+
+import confetti from "canvas-confetti";
 
 // Mock Database & Helpers
 import { 
@@ -58,24 +29,69 @@ import {
   generateVendorsForCity
 } from "@/lib/vendorData";
 
+// Supabase Client
+import { supabase, isSupabaseConfigured } from "@/lib/supabase";
+
 // Components
 import VendorCard from "@/components/VendorCard";
 import VendorDetailModal from "@/components/VendorDetailModal";
-import Matchmaker from "@/components/Matchmaker";
 import AddVendorForm from "@/components/AddVendorForm";
 import WishlistDrawer from "@/components/WishlistDrawer";
 
+// Model Mappers to translate between Supabase snake_case and React camelCase
+function mapDbVendorToVendor(dbV: any): Vendor {
+  return {
+    id: dbV.id,
+    name: dbV.name,
+    category: dbV.category,
+    city: dbV.city,
+    rating: Number(dbV.rating || 5.0),
+    reviewsCount: dbV.reviews_count || 0,
+    price: dbV.price || 0,
+    priceUnit: dbV.price_unit || "per event",
+    imageUrl: dbV.image_url || "/images/venue_luxury.png",
+    galleryUrls: dbV.gallery_urls || [],
+    address: dbV.address || "",
+    contact: dbV.contact || "",
+    services: dbV.services || [],
+    description: dbV.description || "",
+    featured: !!dbV.featured,
+    verified: !!dbV.verified,
+    reviews: dbV.reviews ? (typeof dbV.reviews === 'string' ? JSON.parse(dbV.reviews) : dbV.reviews) : []
+  };
+}
+
+function mapVendorToDbVendor(v: Vendor): any {
+  return {
+    id: v.id,
+    name: v.name,
+    category: v.category,
+    city: v.city,
+    rating: v.rating,
+    reviews_count: v.reviewsCount,
+    price: v.price,
+    price_unit: v.priceUnit,
+    image_url: v.imageUrl,
+    gallery_urls: v.galleryUrls || [],
+    address: v.address,
+    contact: v.contact,
+    services: v.services,
+    description: v.description,
+    featured: v.featured,
+    verified: v.verified ?? true,
+    reviews: v.reviews || []
+  };
+}
+
 export default function Home() {
-  // Navigation Tabs (App Navigation Shell)
-  const [activeTab, setActiveTab] = useState<"home" | "vendors" | "matchmaker" | "register">("home");
+  // Navigation Tabs for Public Website
+  const [activeTab, setActiveTab] = useState<"home" | "vendors" | "register">("home");
 
   // Core States
   const [vendors, setVendors] = useState<Vendor[]>(INITIAL_VENDORS);
   const [wishlist, setWishlist] = useState<string[]>([]);
   const [selectedVendor, setSelectedVendor] = useState<Vendor | null>(null);
   const [isWishlistOpen, setIsWishlistOpen] = useState(false);
-  
-  // Mobile specific UI states
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
 
   // Search & Filter state values
@@ -84,85 +100,62 @@ export default function Home() {
   const [searchText, setSearchText] = useState("");
   const [maxPrice, setMaxPrice] = useState<number>(2000000); // 20 Lakhs max default
   const [minRating, setMinRating] = useState<number>(0);
-  const [venueCapacity, setVenueCapacity] = useState<number>(0);
   const [sortBy, setSortBy] = useState<string>("featured");
 
-  // Group cities by type and state/country for premium select display
-  const groupedCities = useMemo(() => {
-    const featured = CITIES.filter(c => c.featured);
-    const international = CITIES.filter(c => c.isInternational && !c.featured);
-    const domestic = CITIES.filter(c => !c.isInternational && !c.featured);
+  // ==========================================
+  // SUPABASE DATA SYNCHRONIZATION
+  // ==========================================
 
-    // Group domestic by state
-    const domesticByState: Record<string, typeof domestic> = {};
-    domestic.forEach(c => {
-      if (!domesticByState[c.state]) {
-        domesticByState[c.state] = [];
+  const loadSupabaseData = async () => {
+    if (!supabase || !isSupabaseConfigured) return;
+    
+    try {
+      const { data: dbVendors, error: vendorError } = await supabase
+        .from("vendors")
+        .select("*")
+        .order("created_at", { ascending: false });
+
+      if (vendorError) throw vendorError;
+      
+      if (dbVendors && dbVendors.length > 0) {
+        setVendors(dbVendors.map(mapDbVendorToVendor));
       }
-      domesticByState[c.state].push(c);
-    });
-
-    // Group international by country
-    const internationalByCountry: Record<string, typeof international> = {};
-    international.forEach(c => {
-      if (!internationalByCountry[c.state]) {
-        internationalByCountry[c.state] = [];
-      }
-      internationalByCountry[c.state].push(c);
-    });
-
-    return {
-      featured,
-      domesticByState: Object.entries(domesticByState).sort((a, b) => a[0].localeCompare(b[0])),
-      internationalByCountry: Object.entries(internationalByCountry).sort((a, b) => a[0].localeCompare(b[0]))
-    };
-  }, []);
-
-  // Generate vendors on-demand for cities that don't have them in state yet
-  useEffect(() => {
-    if (searchCity && searchCity !== "All") {
-      const hasVendors = vendors.some(
-        (v) => v.city.toLowerCase() === searchCity.toLowerCase()
-      );
-      if (!hasVendors) {
-        const newVendors = generateVendorsForCity(searchCity);
-        setVendors((prev) => {
-          const updated = [...prev, ...newVendors];
-          localStorage.setItem("pmv_vendors", JSON.stringify(updated));
-          return updated;
-        });
-      }
+    } catch (e) {
+      console.error("Error loading data from Supabase", e);
     }
-  }, [searchCity, vendors]);
+  };
 
-  // LocalStorage Hydration
+  // Setup live subscriptions
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    if (!supabase || !isSupabaseConfigured) {
       const savedVendors = localStorage.getItem("pmv_vendors");
       const savedWishlist = localStorage.getItem("pmv_wishlist");
 
       if (savedVendors) {
-        try {
-          setVendors(JSON.parse(savedVendors));
-        } catch (e) {
-          console.error("Failed to parse saved vendors", e);
-        }
+        try { setVendors(JSON.parse(savedVendors)); } catch (e) { console.error(e); }
       }
       if (savedWishlist) {
-        try {
-          setWishlist(JSON.parse(savedWishlist));
-        } catch (e) {
-          console.error("Failed to parse saved wishlist", e);
-        }
+        try { setWishlist(JSON.parse(savedWishlist)); } catch (e) { console.error(e); }
       }
+      return;
     }
+
+    loadSupabaseData();
+
+    const client = supabase;
+    const vendorsChannel = client
+      .channel("directory-vendors")
+      .on("postgres_changes", { event: "*", schema: "public", table: "vendors" }, () => {
+        loadSupabaseData();
+      })
+      .subscribe();
+
+    return () => {
+      client.removeChannel(vendorsChannel);
+    };
   }, []);
 
-  // Save State to LocalStorage
-  const saveVendorsToStorage = (updatedVendors: Vendor[]) => {
-    localStorage.setItem("pmv_vendors", JSON.stringify(updatedVendors));
-  };
-
+  // Save State to LocalStorage (Fallback Helper)
   const saveWishlistToStorage = (updatedWishlist: string[]) => {
     localStorage.setItem("pmv_wishlist", JSON.stringify(updatedWishlist));
   };
@@ -183,7 +176,7 @@ export default function Home() {
     saveWishlistToStorage(updated);
   };
 
-  // Remove from Wishlist (drawer callback)
+  // Remove from Wishlist
   const handleRemoveFromWishlist = (e: React.MouseEvent, id: string) => {
     e.stopPropagation();
     const updated = wishlist.filter((item) => item !== id);
@@ -192,90 +185,178 @@ export default function Home() {
   };
 
   // Add Review handler
-  const handleAddReview = (vendorId: string, newReview: Omit<Review, "id" | "date">) => {
-    const updatedVendors = vendors.map((v) => {
-      if (v.id === vendorId) {
-        const fullReview: Review = {
-          ...newReview,
-          id: `rev-${Date.now()}`,
-          date: new Date().toISOString().split("T")[0]
-        };
-        const updatedReviews = [fullReview, ...v.reviews];
-        const newRating = 
-          updatedReviews.reduce((sum, r) => sum + r.rating, 0) / updatedReviews.length;
-        
-        return {
-          ...v,
-          reviews: updatedReviews,
-          reviewsCount: updatedReviews.length,
-          rating: Number(newRating.toFixed(2))
-        };
+  const handleAddReview = async (vendorId: string, newReview: Omit<Review, "id" | "date">) => {
+    const targetVendor = vendors.find(v => v.id === vendorId);
+    if (!targetVendor) return;
+
+    const fullReview: Review = {
+      ...newReview,
+      id: `rev-${Date.now()}`,
+      date: new Date().toISOString().split("T")[0]
+    };
+    const updatedReviews = [fullReview, ...(targetVendor.reviews || [])];
+    const newRating = Number((updatedReviews.reduce((sum, r) => sum + r.rating, 0) / updatedReviews.length).toFixed(2));
+
+    if (supabase && isSupabaseConfigured) {
+      try {
+        const { error } = await supabase
+          .from("vendors")
+          .update({
+            reviews: updatedReviews,
+            reviews_count: updatedReviews.length,
+            rating: newRating
+          })
+          .eq("id", vendorId);
+        if (error) throw error;
+        loadSupabaseData();
+      } catch (e: any) {
+        console.error("Failed to post review", e);
       }
-      return v;
-    });
+    } else {
+      const updatedVendors = vendors.map((v) => {
+        if (v.id === vendorId) {
+          return {
+            ...v,
+            reviews: updatedReviews,
+            reviewsCount: updatedReviews.length,
+            rating: newRating
+          };
+        }
+        return v;
+      });
+      setVendors(updatedVendors);
+      localStorage.setItem("pmv_vendors", JSON.stringify(updatedVendors));
+    }
 
-    setVendors(updatedVendors);
-    saveVendorsToStorage(updatedVendors);
-
-    // If modal is active, update selected vendor state too
     if (selectedVendor && selectedVendor.id === vendorId) {
-      const updatedSel = updatedVendors.find((v) => v.id === vendorId);
-      if (updatedSel) setSelectedVendor(updatedSel);
+      setSelectedVendor({
+        ...selectedVendor,
+        reviews: updatedReviews,
+        reviewsCount: updatedReviews.length,
+        rating: newRating
+      });
     }
   };
 
-  // Add Supplier Listing handler
-  const handleAddVendor = (
+  // Submit Booking Inquiry
+  const handleOnAddInquiry = async (inquiryData: { name: string; phone: string; date: string; msg: string }) => {
+    if (!selectedVendor) return;
+    
+    if (supabase && isSupabaseConfigured) {
+      try {
+        const { error } = await supabase
+          .from("inquiries")
+          .insert([{
+            customer_name: inquiryData.name,
+            customer_phone: inquiryData.phone,
+            city_name: selectedVendor.city,
+            vendor_id: selectedVendor.id,
+            vendor_name: selectedVendor.name,
+            vendor_category: selectedVendor.category,
+            guests_count: 250,
+            wedding_date: inquiryData.date,
+            status: "new",
+            notes: inquiryData.msg || `Inquiry submitted for ${selectedVendor.name}.`,
+            total_budget: selectedVendor.price
+          }]);
+        if (error) throw error;
+        confetti({ particleCount: 40, spread: 35 });
+        alert("Booking Inquiry submitted successfully! Suppliers will reach out to you shortly.");
+      } catch (e: any) {
+        alert(`Failed to save inquiry: ${e.message}`);
+      }
+    } else {
+      // Local fallback
+      const savedLeads = localStorage.getItem("pmv_leads");
+      let currentLeads = [];
+      if (savedLeads) {
+        try { currentLeads = JSON.parse(savedLeads); } catch (e) {}
+      }
+
+      const newInquiry = {
+        id: `lead-${Date.now()}`,
+        customerName: inquiryData.name,
+        customerPhone: inquiryData.phone,
+        cityName: selectedVendor.city,
+        vendorId: selectedVendor.id,
+        vendorName: selectedVendor.name,
+        vendorCategory: selectedVendor.category,
+        guestsCount: 250,
+        weddingDate: inquiryData.date,
+        status: "new",
+        notes: inquiryData.msg || `Inquiry submitted for ${selectedVendor.name}.`,
+        totalBudget: selectedVendor.price,
+        timestamp: new Date().toISOString().replace("T", " ").substring(0, 16)
+      };
+
+      const updated = [newInquiry, ...currentLeads];
+      localStorage.setItem("pmv_leads", JSON.stringify(updated));
+      confetti({ particleCount: 30, spread: 20 });
+      alert("Inquiry submitted locally.");
+    }
+  };
+
+  // Add Supplier Listing
+  const handleAddVendor = async (
     newVendorData: Omit<Vendor, "id" | "rating" | "reviewsCount" | "reviews" | "featured">
   ) => {
+    const generatedId = `ven-${Date.now()}`;
     const newVendor: Vendor = {
       ...newVendorData,
-      id: `ven-${Date.now()}`,
+      id: generatedId,
       rating: 5.0,
       reviewsCount: 0,
       reviews: [],
-      featured: false
+      featured: false,
+      verified: false 
     };
 
-    const updated = [newVendor, ...vendors];
-    setVendors(updated);
-    saveVendorsToStorage(updated);
+    if (supabase && isSupabaseConfigured) {
+      try {
+        const { error } = await supabase
+          .from("vendors")
+          .insert([mapVendorToDbVendor(newVendor)]);
+        if (error) throw error;
+        alert("Listing registered successfully! It is currently pending verification and has been routed to the CRM Dashboard for Admin approval.");
+        loadSupabaseData();
+      } catch (e: any) {
+        alert(`Failed to save listing: ${e.message}`);
+      }
+    } else {
+      const updated = [newVendor, ...vendors];
+      setVendors(updated);
+      localStorage.setItem("pmv_vendors", JSON.stringify(updated));
+      confetti({ particleCount: 50, spread: 40 });
+      alert("Listing registered locally (offline mode) and routed to CRM approvals.");
+    }
   };
 
-  // Clear filters
+  // Reset Filters
   const handleResetFilters = () => {
     setSearchCity("All");
     setSearchCategory("All");
     setSearchText("");
     setMaxPrice(2000000);
     setMinRating(0);
-    setVenueCapacity(0);
     setSortBy("featured");
   };
 
-  // Get matching category icon for Category card rendering
-  const getCategoryIcon = (categoryName: string) => {
-    const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
-      Sparkles, Search, Heart, Star, SlidersHorizontal, ChevronRight, Camera, Utensils, Music, Paintbrush, HomeIcon, X, Building, Calculator, Calendar, Shirt, Activity, Mail, Gift, BookOpen, Gem, Car, Plane, Cake, Flower2, Bus, Bike, Mic, Truck, Users, Shield, Lightbulb, Flame, Wind, Package, Umbrella, GlassWater, ShieldAlert, UserCheck, Video, Tv, Volume2, Layers, Zap
-    };
-    const catObj = CATEGORIES.find(c => c.name.toLowerCase() === categoryName.toLowerCase());
-    if (catObj && catObj.icon) {
-      if (catObj.icon === "Home") return HomeIcon;
-      return iconMap[catObj.icon] || Sparkles;
-    }
-    return Sparkles;
-  };
-
-  // Featured lists for Homepage
+  // Featured list
   const featuredVendorsList = useMemo(() => {
-    return vendors.filter((v) => v.featured).slice(0, 3);
+    return vendors.filter((v) => v.featured && v.verified !== false).slice(0, 3);
   }, [vendors]);
 
   // Main filtered vendors pipeline
   const filteredVendors = useMemo(() => {
     return vendors
       .filter((v) => {
-        const matchesCity = searchCity === "All" || v.city.toLowerCase() === searchCity.toLowerCase();
+        if (v.verified === false) return false;
+
+        let queryCity = searchCity;
+        if (searchCity.toLowerCase() === "delhi") queryCity = "Delhi-NCR";
+        if (searchCity.toLowerCase() === "bangalore") queryCity = "Bengaluru";
+
+        const matchesCity = queryCity === "All" || v.city.toLowerCase() === queryCity.toLowerCase();
         const matchesCategory = searchCategory === "All" || v.category.toLowerCase() === searchCategory.toLowerCase();
         
         const matchesText = 
@@ -284,44 +365,28 @@ export default function Home() {
           v.address.toLowerCase().includes(searchText.toLowerCase());
 
         let vendorCost = v.price;
-        // if caterer, multiply price per plate by average guest count (300) to estimate total cost boundary
         if (v.category === "Caterers") {
           vendorCost = v.price * 300;
         }
         const matchesPrice = vendorCost <= maxPrice;
-        
         const matchesRating = v.rating >= minRating;
-        
-        let matchesCapacity = true;
-        if (v.category === "Venues" && venueCapacity > 0) {
-          matchesCapacity = (v.capacity || 0) >= venueCapacity;
-        }
 
-        return matchesCity && matchesCategory && matchesText && matchesPrice && matchesRating && matchesCapacity;
+        return matchesCity && matchesCategory && matchesText && matchesPrice && matchesRating;
       })
       .sort((a, b) => {
-        if (sortBy === "priceAsc") {
-          return a.price - b.price;
-        }
-        if (sortBy === "priceDesc") {
-          return b.price - a.price;
-        }
-        if (sortBy === "rating") {
-          return b.rating - a.rating;
-        }
-        // Default: Featured first, then rating
+        if (sortBy === "priceAsc") return a.price - b.price;
+        if (sortBy === "priceDesc") return b.price - a.price;
+        if (sortBy === "rating") return b.rating - a.rating;
         if (a.featured && !b.featured) return -1;
         if (!a.featured && b.featured) return 1;
         return b.rating - a.rating;
       });
-  }, [vendors, searchCity, searchCategory, searchText, maxPrice, minRating, venueCapacity, sortBy]);
+  }, [vendors, searchCity, searchCategory, searchText, maxPrice, minRating, sortBy]);
 
-  // Helpers to count elements by category for rendering count text
   const getCategoryCount = (categoryName: string) => {
-    return vendors.filter((v) => v.category.toLowerCase() === categoryName.toLowerCase()).length;
+    return vendors.filter((v) => v.category.toLowerCase() === categoryName.toLowerCase() && v.verified !== false).length;
   };
 
-  // Quick helper to format prices
   const formatPrice = (value: number) => {
     return new Intl.NumberFormat("en-IN", {
       style: "currency",
@@ -331,44 +396,54 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-stone-50/50 text-stone-900 flex flex-col font-sans relative pb-20 md:pb-0">
+    <div className="min-h-screen bg-[#FCFBF9] text-[#1c1917] flex flex-col font-sans relative">
       
-      {/* 1. Header (Dynamic Mobile/Desktop) */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-stone-150 shadow-card">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      {/* Header Banner for Config status */}
+      <div className="bg-stone-950 text-[#F5EBE0] py-2 px-6 flex justify-between items-center text-[10px] uppercase font-bold tracking-wider">
+        <span>PlanMyBaraat Premium Processions Marketplace</span>
+        <div className="flex items-center gap-3">
+          <span className={isSupabaseConfigured ? "text-emerald-400" : "text-amber-400"}>
+            {isSupabaseConfigured ? "● Live Database Active" : "● Offline Local Storage Fallback"}
+          </span>
+          <a href="/admin" className="text-[#B8860B] hover:text-[#dfc282] transition-colors">Admin CRM &rarr;</a>
+          <a href="/vendor" className="text-[#B8860B] hover:text-[#dfc282] transition-colors">Vendor Portal &rarr;</a>
+        </div>
+      </div>
+
+      {/* Header */}
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-150 shadow-card">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           
-          {/* Logo Title */}
           <div 
             onClick={() => {
               setActiveTab("home");
               setIsMobileFilterOpen(false);
             }} 
-            className="flex items-center gap-2.5 cursor-pointer select-none"
+            className="flex items-center gap-3 cursor-pointer select-none"
           >
-            <div className="h-9 w-9 rounded-full bg-amber-500/10 border border-amber-500/25 flex items-center justify-center text-amber-700">
-              <Sparkles className="h-4.5 w-4.5 fill-current" />
+            <div className="h-10 w-10 rounded-full bg-[#7C1C2B]/5 border border-[#7C1C2B]/10 flex items-center justify-center text-[#7C1C2B] shadow-sm">
+              <Sparkles className="h-5 w-5 fill-current" />
             </div>
             <div>
-              <span className="font-serif font-black text-base tracking-wide text-stone-900 block leading-tight">PlanMyBaraat</span>
-              <span className="text-[9px] uppercase tracking-wider text-amber-600/90 font-bold block leading-none">Premium Vendor Network</span>
+              <span className="font-serif font-black text-lg tracking-wide text-[#7C1C2B] block leading-tight">PlanMyBaraat</span>
+              <span className="text-[10px] uppercase tracking-widest text-[#B8860B] font-bold block leading-none mt-0.5">Premium Procession Network</span>
             </div>
           </div>
 
-          {/* Desktop Navigation Items */}
-          <nav className="hidden md:flex items-center gap-1">
+          {/* Desktop Nav */}
+          <nav className="hidden md:flex items-center gap-2">
             {[
-              { id: "home", label: "Home" },
-              { id: "vendors", label: "Explore Vendors" },
-              { id: "matchmaker", label: "Budget Estimator" },
+              { id: "home", label: "Home Showcase" },
+              { id: "vendors", label: "Explore Directory" },
               { id: "register", label: "Register Business" }
             ].map((item) => (
               <button
                 key={item.id}
-                onClick={() => setActiveTab(item.id as "home" | "vendors" | "matchmaker" | "register")}
-                className={`px-4 py-2 rounded-lg text-xs font-bold uppercase tracking-wider transition-colors ${
+                onClick={() => setActiveTab(item.id as any)}
+                className={`px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider transition-all duration-205 ${
                   activeTab === item.id 
-                    ? "text-amber-700 bg-amber-500/10" 
-                    : "text-stone-600 hover:text-stone-900 hover:bg-stone-100"
+                    ? "text-[#7C1C2B] bg-[#7C1C2B]/5 border border-[#7C1C2B]/10" 
+                    : "text-stone-600 hover:text-stone-900 hover:bg-stone-50 border border-transparent"
                 }`}
               >
                 {item.label}
@@ -376,17 +451,15 @@ export default function Home() {
             ))}
           </nav>
 
-          {/* Actions: Wishlist */}
           <div className="flex items-center gap-3">
             <button
               onClick={() => setIsWishlistOpen(true)}
-              className="relative p-2.5 rounded-full bg-stone-50 border border-stone-200 text-stone-700 hover:text-red-600 hover:border-red-500/20 transition-all shadow-sm"
+              className="relative p-3 rounded-full bg-stone-50 border border-stone-200 text-stone-700 hover:text-[#7C1C2B] hover:border-[#7C1C2B]/20 hover:bg-[#7C1C2B]/5 transition-all shadow-sm"
               title="View Shortlist"
-              aria-label="Toggle Wishlist Drawer"
             >
-              <Heart className={`h-4.5 w-4.5 ${wishlist.length > 0 ? "fill-red-500 text-red-500" : ""}`} />
+              <Heart className={`h-4.5 w-4.5 ${wishlist.length > 0 ? "fill-[#7C1C2B] text-[#7C1C2B]" : ""}`} />
               {wishlist.length > 0 && (
-                <span className="absolute -top-1.5 -right-1.5 h-5 w-5 bg-red-600 text-stone-100 text-[10px] font-black rounded-full flex items-center justify-center border border-white">
+                <span className="absolute -top-1.5 -right-1.5 h-5.5 w-5.5 bg-[#7C1C2B] text-stone-100 text-[10px] font-black rounded-full flex items-center justify-center border-2 border-white shadow-sm animate-bounce">
                   {wishlist.length}
                 </span>
               )}
@@ -395,119 +468,88 @@ export default function Home() {
         </div>
       </header>
 
-      {/* 2. Main Page views orchestrator */}
-      <div className="flex-1">
-
-        {/* View A: Homepage */}
+      {/* Main Pages */}
+      <div className="flex-grow">
+        
+        {/* View A: Home */}
         {activeTab === "home" && (
-          <div className="space-y-12 md:space-y-16 pb-16 animate-fade-up">
+          <div className="space-y-16 pb-16">
             
-            {/* Hero Search Banner */}
-            <section className="relative min-h-[60vh] md:min-h-[70vh] flex items-center justify-center text-center px-4 py-12 md:py-16 overflow-hidden border-b border-stone-200 bg-[#fcfbf9]">
-              {/* Subtle background image overlay */}
-              <div 
-                className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-[0.22] mix-blend-multiply"
-                style={{ backgroundImage: `url('/images/hero_bg.png')` }}
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#fcfbf9]/50 to-[#fcfbf9] pointer-events-none" />
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-amber-500/[0.04] rounded-full blur-3xl pointer-events-none" />
+            {/* Hero section */}
+            <section className="relative min-h-[65vh] md:min-h-[75vh] flex items-center justify-center text-center px-4 py-16 overflow-hidden border-b border-stone-150 bg-gradient-to-b from-[#FAF6F0] to-[#FCFBF9]">
+              <div className="absolute inset-0 bg-[radial-gradient(rgba(184,134,11,0.08)_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-[#B8860B]/[0.05] rounded-full blur-3xl pointer-events-none" />
               
-              <div className="max-w-4xl space-y-6 md:space-y-8 relative z-10">
-                
-                {/* Micro announcement badge */}
-                <div className="inline-flex items-center gap-2 rounded-full border border-amber-500/20 bg-white px-4 py-1 text-[10px] md:text-[11px] font-bold text-amber-800 tracking-wide uppercase shadow-sm">
-                  <Sparkles className="h-3.5 w-3.5 text-amber-600 animate-pulse" />
-                  <span>Discover Elite Wedding Vendors in India</span>
+              <div className="max-w-4xl space-y-8 relative z-10">
+                <div className="inline-flex items-center gap-2.5 rounded-full border border-[#B8860B]/20 bg-white px-5 py-1.5 text-[10px] md:text-[11px] font-bold text-[#B8860B] tracking-widest uppercase shadow-sm">
+                  <Sparkles className="h-4 w-4 text-[#B8860B] animate-pulse" />
+                  <span>Discover Royal Wedding Processions in India</span>
                 </div>
 
-                {/* Hero Title */}
-                <h1 className="text-3xl sm:text-5xl md:text-7xl font-serif font-black tracking-wide leading-tight text-stone-900">
+                <h1 className="text-4xl sm:text-6xl md:text-8xl font-serif font-black tracking-wide leading-tight text-stone-900">
                   Design Your Dream <br />
-                  <span className="gold-text-shimmer">Indian Celebration</span>
+                  <span className="text-[#7C1C2B] drop-shadow-sm">Baraat Procession</span>
                 </h1>
 
-                {/* Subtitle */}
-                <p className="text-stone-600 text-xs sm:text-sm md:text-base leading-relaxed max-w-xl mx-auto">
-                  Discover and book award-winning venues, photographers, and luxury services across India&apos;s top destination wedding hubs.
+                <p className="text-stone-600 text-xs sm:text-sm md:text-base leading-relaxed max-w-2xl mx-auto font-medium">
+                  Browse and book certified traditional brass bands, floral carriages, expert turban stylists, custom dhol, and pyrotechnics across 6 target regions in India.
                 </p>
 
-                {/* Search Bar Selector Grid */}
-                <div className="bg-white border border-stone-200 rounded-2xl md:rounded-3xl p-4 shadow-luxury max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-4 items-center">
+                {/* Quick Search Card */}
+                <div className="bg-white/85 backdrop-blur-md border border-stone-200 rounded-2xl md:rounded-3xl p-5 shadow-luxury max-w-3xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 items-center">
                   
-                  {/* Category select input */}
-                  <div className="space-y-1 text-left px-3 py-1">
-                    <label className="text-[9px] uppercase font-bold text-stone-400 tracking-wider">I am looking for</label>
+                  <div className="space-y-1.5 text-left px-3">
+                    <label className="text-[9px] uppercase font-bold text-stone-400 tracking-widest">Specialty Service</label>
                     <select
                       value={searchCategory}
                       onChange={(e) => setSearchCategory(e.target.value)}
-                      className="w-full bg-transparent text-xs md:text-sm font-semibold text-stone-800 border-none p-0 focus:ring-0 focus:outline-none cursor-pointer"
+                      className="w-full bg-transparent text-xs md:text-sm font-semibold text-stone-900 border-none p-0 focus:ring-0 focus:outline-none cursor-pointer"
                     >
-                      <option value="All">All Categories</option>
+                      <option value="All">All Specialties</option>
                       {CATEGORIES.map((cat) => (
                         <option key={cat.id} value={cat.name}>{cat.name}</option>
                       ))}
                     </select>
                   </div>
 
-                  {/* City select input */}
-                  <div className="space-y-1 text-left px-3 py-1 border-t md:border-t-0 md:border-l border-stone-100 pt-2.5 md:pt-0">
-                    <label className="text-[9px] uppercase font-bold text-stone-400 tracking-wider">Located in</label>
+                  <div className="space-y-1.5 text-left px-3 border-t md:border-t-0 md:border-l border-stone-155 pt-3 md:pt-0">
+                    <label className="text-[9px] uppercase font-bold text-stone-400 tracking-widest">Wedding City</label>
                     <select
                       value={searchCity}
                       onChange={(e) => setSearchCity(e.target.value)}
-                      className="w-full bg-transparent text-xs md:text-sm font-semibold text-stone-800 border-none p-0 focus:ring-0 focus:outline-none cursor-pointer"
+                      className="w-full bg-transparent text-xs md:text-sm font-semibold text-stone-900 border-none p-0 focus:ring-0 focus:outline-none cursor-pointer"
                     >
                       <option value="All">All Cities</option>
-                      <optgroup label="Popular Destinations">
-                        {groupedCities.featured.map((c) => (
-                          <option key={c.name} value={c.name}>{c.name}</option>
-                        ))}
-                      </optgroup>
-                      <optgroup label="International Reach">
-                        {groupedCities.internationalByCountry.map(([, cities]) => (
-                          cities.map((c) => (
-                            <option key={c.name} value={c.name}>{c.name}</option>
-                          ))
-                        ))}
-                      </optgroup>
-                      {groupedCities.domesticByState.map(([state, cities]) => (
-                        <optgroup key={state} label={`${state} (India)`}>
-                          {cities.map((c) => (
-                            <option key={c.name} value={c.name}>{c.name}</option>
-                          ))}
-                        </optgroup>
-                      ))}
+                      <option value="Delhi-NCR">Delhi-NCR</option>
+                      <option value="Mumbai">Mumbai</option>
+                      <option value="Ahmedabad">Ahmedabad</option>
+                      <option value="Surat">Surat</option>
+                      <option value="Vadodara">Vadodara</option>
+                      <option value="Bengaluru">Bengaluru (Bangalore)</option>
                     </select>
                   </div>
 
-                  {/* Search CTA button */}
                   <button
                     onClick={() => setActiveTab("vendors")}
-                    className="w-full h-11 md:h-12 bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold uppercase tracking-wider text-xs rounded-xl md:rounded-2xl transition-all shadow-md flex items-center justify-center gap-2 group"
+                    className="w-full h-12 bg-[#7C1C2B] hover:bg-rose-900 text-white font-extrabold uppercase tracking-widest text-xs rounded-xl md:rounded-2xl transition-all duration-350 shadow-md flex items-center justify-center gap-2.5 group"
                   >
                     <Search className="h-4 w-4" />
-                    <span>Search Vendors</span>
-                    <ChevronRight className="h-4.5 w-4.5 transition-transform group-hover:translate-x-1" />
+                    <span>Search Marketplace</span>
+                    <ChevronRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </button>
-
                 </div>
-
               </div>
             </section>
 
-            {/* Popular categories section */}
+            {/* Browse Categories */}
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
               <div className="text-center md:text-left space-y-1">
-                <span className="text-[9px] uppercase text-amber-700 font-bold tracking-widest block">Core Specialties</span>
-                <h2 className="font-serif font-black text-2xl md:text-3xl text-stone-900 tracking-wide">Browse by Category</h2>
+                <span className="text-[9px] uppercase text-[#B8860B] font-bold tracking-widest block">Procession Catalog</span>
+                <h2 className="font-serif font-black text-2xl md:text-4xl text-[#7C1C2B] tracking-wide">Browse Specialties</h2>
               </div>
-
-              {/* Scrollable on mobile, grid on desktop */}
-              <div className="flex overflow-x-auto pb-3 gap-3 md:grid md:grid-cols-7 scrollbar-none">
-                {CATEGORIES.map((cat) => {
-                  const Icon = getCategoryIcon(cat.name);
+              <div className="flex overflow-x-auto pb-4 gap-4 md:grid md:grid-cols-7 scrollbar-none">
+                {CATEGORIES.slice(0, 14).map((cat) => {
                   const count = getCategoryCount(cat.name);
-
                   return (
                     <div
                       key={cat.id}
@@ -515,333 +557,67 @@ export default function Home() {
                         setSearchCategory(cat.name);
                         setActiveTab("vendors");
                       }}
-                      className="min-w-[120px] md:min-w-0 bg-white border border-stone-200 hover:border-amber-500/30 p-4 rounded-2xl cursor-pointer text-center group transition-all shadow-sm"
+                      className="min-w-[130px] md:min-w-0 bg-white border border-stone-200 hover:border-[#B8860B]/40 p-5 rounded-2xl cursor-pointer text-center group transition-all duration-305 shadow-sm hover:shadow-md"
                     >
-                      <div className="h-9 w-9 bg-amber-500/5 group-hover:bg-amber-500/10 rounded-full flex items-center justify-center text-amber-600 mx-auto mb-2.5 transition-colors border border-amber-500/10">
-                        <Icon className="h-4 w-4" />
+                      <div className="h-10 w-10 bg-[#B8860B]/5 group-hover:bg-[#B8860B]/10 rounded-full flex items-center justify-center text-[#B8860B] mx-auto mb-3 transition-colors border border-[#B8860B]/10">
+                        <Sparkles className="h-4 w-4" />
                       </div>
-                      <h3 className="font-serif font-bold text-[11px] text-stone-800 group-hover:text-amber-700 transition-colors truncate">
+                      <h3 className="font-serif font-bold text-[11px] text-stone-800 group-hover:text-[#B8860B] transition-colors truncate">
                         {cat.name}
                       </h3>
-                      <span className="text-[9px] text-stone-400 block mt-0.5">{count} options</span>
+                      <span className="text-[9px] text-stone-400 block mt-1">{count} options</span>
                     </div>
                   );
                 })}
               </div>
             </section>
 
-            {/* Featured destinations section */}
+            {/* Launch Cities */}
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
               <div className="text-center md:text-left space-y-1">
-                <span className="text-[9px] uppercase text-amber-700 font-bold tracking-widest block">Signature Locations</span>
-                <h2 className="font-serif font-black text-2xl md:text-3xl text-stone-900 tracking-wide">Top Destination Cities</h2>
+                <span className="text-[9px] uppercase text-[#B8860B] font-bold tracking-widest block">Destination Hubs</span>
+                <h2 className="font-serif font-black text-2xl md:text-4xl text-[#7C1C2B] tracking-wide">Strategic Launch Hubs</h2>
               </div>
-
-              {/* Scrollable list on mobile, grid on desktop */}
-              <div className="flex overflow-x-auto pb-3 gap-4 lg:grid lg:grid-cols-3 scrollbar-none">
-                {CITIES.slice(0, 6).map((c) => (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {CITIES.filter(c => ["Delhi-NCR", "Mumbai", "Udaipur", "Goa", "Jaipur", "Bengaluru"].includes(c.name)).slice(0, 6).map((c) => (
                   <div
                     key={c.name}
                     onClick={() => {
                       setSearchCity(c.name);
                       setActiveTab("vendors");
                     }}
-                    className="min-w-[260px] sm:min-w-[320px] lg:min-w-0 relative aspect-[4/3] rounded-2xl overflow-hidden cursor-pointer group shadow-card border border-stone-200"
+                    className="relative aspect-[4/3] rounded-3xl overflow-hidden cursor-pointer group shadow-card border border-stone-200/80"
                   >
                     <img
                       src={c.imageUrl}
                       alt={c.name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      loading="lazy"
+                      className="w-full h-full object-cover transition-transform duration-750 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/20 to-transparent" />
-                    
-                    <div className="absolute bottom-4 left-4 right-4 space-y-0.5">
-                      <span className="text-[8px] uppercase font-bold text-amber-300 tracking-widest block">
-                        {c.state}
-                      </span>
-                      <h3 className="font-serif font-black text-lg text-white tracking-wide">
-                        {c.name}
-                      </h3>
-                      <p className="text-stone-200 text-[10px] line-clamp-1 leading-normal opacity-90">
-                        {c.tagline}
-                      </p>
+                    <div className="absolute inset-0 bg-gradient-to-t from-stone-950/80 via-stone-900/20 to-transparent" />
+                    <div className="absolute bottom-6 left-6 right-6 space-y-1">
+                      <span className="text-[8px] uppercase font-bold text-[#B8860B] tracking-widest block">{c.state}</span>
+                      <h3 className="font-serif font-black text-xl text-white tracking-wide">{c.name === "Bengaluru" ? "Bengaluru (Bangalore)" : c.name}</h3>
+                      <p className="text-stone-200 text-[10px] line-clamp-1 leading-normal opacity-90">{c.tagline}</p>
                     </div>
                   </div>
                 ))}
               </div>
             </section>
 
-            {/* Featured vendors grid */}
+            {/* Featured Showcase */}
             <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
               <div className="text-center md:text-left space-y-1">
-                <span className="text-[9px] uppercase text-amber-700 font-bold tracking-widest block">Handpicked Selections</span>
-                <h2 className="font-serif font-black text-2xl md:text-3xl text-stone-900 tracking-wide">Royal Choice Listings</h2>
+                <span className="text-[9px] uppercase text-[#B8860B] font-bold tracking-widest block">Handpicked listings</span>
+                <h2 className="font-serif font-black text-2xl md:text-4xl text-[#7C1C2B] tracking-wide">Royal Choice Selections</h2>
               </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                {featuredVendorsList.map((vendor) => (
-                  <VendorCard
-                    key={vendor.id}
-                    vendor={vendor}
-                    isWishlisted={wishlist.includes(vendor.id)}
-                    onToggleWishlist={handleToggleWishlist}
-                    onClick={() => setSelectedVendor(vendor)}
-                  />
-                ))}
-              </div>
-            </section>
-
-            {/* Testimonials */}
-            <section className="max-w-5xl mx-auto px-4 md:px-6 py-12 rounded-2xl bg-white border border-stone-200 text-center relative overflow-hidden shadow-card">
-              <div className="absolute top-1/2 left-10 -translate-y-1/2 w-48 h-48 bg-amber-500/5 rounded-full blur-2xl" />
-              
-              <div className="max-w-2xl mx-auto space-y-4 relative z-10">
-                <div className="flex items-center justify-center gap-1 text-amber-500">
-                  {Array.from({ length: 5 }).map((_, i) => (
-                    <Star key={i} className="h-4 w-4 fill-current" />
-                  ))}
-                </div>
-                
-                <p className="font-serif italic text-sm md:text-base text-stone-850 leading-relaxed">
-                  &ldquo;Jagmandir Palace in Udaipur was our dream destination and using this list to match with local coordinators made our planning completely stress-free. True luxury service!&rdquo;
-                </p>
-
-                <div className="text-[10px] uppercase tracking-wider font-bold text-amber-700">
-                  Divya & Rohit • Married in Udaipur
-                </div>
-              </div>
-            </section>
-
-          </div>
-        )}
-
-        {/* View B: Explore Vendors */}
-        {activeTab === "vendors" && (
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col lg:flex-row gap-6 md:gap-8 animate-fade-up relative">
-            
-            {/* Filter sidebar toggler (Only on Mobile) */}
-            <div className="lg:hidden flex items-center justify-between pb-3 border-b border-stone-200">
-              <div>
-                <span className="text-[10px] text-stone-400 block uppercase font-bold">Discovery Engine</span>
-                <h2 className="font-serif font-black text-lg text-stone-900">
-                  {filteredVendors.length} Listings Matching
-                </h2>
-              </div>
-              <button
-                onClick={() => setIsMobileFilterOpen(true)}
-                className="flex items-center gap-1.5 px-3 py-2 bg-white border border-stone-200 text-xs font-bold uppercase rounded-lg text-stone-700 shadow-sm"
-              >
-                <SlidersHorizontal className="h-3.5 w-3.5 text-amber-600" />
-                <span>Filters</span>
-              </button>
-            </div>
-
-            {/* Side Filters Panel (Desktop & Mobile Overlay Drawer) */}
-            <aside 
-              className={`
-                shrink-0 w-72 space-y-6 
-                lg:block 
-                ${isMobileFilterOpen 
-                  ? "fixed inset-0 z-50 bg-white p-6 overflow-y-auto block animate-fade-up" 
-                  : "hidden"
-                }
-              `}
-            >
-              
-              <div className="space-y-6">
-                
-                {/* Sidebar Headline & Reset */}
-                <div className="flex justify-between items-center pb-3 border-b border-stone-150">
-                  <h3 className="font-serif font-bold text-sm text-stone-900 uppercase tracking-wide flex items-center gap-1.5">
-                    <SlidersHorizontal className="h-4 w-4 text-amber-600" /> Filters
-                  </h3>
-                  
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={handleResetFilters}
-                      className="text-[10px] uppercase font-bold text-stone-400 hover:text-amber-600 transition-colors"
-                    >
-                      Clear All
-                    </button>
-                    {isMobileFilterOpen && (
-                      <button
-                        onClick={() => setIsMobileFilterOpen(false)}
-                        className="p-1 text-stone-400 hover:text-stone-700 bg-stone-50 rounded"
-                        aria-label="Close filters"
-                      >
-                        <X className="h-4 w-4" />
-                      </button>
-                    )}
-                  </div>
-                </div>
-
-                {/* Text search input */}
-                <div className="space-y-1.5">
-                  <label className="text-[10px] uppercase text-stone-550 font-bold tracking-wider">Search Keyword</label>
-                  <div className="relative">
-                    <input
-                      type="text"
-                      value={searchText}
-                      onChange={(e) => setSearchText(e.target.value)}
-                      placeholder="e.g. Palace, Studio..."
-                      className="w-full bg-white border border-stone-200 rounded-xl pl-9 pr-3 py-2 text-xs focus:outline-none focus:border-amber-500 text-stone-800"
-                    />
-                    <Search className="absolute left-3 top-2.5 h-3.5 w-3.5 text-stone-400" />
-                  </div>
-                </div>
-
-                {/* Category select input */}
-                <div className="space-y-1.5">
-                  <label className="text-[10px] uppercase text-stone-550 font-bold tracking-wider">Vendor Category</label>
-                  <select
-                    value={searchCategory}
-                    onChange={(e) => setSearchCategory(e.target.value)}
-                    className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-amber-500 text-stone-850 cursor-pointer"
-                  >
-                    <option value="All">All Categories</option>
-                    {CATEGORIES.map((cat) => (
-                      <option key={cat.id} value={cat.name}>{cat.name}</option>
-                    ))}
-                  </select>
-                </div>
-
-                {/* City select input */}
-                <div className="space-y-1.5">
-                  <label className="text-[10px] uppercase text-stone-550 font-bold tracking-wider">City Location</label>
-                  <select
-                    value={searchCity}
-                    onChange={(e) => setSearchCity(e.target.value)}
-                    className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-amber-500 text-stone-855 cursor-pointer"
-                  >
-                    <option value="All">All Cities</option>
-                    <optgroup label="Popular Destinations">
-                      {groupedCities.featured.map((c) => (
-                        <option key={c.name} value={c.name}>{c.name}</option>
-                      ))}
-                    </optgroup>
-                    <optgroup label="International Reach">
-                      {groupedCities.internationalByCountry.map(([, cities]) => (
-                        cities.map((c) => (
-                          <option key={c.name} value={c.name}>{c.name}</option>
-                        ))
-                      ))}
-                    </optgroup>
-                    {groupedCities.domesticByState.map(([state, cities]) => (
-                      <optgroup key={state} label={`${state} (India)`}>
-                        {cities.map((c) => (
-                          <option key={c.name} value={c.name}>{c.name}</option>
-                        ))}
-                      </optgroup>
-                    ))}
-                  </select>
-                </div>
-
-                {/* Maximum Cost Price Slider */}
-                <div className="space-y-2">
-                  <div className="flex justify-between items-center text-[10px] uppercase text-stone-505 font-bold tracking-wider">
-                    <span>Max Package Cost</span>
-                    <span className="text-amber-700 font-extrabold">{formatPrice(maxPrice)}</span>
-                  </div>
-                  <input
-                    type="range"
-                    min={20000}
-                    max={2000000}
-                    step={10000}
-                    value={maxPrice}
-                    onChange={(e) => setMaxPrice(Number(e.target.value))}
-                    className="w-full h-1.5 bg-stone-100 rounded appearance-none cursor-pointer accent-amber-500"
-                  />
-                  <div className="flex justify-between text-[9px] text-stone-400">
-                    <span>₹20k</span>
-                    <span>₹20 Lakhs</span>
-                  </div>
-                </div>
-
-                {/* Minimum Rating */}
-                <div className="space-y-1.5">
-                  <label className="text-[10px] uppercase text-stone-555 font-bold tracking-wider">Minimum Rating</label>
-                  <select
-                    value={minRating}
-                    onChange={(e) => setMinRating(Number(e.target.value))}
-                    className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-amber-500 text-stone-850 cursor-pointer"
-                  >
-                    <option value={0}>Any Rating</option>
-                    <option value={4.5}>4.5+ Stars</option>
-                    <option value={4.8}>4.8+ Stars</option>
-                  </select>
-                </div>
-
-                {/* Venue Capacity input (conditionally visible) */}
-                {searchCategory.toLowerCase() === "venues" && (
-                  <div className="space-y-1.5">
-                    <label className="text-[10px] uppercase text-stone-555 font-bold tracking-wider">Min Guest Capacity</label>
-                    <select
-                      value={venueCapacity}
-                      onChange={(e) => setVenueCapacity(Number(e.target.value))}
-                      className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2 text-xs focus:outline-none focus:border-amber-500 text-stone-855 cursor-pointer"
-                    >
-                      <option value={0}>Any Capacity</option>
-                      <option value={200}>200+ Guests</option>
-                      <option value={500}>500+ Guests</option>
-                      <option value={800}>800+ Guests</option>
-                    </select>
-                  </div>
-                )}
-
-                {/* Mobile Apply Button */}
-                {isMobileFilterOpen && (
-                  <button
-                    onClick={() => setIsMobileFilterOpen(false)}
-                    className="w-full py-3 bg-amber-500 text-stone-950 font-bold uppercase rounded-xl tracking-wider text-xs shadow-md"
-                  >
-                    Apply Filters ({filteredVendors.length} Matches)
-                  </button>
-                )}
-
-              </div>
-            </aside>
-
-            {/* Main Vendors grid output */}
-            <section className="flex-1 space-y-6">
-              
-              {/* Grid header: matches count & sort */}
-              <div className="hidden lg:flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 pb-4 border-b border-stone-200">
-                <div>
-                  <span className="text-xs text-stone-400 block uppercase font-semibold">Discovery Engine</span>
-                  <h2 className="font-serif font-black text-xl text-stone-900">
-                    {filteredVendors.length} {filteredVendors.length === 1 ? "Listing Match" : "Listing Matches"}
-                  </h2>
-                </div>
-
-                {/* Sort selector */}
-                <div className="flex items-center gap-2 text-xs">
-                  <span className="text-stone-500">Sort By</span>
-                  <select
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value)}
-                    className="bg-white border border-stone-200 rounded-lg px-2.5 py-1.5 text-xs focus:outline-none focus:border-amber-500 text-stone-700 cursor-pointer font-bold"
-                  >
-                    <option value="featured">Featured / Rating</option>
-                    <option value="priceAsc">Price: Low to High</option>
-                    <option value="priceDesc">Price: High to Low</option>
-                    <option value="rating">Top Rated</option>
-                  </select>
-                </div>
-              </div>
-
-              {/* Vendors Cards Grid */}
-              {filteredVendors.length === 0 ? (
-                <div className="text-center py-20 bg-white border border-stone-200 rounded-2xl shadow-card space-y-3">
-                  <SlidersHorizontal className="h-10 w-10 text-stone-300 mx-auto" />
-                  <h3 className="font-serif font-bold text-stone-500">No Match Found</h3>
-                  <p className="text-xs text-stone-400 max-w-sm mx-auto">
-                    Try adjusting your filters, resetting the pricing limit, or search for other services.
-                  </p>
+              {vendors.length === 0 ? (
+                <div className="text-center py-12 border border-dashed border-stone-200 rounded-3xl">
+                  <RefreshCw className="h-8 w-8 text-stone-300 animate-spin mx-auto mb-3" />
+                  <p className="text-stone-400 text-xs font-semibold">Loading directories...</p>
                 </div>
               ) : (
-                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-6">
-                  {filteredVendors.map((vendor) => (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                  {featuredVendorsList.map((vendor) => (
                     <VendorCard
                       key={vendor.id}
                       vendor={vendor}
@@ -852,81 +628,204 @@ export default function Home() {
                   ))}
                 </div>
               )}
-
             </section>
 
+            {/* Testimonial */}
+            <section className="max-w-5xl mx-auto px-4 md:px-6 py-12 rounded-3xl bg-white border border-stone-200 text-center relative overflow-hidden shadow-card">
+              <div className="absolute top-1/2 left-10 -translate-y-1/2 w-48 h-48 bg-[#B8860B]/5 rounded-full blur-2xl" />
+              <div className="max-w-2xl mx-auto space-y-4 relative z-10">
+                <div className="flex items-center justify-center gap-1 text-amber-500">
+                  {Array.from({ length: 5 }).map((_, i) => <Star key={i} className="h-4.5 w-4.5 fill-current" />)}
+                </div>
+                <p className="font-serif italic text-sm md:text-base text-stone-850 leading-relaxed">
+                  &ldquo;Booking our Delhi-NCR dhol and pyrotechnics team was a breeze. Seeing the inquiries coordinate directly with the vendor portal saved us days of follow-ups!&rdquo;
+                </p>
+                <div className="text-[10px] uppercase tracking-widest font-bold text-amber-700">Aditi & Kunal • Married in New Delhi</div>
+              </div>
+            </section>
           </div>
         )}
 
-        {/* View C: Matchmaker */}
-        {activeTab === "matchmaker" && (
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <Matchmaker
-              vendors={vendors}
-              onSelectVendor={(v) => setSelectedVendor(v)}
-            />
+        {/* View B: Explore Directory */}
+        {activeTab === "vendors" && (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col lg:flex-row gap-8 animate-fade-up">
+            
+            {/* Mobile Filter toggle */}
+            <div className="lg:hidden flex items-center justify-between pb-4 border-b border-stone-200">
+              <div>
+                <span className="text-[10px] text-stone-400 block uppercase font-bold tracking-wider">Catalog search</span>
+                <h2 className="font-serif font-black text-lg text-stone-900">{filteredVendors.length} listings found</h2>
+              </div>
+              <button
+                onClick={() => setIsMobileFilterOpen(true)}
+                className="flex items-center gap-2 px-4 py-2 bg-white border border-stone-200 text-xs font-bold uppercase rounded-xl text-stone-700 shadow-sm"
+              >
+                <SlidersHorizontal className="h-4 w-4 text-[#B8860B]" />
+                <span>Filters</span>
+              </button>
+            </div>
+
+            {/* Filters panel */}
+            <aside className={`shrink-0 w-72 space-y-6 lg:block ${isMobileFilterOpen ? "fixed inset-0 z-50 bg-white p-6 overflow-y-auto block animate-fade-up" : "hidden"}`}>
+              <div className="space-y-6">
+                <div className="flex justify-between items-center pb-4 border-b border-stone-150">
+                  <h3 className="font-serif font-bold text-sm text-stone-950 uppercase tracking-widest flex items-center gap-2">
+                    <SlidersHorizontal className="h-4.5 w-4.5 text-[#B8860B]" /> Filters
+                  </h3>
+                  <div className="flex items-center gap-3">
+                    <button onClick={handleResetFilters} className="text-[10px] uppercase font-bold text-stone-400 hover:text-[#7C1C2B] transition-colors">Clear All</button>
+                    {isMobileFilterOpen && (
+                      <button onClick={() => setIsMobileFilterOpen(false)} className="p-1 text-stone-400 hover:text-stone-700 bg-stone-50 rounded">
+                        <X className="h-4 w-4" />
+                      </button>
+                    )}
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-[10px] uppercase text-stone-500 font-bold tracking-widest">Search Name/Details</label>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      value={searchText}
+                      onChange={(e) => setSearchText(e.target.value)}
+                      placeholder="e.g. Vintage, Royal..."
+                      className="w-full bg-white border border-stone-200 rounded-xl pl-9 pr-3 py-2.5 text-xs focus:outline-none focus:border-[#B8860B] text-stone-850"
+                    />
+                    <Search className="absolute left-3 top-3 h-3.5 w-3.5 text-stone-400" />
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-[10px] uppercase text-stone-500 font-bold tracking-widest">Category specialty</label>
+                  <select
+                    value={searchCategory}
+                    onChange={(e) => setSearchCategory(e.target.value)}
+                    className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2.5 text-xs focus:outline-none focus:border-[#B8860B] text-stone-850 cursor-pointer font-medium"
+                  >
+                    <option value="All">All Categories</option>
+                    {CATEGORIES.map(c => <option key={c.id} value={c.name}>{c.name}</option>)}
+                  </select>
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-[10px] uppercase text-stone-500 font-bold tracking-widest">City Location</label>
+                  <select
+                    value={searchCity}
+                    onChange={(e) => setSearchCity(e.target.value)}
+                    className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2.5 text-xs focus:outline-none focus:border-[#B8860B] text-stone-850 cursor-pointer font-medium"
+                  >
+                    <option value="All">All Cities</option>
+                    <option value="Delhi-NCR">Delhi-NCR</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Vadodara">Vadodara</option>
+                    <option value="Bengaluru">Bengaluru (Bangalore)</option>
+                  </select>
+                </div>
+
+                <div className="space-y-3">
+                  <div className="flex justify-between items-center text-[10px] uppercase text-stone-500 font-bold tracking-widest">
+                    <span>Max Price Limit</span>
+                    <span className="text-[#B8860B] font-extrabold">{formatPrice(maxPrice)}</span>
+                  </div>
+                  <input
+                    type="range"
+                    min={20000}
+                    max={2000000}
+                    step={15000}
+                    value={maxPrice}
+                    onChange={(e) => setMaxPrice(Number(e.target.value))}
+                    className="w-full h-1.5 bg-stone-100 rounded appearance-none cursor-pointer accent-[#B8860B]"
+                  />
+                  <div className="flex justify-between text-[9px] text-stone-400">
+                    <span>₹20k</span>
+                    <span>₹20 Lakhs</span>
+                  </div>
+                </div>
+
+                <div className="space-y-2">
+                  <label className="text-[10px] uppercase text-stone-500 font-bold tracking-widest">Ratings threshold</label>
+                  <select
+                    value={minRating}
+                    onChange={(e) => setMinRating(Number(e.target.value))}
+                    className="w-full bg-white border border-stone-200 rounded-xl px-3 py-2.5 text-xs focus:outline-none focus:border-[#B8860B] text-[#1c1917] cursor-pointer font-medium"
+                  >
+                    <option value={0}>Any rating</option>
+                    <option value={4.5}>4.5+ Stars</option>
+                    <option value={4.8}>4.8+ Stars</option>
+                  </select>
+                </div>
+              </div>
+            </aside>
+
+            {/* Search Output grid */}
+            <section className="flex-1 space-y-6">
+              <div className="hidden lg:flex justify-between items-center pb-4 border-b border-stone-200">
+                <div>
+                  <span className="text-xs text-stone-450 block uppercase font-bold tracking-widest">Verified Network</span>
+                  <h2 className="font-serif font-black text-2xl text-stone-900">{filteredVendors.length} listings found</h2>
+                </div>
+                <div className="flex items-center gap-3 text-xs">
+                  <span className="text-stone-550 font-bold">Sort</span>
+                  <select
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value)}
+                    className="bg-white border border-stone-200 rounded-xl px-3.5 py-2 text-xs focus:outline-none focus:border-[#B8860B] text-stone-850 cursor-pointer font-extrabold shadow-sm"
+                  >
+                    <option value="featured">Featured / Highest Rating</option>
+                    <option value="priceAsc">Price: Low to High</option>
+                    <option value="priceDesc">Price: High to Low</option>
+                    <option value="rating">Top Rated Only</option>
+                  </select>
+                </div>
+              </div>
+
+              {filteredVendors.length === 0 ? (
+                <div className="text-center py-24 bg-white border border-stone-200 rounded-3xl shadow-sm space-y-3">
+                  <SlidersHorizontal className="h-10 w-10 text-stone-300 mx-auto" />
+                  <h3 className="font-serif font-bold text-stone-550 text-base">No match found</h3>
+                  <p className="text-xs text-stone-450 max-w-sm mx-auto">Adjust filters or change cities to locate listings.</p>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
+                  {filteredVendors.map(vendor => (
+                    <VendorCard
+                      key={vendor.id}
+                      vendor={vendor}
+                      isWishlisted={wishlist.includes(vendor.id)}
+                      onToggleWishlist={handleToggleWishlist}
+                      onClick={() => setSelectedVendor(vendor)}
+                    />
+                  ))}
+                </div>
+              )}
+            </section>
           </div>
         )}
 
-        {/* View D: Supplier listing portal */}
+        {/* View D: Register Vendor Form */}
         {activeTab === "register" && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <AddVendorForm onAddVendor={handleAddVendor} />
           </div>
         )}
-
       </div>
 
-      {/* 3. Global Footer (desktop only) */}
-      <footer className="hidden md:block bg-white border-t border-stone-200 py-12 text-center text-xs text-stone-500 uppercase tracking-widest font-semibold mt-auto space-y-2">
-        <div>
-          © 2026 Plan My Baraat Corp • Designed for premium celebrations
-        </div>
-        <div className="text-[10px] text-stone-450 lowercase font-normal font-sans">
-          Light theme application. Powered by Next.js, Tailwind CSS.
-        </div>
+      <footer className="hidden md:block bg-stone-90 bg-stone-900 text-stone-300 border-t border-[#B8860B]/10 py-10 text-center text-[10px] uppercase tracking-widest font-semibold">
+        © 2026 PlanMyBaraat Corp • Delhi • Mumbai • Ahmedabad • Surat • Vadodara • Bangalore
       </footer>
 
-      {/* 4. Sticky Bottom Mobile App Navigation Shell (Visible only on mobile devices) */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white border-t border-stone-200 flex justify-around items-center h-16 mobile-bottom-nav">
-        {[
-          { id: "home", label: "Home", icon: HomeIcon },
-          { id: "vendors", label: "Explore", icon: Search },
-          { id: "matchmaker", label: "Budget", icon: Calculator },
-          { id: "register", label: "Supplier", icon: Building }
-        ].map((item) => {
-          const Icon = item.icon;
-          const isActive = activeTab === item.id;
-          return (
-            <button
-              key={item.id}
-              onClick={() => {
-                setActiveTab(item.id as "home" | "vendors" | "matchmaker" | "register");
-                setIsMobileFilterOpen(false);
-              }}
-              className={`flex flex-col items-center justify-center w-full h-full gap-1 transition-all ${
-                isActive 
-                  ? "text-amber-700 font-extrabold" 
-                  : "text-stone-450 hover:text-stone-850"
-              }`}
-            >
-              <Icon className={`h-5 w-5 ${isActive ? "stroke-[2.5]" : "stroke-[1.8]"}`} />
-              <span className="text-[9px] uppercase tracking-wider font-semibold">{item.label}</span>
-            </button>
-          );
-        })}
-      </nav>
-
-      {/* 5. Interactive Details Modal */}
       {selectedVendor && (
         <VendorDetailModal
           vendor={selectedVendor}
           onClose={() => setSelectedVendor(null)}
           onAddReview={handleAddReview}
+          onAddInquiry={handleOnAddInquiry}
         />
       )}
 
-      {/* 6. Wishlist side drawer */}
       {isWishlistOpen && (
         <WishlistDrawer
           wishlistIds={wishlist}
@@ -940,6 +839,6 @@ export default function Home() {
         />
       )}
 
-    </main>
+    </div>
   );
 }

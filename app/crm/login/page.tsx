@@ -21,9 +21,13 @@ export default function LoginPage() {
     setError(null);
 
     // 1. Try demo login fallback first (offline/placeholder friendly)
-    if (email.trim() === 'rahul@planmybaraat.com' && password.trim() === 'Plan@5678') {
+    const normalizedEmail = email.trim().toLowerCase();
+    if ((normalizedEmail === 'rahul@planmybaraat.com' || normalizedEmail === 'tejabhai@planmybaraat.com') && password.trim() === 'Plan@5678') {
       localStorage.setItem('crm_session', 'true');
-      localStorage.setItem('crm_user', JSON.stringify({ email: email.trim(), name: 'Rahul Medhe' }));
+      localStorage.setItem('crm_user', JSON.stringify({ 
+        email: normalizedEmail, 
+        name: normalizedEmail === 'rahul@planmybaraat.com' ? 'Rahul Medhe' : 'Tejabhai Patel' 
+      }));
       router.push('/crm');
       setLoading(false);
       return;

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Plus, Pencil, Trash2, Loader2, X, Check, Package } from 'lucide-react';
+import { Plus, Pencil, Trash2, Loader2, Package } from 'lucide-react';
 import CrmHeader from '../components/CrmHeader';
 import ConfirmDialog from '../components/ConfirmDialog';
 import { useSidebar } from '../layout';

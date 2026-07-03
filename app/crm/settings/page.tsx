@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Settings, Shield, User, Key, Save, Loader2, Check } from 'lucide-react';
+import { Shield, User, Save, Loader2, Check } from 'lucide-react';
 import CrmHeader from '../components/CrmHeader';
 import { useSidebar } from '../layout';
 

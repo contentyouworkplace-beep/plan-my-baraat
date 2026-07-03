@@ -1,9 +1,8 @@
 'use client';
 
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
 import {
-  Building2, Tag, Package, Settings, LogOut, ChevronRight, User, HelpCircle
+  Building2, Tag, Package, Settings, ChevronRight, HelpCircle
 } from 'lucide-react';
 import CrmHeader from '../components/CrmHeader';
 import { useSidebar } from '../layout';

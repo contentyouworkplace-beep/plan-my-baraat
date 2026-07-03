@@ -1,6 +1,6 @@
 'use client';
 
-import { Bell, Menu, Search } from 'lucide-react';
+import { Bell, Menu } from 'lucide-react';
 
 interface CrmHeaderProps {
   title: string;

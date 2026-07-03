@@ -20,28 +20,29 @@ export default function LoginPage() {
     setLoading(true);
     setError(null);
 
+    // 1. Try demo login fallback first (offline/placeholder friendly)
+    if (email.trim() === 'rahul@planmybaraat.com' && password.trim() === 'Plan@5678') {
+      localStorage.setItem('crm_session', 'true');
+      localStorage.setItem('crm_user', JSON.stringify({ email: email.trim(), name: 'Rahul Medhe' }));
+      router.push('/crm');
+      setLoading(false);
+      return;
+    }
+
     try {
-      // 1. Try Supabase Auth sign in first
+      // 2. Try Supabase Auth sign in
       const { data, error: authError } = await crmSupabase.auth.signInWithPassword({
         email: email.trim(),
         password: password.trim(),
       });
 
       if (authError) {
-        // 2. Demo fallback if user not yet registered in Supabase auth database
-        if (email.trim() === 'rahul@planmybaraat.com' && password.trim() === 'Plan@5678') {
-          // Store session token in localStorage for basic frontend login verification
-          localStorage.setItem('crm_session', 'true');
-          localStorage.setItem('crm_user', JSON.stringify({ email, name: 'Tejabhai Patel' }));
-          router.push('/crm');
-          return;
-        }
         throw new Error(authError.message);
       }
 
       if (data?.session) {
         localStorage.setItem('crm_session', 'true');
-        localStorage.setItem('crm_user', JSON.stringify({ email: data.user.email, name: 'Tejabhai Patel' }));
+        localStorage.setItem('crm_user', JSON.stringify({ email: data.user.email, name: 'Rahul Medhe' }));
         router.push('/crm');
       }
     } catch (err: unknown) {

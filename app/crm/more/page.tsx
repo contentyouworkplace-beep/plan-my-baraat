@@ -25,11 +25,11 @@ export default function MorePage() {
         {/* User Card */}
         <div className="bg-[#111] rounded-2xl p-5 text-white flex items-center gap-4">
           <div className="w-14 h-14 bg-red-600 rounded-full flex items-center justify-center text-xl font-bold">
-            T
+            R
           </div>
           <div>
-            <h3 className="font-bold text-lg">Tejabhai Patel</h3>
-            <p className="text-gray-400 text-xs mt-0.5">tejabhai@planmybaraat.com</p>
+            <h3 className="font-bold text-lg">Rahul Medhe</h3>
+            <p className="text-gray-400 text-xs mt-0.5">rahul@planmybaraat.com</p>
             <span className="inline-block bg-red-600/25 text-red-400 text-[10px] font-semibold uppercase tracking-wider px-2 py-0.5 rounded-full mt-2 border border-red-500/20">
               Administrator
             </span>

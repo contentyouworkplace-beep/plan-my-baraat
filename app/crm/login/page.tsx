@@ -28,7 +28,7 @@ export default function LoginPage() {
 
       if (authError) {
         // 2. Demo fallback if user not yet registered in Supabase auth database
-        if (email.trim() === 'tejabhai@planmybaraat.com' && password.trim() === 'Plan@5678') {
+        if (email.trim() === 'rahul@planmybaraat.com' && password.trim() === 'Plan@5678') {
           // Store session token in localStorage for basic frontend login verification
           localStorage.setItem('crm_session', 'true');
           localStorage.setItem('crm_user', JSON.stringify({ email, name: 'Tejabhai Patel' }));
@@ -87,7 +87,7 @@ export default function LoginPage() {
                 value={email}
                 onChange={e => setEmail(e.target.value)}
                 type="email"
-                placeholder="tejabhai@planmybaraat.com"
+                placeholder="rahul@planmybaraat.com"
                 required
                 className="w-full pl-9 pr-4 py-2.5 text-xs border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-400 bg-white"
               />
@@ -118,13 +118,6 @@ export default function LoginPage() {
             Log In
           </button>
         </form>
-
-        {/* Demo Tip */}
-        <div className="p-3 bg-gray-50 rounded-xl border border-gray-100 text-[10px] text-gray-400 leading-normal text-center font-medium">
-          <p className="text-gray-500 font-semibold mb-1">Demo Account Credentials:</p>
-          <p>Email: <span className="text-gray-700 font-mono">tejabhai@planmybaraat.com</span></p>
-          <p>Password: <span className="text-gray-700 font-mono">Plan@5678</span></p>
-        </div>
 
       </div>
     </div>

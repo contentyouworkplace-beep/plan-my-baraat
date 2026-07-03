@@ -23,19 +23,9 @@ import FAQAccordion from "@/components/FAQAccordion";
 
 // ─── Static Params (top 300 cities × all specialties) ─────────────────────────
 export async function generateStaticParams() {
-  // Build params for top 300 Indian cities × all categories
-  const topCities = CITIES.filter((c) => !c.isInternational).slice(0, 300);
-  const params: { specialty: string; city: string }[] = [];
-
-  for (const category of CATEGORIES) {
-    for (const city of topCities) {
-      params.push({
-        specialty: specialtyToSlug(category),
-        city: cityToSlug(city),
-      });
-    }
-  }
-  return params;
+  // Return empty array to generate pages dynamically on-demand,
+  // making builds and deployments extremely fast.
+  return [];
 }
 
 // ─── Metadata ─────────────────────────────────────────────────────────────────

@@ -131,7 +131,7 @@ INSERT INTO crm_cities (id, name, state) VALUES
 ('a3b7d1e2-0000-0000-0000-000000000002', 'Delhi', 'Delhi'),
 ('a3b7d1e2-0000-0000-0000-000000000003', 'Jaipur', 'Rajasthan'),
 ('a3b7d1e2-0000-0000-0000-000000000004', 'Goa', 'Goa')
-ON CONFLICT (name) DO NOTHING;
+ON CONFLICT (id) DO NOTHING;
 
 -- Seed Categories
 INSERT INTO crm_categories (id, name, description) VALUES
@@ -139,14 +139,14 @@ INSERT INTO crm_categories (id, name, description) VALUES
 ('b4c8e2f3-0000-0000-0000-000000000002', 'Dhol Players', 'Energetic Punjabi Dhol and Nashik Dhol groups.'),
 ('b4c8e2f3-0000-0000-0000-000000000003', 'Safa & Pagri', 'Turban tying artists and fancy wedding turbans.'),
 ('b4c8e2f3-0000-0000-0000-000000000004', 'Vintage Cars', 'Classic and luxury wedding cars for the groom and family.')
-ON CONFLICT (name) DO NOTHING;
+ON CONFLICT (id) DO NOTHING;
 
 -- Seed Packages
 INSERT INTO crm_vendor_packages (id, name, description, price, features) VALUES
 ('c5d9f3a4-0000-0000-0000-000000000001', 'Silver Package', 'Basic listing, 5 photos upload, lead notifications.', 15000, 'Basic listing, 5 photos upload, lead notifications'),
 ('c5d9f3a4-0000-0000-0000-000000000002', 'Gold Package', 'Featured listing, 15 photos, verified badge, direct lead access.', 35000, 'Featured listing, 15 photos, verified badge, direct lead access'),
 ('c5d9f3a4-0000-0000-0000-000000000003', 'Diamond Package', 'Premium top-tier placement, video upload, custom route simulation integration, dedicated account support.', 75000, 'Premium placement, video upload, route simulation, dedicated account support')
-ON CONFLICT (name) DO NOTHING;
+ON CONFLICT (id) DO NOTHING;
 
 -- Seed Vendors
 INSERT INTO crm_vendors (id, company_name, contact_person, mobile, email, city_id, category_id, package_id, status, remarks) VALUES
@@ -185,7 +185,8 @@ INSERT INTO crm_vendors (id, company_name, contact_person, mobile, email, city_i
     'c5d9f3a4-0000-0000-0000-000000000001', -- Silver
     'Contacted',
     'Sent initial presentation. Awaiting callback.'
-);
+)
+ON CONFLICT (id) DO NOTHING;
 
 -- Seed Customer Leads
 INSERT INTO crm_customer_leads (id, customer_name, mobile, email, city_id, requirement, event_date, package_discussed, status, remarks) VALUES
@@ -212,7 +213,8 @@ INSERT INTO crm_customer_leads (id, customer_name, mobile, email, city_id, requi
     'Custom Diamond package',
     'Interested',
     'Very interested. Negotiating rates for safa tying artists.'
-);
+)
+ON CONFLICT (id) DO NOTHING;
 
 -- Seed some notes
 INSERT INTO crm_notes (entity_type, entity_id, content, created_by) VALUES

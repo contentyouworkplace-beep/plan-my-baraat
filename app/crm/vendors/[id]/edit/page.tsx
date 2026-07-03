@@ -24,17 +24,22 @@ export default function EditVendorPage() {
 
   useEffect(() => {
     async function load() {
-      const [v, c, cat, pkg] = await Promise.all([
-        getVendorById(id),
-        getCities(),
-        getCategories(),
-        getPackages(),
-      ]);
-      setVendor(v);
-      setCities(c);
-      setCategories(cat);
-      setPackages(pkg);
-      setLoading(false);
+      try {
+        const [v, c, cat, pkg] = await Promise.all([
+          getVendorById(id),
+          getCities(),
+          getCategories(),
+          getPackages(),
+        ]);
+        setVendor(v);
+        setCities(c);
+        setCategories(cat);
+        setPackages(pkg);
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
     }
     load();
   }, [id]);

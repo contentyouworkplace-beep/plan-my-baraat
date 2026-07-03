@@ -22,8 +22,14 @@ export default function EditLeadPage() {
 
   useEffect(() => {
     async function load() {
-      const [l, c] = await Promise.all([getLeadById(id), getCities()]);
-      setLead(l); setCities(c); setLoading(false);
+      try {
+        const [l, c] = await Promise.all([getLeadById(id), getCities()]);
+        setLead(l); setCities(c);
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
     }
     load();
   }, [id]);

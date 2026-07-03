@@ -34,7 +34,7 @@ export default function LeadsPage() {
     }
   }, [filters]);
 
-  useEffect(() => { getCities().then(setCities); }, []);
+  useEffect(() => { getCities().then(setCities).catch(console.error); }, []);
   useEffect(() => { loadLeads(); }, [loadLeads]);
 
   const handleDelete = async () => {

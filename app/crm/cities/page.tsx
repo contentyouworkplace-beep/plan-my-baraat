@@ -21,7 +21,10 @@ export default function CitiesPage() {
   const [editForm, setEditForm] = useState({ name: '', state: '' });
 
   useEffect(() => {
-    getCities().then(c => { setCities(c); setLoading(false); });
+    getCities()
+      .then(c => setCities(c))
+      .catch(console.error)
+      .finally(() => setLoading(false));
   }, []);
 
   const handleAdd = async (e: React.FormEvent) => {

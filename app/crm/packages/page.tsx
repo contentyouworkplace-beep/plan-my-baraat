@@ -22,7 +22,10 @@ export default function PackagesPage() {
   const [editForm, setEditForm] = useState({ name: '', description: '', price: '', features: '' });
 
   useEffect(() => {
-    getPackages().then(p => { setPackages(p); setLoading(false); });
+    getPackages()
+      .then(p => setPackages(p))
+      .catch(console.error)
+      .finally(() => setLoading(false));
   }, []);
 
   const handleAdd = async (e: React.FormEvent) => {

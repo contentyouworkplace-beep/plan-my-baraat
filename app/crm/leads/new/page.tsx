@@ -17,7 +17,10 @@ export default function NewLeadPage() {
   const [initLoading, setInitLoading] = useState(true);
 
   useEffect(() => {
-    getCities().then(c => { setCities(c); setInitLoading(false); });
+    getCities()
+      .then(c => setCities(c))
+      .catch(console.error)
+      .finally(() => setInitLoading(false));
   }, []);
 
   const handleSubmit = async (data: LeadFormData) => {

@@ -20,9 +20,14 @@ export default function NewVendorPage() {
 
   useEffect(() => {
     async function load() {
-      const [c, cat, pkg] = await Promise.all([getCities(), getCategories(), getPackages()]);
-      setCities(c); setCategories(cat); setPackages(pkg);
-      setInitLoading(false);
+      try {
+        const [c, cat, pkg] = await Promise.all([getCities(), getCategories(), getPackages()]);
+        setCities(c); setCategories(cat); setPackages(pkg);
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setInitLoading(false);
+      }
     }
     load();
   }, []);

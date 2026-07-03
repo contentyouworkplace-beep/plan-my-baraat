@@ -21,7 +21,10 @@ export default function CategoriesPage() {
   const [editForm, setEditForm] = useState({ name: '', description: '' });
 
   useEffect(() => {
-    getCategories().then(c => { setCategories(c); setLoading(false); });
+    getCategories()
+      .then(c => setCategories(c))
+      .catch(console.error)
+      .finally(() => setLoading(false));
   }, []);
 
   const handleAdd = async (e: React.FormEvent) => {

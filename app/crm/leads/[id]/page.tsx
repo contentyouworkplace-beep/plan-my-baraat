@@ -31,13 +31,18 @@ export default function LeadDetailPage() {
 
   useEffect(() => {
     async function load() {
-      const [l, n, f] = await Promise.all([
-        getLeadById(id),
-        getNotes('lead', id),
-        getUploadedFiles('lead', id),
-      ]);
-      setLead(l); setNotes(n); setFiles(f);
-      setLoading(false);
+      try {
+        const [l, n, f] = await Promise.all([
+          getLeadById(id),
+          getNotes('lead', id),
+          getUploadedFiles('lead', id),
+        ]);
+        setLead(l); setNotes(n); setFiles(f);
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
     }
     load();
   }, [id]);

@@ -11,8 +11,8 @@ export default function SettingsPage() {
   const [saved, setSaved] = useState(false);
   
   const [form, setForm] = useState({
-    username: 'Rahul Medhe',
-    email: 'rahul@planmybaraat.com',
+    username: 'Tejabhai Patel',
+    email: 'tejabhai@planmybaraat.com',
     role: 'Administrator',
     notifications: true,
     leadAlerts: true

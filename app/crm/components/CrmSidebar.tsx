@@ -2,11 +2,12 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import {
   LayoutDashboard, Users, UserSearch, MoreHorizontal,
-  Building2, Tag, Package, Settings, X, ChevronRight,
+  Building2, Tag, Package, Settings, X, ChevronRight, LogOut
 } from 'lucide-react';
+import { crmSupabase } from '../lib/supabase-crm';
 
 const bottomTabs = [
   { href: '/crm',        label: 'Home',    icon: LayoutDashboard, exact: true },
@@ -32,6 +33,16 @@ interface CrmSidebarProps {
 
 export default function CrmSidebar({ mobileOpen, onClose }: CrmSidebarProps) {
   const pathname = usePathname();
+  const router = useRouter();
+
+  const handleLogout = async () => {
+    try {
+      await crmSupabase.auth.signOut();
+    } catch {}
+    localStorage.removeItem('crm_session');
+    localStorage.removeItem('crm_user');
+    router.push('/crm/login');
+  };
 
   const isActive = (href: string, exact?: boolean) => {
     if (exact) return pathname === href;
@@ -88,9 +99,9 @@ export default function CrmSidebar({ mobileOpen, onClose }: CrmSidebarProps) {
           })}
         </nav>
 
-        <div className="px-4 py-3 border-t border-white/10">
-          <div className="flex items-center gap-2.5">
-            <div className="w-7 h-7 rounded-full bg-red-600 flex items-center justify-center">
+        <div className="px-4 py-3 border-t border-white/10 flex items-center justify-between">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <div className="w-7 h-7 rounded-full bg-red-600 flex items-center justify-center flex-shrink-0">
               <span className="text-white text-[10px] font-bold">T</span>
             </div>
             <div className="min-w-0">
@@ -98,6 +109,13 @@ export default function CrmSidebar({ mobileOpen, onClose }: CrmSidebarProps) {
               <p className="text-gray-500 text-[10px] truncate">Administrator</p>
             </div>
           </div>
+          <button
+            onClick={handleLogout}
+            title="Log Out"
+            className="p-1.5 text-gray-400 hover:text-red-500 rounded-lg hover:bg-white/5 active:bg-white/10 transition-colors flex-shrink-0"
+          >
+            <LogOut size={16} />
+          </button>
         </div>
       </aside>
 

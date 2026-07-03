@@ -8,8 +8,8 @@ import { crmSupabase } from '../lib/supabase-crm';
 
 export default function LoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('tejabhai@planmybaraat.com');
+  const [password, setPassword] = useState('Plan@5678');
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -93,7 +93,7 @@ export default function LoginPage() {
                 value={email}
                 onChange={e => setEmail(e.target.value)}
                 type="email"
-                placeholder="rahul@planmybaraat.com"
+                placeholder="tejabhai@planmybaraat.com"
                 required
                 className="w-full pl-9 pr-4 py-2.5 text-xs border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500/30 focus:border-red-400 bg-white"
               />

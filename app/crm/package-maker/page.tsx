@@ -66,13 +66,17 @@ export default function PackageMakerPage() {
   const handleAddCategory = () => {
     const cat = categories.find(c => c.id === pickCategoryId);
     if (!cat) return;
-    setItems(list => [...list, { category_id: cat.id, category_name: cat.name, vendor_cost: 0, selling_price: 0 }]);
+    setItems(list => [...list, { category_id: cat.id, category_name: cat.name, label: cat.name, vendor_cost: 0, selling_price: 0 }]);
     setPickCategoryId('');
   };
 
   const updateItem = (categoryId: string, field: 'vendor_cost' | 'selling_price', value: string) => {
     const num = value === '' ? 0 : parseFloat(value);
     setItems(list => list.map(i => (i.category_id === categoryId ? { ...i, [field]: isNaN(num) ? 0 : num } : i)));
+  };
+
+  const updateItemLabel = (categoryId: string, value: string) => {
+    setItems(list => list.map(i => (i.category_id === categoryId ? { ...i, label: value } : i)));
   };
 
   const removeItem = (categoryId: string) => {
@@ -98,7 +102,7 @@ export default function PackageMakerPage() {
         type: builder.type,
         price: totals.sellingPrice,
         vendor_cost: totals.vendorCost,
-        features: items.map(i => i.category_name).join(', '),
+        features: items.map(i => i.label || i.category_name).join(', '),
         items,
       };
       if (editingId) {
@@ -207,7 +211,7 @@ export default function PackageMakerPage() {
               ) : (
                 <div className="border border-gray-200 rounded-lg overflow-hidden">
                   <div className="grid grid-cols-12 gap-2 px-3 py-2 bg-gray-50 text-[10px] font-semibold text-gray-500 uppercase tracking-wide">
-                    <div className="col-span-5">Category</div>
+                    <div className="col-span-5">Category (editable text)</div>
                     <div className="col-span-3">Vendor Cost</div>
                     <div className="col-span-3">Selling Price</div>
                     <div className="col-span-1"></div>
@@ -215,7 +219,14 @@ export default function PackageMakerPage() {
                   <div className="divide-y divide-gray-100">
                     {items.map(item => (
                       <div key={item.category_id} className="grid grid-cols-12 gap-2 items-center px-3 py-2">
-                        <div className="col-span-5 text-sm font-medium text-gray-800 truncate">{item.category_name}</div>
+                        <div className="col-span-5">
+                          <input
+                            value={item.label ?? item.category_name}
+                            onChange={e => updateItemLabel(item.category_id, e.target.value)}
+                            title={`Category: ${item.category_name}`}
+                            className="w-full px-2 py-1.5 text-sm font-medium text-gray-800 border border-transparent hover:border-gray-200 focus:border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500/30 -mx-2"
+                          />
+                        </div>
                         <div className="col-span-3">
                           <input
                             type="number"
@@ -343,7 +354,7 @@ export default function PackageMakerPage() {
                         <div className="flex flex-wrap gap-1 mt-2">
                           {pkg.items.map(i => (
                             <span key={i.category_id} className="text-[10px] bg-gray-100 text-gray-600 px-2 py-0.5 rounded">
-                              {i.category_name}: {fmt(i.selling_price)}
+                              {i.label || i.category_name}: {fmt(i.selling_price)}
                             </span>
                           ))}
                         </div>

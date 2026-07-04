@@ -21,6 +21,7 @@ export interface Category {
 export interface PackageItem {
   category_id: string;
   category_name: string;
+  label?: string;
   vendor_cost: number;
   selling_price: number;
 }

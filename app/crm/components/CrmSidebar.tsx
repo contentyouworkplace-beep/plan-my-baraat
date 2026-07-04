@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import {
   LayoutDashboard, Users, UserSearch, MoreHorizontal,
-  Building2, Tag, Package, Settings, X, ChevronRight, LogOut
+  Building2, Tag, Package, Calculator, Settings, X, ChevronRight, LogOut
 } from 'lucide-react';
 import { crmSupabase } from '../lib/supabase-crm';
 
@@ -23,6 +23,7 @@ const sidebarNav = [
   { href: '/crm/cities',      label: 'Cities',         icon: Building2 },
   { href: '/crm/categories',  label: 'Categories',     icon: Tag },
   { href: '/crm/packages',    label: 'Packages',       icon: Package },
+  { href: '/crm/package-maker', label: 'Package Maker', icon: Calculator },
   { href: '/crm/settings',    label: 'Settings',       icon: Settings },
 ];
 

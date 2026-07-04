@@ -26,8 +26,16 @@ CREATE TABLE IF NOT EXISTS crm_vendor_packages (
     description TEXT,
     price NUMERIC,
     features TEXT,
+    type VARCHAR(20) DEFAULT 'customer' CHECK (type IN ('vendor', 'customer')),
+    items JSONB,
+    vendor_cost NUMERIC,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
+
+-- Backfill columns for existing installs (safe to re-run)
+ALTER TABLE crm_vendor_packages ADD COLUMN IF NOT EXISTS type VARCHAR(20) DEFAULT 'customer';
+ALTER TABLE crm_vendor_packages ADD COLUMN IF NOT EXISTS items JSONB;
+ALTER TABLE crm_vendor_packages ADD COLUMN IF NOT EXISTS vendor_cost NUMERIC;
 
 -- 4. Vendors Table
 CREATE TABLE IF NOT EXISTS crm_vendors (

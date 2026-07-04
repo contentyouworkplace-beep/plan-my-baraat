@@ -307,6 +307,7 @@ export async function createPackage(payload: Partial<VendorPackage>): Promise<Ve
     () => {
       const list = getList('crm_vendor_packages', INITIAL_PACKAGES);
       const pkg: VendorPackage = {
+        ...payload,
         id: `pkg-${Date.now()}`,
         name: payload.name || '',
         description: payload.description || '',

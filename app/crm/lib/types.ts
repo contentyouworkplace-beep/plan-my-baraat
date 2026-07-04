@@ -18,12 +18,22 @@ export interface Category {
   created_at: string;
 }
 
+export interface PackageItem {
+  category_id: string;
+  category_name: string;
+  vendor_cost: number;
+  selling_price: number;
+}
+
 export interface VendorPackage {
   id: string;
   name: string;
   description: string | null;
   price: number | null;
   features: string | null;
+  type?: 'vendor' | 'customer';
+  items?: PackageItem[] | null;
+  vendor_cost?: number | null;
   created_at: string;
 }
 

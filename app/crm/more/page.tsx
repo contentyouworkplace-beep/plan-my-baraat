@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import {
-  Building2, Tag, Package, Settings, ChevronRight, HelpCircle, LogOut
+  Building2, Tag, Package, Calculator, Settings, ChevronRight, HelpCircle, LogOut
 } from 'lucide-react';
 import CrmHeader from '../components/CrmHeader';
 import { useSidebar } from '../layout';
@@ -26,6 +26,7 @@ export default function MorePage() {
     { href: '/crm/cities', label: 'Cities Management', desc: 'Add or modify cities', icon: Building2 },
     { href: '/crm/categories', label: 'Categories Management', desc: 'Add or modify vendor categories', icon: Tag },
     { href: '/crm/packages', label: 'Packages Management', desc: 'Manage vendor pricing packages', icon: Package },
+    { href: '/crm/package-maker', label: 'Package Maker', desc: 'Build packages from categories with pricing', icon: Calculator },
     { href: '/crm/settings', label: 'Settings', desc: 'System configuration & preferences', icon: Settings },
   ];
 

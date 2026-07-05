@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { Plus, Trash2, Loader2, Calculator, Pencil, X, Layers, TrendingUp } from 'lucide-react';
+import { Plus, Trash2, Loader2, Calculator, Pencil, X, Layers, TrendingUp, Printer } from 'lucide-react';
 import CrmHeader from '../components/CrmHeader';
 import ConfirmDialog from '../components/ConfirmDialog';
 import { useSidebar } from '../layout';
@@ -29,6 +29,7 @@ export default function PackageMakerPage() {
 
   const [deleteTarget, setDeleteTarget] = useState<VendorPackage | null>(null);
   const [deleting, setDeleting] = useState(false);
+  const [printTarget, setPrintTarget] = useState<VendorPackage | null>(null);
 
   useEffect(() => {
     Promise.all([getCategories(), getPackages()])
@@ -132,6 +133,17 @@ export default function PackageMakerPage() {
   };
 
   const fmt = (n: number) => `₹${n.toLocaleString('en-IN', { maximumFractionDigits: 0 })}`;
+
+  useEffect(() => {
+    if (!printTarget) return;
+    const timer = setTimeout(() => window.print(), 50);
+    const handleAfterPrint = () => setPrintTarget(null);
+    window.addEventListener('afterprint', handleAfterPrint);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('afterprint', handleAfterPrint);
+    };
+  }, [printTarget]);
 
   return (
     <>
@@ -366,6 +378,9 @@ export default function PackageMakerPage() {
                       )}
                     </div>
                     <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                      <button onClick={() => setPrintTarget(pkg)} title="Print (A4)" className="p-1.5 rounded-lg text-gray-400 hover:text-blue-600 hover:bg-blue-50 transition-colors">
+                        <Printer size={14} />
+                      </button>
                       <button onClick={() => startEdit(pkg)} className="p-1.5 rounded-lg text-gray-400 hover:text-amber-600 hover:bg-amber-50 transition-colors">
                         <Pencil size={14} />
                       </button>
@@ -390,6 +405,51 @@ export default function PackageMakerPage() {
         onCancel={() => setDeleteTarget(null)}
         loading={deleting}
       />
+
+      {printTarget && (
+        <div id="package-print-area" className="p-0 font-serif text-[#1c1917]">
+          <div className="flex items-center justify-between border-b-[3px] border-[#7C1C2B] pb-4 mb-6">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.png" alt="PlanMyBaraat" className="h-10 w-auto object-contain" />
+            <div className="text-right text-[11px] text-stone-500">
+              Quote generated {new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </div>
+          </div>
+
+          <h1 className="text-2xl font-bold text-[#7C1C2B] mb-1">{printTarget.name}</h1>
+          {printTarget.type && (
+            <div className="text-[10px] uppercase tracking-widest text-[#B8860B] font-bold mb-3">{printTarget.type} package</div>
+          )}
+          {printTarget.description && (
+            <p className="text-[13px] text-stone-700 leading-relaxed mb-5">{printTarget.description}</p>
+          )}
+
+          <table className="w-full border-collapse mb-5">
+            <thead>
+              <tr>
+                <th className="text-left text-[10px] uppercase tracking-wide text-stone-500 border-b-2 border-stone-200 pb-2">Included</th>
+                <th className="text-right text-[10px] uppercase tracking-wide text-stone-500 border-b-2 border-stone-200 pb-2">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              {(printTarget.items || []).map(i => (
+                <tr key={i.category_id}>
+                  <td className="py-2.5 border-b border-stone-100 text-sm">{i.label || i.category_name}</td>
+                  <td className="py-2.5 border-b border-stone-100 text-sm text-right">{fmt(i.selling_price)}</td>
+                </tr>
+              ))}
+              <tr>
+                <td className="pt-4 text-lg font-bold text-[#7C1C2B] border-t-2 border-[#7C1C2B]">Total Package Price</td>
+                <td className="pt-4 text-lg font-bold text-[#7C1C2B] border-t-2 border-[#7C1C2B] text-right">{fmt(printTarget.price ?? 0)}</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div className="mt-10 text-center text-[10px] uppercase tracking-widest text-stone-400">
+            PlanMyBaraat &middot; Premium Procession Network
+          </div>
+        </div>
+      )}
     </>
   );
 }

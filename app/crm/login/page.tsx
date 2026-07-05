@@ -63,7 +63,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="flex flex-col items-center text-center space-y-2">
           <Image
-            src="/logo.jpg"
+            src="/logo.png"
             alt="PlanMyBaraat Logo"
             width={180}
             height={50}
@@ -71,7 +71,7 @@ export default function LoginPage() {
             priority
           />
           <span className="text-[10px] font-bold tracking-[0.25em] uppercase text-red-500">
-            Basic Management CRM
+            Management CRM
           </span>
           <p className="text-xs text-gray-400 font-medium">Log in to manage vendors and customer leads</p>
         </div>

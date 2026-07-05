@@ -91,6 +91,19 @@ CREATE TABLE IF NOT EXISTS crm_uploaded_files (
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
 
+-- 8. Baraat Package Enquiries Table (separate module from Customer Leads)
+CREATE TABLE IF NOT EXISTS crm_baraat_enquiries (
+    id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    customer_name VARCHAR(255) NOT NULL,
+    event_name VARCHAR(255) NOT NULL,
+    mobile VARCHAR(50) NOT NULL,
+    package_name VARCHAR(255) NOT NULL,
+    status VARCHAR(50) DEFAULT 'New' CHECK (status IN ('New', 'Contacted', 'Interested', 'Converted', 'Lost')),
+    remarks TEXT,
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
+    updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
+);
+
 -- ─── ROW LEVEL SECURITY (RLS) POLICIES ──────────────────────────────────────
 
 -- Enable RLS on all tables
@@ -101,6 +114,7 @@ ALTER TABLE crm_vendors ENABLE ROW LEVEL SECURITY;
 ALTER TABLE crm_customer_leads ENABLE ROW LEVEL SECURITY;
 ALTER TABLE crm_notes ENABLE ROW LEVEL SECURITY;
 ALTER TABLE crm_uploaded_files ENABLE ROW LEVEL SECURITY;
+ALTER TABLE crm_baraat_enquiries ENABLE ROW LEVEL SECURITY;
 
 -- Allow anonymous or authenticated access for easy testing (as requested, prepare structure)
 DROP POLICY IF EXISTS "Allow all access for cities" ON crm_cities;
@@ -123,6 +137,9 @@ CREATE POLICY "Allow all access for notes" ON crm_notes FOR ALL USING (true) WIT
 
 DROP POLICY IF EXISTS "Allow all access for files" ON crm_uploaded_files;
 CREATE POLICY "Allow all access for files" ON crm_uploaded_files FOR ALL USING (true) WITH CHECK (true);
+
+DROP POLICY IF EXISTS "Allow all access for baraat enquiries" ON crm_baraat_enquiries;
+CREATE POLICY "Allow all access for baraat enquiries" ON crm_baraat_enquiries FOR ALL USING (true) WITH CHECK (true);
 
 -- ─── STORAGE BUCKET CREATION ────────────────────────────────────────────────
 -- (Note: Run this inside Supabase SQL editor to create the crm-files bucket)

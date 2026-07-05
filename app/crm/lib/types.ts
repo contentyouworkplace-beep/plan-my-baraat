@@ -102,6 +102,25 @@ export interface LeadFormData {
   remarks: string;
 }
 
+// ─── Baraat Package Enquiries (separate module from Customer Leads) ─────────
+
+export interface BaraatEnquiry {
+  id: string;
+  customer_name: string;
+  event_name: string;
+  mobile: string;
+  package_name: string;
+  status: CrmStatus;
+  remarks: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface BaraatEnquiryFilters {
+  search: string;
+  status: string;
+}
+
 // ─── Notes ───────────────────────────────────────────────────────────────────
 
 export interface Note {

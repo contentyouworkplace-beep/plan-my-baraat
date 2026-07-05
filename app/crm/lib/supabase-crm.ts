@@ -3,6 +3,7 @@ import type {
   City, Category, VendorPackage,
   Vendor, VendorFormData, VendorFilters, VendorStats,
   CustomerLead, LeadFormData, LeadFilters, LeadStats,
+  BaraatEnquiry, BaraatEnquiryFilters,
   Note, UploadedFile
 } from './types';
 
@@ -124,6 +125,8 @@ const INITIAL_VENDORS: Vendor[] = [
     updated_at: new Date().toISOString()
   }
 ];
+
+const INITIAL_BARAAT_ENQUIRIES: BaraatEnquiry[] = [];
 
 const INITIAL_LEADS: CustomerLead[] = [
   {
@@ -699,6 +702,116 @@ export async function deleteLead(id: string): Promise<void> {
     () => {
       const list = getList('crm_customer_leads', INITIAL_LEADS);
       setList('crm_customer_leads', list.filter(l => l.id !== id));
+    }
+  );
+}
+
+// ─── Baraat Package Enquiries (separate module from Customer Leads) ─────────
+
+export async function getBaraatEnquiries(filters?: BaraatEnquiryFilters): Promise<BaraatEnquiry[]> {
+  return runQuery(
+    async () => {
+      let query = crmSupabase
+        .from('crm_baraat_enquiries')
+        .select('*')
+        .order('created_at', { ascending: false });
+
+      if (filters?.search) {
+        query = query.or(
+          `customer_name.ilike.%${filters.search}%,mobile.ilike.%${filters.search}%,event_name.ilike.%${filters.search}%`
+        );
+      }
+      if (filters?.status) query = query.eq('status', filters.status);
+
+      const { data, error } = await query;
+      if (error) throw error;
+      return data ?? [];
+    },
+    () => {
+      let list = getList('crm_baraat_enquiries', INITIAL_BARAAT_ENQUIRIES);
+
+      if (filters?.search) {
+        const search = filters.search.toLowerCase();
+        list = list.filter(e =>
+          e.customer_name.toLowerCase().includes(search) ||
+          e.mobile.toLowerCase().includes(search) ||
+          e.event_name.toLowerCase().includes(search)
+        );
+      }
+      if (filters?.status) list = list.filter(e => e.status === filters.status);
+
+      return list.sort((a, b) => b.created_at.localeCompare(a.created_at));
+    }
+  );
+}
+
+export async function createBaraatEnquiry(payload: {
+  customer_name: string;
+  event_name: string;
+  mobile: string;
+  package_name: string;
+}): Promise<BaraatEnquiry> {
+  return runQuery(
+    async () => {
+      const { data, error } = await crmSupabase
+        .from('crm_baraat_enquiries')
+        .insert({ ...payload, status: 'New' })
+        .select()
+        .single();
+      if (error) throw error;
+      return data;
+    },
+    () => {
+      const list = getList('crm_baraat_enquiries', INITIAL_BARAAT_ENQUIRIES);
+      const e: BaraatEnquiry = {
+        id: `baraat-${Date.now()}`,
+        customer_name: payload.customer_name,
+        event_name: payload.event_name,
+        mobile: payload.mobile,
+        package_name: payload.package_name,
+        status: 'New',
+        remarks: '',
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString()
+      };
+      setList('crm_baraat_enquiries', [...list, e]);
+      return e;
+    }
+  );
+}
+
+export async function updateBaraatEnquiryStatus(id: string, status: BaraatEnquiry['status']): Promise<BaraatEnquiry> {
+  return runQuery(
+    async () => {
+      const { data, error } = await crmSupabase
+        .from('crm_baraat_enquiries')
+        .update({ status, updated_at: new Date().toISOString() })
+        .eq('id', id)
+        .select()
+        .single();
+      if (error) throw error;
+      return data;
+    },
+    () => {
+      const list = getList('crm_baraat_enquiries', INITIAL_BARAAT_ENQUIRIES);
+      const index = list.findIndex(e => e.id === id);
+      if (index === -1) throw new Error("Enquiry not found");
+      list[index] = { ...list[index], status, updated_at: new Date().toISOString() };
+      setList('crm_baraat_enquiries', list);
+      return list[index];
+    }
+  );
+}
+
+export async function deleteBaraatEnquiry(id: string): Promise<void> {
+  return runQuery(
+    async () => {
+      const { error } = await crmSupabase.from('crm_baraat_enquiries').delete().eq('id', id);
+      if (error) throw error;
+    },
+    () => {
+      const list = getList('crm_baraat_enquiries', INITIAL_BARAAT_ENQUIRIES);
+      setList('crm_baraat_enquiries', list.filter(e => e.id !== id));
     }
   );
 }

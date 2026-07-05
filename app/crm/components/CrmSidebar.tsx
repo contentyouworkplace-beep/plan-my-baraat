@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { usePathname, useRouter } from 'next/navigation';
 import {
   LayoutDashboard, Users, UserSearch, MoreHorizontal,
-  Building2, Tag, Package, Calculator, Settings, X, ChevronRight, LogOut
+  Building2, Tag, Package, Calculator, Settings, X, ChevronRight, LogOut, MessageSquare
 } from 'lucide-react';
 import { crmSupabase } from '../lib/supabase-crm';
 
@@ -20,6 +20,7 @@ const sidebarNav = [
   { href: '/crm',             label: 'Dashboard',      icon: LayoutDashboard, exact: true },
   { href: '/crm/vendors',     label: 'Vendors',        icon: Users },
   { href: '/crm/leads',       label: 'Customer Leads', icon: UserSearch },
+  { href: '/crm/baraat-leads', label: 'Baraat Enquiries', icon: MessageSquare },
   { href: '/crm/cities',      label: 'Cities',         icon: Building2 },
   { href: '/crm/categories',  label: 'Categories',     icon: Tag },
   { href: '/crm/packages',    label: 'Packages',       icon: Package },
@@ -70,9 +71,9 @@ export default function CrmSidebar({ mobileOpen, onClose }: CrmSidebarProps) {
       >
         <div className="flex items-center justify-between px-4 py-3 border-b border-white/10">
           <Link href="/crm" className="flex flex-col items-start gap-0.5" onClick={onClose}>
-            <Image src="/logo.jpg" alt="PlanMyBaraat" width={140} height={38} className="h-9 w-auto object-contain" priority />
+            <Image src="/logo.png" alt="PlanMyBaraat" width={140} height={38} className="h-9 w-auto object-contain" priority />
             <span className="text-[9px] font-bold tracking-[0.2em] uppercase text-red-500 pl-0.5">
-              Basic Management CRM
+              Management CRM
             </span>
           </Link>
           <button onClick={onClose} className="lg:hidden p-1.5 text-gray-400 hover:text-white">

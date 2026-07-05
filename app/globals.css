@@ -953,3 +953,28 @@ input[type="range"]::-webkit-slider-thumb:hover {
   .lp-hero-stats { flex-wrap: wrap; gap: 0.75rem; }
   .lp-hero-stat-divider { display: none; }
 }
+
+/* ─── Package Maker: A4 print styles ─── */
+#package-print-area {
+  display: none;
+}
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #package-print-area,
+  #package-print-area * {
+    visibility: visible;
+  }
+  #package-print-area {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  @page {
+    size: A4;
+    margin: 18mm;
+  }
+}

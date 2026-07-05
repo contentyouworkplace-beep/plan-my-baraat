@@ -45,6 +45,18 @@ export function buildWhatsAppLink(
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }
 
+export function buildPackageWhatsAppLink(
+  name: string,
+  phone: string,
+  eventName: string,
+  packageName: string
+): string {
+  const msg = encodeURIComponent(
+    `Hi PlanMyBaraat! 🎊\n\nI'm interested in the *${packageName}*.\n\nName: ${name}\nPhone: ${phone}\nEvent: ${eventName}\n\nPlease share more details and availability!`
+  );
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
+}
+
 // ─── SEO Copy Generators ───────────────────────────────────────────────────────
 
 const PRICE_MAP: Record<string, { min: number; max: number }> = {

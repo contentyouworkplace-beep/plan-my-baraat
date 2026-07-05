@@ -18,8 +18,9 @@ export const metadata: Metadata = {
   title: "Plan My Baraat | Premium Wedding Procession Planner",
   description: "Organize the ultimate wedding procession with real-time budget tracking, interactive timeline designer, custom guest safa selectors, song voting, route simulations, and luxury digital invitations.",
   icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/icon-mark-32.png",
+    apple: "/icon-mark-180.png",
+    shortcut: "/icon-mark-32.png",
   },
 };
 

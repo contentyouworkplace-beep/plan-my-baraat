@@ -1,0 +1,74 @@
+---
+const quickLinks = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About Us" },
+  { href: "/gallery", label: "Gallery" },
+  { href: "/testimonials", label: "Testimonials" },
+  { href: "/contact", label: "Contact Us" },
+];
+
+const packageLinks = [
+  { href: "/#packages", label: "Raj Tilak Package" },
+  { href: "/#packages", label: "Rajwada Package" },
+  { href: "/#packages", label: "Maharaja Package" },
+  { href: "/#packages", label: "Signature Package" },
+];
+---
+
+<footer class="bg-white text-black/50 border-t border-[#E70D1D]/15">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div class="space-y-4">
+      <img src="/logo.png" alt="PlanMyBaraat" width="150" height="40" class="h-9 w-auto object-contain" />
+      <p class="text-xs leading-relaxed">
+        Gujarat's trusted baraat specialists — double-decker DJ trucks, vintage cars, dhol, pyro effects,
+        and safa teams, delivered as ready-made royal packages.
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      <h3 class="text-[10px] uppercase tracking-widest font-bold text-black">Quick Links</h3>
+      <ul class="space-y-2.5">
+        {quickLinks.map((l) => (
+          <li>
+            <a href={l.href} class="text-xs hover:text-[#E70D1D] transition-colors">{l.label}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="space-y-4">
+      <h3 class="text-[10px] uppercase tracking-widest font-bold text-black">Packages</h3>
+      <ul class="space-y-2.5">
+        {packageLinks.map((l) => (
+          <li>
+            <a href={l.href} class="text-xs hover:text-[#E70D1D] transition-colors">{l.label}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <div class="space-y-4">
+      <h3 class="text-[10px] uppercase tracking-widest font-bold text-black">Contact</h3>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-2.5 text-xs">
+          <span class="text-[#E70D1D]">☎</span>
+          <a href="tel:+918830612287" class="hover:text-[#E70D1D] transition-colors">+91 88306 12287</a>
+        </li>
+        <li class="flex items-start gap-2.5 text-xs">
+          <span class="text-[#E70D1D]">✉</span>
+          <a href="https://www.planmybaraat.com" target="_blank" rel="noopener noreferrer" class="hover:text-[#E70D1D] transition-colors">www.planmybaraat.com</a>
+        </li>
+        <li class="flex items-start gap-2.5 text-xs">
+          <span class="text-[#E70D1D]">📍</span>
+          <span>Vadodara, Gujarat – 391110</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="border-t border-black/10 py-6 text-center">
+    <p class="text-[10px] uppercase tracking-widest font-semibold">
+      © 2026 PlanMyBaraat Corp • Delhi • Mumbai • Ahmedabad • Surat • Vadodara • Bangalore
+    </p>
+  </div>
+</footer>

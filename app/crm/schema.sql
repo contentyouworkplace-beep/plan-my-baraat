@@ -95,7 +95,7 @@ CREATE TABLE IF NOT EXISTS crm_uploaded_files (
 CREATE TABLE IF NOT EXISTS crm_baraat_enquiries (
     id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     customer_name VARCHAR(255) NOT NULL,
-    event_name VARCHAR(255) NOT NULL,
+    event_date DATE,
     mobile VARCHAR(50) NOT NULL,
     package_name VARCHAR(255) NOT NULL,
     status VARCHAR(50) DEFAULT 'New' CHECK (status IN ('New', 'Contacted', 'Interested', 'Converted', 'Lost')),

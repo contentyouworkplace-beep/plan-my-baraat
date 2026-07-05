@@ -1,0 +1,35 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { CONTACT_DETAILS } from "../data/siteContent";
+---
+
+<Layout title="Contact Us | Plan My Baraat">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-10 text-center space-y-3">
+    <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Get In Touch</span>
+    <h1 class="font-serif font-black text-3xl md:text-5xl text-black tracking-wide">Contact Us</h1>
+    <p class="text-black/50 text-xs md:text-sm max-w-2xl mx-auto">
+      Have a question before you enquire? Reach us directly — we usually reply within minutes on WhatsApp.
+    </p>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 space-y-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {CONTACT_DETAILS.map((c) => (
+        <div class="bg-white border border-black/10 p-6 space-y-3 shadow-sm">
+          <span class="text-[9px] uppercase tracking-widest text-black/40 font-bold block">{c.label}</span>
+          {"href" in c ? (
+            <a href={c.href} target="_blank" rel="noopener noreferrer" class="text-xs text-black/80 hover:text-[#E70D1D] transition-colors leading-relaxed block">{c.value}</a>
+          ) : (
+            <p class="text-xs text-black/80 leading-relaxed">{c.value}</p>
+          )}
+        </div>
+      ))}
+    </div>
+
+    <div class="text-center">
+      <a href="https://wa.me/918830612287" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
+        Chat With Us on WhatsApp
+      </a>
+    </div>
+  </section>
+</Layout>

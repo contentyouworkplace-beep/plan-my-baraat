@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { Cinzel, Outfit } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 
-const cinzel = Cinzel({
+const manropeHeading = Manrope({
   subsets: ["latin"],
   variable: "--font-cinzel",
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["500", "600", "700", "800"],
 });
 
-const outfit = Outfit({
+const manropeBody = Manrope({
   subsets: ["latin"],
   variable: "--font-outfit",
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  weight: ["300", "400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cinzel.variable} ${outfit.variable} font-sans antialiased bg-[#fcfbf9] text-[#1c1917]`}
+        className={`${manropeHeading.variable} ${manropeBody.variable} font-sans antialiased bg-[#fcfbf9] text-[#1c1917]`}
       >
         {children}
       </body>

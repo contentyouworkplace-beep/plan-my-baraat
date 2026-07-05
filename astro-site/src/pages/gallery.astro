@@ -1,0 +1,50 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { GALLERY_IMAGES, GALLERY_VIDEOS } from "../data/siteContent";
+---
+
+<Layout title="Gallery | Plan My Baraat">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-6 text-center space-y-3">
+    <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Moments We Love</span>
+    <h1 class="font-serif font-black text-3xl md:text-5xl text-black tracking-wide">Gallery</h1>
+    <p class="text-black/50 text-xs md:text-sm max-w-2xl mx-auto">
+      Photos and videos from real baraats we've delivered across Gujarat — from DJ trucks to dhol to the
+      final vintage car entry.
+    </p>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+    <h2 class="text-[10px] uppercase text-black/40 font-bold tracking-widest mb-4">Photos ({GALLERY_IMAGES.length})</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
+      {GALLERY_IMAGES.map((g) => (
+        <div class="relative overflow-hidden group border border-black/10 aspect-square">
+          <img src={g.src} alt={g.label} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
+          <span class="absolute bottom-3 left-3 text-[10px] uppercase font-bold tracking-widest text-white">{g.label}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <h2 class="text-[10px] uppercase text-black/40 font-bold tracking-widest mb-4">Videos ({GALLERY_VIDEOS.length})</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      {GALLERY_VIDEOS.map((v) => (
+        <div class="relative overflow-hidden group border border-black/10 aspect-video">
+          <img src={v.thumb} alt={v.label} class="w-full h-full object-cover opacity-60 transition-transform duration-700 group-hover:scale-105" />
+          <div class="absolute inset-0 bg-black/30"></div>
+          <div class="absolute inset-0 flex items-center justify-center">
+            <div class="h-14 w-14 rounded-full bg-[#E70D1D] flex items-center justify-center group-hover:bg-[#c40d1a] transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+            </div>
+          </div>
+          <span class="absolute top-3 right-3 text-[9px] font-bold text-white bg-black/60 px-2 py-0.5">{v.duration}</span>
+          <span class="absolute bottom-3 left-3 text-xs uppercase font-bold tracking-widest text-white">{v.label}</span>
+        </div>
+      ))}
+    </div>
+    <p class="text-center text-[10px] text-black/30 uppercase tracking-widest mt-8">
+      Video previews coming soon — placeholders shown until final footage is uploaded.
+    </p>
+  </section>
+</Layout>

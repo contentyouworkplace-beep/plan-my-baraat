@@ -1,0 +1,74 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { SITE_IMAGES } from "../data/siteImages";
+import { ABOUT_POINTS } from "../data/siteContent";
+
+const VALUES = [
+  { title: "3rd Generation Legacy", text: "Three generations deep in the Indian wedding industry — this isn't a startup, it's a family craft." },
+  { title: "One Point of Contact", text: "From your first WhatsApp message to the last dhol beat, one team owns your entire baraat." },
+  { title: "In-House Fleet", text: "Our own double-decker DJ trucks and vintage cars — no third-party subcontracting, no delays." },
+];
+---
+
+<Layout title="About Us | Plan My Baraat">
+  <section class="relative overflow-hidden bg-white border-b border-black/10">
+    <div class="absolute inset-0 opacity-25">
+      <img src={SITE_IMAGES.goldCrownMoment} alt="" class="w-full h-full object-cover grayscale" />
+    </div>
+    <div class="absolute inset-0 bg-white/80"></div>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center space-y-4 relative z-10">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">About Us</span>
+      <h1 class="font-serif font-black text-3xl md:text-5xl text-black tracking-wide">
+        Gujarat's Trusted Name in Baraat Celebrations
+      </h1>
+      <p class="text-black/60 text-sm md:text-base max-w-2xl mx-auto">
+        PlanMyBaraat by Ronak brings together everything a groom's entry needs — double-decker DJ trucks,
+        vintage cars, dhol artists, pyro effects, and safa teams — under one roof.
+      </p>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div class="relative h-[300px] sm:h-[380px] lg:h-[440px]">
+      <div class="absolute inset-0 overflow-hidden border border-[#E70D1D]/25">
+        <img src={SITE_IMAGES.coupleGolden} alt="PlanMyBaraat celebration" class="w-full h-full object-cover grayscale-[15%]" />
+      </div>
+    </div>
+
+    <div class="space-y-6">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Our Story</span>
+      <h2 class="font-serif font-black text-2xl md:text-3xl text-black tracking-wide">
+        Three Generations of Baraat Craftsmanship
+      </h2>
+      <p class="text-black/60 text-sm leading-relaxed">
+        What started as a family tradition of arranging Baraat processions has grown into Gujarat's most
+        trusted end-to-end baraat management brand. We've managed over 500 baraats across 6 cities —
+        always with the same promise: one call, one team, zero coordination headaches for the family.
+      </p>
+      <ul class="space-y-3">
+        {ABOUT_POINTS.map((point) => (
+          <li class="flex items-start gap-3 text-xs text-black/70">
+            <span class="text-[#E70D1D] mt-0.5">✓</span>
+            <span>{point}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 space-y-10">
+    <div class="text-center space-y-1">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Why Families Trust Us</span>
+      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">What Sets Us Apart</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {VALUES.map((v) => (
+        <div class="bg-white border border-black/10 p-7 shadow-sm">
+          <h3 class="font-serif font-black text-lg text-black">{v.title}</h3>
+          <p class="text-xs text-black/50 leading-relaxed mt-2">{v.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+</Layout>

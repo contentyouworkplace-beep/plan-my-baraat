@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { TESTIMONIALS } from "../data/siteContent";
+---
+
+<Layout title="Testimonials | Plan My Baraat">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-10 text-center space-y-3">
+    <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">What Families Say</span>
+    <h1 class="font-serif font-black text-3xl md:text-5xl text-black tracking-wide">Testimonials</h1>
+    <p class="text-black/50 text-xs md:text-sm max-w-2xl mx-auto">
+      Real words from families who trusted us with their baraat — across Vadodara, Ahmedabad and Surat.
+    </p>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      {TESTIMONIALS.map((t) => (
+        <div class="p-8 bg-white border border-black/10 text-center relative overflow-hidden flex flex-col shadow-sm">
+          <p class="font-serif italic text-xs md:text-sm text-black/80 leading-relaxed flex-1">"{t.quote}"</p>
+          <div class="text-[10px] uppercase tracking-widest font-bold text-[#E70D1D] mt-5">{t.name} • {t.place}</div>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 text-center">
+    <a href="https://wa.me/918830612287" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
+      Start Your Own Baraat Story
+    </a>
+  </section>
+</Layout>

@@ -1,0 +1,50 @@
+---
+import type { BaraatPackage } from "../data/packagesData";
+
+interface Props {
+  pkg: BaraatPackage;
+  featured?: boolean;
+}
+
+const { pkg, featured = false } = Astro.props;
+---
+
+<div
+  class={`relative flex flex-col border p-7 transition-all duration-300 hover:-translate-y-1 ${
+    featured ? "bg-[#FFF5F5] border-[#E70D1D]/50" : "bg-white border-black/10 hover:border-[#E70D1D]/30"
+  }`}
+>
+  {featured && (
+    <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#E70D1D] text-white text-[9px] font-black uppercase tracking-widest px-4 py-1">
+      Most Popular
+    </span>
+  )}
+
+  <div class="h-11 w-11 border border-[#E70D1D]/30 flex items-center justify-center mb-4 text-[#E70D1D]">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/></svg>
+  </div>
+
+  <h3 class="font-serif font-black text-xl tracking-wide text-black">{pkg.name}</h3>
+  <span class="text-[10px] uppercase font-bold tracking-widest mt-1 text-[#E70D1D]">{pkg.tagline}</span>
+  <p class="text-xs mt-3 leading-relaxed text-black/50">{pkg.description}</p>
+
+  <ul class="mt-5 space-y-2.5 flex-1">
+    {pkg.features.map((feature) => (
+      <li class="flex items-start gap-2.5 text-xs leading-snug">
+        <svg class="h-3.5 w-3.5 mt-0.5 shrink-0 text-[#E70D1D]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <span class="text-black/75">{feature}</span>
+      </li>
+    ))}
+  </ul>
+
+  <button
+    type="button"
+    class={`enquire-btn mt-7 w-full h-12 font-extrabold uppercase tracking-widest text-xs flex items-center justify-center gap-2.5 transition-all duration-300 ${
+      featured ? "bg-[#E70D1D] hover:bg-[#c40d1a] text-white" : "bg-black hover:bg-[#E70D1D] text-white"
+    }`}
+    data-package={pkg.name}
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+    Enquire on WhatsApp
+  </button>
+</div>

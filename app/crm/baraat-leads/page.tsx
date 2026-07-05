@@ -122,7 +122,7 @@ export default function BaraatLeadsPage() {
                   <thead>
                     <tr className="bg-gray-50 border-b border-gray-100">
                       <th className="text-left px-5 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Customer</th>
-                      <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Event</th>
+                      <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Event Date</th>
                       <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Package</th>
                       <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Status</th>
                       <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Received</th>
@@ -143,7 +143,9 @@ export default function BaraatLeadsPage() {
                             </div>
                           </div>
                         </td>
-                        <td className="px-4 py-4 text-gray-600">{e.event_name}</td>
+                        <td className="px-4 py-4 text-gray-600">
+                          {e.event_date ? new Date(e.event_date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: '2-digit' }) : '—'}
+                        </td>
                         <td className="px-4 py-4 text-gray-600 font-medium">{e.package_name}</td>
                         <td className="px-4 py-4">
                           <select
@@ -185,7 +187,7 @@ export default function BaraatLeadsPage() {
                       <StatusBadge status={e.status} size="sm" />
                     </div>
                     <div className="flex items-center gap-3 mt-2 text-xs text-gray-400">
-                      <span>{e.event_name}</span>
+                      <span>{e.event_date ? new Date(e.event_date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: '2-digit' }) : '—'}</span>
                       <span>·</span>
                       <span>{e.package_name}</span>
                     </div>

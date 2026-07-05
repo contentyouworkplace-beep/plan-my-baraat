@@ -107,7 +107,7 @@ export interface LeadFormData {
 export interface BaraatEnquiry {
   id: string;
   customer_name: string;
-  event_name: string;
+  event_date: string | null;
   mobile: string;
   package_name: string;
   status: CrmStatus;

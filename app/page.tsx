@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+import PublicHeader from "@/components/PublicHeader";
 import PublicSeoFooter from "@/components/PublicSeoFooter";
 import { CATEGORIES } from "@/lib/data/categories";
 import { FEATURED_CITIES } from "@/lib/data/cities";
@@ -19,6 +20,7 @@ export default function RootPage() {
 
   return (
     <main className="min-h-screen bg-[#fcfbf9] text-stone-900">
+      <PublicHeader />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLdOrganization }}

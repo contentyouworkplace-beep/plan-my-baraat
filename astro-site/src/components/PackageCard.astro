@@ -37,9 +37,16 @@ const { pkg, featured = false } = Astro.props;
     ))}
   </ul>
 
+  <a
+    href={`/packages/${pkg.id}`}
+    class="mt-7 w-full h-11 border border-black/15 hover:border-[#E70D1D]/40 hover:text-[#E70D1D] text-black font-bold uppercase tracking-widest text-[11px] flex items-center justify-center transition-all duration-300"
+  >
+    View Full Details
+  </a>
+
   <button
     type="button"
-    class={`enquire-btn mt-7 w-full h-12 font-extrabold uppercase tracking-widest text-xs flex items-center justify-center gap-2.5 transition-all duration-300 ${
+    class={`enquire-btn mt-3 w-full h-12 font-extrabold uppercase tracking-widest text-xs flex items-center justify-center gap-2.5 transition-all duration-300 ${
       featured ? "bg-[#E70D1D] hover:bg-[#c40d1a] text-white" : "bg-black hover:bg-[#E70D1D] text-white"
     }`}
     data-package={pkg.name}

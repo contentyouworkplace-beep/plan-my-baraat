@@ -1,0 +1,28 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { BARAAT_PACKAGES } from "../../data/packagesData";
+---
+
+<Layout title="Baraat Packages | PlanMyBaraat" description="Compare all four PlanMyBaraat packages — Raj Tilak, Rajwada, Maharaja, and Signature — and see exactly what's included in each.">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-10">
+    <div class="text-center space-y-3">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Curated Baraat Packages</span>
+      <h1 class="font-serif font-black text-3xl md:text-5xl text-black tracking-wide">Choose Your Royal Experience</h1>
+      <p class="text-black/60 text-sm max-w-2xl mx-auto">
+        Four packages, each explained in full — what's included, who it's built for, and how it compares to the others.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+      {BARAAT_PACKAGES.map((pkg, i) => (
+        <a href={`/packages/${pkg.id}`} class={`block border p-6 transition-all duration-300 hover:-translate-y-1 ${i === 2 ? "bg-[#FFF5F5] border-[#E70D1D]/50" : "bg-white border-black/10 hover:border-[#E70D1D]/30"}`}>
+          {i === 2 && <span class="text-[9px] font-black uppercase tracking-widest text-[#E70D1D] block mb-2">Most Popular</span>}
+          <h2 class="font-serif font-black text-lg text-black">{pkg.name}</h2>
+          <span class="text-[10px] uppercase font-bold tracking-widest text-[#E70D1D] block mt-1">{pkg.tagline}</span>
+          <p class="text-xs text-black/50 mt-2">{pkg.description}</p>
+          <span class="text-xs font-bold text-black mt-4 inline-block">View Full Details →</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</Layout>

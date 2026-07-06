@@ -19,6 +19,10 @@ export function cityToSlug(city: City): string {
   return toSlug(city.name);
 }
 
+export function areaToSlug(area: string): string {
+  return toSlug(area);
+}
+
 export function slugToSpecialty(slug: string): Category | undefined {
   return CATEGORIES.find((c) => toSlug(c.name) === slug);
 }
@@ -100,6 +104,15 @@ export function generateMetaDescription(specialty: Category, city: City): string
   return `Book premium ${specialty.name} for your Baraat in ${city.name}. Get instant WhatsApp quotes from verified vendors. Prices starting ₹${price.min.toLocaleString("en-IN")}. Free inquiry, no commission.`;
 }
 
+export function generateAreaMetaDescription(
+  specialty: Category,
+  city: City,
+  area: string
+): string {
+  const price = PRICE_MAP[specialty.group] ?? { min: 10000, max: 200000 };
+  return `Find ${specialty.name.toLowerCase()} in ${area}, ${city.name}. Explore premium wedding vendors, compare options, and enquire on WhatsApp. Packages often start around ₹${price.min.toLocaleString("en-IN")}.`;
+}
+
 export function generateH1(specialty: Category, city: City): string {
   return `${specialty.name} for Baraat in ${city.name}${city.state && city.state !== city.name ? `, ${city.state}` : ""}`;
 }
@@ -117,6 +130,20 @@ export function generateBodyCopy(specialty: Category, city: City): string[] {
     `We understand that every Baraat is unique — and so are your requirements. By submitting a quick WhatsApp inquiry through this page, our team will personally shortlist the best ${specialty.name.toLowerCase()} vendors in ${city.name} for your wedding date, share portfolios, and get you competitive quotes within hours. No broker fees, no hidden charges.`,
 
     `Thousands of families across India trust PlanMyBaraat to make their Baraat unforgettable. Join them by sending us your requirement today — it's completely free, instant, and handled by our dedicated wedding experts.`,
+  ];
+}
+
+export function generateAreaBodyCopy(
+  specialty: Category,
+  city: City,
+  area: string
+): string[] {
+  const price = PRICE_MAP[specialty.group] ?? { min: 10000, max: 200000 };
+
+  return [
+    `${area} is one of the strongest wedding catchments in ${city.name} for couples comparing reliable ${specialty.name.toLowerCase()} options close to their venue, family homes, or guest accommodation clusters.`,
+    `Plan My Baraat helps families looking for ${specialty.name.toLowerCase()} in ${area}, ${city.name} discover suitable vendors faster, shortlist options by style and budget, and move the conversation to WhatsApp without filling long forms.`,
+    `For many weddings in ${city.name}, ${specialty.name.toLowerCase()} packages typically begin near ₹${price.min.toLocaleString("en-IN")} and scale upward based on production size, customization, guest count, and event-day logistics.`,
   ];
 }
 
@@ -145,6 +172,23 @@ export function generateFAQs(specialty: Category, city: City): FAQ[] {
     {
       question: `Does PlanMyBaraat verify vendors in ${city.name}?`,
       answer: `Yes! Every vendor on PlanMyBaraat goes through a verification process including ID check, portfolio review, and past client references. We ensure that ${specialty.name.toLowerCase()} vendors in ${city.name} are experienced, reliable, and deliver as promised.`,
+    },
+  ];
+}
+
+export function generateAreaFAQs(specialty: Category, city: City, area: string): FAQ[] {
+  return [
+    {
+      question: `Do you provide ${specialty.name.toLowerCase()} in ${area}, ${city.name}?`,
+      answer: `Yes. Plan My Baraat can help you discover and enquire about ${specialty.name.toLowerCase()} serving ${area} and nearby parts of ${city.name}.`,
+    },
+    {
+      question: `How do I compare ${specialty.name.toLowerCase()} near ${area}?`,
+      answer: `Start with your date, venue zone, and budget. We then help narrow down suitable ${specialty.name.toLowerCase()} options for ${area}, ${city.name} on WhatsApp.`,
+    },
+    {
+      question: `Can you support destination guests and venue-side logistics in ${area}?`,
+      answer: `Yes. For many weddings, the right vendor shortlist depends on access, parking, guest movement, and venue timelines around ${area}, which is why location-specific planning matters.`,
     },
   ];
 }
@@ -211,4 +255,87 @@ export function generateJsonLdLocalBusiness(specialty: Category, city: City): st
     },
   };
   return JSON.stringify(schema);
+}
+
+export function generateJsonLdOrganization(): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "Plan My Baraat",
+    url: "https://planmybaraat.com",
+    logo: "https://planmybaraat.com/icon-mark-512.png",
+    sameAs: [],
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      telephone: "+91-8830612287",
+      availableLanguage: ["English", "Hindi"],
+    },
+  });
+}
+
+export function generateJsonLdWebSite(): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Plan My Baraat",
+    url: "https://planmybaraat.com",
+    inLanguage: "en-IN",
+  });
+}
+
+export function generateJsonLdCollectionPage(
+  name: string,
+  description: string,
+  url: string
+): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    description,
+    url,
+  });
+}
+
+export function generateJsonLdItemList(
+  items: Array<{ name: string; url: string }>
+): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+    })),
+  });
+}
+
+export function generateJsonLdService(
+  specialty: Category,
+  city: City,
+  area?: string
+): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: area
+      ? `${specialty.name} in ${area}, ${city.name}`
+      : `${specialty.name} in ${city.name}`,
+    serviceType: specialty.name,
+    areaServed: {
+      "@type": "City",
+      name: city.name,
+    },
+    provider: {
+      "@type": "Organization",
+      name: "Plan My Baraat",
+      url: "https://planmybaraat.com",
+    },
+    url: area
+      ? `https://planmybaraat.com/${specialtyToSlug(specialty)}/${cityToSlug(city)}/${areaToSlug(area)}`
+      : `https://planmybaraat.com/${specialtyToSlug(specialty)}/${cityToSlug(city)}`,
+  });
 }

@@ -1,15 +1,32 @@
 import Link from "next/link";
 
+import PublicSeoFooter from "@/components/PublicSeoFooter";
 import { CATEGORIES } from "@/lib/data/categories";
 import { FEATURED_CITIES } from "@/lib/data/cities";
-import { cityToSlug, specialtyToSlug } from "@/lib/seoHelpers";
+import {
+  cityToSlug,
+  generateJsonLdOrganization,
+  generateJsonLdWebSite,
+  specialtyToSlug,
+} from "@/lib/seoHelpers";
 
 const featuredCategories = CATEGORIES.slice(0, 8);
 const featuredCities = FEATURED_CITIES.slice(0, 8);
 
 export default function RootPage() {
+  const jsonLdOrganization = generateJsonLdOrganization();
+  const jsonLdWebSite = generateJsonLdWebSite();
+
   return (
     <main className="min-h-screen bg-[#fcfbf9] text-stone-900">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdOrganization }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdWebSite }}
+      />
       <section className="relative overflow-hidden border-b border-stone-200 bg-[radial-gradient(circle_at_top_left,_rgba(245,158,11,0.22),_transparent_30%),linear-gradient(135deg,#fcfbf9_0%,#f5ebe0_48%,#ead7c3_100%)]">
         <div className="mx-auto flex max-w-7xl flex-col gap-12 px-6 py-16 lg:flex-row lg:items-center lg:px-10 lg:py-24">
           <div className="max-w-3xl space-y-6">
@@ -32,6 +49,12 @@ export default function RootPage() {
                 className="rounded-full bg-stone-950 px-6 py-3 text-sm font-semibold text-white transition hover:bg-stone-800"
               >
                 Explore specialties
+              </Link>
+              <Link
+                href="/city"
+                className="rounded-full border border-stone-400 px-6 py-3 text-sm font-semibold text-stone-800 transition hover:border-stone-700 hover:bg-white/80"
+              >
+                Browse cities
               </Link>
               <Link
                 href="/crm/login"
@@ -134,6 +157,8 @@ export default function RootPage() {
           </div>
         </div>
       </section>
+
+      <PublicSeoFooter />
     </main>
   );
 }

@@ -20,6 +20,9 @@ import {
 import { getVendorImages } from "@/lib/data/vendorImages";
 import WhatsAppInquiryForm from "@/components/WhatsAppInquiryForm";
 import FAQAccordion from "@/components/FAQAccordion";
+import PublicSeoFooter from "@/components/PublicSeoFooter";
+import { getAreasForCity } from "@/lib/data/seoDirectory";
+import { areaToSlug, generateJsonLdService } from "@/lib/seoHelpers";
 
 // ─── Static Params (top 300 cities × all specialties) ─────────────────────────
 export async function generateStaticParams() {
@@ -95,6 +98,8 @@ export default function VendorCityPage({
   const jsonLdFaq = generateJsonLdFAQ(faqs);
   const jsonLdBreadcrumb = generateJsonLdBreadcrumb(specialty, city);
   const jsonLdBusiness = generateJsonLdLocalBusiness(specialty, city);
+  const jsonLdService = generateJsonLdService(specialty, city);
+  const areas = getAreasForCity(city.name);
 
   return (
     <>
@@ -110,6 +115,10 @@ export default function VendorCityPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLdBusiness }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdService }}
       />
 
       {/* ── Top Navbar ── */}
@@ -335,6 +344,25 @@ export default function VendorCityPage({
           </div>
         </section>
       )}
+
+      {areas.length > 0 && (
+        <section className="lp-related" style={{ background: "#fcfbf9" }}>
+          <h3>Areas We Serve in {city.name}</h3>
+          <div className="lp-related-links">
+            {areas.map((area) => (
+              <Link
+                key={area}
+                href={`/${params.specialty}/${params.city}/${areaToSlug(area)}`}
+                className="lp-related-link"
+              >
+                {area}
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <PublicSeoFooter currentCityName={city.name} currentSpecialtySlug={params.specialty} />
 
       {/* ══ FOOTER ═════════════════════════════════════════════════════════════ */}
       <footer className="lp-footer">

@@ -2,8 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import PublicSeoFooter from "@/components/PublicSeoFooter";
 import { CITIES, FEATURED_CITIES } from "@/lib/data/cities";
-import { slugToSpecialty, specialtyToSlug, cityToSlug } from "@/lib/seoHelpers";
+import { getVendorImages } from "@/lib/data/vendorImages";
+import {
+  cityToSlug,
+  generateJsonLdCollectionPage,
+  generateJsonLdItemList,
+  slugToSpecialty,
+  specialtyToSlug,
+} from "@/lib/seoHelpers";
 
 export async function generateStaticParams() {
   return [];
@@ -19,6 +27,7 @@ export async function generateMetadata({
 
   const title = `${specialty.name} in Top Wedding Cities`;
   const description = `Explore ${specialty.name.toLowerCase()} across India's leading wedding destinations. Browse city landing pages, compare locations, and send quick WhatsApp enquiries.`;
+  const image = getVendorImages(specialty.id)[0];
 
   return {
     title,
@@ -30,11 +39,13 @@ export async function generateMetadata({
       title,
       description,
       url: `/${params.specialty}`,
+      images: [{ url: image, width: 900, height: 600 }],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: [image],
     },
   };
 }
@@ -54,9 +65,28 @@ export default function SpecialtyPage({
       !city.isInternational &&
       !priorityCities.some((priorityCity) => priorityCity.name === city.name)
   ).slice(0, 24);
+  const jsonLdCollectionPage = generateJsonLdCollectionPage(
+    `${specialty.name} wedding services`,
+    `Specialty hub for ${specialty.name.toLowerCase()} across top wedding cities in India.`,
+    `https://planmybaraat.com/${specialtyToSlug(specialty)}`
+  );
+  const jsonLdItemList = generateJsonLdItemList(
+    priorityCities.map((city) => ({
+      name: `${specialty.name} in ${city.name}`,
+      url: `https://planmybaraat.com/${specialtyToSlug(specialty)}/${cityToSlug(city)}`,
+    }))
+  );
 
   return (
     <main className="min-h-screen bg-[#fcfbf9] text-stone-900">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdCollectionPage }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: jsonLdItemList }}
+      />
       <section className="border-b border-stone-200 bg-white">
         <div className="mx-auto max-w-6xl px-6 py-14 lg:px-10">
           <nav className="mb-6 text-sm text-stone-500">
@@ -122,6 +152,8 @@ export default function SpecialtyPage({
           </div>
         </div>
       </section>
+
+      <PublicSeoFooter currentSpecialtySlug={params.specialty} />
     </main>
   );
 }

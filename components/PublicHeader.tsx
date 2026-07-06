@@ -28,7 +28,7 @@ export default function PublicHeader() {
         </nav>
         <Link
           href="/crm/login"
-          className="rounded-full border border-stone-400 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-stone-800 transition hover:border-stone-700 hover:bg-white"
+          className="rounded-full border border-stone-400 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-stone-800 transition hover:border-stone-700 hover:bg-[#F8F4EE]"
         >
           CRM Login
         </Link>

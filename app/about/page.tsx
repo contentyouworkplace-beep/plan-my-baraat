@@ -26,23 +26,23 @@ const VALUES = [
 
 export default function AboutPage() {
   return (
-    <div className="relative flex min-h-screen flex-col bg-black font-sans text-white">
+    <div className="relative flex min-h-screen flex-col bg-[#F8F4EE] font-sans text-black">
       <SiteHeader />
 
       <div className="flex-grow">
-        <section className="relative overflow-hidden border-b border-white/10 bg-black">
-          <div className="absolute inset-0 opacity-25">
+        <section className="relative overflow-hidden border-b border-black/10 bg-[#F8F4EE]">
+          <div className="absolute inset-0 opacity-20">
             <Image src={SITE_IMAGES.goldCrownMoment} alt="" fill className="object-cover grayscale" priority />
           </div>
-          <div className="absolute inset-0 bg-black/70" />
+          <div className="absolute inset-0 bg-[rgba(248,244,238,0.86)]" />
           <div className="relative z-10 mx-auto max-w-4xl space-y-4 px-4 py-20 text-center sm:px-6 lg:px-8">
             <span className="block text-[9px] font-bold uppercase tracking-widest text-[#C9A24B]">
               About Us
             </span>
-            <h1 className="font-serif text-3xl font-black tracking-wide text-white md:text-5xl">
+            <h1 className="font-serif text-3xl font-black tracking-wide text-black md:text-5xl">
               Gujarat&apos;s Trusted Name in Baraat Celebrations
             </h1>
-            <p className="mx-auto max-w-2xl text-sm text-white/60 md:text-base">
+            <p className="mx-auto max-w-2xl text-sm text-black/60 md:text-base">
               PlanMyBaraat by Ronak brings together everything a groom&apos;s entry needs -
               double-decker DJ trucks, vintage cars, dhol artists, pyro effects, and
               safa teams - under one roof.
@@ -66,10 +66,10 @@ export default function AboutPage() {
             <span className="block text-[9px] font-bold uppercase tracking-widest text-[#C9A24B]">
               Our Story
             </span>
-            <h2 className="font-serif text-2xl font-black tracking-wide text-white md:text-3xl">
+            <h2 className="font-serif text-2xl font-black tracking-wide text-black md:text-3xl">
               Three Generations of Baraat Craftsmanship
             </h2>
-            <p className="text-sm leading-relaxed text-white/60">
+            <p className="text-sm leading-relaxed text-black/60">
               What started as a family tradition of arranging Baraat processions has grown
               into Gujarat&apos;s most trusted end-to-end baraat management brand. We&apos;ve
               managed over 500 baraats across 6 cities - always with the same promise:
@@ -77,7 +77,7 @@ export default function AboutPage() {
             </p>
             <ul className="space-y-3">
               {ABOUT_POINTS.map((point, index) => (
-                <li key={index} className="flex items-start gap-3 text-xs text-white/70">
+                <li key={index} className="flex items-start gap-3 text-xs text-black/70">
                   <Check className="mt-0.5 h-4 w-4 shrink-0 text-[#C9A24B]" />
                   <span>{point}</span>
                 </li>
@@ -91,19 +91,19 @@ export default function AboutPage() {
             <span className="block text-[9px] font-bold uppercase tracking-widest text-[#C9A24B]">
               Why Families Trust Us
             </span>
-            <h2 className="font-serif text-2xl font-black tracking-wide text-white md:text-4xl">
+            <h2 className="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">
               What Sets Us Apart
             </h2>
           </div>
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {VALUES.map((value, index) => (
-              <div key={index} className="border border-white/10 bg-[#0F0F0F] p-7">
+              <div key={index} className="border border-black/10 bg-[#F8F4EE] p-7 shadow-sm">
                 <div className="mb-4 flex h-11 w-11 items-center justify-center border border-[#C9A24B]/25 text-[#C9A24B]">
                   <value.icon className="h-5 w-5" />
                 </div>
-                <h3 className="font-serif text-lg font-black text-white">{value.title}</h3>
-                <p className="mt-2 text-xs leading-relaxed text-white/50">{value.text}</p>
+                <h3 className="font-serif text-lg font-black text-black">{value.title}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-black/50">{value.text}</p>
               </div>
             ))}
           </div>

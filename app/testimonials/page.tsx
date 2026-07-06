@@ -6,7 +6,7 @@ import { TESTIMONIALS } from "@/lib/siteContent";
 
 export default function TestimonialsPage() {
   return (
-    <div className="relative flex min-h-screen flex-col bg-black font-sans text-white">
+    <div className="relative flex min-h-screen flex-col bg-[#F8F4EE] font-sans text-black">
       <SiteHeader />
 
       <div className="flex-grow">
@@ -14,10 +14,10 @@ export default function TestimonialsPage() {
           <span className="block text-[9px] font-bold uppercase tracking-widest text-[#C9A24B]">
             What Families Say
           </span>
-          <h1 className="font-serif text-3xl font-black tracking-wide text-white md:text-5xl">
+          <h1 className="font-serif text-3xl font-black tracking-wide text-black md:text-5xl">
             Testimonials
           </h1>
-          <p className="mx-auto max-w-2xl text-xs text-white/50 md:text-sm">
+          <p className="mx-auto max-w-2xl text-xs text-black/50 md:text-sm">
             Real words from families who trusted us with their baraat - across
             Vadodara, Ahmedabad and Surat.
           </p>
@@ -28,14 +28,14 @@ export default function TestimonialsPage() {
             {TESTIMONIALS.map((testimonial, index) => (
               <div
                 key={index}
-                className="relative flex flex-col overflow-hidden border border-white/10 bg-[#0F0F0F] p-8 text-center"
+                className="relative flex flex-col overflow-hidden border border-black/10 bg-[#F8F4EE] p-8 text-center shadow-sm"
               >
                 <div className="mb-4 flex items-center justify-center gap-1 text-[#C9A24B]">
                   {Array.from({ length: 5 }).map((_, starIndex) => (
                     <Star key={starIndex} className="h-3.5 w-3.5 fill-current" />
                   ))}
                 </div>
-                <p className="flex-1 font-serif text-xs italic leading-relaxed text-white/80 md:text-sm">
+                <p className="flex-1 font-serif text-xs italic leading-relaxed text-black/80 md:text-sm">
                   &ldquo;{testimonial.quote}&rdquo;
                 </p>
                 <div className="mt-5 text-[10px] font-bold uppercase tracking-widest text-[#C9A24B]">

@@ -48,7 +48,7 @@ export default function PublicContentPage({
   return (
     <main className="min-h-screen bg-[#fcfbf9] text-stone-900">
       <PublicHeader />
-      <section className="border-b border-stone-200 bg-white">
+      <section className="border-b border-stone-200 bg-[#F8F4EE]">
         <div className="mx-auto max-w-5xl px-6 py-16 text-center lg:px-10">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-amber-700">
             {eyebrow}
@@ -67,7 +67,7 @@ export default function PublicContentPage({
           {sections.map((section) => (
             <div
               key={section.heading}
-              className="rounded-[28px] border border-stone-200 bg-white p-7 shadow-sm"
+              className="rounded-[28px] border border-stone-200 bg-[#F8F4EE] p-7 shadow-sm"
             >
               <h2 className="text-2xl font-bold text-stone-950">{section.heading}</h2>
               <div className="mt-4 space-y-4 text-base leading-8 text-stone-700">
@@ -90,7 +90,7 @@ export default function PublicContentPage({
           </a>
           <Link
             href="/city"
-            className="rounded-full border border-stone-400 px-6 py-3 text-sm font-semibold text-stone-800 transition hover:border-stone-700 hover:bg-white"
+            className="rounded-full border border-stone-400 px-6 py-3 text-sm font-semibold text-stone-800 transition hover:border-stone-700 hover:bg-[#F8F4EE]"
           >
             Browse cities
           </Link>

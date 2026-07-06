@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
+
+import { generateJsonLdOrganization, generateJsonLdWebSite } from "@/lib/seoHelpers";
 import "./globals.css";
 
 const manropeHeading = Manrope({
@@ -52,11 +54,22 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const organizationSchema = generateJsonLdOrganization();
+  const websiteSchema = generateJsonLdWebSite();
+
   return (
     <html lang="en">
       <body
         className={`${manropeHeading.variable} ${manropeBody.variable} font-sans antialiased bg-[#fcfbf9] text-[#1c1917]`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: organizationSchema }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: websiteSchema }}
+        />
         {children}
       </body>
     </html>

@@ -160,23 +160,61 @@ export interface FooterKeywordLink {
   href: string;
 }
 
-const footerKeywordCandidates: FooterKeywordLink[] = [
-  ...CATEGORIES.map((category) => ({
-    label: category.name,
-    href: `/${slugify(category.name)}`,
-  })),
-  ...PRIORITY_CITIES.map((city) => ({
-    label: `Wedding services in ${city.name}`,
-    href: `/${slugify(CATEGORIES[0].name)}/${slugify(city.name)}`,
-  })),
-  ...PRIORITY_CITIES.slice(0, 7).flatMap((city, index) =>
-    CATEGORIES.slice(index % 2, index % 2 + 4).map((category) => ({
-      label: `${category.name} in ${city.name}`,
-      href: `/${slugify(category.name)}/${slugify(city.name)}`,
-    }))
-  ),
+export interface SeoKeywordPage {
+  slug: string;
+  label: string;
+  href: string;
+  cityName: string;
+  specialtyName: string;
+  specialtySlug: string;
+  citySlug: string;
+  areaNames: string[];
+}
+
+const KEYWORD_CATEGORY_IDS = [
+  "banquet_hall",
+  "resorts_hotels",
+  "wedding_caterers",
+  "floral_decorators",
+  "candid_photographer",
+  "bridal_makeup",
+  "wedding_dj",
+  "brass_band",
+  "dhol_tasha",
+  "vintage_baggi",
 ];
 
-export const FOOTER_KEYWORD_LINKS = footerKeywordCandidates.slice(0, 50);
+export const SEO_KEYWORD_PAGES: SeoKeywordPage[] = PRIORITY_CITIES.flatMap((city) =>
+  KEYWORD_CATEGORY_IDS.map((categoryId) => {
+    const category = CATEGORIES.find((item) => item.id === categoryId);
+
+    if (!category) {
+      return null;
+    }
+
+    const specialtySlug = slugify(category.name);
+    const citySlug = slugify(city.name);
+
+    return {
+      slug: `${specialtySlug}-${citySlug}`,
+      label: `${category.name} in ${city.name}`,
+      href: `/baraat-services/${specialtySlug}-${citySlug}`,
+      cityName: city.name,
+      specialtyName: category.name,
+      specialtySlug,
+      citySlug,
+      areaNames: getAreasForCity(city.name).slice(0, 6),
+    };
+  }).filter((item): item is SeoKeywordPage => Boolean(item))
+).slice(0, 50);
+
+export const FOOTER_KEYWORD_LINKS: FooterKeywordLink[] = SEO_KEYWORD_PAGES.map((page) => ({
+  label: page.label,
+  href: page.href,
+}));
+
+export function getSeoKeywordPageBySlug(slug: string): SeoKeywordPage | undefined {
+  return SEO_KEYWORD_PAGES.find((page) => page.slug === slug);
+}
 
 export const DIRECTORY_CITIES = CITIES.filter((city) => !city.isInternational).slice(0, 300);

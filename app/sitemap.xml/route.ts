@@ -4,7 +4,7 @@ import { cityToSlug } from "@/lib/seoHelpers";
 const BASE_URL = "https://planmybaraat.com";
 export const dynamic = "force-dynamic";
 
-const baseSections = ["core", "specialties"];
+const baseSections = ["core", "specialties", "keywords"];
 
 const citySections = DIRECTORY_CITIES.map((city) => `city-${cityToSlug(city)}`);
 

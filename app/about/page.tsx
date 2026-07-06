@@ -1,10 +1,33 @@
 import Image from "next/image";
+import type { Metadata } from "next";
 import { Award, Check, Star, Users } from "lucide-react";
 
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import { ABOUT_POINTS } from "@/lib/siteContent";
 import { SITE_IMAGES } from "@/lib/siteImages";
+
+export const metadata: Metadata = {
+  title: "About Plan My Baraat",
+  description:
+    "Learn about Plan My Baraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
+  alternates: {
+    canonical: "/about",
+  },
+  openGraph: {
+    title: "About Plan My Baraat",
+    description:
+      "Learn about Plan My Baraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
+    url: "/about",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Plan My Baraat",
+    description:
+      "Learn about Plan My Baraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
+  },
+};
 
 const VALUES = [
   {

@@ -1,5 +1,9 @@
 import { CATEGORIES } from "@/lib/data/categories";
-import { DIRECTORY_CITIES, getAreasForCity } from "@/lib/data/seoDirectory";
+import {
+  DIRECTORY_CITIES,
+  SEO_KEYWORD_PAGES,
+  getAreasForCity,
+} from "@/lib/data/seoDirectory";
 import { areaToSlug, cityToSlug, specialtyToSlug } from "@/lib/seoHelpers";
 
 const BASE_URL = "https://planmybaraat.com";
@@ -21,11 +25,24 @@ ${entries}
 
 function getUrlsForSection(section: string) {
   if (section === "core") {
-    return [BASE_URL, `${BASE_URL}/city`];
+    return [
+      BASE_URL,
+      `${BASE_URL}/about`,
+      `${BASE_URL}/contact`,
+      `${BASE_URL}/gallery`,
+      `${BASE_URL}/testimonials`,
+      `${BASE_URL}/services`,
+      `${BASE_URL}/baraat-services`,
+      `${BASE_URL}/city`,
+    ];
   }
 
   if (section === "specialties") {
     return CATEGORIES.map((category) => `${BASE_URL}/${specialtyToSlug(category)}`);
+  }
+
+  if (section === "keywords") {
+    return SEO_KEYWORD_PAGES.map((page) => `${BASE_URL}${page.href}`);
   }
 
   if (section.startsWith("city-")) {

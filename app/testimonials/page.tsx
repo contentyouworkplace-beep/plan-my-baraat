@@ -1,8 +1,31 @@
+import type { Metadata } from "next";
 import { MessageCircle, Star } from "lucide-react";
 
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import { TESTIMONIALS } from "@/lib/siteContent";
+
+export const metadata: Metadata = {
+  title: "Testimonials | Plan My Baraat",
+  description:
+    "Read testimonials from families who booked Plan My Baraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
+  alternates: {
+    canonical: "/testimonials",
+  },
+  openGraph: {
+    title: "Testimonials | Plan My Baraat",
+    description:
+      "Read testimonials from families who booked Plan My Baraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
+    url: "/testimonials",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Testimonials | Plan My Baraat",
+    description:
+      "Read testimonials from families who booked Plan My Baraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
+  },
+};
 
 export default function TestimonialsPage() {
   return (

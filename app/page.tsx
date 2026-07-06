@@ -1,6 +1,5 @@
-"use client";
-
 import Image from "next/image";
+import type { Metadata } from "next";
 import {
   Award,
   Check,
@@ -16,14 +15,10 @@ import {
   Star,
   Users,
 } from "lucide-react";
-import { useState } from "react";
 
-import PackageCard from "@/components/PackageCard";
-import PackageEnquiryModal from "@/components/PackageEnquiryModal";
+import HomePackagesSection from "@/components/HomePackagesSection";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
-import type { BaraatPackage } from "@/lib/packagesData";
-import { BARAAT_PACKAGES } from "@/lib/packagesData";
 import {
   ABOUT_POINTS,
   CONTACT_DETAILS,
@@ -60,9 +55,31 @@ const STEPS = [
   },
 ];
 
-export default function HomePage() {
-  const [selectedPackage, setSelectedPackage] = useState<BaraatPackage | null>(null);
+export const metadata: Metadata = {
+  title: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
+  description:
+    "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities. Browse by specialty, compare options, and enquire instantly on WhatsApp.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
+    description:
+      "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities. Browse by specialty, compare options, and enquire instantly on WhatsApp.",
+    url: "/",
+    siteName: "Plan My Baraat",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
+    description:
+      "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities. Browse by specialty, compare options, and enquire instantly on WhatsApp.",
+  },
+};
 
+export default function HomePage() {
   return (
     <div className="relative flex min-h-screen flex-col bg-[#F8F4EE] font-sans text-black">
       <SiteHeader />
@@ -234,31 +251,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section id="packages" className="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:px-8">
-          <div className="space-y-1 text-center">
-            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
-              Curated Baraat Packages
-            </span>
-            <h2 className="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">
-              Choose Your Royal Experience
-            </h2>
-            <p className="mx-auto max-w-2xl pt-2 text-xs text-black/50 md:text-sm">
-              Every package can be customized - enquire on WhatsApp with your name,
-              event, and number to get a personalized quote and availability.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {BARAAT_PACKAGES.map((pkg, index) => (
-              <PackageCard
-                key={pkg.id}
-                pkg={pkg}
-                featured={index === 2}
-                onEnquire={setSelectedPackage}
-              />
-            ))}
-          </div>
-        </section>
+        <HomePackagesSection />
 
         <section id="gallery" className="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:px-8">
           <div className="space-y-1 text-center">
@@ -454,10 +447,6 @@ export default function HomePage() {
       </div>
 
       <SiteFooter />
-
-      {selectedPackage ? (
-        <PackageEnquiryModal pkg={selectedPackage} onClose={() => setSelectedPackage(null)} />
-      ) : null}
     </div>
   );
 }

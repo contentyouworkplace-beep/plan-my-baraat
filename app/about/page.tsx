@@ -1,35 +1,116 @@
-import PublicContentPage, {
-  buildSimpleMetadata,
-} from "@/components/PublicContentPage";
+import Image from "next/image";
+import { Award, Check, Star, Users } from "lucide-react";
 
-export const metadata = buildSimpleMetadata(
-  "About Plan My Baraat",
-  "Learn how Plan My Baraat helps families discover wedding vendors, baraat services, and city-specific planning support across India.",
-  "/about"
-);
+import SiteFooter from "@/components/SiteFooter";
+import SiteHeader from "@/components/SiteHeader";
+import { ABOUT_POINTS } from "@/lib/siteContent";
+import { SITE_IMAGES } from "@/lib/siteImages";
+
+const VALUES = [
+  {
+    icon: Award,
+    title: "3rd Generation Legacy",
+    text: "Three generations deep in the Indian wedding industry - this isn't a startup, it's a family craft.",
+  },
+  {
+    icon: Users,
+    title: "One Point of Contact",
+    text: "From your first WhatsApp message to the last dhol beat, one team owns your entire baraat.",
+  },
+  {
+    icon: Star,
+    title: "In-House Fleet",
+    text: "Our own double-decker DJ trucks and vintage cars - no third-party subcontracting, no delays.",
+  },
+];
 
 export default function AboutPage() {
   return (
-    <PublicContentPage
-      eyebrow="About Us"
-      title="A simpler way to discover wedding vendors and baraat services"
-      description="Plan My Baraat is building a cleaner search-and-discovery layer for couples and families who want trusted wedding options without scattered vendor hunting."
-      sections={[
-        {
-          heading: "What we do",
-          body: [
-            "We organize wedding planning discovery around the way families actually search: by service, by city, and by local area. That means easier browsing for baraat processions, venues, decor, photography, entertainment, and styling.",
-            "Instead of forcing couples through long forms first, the platform is designed to let people understand options quickly and then continue the conversation directly on WhatsApp.",
-          ],
-        },
-        {
-          heading: "Why this matters",
-          body: [
-            "Wedding planning is high-intent and location-sensitive. A good vendor in Jaipur is different from a good fit in Mumbai or Udaipur, and local areas can change logistics, pricing, and timing significantly.",
-            "That is why Plan My Baraat focuses on city-specific and area-aware discovery pages instead of a one-size-fits-all directory.",
-          ],
-        },
-      ]}
-    />
+    <div className="relative flex min-h-screen flex-col bg-black font-sans text-white">
+      <SiteHeader />
+
+      <div className="flex-grow">
+        <section className="relative overflow-hidden border-b border-white/10 bg-black">
+          <div className="absolute inset-0 opacity-25">
+            <Image src={SITE_IMAGES.goldCrownMoment} alt="" fill className="object-cover grayscale" priority />
+          </div>
+          <div className="absolute inset-0 bg-black/70" />
+          <div className="relative z-10 mx-auto max-w-4xl space-y-4 px-4 py-20 text-center sm:px-6 lg:px-8">
+            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#C9A24B]">
+              About Us
+            </span>
+            <h1 className="font-serif text-3xl font-black tracking-wide text-white md:text-5xl">
+              Gujarat&apos;s Trusted Name in Baraat Celebrations
+            </h1>
+            <p className="mx-auto max-w-2xl text-sm text-white/60 md:text-base">
+              PlanMyBaraat by Ronak brings together everything a groom&apos;s entry needs -
+              double-decker DJ trucks, vintage cars, dhol artists, pyro effects, and
+              safa teams - under one roof.
+            </p>
+          </div>
+        </section>
+
+        <section className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div className="relative h-[300px] sm:h-[380px] lg:h-[440px]">
+            <div className="absolute inset-0 overflow-hidden border border-[#C9A24B]/25">
+              <Image
+                src={SITE_IMAGES.coupleGolden}
+                alt="PlanMyBaraat celebration"
+                fill
+                className="object-cover grayscale-[15%]"
+              />
+            </div>
+          </div>
+
+          <div className="space-y-6">
+            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#C9A24B]">
+              Our Story
+            </span>
+            <h2 className="font-serif text-2xl font-black tracking-wide text-white md:text-3xl">
+              Three Generations of Baraat Craftsmanship
+            </h2>
+            <p className="text-sm leading-relaxed text-white/60">
+              What started as a family tradition of arranging Baraat processions has grown
+              into Gujarat&apos;s most trusted end-to-end baraat management brand. We&apos;ve
+              managed over 500 baraats across 6 cities - always with the same promise:
+              one call, one team, zero coordination headaches for the family.
+            </p>
+            <ul className="space-y-3">
+              {ABOUT_POINTS.map((point, index) => (
+                <li key={index} className="flex items-start gap-3 text-xs text-white/70">
+                  <Check className="mt-0.5 h-4 w-4 shrink-0 text-[#C9A24B]" />
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl space-y-10 px-4 pb-16 sm:px-6 lg:px-8">
+          <div className="space-y-1 text-center">
+            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#C9A24B]">
+              Why Families Trust Us
+            </span>
+            <h2 className="font-serif text-2xl font-black tracking-wide text-white md:text-4xl">
+              What Sets Us Apart
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+            {VALUES.map((value, index) => (
+              <div key={index} className="border border-white/10 bg-[#0F0F0F] p-7">
+                <div className="mb-4 flex h-11 w-11 items-center justify-center border border-[#C9A24B]/25 text-[#C9A24B]">
+                  <value.icon className="h-5 w-5" />
+                </div>
+                <h3 className="font-serif text-lg font-black text-white">{value.title}</h3>
+                <p className="mt-2 text-xs leading-relaxed text-white/50">{value.text}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      </div>
+
+      <SiteFooter />
+    </div>
   );
 }

@@ -1,35 +1,65 @@
-import PublicContentPage, {
-  buildSimpleMetadata,
-} from "@/components/PublicContentPage";
+import { MessageCircle, Star } from "lucide-react";
 
-export const metadata = buildSimpleMetadata(
-  "Plan My Baraat Testimonials",
-  "Read how families use Plan My Baraat to discover wedding vendors, city pages, and location-specific baraat planning support.",
-  "/testimonials"
-);
+import SiteFooter from "@/components/SiteFooter";
+import SiteHeader from "@/components/SiteHeader";
+import { TESTIMONIALS } from "@/lib/siteContent";
 
 export default function TestimonialsPage() {
   return (
-    <PublicContentPage
-      eyebrow="Testimonials"
-      title="Why families prefer a guided wedding discovery flow"
-      description="These stories represent the kind of planning help families usually want: fewer dead ends, faster discovery, and more location-aware vendor shortlisting."
-      sections={[
-        {
-          heading: "Shorter path to the right options",
-          body: [
-            "Families often do not struggle because there are too few vendors. They struggle because there are too many disconnected options and no clear way to move from broad search intent into city-specific and area-specific planning pages.",
-            "The goal of Plan My Baraat is to remove that friction so the shortlist gets clearer much earlier in the journey.",
-          ],
-        },
-        {
-          heading: "Better fit through location-aware planning",
-          body: [
-            "A strong baraat or wedding vendor match depends on more than category names. City context, venue zone, guest movement, and logistics around specific neighborhoods all shape the best final options.",
-            "That is why our newer public pages are being structured around service plus city plus area, not just generic keyword lists.",
-          ],
-        },
-      ]}
-    />
+    <div className="relative flex min-h-screen flex-col bg-black font-sans text-white">
+      <SiteHeader />
+
+      <div className="flex-grow">
+        <section className="mx-auto max-w-7xl space-y-3 px-4 pb-10 pt-14 text-center sm:px-6 lg:px-8">
+          <span className="block text-[9px] font-bold uppercase tracking-widest text-[#C9A24B]">
+            What Families Say
+          </span>
+          <h1 className="font-serif text-3xl font-black tracking-wide text-white md:text-5xl">
+            Testimonials
+          </h1>
+          <p className="mx-auto max-w-2xl text-xs text-white/50 md:text-sm">
+            Real words from families who trusted us with their baraat - across
+            Vadodara, Ahmedabad and Surat.
+          </p>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+            {TESTIMONIALS.map((testimonial, index) => (
+              <div
+                key={index}
+                className="relative flex flex-col overflow-hidden border border-white/10 bg-[#0F0F0F] p-8 text-center"
+              >
+                <div className="mb-4 flex items-center justify-center gap-1 text-[#C9A24B]">
+                  {Array.from({ length: 5 }).map((_, starIndex) => (
+                    <Star key={starIndex} className="h-3.5 w-3.5 fill-current" />
+                  ))}
+                </div>
+                <p className="flex-1 font-serif text-xs italic leading-relaxed text-white/80 md:text-sm">
+                  &ldquo;{testimonial.quote}&rdquo;
+                </p>
+                <div className="mt-5 text-[10px] font-bold uppercase tracking-widest text-[#C9A24B]">
+                  {testimonial.name} • {testimonial.place}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section className="mx-auto max-w-3xl px-4 pb-16 text-center sm:px-6 lg:px-8">
+          <a
+            href="https://wa.me/918830612287"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-12 items-center gap-2.5 bg-[#C9A24B] px-8 text-xs font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:bg-[#dfc282]"
+          >
+            <MessageCircle className="h-4 w-4" />
+            Start Your Own Baraat Story
+          </a>
+        </section>
+      </div>
+
+      <SiteFooter />
+    </div>
   );
 }

@@ -15,12 +15,35 @@ const manropeBody = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Plan My Baraat | Premium Wedding Procession Planner",
-  description: "Organize the ultimate wedding procession with real-time budget tracking, interactive timeline designer, custom guest safa selectors, song voting, route simulations, and luxury digital invitations.",
+  metadataBase: new URL("https://planmybaraat.com"),
+  title: {
+    default: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
+    template: "%s | Plan My Baraat",
+  },
+  description:
+    "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities. Browse by specialty, compare options, and enquire instantly on WhatsApp.",
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: "/icon-mark-32.png",
     apple: "/icon-mark-180.png",
     shortcut: "/icon-mark-32.png",
+  },
+  openGraph: {
+    title: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
+    description:
+      "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities.",
+    url: "/",
+    siteName: "Plan My Baraat",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
+    description:
+      "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities.",
   },
 };
 
@@ -39,4 +62,3 @@ export default function RootLayout({
     </html>
   );
 }
-

@@ -60,13 +60,13 @@ export function buildPackageWhatsAppLink(
 // ─── SEO Copy Generators ───────────────────────────────────────────────────────
 
 const PRICE_MAP: Record<string, { min: number; max: number }> = {
-  "Entry & Procession": { min: 15000, max: 250000 },
-  "Music & Entertainment": { min: 8000, max: 150000 },
-  "Groom Royal Styling": { min: 5000, max: 80000 },
-  "Decoration & Experience": { min: 10000, max: 200000 },
-  "Guest Experience": { min: 12000, max: 100000 },
-  "Wedding Production": { min: 20000, max: 350000 },
-  "Luxury Add-ons": { min: 50000, max: 500000 },
+  Venues: { min: 60000, max: 600000 },
+  Catering: { min: 50000, max: 350000 },
+  Decoration: { min: 40000, max: 450000 },
+  Photography: { min: 30000, max: 250000 },
+  "Makeup & Styling": { min: 12000, max: 120000 },
+  Entertainment: { min: 20000, max: 250000 },
+  "Baraat Processions": { min: 15000, max: 250000 },
 };
 
 const CITY_ADJECTIVES: Record<string, string> = {

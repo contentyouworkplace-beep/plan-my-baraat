@@ -444,9 +444,35 @@ export const VENDOR_IMAGES: Record<string, string[]> = {
   ],
 };
 
+const CURRENT_CATEGORY_IMAGES: Record<string, string[]> = {
+  banquet_hall: VENDOR_IMAGES.palace_setup,
+  lawns_farmhouses: VENDOR_IMAGES.palace_setup,
+  resorts_hotels: VENDOR_IMAGES.palace_setup,
+  wedding_caterers: VENDOR_IMAGES.floral_decor,
+  live_counters: VENDOR_IMAGES.floral_decor,
+  desserts_cakes: VENDOR_IMAGES.floral_jewellery,
+  floral_decorators: VENDOR_IMAGES.floral_decor,
+  theme_decorators: VENDOR_IMAGES.floral_decor,
+  lighting_setup: VENDOR_IMAGES.floral_decor,
+  candid_photographer: VENDOR_IMAGES.dance_troupe,
+  cinematographer: VENDOR_IMAGES.dance_troupe,
+  drone_photography: VENDOR_IMAGES.dance_troupe,
+  bridal_makeup: VENDOR_IMAGES.floral_jewellery,
+  hair_stylist: VENDOR_IMAGES.groom_sherwani,
+  groom_styling: VENDOR_IMAGES.groom_sherwani,
+  wedding_dj: VENDOR_IMAGES.dj_truck,
+  live_music_band: VENDOR_IMAGES.live_singers,
+  dance_choreographer: VENDOR_IMAGES.dance_troupe,
+  brass_band: VENDOR_IMAGES.band_party,
+  dhol_tasha: VENDOR_IMAGES.dhol_team,
+  vintage_baggi: VENDOR_IMAGES.vintage_cars,
+  cold_pyro_effects: VENDOR_IMAGES.cold_pyro,
+};
+
 /** Returns images for a given category ID, falls back to generic wedding images */
 export function getVendorImages(categoryId: string): string[] {
   return (
+    CURRENT_CATEGORY_IMAGES[categoryId] ??
     VENDOR_IMAGES[categoryId] ?? [
       "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=900&q=80",
       "https://images.unsplash.com/photo-1487530811015-780780169093?w=900&q=80",

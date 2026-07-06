@@ -6,7 +6,6 @@ import { specialtyToSlug, cityToSlug } from "@/lib/seoHelpers";
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://planmybaraat.com";
 
-  // Home page
   const staticRoutes: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
@@ -16,7 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Top 300 Indian cities × all 53 specialties
+  const specialtyRoutes: MetadataRoute.Sitemap = CATEGORIES.map((category) => ({
+    url: `${baseUrl}/${specialtyToSlug(category)}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+  }));
+
   const topCities = CITIES.filter((c) => !c.isInternational).slice(0, 300);
   const dynamicRoutes: MetadataRoute.Sitemap = [];
 
@@ -31,5 +36,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }
   }
 
-  return [...staticRoutes, ...dynamicRoutes];
+  return [...staticRoutes, ...specialtyRoutes, ...dynamicRoutes];
 }

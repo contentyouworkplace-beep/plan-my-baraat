@@ -16,7 +16,7 @@ export default function PackageCard({ pkg, featured, onEnquire }: PackageCardPro
       className={`relative flex flex-col border p-7 transition-all duration-300 hover:-translate-y-1 ${
         featured
           ? "border-[#E70D1D]/50 bg-[#FFF5F5]"
-          : "border-black/10 bg-white hover:border-[#E70D1D]/30"
+          : "border-black/10 bg-[#F8F4EE] hover:border-[#E70D1D]/30"
       }`}
     >
       {featured ? (

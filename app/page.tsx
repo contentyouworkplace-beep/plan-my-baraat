@@ -64,11 +64,11 @@ export default function HomePage() {
   const [selectedPackage, setSelectedPackage] = useState<BaraatPackage | null>(null);
 
   return (
-    <div className="relative flex min-h-screen flex-col bg-white font-sans text-black">
+    <div className="relative flex min-h-screen flex-col bg-[#F8F4EE] font-sans text-black">
       <SiteHeader />
 
       <div className="flex-grow">
-        <section className="relative overflow-hidden bg-white">
+        <section className="relative overflow-hidden bg-[#F8F4EE]">
           <div className="absolute inset-0 opacity-40">
             <Image
               src={SITE_IMAGES.traditionalCouple}
@@ -78,7 +78,7 @@ export default function HomePage() {
               priority
             />
           </div>
-          <div className="absolute inset-0 bg-white/80" />
+          <div className="absolute inset-0 bg-[rgba(248,244,238,0.80)]" />
           <div className="relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 py-16 sm:px-6 md:py-24 lg:grid-cols-2 lg:px-8">
             <div className="space-y-7 text-center lg:text-left">
               <div className="inline-flex items-center gap-2.5 border border-[#E70D1D]/30 px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest text-[#E70D1D] md:text-[11px]">
@@ -127,7 +127,7 @@ export default function HomePage() {
                   className="object-cover grayscale-[15%]"
                 />
               </div>
-              <div className="absolute bottom-6 right-4 flex items-center gap-3 border border-[#E70D1D]/30 bg-white px-5 py-3.5 shadow-md">
+              <div className="absolute bottom-6 right-4 flex items-center gap-3 border border-[#E70D1D]/30 bg-[#F8F4EE] px-5 py-3.5 shadow-md">
                 <div className="flex h-9 w-9 items-center justify-center border border-[#E70D1D]/30 text-[#E70D1D]">
                   <Users className="h-4.5 w-4.5" />
                 </div>
@@ -216,7 +216,7 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
             {STEPS.map((step, index) => (
-              <div key={index} className="relative border border-black/10 bg-white p-7 shadow-sm">
+              <div key={index} className="relative border border-black/10 bg-[#F8F4EE] p-7 shadow-sm">
                 <span className="absolute -left-2 -top-4 font-serif text-5xl font-black text-black/5">
                   0{index + 1}
                 </span>
@@ -339,7 +339,7 @@ export default function HomePage() {
             {TESTIMONIALS.slice(0, 3).map((testimonial, index) => (
               <div
                 key={index}
-                className="relative flex flex-col overflow-hidden border border-black/10 bg-white p-8 text-center shadow-sm"
+                className="relative flex flex-col overflow-hidden border border-black/10 bg-[#F8F4EE] p-8 text-center shadow-sm"
               >
                 <div className="mb-4 flex items-center justify-center gap-1 text-[#E70D1D]">
                   {Array.from({ length: 5 }).map((_, starIndex) => (
@@ -384,7 +384,7 @@ export default function HomePage() {
             {CONTACT_DETAILS.map((contact, index) => {
               const Icon = CONTACT_ICONS[contact.iconName];
               return (
-                <div key={index} className="space-y-3 border border-black/10 bg-white p-6 shadow-sm">
+                <div key={index} className="space-y-3 border border-black/10 bg-[#F8F4EE] p-6 shadow-sm">
                   <div className="flex h-10 w-10 items-center justify-center border border-[#E70D1D]/25 text-[#E70D1D]">
                     <Icon className="h-4.5 w-4.5" />
                   </div>
@@ -429,7 +429,7 @@ export default function HomePage() {
               fill
               className="object-cover grayscale-[30%]"
             />
-            <div className="absolute inset-0 bg-white/85" />
+            <div className="absolute inset-0 bg-[rgba(248,244,238,0.85)]" />
             <div className="absolute inset-0 flex items-center">
               <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
                 <div className="space-y-2 text-center md:text-left">

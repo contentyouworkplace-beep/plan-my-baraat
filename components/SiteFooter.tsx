@@ -19,7 +19,7 @@ const PACKAGE_LINKS = [
 
 export default function SiteFooter() {
   return (
-    <footer className="border-t border-[#E70D1D]/15 bg-white text-black/50">
+    <footer className="border-t border-[#E70D1D]/15 bg-[#F8F4EE] text-black/50">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div className="space-y-4">
           <Image src="/logo.png" alt="PlanMyBaraat" width={150} height={40} className="h-9 w-auto object-contain" />

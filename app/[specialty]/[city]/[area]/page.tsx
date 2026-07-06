@@ -116,7 +116,7 @@ export default function AreaPage({
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdService }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBreadcrumb }} />
 
-      <section className="border-b border-stone-200 bg-white">
+      <section className="border-b border-stone-200 bg-[#F8F4EE]">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 lg:grid-cols-[1.2fr_0.8fr] lg:px-10">
           <div>
             <nav className="mb-6 text-sm text-stone-500">
@@ -146,7 +146,7 @@ export default function AreaPage({
               ))}
             </div>
           </div>
-          <div className="overflow-hidden rounded-[28px] border border-stone-200 bg-white shadow-sm">
+          <div className="overflow-hidden rounded-[28px] border border-stone-200 bg-[#F8F4EE] shadow-sm">
             <img
               src={images[0]}
               alt={`${specialty.name} in ${area}, ${city.name}`}

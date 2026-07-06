@@ -87,7 +87,7 @@ export default function SpecialtyPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLdItemList }}
       />
-      <section className="border-b border-stone-200 bg-white">
+      <section className="border-b border-stone-200 bg-[#F8F4EE]">
         <div className="mx-auto max-w-6xl px-6 py-14 lg:px-10">
           <nav className="mb-6 text-sm text-stone-500">
             <Link href="/" className="hover:text-stone-900">
@@ -118,7 +118,7 @@ export default function SpecialtyPage({
             <Link
               key={city.name}
               href={`/${specialtyToSlug(specialty)}/${cityToSlug(city)}`}
-              className="overflow-hidden rounded-[26px] border border-stone-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+              className="overflow-hidden rounded-[26px] border border-stone-200 bg-[#F8F4EE] shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
             >
               <div
                 className="h-40 bg-cover bg-center"
@@ -136,7 +136,7 @@ export default function SpecialtyPage({
         </div>
       </section>
 
-      <section className="border-t border-stone-200 bg-white">
+      <section className="border-t border-stone-200 bg-[#F8F4EE]">
         <div className="mx-auto max-w-6xl px-6 py-14 lg:px-10">
           <h2 className="text-2xl font-bold text-stone-950">More cities</h2>
           <div className="mt-6 flex flex-wrap gap-3">

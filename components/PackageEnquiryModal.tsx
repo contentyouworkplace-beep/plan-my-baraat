@@ -90,7 +90,7 @@ export default function PackageEnquiryModal({ pkg, onClose }: PackageEnquiryModa
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-md overflow-hidden border border-[#E70D1D]/25 bg-white"
+        className="relative w-full max-w-md overflow-hidden border border-[#E70D1D]/25 bg-[#F8F4EE]"
         onClick={(e) => e.stopPropagation()}
       >
         <button

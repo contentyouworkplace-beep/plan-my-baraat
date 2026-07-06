@@ -28,7 +28,7 @@ export default function ServicesPage() {
   return (
     <main className="min-h-screen bg-[#fcfbf9] text-stone-900">
       <PublicHeader />
-      <section className="border-b border-stone-200 bg-white">
+      <section className="border-b border-stone-200 bg-[#F8F4EE]">
         <div className="mx-auto max-w-6xl px-6 py-16 lg:px-10">
           <p className="text-sm font-semibold uppercase tracking-[0.22em] text-amber-700">
             Services
@@ -49,7 +49,7 @@ export default function ServicesPage() {
             <Link
               key={category.id}
               href={`/${specialtyToSlug(category)}`}
-              className="rounded-[24px] border border-stone-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
+              className="rounded-[24px] border border-stone-200 bg-[#F8F4EE] p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-lg"
             >
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
                 {category.group}
@@ -63,7 +63,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="border-t border-stone-200 bg-white">
+      <section className="border-t border-stone-200 bg-[#F8F4EE]">
         <div className="mx-auto max-w-6xl px-6 py-14 lg:px-10">
           <h2 className="text-2xl font-bold text-stone-950">Popular city shortcuts</h2>
           <div className="mt-6 flex flex-wrap gap-3">

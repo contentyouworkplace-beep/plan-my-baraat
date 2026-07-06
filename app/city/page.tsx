@@ -57,7 +57,7 @@ export default function CityDirectoryPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLdItemList }}
       />
-      <section className="border-b border-stone-200 bg-white">
+      <section className="border-b border-stone-200 bg-[#F8F4EE]">
         <div className="mx-auto max-w-7xl px-6 py-14 lg:px-10">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">
             City directory
@@ -79,7 +79,7 @@ export default function CityDirectoryPage() {
             <Link
               key={city.name}
               href={`/${specialtyToSlug(defaultCategory)}/${cityToSlug(city)}`}
-              className="overflow-hidden rounded-[26px] border border-stone-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
+              className="overflow-hidden rounded-[26px] border border-stone-200 bg-[#F8F4EE] shadow-sm transition hover:-translate-y-1 hover:shadow-xl"
             >
               <div
                 className="h-40 bg-cover bg-center"
@@ -97,7 +97,7 @@ export default function CityDirectoryPage() {
         </div>
       </section>
 
-      <section className="border-y border-stone-200 bg-white">
+      <section className="border-y border-stone-200 bg-[#F8F4EE]">
         <div className="mx-auto max-w-7xl px-6 py-14 lg:px-10">
           <h2 className="text-2xl font-bold text-stone-950">All target cities</h2>
           <div className="mt-6 flex flex-wrap gap-3">

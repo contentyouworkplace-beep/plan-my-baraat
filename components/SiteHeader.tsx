@@ -27,7 +27,7 @@ export default function SiteHeader({
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-40 bg-white/95 border-b border-[#E70D1D]/15 backdrop-blur-md shadow-sm">
+    <header className="sticky top-0 z-40 border-b border-[#E70D1D]/15 bg-[rgba(248,244,238,0.95)] backdrop-blur-md shadow-sm">
       <div className="h-[3px] bg-[#E70D1D]" />
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex cursor-pointer select-none flex-col items-start gap-0.5">
@@ -77,7 +77,7 @@ export default function SiteHeader({
                 className={`h-4.5 w-4.5 ${wishlistCount > 0 ? "fill-[#E70D1D] text-[#E70D1D]" : ""}`}
               />
               {wishlistCount > 0 ? (
-                <span className="absolute -right-1.5 -top-1.5 flex h-5.5 w-5.5 items-center justify-center rounded-full border-2 border-white bg-[#E70D1D] text-[10px] font-black text-white">
+                <span className="absolute -right-1.5 -top-1.5 flex h-5.5 w-5.5 items-center justify-center rounded-full border-2 border-[#F8F4EE] bg-[#E70D1D] text-[10px] font-black text-white">
                   {wishlistCount}
                 </span>
               ) : null}
@@ -95,7 +95,7 @@ export default function SiteHeader({
       </div>
 
       {mobileOpen ? (
-        <nav className="border-t border-[#E70D1D]/15 bg-white lg:hidden">
+        <nav className="border-t border-[#E70D1D]/15 bg-[#F8F4EE] lg:hidden">
           <div className="flex flex-col">
             {NAV_ITEMS.map((item) => (
               <Link

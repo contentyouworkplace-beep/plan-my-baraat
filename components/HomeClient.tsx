@@ -271,7 +271,7 @@ function ScrollHero() {
 
         <motion.p
           style={{ opacity: subOpacity, textShadow: "0 4px 18px rgba(0,0,0,0.42)" }}
-          className="relative z-10 mx-auto mt-8 max-w-lg px-6 text-center text-sm leading-relaxed text-white/88 md:text-base"
+          className="relative z-10 mx-auto mt-8 max-w-lg px-6 text-center text-sm leading-relaxed text-white md:text-base"
         >
           Double-decker DJ trucks, dhol, pyro, vintage cars and safa teams -
           assembled into four ready-made packages.
@@ -654,10 +654,7 @@ function VehicleParade() {
 
         <div className="grid grid-cols-1 items-end gap-10 md:grid-cols-2 md:gap-6">
           <div>
-            <motion.div
-              style={{ x: carX }}
-              className="rounded-[32px] border border-black/8 bg-white/40 px-4 py-5 shadow-[0_30px_80px_rgba(17,17,17,0.05)] backdrop-blur-sm will-change-transform md:px-6"
-            >
+            <motion.div style={{ x: carX }} className="will-change-transform">
               <VintageCarArt className="mx-auto w-full max-w-md" />
             </motion.div>
             <motion.p
@@ -669,10 +666,7 @@ function VehicleParade() {
           </div>
 
           <div>
-            <motion.div
-              style={{ x: truckX }}
-              className="rounded-[32px] border border-black/8 bg-white/40 px-4 py-5 shadow-[0_30px_80px_rgba(17,17,17,0.05)] backdrop-blur-sm will-change-transform md:px-6"
-            >
+            <motion.div style={{ x: truckX }} className="will-change-transform">
               <DjTruckArt className="mx-auto w-full max-w-lg" />
             </motion.div>
             <motion.p

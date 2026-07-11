@@ -6,24 +6,24 @@ import SiteHeader from "@/components/SiteHeader";
 import { TESTIMONIALS } from "@/lib/siteContent";
 
 export const metadata: Metadata = {
-  title: "Testimonials | Plan My Baraat",
+  title: "Testimonials | PlanMyBaraat",
   description:
-    "Read testimonials from families who booked Plan My Baraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
+    "Read testimonials from families who booked PlanMyBaraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
   alternates: {
     canonical: "/testimonials",
   },
   openGraph: {
-    title: "Testimonials | Plan My Baraat",
+    title: "Testimonials | PlanMyBaraat",
     description:
-      "Read testimonials from families who booked Plan My Baraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
+      "Read testimonials from families who booked PlanMyBaraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
     url: "/testimonials",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Testimonials | Plan My Baraat",
+    title: "Testimonials | PlanMyBaraat",
     description:
-      "Read testimonials from families who booked Plan My Baraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
+      "Read testimonials from families who booked PlanMyBaraat for wedding entries, DJ trucks, dhol teams, vintage cars, and full baraat coordination.",
   },
 };
 

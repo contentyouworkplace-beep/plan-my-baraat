@@ -100,3 +100,56 @@ export const GALLERY_VIDEOS: VideoPlaceholder[] = [
     thumb: SITE_IMAGES.outdoorTentEvent,
   },
 ];
+
+export interface PortfolioProject {
+  title: string;
+  city: string;
+  package: string;
+  image: string;
+  highlights: string[];
+}
+
+export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
+  {
+    title: "Aditi & Kunal's Royal Entry",
+    city: "Vadodara",
+    package: "Maharaja Package",
+    image: SITE_IMAGES.heroMain,
+    highlights: ["Double-decker DJ truck", "Pyro entry", "Vintage car"],
+  },
+  {
+    title: "Priya's Rajwada Baraat",
+    city: "Ahmedabad",
+    package: "Rajwada Package",
+    image: SITE_IMAGES.floralUmbrella,
+    highlights: ["Dhol team", "Chhatri procession", "Safa team"],
+  },
+  {
+    title: "Rohan & Family Celebration",
+    city: "Surat",
+    package: "Signature Package",
+    image: SITE_IMAGES.confettiCelebration,
+    highlights: ["Vintage car entry", "Confetti finale", "Live band"],
+  },
+  {
+    title: "Neha & Jayesh's Grand Setup",
+    city: "Ahmedabad",
+    package: "Maharaja Package",
+    image: SITE_IMAGES.outdoorTentEvent,
+    highlights: ["Outdoor pandal", "150+ safa turbans", "Floral decor"],
+  },
+  {
+    title: "Kabir's Destination Wedding",
+    city: "Surat",
+    package: "Signature Package",
+    image: SITE_IMAGES.floralCanopy,
+    highlights: ["Floral canopy entry", "Vintage car", "Pyro effects"],
+  },
+  {
+    title: "Sanya & Arjun's Baraat",
+    city: "Vadodara",
+    package: "Rajwada Package",
+    image: SITE_IMAGES.goldCrownMoment,
+    highlights: ["Groom's royal entry", "Gold decor", "Dhol beats"],
+  },
+];

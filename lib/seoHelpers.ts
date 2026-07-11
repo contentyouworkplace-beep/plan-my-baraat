@@ -142,7 +142,7 @@ export function generateAreaBodyCopy(
 
   return [
     `${area} is one of the strongest wedding catchments in ${city.name} for couples comparing reliable ${specialty.name.toLowerCase()} options close to their venue, family homes, or guest accommodation clusters.`,
-    `Plan My Baraat helps families looking for ${specialty.name.toLowerCase()} in ${area}, ${city.name} discover suitable vendors faster, shortlist options by style and budget, and move the conversation to WhatsApp without filling long forms.`,
+    `PlanMyBaraat helps families looking for ${specialty.name.toLowerCase()} in ${area}, ${city.name} discover suitable vendors faster, shortlist options by style and budget, and move the conversation to WhatsApp without filling long forms.`,
     `For many weddings in ${city.name}, ${specialty.name.toLowerCase()} packages typically begin near ₹${price.min.toLocaleString("en-IN")} and scale upward based on production size, customization, guest count, and event-day logistics.`,
   ];
 }
@@ -180,7 +180,7 @@ export function generateAreaFAQs(specialty: Category, city: City, area: string):
   return [
     {
       question: `Do you provide ${specialty.name.toLowerCase()} in ${area}, ${city.name}?`,
-      answer: `Yes. Plan My Baraat can help you discover and enquire about ${specialty.name.toLowerCase()} serving ${area} and nearby parts of ${city.name}.`,
+      answer: `Yes. PlanMyBaraat can help you discover and enquire about ${specialty.name.toLowerCase()} serving ${area} and nearby parts of ${city.name}.`,
     },
     {
       question: `How do I compare ${specialty.name.toLowerCase()} near ${area}?`,
@@ -261,7 +261,7 @@ export function generateJsonLdOrganization(): string {
   return JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Plan My Baraat",
+    name: "PlanMyBaraat",
     url: "https://planmybaraat.com",
     logo: "https://planmybaraat.com/icon-mark-512.png",
     sameAs: [],
@@ -278,7 +278,7 @@ export function generateJsonLdWebSite(): string {
   return JSON.stringify({
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "Plan My Baraat",
+    name: "PlanMyBaraat",
     url: "https://planmybaraat.com",
     inLanguage: "en-IN",
   });
@@ -331,7 +331,7 @@ export function generateJsonLdService(
     },
     provider: {
       "@type": "Organization",
-      name: "Plan My Baraat",
+      name: "PlanMyBaraat",
       url: "https://planmybaraat.com",
     },
     url: area

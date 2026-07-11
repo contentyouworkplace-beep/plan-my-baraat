@@ -5,24 +5,24 @@ import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 
 export const metadata: Metadata = {
-  title: "Gallery | Plan My Baraat",
+  title: "Gallery | PlanMyBaraat",
   description:
-    "Browse Plan My Baraat gallery photos and wedding baraat moments featuring DJ trucks, dhol teams, vintage cars, and celebration highlights.",
+    "Browse PlanMyBaraat gallery photos and wedding baraat moments featuring DJ trucks, dhol teams, vintage cars, and celebration highlights.",
   alternates: {
     canonical: "/gallery",
   },
   openGraph: {
-    title: "Gallery | Plan My Baraat",
+    title: "Gallery | PlanMyBaraat",
     description:
-      "Browse Plan My Baraat gallery photos and wedding baraat moments featuring DJ trucks, dhol teams, vintage cars, and celebration highlights.",
+      "Browse PlanMyBaraat gallery photos and wedding baraat moments featuring DJ trucks, dhol teams, vintage cars, and celebration highlights.",
     url: "/gallery",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gallery | Plan My Baraat",
+    title: "Gallery | PlanMyBaraat",
     description:
-      "Browse Plan My Baraat gallery photos and wedding baraat moments featuring DJ trucks, dhol teams, vintage cars, and celebration highlights.",
+      "Browse PlanMyBaraat gallery photos and wedding baraat moments featuring DJ trucks, dhol teams, vintage cars, and celebration highlights.",
   },
 };
 

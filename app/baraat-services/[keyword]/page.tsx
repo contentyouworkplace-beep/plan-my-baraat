@@ -41,20 +41,20 @@ export function generateMetadata({
   }
 
   return {
-    title: `${keywordPage.label} | Plan My Baraat`,
+    title: `${keywordPage.label} | PlanMyBaraat`,
     description: `Explore ${keywordPage.label.toLowerCase()}, compare city and area options, and move to the right wedding vendor landing pages faster.`,
     alternates: {
       canonical: `/baraat-services/${params.keyword}`,
     },
     openGraph: {
-      title: `${keywordPage.label} | Plan My Baraat`,
+      title: `${keywordPage.label} | PlanMyBaraat`,
       description: `Explore ${keywordPage.label.toLowerCase()}, compare city and area options, and move to the right wedding vendor landing pages faster.`,
       url: `/baraat-services/${params.keyword}`,
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: `${keywordPage.label} | Plan My Baraat`,
+      title: `${keywordPage.label} | PlanMyBaraat`,
       description: `Explore ${keywordPage.label.toLowerCase()}, compare city and area options, and move to the right wedding vendor landing pages faster.`,
     },
   };

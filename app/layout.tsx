@@ -19,8 +19,8 @@ const manropeBody = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL("https://planmybaraat.com"),
   title: {
-    default: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
-    template: "%s | Plan My Baraat",
+    default: "PlanMyBaraat | Wedding Vendors & Baraat Services Across India",
+    template: "%s | PlanMyBaraat",
   },
   description:
     "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities. Browse by specialty, compare options, and enquire instantly on WhatsApp.",
@@ -33,17 +33,17 @@ export const metadata: Metadata = {
     shortcut: "/icon-mark-32.png",
   },
   openGraph: {
-    title: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
+    title: "PlanMyBaraat | Wedding Vendors & Baraat Services Across India",
     description:
       "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities.",
     url: "/",
-    siteName: "Plan My Baraat",
+    siteName: "PlanMyBaraat",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Plan My Baraat | Wedding Vendors & Baraat Services Across India",
+    title: "PlanMyBaraat | Wedding Vendors & Baraat Services Across India",
     description:
       "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities.",
   },

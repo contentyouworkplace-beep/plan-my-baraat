@@ -6,24 +6,24 @@ import SiteHeader from "@/components/SiteHeader";
 import { CONTACT_DETAILS } from "@/lib/siteContent";
 
 export const metadata: Metadata = {
-  title: "Contact Plan My Baraat",
+  title: "Contact PlanMyBaraat",
   description:
-    "Contact Plan My Baraat for baraat packages, wedding entry planning, WhatsApp support, and vendor coordination across Gujarat and key wedding cities.",
+    "Contact PlanMyBaraat for baraat packages, wedding entry planning, WhatsApp support, and vendor coordination across Gujarat and key wedding cities.",
   alternates: {
     canonical: "/contact",
   },
   openGraph: {
-    title: "Contact Plan My Baraat",
+    title: "Contact PlanMyBaraat",
     description:
-      "Contact Plan My Baraat for baraat packages, wedding entry planning, WhatsApp support, and vendor coordination across Gujarat and key wedding cities.",
+      "Contact PlanMyBaraat for baraat packages, wedding entry planning, WhatsApp support, and vendor coordination across Gujarat and key wedding cities.",
     url: "/contact",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Contact Plan My Baraat",
+    title: "Contact PlanMyBaraat",
     description:
-      "Contact Plan My Baraat for baraat packages, wedding entry planning, WhatsApp support, and vendor coordination across Gujarat and key wedding cities.",
+      "Contact PlanMyBaraat for baraat packages, wedding entry planning, WhatsApp support, and vendor coordination across Gujarat and key wedding cities.",
   },
 };
 

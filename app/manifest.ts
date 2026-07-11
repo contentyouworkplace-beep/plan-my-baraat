@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Plan My Baraat",
+    name: "PlanMyBaraat",
     short_name: "PlanMyBaraat",
     description:
       "Discover wedding vendors, venues, and baraat services across India's most popular celebration cities.",

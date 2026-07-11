@@ -1,22 +1,13 @@
 export const SITE_IMAGES = {
-  heroMain:
-    "https://images.unsplash.com/photo-1744805624954-a6686543c3ff?auto=format&fit=crop&w=1200&q=80",
-  heroFloral:
-    "https://images.unsplash.com/photo-1587271407850-8d438ca9fdf2?auto=format&fit=crop&w=800&q=80",
-  coupleGolden:
-    "https://images.unsplash.com/photo-1722952934708-749c22eb2e58?auto=format&fit=crop&w=800&q=80",
-  traditionalCouple:
-    "https://images.unsplash.com/photo-1665960213508-48f07086d49c?auto=format&fit=crop&w=800&q=80",
-  confettiCelebration:
-    "https://images.unsplash.com/photo-1744804298431-57953e4eaba0?auto=format&fit=crop&w=800&q=80",
-  floralCanopy:
-    "https://images.unsplash.com/photo-1727430256509-0f897d6f4765?auto=format&fit=crop&w=800&q=80",
-  outdoorTentEvent:
-    "https://images.unsplash.com/photo-1744891470493-44321ef136a2?auto=format&fit=crop&w=800&q=80",
-  floralUmbrella:
-    "https://images.unsplash.com/photo-1587271636175-90d58cdad458?auto=format&fit=crop&w=800&q=80",
-  goldCrownMoment:
-    "https://images.unsplash.com/photo-1597157639073-69284dc0fdaf?auto=format&fit=crop&w=800&q=80",
+  heroMain: "/Gallery/03383d918e604d8219861621704ab186.jpg",
+  heroFloral: "/Gallery/4d2e7c7745bbffba807f98e39b3f9f26.jpg",
+  coupleGolden: "/Gallery/0b722486f19975dd09aa075a52792610.jpg",
+  traditionalCouple: "/Gallery/2a86389f387b118ce7795c179d1f16e1.jpg",
+  confettiCelebration: "/Gallery/bd9fd23d5c1011c8b5705e4edbbbec45.jpg",
+  floralCanopy: "/Gallery/8ce66d076c70996dc91945a129fe98a9.jpg",
+  outdoorTentEvent: "/Gallery/4481838a2c39bc3d4f8f4361b8b4c6f1.jpg",
+  floralUmbrella: "/Gallery/03383d918e604d8219861621704ab186.jpg",
+  goldCrownMoment: "/Gallery/2a86389f387b118ce7795c179d1f16e1.jpg",
   ctaBanner:
-    "https://images.unsplash.com/photo-1744891471118-f74c0453cd21?auto=format&fit=crop&w=1600&q=80",
+    "/Gallery/Royal_Vintage_Wedding_Baraat_Car_with_Orange_Floral_Bouquets___Flower_decoration_on_vintage_car,_Wedding_car_decoration_ideas_for_indian_wedding,_Fant.jpg",
 } as const;

@@ -8,24 +8,24 @@ import { ABOUT_POINTS } from "@/lib/siteContent";
 import { SITE_IMAGES } from "@/lib/siteImages";
 
 export const metadata: Metadata = {
-  title: "About Plan My Baraat",
+  title: "About PlanMyBaraat",
   description:
-    "Learn about Plan My Baraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
+    "Learn about PlanMyBaraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Plan My Baraat",
+    title: "About PlanMyBaraat",
     description:
-      "Learn about Plan My Baraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
+      "Learn about PlanMyBaraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
     url: "/about",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Plan My Baraat",
+    title: "About PlanMyBaraat",
     description:
-      "Learn about Plan My Baraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
+      "Learn about PlanMyBaraat, our three-generation baraat legacy, and the team behind Gujarat's trusted baraat packages and wedding entry experiences.",
   },
 };
 

@@ -13,7 +13,7 @@ export default function PublicHeader() {
     <header className="sticky top-0 z-40 border-b border-stone-200 bg-[#fcfbf9]/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-6 py-4 lg:px-10">
         <Link href="/" className="text-lg font-extrabold tracking-tight text-stone-950">
-          Plan My Baraat
+          PlanMyBaraat
         </Link>
         <nav className="hidden items-center gap-5 md:flex">
           {navLinks.map((link) => (

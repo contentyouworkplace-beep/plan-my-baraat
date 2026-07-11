@@ -14,7 +14,7 @@ export default function HomePackagesSection() {
     <>
       <section id="packages" className="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:px-8">
         <div className="space-y-1 text-center">
-          <span className="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
+          <span className="block text-[9px] font-bold uppercase tracking-widest text-[#9F1239]">
             Curated Baraat Packages
           </span>
           <h2 className="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">

@@ -80,24 +80,37 @@ export const GALLERY_IMAGES = [
   { src: SITE_IMAGES.goldCrownMoment, label: "Groom's Royal Moment" },
 ];
 
-export interface VideoPlaceholder {
+export interface GalleryVideo {
   label: string;
   duration: string;
   thumb: string;
+  src: string;
 }
 
-export const GALLERY_VIDEOS: VideoPlaceholder[] = [
-  { label: "Maharaja Package Highlights", duration: "01:24", thumb: SITE_IMAGES.heroMain },
+export const GALLERY_VIDEOS: GalleryVideo[] = [
+  {
+    label: "Maharaja Package Highlights",
+    duration: "01:24",
+    thumb: SITE_IMAGES.heroMain,
+    src: "/Gallery/The_Magic_Mantra.mp4",
+  },
   {
     label: "Double Decker DJ Truck Entry",
     duration: "00:58",
     thumb: SITE_IMAGES.confettiCelebration,
+    src: "/Gallery/WhatsApp%20Video%202026-07-10%20at%2012.33.31.mp4",
   },
-  { label: "Safa Team in Action", duration: "01:10", thumb: SITE_IMAGES.goldCrownMoment },
+  {
+    label: "Safa Team in Action",
+    duration: "01:10",
+    thumb: SITE_IMAGES.goldCrownMoment,
+    src: "/Gallery/The_Magic_Mantra.mp4",
+  },
   {
     label: "Full Baraat Walkthrough",
     duration: "02:45",
     thumb: SITE_IMAGES.outdoorTentEvent,
+    src: "/Gallery/WhatsApp%20Video%202026-07-10%20at%2012.33.31.mp4",
   },
 ];
 

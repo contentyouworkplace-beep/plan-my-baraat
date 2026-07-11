@@ -4,11 +4,11 @@ import Image from "next/image";
 import { Play, X } from "lucide-react";
 import { useState } from "react";
 
-import { GALLERY_IMAGES, GALLERY_VIDEOS, VideoPlaceholder } from "@/lib/siteContent";
+import { GALLERY_IMAGES, GALLERY_VIDEOS, type GalleryVideo } from "@/lib/siteContent";
 
 export default function GalleryClient() {
   const [tab, setTab] = useState<"photos" | "videos">("photos");
-  const [activeVideo, setActiveVideo] = useState<VideoPlaceholder | null>(null);
+  const [activeVideo, setActiveVideo] = useState<GalleryVideo | null>(null);
 
   return (
     <>
@@ -96,9 +96,6 @@ export default function GalleryClient() {
               </button>
             ))}
           </div>
-          <p className="mt-8 text-center text-[10px] uppercase tracking-widest text-black/30">
-            Video previews coming soon - placeholders shown until final footage is uploaded.
-          </p>
         </section>
       )}
 
@@ -117,16 +114,15 @@ export default function GalleryClient() {
             >
               <X className="h-4 w-4" />
             </button>
-            <Image src={activeVideo.thumb} alt={activeVideo.label} fill className="object-cover opacity-40" />
-            <div className="absolute inset-0 flex flex-col items-center justify-center gap-3 px-6 text-center">
-              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-[#C9A24B]">
-                <Play className="ml-0.5 h-7 w-7 fill-black text-black" />
-              </div>
-              <p className="font-serif text-lg font-black text-black">{activeVideo.label}</p>
-              <p className="text-xs uppercase tracking-widest text-black/40">
-                Video placeholder - full footage coming soon
-              </p>
-            </div>
+            <video
+              key={activeVideo.src}
+              src={activeVideo.src}
+              poster={activeVideo.thumb}
+              controls
+              autoPlay
+              playsInline
+              className="h-full w-full object-cover"
+            />
           </div>
         </div>
       ) : null}

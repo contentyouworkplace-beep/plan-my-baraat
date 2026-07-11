@@ -6,13 +6,10 @@ import {
   AnimatePresence,
   animate,
   motion,
-  useAnimationFrame,
   useInView,
-  useMotionValue,
   useScroll,
   useSpring,
   useTransform,
-  useVelocity,
   type MotionValue,
 } from "framer-motion";
 import {
@@ -28,6 +25,7 @@ import {
   Play,
   Search,
   Star,
+  X,
 } from "lucide-react";
 
 import confetti from "canvas-confetti";
@@ -39,6 +37,7 @@ import {
   CONTACT_DETAILS,
   GALLERY_IMAGES,
   GALLERY_VIDEOS,
+  type GalleryVideo,
   TESTIMONIALS,
 } from "@/lib/siteContent";
 import { SITE_IMAGES } from "@/lib/siteImages";
@@ -82,6 +81,12 @@ const ENQUIRY_TOASTS = [
   { name: "Arjun", city: "Anand", ago: "3 hrs ago", interest: "Maharaja Package" },
 ];
 
+const WHATSAPP_FLOAT_MESSAGE = encodeURIComponent(
+  "Hi PlanMyBaraat, I am planning a baraat and would like to know more about your packages, pricing, and availability."
+);
+
+const WHATSAPP_FLOAT_URL = `https://wa.me/918830612287?text=${WHATSAPP_FLOAT_MESSAGE}`;
+
 function CountUp({
   value,
   suffix,
@@ -112,10 +117,10 @@ function CountUp({
 
 function fireCelebration() {
   confetti({
-    particleCount: 90,
-    spread: 80,
+    particleCount: 70,
+    spread: 68,
     origin: { y: 0.75 },
-    colors: ["#E70D1D", "#C9A24B", "#F8F4EE", "#E86A8A"],
+    colors: ["#9F1239", "#D4B06A", "#F8F4EE"],
   });
 }
 
@@ -125,7 +130,7 @@ function ScrollProgressBar() {
   return (
     <motion.div
       style={{ scaleX }}
-      className="fixed inset-x-0 top-0 z-[60] h-[3px] origin-left bg-[#E70D1D]"
+      className="fixed inset-x-0 top-0 z-[60] h-[3px] origin-left bg-[#9F1239]"
     />
   );
 }
@@ -143,14 +148,14 @@ function WhatsAppFloat() {
       <AnimatePresence>
         {showPreview ? (
           <motion.a
-            href="https://wa.me/918830612287"
+            href={WHATSAPP_FLOAT_URL}
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0, x: 24, scale: 0.94 }}
             animate={{ opacity: 1, x: 0, scale: 1 }}
             exit={{ opacity: 0, x: 20, scale: 0.96 }}
             transition={{ duration: 0.45, ease: easeReveal }}
-            className="hidden max-w-[220px] rounded-[20px] border border-white/35 bg-white/55 px-4 py-3 text-xs font-medium leading-relaxed text-black/70 shadow-[0_20px_45px_rgba(0,0,0,0.14)] backdrop-blur-xl md:block"
+            className="hidden max-w-[220px] rounded-[20px] border border-black/10 bg-[#f8f4ee]/90 px-4 py-3 text-xs font-medium leading-relaxed text-black/70 shadow-[0_20px_45px_rgba(0,0,0,0.08)] backdrop-blur-xl md:block"
           >
             Planning a baraat? Ask us anything 👋
           </motion.a>
@@ -158,7 +163,7 @@ function WhatsAppFloat() {
       </AnimatePresence>
 
       <a
-        href="https://wa.me/918830612287"
+        href={WHATSAPP_FLOAT_URL}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat with us on WhatsApp"
@@ -196,9 +201,9 @@ function RecentlyEnquiredToast() {
           animate={{ opacity: 1, x: 0, y: 0 }}
           exit={{ opacity: 0, x: -18, y: 10 }}
           transition={{ duration: 0.45, ease: easeReveal }}
-          className="w-[280px] rounded-[24px] border border-white/35 bg-white/45 p-4 text-black shadow-[0_22px_50px_rgba(0,0,0,0.14)] backdrop-blur-xl"
+          className="w-[280px] rounded-[24px] border border-black/10 bg-[#f8f4ee]/92 p-4 text-black shadow-[0_22px_50px_rgba(0,0,0,0.08)] backdrop-blur-xl"
         >
-          <span className="text-[9px] font-bold uppercase tracking-[0.24em] text-[#E70D1D]">
+          <span className="text-[9px] font-bold uppercase tracking-[0.24em] text-[#9F1239]">
             Recently Enquired
           </span>
           <p className="mt-2 text-sm font-semibold text-black/80">
@@ -249,7 +254,7 @@ function ScrollHero() {
             scale: badgeScale,
             textShadow: "0 4px 18px rgba(0,0,0,0.45)",
           }}
-          className="relative z-10 mb-8 inline-flex items-center gap-2.5 border border-white/35 bg-black/18 px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest text-white backdrop-blur-sm md:text-[11px]"
+          className="relative z-10 mb-8 inline-flex items-center gap-2.5 rounded-full border border-white/30 bg-black/20 px-5 py-2 text-[10px] font-bold uppercase tracking-widest text-white backdrop-blur-sm md:text-[11px]"
         >
           <Award className="h-3.5 w-3.5" />
           <span>Gujarat&apos;s Trusted Baraat Specialists</span>
@@ -266,7 +271,7 @@ function ScrollHero() {
         >
           Your Baraat.
           <br />
-          <span className="text-[#E70D1D]">Royally Reimagined.</span>
+          <span className="text-[#f2d9a6]">Royally Reimagined.</span>
         </motion.h1>
 
         <motion.p
@@ -281,7 +286,7 @@ function ScrollHero() {
           <a
             href="#packages"
             onClick={fireCelebration}
-            className="inline-flex h-12 items-center gap-2.5 bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a]"
+            className="inline-flex h-12 items-center gap-2.5 rounded-full bg-[#9F1239] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#7d0f2d]"
           >
             <MessageCircle className="h-4 w-4" />
             Explore Packages
@@ -316,7 +321,7 @@ function StatementSection() {
   });
 
   return (
-    <section ref={ref} className="relative h-[180vh] bg-black">
+    <section ref={ref} className="relative h-[140vh] bg-[#f3eee6]">
       <div className="sticky top-0 flex h-screen items-center justify-center px-6">
         <p className="mx-auto max-w-4xl text-center font-serif text-3xl font-black leading-snug tracking-wide sm:text-4xl md:text-6xl">
           {STATEMENT_WORDS.map((word, i) => (
@@ -348,7 +353,7 @@ function Word({
   return (
     <motion.span
       style={{ opacity }}
-      className={`mr-[0.28em] inline-block ${highlight ? "text-[#E70D1D]" : "text-[#F8F4EE]"}`}
+      className={`mr-[0.28em] inline-block ${highlight ? "text-[#9F1239]" : "text-black/25"}`}
     >
       {children}
     </motion.span>
@@ -425,47 +430,6 @@ function CharReveal({
   );
 }
 
-const wrap = (min: number, max: number, v: number) => {
-  const range = max - min;
-  return ((((v - min) % range) + range) % range) + min;
-};
-
-function MarqueeBand() {
-  const baseX = useMotionValue(0);
-  const { scrollY } = useScroll();
-  const scrollVelocity = useVelocity(scrollY);
-  const smoothVelocity = useSpring(scrollVelocity, { damping: 50, stiffness: 400 });
-  const velocityFactor = useTransform(smoothVelocity, [0, 1200], [0, 4], { clamp: false });
-  const directionFactor = useRef(1);
-  const x = useTransform(baseX, (v) => `${wrap(-25, 0, v)}%`);
-
-  useAnimationFrame((_, delta) => {
-    let moveBy = directionFactor.current * -2.2 * (delta / 1000);
-    const vf = velocityFactor.get();
-    if (vf < 0) directionFactor.current = -1;
-    else if (vf > 0) directionFactor.current = 1;
-    moveBy += directionFactor.current * moveBy * Math.abs(vf);
-    baseX.set(baseX.get() + moveBy);
-  });
-
-  const phrase = "DJ Trucks ✦ Dhol ✦ Pyro ✦ Vintage Cars ✦ Safa Teams ✦ Chhatri Lights ✦ ";
-
-  return (
-    <section aria-hidden className="overflow-hidden border-y border-black/10 bg-black py-5">
-      <motion.div style={{ x }} className="flex whitespace-nowrap will-change-transform">
-        {Array.from({ length: 4 }).map((_, i) => (
-          <span
-            key={i}
-            className="shrink-0 font-serif text-2xl font-black uppercase tracking-wider text-[#F8F4EE] md:text-4xl"
-          >
-            {phrase}
-          </span>
-        ))}
-      </motion.div>
-    </section>
-  );
-}
-
 function InkFillLine({ text }: { text: string }) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -486,40 +450,12 @@ function InkFillLine({ text }: { text: string }) {
         <motion.p
           style={{ clipPath }}
           aria-hidden
-          className="absolute inset-0 font-serif text-3xl font-black leading-tight tracking-wide text-[#E70D1D] sm:text-5xl md:text-6xl"
+          className="absolute inset-0 font-serif text-3xl font-black leading-tight tracking-wide text-[#9F1239] sm:text-5xl md:text-6xl"
         >
           {text}
         </motion.p>
       </div>
     </div>
-  );
-}
-
-function SlidingLines() {
-  const ref = useRef<HTMLDivElement>(null);
-  const { scrollYProgress } = useScroll({
-    target: ref,
-    offset: ["start end", "end start"],
-  });
-  const x1 = useTransform(scrollYProgress, [0, 1], ["-14%", "2%"]);
-  const x2 = useTransform(scrollYProgress, [0, 1], ["2%", "-14%"]);
-  const line = "Royal Entry ✦ Grand Baraat ✦ Unforgettable Moments ✦ Royal Entry ✦ Grand Baraat ✦ ";
-
-  return (
-    <section ref={ref} aria-hidden className="select-none space-y-1 overflow-hidden py-14">
-      <motion.p
-        style={{ x: x1, WebkitTextStroke: "1.5px rgba(0,0,0,0.28)" }}
-        className="whitespace-nowrap font-serif text-5xl font-black uppercase leading-none tracking-wide text-transparent md:text-7xl"
-      >
-        {line}
-      </motion.p>
-      <motion.p
-        style={{ x: x2 }}
-        className="whitespace-nowrap font-serif text-5xl font-black uppercase leading-none tracking-wide text-[#E70D1D]/10 md:text-7xl"
-      >
-        {line}
-      </motion.p>
-    </section>
   );
 }
 
@@ -546,6 +482,7 @@ function FadeUp({
 }
 
 function GalleryParallax() {
+  const [activeVideo, setActiveVideo] = useState<GalleryVideo | null>(null);
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -597,7 +534,11 @@ function GalleryParallax() {
             </span>
           </div>
         ))}
-        <div className="group relative aspect-[4/5] overflow-hidden border border-black/10 bg-[#F7F7F7]">
+        <button
+          type="button"
+          onClick={() => setActiveVideo(GALLERY_VIDEOS[0])}
+          className="group relative aspect-[4/5] overflow-hidden border border-black/10 bg-[#F7F7F7] text-left"
+        >
           <Image
             src={GALLERY_VIDEOS[0].thumb}
             alt={GALLERY_VIDEOS[0].label}
@@ -609,7 +550,7 @@ function GalleryParallax() {
             <motion.div
               animate={{ scale: [1, 1.08, 1] }}
               transition={{ repeat: Infinity, duration: 2.2, ease: "easeInOut" }}
-              className="flex h-12 w-12 items-center justify-center rounded-full bg-[#E70D1D]"
+              className="flex h-12 w-12 items-center justify-center rounded-full bg-[#9F1239]"
             >
               <Play className="ml-0.5 h-5 w-5 fill-white text-white" />
             </motion.div>
@@ -620,8 +561,38 @@ function GalleryParallax() {
           <span className="absolute bottom-3 left-3 text-[10px] font-bold uppercase tracking-widest text-white">
             {GALLERY_VIDEOS[0].label}
           </span>
-        </div>
+        </button>
       </motion.div>
+
+      {activeVideo ? (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/85 p-4 backdrop-blur-md"
+          onClick={() => setActiveVideo(null)}
+        >
+          <div
+            className="relative aspect-video w-full max-w-4xl overflow-hidden rounded-[24px] bg-black shadow-[0_30px_90px_rgba(0,0,0,0.35)]"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setActiveVideo(null)}
+              className="absolute right-3 top-3 z-10 rounded-full bg-white/10 p-2 text-white transition-colors hover:bg-white/20"
+            >
+              <span className="sr-only">Close video</span>
+              <X className="h-4 w-4" />
+            </button>
+            <video
+              key={activeVideo.src}
+              src={activeVideo.src}
+              poster={activeVideo.thumb}
+              controls
+              autoPlay
+              playsInline
+              className="h-full w-full object-cover"
+            />
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -642,7 +613,7 @@ function VehicleParade() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="space-y-1 pb-10 text-center">
           <FadeUp>
-            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
+            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#9F1239]">
               The Fleet
             </span>
           </FadeUp>
@@ -687,9 +658,9 @@ function StepsSection() {
     <section className="mx-auto max-w-7xl space-y-10 px-4 py-20 sm:px-6 lg:px-8">
       <div className="space-y-1 text-center">
         <FadeUp>
-          <span className="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
-            Simple Process
-          </span>
+            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#9F1239]">
+              Simple Process
+            </span>
         </FadeUp>
         <CharReveal
           text="How It Works"
@@ -706,12 +677,12 @@ function StepsSection() {
             viewport={{ once: true, margin: "-80px" }}
             transition={{ duration: 0.8, delay: index * 0.15, ease: easeReveal }}
             whileHover={{ y: -6 }}
-            className="relative border border-black/10 bg-[#F8F4EE] p-7 shadow-sm"
+            className="relative rounded-[28px] border border-black/10 bg-white/70 p-7 shadow-[0_20px_50px_rgba(0,0,0,0.05)]"
           >
             <span className="absolute -left-2 -top-4 font-serif text-5xl font-black text-black/5">
               0{index + 1}
             </span>
-            <div className="relative z-10 mb-4 flex h-11 w-11 items-center justify-center border border-[#E70D1D]/25 text-[#E70D1D]">
+            <div className="relative z-10 mb-4 flex h-11 w-11 items-center justify-center rounded-full border border-[#9F1239]/20 text-[#9F1239]">
               <step.icon className="h-5 w-5" />
             </div>
             <h3 className="relative z-10 font-serif text-lg font-black text-black">
@@ -739,14 +710,9 @@ function CtaBanner() {
     <section ref={ref} className="relative overflow-hidden">
       <div className="relative h-[300px] md:h-[380px]">
         <motion.div style={{ scale }} className="absolute inset-0">
-          <Image
-            src={SITE_IMAGES.ctaBanner}
-            alt="Book your baraat celebration"
-            fill
-            className="object-cover grayscale-[30%]"
-          />
+          <Image src={SITE_IMAGES.ctaBanner} alt="Book your baraat celebration" fill className="object-cover" />
         </motion.div>
-        <div className="absolute inset-0 bg-[rgba(248,244,238,0.85)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(16,12,11,0.78),rgba(16,12,11,0.45),rgba(16,12,11,0.28))]" />
         <div className="absolute inset-0 flex items-center">
           <div className="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
             <FadeUp className="space-y-2 text-center md:text-left">
@@ -755,18 +721,18 @@ function CtaBanner() {
                 whileInView={{ letterSpacing: "0.02em", opacity: 1 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 1.1, ease: easeReveal }}
-                className="font-serif text-2xl font-black text-black md:text-4xl"
+                className="font-serif text-2xl font-black text-white md:text-4xl"
               >
                 Ready to Plan Your Baraat?
               </motion.h2>
-              <p className="text-xs text-black/60 md:text-sm">
+              <p className="text-xs text-white/75 md:text-sm">
                 Tell us your name, event, and number - we&apos;ll take it from there.
               </p>
             </FadeUp>
             <FadeUp delay={0.15}>
               <a
                 href="#packages"
-                className="mx-auto inline-flex h-12 items-center justify-center gap-2.5 bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a] md:mx-0"
+                className="mx-auto inline-flex h-12 items-center justify-center gap-2.5 rounded-full bg-[#9F1239] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#7d0f2d] md:mx-0"
               >
                 <MessageCircle className="h-4 w-4" />
                 Enquire Now
@@ -792,15 +758,15 @@ export default function HomeClient() {
 
       <VehicleParade />
 
-      <section className="border-y border-black/10 bg-[#F7F7F7]">
+      <section className="border-y border-black/10 bg-white/55">
         <div className="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-4 py-12 sm:px-6 md:grid-cols-4 lg:px-8">
           {STATS.map((stat, index) => (
             <FadeUp
               key={index}
               delay={index * 0.1}
-              className="flex flex-col items-center gap-2 text-center"
+              className="rounded-[24px] border border-black/8 bg-white/75 px-4 py-6 text-center shadow-[0_12px_30px_rgba(0,0,0,0.04)]"
             >
-              <div className="flex h-11 w-11 items-center justify-center border border-[#E70D1D]/25 text-[#E70D1D]">
+              <div className="mx-auto flex h-11 w-11 items-center justify-center rounded-full border border-[#9F1239]/20 text-[#9F1239]">
                 <stat.icon className="h-5 w-5" />
               </div>
               <span className="font-serif text-2xl font-black text-black md:text-3xl">
@@ -818,8 +784,6 @@ export default function HomeClient() {
         </div>
       </section>
 
-      <MarqueeBand />
-
       <section
         id="about"
         className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 py-20 sm:px-6 lg:grid-cols-2 lg:px-8"
@@ -829,12 +793,12 @@ export default function HomeClient() {
             src={SITE_IMAGES.goldCrownMoment}
             alt="PlanMyBaraat team at a wedding celebration"
             speed={0.12}
-            className="h-[300px] border border-[#E70D1D]/25 sm:h-[380px] lg:h-[440px]"
+            className="h-[300px] overflow-hidden rounded-[30px] border border-black/10 shadow-[0_24px_60px_rgba(0,0,0,0.06)] sm:h-[380px] lg:h-[440px]"
           />
         </FadeUp>
 
         <FadeUp delay={0.15} className="order-1 space-y-6 lg:order-2">
-          <span className="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
+          <span className="block text-[9px] font-bold uppercase tracking-widest text-[#9F1239]">
             About Us
           </span>
           <CharReveal
@@ -857,7 +821,7 @@ export default function HomeClient() {
                 transition={{ duration: 0.5, delay: 0.2 + index * 0.1, ease: easeReveal }}
                 className="flex items-start gap-3 text-xs text-black/70"
               >
-                <Check className="mt-0.5 h-4 w-4 shrink-0 text-[#E70D1D]" />
+                <Check className="mt-0.5 h-4 w-4 shrink-0 text-[#9F1239]" />
                 <span>{point}</span>
               </motion.li>
             ))}
@@ -871,12 +835,10 @@ export default function HomeClient() {
 
       <HomePackagesSection />
 
-      <SlidingLines />
-
       <section id="gallery" className="mx-auto max-w-7xl space-y-10 px-4 py-20 sm:px-6 lg:px-8">
         <div className="space-y-1 text-center">
           <FadeUp>
-            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
+            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#9F1239]">
               Moments We Love
             </span>
           </FadeUp>
@@ -891,7 +853,7 @@ export default function HomeClient() {
         <FadeUp className="text-center">
           <a
             href="/gallery"
-            className="inline-flex h-12 items-center gap-2.5 border border-black/20 px-8 text-xs font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:border-[#E70D1D]/50 hover:text-[#E70D1D]"
+            className="inline-flex h-12 items-center gap-2.5 rounded-full border border-black/20 px-8 text-xs font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:border-[#9F1239]/40 hover:text-[#9F1239]"
           >
             View Full Gallery
           </a>
@@ -901,7 +863,7 @@ export default function HomeClient() {
       <section id="testimonials" className="mx-auto max-w-7xl space-y-8 px-4 py-20 sm:px-6 lg:px-8">
         <div className="space-y-1 text-center">
           <FadeUp>
-            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
+            <span className="block text-[9px] font-bold uppercase tracking-widest text-[#9F1239]">
               What Families Say
             </span>
           </FadeUp>
@@ -919,9 +881,9 @@ export default function HomeClient() {
               whileInView={{ opacity: 1, y: 0, scale: 1 }}
               viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.7, delay: index * 0.12, ease: easeReveal }}
-              className="relative flex flex-col overflow-hidden border border-black/10 bg-[#F8F4EE] p-8 text-center shadow-sm"
+              className="relative flex flex-col overflow-hidden rounded-[28px] border border-black/10 bg-white/72 p-8 text-center shadow-[0_16px_40px_rgba(0,0,0,0.05)]"
             >
-              <div className="mb-4 flex items-center justify-center gap-1 text-[#E70D1D]">
+              <div className="mb-4 flex items-center justify-center gap-1 text-[#9F1239]">
                 {Array.from({ length: 5 }).map((_, starIndex) => (
                   <Star key={starIndex} className="h-3.5 w-3.5 fill-current" />
                 ))}
@@ -929,7 +891,7 @@ export default function HomeClient() {
               <p className="flex-1 font-serif text-xs italic leading-relaxed text-black/80 md:text-sm">
                 &ldquo;{testimonial.quote}&rdquo;
               </p>
-              <div className="mt-5 text-[10px] font-bold uppercase tracking-widest text-[#E70D1D]">
+              <div className="mt-5 text-[10px] font-bold uppercase tracking-widest text-[#9F1239]">
                 {testimonial.name} • {testimonial.place}
               </div>
             </motion.div>
@@ -939,7 +901,7 @@ export default function HomeClient() {
         <FadeUp className="text-center">
           <a
             href="/testimonials"
-            className="inline-flex h-12 items-center gap-2.5 border border-black/20 px-8 text-xs font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:border-[#E70D1D]/50 hover:text-[#E70D1D]"
+            className="inline-flex h-12 items-center gap-2.5 rounded-full border border-black/20 px-8 text-xs font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:border-[#9F1239]/40 hover:text-[#9F1239]"
           >
             View All Testimonials
           </a>
@@ -948,7 +910,7 @@ export default function HomeClient() {
 
       <section id="contact" className="mx-auto max-w-7xl space-y-10 px-4 py-20 sm:px-6 lg:px-8">
         <FadeUp className="space-y-1 text-center">
-          <span className="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
+          <span className="block text-[9px] font-bold uppercase tracking-widest text-[#9F1239]">
             Get In Touch
           </span>
           <CharReveal
@@ -968,9 +930,9 @@ export default function HomeClient() {
               <FadeUp
                 key={index}
                 delay={index * 0.1}
-                className="space-y-3 border border-black/10 bg-[#F8F4EE] p-6 shadow-sm"
+                className="space-y-3 rounded-[24px] border border-black/10 bg-white/72 p-6 shadow-[0_16px_40px_rgba(0,0,0,0.05)]"
               >
-                <div className="flex h-10 w-10 items-center justify-center border border-[#E70D1D]/25 text-[#E70D1D]">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#9F1239]/20 text-[#9F1239]">
                   <Icon className="h-4.5 w-4.5" />
                 </div>
                 <span className="block text-[9px] font-bold uppercase tracking-widest text-black/40">
@@ -981,7 +943,7 @@ export default function HomeClient() {
                     href={contact.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="block text-xs leading-relaxed text-black/80 transition-colors hover:text-[#E70D1D]"
+                    className="block text-xs leading-relaxed text-black/80 transition-colors hover:text-[#9F1239]"
                   >
                     {contact.value}
                   </a>
@@ -995,10 +957,10 @@ export default function HomeClient() {
 
         <FadeUp className="text-center">
           <a
-            href="https://wa.me/918830612287"
+            href={WHATSAPP_FLOAT_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-12 items-center gap-2.5 bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a]"
+            className="inline-flex h-12 items-center gap-2.5 rounded-full bg-[#9F1239] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#7d0f2d]"
           >
             <MessageCircle className="h-4 w-4" />
             Chat With Us on WhatsApp

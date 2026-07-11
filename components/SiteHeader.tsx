@@ -65,11 +65,11 @@ export default function SiteHeader({
 
   return (
     <header
-      className={`sticky top-0 z-40 border-b border-[#E70D1D]/15 bg-[rgba(248,244,238,0.95)] shadow-sm backdrop-blur-md transition-all duration-300 ${
+      className={`sticky top-0 z-40 border-b border-black/8 bg-[rgba(248,244,238,0.95)] shadow-sm backdrop-blur-md transition-all duration-300 ${
         isCompact ? "shadow-md" : ""
       }`}
     >
-      <div className="h-[3px] bg-[#E70D1D]" />
+      <div className="h-[3px] bg-[#9F1239]" />
       <div
         className={`mx-auto flex max-w-7xl items-center justify-between px-4 transition-all duration-300 sm:px-6 lg:px-8 ${
           isCompact ? "h-16" : "h-20"
@@ -105,7 +105,7 @@ export default function SiteHeader({
         <nav className="hidden items-center gap-1 lg:flex">
           {NAV_ITEMS.map((item) => {
             const active =
-              pathname === "/" && item.sectionId
+                  pathname === "/" && item.sectionId
                 ? activeSection === item.sectionId
                 : item.pageHref === "/"
                   ? pathname === "/"
@@ -117,13 +117,13 @@ export default function SiteHeader({
                 href={pathname === "/" ? item.href : item.pageHref}
                 className={`group relative border px-4 py-2 text-xs font-bold uppercase tracking-[0.15em] transition-all duration-200 ${
                   active
-                    ? "border-[#E70D1D]/40 text-[#E70D1D]"
+                    ? "border-[#9F1239]/30 text-[#9F1239]"
                     : "border-transparent text-black/50 hover:text-black"
                 }`}
               >
                 {item.label}
                 <span
-                  className={`absolute bottom-1 left-4 right-4 h-[2px] origin-left bg-[#E70D1D] transition-transform duration-300 ${
+                  className={`absolute bottom-1 left-4 right-4 h-[2px] origin-left bg-[#9F1239] transition-transform duration-300 ${
                     active ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
                   }`}
                 />
@@ -136,14 +136,14 @@ export default function SiteHeader({
           {onWishlistClick ? (
             <button
               onClick={onWishlistClick}
-              className="relative border border-black/10 p-3 text-black/70 transition-all hover:border-[#E70D1D]/30 hover:text-[#E70D1D]"
+              className="relative rounded-full border border-black/10 p-3 text-black/70 transition-all hover:border-[#9F1239]/20 hover:text-[#9F1239]"
               title="View Shortlist"
             >
               <Heart
-                className={`h-4.5 w-4.5 ${wishlistCount > 0 ? "fill-[#E70D1D] text-[#E70D1D]" : ""}`}
+                className={`h-4.5 w-4.5 ${wishlistCount > 0 ? "fill-[#9F1239] text-[#9F1239]" : ""}`}
               />
               {wishlistCount > 0 ? (
-                <span className="absolute -right-1.5 -top-1.5 flex h-5.5 w-5.5 items-center justify-center rounded-full border-2 border-[#F8F4EE] bg-[#E70D1D] text-[10px] font-black text-white">
+                <span className="absolute -right-1.5 -top-1.5 flex h-5.5 w-5.5 items-center justify-center rounded-full border-2 border-[#F8F4EE] bg-[#9F1239] text-[10px] font-black text-white">
                   {wishlistCount}
                 </span>
               ) : null}
@@ -152,7 +152,7 @@ export default function SiteHeader({
 
           <button
             onClick={() => setMobileOpen((value) => !value)}
-            className="border border-black/10 p-3 text-black/70 transition-all hover:border-[#E70D1D]/30 hover:text-[#E70D1D] lg:hidden"
+            className="rounded-full border border-black/10 p-3 text-black/70 transition-all hover:border-[#9F1239]/20 hover:text-[#9F1239] lg:hidden"
             aria-label="Toggle menu"
           >
             {mobileOpen ? <X className="h-4.5 w-4.5" /> : <Menu className="h-4.5 w-4.5" />}
@@ -161,14 +161,14 @@ export default function SiteHeader({
       </div>
 
       {mobileOpen ? (
-        <nav className="border-t border-[#E70D1D]/15 bg-[#F8F4EE] lg:hidden">
+        <nav className="border-t border-black/8 bg-[#F8F4EE] lg:hidden">
           <div className="flex flex-col">
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.label}
                 href={pathname === "/" ? item.href : item.pageHref}
                 onClick={() => setMobileOpen(false)}
-                className="border-b border-black/5 px-6 py-4 text-xs font-bold uppercase tracking-[0.15em] text-black/60 transition-colors hover:text-[#E70D1D]"
+                className="border-b border-black/5 px-6 py-4 text-xs font-bold uppercase tracking-[0.15em] text-black/60 transition-colors hover:text-[#9F1239]"
               >
                 {item.label}
               </Link>

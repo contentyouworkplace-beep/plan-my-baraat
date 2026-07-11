@@ -77,10 +77,10 @@ export default function AboutPage() {
           <div className="relative h-[300px] sm:h-[380px] lg:h-[440px]">
             <div className="absolute inset-0 overflow-hidden border border-[#C9A24B]/25">
               <Image
-                src={SITE_IMAGES.coupleGolden}
-                alt="PlanMyBaraat celebration"
+                src={SITE_IMAGES.ctaBanner}
+                alt="PlanMyBaraat vintage baraat car"
                 fill
-                className="object-cover grayscale-[15%]"
+                className="object-cover object-center"
               />
             </div>
           </div>

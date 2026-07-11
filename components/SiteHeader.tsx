@@ -15,7 +15,6 @@ const NAV_ITEMS = [
   { href: "/", label: "Home", sectionId: "home", pageHref: "/" },
   { href: "/#about", label: "About Us", sectionId: "about", pageHref: "/about" },
   { href: "/gallery", label: "Gallery", sectionId: "gallery", pageHref: "/gallery" },
-  { href: "/portfolio", label: "Portfolio", pageHref: "/portfolio" },
   { href: "/#testimonials", label: "Testimonials", sectionId: "testimonials", pageHref: "/testimonials" },
   { href: "/#contact", label: "Contact Us", sectionId: "contact", pageHref: "/contact" },
 ];

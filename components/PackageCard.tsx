@@ -13,13 +13,13 @@ interface PackageCardProps {
 export default function PackageCard({ pkg, featured, onEnquire }: PackageCardProps) {
   return (
     <div
-      className={`relative flex flex-col overflow-hidden border p-7 transition-all duration-300 hover:-translate-y-1 ${
+      className={`group relative flex flex-col overflow-hidden border p-7 transition-all duration-300 hover:-translate-y-1 ${
         featured
-          ? "border-[#E70D1D]/50 bg-white/65 backdrop-blur-xl"
-          : "border-black/10 bg-white/45 backdrop-blur-xl hover:border-[#E70D1D]/30"
+          ? "border-[#E70D1D]/50 bg-white/65 backdrop-blur-xl hover:bg-[#F8F4EE]"
+          : "border-black/10 bg-white/45 backdrop-blur-xl hover:border-[#E70D1D]/30 hover:bg-[#F8F4EE]"
       }`}
     >
-      <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.58),rgba(255,255,255,0.18)_38%,rgba(255,255,255,0.06))]" />
+      <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.58),rgba(255,255,255,0.18)_38%,rgba(255,255,255,0.06))] transition-opacity duration-300 group-hover:opacity-90" />
 
       {featured ? (
         <span className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#E70D1D] px-4 py-1 text-[9px] font-black uppercase tracking-widest text-white">
@@ -38,21 +38,6 @@ export default function PackageCard({ pkg, featured, onEnquire }: PackageCardPro
         {pkg.tagline}
       </span>
       <p className="relative z-10 mt-3 text-xs leading-relaxed text-black/50">{pkg.description}</p>
-
-      <div className="relative z-10 mt-4">
-        <div className="inline-flex items-center rounded-full border border-[#E70D1D]/20 bg-white/55 px-4 py-2 backdrop-blur-lg">
-          <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-black/40">
-            Quote
-          </span>
-          <span className="mx-2 h-1 w-1 rounded-full bg-[#E70D1D]/45" />
-          <span className="text-xs font-black uppercase tracking-[0.18em] text-[#E70D1D]">
-            Tailored Pricing
-          </span>
-          <span className="ml-3 flex">
-            <span className="h-2.5 w-2.5 rounded-full bg-[#E70D1D]/80 animate-[ping_1.8s_ease-in-out_infinite]" />
-          </span>
-        </div>
-      </div>
 
       <ul className="relative z-10 mt-5 flex-1 space-y-2.5">
         {pkg.features.map((feature, index) => (

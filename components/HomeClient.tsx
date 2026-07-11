@@ -222,7 +222,7 @@ function ScrollHero() {
   const titleOpacity = useTransform(scrollYProgress, [0, 0.55], [1, 0]);
   const titleY = useTransform(scrollYProgress, [0, 0.7], [0, -60]);
   const bgScale = useTransform(scrollYProgress, [0, 1], [1.05, 1.35]);
-  const bgOpacity = useTransform(scrollYProgress, [0, 0.8], [0.45, 0.1]);
+  const bgOpacity = useTransform(scrollYProgress, [0, 0.8], [1, 0.45]);
   const subOpacity = useTransform(scrollYProgress, [0, 0.3], [1, 0]);
   const badgeOpacity = useTransform(scrollYProgress, [0, 0.07], [1, 0]);
   const badgeY = useTransform(scrollYProgress, [0, 0.15], [0, -90]);
@@ -234,26 +234,35 @@ function ScrollHero() {
       <div className="sticky top-0 flex h-screen flex-col items-center justify-center overflow-hidden">
         <motion.div style={{ scale: bgScale, opacity: bgOpacity }} className="absolute inset-0">
           <Image
-            src={SITE_IMAGES.traditionalCouple}
+            src={SITE_IMAGES.heroFloral}
             alt=""
             fill
-            className="object-cover grayscale"
+            className="object-cover object-center"
             priority
           />
         </motion.div>
-        <div className="absolute inset-0 bg-[rgba(248,244,238,0.55)]" />
 
         <motion.div
-          style={{ opacity: badgeOpacity, y: badgeY, scale: badgeScale }}
-          className="relative z-10 mb-8 inline-flex items-center gap-2.5 border border-[#E70D1D]/30 bg-[#F8F4EE]/70 px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest text-[#E70D1D] backdrop-blur-sm md:text-[11px]"
+          style={{
+            opacity: badgeOpacity,
+            y: badgeY,
+            scale: badgeScale,
+            textShadow: "0 4px 18px rgba(0,0,0,0.45)",
+          }}
+          className="relative z-10 mb-8 inline-flex items-center gap-2.5 border border-white/35 bg-black/18 px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest text-white backdrop-blur-sm md:text-[11px]"
         >
           <Award className="h-3.5 w-3.5" />
           <span>Gujarat&apos;s Trusted Baraat Specialists</span>
         </motion.div>
 
         <motion.h1
-          style={{ scale: titleScale, opacity: titleOpacity, y: titleY }}
-          className="relative z-10 px-4 text-center font-serif text-5xl font-black leading-[1.05] tracking-wide text-black sm:text-6xl md:text-8xl"
+          style={{
+            scale: titleScale,
+            opacity: titleOpacity,
+            y: titleY,
+            textShadow: "0 10px 30px rgba(0,0,0,0.38), 0 3px 12px rgba(0,0,0,0.45)",
+          }}
+          className="relative z-10 px-4 text-center font-serif text-5xl font-black leading-[1.05] tracking-wide text-white sm:text-6xl md:text-8xl"
         >
           Your Baraat.
           <br />
@@ -261,8 +270,8 @@ function ScrollHero() {
         </motion.h1>
 
         <motion.p
-          style={{ opacity: subOpacity }}
-          className="relative z-10 mx-auto mt-8 max-w-lg px-6 text-center text-sm leading-relaxed text-black/60 md:text-base"
+          style={{ opacity: subOpacity, textShadow: "0 4px 18px rgba(0,0,0,0.42)" }}
+          className="relative z-10 mx-auto mt-8 max-w-lg px-6 text-center text-sm leading-relaxed text-white/88 md:text-base"
         >
           Double-decker DJ trucks, dhol, pyro, vintage cars and safa teams -
           assembled into four ready-made packages.
@@ -286,11 +295,11 @@ function ScrollHero() {
           <motion.div
             animate={{ y: [0, 8, 0] }}
             transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-            className="mx-auto h-9 w-5 rounded-full border border-black/30"
+            className="mx-auto h-9 w-5 rounded-full border border-white/40"
           >
-            <div className="mx-auto mt-1.5 h-2 w-0.5 rounded bg-black/40" />
+            <div className="mx-auto mt-1.5 h-2 w-0.5 rounded bg-white/55" />
           </motion.div>
-          <p className="mt-2 text-[9px] font-bold uppercase tracking-widest text-black/40">
+          <p className="mt-2 text-[9px] font-bold uppercase tracking-widest text-white/60">
             Scroll
           </p>
         </motion.div>
@@ -645,7 +654,10 @@ function VehicleParade() {
 
         <div className="grid grid-cols-1 items-end gap-10 md:grid-cols-2 md:gap-6">
           <div>
-            <motion.div style={{ x: carX }} className="will-change-transform">
+            <motion.div
+              style={{ x: carX }}
+              className="rounded-[32px] border border-black/8 bg-white/40 px-4 py-5 shadow-[0_30px_80px_rgba(17,17,17,0.05)] backdrop-blur-sm will-change-transform md:px-6"
+            >
               <VintageCarArt className="mx-auto w-full max-w-md" />
             </motion.div>
             <motion.p
@@ -657,7 +669,10 @@ function VehicleParade() {
           </div>
 
           <div>
-            <motion.div style={{ x: truckX }} className="will-change-transform">
+            <motion.div
+              style={{ x: truckX }}
+              className="rounded-[32px] border border-black/8 bg-white/40 px-4 py-5 shadow-[0_30px_80px_rgba(17,17,17,0.05)] backdrop-blur-sm will-change-transform md:px-6"
+            >
               <DjTruckArt className="mx-auto w-full max-w-lg" />
             </motion.div>
             <motion.p

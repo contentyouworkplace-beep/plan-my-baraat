@@ -21,8 +21,8 @@ export default function HomePackagesSection() {
             Choose Your Royal Experience
           </h2>
           <p className="mx-auto max-w-2xl pt-2 text-xs text-black/50 md:text-sm">
-            Every package can be customized - enquire on WhatsApp with your name,
-            event, and number to get a personalized quote and availability.
+            Every package can be customized for your celebration with music,
+            lights, entry style, and add-ons tailored to your event.
           </p>
         </div>
 

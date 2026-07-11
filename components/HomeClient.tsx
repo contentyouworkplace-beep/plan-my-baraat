@@ -82,23 +82,6 @@ const ENQUIRY_TOASTS = [
   { name: "Arjun", city: "Anand", ago: "3 hrs ago", interest: "Maharaja Package" },
 ];
 
-const BLUEPRINT_LABELS = [
-  { title: "DJ Truck", note: "double decker sound stage", className: "left-[55%] top-[10%] md:left-[62%]" },
-  { title: "Dhol", note: "live rhythm line", className: "left-[12%] top-[48%] md:left-[18%]" },
-  { title: "Safa Team", note: "groom styling station", className: "left-[18%] top-[18%] md:left-[22%]" },
-  { title: "Vintage Car", note: "royal arrival vehicle", className: "left-[4%] top-[70%] md:left-[10%]" },
-  { title: "Cold Pyro", note: "entry highlight effect", className: "left-[72%] top-[62%] md:left-[78%]" },
-];
-
-const PETALS = [
-  { left: "8%", top: "18%", size: 12, duration: 12, delay: 0 },
-  { left: "24%", top: "10%", size: 14, duration: 14, delay: 1.3 },
-  { left: "40%", top: "20%", size: 10, duration: 11, delay: 0.8 },
-  { left: "62%", top: "12%", size: 16, duration: 15, delay: 2.2 },
-  { left: "78%", top: "16%", size: 11, duration: 13, delay: 0.5 },
-  { left: "90%", top: "8%", size: 13, duration: 12.5, delay: 1.8 },
-];
-
 function CountUp({
   value,
   suffix,
@@ -228,263 +211,89 @@ function RecentlyEnquiredToast() {
   );
 }
 
-function HeroPetals({ opacity }: { opacity: MotionValue<number> }) {
-  return (
-    <motion.div style={{ opacity }} className="pointer-events-none absolute inset-0">
-      {PETALS.map((petal, index) => (
-        <motion.span
-          key={index}
-          className="absolute block rounded-[70%_30%_65%_35%/55%_38%_62%_45%] bg-gradient-to-br from-[#F4B566] via-[#E86A8A] to-[#E70D1D] shadow-[0_6px_14px_rgba(231,13,29,0.18)]"
-          style={{
-            left: petal.left,
-            top: petal.top,
-            width: petal.size,
-            height: petal.size * 1.4,
-          }}
-          animate={{ y: [0, 180, 360], x: [0, 18, -12], rotate: [0, 90, 220], opacity: [0, 0.9, 0] }}
-          transition={{
-            duration: petal.duration,
-            delay: petal.delay,
-            repeat: Infinity,
-            repeatDelay: 1.5,
-            ease: "easeInOut",
-          }}
-        />
-      ))}
-    </motion.div>
-  );
-}
-
-function BlueprintHero() {
+function ScrollHero() {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
   });
 
-  const blueprintOpacity = useTransform(scrollYProgress, [0, 0.58, 0.78], [1, 1, 0.08]);
-  const festiveOpacity = useTransform(scrollYProgress, [0.38, 0.62, 0.88], [0, 0.45, 1]);
-  const titleY = useTransform(scrollYProgress, [0, 0.22, 0.9], [0, -24, -44]);
-  const titleOpacity = useTransform(scrollYProgress, [0, 0.62, 0.92], [1, 1, 0.84]);
-  const routePath = useTransform(scrollYProgress, [0.02, 0.34], [0, 1]);
-  const sketchOpacity = useTransform(scrollYProgress, [0.12, 0.72], [0.28, 1]);
-  const labelOpacity = useTransform(scrollYProgress, [0.2, 0.4], [0, 1]);
-  const labelY = useTransform(scrollYProgress, [0.2, 0.4], [18, 0]);
-  const carX = useTransform(scrollYProgress, [0.14, 0.62], ["-22%", "0%"]);
-  const truckX = useTransform(scrollYProgress, [0.18, 0.72], ["18%", "0%"]);
-  const glowOpacity = useTransform(scrollYProgress, [0.5, 0.86], [0, 1]);
-  const glassOpacity = useTransform(scrollYProgress, [0.58, 0.84], [0, 1]);
+  const titleScale = useTransform(scrollYProgress, [0, 0.7], [1, 1.4]);
+  const titleOpacity = useTransform(scrollYProgress, [0, 0.55], [1, 0]);
+  const titleY = useTransform(scrollYProgress, [0, 0.7], [0, -60]);
+  const bgScale = useTransform(scrollYProgress, [0, 1], [1.05, 1.35]);
+  const bgOpacity = useTransform(scrollYProgress, [0, 0.8], [0.45, 0.1]);
+  const subOpacity = useTransform(scrollYProgress, [0, 0.3], [1, 0]);
+  const badgeOpacity = useTransform(scrollYProgress, [0, 0.07], [1, 0]);
+  const badgeY = useTransform(scrollYProgress, [0, 0.15], [0, -90]);
+  const badgeScale = useTransform(scrollYProgress, [0, 0.12], [1, 0.7]);
   const hintOpacity = useTransform(scrollYProgress, [0, 0.16], [1, 0]);
-  const stageOneOpacity = useTransform(scrollYProgress, [0, 0.08, 0.3], [1, 1, 0]);
-  const stageTwoOpacity = useTransform(scrollYProgress, [0.18, 0.34, 0.52], [0, 1, 0]);
-  const stageThreeOpacity = useTransform(scrollYProgress, [0.5, 0.68, 0.9], [0, 1, 1]);
-  const festiveScale = useTransform(scrollYProgress, [0.48, 0.88], [0.96, 1.03]);
 
   return (
-    <section id="home" ref={ref} className="relative h-[340vh]">
-      <div className="sticky top-0 h-screen overflow-hidden bg-[#08111C]">
+    <section id="home" ref={ref} className="relative h-[200vh]">
+      <div className="sticky top-0 flex h-screen flex-col items-center justify-center overflow-hidden">
+        <motion.div style={{ scale: bgScale, opacity: bgOpacity }} className="absolute inset-0">
+          <Image
+            src={SITE_IMAGES.traditionalCouple}
+            alt=""
+            fill
+            className="object-cover grayscale"
+            priority
+          />
+        </motion.div>
+        <div className="absolute inset-0 bg-[rgba(248,244,238,0.55)]" />
+
         <motion.div
-          style={{ opacity: blueprintOpacity }}
-          className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(68,118,173,0.28),transparent_42%),linear-gradient(180deg,#07111c_0%,#0b1b2a_100%)]"
+          style={{ opacity: badgeOpacity, y: badgeY, scale: badgeScale }}
+          className="relative z-10 mb-8 inline-flex items-center gap-2.5 border border-[#E70D1D]/30 bg-[#F8F4EE]/70 px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest text-[#E70D1D] backdrop-blur-sm md:text-[11px]"
         >
-          <div className="absolute inset-0 bg-[linear-gradient(rgba(112,167,227,0.12)_1px,transparent_1px),linear-gradient(90deg,rgba(112,167,227,0.12)_1px,transparent_1px)] bg-[size:42px_42px]" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,transparent_62%,rgba(7,17,28,0.66)_100%)]" />
+          <Award className="h-3.5 w-3.5" />
+          <span>Gujarat&apos;s Trusted Baraat Specialists</span>
+        </motion.div>
+
+        <motion.h1
+          style={{ scale: titleScale, opacity: titleOpacity, y: titleY }}
+          className="relative z-10 px-4 text-center font-serif text-5xl font-black leading-[1.05] tracking-wide text-black sm:text-6xl md:text-8xl"
+        >
+          Your Baraat.
+          <br />
+          <span className="text-[#E70D1D]">Royally Reimagined.</span>
+        </motion.h1>
+
+        <motion.p
+          style={{ opacity: subOpacity }}
+          className="relative z-10 mx-auto mt-8 max-w-lg px-6 text-center text-sm leading-relaxed text-black/60 md:text-base"
+        >
+          Double-decker DJ trucks, dhol, pyro, vintage cars and safa teams -
+          assembled into four ready-made packages.
+        </motion.p>
+
+        <motion.div style={{ opacity: subOpacity }} className="relative z-10 mt-8">
+          <a
+            href="#packages"
+            onClick={fireCelebration}
+            className="inline-flex h-12 items-center gap-2.5 bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a]"
+          >
+            <MessageCircle className="h-4 w-4" />
+            Explore Packages
+          </a>
         </motion.div>
 
         <motion.div
-          style={{ opacity: festiveOpacity, scale: festiveScale }}
-          className="absolute inset-0"
+          style={{ opacity: hintOpacity }}
+          className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 text-center"
         >
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.7),transparent_35%),linear-gradient(180deg,#f8f4ee_0%,#f5ecdf_55%,#f8f4ee_100%)]" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(201,162,75,0.18),transparent_20%),radial-gradient(circle_at_82%_30%,rgba(231,13,29,0.14),transparent_24%),radial-gradient(circle_at_50%_76%,rgba(232,106,138,0.16),transparent_18%)]" />
+          <motion.div
+            animate={{ y: [0, 8, 0] }}
+            transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
+            className="mx-auto h-9 w-5 rounded-full border border-black/30"
+          >
+            <div className="mx-auto mt-1.5 h-2 w-0.5 rounded bg-black/40" />
+          </motion.div>
+          <p className="mt-2 text-[9px] font-bold uppercase tracking-widest text-black/40">
+            Scroll
+          </p>
         </motion.div>
-
-        <HeroPetals opacity={glowOpacity} />
-
-        <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col px-4 pt-10 sm:px-6 lg:px-8">
-          <motion.div
-            style={{ y: titleY, opacity: titleOpacity }}
-            className="mx-auto flex max-w-4xl flex-col items-center text-center"
-          >
-            <div className="rounded-full border border-white/15 bg-white/10 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.28em] text-[#C9E7FF] shadow-[inset_0_1px_0_rgba(255,255,255,0.15)] backdrop-blur-xl md:text-[11px]">
-              Baraat Blueprint to Celebration
-            </div>
-            <h1 className="mt-6 font-serif text-4xl font-black leading-[1.02] tracking-wide text-white sm:text-5xl md:text-7xl">
-              Plan the procession.
-              <br />
-              <span className="text-[#F6D38E]">Then watch it come alive.</span>
-            </h1>
-            <p className="mt-6 max-w-2xl text-sm leading-relaxed text-white/68 md:text-base">
-              A technical sketch of your baraat builds on scroll, every service gets labeled
-              like a planner&apos;s board, then the scene blooms into lights, motion, glassy
-              detail, and full celebration energy.
-            </p>
-          </motion.div>
-
-          <div className="relative mt-8 flex-1">
-            <motion.div
-              style={{ opacity: glassOpacity }}
-              className="absolute left-0 top-0 hidden w-[280px] rounded-[28px] border border-white/35 bg-white/14 p-5 text-left text-white shadow-[0_25px_60px_rgba(0,0,0,0.22)] backdrop-blur-2xl lg:block"
-            >
-              <div className="flex items-center justify-between text-[10px] font-bold uppercase tracking-[0.24em] text-white/70">
-                <span>Planner View</span>
-                <span>Live Build</span>
-              </div>
-              <div className="mt-4 space-y-3 text-sm text-white/80">
-                <p>DJ Truck route locked</p>
-                <p>Dhol rhythm line positioned</p>
-                <p>Safa team and groom arrival staged</p>
-                <p>Cold pyro and light cues activated</p>
-              </div>
-            </motion.div>
-
-            <motion.div
-              style={{ opacity: glowOpacity }}
-              className="absolute right-0 top-6 hidden w-[260px] rounded-[28px] border border-white/40 bg-white/55 p-5 text-left text-black shadow-[0_25px_60px_rgba(0,0,0,0.14)] backdrop-blur-2xl lg:block"
-            >
-              <div className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#E70D1D]">
-                Celebration Mode
-              </div>
-              <p className="mt-3 font-serif text-2xl font-black text-black">
-                DJ Truck, Dhol, Safa Team, Vintage Car, Cold Pyro
-              </p>
-              <p className="mt-3 text-sm leading-relaxed text-black/60">
-                Every element arrives in sequence so the scroll feels like a royal event
-                getting approved, built, and unleashed.
-              </p>
-            </motion.div>
-
-            <div className="absolute inset-x-0 bottom-[11vh] top-[8vh]">
-              <motion.svg
-                viewBox="0 0 1200 640"
-                preserveAspectRatio="xMidYMid meet"
-                className="absolute inset-0 h-full w-full"
-                style={{ opacity: blueprintOpacity }}
-              >
-                <motion.path
-                  d="M 76 480 C 240 458 370 470 468 446 C 590 416 648 356 760 324 C 852 296 942 314 1112 278"
-                  fill="none"
-                  stroke="#86C8FF"
-                  strokeWidth="4"
-                  strokeLinecap="round"
-                  strokeDasharray="10 14"
-                  style={{ pathLength: routePath }}
-                />
-                <motion.path
-                  d="M 866 326 C 906 228 986 168 1098 152"
-                  fill="none"
-                  stroke="#86C8FF"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  style={{ pathLength: routePath }}
-                />
-                <motion.path
-                  d="M 236 304 C 288 250 350 224 430 214 C 488 208 566 214 610 234"
-                  fill="none"
-                  stroke="#86C8FF"
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  style={{ pathLength: routePath }}
-                />
-              </motion.svg>
-
-              <motion.div
-                style={{ x: carX, opacity: sketchOpacity }}
-                className="absolute bottom-[10%] left-[2%] w-[38%] md:left-[4%] md:w-[30%]"
-              >
-                <div className="rounded-[28px] border border-white/10 bg-white/5 p-4 backdrop-blur-md">
-                  <VintageCarArt className="w-full opacity-90" />
-                </div>
-              </motion.div>
-
-              <motion.div
-                style={{ x: truckX, opacity: sketchOpacity }}
-                className="absolute bottom-0 right-[-8%] w-[76%] md:right-[0] md:w-[54%]"
-              >
-                <div className="relative rounded-[30px] border border-white/10 bg-white/5 p-4 backdrop-blur-md">
-                  <DjTruckArt className="w-full opacity-95" />
-                  <motion.div
-                    style={{ opacity: glowOpacity }}
-                    className="pointer-events-none absolute inset-x-[16%] top-[14%] h-24 rounded-full bg-[radial-gradient(circle,rgba(231,13,29,0.22)_0%,rgba(231,13,29,0)_72%)] blur-2xl"
-                  />
-                  <motion.div
-                    style={{ opacity: glowOpacity }}
-                    animate={{ scale: [1, 1.04, 1], opacity: [0.45, 0.85, 0.45] }}
-                    transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-                    className="pointer-events-none absolute left-[58%] top-[44%] h-24 w-24 rounded-full border border-[#E70D1D]/25"
-                  />
-                </div>
-              </motion.div>
-
-              <motion.div
-                style={{ opacity: labelOpacity, y: labelY }}
-                className="absolute inset-0"
-              >
-                {BLUEPRINT_LABELS.map((label) => (
-                  <div
-                    key={label.title}
-                    className={`absolute ${label.className} hidden rounded-[20px] border border-white/20 bg-white/10 px-4 py-3 text-left text-white shadow-[0_14px_30px_rgba(0,0,0,0.18)] backdrop-blur-xl md:block`}
-                  >
-                    <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-[#C9E7FF]">
-                      {label.title}
-                    </p>
-                    <p className="mt-1 text-xs text-white/60">{label.note}</p>
-                  </div>
-                ))}
-              </motion.div>
-            </div>
-          </div>
-
-          <div className="pointer-events-none absolute inset-x-0 bottom-24 z-20 px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-7xl">
-              <motion.div style={{ opacity: stageOneOpacity }} className="text-center">
-                <span className="rounded-full border border-white/18 bg-white/8 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.26em] text-[#C9E7FF] backdrop-blur-lg">
-                  Step 1: drafting the route and structure
-                </span>
-              </motion.div>
-              <motion.div style={{ opacity: stageTwoOpacity }} className="text-center">
-                <span className="rounded-full border border-white/20 bg-white/10 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.26em] text-[#F6D38E] backdrop-blur-lg">
-                  Step 2: every service gets mapped and labeled
-                </span>
-              </motion.div>
-              <motion.div style={{ opacity: stageThreeOpacity }} className="text-center">
-                <div className="inline-flex flex-col items-center rounded-[28px] border border-white/40 bg-white/55 px-6 py-5 text-black shadow-[0_25px_60px_rgba(0,0,0,0.14)] backdrop-blur-2xl">
-                  <span className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#E70D1D]">
-                    Step 3: celebration takes over
-                  </span>
-                  <p className="mt-2 max-w-xl font-serif text-2xl font-black leading-tight md:text-3xl">
-                    The sketch becomes a full festive world with lights, motion, petals, and
-                    a headline-worthy entry.
-                  </p>
-                  <a
-                    href="#packages"
-                    onClick={fireCelebration}
-                    className="pointer-events-auto mt-4 inline-flex h-12 items-center gap-2.5 rounded-full bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a]"
-                  >
-                    <MessageCircle className="h-4 w-4" />
-                    Explore Packages
-                  </a>
-                </div>
-              </motion.div>
-            </div>
-          </div>
-
-          <motion.div
-            style={{ opacity: hintOpacity }}
-            className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 text-center"
-          >
-            <motion.div
-              animate={{ y: [0, 8, 0] }}
-              transition={{ repeat: Infinity, duration: 1.8, ease: "easeInOut" }}
-              className="mx-auto h-9 w-5 rounded-full border border-white/30"
-            >
-              <div className="mx-auto mt-1.5 h-2 w-0.5 rounded bg-white/40" />
-            </motion.div>
-            <p className="mt-2 text-[9px] font-bold uppercase tracking-widest text-white/40">
-              Scroll the build
-            </p>
-          </motion.div>
-        </div>
       </div>
     </section>
   );
@@ -968,7 +777,7 @@ export default function HomeClient() {
       <WhatsAppFloat />
       <RecentlyEnquiredToast />
 
-      <BlueprintHero />
+      <ScrollHero />
 
       <StatementSection />
 

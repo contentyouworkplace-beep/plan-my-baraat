@@ -496,7 +496,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
   z-index: 2;
 }
 .wa-form-hero {
-  /* hero variant — floats right in grid */
+  margin: 0 auto;
 }
 .wa-form-bottom {
   margin: 0 auto;

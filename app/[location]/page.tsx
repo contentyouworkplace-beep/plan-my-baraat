@@ -146,7 +146,7 @@ export default function LocationPage({
           </div>
 
           <div className="mx-auto mt-10 max-w-xl">
-            <LeadCaptureForm variant="hero" />
+          <LeadCaptureForm variant="hero" defaultLocation={loc.name} />
           </div>
 
           <div className="mx-auto mt-10 max-w-4xl overflow-hidden rounded-[28px]">
@@ -208,9 +208,7 @@ export default function LocationPage({
                       Enquire Now
                     </EnquireNowButton>
                     <a
-                      href="/#packages"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href={`/packages/${pkg.id}`}
                       className="flex h-11 items-center justify-center rounded-full border border-black/15 px-4 text-[10px] font-bold uppercase tracking-widest text-black/60 transition-colors hover:border-black/30 hover:text-black"
                     >
                       View

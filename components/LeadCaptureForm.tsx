@@ -1,20 +1,23 @@
 "use client";
 
 import React, { useState } from "react";
-import { buildLeadWhatsAppLink } from "@/lib/seoHelpers";
+import { WHATSAPP_NUMBER } from "@/lib/seoHelpers";
 import { BARAAT_PACKAGES } from "@/lib/packagesData";
 
 interface LeadCaptureFormProps {
   variant?: "hero" | "bottom";
   defaultPackage?: string;
+  defaultLocation?: string;
 }
 
 export default function LeadCaptureForm({
   variant = "hero",
   defaultPackage = "",
+  defaultLocation = "",
 }: LeadCaptureFormProps) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
+  const [location, setLocation] = useState(defaultLocation);
   const [packageInterested, setPackageInterested] = useState(defaultPackage);
   const [requirement, setRequirement] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -26,6 +29,7 @@ export default function LeadCaptureForm({
     if (!name.trim()) newErrors.name = "Please enter your name";
     if (!phone.trim() || !/^[6-9]\d{9}$/.test(phone.trim()))
       newErrors.phone = "Enter a valid 10-digit Indian mobile number";
+    if (!location.trim()) newErrors.location = "Please enter your city or area";
     if (!packageInterested) newErrors.packageInterested = "Please select a package";
     if (!requirement.trim() || requirement.trim().length < 10)
       newErrors.requirement = "Please describe your requirement (min 10 chars)";
@@ -43,12 +47,10 @@ export default function LeadCaptureForm({
     }
     setErrors({});
 
-    const link = buildLeadWhatsAppLink(
-      name.trim(),
-      phone.trim(),
-      packageInterested,
-      requirement.trim()
+    const msg = encodeURIComponent(
+      `Hi PlanMyBaraat!\n\nName: ${name.trim()}\nPhone: +91 ${phone.trim()}\nLocation: ${location.trim()}\nPackage Interested: ${packageInterested}\n\nRequirement:\n${requirement.trim()}\n\nPlease help me plan my baraat!`
     );
+    const link = `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 
     window.open(link, "_blank");
     setSubmitted(true);
@@ -90,6 +92,7 @@ export default function LeadCaptureForm({
       </div>
 
       <div className="wa-fields">
+        {/* Name */}
         <div className="wa-field-group wa-field-full">
           <label className="wa-label" htmlFor="lead-name">
             Your Name *
@@ -106,6 +109,7 @@ export default function LeadCaptureForm({
           {errors.name && <span className="wa-error">{errors.name}</span>}
         </div>
 
+        {/* Phone */}
         <div className="wa-field-group wa-field-full">
           <label className="wa-label" htmlFor="lead-phone">
             WhatsApp Number *
@@ -125,6 +129,24 @@ export default function LeadCaptureForm({
           {errors.phone && <span className="wa-error">{errors.phone}</span>}
         </div>
 
+        {/* Location */}
+        <div className="wa-field-group wa-field-full">
+          <label className="wa-label" htmlFor="lead-location">
+            Your City / Area *
+          </label>
+          <input
+            id="lead-location"
+            type="text"
+            className={`wa-input ${errors.location ? "wa-input-error" : ""}`}
+            placeholder="e.g. Vadodara, Alkapuri"
+            value={location}
+            onChange={(e) => setLocation(e.target.value)}
+            autoComplete="address-level2"
+          />
+          {errors.location && <span className="wa-error">{errors.location}</span>}
+        </div>
+
+        {/* Package */}
         <div className="wa-field-group wa-field-full">
           <label className="wa-label" htmlFor="lead-package">
             Package Interested *
@@ -148,6 +170,7 @@ export default function LeadCaptureForm({
           )}
         </div>
 
+        {/* Requirement */}
         <div className="wa-field-group wa-field-full">
           <label className="wa-label" htmlFor="lead-req">
             Your Requirement *

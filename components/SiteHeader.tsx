@@ -114,7 +114,7 @@ export default function SiteHeader({
             return (
               <Link
                 key={item.label}
-                href={pathname === "/" ? item.href : item.pageHref}
+                href={item.pageHref}
                 className={`group relative border px-4 py-2 text-xs font-bold uppercase tracking-[0.15em] transition-all duration-200 ${
                   active
                     ? "border-[#9F1239]/30 text-[#9F1239]"
@@ -166,7 +166,7 @@ export default function SiteHeader({
             {NAV_ITEMS.map((item) => (
               <Link
                 key={item.label}
-                href={pathname === "/" ? item.href : item.pageHref}
+                href={item.pageHref}
                 onClick={() => setMobileOpen(false)}
                 className="border-b border-black/5 px-6 py-4 text-xs font-bold uppercase tracking-[0.15em] text-black/60 transition-colors hover:text-[#9F1239]"
               >

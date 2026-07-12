@@ -335,12 +335,23 @@ export interface SeoKeywordPage {
 
 const KEYWORD_CATEGORY_IDS = [
   "banquet_hall",
+  "lawns_farmhouses",
   "resorts_hotels",
   "wedding_caterers",
+  "live_counters",
+  "desserts_cakes",
   "floral_decorators",
+  "theme_decorators",
+  "lighting_setup",
   "candid_photographer",
+  "cinematographer",
+  "drone_photography",
   "bridal_makeup",
+  "hair_stylist",
+  "groom_styling",
   "wedding_dj",
+  "live_music_band",
+  "dance_choreographer",
   "brass_band",
   "dhol_tasha",
   "vintage_baggi",
@@ -386,7 +397,7 @@ export const SEO_KEYWORD_PAGES: SeoKeywordPage[] = PRIORITY_CITIES.flatMap((city
       areaNames: getAreasForCity(city.name).slice(0, 6),
     };
   }).filter((item): item is SeoKeywordPage => Boolean(item))
-).slice(0, 50);
+).filter((item): item is SeoKeywordPage => Boolean(item));
 
 export const FOOTER_KEYWORD_LINKS: FooterKeywordLink[] = SEO_KEYWORD_PAGES.map((page) => ({
   label: page.label,
@@ -397,7 +408,14 @@ export function getSeoKeywordPageBySlug(slug: string): SeoKeywordPage | undefine
   return SEO_KEYWORD_PAGES.find((page) => page.slug === slug);
 }
 
-// 200 Clean keywords list for referencing/content
+// ── Standalone baraat guide pages from CLEAN_200_KEYWORDS ────────────────────
+export interface BaraatKeywordPage {
+  slug: string;
+  keyword: string;
+  label: string;
+  href: string;
+}
+
 export const CLEAN_200_KEYWORDS = [
   // Core Product (Baraat on Wheels / DJ Truck)
   "baraat on wheels",
@@ -625,3 +643,22 @@ export const CLEAN_200_KEYWORDS = [
   "baraat entry checklist",
   "baraat planning checklist"
 ];
+
+export const BARAAT_KEYWORD_PAGES: BaraatKeywordPage[] = CLEAN_200_KEYWORDS.map((kw) => {
+  const s = kw
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-");
+  return {
+    slug: s,
+    keyword: kw,
+    label: kw.charAt(0).toUpperCase() + kw.slice(1),
+    href: `/baraat-management/${s}`,
+  };
+});
+
+export function getBaraatKeywordPageBySlug(slug: string): BaraatKeywordPage | undefined {
+  return BARAAT_KEYWORD_PAGES.find((p) => p.slug === slug);
+}
+

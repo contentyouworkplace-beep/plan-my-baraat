@@ -90,47 +90,48 @@ export default function PackageEnquiryModal({ pkg, onClose }: PackageEnquiryModa
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-md overflow-hidden border border-[#E70D1D]/25 bg-[#F8F4EE]"
+        className="relative w-full max-w-md overflow-hidden border border-[#E70D1D]/15 bg-[#FAF6F0] shadow-2xl rounded-sm"
         onClick={(e) => e.stopPropagation()}
       >
         <button
           onClick={onClose}
-          className="absolute right-4 top-4 z-10 bg-black/5 p-2 text-black/60 transition-colors hover:text-[#E70D1D]"
+          className="absolute right-4 top-4 z-10 flex h-8 w-8 items-center justify-center border border-black/10 bg-black/5 text-black/60 transition-colors hover:text-[#E70D1D]"
+          aria-label="Close modal"
         >
           <X className="h-4 w-4" />
         </button>
 
         {submitted ? (
-          <div className="space-y-4 p-10 text-center">
-            <div className="mx-auto flex h-14 w-14 items-center justify-center border border-[#E70D1D]/30 text-[#E70D1D]">
-              <PartyPopper className="h-7 w-7" />
+          <div className="space-y-5 p-10 text-center flex flex-col items-center">
+            <div className="flex h-16 w-16 items-center justify-center border border-[#E70D1D]/25 bg-[#E70D1D]/5 text-[#E70D1D]">
+              <PartyPopper className="h-8 w-8" />
             </div>
-            <h3 className="font-serif text-xl font-black text-black">Enquiry Sent!</h3>
-            <p className="text-xs leading-relaxed text-black/50">
-              Your enquiry for the <span className="font-bold text-black/80">{pkg.name}</span> has
+            <h3 className="font-serif text-2xl font-black text-black tracking-wide">Enquiry Sent!</h3>
+            <p className="text-xs leading-relaxed text-black/60 px-4">
+              Your enquiry for the <span className="font-bold text-black">{pkg.name} Package</span> has
               been sent on WhatsApp. Our team will get back to you shortly.
             </p>
             <button
               onClick={onClose}
-              className="mt-2 h-11 bg-[#E70D1D] px-6 text-xs font-extrabold uppercase tracking-widest text-white transition-colors hover:bg-[#c40d1a]"
+              className="h-11 bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-colors hover:bg-[#c40d1a] w-full max-w-[200px]"
             >
               Close
             </button>
           </div>
         ) : (
-          <form onSubmit={handleSubmit} className="space-y-5 p-8">
+          <form onSubmit={handleSubmit} className="space-y-6 p-8">
             <div className="space-y-1">
-              <span className="text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">
+              <span className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-[#E70D1D]">
                 Enquire Now
               </span>
-              <h3 className="font-serif text-xl font-black text-black">{pkg.name}</h3>
-              <p className="text-xs text-black/50">
+              <h3 className="font-serif text-2xl font-black text-black">{pkg.name} Package</h3>
+              <p className="text-xs text-black/50 tracking-wide font-sans">
                 Share your details and we&apos;ll reach out on WhatsApp.
               </p>
             </div>
 
             <div className="space-y-1.5">
-              <label className="text-[10px] font-bold uppercase tracking-widest text-black/50">
+              <label className="text-[10px] font-extrabold uppercase tracking-[0.15em] text-black/60">
                 Your Name *
               </label>
               <input
@@ -138,15 +139,15 @@ export default function PackageEnquiryModal({ pkg, onClose }: PackageEnquiryModa
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 placeholder="e.g. Rahul Sharma"
-                className={`w-full border bg-black/5 px-3.5 py-2.5 text-sm text-black placeholder:text-black/30 focus:border-[#E70D1D] focus:outline-none ${
-                  errors.name ? "border-red-400" : "border-black/15"
+                className={`w-full border bg-black/[0.03] px-3.5 py-3 text-sm text-black placeholder:text-black/35 focus:border-[#E70D1D] focus:ring-1 focus:ring-[#E70D1D] focus:outline-none transition-all ${
+                  errors.name ? "border-red-500 ring-1 ring-red-500" : "border-black/15"
                 }`}
               />
               {errors.name ? <span className="text-[10px] text-red-500">{errors.name}</span> : null}
             </div>
 
             <div className="space-y-1.5">
-              <label className="text-[10px] font-bold uppercase tracking-widest text-black/50">
+              <label className="text-[10px] font-extrabold uppercase tracking-[0.15em] text-black/60">
                 Event Date *
               </label>
               <input
@@ -154,8 +155,8 @@ export default function PackageEnquiryModal({ pkg, onClose }: PackageEnquiryModa
                 value={eventDate}
                 min={today}
                 onChange={(e) => setEventDate(e.target.value)}
-                className={`w-full border bg-black/5 px-3.5 py-2.5 text-sm text-black focus:border-[#E70D1D] focus:outline-none ${
-                  errors.eventDate ? "border-red-400" : "border-black/15"
+                className={`w-full border bg-black/[0.03] px-3.5 py-3 text-sm text-black focus:border-[#E70D1D] focus:ring-1 focus:ring-[#E70D1D] focus:outline-none transition-all ${
+                  errors.eventDate ? "border-red-500 ring-1 ring-red-500" : "border-black/15"
                 }`}
               />
               {errors.eventDate ? (
@@ -164,11 +165,11 @@ export default function PackageEnquiryModal({ pkg, onClose }: PackageEnquiryModa
             </div>
 
             <div className="space-y-1.5">
-              <label className="text-[10px] font-bold uppercase tracking-widest text-black/50">
+              <label className="text-[10px] font-extrabold uppercase tracking-[0.15em] text-black/60">
                 Phone Number *
               </label>
               <div className="flex items-center gap-2">
-                <span className="border border-black/15 bg-black/5 px-3 py-2.5 text-sm font-semibold text-black/60">
+                <span className="border border-black/15 bg-black/[0.03] px-3.5 py-3 text-sm font-semibold text-black/60">
                   +91
                 </span>
                 <input
@@ -176,8 +177,8 @@ export default function PackageEnquiryModal({ pkg, onClose }: PackageEnquiryModa
                   value={phone}
                   onChange={(e) => setPhone(e.target.value.replace(/\D/g, "").slice(0, 10))}
                   placeholder="9876543210"
-                  className={`flex-1 border bg-black/5 px-3.5 py-2.5 text-sm text-black placeholder:text-black/30 focus:border-[#E70D1D] focus:outline-none ${
-                    errors.phone ? "border-red-400" : "border-black/15"
+                  className={`flex-1 border bg-black/[0.03] px-3.5 py-3 text-sm text-black placeholder:text-black/35 focus:border-[#E70D1D] focus:ring-1 focus:ring-[#E70D1D] focus:outline-none transition-all ${
+                    errors.phone ? "border-red-500 ring-1 ring-red-500" : "border-black/15"
                   }`}
                 />
               </div>
@@ -187,13 +188,13 @@ export default function PackageEnquiryModal({ pkg, onClose }: PackageEnquiryModa
             <button
               type="submit"
               disabled={submitting}
-              className="flex h-12 w-full items-center justify-center gap-2.5 bg-[#E70D1D] text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a] disabled:opacity-60"
+              className="flex h-12 w-full items-center justify-center gap-2 bg-[#E70D1D] text-xs font-extrabold uppercase tracking-[0.16em] text-white transition-all duration-300 hover:bg-[#c40d1a] disabled:opacity-60"
             >
-              <MessageCircle className="h-4 w-4" />
-              {submitting ? "Sending..." : "Send Enquiry on WhatsApp"}
+              <MessageCircle className="h-4.5 w-4.5 fill-current" />
+              {submitting ? "SENDING..." : "SEND ENQUIRY ON WHATSAPP"}
             </button>
 
-            <p className="text-center text-[10px] text-black/30">
+            <p className="text-center text-[9px] tracking-wide text-black/40">
               🔒 Your details are safe. We never share your information with third parties.
             </p>
           </form>

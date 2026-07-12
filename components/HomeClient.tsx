@@ -31,6 +31,7 @@ import {
 import confetti from "canvas-confetti";
 
 import HomePackagesSection from "@/components/HomePackagesSection";
+import HomeSeoContentSection from "@/components/HomeSeoContentSection";
 import LeadCaptureForm from "@/components/LeadCaptureForm";
 import { DjTruckArt, VintageCarArt } from "@/components/VehicleArt";
 import {
@@ -523,7 +524,7 @@ function InkFillLine({ text }: { text: string }) {
   );
 }
 
-function FadeUp({
+export function FadeUp({
   children,
   delay = 0,
   className = "",
@@ -900,6 +901,8 @@ export default function HomeClient() {
       <InkFillLine text="Four packages. One unforgettable entry." />
 
       <HomePackagesSection />
+
+      <HomeSeoContentSection />
 
       <section id="gallery" className="mx-auto max-w-7xl space-y-10 px-4 py-20 sm:px-6 lg:px-8">
         <div className="space-y-1 text-center">

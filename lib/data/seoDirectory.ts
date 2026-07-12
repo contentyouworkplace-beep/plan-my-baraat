@@ -389,7 +389,7 @@ export const SEO_KEYWORD_PAGES: SeoKeywordPage[] = PRIORITY_CITIES.flatMap((city
     return {
       slug: `${specialtySlug}-${citySlug}`,
       label: `${category.name} in ${city.name}`,
-      href: `/baraat-services/${specialtySlug}-${citySlug}`,
+      href: `/baraat-management/${specialtySlug}-${citySlug}`,
       cityName: city.name,
       specialtyName: category.name,
       specialtySlug,

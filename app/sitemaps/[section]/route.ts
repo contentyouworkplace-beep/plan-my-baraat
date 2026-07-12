@@ -1,5 +1,5 @@
-import { SEO_KEYWORD_PAGES } from "@/lib/data/seoDirectory";
-import { BARAAT_CITY_CONTENT } from "@/lib/data/baraatCityContent";
+import { SEO_KEYWORD_PAGES, BARAAT_KEYWORD_PAGES } from "@/lib/data/seoDirectory";
+import { ALL_BARAAT_LOCATIONS } from "@/lib/data/baraatLocations";
 
 const BASE_URL = "https://planmybaraat.com";
 export const dynamic = "force-dynamic";
@@ -26,16 +26,17 @@ function getUrlsForSection(section: string) {
       `${BASE_URL}/contact`,
       `${BASE_URL}/gallery`,
       `${BASE_URL}/testimonials`,
-      `${BASE_URL}/baraat-services`,
     ];
   }
 
   if (section === "keywords") {
-    return SEO_KEYWORD_PAGES.map((page) => `${BASE_URL}${page.href}`);
+    const seoKeywordUrls = SEO_KEYWORD_PAGES.map((page) => `${BASE_URL}${page.href}`);
+    const cleanKeywordUrls = BARAAT_KEYWORD_PAGES.map((page) => `${BASE_URL}${page.href}`);
+    return [...seoKeywordUrls, ...cleanKeywordUrls];
   }
 
   if (section === "locations") {
-    return Object.keys(BARAAT_CITY_CONTENT).map((slug) => `${BASE_URL}/${slug}`);
+    return ALL_BARAAT_LOCATIONS.map((loc) => `${BASE_URL}/baraat-management/${loc.slug}`);
   }
 
   return [];

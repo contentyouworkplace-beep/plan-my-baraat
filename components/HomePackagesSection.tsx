@@ -12,7 +12,10 @@ export default function HomePackagesSection() {
 
   return (
     <>
-      <section id="packages" className="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:px-8">
+      <section
+        id="packages"
+        className="mx-auto max-w-7xl overflow-hidden space-y-8 px-4 py-16 sm:px-6 lg:px-8"
+      >
         <div className="space-y-1 text-center">
           <span className="block text-[9px] font-bold uppercase tracking-widest text-[#9F1239]">
             Curated Baraat Packages
@@ -26,7 +29,7 @@ export default function HomePackagesSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 2xl:grid-cols-4">
           {BARAAT_PACKAGES.map((pkg, index) => (
             <PackageCard
               key={pkg.id}

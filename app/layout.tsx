@@ -27,6 +27,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  verification: {
+    google: "hbBQfovzIXc0-N1ZQAI1rgLmP3l-YWXf4nepmks8kjg",
+  },
   icons: {
     icon: "/icon-mark-32.png",
     apple: "/icon-mark-180.png",

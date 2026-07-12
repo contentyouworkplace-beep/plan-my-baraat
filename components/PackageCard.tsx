@@ -13,7 +13,7 @@ interface PackageCardProps {
 export default function PackageCard({ pkg, featured, onEnquire }: PackageCardProps) {
   return (
     <div
-      className={`group relative flex flex-col overflow-hidden border p-7 transition-all duration-300 hover:-translate-y-1 ${
+      className={`group relative flex min-w-0 w-full flex-col overflow-hidden border p-7 transition-all duration-300 hover:-translate-y-1 ${
         featured
           ? "rounded-[28px] border-[#9F1239]/30 bg-white/72 backdrop-blur-xl hover:bg-[#F8F4EE]"
           : "rounded-[28px] border-black/10 bg-white/62 backdrop-blur-xl hover:border-[#9F1239]/20 hover:bg-[#F8F4EE]"

@@ -60,9 +60,8 @@ export default function BaraatServicesPage() {
             Baraat service pages built for faster indexing
           </h1>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-700">
-            These keyword pages connect high-intent searches to real city, service, and
-            area landing pages so search engines can discover your commercial pages
-            faster.
+            These keyword pages connect high-intent searches to our curated baraat
+            packages so search engines can discover your commercial pages faster.
           </p>
         </div>
       </section>
@@ -80,8 +79,7 @@ export default function BaraatServicesPage() {
               </p>
               <h2 className="mt-3 text-2xl font-bold text-stone-950">{page.label}</h2>
               <p className="mt-3 text-sm leading-6 text-stone-600">
-                Keyword-led landing page mapped to the city hub, service hub, and local
-                area pages.
+                Keyword-led landing page pointing to our curated baraat packages.
               </p>
             </Link>
           ))}

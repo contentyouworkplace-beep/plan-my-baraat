@@ -1,6 +1,6 @@
 export const SITE_IMAGES = {
   heroMain: "/Gallery/03383d918e604d8219861621704ab186.jpg",
-  heroFloral: "/Gallery/4d2e7c7745bbffba807f98e39b3f9f26.jpg",
+  heroFloral: "/Gallery/Homepage.png",
   coupleGolden: "/Gallery/0b722486f19975dd09aa075a52792610.jpg",
   traditionalCouple: "/Gallery/2a86389f387b118ce7795c179d1f16e1.jpg",
   confettiCelebration: "/Gallery/bd9fd23d5c1011c8b5705e4edbbbec45.jpg",

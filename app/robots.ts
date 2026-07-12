@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       {
         userAgent: "*",
         allow: "/",
-        disallow: ["/crm", "/crm/", "/admin", "/admin/"],
+        disallow: ["/crm", "/crm/", "/admin", "/admin/", "/marketplace", "/marketplace/"],
       },
     ],
     sitemap: "https://planmybaraat.com/sitemap.xml",

@@ -31,6 +31,7 @@ import {
 import confetti from "canvas-confetti";
 
 import HomePackagesSection from "@/components/HomePackagesSection";
+import LeadCaptureForm from "@/components/LeadCaptureForm";
 import { DjTruckArt, VintageCarArt } from "@/components/VehicleArt";
 import {
   ABOUT_POINTS,
@@ -74,12 +75,39 @@ const STATEMENT_WORDS =
     " "
   );
 
-const ENQUIRY_TOASTS = [
-  { name: "Priya", city: "Ahmedabad", ago: "2 hrs ago", interest: "Rajwada Package" },
-  { name: "Kunal", city: "Vadodara", ago: "37 mins ago", interest: "DJ Truck + Dhol" },
-  { name: "Neha", city: "Surat", ago: "1 hr ago", interest: "Vintage Car Entry" },
-  { name: "Arjun", city: "Anand", ago: "3 hrs ago", interest: "Maharaja Package" },
+const ENQUIRY_NAMES = [
+  "Priya", "Kunal", "Neha", "Arjun", "Rohan", "Sneha", "Vivek", "Ananya", "Karan", "Divya",
+  "Aakash", "Pooja", "Nikhil", "Riya", "Sahil", "Kavya", "Yash", "Isha", "Dev", "Meera",
+  "Raj", "Simran", "Aditya", "Tanvi", "Harsh", "Priyanka", "Manav", "Khushi", "Vikram", "Anjali",
+  "Parth", "Bhavna", "Rahul", "Nisha", "Aman", "Shreya", "Dhruv", "Payal", "Kartik", "Ritika",
+  "Jay", "Komal", "Nirav", "Aarti", "Sagar", "Palak", "Vishal", "Heena", "Mihir", "Foram",
+  "Chirag", "Urvi", "Ronak", "Drashti", "Hardik", "Bhumi", "Krunal", "Jinal", "Mitesh", "Kruti",
+  "Dhaval", "Vidhi", "Jignesh", "Priti", "Vatsal", "Trisha", "Kishan", "Namrata", "Rushabh", "Aashna",
+  "Malav", "Charmi", "Deep", "Hetal", "Nakul", "Rutuja", "Om", "Falguni", "Shivam", "Vaidehi",
+  "Tarun", "Zeel", "Manthan", "Sejal", "Bhargav", "Krishna", "Utsav", "Aditi", "Prakash", "Roshni",
+  "Vansh", "Diya", "Aryan", "Esha", "Rutvik", "Sanjana", "Devansh", "Mansi", "Yuvraj", "Kinjal",
 ];
+
+const ENQUIRY_CITIES = [
+  "Ahmedabad", "Vadodara", "Surat", "Rajkot", "Gandhinagar", "Bhavnagar", "Jamnagar",
+  "Junagadh", "Anand", "Mehsana", "Bharuch", "Navsari", "Valsad", "Vapi",
+];
+
+const ENQUIRY_INTERESTS = [
+  "Raj Tilak Package", "Rajwada Package", "Maharaja Package", "Signature Package",
+  "DJ Truck + Dhol", "Vintage Car Entry", "Safa Styling", "Pyro & Confetti Entry",
+];
+
+function randomEnquiryToast() {
+  const name = ENQUIRY_NAMES[Math.floor(Math.random() * ENQUIRY_NAMES.length)];
+  const city = ENQUIRY_CITIES[Math.floor(Math.random() * ENQUIRY_CITIES.length)];
+  const interest = ENQUIRY_INTERESTS[Math.floor(Math.random() * ENQUIRY_INTERESTS.length)];
+  const useMinutes = Math.random() < 0.5;
+  const ago = useMinutes
+    ? `${Math.floor(Math.random() * 55) + 3} mins ago`
+    : `${Math.floor(Math.random() * 5) + 1} hr${Math.random() < 0.5 ? "" : "s"} ago`;
+  return { name, city, ago, interest };
+}
 
 const WHATSAPP_FLOAT_MESSAGE = encodeURIComponent(
   "Hi PlanMyBaraat, I am planning a baraat and would like to know more about your packages, pricing, and availability."
@@ -181,36 +209,54 @@ function WhatsAppFloat() {
 }
 
 function RecentlyEnquiredToast() {
-  const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState(false);
+  const [dismissed, setDismissed] = useState(false);
+  const [item, setItem] = useState(() => randomEnquiryToast());
 
   useEffect(() => {
-    const interval = window.setInterval(() => {
-      setIndex((value) => (value + 1) % ENQUIRY_TOASTS.length);
-    }, 20000);
-    return () => window.clearInterval(interval);
+    const showTimer = window.setTimeout(() => setVisible(true), 25000);
+    return () => window.clearTimeout(showTimer);
   }, []);
 
-  const item = ENQUIRY_TOASTS[index];
+  useEffect(() => {
+    if (!visible || dismissed) return;
+    const interval = window.setInterval(() => {
+      setItem(randomEnquiryToast());
+    }, 20000);
+    return () => window.clearInterval(interval);
+  }, [visible, dismissed]);
+
+  if (dismissed) return null;
 
   return (
     <div className="fixed bottom-6 left-6 z-40 hidden md:block">
       <AnimatePresence mode="wait">
-        <motion.div
-          key={`${item.name}-${item.city}-${item.ago}`}
-          initial={{ opacity: 0, x: -28, y: 14 }}
-          animate={{ opacity: 1, x: 0, y: 0 }}
-          exit={{ opacity: 0, x: -18, y: 10 }}
-          transition={{ duration: 0.45, ease: easeReveal }}
-          className="w-[280px] rounded-[24px] border border-black/10 bg-[#f8f4ee]/92 p-4 text-black shadow-[0_22px_50px_rgba(0,0,0,0.08)] backdrop-blur-xl"
-        >
-          <span className="text-[9px] font-bold uppercase tracking-[0.24em] text-[#9F1239]">
-            Recently Enquired
-          </span>
-          <p className="mt-2 text-sm font-semibold text-black/80">
-            {item.name} from {item.city} enquired {item.ago}
-          </p>
-          <p className="mt-1 text-xs text-black/55">{item.interest}</p>
-        </motion.div>
+        {visible ? (
+          <motion.div
+            key={`${item.name}-${item.city}-${item.ago}`}
+            initial={{ opacity: 0, x: -28, y: 14 }}
+            animate={{ opacity: 1, x: 0, y: 0 }}
+            exit={{ opacity: 0, x: -18, y: 10 }}
+            transition={{ duration: 0.45, ease: easeReveal }}
+            className="relative w-[210px] rounded-[16px] border border-black/10 bg-[#f8f4ee]/92 p-3 pr-6 text-black shadow-[0_16px_36px_rgba(0,0,0,0.08)] backdrop-blur-xl"
+          >
+            <button
+              type="button"
+              onClick={() => setDismissed(true)}
+              aria-label="Dismiss"
+              className="absolute right-1.5 top-1.5 flex h-5 w-5 items-center justify-center rounded-full text-black/40 transition-colors hover:bg-black/5 hover:text-black/70"
+            >
+              <X className="h-3 w-3" />
+            </button>
+            <span className="text-[8px] font-bold uppercase tracking-[0.2em] text-[#9F1239]">
+              Recently Enquired
+            </span>
+            <p className="mt-1.5 text-xs font-semibold leading-snug text-black/80">
+              {item.name} from {item.city} enquired {item.ago}
+            </p>
+            <p className="mt-0.5 text-[10px] text-black/55">{item.interest}</p>
+          </motion.div>
+        ) : null}
       </AnimatePresence>
     </div>
   );
@@ -308,6 +354,24 @@ function ScrollHero() {
             Scroll
           </p>
         </motion.div>
+      </div>
+    </section>
+  );
+}
+
+function HeroLeadFormSection() {
+  return (
+    <section className="relative bg-[#1c1917] px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-xl flex-col items-center">
+        <h2 className="text-center font-serif text-2xl font-black tracking-wide text-white sm:text-3xl">
+          Plan Your Baraat. Get a Free Quote Instantly.
+        </h2>
+        <p className="mt-3 text-center text-sm text-white/60">
+          Tell us what you need and we&apos;ll reply on WhatsApp within 2 hours.
+        </p>
+        <div className="mt-8 w-full">
+          <LeadCaptureForm variant="hero" />
+        </div>
       </div>
     </section>
   );
@@ -753,6 +817,8 @@ export default function HomeClient() {
       <RecentlyEnquiredToast />
 
       <ScrollHero />
+
+      <HeroLeadFormSection />
 
       <StatementSection />
 

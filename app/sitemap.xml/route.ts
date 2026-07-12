@@ -1,15 +1,9 @@
-import { DIRECTORY_CITIES } from "@/lib/data/seoDirectory";
-import { cityToSlug } from "@/lib/seoHelpers";
-
 const BASE_URL = "https://planmybaraat.com";
 export const dynamic = "force-dynamic";
 
-const baseSections = ["core", "specialties", "keywords"];
-
-const citySections = DIRECTORY_CITIES.map((city) => `city-${cityToSlug(city)}`);
+const sections = ["core", "keywords", "locations"];
 
 function buildSitemapIndexXml() {
-  const sections = [...baseSections, ...citySections];
   const entries = sections
     .map(
       (section) =>

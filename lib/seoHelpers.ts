@@ -41,10 +41,12 @@ export function buildWhatsAppLink(
   city: string,
   specialty: string,
   date: string,
-  requirement: string
+  requirement: string,
+  packageInterested?: string
 ): string {
+  const packageLine = packageInterested ? `\nPackage Interested: ${packageInterested}` : "";
   const msg = encodeURIComponent(
-    `Hi PlanMyBaraat! 🎊\n\nName: ${name}\nPhone: ${phone}\nCity: ${city}\nLooking for: ${specialty}\nWedding Date: ${date}\n\nRequirement:\n${requirement}\n\nPlease help me find the best vendors!`
+    `Hi PlanMyBaraat!\n\nName: ${name}\nPhone: ${phone}\nCity: ${city}\nLooking for: ${specialty}\nWedding Date: ${date}${packageLine}\n\nRequirement:\n${requirement}\n\nPlease help me find the best vendors!`
   );
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }
@@ -56,7 +58,19 @@ export function buildPackageWhatsAppLink(
   packageName: string
 ): string {
   const msg = encodeURIComponent(
-    `Hi PlanMyBaraat! 🎊\n\nI'm interested in the *${packageName}*.\n\nName: ${name}\nPhone: ${phone}\nEvent Date: ${eventDate}\n\nPlease share more details and availability!`
+    `Hi PlanMyBaraat!\n\nI'm interested in the *${packageName}*.\n\nName: ${name}\nPhone: ${phone}\nEvent Date: ${eventDate}\n\nPlease share more details and availability!`
+  );
+  return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
+}
+
+export function buildLeadWhatsAppLink(
+  name: string,
+  phone: string,
+  packageInterested: string,
+  requirement: string
+): string {
+  const msg = encodeURIComponent(
+    `Hi PlanMyBaraat!\n\nName: ${name}\nPhone: ${phone}\nPackage Interested: ${packageInterested}\n\nRequirement:\n${requirement}\n\nPlease help me find the best vendors!`
   );
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }
@@ -337,5 +351,64 @@ export function generateJsonLdService(
     url: area
       ? `https://planmybaraat.com/${specialtyToSlug(specialty)}/${cityToSlug(city)}/${areaToSlug(area)}`
       : `https://planmybaraat.com/${specialtyToSlug(specialty)}/${cityToSlug(city)}`,
+  });
+}
+
+// ─── Generic (non-vendor-category) JSON-LD builders for the baraat location/keyword pages ──
+
+export function generateJsonLdBreadcrumbGeneric(
+  items: Array<{ name: string; url: string }>
+): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  });
+}
+
+export function generateJsonLdServiceGeneric(params: {
+  name: string;
+  description: string;
+  areaServedName: string;
+  url: string;
+}): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: params.name,
+    description: params.description,
+    serviceType: "Wedding Baraat Procession Package",
+    areaServed: {
+      "@type": "Place",
+      name: params.areaServedName,
+    },
+    provider: {
+      "@type": "Organization",
+      name: "PlanMyBaraat",
+      url: "https://planmybaraat.com",
+    },
+    url: params.url,
+  });
+}
+
+export function generateJsonLdFAQGeneric(
+  faqs: Array<{ q: string; a: string }>
+): string {
+  return JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map((faq) => ({
+      "@type": "Question",
+      name: faq.q,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: faq.a,
+      },
+    })),
   });
 }

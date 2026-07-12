@@ -1,40 +1,32 @@
 "use client";
 
 import React, { useState } from "react";
-import { buildWhatsAppLink } from "@/lib/seoHelpers";
+import { buildLeadWhatsAppLink } from "@/lib/seoHelpers";
 import { BARAAT_PACKAGES } from "@/lib/packagesData";
 
-interface WhatsAppInquiryFormProps {
-  specialtyName: string;
-  cityName: string;
+interface LeadCaptureFormProps {
   variant?: "hero" | "bottom";
+  defaultPackage?: string;
 }
 
-export default function WhatsAppInquiryForm({
-  specialtyName,
-  cityName,
+export default function LeadCaptureForm({
   variant = "hero",
-}: WhatsAppInquiryFormProps) {
+  defaultPackage = "",
+}: LeadCaptureFormProps) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-  const [date, setDate] = useState("");
-  const [city, setCity] = useState(cityName);
-  const [packageInterested, setPackageInterested] = useState("");
+  const [packageInterested, setPackageInterested] = useState(defaultPackage);
   const [requirement, setRequirement] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [shake, setShake] = useState(false);
-
-  // Min wedding date = today
-  const today = new Date().toISOString().split("T")[0];
 
   function validate() {
     const newErrors: Record<string, string> = {};
     if (!name.trim()) newErrors.name = "Please enter your name";
     if (!phone.trim() || !/^[6-9]\d{9}$/.test(phone.trim()))
       newErrors.phone = "Enter a valid 10-digit Indian mobile number";
-    if (!date) newErrors.date = "Please select your wedding date";
-    if (!city.trim()) newErrors.city = "Please enter your wedding city";
+    if (!packageInterested) newErrors.packageInterested = "Please select a package";
     if (!requirement.trim() || requirement.trim().length < 10)
       newErrors.requirement = "Please describe your requirement (min 10 chars)";
     return newErrors;
@@ -51,14 +43,11 @@ export default function WhatsAppInquiryForm({
     }
     setErrors({});
 
-    const link = buildWhatsAppLink(
+    const link = buildLeadWhatsAppLink(
       name.trim(),
       phone.trim(),
-      city.trim(),
-      specialtyName,
-      date,
-      requirement.trim(),
-      packageInterested
+      packageInterested,
+      requirement.trim()
     );
 
     window.open(link, "_blank");
@@ -94,23 +83,19 @@ export default function WhatsAppInquiryForm({
     >
       <div className="wa-form-header">
         <span className="wa-badge">FREE INQUIRY</span>
-        <h2 className="wa-form-title">
-          Get Quotes for {specialtyName}
-          <br />
-          <span className="wa-form-city">in {cityName}</span>
-        </h2>
+        <h2 className="wa-form-title">Get a Free Baraat Quote</h2>
         <p className="wa-form-sub">
-          Fill in your details and we&apos;ll share verified vendor options on WhatsApp within 2 hours
+          Fill in your details and we&apos;ll respond on WhatsApp within 2 hours
         </p>
       </div>
 
       <div className="wa-fields">
-        <div className="wa-field-group">
-          <label className="wa-label" htmlFor="wa-name">
+        <div className="wa-field-group wa-field-full">
+          <label className="wa-label" htmlFor="lead-name">
             Your Name *
           </label>
           <input
-            id="wa-name"
+            id="lead-name"
             type="text"
             className={`wa-input ${errors.name ? "wa-input-error" : ""}`}
             placeholder="e.g. Rahul Sharma"
@@ -121,14 +106,14 @@ export default function WhatsAppInquiryForm({
           {errors.name && <span className="wa-error">{errors.name}</span>}
         </div>
 
-        <div className="wa-field-group">
-          <label className="wa-label" htmlFor="wa-phone">
+        <div className="wa-field-group wa-field-full">
+          <label className="wa-label" htmlFor="lead-phone">
             WhatsApp Number *
           </label>
           <div className="wa-phone-wrap">
             <span className="wa-phone-prefix">🇮🇳 +91</span>
             <input
-              id="wa-phone"
+              id="lead-phone"
               type="tel"
               className={`wa-input wa-input-phone ${errors.phone ? "wa-input-error" : ""}`}
               placeholder="9876543210"
@@ -140,63 +125,37 @@ export default function WhatsAppInquiryForm({
           {errors.phone && <span className="wa-error">{errors.phone}</span>}
         </div>
 
-        <div className="wa-field-group">
-          <label className="wa-label" htmlFor="wa-date">
-            Wedding Date *
-          </label>
-          <input
-            id="wa-date"
-            type="date"
-            className={`wa-input ${errors.date ? "wa-input-error" : ""}`}
-            value={date}
-            min={today}
-            onChange={(e) => setDate(e.target.value)}
-          />
-          {errors.date && <span className="wa-error">{errors.date}</span>}
-        </div>
-
-        <div className="wa-field-group">
-          <label className="wa-label" htmlFor="wa-city">
-            Wedding City *
-          </label>
-          <input
-            id="wa-city"
-            type="text"
-            className={`wa-input ${errors.city ? "wa-input-error" : ""}`}
-            placeholder="e.g. Jaipur"
-            value={city}
-            onChange={(e) => setCity(e.target.value)}
-          />
-          {errors.city && <span className="wa-error">{errors.city}</span>}
-        </div>
-
-        <div className="wa-field-group">
-          <label className="wa-label" htmlFor="wa-package">
-            Package Interested
+        <div className="wa-field-group wa-field-full">
+          <label className="wa-label" htmlFor="lead-package">
+            Package Interested *
           </label>
           <select
-            id="wa-package"
-            className="wa-input"
+            id="lead-package"
+            className={`wa-input ${errors.packageInterested ? "wa-input-error" : ""}`}
             value={packageInterested}
             onChange={(e) => setPackageInterested(e.target.value)}
           >
-            <option value="">Not sure yet</option>
+            <option value="">Select a package</option>
             {BARAAT_PACKAGES.map((pkg) => (
               <option key={pkg.name} value={pkg.name}>
                 {pkg.name}
               </option>
             ))}
+            <option value="Not sure yet">Not sure yet</option>
           </select>
+          {errors.packageInterested && (
+            <span className="wa-error">{errors.packageInterested}</span>
+          )}
         </div>
 
         <div className="wa-field-group wa-field-full">
-          <label className="wa-label" htmlFor="wa-req">
+          <label className="wa-label" htmlFor="lead-req">
             Your Requirement *
           </label>
           <textarea
-            id="wa-req"
+            id="lead-req"
             className={`wa-input wa-textarea ${errors.requirement ? "wa-input-error" : ""}`}
-            placeholder={`Describe what you need for ${specialtyName} in ${cityName}. E.g. budget range, number of guests, any special requests...`}
+            placeholder="Describe what you need. E.g. budget range, number of guests, wedding date, any special requests..."
             value={requirement}
             onChange={(e) => setRequirement(e.target.value)}
             rows={3}
@@ -213,7 +172,7 @@ export default function WhatsAppInquiryForm({
       </button>
 
       <p className="wa-disclaimer">
-      🔒 Your details are safe. We never share your information with third parties.
+        🔒 Your details are safe. We never share your information with third parties.
       </p>
     </form>
   );

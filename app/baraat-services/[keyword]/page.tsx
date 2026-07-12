@@ -9,18 +9,12 @@ import {
   getSeoKeywordPageBySlug,
 } from "@/lib/data/seoDirectory";
 import {
-  areaToSlug,
-  cityToSlug,
-  generateJsonLdBreadcrumb,
   generateJsonLdCollectionPage,
   generateJsonLdFAQ,
-  generateJsonLdItemList,
-  generateJsonLdService,
   generateMetaDescription,
   generateFAQs,
   slugToCity,
   slugToSpecialty,
-  specialtyToSlug,
 } from "@/lib/seoHelpers";
 
 export function generateStaticParams() {
@@ -78,13 +72,7 @@ export default function KeywordPage({
     notFound();
   }
 
-  const cityPageHref = `/${specialtyToSlug(specialty)}/${cityToSlug(city)}`;
-  const specialtyPageHref = `/${specialtyToSlug(specialty)}`;
   const faqs = generateFAQs(specialty, city);
-  const areaLinks = keywordPage.areaNames.map((area) => ({
-    label: area,
-    href: `/${specialtyToSlug(specialty)}/${cityToSlug(city)}/${areaToSlug(area)}`,
-  }));
   const relatedKeywordPages = SEO_KEYWORD_PAGES.filter(
     (page) => page.slug !== keywordPage.slug && page.cityName === keywordPage.cityName
   ).slice(0, 8);
@@ -93,16 +81,6 @@ export default function KeywordPage({
     keywordPage.label,
     generateMetaDescription(specialty, city),
     `https://planmybaraat.com/baraat-services/${keywordPage.slug}`
-  );
-  const jsonLdItemList = generateJsonLdItemList(
-    [
-      { name: `${specialty.name} hub`, url: `https://planmybaraat.com${specialtyPageHref}` },
-      { name: `${specialty.name} in ${city.name}`, url: `https://planmybaraat.com${cityPageHref}` },
-      ...areaLinks.map((area) => ({
-        name: `${specialty.name} in ${area.label}, ${city.name}`,
-        url: `https://planmybaraat.com${area.href}`,
-      })),
-    ].slice(0, 10)
   );
   const jsonLdFaq = generateJsonLdFAQ(faqs);
   const jsonLdBreadcrumb = JSON.stringify({
@@ -129,8 +107,6 @@ export default function KeywordPage({
       },
     ],
   });
-  const jsonLdService = generateJsonLdService(specialty, city);
-  const cityBreadcrumb = generateJsonLdBreadcrumb(specialty, city);
 
   return (
     <main className="min-h-screen bg-[#fcfbf9] text-stone-900">
@@ -140,23 +116,11 @@ export default function KeywordPage({
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdItemList }}
-      />
-      <script
-        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLdFaq }}
       />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: jsonLdBreadcrumb }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdService }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: cityBreadcrumb }}
       />
 
       <section className="border-b border-stone-200 bg-[#F8F4EE]">
@@ -179,100 +143,39 @@ export default function KeywordPage({
             {keywordPage.label}
           </h1>
           <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-700">
-            This page supports search discovery for {keywordPage.label.toLowerCase()} and
-            connects searchers to the main city hub, service hub, and location-specific
-            area pages.
+            Everything for {keywordPage.label.toLowerCase()} is included in our curated
+            baraat packages. Get a free quote on WhatsApp for your event.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
-              href={cityPageHref}
+              href="/#packages"
               className="rounded-full bg-stone-950 px-5 py-3 text-sm font-semibold text-white transition hover:bg-stone-800"
             >
-              Open city page
-            </Link>
-            <Link
-              href={specialtyPageHref}
-              className="rounded-full border border-stone-300 px-5 py-3 text-sm font-semibold text-stone-700 transition hover:border-stone-900 hover:text-stone-950"
-            >
-              Open service hub
+              View our packages
             </Link>
           </div>
         </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-6 py-14 lg:px-10">
-        <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
-          <div className="rounded-[28px] border border-stone-200 bg-[#F8F4EE] p-7 shadow-sm">
-            <h2 className="text-2xl font-bold text-stone-950">
-              Why this keyword page matters
-            </h2>
-            <div className="mt-4 space-y-4 text-sm leading-7 text-stone-700">
-              <p>
-                {keywordPage.label} is a commercial-intent search phrase. Instead of
-                leaving it as plain footer text, this page gives Google a crawlable,
-                indexable landing page with direct links into the exact service and city
-                combinations people are searching for.
-              </p>
-              <p>
-                Families looking for {specialty.name.toLowerCase()} in {city.name} usually
-                compare city-wide options first and then narrow the shortlist by venue
-                zone, guest movement, budget, and event-day logistics.
-              </p>
-              <p>
-                Use the city page below for the main landing page, then drill into the
-                area pages for local SEO coverage around high-intent wedding zones.
-              </p>
-            </div>
-          </div>
-
-          <div className="rounded-[28px] border border-stone-200 bg-[#F8F4EE] p-7 shadow-sm">
-            <h2 className="text-2xl font-bold text-stone-950">Primary landing paths</h2>
-            <div className="mt-5 space-y-3">
-              <Link
-                href={cityPageHref}
-                className="block rounded-[20px] border border-stone-200 bg-white/60 p-4 transition hover:border-stone-900"
-              >
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
-                  Main city page
-                </p>
-                <p className="mt-2 text-lg font-bold text-stone-950">
-                  {specialty.name} in {city.name}
-                </p>
-              </Link>
-              <Link
-                href={specialtyPageHref}
-                className="block rounded-[20px] border border-stone-200 bg-white/60 p-4 transition hover:border-stone-900"
-              >
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
-                  Service overview
-                </p>
-                <p className="mt-2 text-lg font-bold text-stone-950">{specialty.name}</p>
-              </Link>
-            </div>
+        <div className="rounded-[28px] border border-stone-200 bg-[#F8F4EE] p-7 shadow-sm">
+          <h2 className="text-2xl font-bold text-stone-950">
+            Why this keyword page matters
+          </h2>
+          <div className="mt-4 space-y-4 text-sm leading-7 text-stone-700">
+            <p>
+              {keywordPage.label} is a commercial-intent search phrase. Instead of
+              leaving it as plain footer text, this page gives Google a crawlable,
+              indexable landing page pointing to our curated baraat packages.
+            </p>
+            <p>
+              Families looking for {specialty.name.toLowerCase()} in {city.name} usually
+              compare options first, then get a personalised quote for a full package
+              covering entry, sound, lighting, and vehicles.
+            </p>
           </div>
         </div>
       </section>
-
-      {areaLinks.length > 0 ? (
-        <section className="border-y border-stone-200 bg-[#F8F4EE]">
-          <div className="mx-auto max-w-6xl px-6 py-14 lg:px-10">
-            <h2 className="text-2xl font-bold text-stone-950">
-              Areas we serve in {city.name}
-            </h2>
-            <div className="mt-6 flex flex-wrap gap-3">
-              {areaLinks.map((area) => (
-                <Link
-                  key={area.href}
-                  href={area.href}
-                  className="rounded-full border border-stone-300 px-4 py-2 text-sm font-semibold text-stone-700 transition hover:border-stone-900 hover:text-stone-950"
-                >
-                  {area.label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
 
       <section className="mx-auto max-w-6xl px-6 py-14 lg:px-10">
         <h2 className="text-2xl font-bold text-stone-950">
@@ -304,10 +207,7 @@ export default function KeywordPage({
         </section>
       ) : null}
 
-      <PublicSeoFooter
-        currentCityName={city.name}
-        currentSpecialtySlug={keywordPage.specialtySlug}
-      />
+      <PublicSeoFooter />
     </main>
   );
 }

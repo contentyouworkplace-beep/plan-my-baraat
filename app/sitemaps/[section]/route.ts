@@ -1,10 +1,5 @@
-import { CATEGORIES } from "@/lib/data/categories";
-import {
-  DIRECTORY_CITIES,
-  SEO_KEYWORD_PAGES,
-  getAreasForCity,
-} from "@/lib/data/seoDirectory";
-import { areaToSlug, cityToSlug, specialtyToSlug } from "@/lib/seoHelpers";
+import { SEO_KEYWORD_PAGES } from "@/lib/data/seoDirectory";
+import { BARAAT_CITY_CONTENT } from "@/lib/data/baraatCityContent";
 
 const BASE_URL = "https://planmybaraat.com";
 export const dynamic = "force-dynamic";
@@ -31,39 +26,16 @@ function getUrlsForSection(section: string) {
       `${BASE_URL}/contact`,
       `${BASE_URL}/gallery`,
       `${BASE_URL}/testimonials`,
-      `${BASE_URL}/services`,
       `${BASE_URL}/baraat-services`,
-      `${BASE_URL}/city`,
     ];
-  }
-
-  if (section === "specialties") {
-    return CATEGORIES.map((category) => `${BASE_URL}/${specialtyToSlug(category)}`);
   }
 
   if (section === "keywords") {
     return SEO_KEYWORD_PAGES.map((page) => `${BASE_URL}${page.href}`);
   }
 
-  if (section.startsWith("city-")) {
-    const citySlug = section.replace("city-", "");
-    const city = DIRECTORY_CITIES.find((item) => cityToSlug(item) === citySlug);
-
-    if (!city) {
-      return [];
-    }
-
-    const specialtyCityUrls = CATEGORIES.map(
-      (category) => `${BASE_URL}/${specialtyToSlug(category)}/${cityToSlug(city)}`
-    );
-    const areaUrls = CATEGORIES.flatMap((category) =>
-      getAreasForCity(city.name).map(
-        (area) =>
-          `${BASE_URL}/${specialtyToSlug(category)}/${cityToSlug(city)}/${areaToSlug(area)}`
-      )
-    );
-
-    return [...specialtyCityUrls, ...areaUrls];
+  if (section === "locations") {
+    return Object.keys(BARAAT_CITY_CONTENT).map((slug) => `${BASE_URL}/${slug}`);
   }
 
   return [];
@@ -73,7 +45,8 @@ export function GET(
   _request: Request,
   { params }: { params: { section: string } }
 ) {
-  const urls = getUrlsForSection(params.section);
+  const section = params.section.replace(/\.xml$/, "");
+  const urls = getUrlsForSection(section);
 
   if (urls.length === 0) {
     return new Response("Not found", { status: 404 });

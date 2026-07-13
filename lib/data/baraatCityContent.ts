@@ -11603,4 +11603,196 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "valsad-valsad-town": {
+    slug: "valsad-valsad-town",
+    intro:
+      "Valsad Town is the commercial heart of the city, with old-style markets, established halls, and easy access from every direction. A baraat entry here feels like a proper city-center celebration.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, so you don't have to arrange a dj truck rental, dhol group, car, and turban stylist separately.",
+    localArea:
+      "Valsad Town has a mix of older, narrower lanes and some wider connecting roads, so we plan the truck's route carefully based on your exact venue.\n\nWe've handled entries in and around Valsad Town and know its lanes well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Valsad Town that means knowing exactly which lanes work for a full-size truck and where a shorter walk-in makes more sense.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through the city's older, denser core.",
+    pricingGuidance:
+      "On how much does baraat cost for a Valsad Town entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since town venues are popular.\n\nA rough headcount for the baraati group and your exact venue helps us plan the route properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Valsad Town, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Valsad Town?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues in Valsad Town's older lanes?",
+        a: "In most cases yes, though we check your exact venue in advance since some lanes are narrower and may need a shorter walk-in.",
+      },
+      {
+        q: "How early should I book for a Valsad Town wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since these venues are popular.",
+      },
+      {
+        q: "Is Valsad Town easy for guests to reach?",
+        a: "Yes, it's the commercial heart of the city, with easy access from every direction.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "valsad-tithal-road": {
+    slug: "valsad-tithal-road",
+    intro:
+      "Tithal Road leads toward Valsad's well-known beach, with a mix of residential streets and a few venues offering a scenic backdrop for a baraat entry. It's a slightly more relaxed setting compared to the busier town roads.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Tithal Road is generally manageable for truck access, with some venues offering a scenic backdrop near the beach, which makes for great entry photos.\n\nWe've handled entries at venues along Tithal Road and know the area well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Tithal Road that means knowing which venues near the beach work best for a grand entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the setups common along this scenic corridor.",
+    pricingGuidance:
+      "On how much does baraat cost for a Tithal Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since venues near the beach are popular.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Tithal Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Tithal Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the venues here scenic?",
+        a: "Yes, some venues along Tithal Road offer a scenic backdrop near the beach, which makes for great entry photos.",
+      },
+      {
+        q: "How early should I book for a wedding here?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since venues near the beach are popular.",
+      },
+      {
+        q: "Is Tithal Road good for a full truck entry?",
+        a: "Yes, it's generally manageable for truck access.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "valsad-halar": {
+    slug: "valsad-halar",
+    intro:
+      "Halar is a well-settled residential neighborhood in Valsad, with a mix of community halls and local venues that regularly host weddings. A baraat entry here has that comfortable, familiar neighborhood feel.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Halar's roads are generally manageable for truck access, being a settled residential area, though we always confirm your exact venue's approach lane in advance.\n\nWe've handled entries in Halar and the surrounding neighborhood.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Halar that means knowing this settled residential neighborhood and its community halls well.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through Valsad's residential neighborhoods.",
+    pricingGuidance:
+      "On how much does baraat cost for a Halar entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this area.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Halar, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Halar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the roads here manageable for a truck entry?",
+        a: "Yes, this is a settled residential area with generally manageable roads, though we confirm your exact venue's approach lane in advance.",
+      },
+      {
+        q: "How early should I book for a Halar wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Is Halar a residential area?",
+        a: "Yes, it's a settled residential neighborhood with a good mix of community halls used for weddings.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "valsad-sam-talav-area": {
+    slug: "valsad-sam-talav-area",
+    intro:
+      "The Sam Talav area sits near Valsad's well-known lake, with a mix of residential streets and a few venues offering a scenic setting for a baraat entry. It has a slightly relaxed, elevated feel compared to the busier town roads.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "The Sam Talav area is generally manageable for truck access, with some venues offering a scenic backdrop near the lake, which makes for great entry photos.\n\nWe've handled entries near the Sam Talav area and know the streets well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for the Sam Talav area that means knowing which streets near the lake work best for a full-size truck.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable planning around this area's residential streets.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sam Talav area entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this area.\n\nA rough headcount for the baraati group and your exact venue helps us plan the route properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near the Sam Talav area, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near the Sam Talav area?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the venues here scenic?",
+        a: "Yes, some venues near Sam Talav offer a scenic backdrop near the lake, which makes for great entry photos.",
+      },
+      {
+        q: "How early should I book for a wedding near this area?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Is this area near the Sam Talav lake?",
+        a: "Yes, it's a residential area near Valsad's well-known lake.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

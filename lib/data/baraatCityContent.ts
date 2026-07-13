@@ -5267,4 +5267,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "ahmedabad-maninagar": {
+    slug: "ahmedabad-maninagar",
+    intro:
+      "Maninagar is one of Ahmedabad's older, more traditional neighborhoods, dense with housing and long-running community halls that have hosted generations of weddings. A baraat entry here has a genuinely local feel — this is a part of the city where the community still gathers to watch a good procession go by.\n\nPlanMyBaraat runs baraat on wheels packages adapted for this kind of established, busier setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Maninagar's streets are dense and can get busy, with narrower lanes than the newer western suburbs like SG Highway or Prahlad Nagar. We plan the truck's route and stopping point carefully, especially for venues inside residential societies.\n\nWe've handled a good number of entries in Maninagar and know which streets work best for a full-size truck versus a shorter walk-in approach.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a practical choice for Maninagar's narrower streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, adapted carefully for this established part of the city.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Maninagar that means knowing exactly which lanes a truck can reach and where the walking portion of the entry needs to begin.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through Ahmedabad's older, more traditional neighborhoods.",
+    pricingGuidance:
+      "On how much does baraat cost for a Maninagar entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point and often works best given the narrower streets. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, and knowing your exact venue early helps us plan the walking route properly if needed.\n\nA rough headcount for the baraati group helps us plan how much space the group needs.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Maninagar, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Maninagar, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can a double decker truck reach venues in Maninagar's older lanes?",
+        a: "Not always all the way — we typically park at the nearest accessible point and have the dhol team lead a walking entry for the final stretch, which is standard for this part of the city.",
+      },
+      {
+        q: "How early should I book for a Maninagar wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does an entry in Maninagar still include the full package?",
+        a: "Yes, the truck, dhol, car, and safa team are all included — we just adapt where the truck parks and where any walking portion begins based on the lane width.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, well suited to Maninagar's narrower streets. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-bopal": {
+    slug: "ahmedabad-bopal",
+    intro:
+      "Bopal is one of Ahmedabad's fastest-growing western suburbs, with wide roads and a steady stream of newer banquet halls and party plots. A grand baraat entry here has room to be as elaborate as the family wants, given how much open space the newer roads allow.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Bopal's roads are generally wide and well-planned, making truck access straightforward compared to Ahmedabad's older neighborhoods. It connects easily to South Bopal and Shela, so guests from that broader western pocket have an easy route in.\n\nWe've handled a good number of entries in Bopal's newer venue clusters.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this shows up especially well on Bopal's wide roads. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a fast-growing area like Bopal that means staying current on new venues as they open, and planning routes that make full use of the wider roads here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more open entries this part of the city allows for.",
+    pricingGuidance:
+      "On how much does baraat cost for a Bopal entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Bopal's popularity as a newer venue hub means booking 3-4 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this area allows for a bigger entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Bopal, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Bopal, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Bopal's roads good for a bigger baraat entry?",
+        a: "Yes, since this is a newer part of Ahmedabad, the roads are wide and well-planned, giving good room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "How early should I book for a Bopal wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this area has become.",
+      },
+      {
+        q: "Do you cover venues near South Bopal and Shela too?",
+        a: "Yes, we cover the broader western Ahmedabad pocket including South Bopal and Shela. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-south-bopal": {
+    slug: "ahmedabad-south-bopal",
+    intro:
+      "South Bopal is the further edge of Ahmedabad's Bopal growth corridor, newer still, with wide open roads and venues that keep opening as the area expands. A grand baraat entry here has about as much open space to work with as anywhere in the city.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "South Bopal's roads are wide and new, making it one of the easiest parts of Ahmedabad for a full truck setup. Being at the edge of the growth corridor, it's a bit further from central Ahmedabad, so factor in a slightly longer route for guests coming from Navrangpura or CG Road.\n\nWe've handled entries at several of the newer venues here, and since the area keeps expanding, if your hall is somewhere very recently built, just flag it when you message us.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — South Bopal's wide roads make this a strong visual choice. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to the bigger, more open entries this area allows for.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a fast-developing area like South Bopal that means staying current on new venues as they open, and planning routes that make full use of the open roads here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more elaborate entries this area allows for.",
+    pricingGuidance:
+      "On how much does baraat cost for a South Bopal entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team, which suits the scale of weddings this newer area tends to host.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and this area's popularity as a newer venue hub means booking 3-4 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this area allows for a bigger entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in South Bopal, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in South Bopal, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is South Bopal far from central Ahmedabad?",
+        a: "It's at the edge of the Bopal growth corridor, so factor in a slightly longer route if guests are coming from Navrangpura or CG Road.",
+      },
+      {
+        q: "How early should I book for a South Bopal wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this newer area has become.",
+      },
+      {
+        q: "Are South Bopal's roads good for a bigger baraat entry?",
+        a: "Yes, since this is one of the newest parts of Ahmedabad, the roads are wide and open, giving plenty of room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to South Bopal's open-road entries.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

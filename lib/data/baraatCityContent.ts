@@ -2483,4 +2483,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "vadodara-sunpharma-road": {
+    slug: "vadodara-sunpharma-road",
+    intro:
+      "Sunpharma Road runs through east Vadodara, named for the pharmaceutical plant nearby, and while the area has an industrial edge, the residential pockets along it host a fair number of weddings. A baraat entry here usually has decent open road to work with, similar to other industrial-adjacent corridors in Vadodara.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Sunpharma Road is generally wide, given the industrial development in the area, making truck access straightforward. Most wedding venues are in the residential pockets rather than close to the plant itself.\n\nWe've handled entries along this stretch and the connecting eastern Vadodara neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Sunpharma Road that means knowing which stretches are residential versus industrial, and planning weekend entries around any weekday plant traffic.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of east Vadodara.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sunpharma Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming whether your venue is closer to the residential or industrial side of the road.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Sunpharma Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Sunpharma Road, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Sunpharma Road good for a full-size truck entry?",
+        a: "Yes, roads here are generally wide given the industrial development, making truck access straightforward for most residential venues.",
+      },
+      {
+        q: "How early should I book for a Sunpharma Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you plan around industrial traffic near the plant?",
+        a: "Yes, weekend entries are usually smoother, and we plan timing to avoid any weekday traffic tied to the plant.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-kalali": {
+    slug: "vadodara-kalali",
+    intro:
+      "Kalali sits in south Vadodara, a quieter residential pocket that's grown steadily over the years, with a handful of local venues that host smaller, community-style baraat entries. It's a good fit for families who want the full setup without the scale of a bigger corridor entry.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Kalali's roads are generally manageable for a truck setup, being a settled residential area. It's close to Undera and the broader southern belt of Vadodara, so guests from that side of the city have an easy route in.\n\nWe've handled entries in Kalali's venue clusters and nearby residential societies.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a strong fit for Kalali's more intimate scale. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Kalali that means knowing the residential streets well enough to plan a smooth, well-timed entry in this quieter part of the city.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight regardless of neighborhood size.",
+    pricingGuidance:
+      "On how much does baraat cost for a Kalali entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point and often suits this area's scale well. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2 weeks' notice during peak season is usually enough for this quieter part of the city.\n\nA rough headcount for the baraati group helps us plan the right setup for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Kalali, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Kalali, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Kalali good for a smaller, more intimate baraat entry?",
+        a: "Yes, it's a quieter residential pocket, well suited to a more intimate entry, though bigger packages work here too if you want a larger production.",
+      },
+      {
+        q: "How early should I book for a Kalali wedding?",
+        a: "2 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Do you cover venues near Undera too?",
+        a: "Yes, we cover the broader southern Vadodara belt including Undera. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-undera": {
+    slug: "vadodara-undera",
+    intro:
+      "Undera sits at the southern edge of Vadodara, more semi-rural in character than the city's core neighborhoods, with open roads and a handful of venues that suit bigger, more spread-out baraat entries. If your family wants an entry with genuine room to move, Undera has that space.\n\nPlanMyBaraat runs baraat on wheels packages built to make the most of that openness: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Undera's roads are open and rural in character compared to the rest of Vadodara, which makes truck access very straightforward, though it's a bit further from the central city, so factor in a slightly longer route for guests coming from areas like Alkapuri or Sayajigunj.\n\nWe've handled entries in Undera and the surrounding semi-rural venues.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — very visible given how much open space this area has. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to bigger, more elaborate entries.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Undera that means being ready to make the most of the open roads here for a bigger, more visible entry than what's practical in Vadodara's denser neighborhoods.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the longer routes and open-road setups common in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for an Undera entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming your exact venue location given how spread out this area is.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Undera, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Undera, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Undera far from central Vadodara?",
+        a: "It's at the southern edge of the city, more semi-rural in character, so factor in a slightly longer route for guests coming from central areas.",
+      },
+      {
+        q: "How early should I book for an Undera wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Are Undera's roads good for a bigger baraat entry?",
+        a: "Yes, the open, semi-rural layout gives plenty of room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Undera's open-road entries.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

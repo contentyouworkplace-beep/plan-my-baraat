@@ -2064,4 +2064,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "cold-pyro-rental-for-wedding": {
+    slug: "cold-pyro-rental-for-wedding",
+    intro:
+      "Cold pyro rental for wedding baraats gives you the dramatic spark and flame look of traditional pyrotechnics without the heat or fire risk, making it safer for close-proximity use around a dancing crowd.\n\nPlanMyBaraat includes pyro effects — cold and hand pyro — as part of our Signature package, our most complete production tier.",
+    explanation:
+      "Cold pyro works using a different mechanism than traditional fireworks, producing the visual spark effect at a much lower temperature, which is why it's suitable for use closer to guests during a baraat entry. It's operated by our experienced team and timed to a specific moment, usually the truck's arrival at the venue.\n\nThis effect is combined with confetti and other visual elements in our Signature package to create a fuller sensory moment right as the baraat reaches the entrance.",
+    whatsIncluded:
+      "Signature includes pyro highlights on entry, hand pyro gun effects, confetti CO2 gun, liquid CO2 gun, moving LED panels, custom name lighting, 4 dhol, an American vintage car, 4 professional bouncers, and a safa team — our most complete package.",
+    pricingGuidance:
+      "Pyro effects are included as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February. If you want pyro effects timed to a specific moment, mention it early — 3-4 weeks' notice gives us time to plan the details and coordinate with your venue on safety requirements.\n\nShare your date, city, venue, and venue's fire safety policies when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with pyro effects for your entry.",
+    faqs: [
+      {
+        q: "Is cold pyro safe for use near guests?",
+        a: "Yes, cold pyro produces the visual spark effect at a much lower temperature than traditional pyrotechnics, making it more suitable for close-proximity use, and it's operated by our experienced team.",
+      },
+      {
+        q: "Which package includes cold pyro?",
+        a: "Signature, our top package, includes pyro highlights and hand pyro gun effects as part of its full production.",
+      },
+      {
+        q: "How much does cold pyro rental for wedding cost?",
+        a: "It's included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do I need to check with my venue before adding pyro effects?",
+        a: "Yes, we recommend confirming your venue's fire safety policies in advance, and we'll coordinate accordingly.",
+      },
+      {
+        q: "How early should I book for a pyro-included entry?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, especially to allow time for venue coordination.",
+      },
+      {
+        q: "Is the pyro effect combined with other effects?",
+        a: "Yes, Signature combines pyro with confetti, CO2 effects, and moving LED panels for a fuller visual moment.",
+      },
+      {
+        q: "Who operates the pyro equipment?",
+        a: "Our experienced team handles the setup and operation as part of the Signature package.",
+      },
+      {
+        q: "Can pyro be timed to the groom stepping down from the truck?",
+        a: "Yes, message us with your preference and we'll plan the timing around that specific moment.",
+      },
+    ],
+  },
+
+  "hand-pyro-gun-for-wedding": {
+    slug: "hand-pyro-gun-for-wedding",
+    intro:
+      "A hand pyro gun for wedding baraats is a handheld device that produces a controlled spark or flame burst, adding a striking, personal-feeling effect that's operated up close rather than from a fixed rig.\n\nPlanMyBaraat includes hand pyro gun effects as part of our Signature package, our most complete production tier.",
+    explanation:
+      "The handheld nature of this effect gives it a different feel than fixed pyro rigs — it can be positioned and timed flexibly, often used right at the moment the groom steps down from the truck or as the baraat crosses the venue threshold. It's operated by our experienced team with safety as the priority.\n\nCombined with the rest of Signature's effects lineup — confetti, CO2, and moving LED panels — the hand pyro gun adds one more layer to a fully produced entry.",
+    whatsIncluded:
+      "Signature includes the hand pyro gun alongside pyro highlights on entry, confetti CO2 gun, liquid CO2 gun, moving LED panels, custom name lighting, 4 dhol, an American vintage car, 4 professional bouncers, and a safa team.",
+    pricingGuidance:
+      "The hand pyro gun effect is included as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February. If you want this effect timed to a specific moment, mention it early — 3-4 weeks' notice gives us time to plan properly and coordinate with your venue.\n\nShare your date, city, venue, and any timing preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with hand pyro effects.",
+    faqs: [
+      {
+        q: "Which package includes a hand pyro gun?",
+        a: "Signature, our top package, includes hand pyro gun effects along with pyro highlights and other visual production.",
+      },
+      {
+        q: "How much does a hand pyro gun for wedding cost?",
+        a: "It's included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the hand pyro gun safe to use near guests?",
+        a: "Yes, it's operated by our experienced team with safety and crowd positioning as priorities.",
+      },
+      {
+        q: "Can the effect be timed to the groom stepping down?",
+        a: "Yes, message us with your preference and we'll plan the timing around that specific moment.",
+      },
+      {
+        q: "Do I need to inform my venue about this effect?",
+        a: "Yes, we recommend confirming your venue's fire safety policies in advance, and we'll coordinate accordingly.",
+      },
+      {
+        q: "How early should I book for this effect?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, especially to allow for venue coordination.",
+      },
+      {
+        q: "What else comes with the Signature package?",
+        a: "Confetti, CO2 effects, moving LED panels, custom name lighting, 6 dhol, an American vintage car, a security team, and a safa team.",
+      },
+      {
+        q: "Who operates the hand pyro gun during the entry?",
+        a: "Our experienced team handles the equipment and timing as part of the Signature package.",
+      },
+    ],
+  },
+
+  "pyro-effects-for-wedding-entry": {
+    slug: "pyro-effects-for-wedding-entry",
+    intro:
+      "Pyro effects for wedding entry add a dramatic, spark-based visual moment to the baraat, typically timed to the truck's arrival or the groom stepping down, giving the entry a clear high point.\n\nPlanMyBaraat includes pyro highlights and hand pyro gun effects as part of our Signature package, our most complete production tier.",
+    explanation:
+      "Pyro effects work best as a punctuation mark rather than a constant presence — a burst timed precisely to a key moment reads as intentional and dramatic, rather than random. Our team plans the timing around the truck's arrival, coordinating with the DJ's set and the rest of the entry's flow.\n\nBecause pyro involves fire safety considerations, it's operated by our experienced team and planned in coordination with your venue rather than left to chance.",
+    whatsIncluded:
+      "Signature includes pyro highlights on entry and a hand pyro gun, alongside confetti CO2 gun, liquid CO2 gun, moving LED panels, custom name lighting, 6 dhol, an American vintage car, 4 professional bouncers, and a safa team.",
+    pricingGuidance:
+      "Pyro effects are included as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February. If you want pyro timed to a specific moment, mention it early — 3-4 weeks' notice gives us time to plan the details and coordinate with your venue on any safety requirements.\n\nShare your date, city, venue, and any timing preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with pyro effects for your entry.",
+    faqs: [
+      {
+        q: "Which package includes pyro effects?",
+        a: "Signature, our top package, includes pyro highlights on entry and a hand pyro gun as part of its full production.",
+      },
+      {
+        q: "How much do pyro effects for wedding entry cost?",
+        a: "They're included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are pyro effects safe for outdoor baraat use?",
+        a: "Yes, they're operated by our experienced team with safety and appropriate positioning around the crowd.",
+      },
+      {
+        q: "Do I need to check with my venue about pyro effects?",
+        a: "Yes, we recommend confirming your venue's fire safety policies in advance, and we'll coordinate the timing accordingly.",
+      },
+      {
+        q: "How early should I book for pyro-included effects?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, especially to allow time for venue coordination.",
+      },
+      {
+        q: "Can pyro be combined with confetti and CO2 effects?",
+        a: "Yes, Signature combines all three for a fuller visual moment at the truck's arrival.",
+      },
+      {
+        q: "Is pyro included in the lower package tiers?",
+        a: "No, pyro effects are specific to the Signature package, our most complete production tier.",
+      },
+      {
+        q: "Who times and operates the pyro effects?",
+        a: "Our experienced team handles the setup, timing, and operation as part of the Signature package.",
+      },
+    ],
+  },
 };

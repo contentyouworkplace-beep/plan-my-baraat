@@ -1914,4 +1914,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "confetti-gun-rental-price-wedding": {
+    slug: "confetti-gun-rental-price-wedding",
+    intro:
+      "Confetti gun rental price for wedding baraats isn't a standalone number with PlanMyBaraat, since the confetti effect comes bundled into our Maharaja and Signature packages rather than priced as a separate rental.\n\nThat means the price you get covers the confetti effect plus the truck, dhol team, vintage car, safa team, and the rest of the package production.",
+    explanation:
+      "Because the confetti gun is operated by our team as part of a coordinated baraat entry, it isn't rented out separately the way a party supply store might rent one for a birthday. The cost is folded into the Maharaja and Signature package pricing, which also includes moving LED panels, extra dhol, and other effects.\n\nThis bundled approach means the confetti effect is properly timed and safely operated as part of your entry, rather than a separate piece you'd need to coordinate yourself.",
+    whatsIncluded:
+      "Maharaja includes the confetti CO2 gun alongside moving LED panels, 6 dhol, a vintage car, and a safa team. Signature includes the same confetti effect plus pyro highlights, hand pyro, and a security team.",
+    pricingGuidance:
+      "There's no separate confetti gun rental price — it's part of the Maharaja and Signature package cost. Message us on WhatsApp with your date and city, and we'll give you a real quote covering the full package.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for full-effects packages peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll send you a real quote covering the confetti effect and full package.",
+    faqs: [
+      {
+        q: "What's the confetti gun rental price for a wedding baraat?",
+        a: "There's no separate price — the confetti effect is included as part of the Maharaja and Signature packages. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I rent just the confetti gun without the rest of the package?",
+        a: "No, it's included as part of our Maharaja and Signature baraat packages, operated by our team alongside the truck and other effects.",
+      },
+      {
+        q: "Is the confetti effect worth the higher package price?",
+        a: "It depends on how much visual production you want — if confetti and other effects matter to you, Maharaja or Signature give you that on top of the reliable base every package includes.",
+      },
+      {
+        q: "How much more does Maharaja cost compared to Raj Tilak?",
+        a: "Maharaja adds 6 dhol, moving LED panels, custom name lighting, and the confetti effect compared to Raj Tilak's essentials — message us for an exact price comparison.",
+      },
+      {
+        q: "How early should I decide if I want the confetti effect?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we can confirm your package and plan the timing.",
+      },
+      {
+        q: "Does the price change based on my city?",
+        a: "Logistics can vary slightly, which is why we confirm your exact price once we know your date and location.",
+      },
+      {
+        q: "Can I get a quote comparing packages with and without confetti?",
+        a: "Yes, message us on WhatsApp and we'll walk you through what each package tier includes and the price difference.",
+      },
+      {
+        q: "How do I get an exact quote?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
+
+  "co2-gun-for-wedding": {
+    slug: "co2-gun-for-wedding",
+    intro:
+      "A CO2 gun for wedding baraats creates a dramatic burst of vapor effect, timed to the truck's arrival or another key moment in the procession, adding a striking visual punctuation to the entry.\n\nPlanMyBaraat includes a liquid CO2 gun starting from our Raj Tilak package, with confetti and pyro CO2 effects added at higher tiers.",
+    explanation:
+      "Unlike confetti or pyro, the CO2 gun produces a dense, dramatic vapor burst that's visually striking without any mess or fire risk, which is why it's included even in our starting package. It gives every entry, even the most affordable one, a moment of visual drama.\n\nHigher packages layer on additional CO2-based effects — the confetti CO2 gun at Maharaja and CO2 jet effects that add more sustained visual impact throughout the entry.",
+    whatsIncluded:
+      "Raj Tilak includes a liquid CO2 gun as part of its base package. Rajwada carries the same effect forward. Maharaja adds a confetti CO2 gun and CO2 jet effects on top. Signature includes the full liquid CO2 gun effect alongside pyro and confetti.",
+    pricingGuidance:
+      "The CO2 gun effect is included starting from Raj Tilak, our most affordable package. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Is a CO2 gun included even in the starting package?",
+        a: "Yes, Raj Tilak includes a liquid CO2 gun for a dazzling entry moment, even at our most affordable tier.",
+      },
+      {
+        q: "How much does a CO2 gun for wedding cost?",
+        a: "It's included as part of every package, starting from Raj Tilak. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Is the CO2 effect safe for guests?",
+        a: "Yes, it's operated by our experienced team with safety and crowd positioning in mind.",
+      },
+      {
+        q: "Does the CO2 gun leave any mess afterward?",
+        a: "No, unlike confetti, the CO2 vapor effect doesn't leave debris that needs cleanup.",
+      },
+      {
+        q: "Can the CO2 effect be timed to a specific moment?",
+        a: "Yes, message us with your preference and we'll plan the timing around the truck's arrival or another key moment.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since trucks and effects get booked out fast.",
+      },
+      {
+        q: "What's the difference between a CO2 gun and CO2 jet effects?",
+        a: "The CO2 gun creates a single dramatic burst, while CO2 jet effects (included in Maharaja and Signature) add more sustained visual impact throughout the entry.",
+      },
+      {
+        q: "Which package has the most CO2-based effects?",
+        a: "Maharaja and Signature include the confetti CO2 gun and CO2 jet effects alongside the base liquid CO2 gun.",
+      },
+    ],
+  },
+
+  "co2-cannon-rental-price": {
+    slug: "co2-cannon-rental-price",
+    intro:
+      "CO2 cannon rental price for a wedding baraat isn't a separate line item with PlanMyBaraat, since the CO2 gun effect is included as part of every package starting from Raj Tilak, our most affordable tier.\n\nThe price you get covers the CO2 effect plus the truck, dhol team, vintage car, safa team, and the rest of the package.",
+    explanation:
+      "Because the CO2 gun is operated by our team as part of a coordinated entry, it isn't priced or rented as a standalone item. It's built into every package from the start, with additional CO2-based effects like the confetti CO2 gun and CO2 jet effects added at the Maharaja and Signature tiers.\n\nThis means even our most affordable package includes a proper visual effect moment, not just the truck and dhol alone.",
+    whatsIncluded:
+      "Raj Tilak includes a liquid CO2 gun as part of its base package, alongside the truck, DJ, 2 dhol, chhatri lights, a vintage car, and a safa team. Higher tiers add more CO2-based effects on top.",
+    pricingGuidance:
+      "There's no separate CO2 cannon rental price — it's included starting from Raj Tilak. Message us on WhatsApp with your date and city, and we'll give you a real quote for the full package.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll send you a real quote covering the CO2 effect and full package.",
+    faqs: [
+      {
+        q: "What's the CO2 cannon rental price for a wedding?",
+        a: "There's no separate price — the CO2 gun effect is included starting from Raj Tilak, our most affordable package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can I rent just the CO2 cannon without the rest of the package?",
+        a: "No, it's included as part of our baraat packages, operated by our team alongside the truck and dhol.",
+      },
+      {
+        q: "Is the CO2 effect included even in the cheapest package?",
+        a: "Yes, Raj Tilak includes a liquid CO2 gun even at our most affordable tier.",
+      },
+      {
+        q: "Does adding more CO2 effects cost extra?",
+        a: "Additional CO2-based effects like confetti CO2 and jet effects are included as you move up to Maharaja and Signature, reflected in that package's price rather than as separate add-ons.",
+      },
+      {
+        q: "How early should I book to include this effect?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since it's included by default and just requires confirming your package.",
+      },
+      {
+        q: "Is the CO2 effect worth it compared to no effects at all?",
+        a: "Since it's included even in Raj Tilak at no extra charge, it's part of the standard entry rather than an optional upgrade.",
+      },
+      {
+        q: "Does the price change based on my city?",
+        a: "Logistics can vary slightly, which is why we confirm your exact price once we know your date and location.",
+      },
+      {
+        q: "How do I get an exact quote?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
 };

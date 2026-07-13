@@ -4114,4 +4114,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "turban-stylist-for-wedding": {
+    slug: "turban-stylist-for-wedding",
+    intro:
+      "A turban stylist for wedding baraats is a skilled artist who ties the traditional safa or pagdi for the groom and baraati group, a detail that adds significantly to the overall look of the procession.\n\nPlanMyBaraat's My Safa team of experienced turban stylists is included in every package from Raj Tilak upward.",
+    explanation:
+      "Tying a turban properly is a specific skill — it needs to look sharp for photos while also holding up through hours of dancing, walking, and celebration. Our stylists are experienced specifically with baraat-day styling, not just event-day quick fixes.\n\nThey arrive early enough to style the groom and as much of the baraati group as needed before the procession begins, working alongside the rest of our team's coordinated schedule.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes our turban stylist team, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "The turban stylist service is included in every package, so pricing reflects the overall tier. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and stylist team availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the turban stylist team's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Is a turban stylist included in every package?",
+        a: "Yes, our My Safa team of turban stylists is included in every package from Raj Tilak upward.",
+      },
+      {
+        q: "How much does a turban stylist for wedding cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Does the turban hold up through dancing and walking?",
+        a: "Yes, it's styled to last through the full procession, not just for initial photos.",
+      },
+      {
+        q: "How many people can the stylist team handle?",
+        a: "They can style the groom and a good portion of the baraati group — let us know your guest count and we'll plan accordingly.",
+      },
+      {
+        q: "How early should I book a turban stylist?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Can I request a specific turban color or style?",
+        a: "Message us with your preferences on WhatsApp and we'll coordinate the styling accordingly.",
+      },
+      {
+        q: "Is the stylist experienced with baraat-specific timing?",
+        a: "Yes, they work with us regularly and coordinate their arrival with the rest of the entry's schedule.",
+      },
+      {
+        q: "Does the stylist charge separately from the truck package?",
+        a: "No, it's included as part of every package, not a separate charge.",
+      },
+    ],
+  },
+
+  "turban-tying-service-wedding": {
+    slug: "turban-tying-service-wedding",
+    intro:
+      "Turban tying service for wedding baraats covers the traditional safa or pagdi styling for the groom and baraati group, a detail included in every PlanMyBaraat package from Raj Tilak upward.\n\nThe service comes bundled with the DJ truck, dhol team, and vintage car, not as a standalone booking.",
+    explanation:
+      "Proper turban tying requires skill and experience specific to the style being used — different fabrics, colors, and shapes each tie differently, and the result needs to look sharp while holding up through hours of dancing and walking. Our team is experienced specifically with baraat-day requirements.\n\nBecause it's bundled with the rest of the entry, the turban tying service is coordinated with the truck and dhol team's timing rather than scheduled independently.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes turban tying service for the groom and baraati group, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "Turban tying is included in every package, so there's no separate service charge. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for the full turban and baraat package tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the service's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Is turban tying service included with every package?",
+        a: "Yes, it's included in every package from Raj Tilak upward, styling the groom and baraati group before the procession.",
+      },
+      {
+        q: "How much does turban tying service for wedding cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I book just the turban tying service alone?",
+        a: "No, it's included as part of our baraat packages alongside the truck and dhol team, not booked separately.",
+      },
+      {
+        q: "How long does the tying process take?",
+        a: "It varies based on how many people need styling — we arrive early enough to have everyone ready before the procession starts.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Does the service include fabric or just the tying itself?",
+        a: "Message us with your specific needs on WhatsApp — we can discuss whether you're providing fabric or need it sourced.",
+      },
+      {
+        q: "Is the turban style customizable?",
+        a: "Yes, message us with your preferences and we'll coordinate the styling accordingly.",
+      },
+      {
+        q: "Does this service work for large baraati groups?",
+        a: "Yes, let us know your guest count and we'll plan the timing to accommodate everyone before the entry begins.",
+      },
+    ],
+  },
+
+  "pagdi-rental-for-wedding": {
+    slug: "pagdi-rental-for-wedding",
+    intro:
+      "Pagdi rental for wedding baraats means sourcing and tying the traditional turban fabric for the groom and baraati group — a service included as part of PlanMyBaraat's packages rather than a separate rental.\n\nEvery package from Raj Tilak upward includes our My Safa team, who handle both the pagdi and its styling.",
+    explanation:
+      "Rather than sourcing pagdi fabric independently and finding someone to tie it separately, our approach bundles this into the package, so the fabric, styling, and timing are all coordinated by our team. This removes another piece of coordination from your wedding planning.\n\nOur stylists are experienced with different pagdi styles and can coordinate colors and patterns with the groom's outfit and the overall wedding theme.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes pagdi styling by the My Safa team, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "Pagdi rental and styling is included in every package, so there's no separate rental price. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have specific color or style preferences, mention them early — 3-4 weeks' notice gives us time to plan the details.\n\nShare your date, city, venue, and any style preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any pagdi style preferences, and we'll confirm availability.",
+    faqs: [
+      {
+        q: "Is pagdi fabric included or do I need to provide it?",
+        a: "Message us with your specific needs on WhatsApp — we can discuss whether you're providing fabric or need it sourced as part of the styling.",
+      },
+      {
+        q: "How much does pagdi rental for wedding cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can the pagdi color match my wedding theme?",
+        a: "Yes, message us with your color scheme and we'll coordinate accordingly.",
+      },
+      {
+        q: "Is the styling included, not just the fabric?",
+        a: "Yes, our My Safa team handles both sourcing and tying as part of the package.",
+      },
+      {
+        q: "How early should I share style preferences?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan the details properly.",
+      },
+      {
+        q: "Can the whole baraati group get matching pagdis?",
+        a: "Message us with your guest count and preferences and we'll discuss what's possible for a coordinated group look.",
+      },
+      {
+        q: "Does the pagdi style vary by region or tradition?",
+        a: "Yes, and our stylists are experienced with different styles — mention your specific tradition and we'll accommodate accordingly.",
+      },
+      {
+        q: "How early should I book for pagdi styling?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+    ],
+  },
 };

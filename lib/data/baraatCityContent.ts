@@ -12083,4 +12083,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "rajpipla-rajpipla-town": {
+    slug: "rajpipla-rajpipla-town",
+    intro:
+      "Rajpipla Town is the historic princely capital of the region, with old-style markets, established halls, and easy access from every direction. A baraat entry here feels like a proper royal-town celebration.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, so you don't have to arrange a dj truck rental, dhol group, car, and turban stylist separately.",
+    localArea:
+      "Rajpipla Town has a mix of older, narrower lanes and some wider connecting roads, so we plan the truck's route carefully based on your exact venue.\n\nWe've handled entries in and around Rajpipla Town and know its lanes well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Rajpipla Town that means knowing exactly which lanes work for a full-size truck and where a shorter walk-in makes more sense.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through the town's older, historic core.",
+    pricingGuidance:
+      "On how much does baraat cost for a Rajpipla Town entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since town venues are popular.\n\nA rough headcount for the baraati group and your exact venue helps us plan the route properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Rajpipla Town, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Rajpipla Town?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues in Rajpipla Town's older lanes?",
+        a: "In most cases yes, though we check your exact venue in advance since some lanes are narrower and may need a shorter walk-in.",
+      },
+      {
+        q: "How early should I book for a Rajpipla Town wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since these venues are popular.",
+      },
+      {
+        q: "Is Rajpipla Town easy for guests to reach?",
+        a: "Yes, it's the historic princely capital of the region, with easy access from every direction.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "rajpipla-netrang-road": {
+    slug: "rajpipla-netrang-road",
+    intro:
+      "Netrang Road leads toward the town of Netrang, with open roads and a handful of venues along the way. A baraat entry here has plenty of room to be a big, visible celebration.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one team.",
+    localArea:
+      "Netrang Road is generally wide, making truck access straightforward for most stretches. We plan the route based on your exact venue along this corridor.\n\nWe've handled entries along Netrang Road and know the area well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to this wide, open stretch.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Netrang Road that means being ready to make the most of the open road here for a bigger, more visible entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the open-road setups common along this corridor.",
+    pricingGuidance:
+      "On how much does baraat cost for a Netrang Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this area.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Netrang Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Netrang Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Netrang Road good for a big truck entry?",
+        a: "Yes, it's generally wide, giving good room for a bigger, more visible entry.",
+      },
+      {
+        q: "How early should I book for a Netrang Road wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Does Netrang Road lead toward the town of Netrang?",
+        a: "Yes, it leads toward Netrang, open and wide for most of the way.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "rajpipla-rajpipla-fort-area": {
+    slug: "rajpipla-rajpipla-fort-area",
+    intro:
+      "The Rajpipla Fort area sits near the town's historic palace, with a mix of residential streets and a few venues offering a royal, scenic backdrop for a baraat entry. It's a slightly grander setting compared to the busier town roads.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "The Rajpipla Fort area is generally manageable for truck access, with some venues offering a scenic backdrop near the palace, which makes for great entry photos.\n\nWe've handled entries near the Rajpipla Fort area and know the streets well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for the Rajpipla Fort area that means knowing which streets near the palace work best for a full-size truck.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable planning around this area's historic streets.",
+    pricingGuidance:
+      "On how much does baraat cost for a Rajpipla Fort area entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since venues near the fort are popular.\n\nA rough headcount for the baraati group and your exact venue helps us plan the route properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near the Rajpipla Fort area, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near the Rajpipla Fort area?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the venues here scenic?",
+        a: "Yes, some venues near the fort offer a royal, scenic backdrop, which makes for great entry photos.",
+      },
+      {
+        q: "How early should I book for a wedding here?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since venues near the fort are popular.",
+      },
+      {
+        q: "Is this area near the Rajpipla palace?",
+        a: "Yes, it's a residential area near the town's historic palace.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

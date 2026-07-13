@@ -2963,4 +2963,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-vesu": {
+    slug: "surat-vesu",
+    intro:
+      "Vesu is Surat's premier wedding neighborhood — wide roads, some of the city's biggest banquet halls, and enough scale that a baraat entry here needs to be genuinely impressive to stand out. On a peak-season weekend, it's common to see multiple grand baraat entries happening within the same few blocks.\n\nPlanMyBaraat runs baraat on wheels packages built for that level of competition: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking, so your entry gets the attention it deserves.",
+    localArea:
+      "Vesu's roads are wide and well-planned, among the easiest in Surat for a full truck setup. Parking near the bigger halls can still fill up fast on weekend evenings, so we scope the exact venue and plan the truck's position in advance.\n\nIt connects easily to Adajan and Vesu-Bharthana, so if your guests are spread across that broader western Surat pocket, our team already knows the routes.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this shows up especially well on Vesu's wide roads and against its bigger venues. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, built for the scale of weddings this area typically hosts.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and Vesu is one of the areas we work most often — we know exactly how each major hall handles truck access and parking, and we plan around it instead of guessing.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger, more competitive entries common in this part of Surat.",
+    pricingGuidance:
+      "On how much does baraat cost for a Vesu entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team, which suits the bigger crowds common in Vesu.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Vesu is one of the most booked areas in Surat during that time. We'd strongly recommend locking in your baraat entry at least 4 weeks ahead if your date falls in peak season, since both venues and our truck calendar fill up fast here.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how many bigger, more elaborate entries happen in this part of the city.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Vesu, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Vesu, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Why is Vesu so popular for baraat entries?",
+        a: "It has some of Surat's biggest, newest banquet halls and wide roads, giving plenty of room for a large truck, dhol team, and crowd — a strong fit for a grand entry.",
+      },
+      {
+        q: "How early should I book for a Vesu wedding?",
+        a: "At least 4 weeks ahead during wedding season (November to February) — this is one of the most booked areas in Surat, both for venues and for our truck calendar.",
+      },
+      {
+        q: "Will there be other baraats in Vesu on my wedding date?",
+        a: "It's likely, especially on Saturday evenings during peak season. We plan your entry's timing and positioning to make sure it still stands out.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Vesu's bigger weddings.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-adajan": {
+    slug: "surat-adajan",
+    intro:
+      "Adajan sits along the Tapi river, one of Surat's most established upscale neighborhoods, with a strong mix of residential societies and popular banquet halls. A grand baraat entry here has both the scale of a bigger corridor and the settled, familiar feel of an established neighborhood.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Adajan's main roads are wide and well-maintained, making truck access straightforward for most venues. It connects easily to Vesu and Adajan Patiya, and some venues sit close enough to the Tapi riverfront to make for a scenic entry.\n\nWe've handled a large number of entries in Adajan and know the timing and positioning that works best for the area's popular halls.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to the scale of weddings common here.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and Adajan is one of the neighborhoods we work most regularly — we know how each major venue handles truck access and parking, and plan around it in advance.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger, more competitive entries common in this part of Surat.",
+    pricingGuidance:
+      "On how much does baraat cost for an Adajan entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Adajan's popular halls get booked out early during that window. We'd recommend locking in your baraat entry at least 4 weeks ahead if your date falls in peak season.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how many bigger entries happen in this part of the city.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Adajan, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Adajan, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Adajan good for a bigger baraat entry?",
+        a: "Yes, the roads are wide and well-maintained, and the area has some of Surat's most popular banquet halls, giving plenty of room for a bigger production.",
+      },
+      {
+        q: "How early should I book for an Adajan wedding?",
+        a: "At least 4 weeks ahead during wedding season (November to February), since this is one of the most in-demand areas in Surat.",
+      },
+      {
+        q: "Do you cover venues near the Tapi riverfront?",
+        a: "Yes, some Adajan venues are close enough to the riverfront for a scenic entry. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-city-light": {
+    slug: "surat-city-light",
+    intro:
+      "City Light is one of Surat's best-known commercial and residential hubs, named after the area's landmark road, and it draws a mix of upscale halls and society venues. A baraat entry here gets noticed simply because of how much foot and vehicle traffic passes through on any given evening.\n\nPlanMyBaraat runs baraat on wheels packages built to make the most of that visibility: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "City Light's main roads are wide, though the commercial density means more regular traffic than some purely residential pockets. It connects easily to Piplod and Athwalines, so guests from that broader central-west Surat pocket have an easy route in.\n\nWe've run a good number of entries through City Light and know the timing that works best to avoid the area's busier commercial hours.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — visible to plenty of passing traffic given how commercial this area is. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for City Light that means knowing when the commercial traffic peaks are, so we can time your baraat's arrival to avoid getting stuck en route to the venue.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through busy, central parts of Surat like this one.",
+    pricingGuidance:
+      "On how much does baraat cost for a City Light entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. We'd suggest booking your baraat entry at least 3-4 weeks ahead during peak season given how popular this area is.\n\nGiven the commercial traffic, let us know your venue's exact access point so we can plan the truck's timing to avoid delays. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in City Light, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in City Light, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is traffic a problem for a baraat entry in City Light?",
+        a: "It can get busy given how commercial the area is. We plan the truck's timing to avoid the worst of it and reach your venue on schedule.",
+      },
+      {
+        q: "How early should I book for a City Light wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this area is.",
+      },
+      {
+        q: "Do you cover venues near Piplod and Athwalines too?",
+        a: "Yes, we cover the broader central-west Surat pocket including Piplod and Athwalines. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

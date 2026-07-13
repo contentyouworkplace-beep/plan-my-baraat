@@ -7763,4 +7763,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "gandhinagar-kudasan": {
+    slug: "gandhinagar-kudasan",
+    intro:
+      "Kudasan is Gandhinagar's most in-demand wedding pocket — newer, more upscale than the older sectors, with bigger venues and wide roads built for exactly the kind of grand baraat entry families want here. It's become the default choice for a lot of Gandhinagar's bigger weddings.\n\nPlanMyBaraat runs baraat on wheels packages built for that scale: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Kudasan's roads are wide and well-planned, among the easiest in Gandhinagar for a full truck setup. It connects easily to Raysan and Koba, and given how popular it's become, parking near the bigger halls can fill up fast on weekend evenings.\n\nWe've handled a large number of entries in Kudasan and know the timing and positioning that works best for the area's popular venues.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this shows up especially well on Kudasan's wide roads. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, built for the scale of weddings this area typically hosts.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and Kudasan is one of the areas we work most often — we know exactly how each major hall handles truck access and parking, and we plan around it rather than guessing.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger, more competitive entries common in this part of Gandhinagar.",
+    pricingGuidance:
+      "On how much does baraat cost for a Kudasan entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team, which suits the bigger crowds common here.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Kudasan is one of the most booked areas in Gandhinagar during that time. We'd strongly recommend locking in your baraat entry at least 4 weeks ahead if your date falls in peak season, since both venues and our booking calendar fill up fast here.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how many bigger, more elaborate entries happen in this part of the city.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Kudasan, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Kudasan, Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Why is Kudasan popular for baraat entries?",
+        a: "It has some of Gandhinagar's newest, biggest banquet halls and wide roads, giving plenty of room for a large truck, dhol team, and crowd — a strong fit for a grand entry.",
+      },
+      {
+        q: "How early should I book for a Kudasan wedding?",
+        a: "At least 4 weeks ahead during wedding season (November to February) — this is one of the most booked areas in Gandhinagar, both for venues and for our truck calendar.",
+      },
+      {
+        q: "Will there be other baraats in Kudasan on my wedding date?",
+        a: "It's likely, especially on Saturday evenings during peak season. We plan your entry's timing and positioning to make sure it still stands out.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Kudasan's bigger weddings.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "gandhinagar-raysan": {
+    slug: "gandhinagar-raysan",
+    intro:
+      "Raysan sits close to Kudasan, part of the same upscale growth belt, with wide roads and a growing number of banquet halls. A grand baraat entry here fits right in with the scale of weddings this part of Gandhinagar typically hosts.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Raysan's roads are wide and well-planned, similar to neighboring Kudasan, making truck access straightforward. It connects easily to Kudasan and Koba, so guests from that broader growth belt have an easy route in.\n\nWe've handled a good number of entries in Raysan's venue clusters.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this reads especially well on Raysan's wide roads. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a fast-growing area like Raysan that means staying current on new venues as they open, and planning routes that make full use of the wider roads here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more open entries this part of the city allows for.",
+    pricingGuidance:
+      "On how much does baraat cost for a Raysan entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Raysan's popularity alongside Kudasan means booking 3-4 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this area allows for a bigger entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Raysan, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Raysan, Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Raysan similar to Kudasan for baraat entries?",
+        a: "Yes, it's part of the same upscale growth belt, with wide roads and newer venues suited to bigger, more elaborate entries.",
+      },
+      {
+        q: "How early should I book for a Raysan wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this area has become.",
+      },
+      {
+        q: "Do you cover venues near Kudasan and Koba too?",
+        a: "Yes, we cover the broader growth belt including Kudasan and Koba. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "gandhinagar-koba": {
+    slug: "gandhinagar-koba",
+    intro:
+      "Koba sits close to Infocity, Gandhinagar's IT hub, with a mix of newer residential development and a handful of venues. A baraat entry here draws from the area's growing tech and professional community.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Koba's roads are generally wide, given the development around Infocity, making truck access straightforward. It connects easily to Raysan and Kudasan, so guests from that broader growth belt have an easy route in.\n\nWe've handled entries in Koba and the surrounding Infocity-adjacent neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Koba that means staying current on the newer venues opening as the area develops alongside Infocity.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Koba entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Koba, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Koba, Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Koba close to Infocity?",
+        a: "Yes, it sits close to Gandhinagar's IT hub, with development that's grown alongside it.",
+      },
+      {
+        q: "How early should I book for a Koba wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are Koba's roads good for a truck entry?",
+        a: "Yes, generally wide given the development around Infocity, making truck access straightforward.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

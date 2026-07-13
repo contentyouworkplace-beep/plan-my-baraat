@@ -483,4 +483,160 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  mehsana: {
+    slug: "mehsana",
+    intro:
+      "Mehsana is a smaller North Gujarat city, but it's a busy one — a lot of local trade, dairy business, and steady wedding activity year-round. A grand baraat entry through Highway Road or near Mehsana Town still draws a crowd, and families here care about getting the entry right, same as anywhere else in Gujarat.\n\nPlanMyBaraat runs baraat on wheels packages for exactly that: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, handled as one booking so you're not juggling separate vendors in the days before the wedding.",
+    localArea:
+      "We cover Mehsana Town, Modhera Road, Highway Road, Radhanpur Road, and Malanpur. Highway Road tends to be the widest and easiest for a full truck setup. Mehsana Town itself is more central and a bit busier, so we plan those entries with a little more care around timing and route.\n\nIf your venue is somewhere else near Mehsana, let us know when you message us and we'll confirm accessibility for the truck.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a solid choice for a smaller or more budget-friendly entry. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the smallest package includes a proper car and full turban styling for the groom's group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and we know Mehsana's roads well enough to plan an entry that actually works — which stretches near Mehsana Town get busy in the evening, and where Highway Road gives us the most room to work with.\n\nOur drivers, DJs, dhol players, and safa artists are a regular team, not people picked up for a single event. That consistency is what keeps everything on schedule on the actual wedding day.",
+    pricingGuidance:
+      "On how much does baraat cost in Mehsana: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date, area, and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. Mehsana doesn't get as booked out as the bigger cities, but 2-3 weeks' notice during peak season is still a safe bet. Outside season, a week's notice usually works.\n\nA rough headcount for the baraati group helps us plan the right truck and dhol setup for your entry, whichever part of the city you're in.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your area in Mehsana, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Mehsana?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and area on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover areas outside Mehsana Town, like Radhanpur Road?",
+        a: "Yes, we cover Mehsana Town, Modhera Road, Highway Road, Radhanpur Road, and Malanpur. Tell us your exact venue when you message us.",
+      },
+      {
+        q: "How early should I book a dj truck for baraat in Mehsana?",
+        a: "2-3 weeks ahead during wedding season (November to February) is a safe window. Outside season, a week's notice is usually enough.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "How many dhol players come with each package?",
+        a: "Raj Tilak includes 2, Rajwada includes 4, Maharaja includes 6, and Signature includes 6 plus extra effects. We can usually add more dhol players for a small additional cost.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+      {
+        q: "Can you plan an entry around Mehsana's busier central roads?",
+        a: "Yes, we know Mehsana Town's evening traffic patterns and plan the truck route and timing to avoid getting stuck en route to your venue.",
+      },
+    ],
+  },
+
+  bharuch: {
+    slug: "bharuch",
+    intro:
+      "Bharuch sits right on the Narmada river, and the city has a distinct old-town character near the Golden Bridge, along with a busy industrial belt toward Ankleshwar. A grand baraat entry here often means planning around both — the older streets near Bharuch Town and the wider roads out toward the Ankleshwar-Bharuch belt.\n\nPlanMyBaraat runs baraat on wheels packages that work for either setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all in one booking, so the whole entry is handled by one team.",
+    localArea:
+      "We cover Zadeshwar, Kasak, Bharuch Town, the Ankleshwar-Bharuch belt, Station Road, and the Golden Bridge area. Zadeshwar and the Ankleshwar-Bharuch belt tend to have wider roads, good for a full truck setup. Bharuch Town and the area near Station Road are older and busier, so we plan the route a bit more carefully there.\n\nIf your venue is somewhere else around Bharuch, let us know when you message us and we'll check the route.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and in Bharuch that means knowing which roads near the old town and Golden Bridge area are tighter, and which stretches out toward Ankleshwar give us more room to work with for a bigger entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, so the timing and coordination stay tight regardless of which part of Bharuch your venue is in.",
+    pricingGuidance:
+      "On how much does baraat cost in Bharuch: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count rather than a flat number. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is a safe bet, and outside season a week's notice usually works.\n\nIf your venue is near the older town center or Golden Bridge area, let us know so we can plan the route around the tighter streets. A rough headcount for the baraati group also helps us plan the setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your area in Bharuch, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Bharuch?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and area on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover the Ankleshwar-Bharuch belt as well as Bharuch Town?",
+        a: "Yes, we cover Zadeshwar, Kasak, Bharuch Town, the Ankleshwar-Bharuch belt, Station Road, and the Golden Bridge area. Tell us your exact venue when you message us.",
+      },
+      {
+        q: "How early should I book a dj truck for baraat in Bharuch?",
+        a: "2-3 weeks ahead during wedding season (November to February) is a safe window. Outside season, a week's notice is usually enough.",
+      },
+      {
+        q: "Can you manage a truck entry near the older Bharuch Town streets?",
+        a: "Yes, we plan the route in advance for the tighter, older streets near the town center and Golden Bridge area, adjusting the setup if needed.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "How many dhol players come with each package?",
+        a: "Raj Tilak includes 2, Rajwada includes 4, Maharaja includes 6, and Signature includes 6 plus extra effects. We can usually add more dhol players for a small additional cost.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  navsari: {
+    slug: "navsari",
+    intro:
+      "Navsari has a distinct character — old Parsi heritage in parts of the town, and Dandi just down the road, tied to a well-known moment in India's history. Weddings here mix that traditional character with the same energy any Gujarati baraat entry brings, especially around Navsari Town and Sayaji Road.\n\nPlanMyBaraat runs baraat on wheels packages built for exactly that: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "We cover Navsari Town, Lunsikui, Eru Char Rasta, Dandi Road, and Sayaji Road. Sayaji Road and Eru Char Rasta tend to be wider and easier for a full truck setup. Navsari Town itself is older and a bit tighter, so we plan the route with a little more care there.\n\nIf your venue is somewhere else around Navsari, let us know when you message us and we'll confirm the route.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and in Navsari that means knowing which streets near the old town are tighter and which stretches along Sayaji Road give more room for a bigger entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, so timing stays tight regardless of which part of Navsari your venue is in.",
+    pricingGuidance:
+      "On how much does baraat cost in Navsari: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is a safe bet, and outside season a week's notice usually works.\n\nIf your venue is near Navsari's older town area, let us know so we can plan the route around the tighter streets. A rough headcount for the baraati group also helps us plan the setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your area in Navsari, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Navsari?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and area on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover areas near Dandi Road as well as Navsari Town?",
+        a: "Yes, we cover Navsari Town, Lunsikui, Eru Char Rasta, Dandi Road, and Sayaji Road. Tell us your exact venue when you message us.",
+      },
+      {
+        q: "How early should I book a dj truck for baraat in Navsari?",
+        a: "2-3 weeks ahead during wedding season (November to February) is a safe window. Outside season, a week's notice is usually enough.",
+      },
+      {
+        q: "Can you manage a truck entry near Navsari's older town streets?",
+        a: "Yes, we plan the route in advance for tighter, older streets in the town center and adjust the setup if needed.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "How many dhol players come with each package?",
+        a: "Raj Tilak includes 2, Rajwada includes 4, Maharaja includes 6, and Signature includes 6 plus extra effects. We can usually add more dhol players for a small additional cost.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

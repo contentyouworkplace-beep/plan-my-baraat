@@ -9,8 +9,10 @@ import FAQAccordion from "@/components/FAQAccordion";
 import EnquireNowButton from "@/components/EnquireNowButton";
 import LeadCaptureForm from "@/components/LeadCaptureForm";
 import SeoLinkBlock from "@/components/SeoLinkBlock";
+import KeywordTagBlock from "@/components/KeywordTagBlock";
 import { ALL_BARAAT_LOCATIONS, getLocationBySlug } from "@/lib/data/baraatLocations";
 import { BARAAT_CITY_CONTENT } from "@/lib/data/baraatCityContent";
+import { BARAAT_KEYWORDS } from "@/lib/data/baraatKeywordList";
 import { BARAAT_PACKAGES } from "@/lib/packagesData";
 import { SITE_IMAGES } from "@/lib/siteImages";
 import { WHATSAPP_NUMBER } from "@/lib/seoHelpers";
@@ -296,6 +298,17 @@ export default function LocationPage({
             </div>
           </section>
         ) : null}
+
+        {/* ── Popular searches ── */}
+        <section className="border-t border-black/8 bg-[#f7f1ea] px-4 py-12 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-4xl">
+            <KeywordTagBlock
+              title="Popular baraat searches"
+              summary={`${BARAAT_KEYWORDS.length} baraat-related searches people use across Gujarat.`}
+              items={BARAAT_KEYWORDS.map((k) => ({ label: k.phrase }))}
+            />
+          </div>
+        </section>
       </main>
 
       <SiteFooter />

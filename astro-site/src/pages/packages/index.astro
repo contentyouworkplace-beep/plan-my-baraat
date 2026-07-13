@@ -1,9 +1,12 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import { BARAAT_PACKAGES } from "../../data/packagesData";
+import { getPackageIndexMeta } from "../../data/seoMeta";
+
+const meta = getPackageIndexMeta();
 ---
 
-<Layout title="Baraat Packages | PlanMyBaraat" description="Compare all four PlanMyBaraat packages — Raj Tilak, Rajwada, Maharaja, and Signature — and see exactly what's included in each.">
+<Layout title={meta.title} description={meta.description}>
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-10">
     <div class="text-center space-y-3">
       <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Curated Baraat Packages</span>

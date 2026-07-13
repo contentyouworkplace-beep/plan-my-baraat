@@ -4,6 +4,7 @@ import { ALL_BARAAT_LOCATIONS, getLocationBySlug } from "../../data/baraatLocati
 import { BARAAT_PACKAGES } from "../../data/packagesData";
 import { WHATSAPP_NUMBER } from "../../data/whatsapp";
 import { locationIntro, locationWhyUs, locationClosing } from "../../data/baraatContentVariants";
+import { getLocationMeta } from "../../data/seoMeta";
 
 export function getStaticPaths() {
   return ALL_BARAAT_LOCATIONS.map((l) => ({ params: { location: l.slug } }));
@@ -22,11 +23,10 @@ const waText = encodeURIComponent(
 );
 const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`;
 
-const title = `Baraat Package Services in ${loc.name} | PlanMyBaraat`;
-const description = `DJ truck, dhol team, vintage car, and safa styling for your baraat in ${loc.name}, ${loc.state}. Four curated packages, one WhatsApp enquiry.`;
+const meta = getLocationMeta(loc, parent);
 ---
 
-<Layout title={title} description={description}>
+<Layout title={meta.title} description={meta.description}>
   <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-8 text-center space-y-4">
     <nav class="text-[10px] uppercase tracking-widest text-black/40 flex items-center justify-center gap-1.5">
       <a href="/" class="hover:text-[#E70D1D]">Home</a>

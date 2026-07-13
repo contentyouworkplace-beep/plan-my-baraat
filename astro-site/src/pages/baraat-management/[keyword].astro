@@ -4,6 +4,7 @@ import { BARAAT_KEYWORDS, getKeywordBySlug } from "../../data/baraatKeywords";
 import { BARAAT_PACKAGES } from "../../data/packagesData";
 import { WHATSAPP_NUMBER } from "../../data/whatsapp";
 import { keywordIntro } from "../../data/baraatContentVariants";
+import { getKeywordMeta } from "../../data/seoMeta";
 
 export function getStaticPaths() {
   return BARAAT_KEYWORDS.map((k) => ({ params: { keyword: k.slug } }));
@@ -20,14 +21,15 @@ const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`;
 
 const related = BARAAT_KEYWORDS.filter((k) => k.category === kw.category && k.slug !== kw.slug).slice(0, 6);
 
-const title = `${kw.phrase.charAt(0).toUpperCase() + kw.phrase.slice(1)} | PlanMyBaraat`;
-const description = `${kw.phrase.charAt(0).toUpperCase() + kw.phrase.slice(1)} â€” included as part of PlanMyBaraat's curated baraat packages. Get a WhatsApp quote today.`;
+const meta = getKeywordMeta(kw);
 ---
 
-<Layout title={title} description={description}>
+<Layout title={meta.title} description={meta.description}>
   <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-8 text-center space-y-4">
     <nav class="text-[10px] uppercase tracking-widest text-black/40 flex items-center justify-center gap-1.5">
       <a href="/" class="hover:text-[#E70D1D]">Home</a>
+      <span>/</span>
+      <a href="/baraat-management" class="hover:text-[#E70D1D]">Baraat Management</a>
       <span>/</span>
       <span class="text-black/70">{kw.category}</span>
     </nav>
@@ -74,7 +76,7 @@ const description = `${kw.phrase.charAt(0).toUpperCase() + kw.phrase.slice(1)} â
       <h2 class="font-serif font-black text-lg text-black tracking-wide">Related to {kw.category}</h2>
       <div class="flex flex-wrap gap-2">
         {related.map((r) => (
-          <a href={`/baraat-services/${r.slug}`} class="text-xs px-3 py-1.5 border border-black/10 text-black/60 hover:border-[#E70D1D]/40 hover:text-[#E70D1D] transition-colors capitalize">
+          <a href={`/baraat-management/${r.slug}`} class="text-xs px-3 py-1.5 border border-black/10 text-black/60 hover:border-[#E70D1D]/40 hover:text-[#E70D1D] transition-colors capitalize">
             {r.phrase}
           </a>
         ))}

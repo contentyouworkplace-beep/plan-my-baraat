@@ -5,6 +5,7 @@ import EnquiryModal from "../components/EnquiryModal.astro";
 import { BARAAT_PACKAGES } from "../data/packagesData";
 import { SITE_IMAGES } from "../data/siteImages";
 import { ABOUT_POINTS, TESTIMONIALS, CONTACT_DETAILS, GALLERY_IMAGES, GALLERY_VIDEOS } from "../data/siteContent";
+import { getHomeMeta } from "../data/seoMeta";
 
 const STATS = [
   { value: "500+", label: "Baraats Organized" },
@@ -18,9 +19,11 @@ const STEPS = [
   { title: "Share Your Details", text: "Send your name, event, and number — our team calls you back within hours." },
   { title: "Customize & Confirm", text: "We tailor the truck branding, dhol count, lights and effects to your baraat, then lock the date." },
 ];
+
+const meta = getHomeMeta();
 ---
 
-<Layout>
+<Layout title={meta.title} description={meta.description}>
   {/* Hero */}
   <section class="relative overflow-hidden bg-white">
     <div class="absolute inset-0 opacity-40">

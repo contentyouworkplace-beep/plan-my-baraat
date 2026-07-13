@@ -3683,4 +3683,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-althan": {
+    slug: "surat-althan",
+    intro:
+      "Althan sits close to Vesu, part of the same upscale southwestern growth belt, with wide roads and a steady stream of newer banquet halls. A grand baraat entry here fits right in with the scale of weddings this part of Surat typically hosts.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Althan's roads are wide and well-planned, similar to neighboring Vesu, making truck access straightforward. It connects easily to Vesu and Vesu-Bharthana, so guests from that broader southwestern Surat pocket have an easy route in.\n\nWe've handled a good number of entries in Althan's venue clusters.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this shows up especially well on Althan's wide roads. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and Althan is one of the areas we work often given its proximity to Vesu — we know how the newer venues here handle truck access and parking.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger entries common in this part of Surat.",
+    pricingGuidance:
+      "On how much does baraat cost for an Althan entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Althan's popularity alongside Vesu means booking 3-4 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how many bigger entries happen in this part of the city.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Althan, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Althan, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Althan similar to Vesu for baraat entries?",
+        a: "Yes, it's part of the same upscale southwestern growth belt, with wide roads and newer venues suited to bigger, more elaborate entries.",
+      },
+      {
+        q: "How early should I book for an Althan wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this area has become.",
+      },
+      {
+        q: "Do you cover venues near Vesu and Vesu-Bharthana too?",
+        a: "Yes, we cover the broader southwestern Surat pocket including Vesu and Vesu-Bharthana. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Althan's bigger weddings.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-vesu-bharthana": {
+    slug: "surat-vesu-bharthana",
+    intro:
+      "Vesu-Bharthana is the further edge of Surat's Vesu growth belt, newer still than the main Vesu stretch, with wide open roads and venues that keep opening as the area expands. A grand baraat entry here has about as much open space to work with as anywhere in Surat.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Vesu-Bharthana's roads are wide and new, making it one of the easiest parts of Surat for a full truck setup. Being at the edge of the growth corridor, it's a bit further from central Surat, so factor in a slightly longer route if a lot of your guests are coming from Athwalines or City Light.\n\nWe've handled entries at several of the newer venues here, and since the area keeps expanding, if your hall is somewhere very recently built, just flag it when you message us.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — Vesu-Bharthana's wide roads make this a strong visual choice. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to the bigger, more open entries this area allows for.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a fast-developing area like Vesu-Bharthana that means staying current on new venues as they open, and planning routes that make full use of the open roads here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more elaborate entries this area allows for.",
+    pricingGuidance:
+      "On how much does baraat cost for a Vesu-Bharthana entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team, which suits the scale of weddings this newer area tends to host.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and this area's popularity as a newer venue hub means booking 3-4 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this area allows for a bigger entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Vesu-Bharthana, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Vesu-Bharthana, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Vesu-Bharthana far from central Surat?",
+        a: "It's at the edge of the Vesu growth corridor, so factor in a slightly longer route if guests are coming from Athwalines or City Light.",
+      },
+      {
+        q: "How early should I book for a Vesu-Bharthana wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this newer area has become.",
+      },
+      {
+        q: "Are Vesu-Bharthana's roads good for a bigger baraat entry?",
+        a: "Yes, since this is one of the newest parts of Surat, the roads are wide and open, giving plenty of room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Vesu-Bharthana's open-road entries.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-magdalla": {
+    slug: "surat-magdalla",
+    intro:
+      "Magdalla sits toward Surat's port and industrial belt in the south, with a mix of working neighborhoods and open roads. A baraat entry here has practical space to work with, similar to other industrial-adjacent parts of the city.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Magdalla's main roads are generally wide, given the industrial and port-adjacent development, making truck access straightforward. Most wedding venues here are in the residential pockets rather than the port area itself.\n\nWe've handled entries in Magdalla and the surrounding southern Surat neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Magdalla that means knowing which stretches are residential versus port-industrial, and planning weekend entries around any weekday traffic patterns.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of south Surat.",
+    pricingGuidance:
+      "On how much does baraat cost for a Magdalla entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming whether your venue is closer to the residential or port-industrial side of Magdalla.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Magdalla, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Magdalla, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Magdalla good for a full-size truck entry?",
+        a: "Yes, roads here are generally wide given the industrial and port-adjacent development, making truck access straightforward for most venues.",
+      },
+      {
+        q: "How early should I book for a Magdalla wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Are wedding venues in Magdalla near the port itself?",
+        a: "Most are in the residential pockets rather than close to the port area. Tell us your exact venue and we'll plan the route accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

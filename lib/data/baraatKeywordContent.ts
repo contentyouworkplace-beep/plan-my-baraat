@@ -2764,4 +2764,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "dhol-booking-online": {
+    slug: "dhol-booking-online",
+    intro:
+      "Dhol booking online with PlanMyBaraat starts with a WhatsApp message, not a long form — share your date, city, and rough guest count, and we'll confirm your dhol team as part of a full baraat package.\n\nThe online booking covers the whole entry: the dhol team, DJ truck, vintage car, and safa team, not the dhol alone.",
+    explanation:
+      "Rather than a website form and a wait for a callback, our process happens over WhatsApp because that's where the actual coordination happens anyway — sharing details, confirming availability, sending quotes. You message us, we respond with package options, and once you confirm, we lock in your dhol team along with the rest of the entry.\n\nThis makes it easy to book whenever is convenient for you, without needing to call during specific hours.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol players. Rajwada steps up to 4. Maharaja and Signature both include 6, alongside the truck, DJ, chhatri lights, a vintage car, and a safa team.",
+    pricingGuidance:
+      "Pricing depends on the package tier and dhol count. We quote based on your date, city, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and online booking slots fill up fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you message us.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue to start the booking process, usually confirmed within the hour.",
+    faqs: [
+      {
+        q: "How do I book a dhol team online?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count. We'll recommend a package and confirm availability, usually within the hour.",
+      },
+      {
+        q: "Is there a form I need to fill out on a website?",
+        a: "No, WhatsApp is our main booking channel — it's faster and lets us share quotes and answer questions directly.",
+      },
+      {
+        q: "How much does dhol booking online cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I pay a deposit online to confirm?",
+        a: "Yes, we'll share payment details once you confirm your package and date, and take an advance to lock in the booking.",
+      },
+      {
+        q: "How quickly do you respond to online booking inquiries?",
+        a: "Usually within the hour during business hours.",
+      },
+      {
+        q: "Can I see videos of the dhol team before booking online?",
+        a: "Yes, message us on WhatsApp and we'll share videos of past entries.",
+      },
+      {
+        q: "How early should I book online for peak season?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since slots fill up fast.",
+      },
+      {
+        q: "What details do I need to book online?",
+        a: "Your wedding date, city, venue, rough guest count, and preferred package — that's enough for us to confirm.",
+      },
+    ],
+  },
+
+  "punjabi-dhol-booking": {
+    slug: "punjabi-dhol-booking",
+    intro:
+      "Punjabi dhol booking for a baraat means the traditional double-sided drum played in the energetic, celebratory style associated with Punjabi wedding processions — a style that's become the standard for baraat entries across India, including Gujarat.\n\nPlanMyBaraat includes Punjabi dhol players in every package, from 2 in Raj Tilak up to 6 in Signature.",
+    explanation:
+      "The Punjabi dhol style is characterized by its powerful, driving rhythm, well suited to a dancing, moving crowd. Our players are trained in this style specifically, which is why it works so well alongside the DJ truck's music and the overall energy of a grand baraat entry.\n\nThe style also pairs naturally with Bollywood and Punjabi music, which our DJ artists often include in their sets, creating a cohesive sound throughout the procession.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol players. Rajwada steps up to 4. Maharaja and Signature both include 6, alongside the truck, DJ, chhatri lights, a vintage car, and a safa team.",
+    pricingGuidance:
+      "Pricing depends on the package tier and dhol count. We quote based on your date, city, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and dhol teams get booked out fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the Punjabi dhol team's available, usually within the hour.",
+    faqs: [
+      {
+        q: "What is Punjabi dhol style specifically?",
+        a: "It's characterized by a powerful, driving rhythm well suited to a dancing crowd, and it's become the standard style for baraat entries across India.",
+      },
+      {
+        q: "How much does Punjabi dhol booking cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Do the players know Bollywood and Punjabi music styles?",
+        a: "Yes, they're trained in the Punjabi dhol style and coordinate well with our DJ's Bollywood and Punjabi music sets.",
+      },
+      {
+        q: "How many Punjabi dhol players come with each package?",
+        a: "Raj Tilak includes 2, Rajwada includes 4, and Maharaja and Signature both include 6.",
+      },
+      {
+        q: "How early should I book Punjabi dhol players?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since teams get booked out fast.",
+      },
+      {
+        q: "Are the players experienced with baraat-specific pacing?",
+        a: "Yes, they work with us regularly and are experienced with the rhythm and pacing a moving baraat procession needs.",
+      },
+      {
+        q: "Is Punjabi dhol suitable for a Gujarati wedding?",
+        a: "Yes, the Punjabi dhol style has become the standard for baraat entries across regions, including Gujarat.",
+      },
+      {
+        q: "Can the players adjust their style for a specific song request?",
+        a: "Message us with your preference and we'll coordinate with the team and DJ accordingly.",
+      },
+    ],
+  },
+
+  "dhol-group-price": {
+    slug: "dhol-group-price",
+    intro:
+      "Dhol group price for a baraat isn't a standalone number with PlanMyBaraat, since the dhol team is included in every package alongside the DJ truck, vintage car, and safa team.\n\nThe price depends on the package tier and dhol count — 2 players in Raj Tilak up to 6 in Signature.",
+    explanation:
+      "Because the dhol group works as part of a coordinated entry alongside the DJ, truck, and other elements, it isn't priced or booked as a separate service. Each package tier includes a set number of dhol players, with the count increasing as you move up from Raj Tilak to Signature.\n\nThis bundled approach means the dhol group's price reflects the whole entry's production level, not just headcount.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol players. Rajwada steps up to 4. Maharaja and Signature both include 6, alongside the truck, DJ, chhatri lights, a vintage car, and a safa team.",
+    pricingGuidance:
+      "There's no separate dhol group price — it's included as part of the package cost. Message us on WhatsApp with your date and city, and we'll give you a real quote for the full package.",
+    bookingNotes:
+      "Wedding season runs November to February, and both price and dhol availability tighten during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and guest count when you reach out for an accurate quote.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll send you a real quote covering the dhol group and full package.",
+    faqs: [
+      {
+        q: "What's the dhol group price for a baraat?",
+        a: "There's no separate price — dhol players are included in every package, from 2 in Raj Tilak to 6 in Signature. Message your date and city for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I book just the dhol group without the truck?",
+        a: "No, dhol players are included as part of our baraat packages alongside the truck, car, and safa team, not booked separately.",
+      },
+      {
+        q: "Does more dhol players mean a higher price?",
+        a: "Yes, dhol count increases with the package tier, so more players come with a higher-tier, more complete package.",
+      },
+      {
+        q: "Is the starting package's dhol count enough for a smaller wedding?",
+        a: "Yes, 2 dhol players in Raj Tilak works well for smaller to mid-sized guest lists — we'll advise based on your specific numbers.",
+      },
+      {
+        q: "How early should I lock in a price?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since prices and availability both tighten during peak season.",
+      },
+      {
+        q: "Does the price change based on my city?",
+        a: "Logistics can vary slightly, which is why we confirm your exact price once we know your date and location.",
+      },
+      {
+        q: "Can I request extra dhol players beyond the package?",
+        a: "Message us with your requirements and we'll let you know what's possible for your booking.",
+      },
+      {
+        q: "How do I get an exact price for the dhol group and full package?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
 };

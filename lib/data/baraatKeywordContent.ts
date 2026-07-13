@@ -6714,4 +6714,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "best-songs-for-baraat-entry": {
+    slug: "best-songs-for-baraat-entry",
+    intro:
+      "Best songs for baraat entry usually mix high-energy Bollywood and Punjabi tracks that work well with live dhol drumming, building toward a strong finish as the truck arrives at the venue.\n\nPlanMyBaraat's DJ artists take song requests ahead of time and build a set tailored to your preferences and the pacing of your specific procession.",
+    explanation:
+      "A good baraat playlist typically opens with moderate-energy tracks to get the crowd moving, builds through the middle of the procession, and peaks with high-energy songs right as the truck approaches the venue — often timed with effects like pyro or confetti in higher packages.\n\nOur DJs are experienced with pacing a set for a moving, dancing crowd specifically, which is different from a fixed reception set, and they coordinate closely with the dhol team throughout.",
+    whatsIncluded:
+      "Every package includes a professional DJ artist who builds a custom set based on your preferences, alongside the dhol team, truck, vintage car, and safa team.",
+    pricingGuidance:
+      "Song selection and DJ performance are included in every package. Message us on WhatsApp with your date and city for a real quote, and share your song preferences when planning.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have specific song requests, share them early — 3-4 weeks' notice gives the DJ time to prepare the set properly.\n\nShare your date, city, venue, and song preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and favorite songs, and we'll build a set around your preferences.",
+    faqs: [
+      {
+        q: "Can I choose the songs for my baraat entry?",
+        a: "Yes, our DJ artists take requests ahead of time and build a custom set around your preferences.",
+      },
+      {
+        q: "What kind of music works best for a baraat?",
+        a: "High-energy Bollywood and Punjabi tracks that work well with live dhol drumming tend to work best for a dancing, moving crowd.",
+      },
+      {
+        q: "Does the set build toward a specific climax?",
+        a: "Yes, our DJs typically build energy through the procession, peaking right as the truck approaches the venue.",
+      },
+      {
+        q: "How early should I share my song preferences?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so the DJ has time to prepare the set properly.",
+      },
+      {
+        q: "Does the DJ coordinate with the dhol team's rhythm?",
+        a: "Yes, they work together throughout the procession, with the dhol filling in during transitions.",
+      },
+      {
+        q: "Can I request regional or specific language songs?",
+        a: "Yes, message us your preferences and we'll let you know what's possible.",
+      },
+      {
+        q: "Is there an extra cost for custom song requests?",
+        a: "No, song selection is part of the DJ service included in every package.",
+      },
+      {
+        q: "How do I share my song list with the DJ?",
+        a: "Message us on WhatsApp with your preferences when you book, and we'll pass them along to the DJ.",
+      },
+    ],
+  },
+
+  "groom-entry-song-ideas": {
+    slug: "groom-entry-song-ideas",
+    intro:
+      "Groom entry song ideas usually focus on tracks with a strong, celebratory build — something that feels like a proper welcome as the groom joins the procession in his vintage car.\n\nPlanMyBaraat's DJ artists can time specific songs to the groom's arrival moment, coordinated with the truck and dhol team.",
+    explanation:
+      "The groom's specific entry moment — stepping out of the vintage car and joining the procession — often gets its own musical cue, distinct from the general dancing playlist that plays throughout the walk. Many families choose a track with personal significance or a strong, anthemic feel for this specific moment.\n\nOur DJs can plan this transition carefully, timing the shift from general procession music to the groom's specific entry song, then back into the broader set as the baraat continues toward the venue.",
+    whatsIncluded:
+      "Every package includes a professional DJ artist who can time specific songs to key moments like the groom's entry, alongside the dhol team, truck, vintage car, and safa team.",
+    pricingGuidance:
+      "Song timing and DJ performance are included in every package. Message us on WhatsApp with your date and city for a real quote, and share your song preferences when planning.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have a specific song for the groom's entry, mention it early — 3-4 weeks' notice gives the DJ time to prepare.\n\nShare your date, city, venue, and song preference when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and your chosen groom entry song, and we'll plan the timing.",
+    faqs: [
+      {
+        q: "Can I choose a specific song for the groom's entry moment?",
+        a: "Yes, message us your preference and our DJ will time it specifically to the groom's arrival.",
+      },
+      {
+        q: "What kind of songs work well for this moment?",
+        a: "Tracks with a strong, celebratory build or personal significance to the couple tend to work well for this specific cue.",
+      },
+      {
+        q: "How does the DJ transition from this song back to the general set?",
+        a: "Our DJs plan the transition carefully, moving from the groom's specific entry song back into the broader dancing playlist as the procession continues.",
+      },
+      {
+        q: "How early should I choose the groom's entry song?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so the DJ has time to prepare and plan the timing.",
+      },
+      {
+        q: "Can the song coordinate with visual effects too?",
+        a: "Yes, message us if you want the entry song timed with effects like pyro or confetti (available in Maharaja and Signature).",
+      },
+      {
+        q: "Is there an extra cost for a specific entry song?",
+        a: "No, this is part of the DJ service included in every package.",
+      },
+      {
+        q: "Can I choose a song with personal meaning to us?",
+        a: "Yes, message us your choice and we'll incorporate it into the set.",
+      },
+      {
+        q: "How do I share my chosen song?",
+        a: "Message us on WhatsApp with your preference when you book, and we'll pass it along to the DJ.",
+      },
+    ],
+  },
+
+  "baraat-dance-songs": {
+    slug: "baraat-dance-songs",
+    intro:
+      "Baraat dance songs are the tracks that keep the baraati group moving throughout the procession, mixed by the DJ to match the crowd's energy and coordinate with the live dhol drumming.\n\nPlanMyBaraat's DJ artists build a dance-focused set for the whole entry, taking requests ahead of time.",
+    explanation:
+      "A good baraat dance set typically mixes Bollywood, Punjabi, and other high-energy tracks, transitioning smoothly to keep the crowd dancing continuously rather than stopping between songs. Our DJs are experienced with reading a moving, outdoor crowd's energy and adjusting the set accordingly.\n\nThe dance songs work alongside the dhol team's live drumming, sometimes with the dhol taking over during transitions to keep the energy from dipping.",
+    whatsIncluded:
+      "Every package includes a professional DJ artist who builds a dance-focused set for your procession, alongside the dhol team, truck, vintage car, and safa team.",
+    pricingGuidance:
+      "Dance song selection and DJ performance are included in every package. Message us on WhatsApp with your date and city for a real quote, and share your preferences when planning.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have specific song requests, share them early — 3-4 weeks' notice gives the DJ time to prepare the set properly.\n\nShare your date, city, venue, and song preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and favorite dance songs, and we'll build a set around your preferences.",
+    faqs: [
+      {
+        q: "What genres work best for baraat dance songs?",
+        a: "Bollywood, Punjabi, and other high-energy tracks tend to work well for a dancing, moving procession crowd.",
+      },
+      {
+        q: "Can I request specific dance songs?",
+        a: "Yes, our DJ artists take requests ahead of time and build a set around your preferences.",
+      },
+      {
+        q: "Does the music ever stop during the procession?",
+        a: "No, the set is designed to run continuously, with the dhol team filling in during any transitions.",
+      },
+      {
+        q: "How early should I share my song requests?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so the DJ has time to build the set properly.",
+      },
+      {
+        q: "Does the DJ adjust the set based on the crowd's energy?",
+        a: "Yes, our DJs are experienced with reading a moving, outdoor crowd and adjusting accordingly.",
+      },
+      {
+        q: "Is there an extra cost for song requests?",
+        a: "No, this is part of the DJ service included in every package.",
+      },
+      {
+        q: "Can I request a mix of old and new songs?",
+        a: "Yes, message us your preferences and we'll let you know what's possible for the set.",
+      },
+      {
+        q: "How do I share my preferred dance songs?",
+        a: "Message us on WhatsApp with your preferences when you book, and we'll pass them along to the DJ.",
+      },
+    ],
+  },
 };

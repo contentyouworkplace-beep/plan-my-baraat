@@ -1314,4 +1314,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-entry-ideas": {
+    slug: "baraat-entry-ideas",
+    intro:
+      "Looking for baraat entry ideas usually means you want the entry to feel memorable, not just functional — something guests talk about afterward. PlanMyBaraat's four packages give you a clear set of options to build from, rather than a blank page.\n\nEach package combines a DJ truck, dhol team, vintage car, and safa team differently, so the 'idea' really comes down to how much production you want layered on top of that base.",
+    explanation:
+      "The simplest strong idea is the classic double decker truck entry with a solid dhol team and good lighting — that alone, done well, is memorable. From there, ideas scale up: adding a teddy or gorilla performer for crowd engagement, moving LED visuals and the groom's name in lights, or going all the way to pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team add another layer regardless of which truck package you pick, since the groom's arrival and the baraati group's turban styling are both part of how the entry looks as a whole.",
+    whatsIncluded:
+      "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name in lights. Signature, the top package, adds a security team plus pyro and confetti effects.",
+    pricingGuidance:
+      "Pricing depends on which package matches your entry idea, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete.\n\nMessage us on WhatsApp with your date and city, and describe the kind of entry you're imagining — we'll match it to a package and give you a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have a specific idea in mind, mention it early — 3-4 weeks' notice gives us time to plan any custom details.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any entry ideas you have in mind, and we'll recommend the package that fits.",
+    faqs: [
+      {
+        q: "What are some good baraat entry ideas?",
+        a: "A double decker DJ truck with a strong dhol team and good lighting is a solid, memorable base — from there, adding entertainers, LED visuals, or pyro and confetti effects builds up the production further.",
+      },
+      {
+        q: "How much does a baraat entry cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can I mix ideas from different packages?",
+        a: "Message us with what you're imagining and we'll let you know what's possible — some elements are tied to specific package tiers.",
+      },
+      {
+        q: "Do you have example videos of past entries?",
+        a: "Yes, message us on WhatsApp and we'll share videos of past baraat entries for inspiration.",
+      },
+      {
+        q: "How early should I plan a custom entry idea?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, and earlier is better if you want specific customization.",
+      },
+      {
+        q: "Is the vintage car part of every entry idea?",
+        a: "Yes, a vintage car or baggi is included in every package from Raj Tilak upward, regardless of which truck production level you choose.",
+      },
+      {
+        q: "What makes an entry feel more 'grand'?",
+        a: "More dhol players, moving LED visuals, entertainers, and effects like pyro or confetti all add to a grander feel — that's the difference between our package tiers.",
+      },
+      {
+        q: "Can I get help deciding which package fits my idea?",
+        a: "Yes, describe what you're imagining on WhatsApp and we'll recommend the package that matches best.",
+      },
+    ],
+  },
+
+  "unique-baraat-entry-ideas": {
+    slug: "unique-baraat-entry-ideas",
+    intro:
+      "Unique baraat entry ideas usually mean adding something beyond the standard truck-and-dhol setup — a specific lighting theme, a custom LED name display, or an entertainer that makes your entry stand out from others your guests have seen.\n\nPlanMyBaraat's Maharaja and Signature packages are built for exactly this kind of customization, on top of the same reliable base every package includes.",
+    explanation:
+      "A unique entry doesn't necessarily mean starting from scratch — it usually means picking specific add-ons that reflect your personality as a couple. Custom LED lettering with the groom's name, a teddy or gorilla performer for crowd engagement, moving LED panels with a particular color theme, or pyro and confetti timed to a specific moment are all ways to make a standard package feel personal.\n\nBecause the truck, dhol, car, and safa team are consistent across every tier, the 'unique' part comes from layering these specific touches on top rather than reinventing the whole format.",
+    whatsIncluded:
+      "Raj Tilak covers the essentials. Rajwada adds a teddy or gorilla performer. Maharaja brings moving LED panels and custom LED name lettering. Signature adds pyro and confetti effects plus a security team — the most room for a distinctive, layered entry.",
+    pricingGuidance:
+      "Pricing depends on the package tier and any custom touches you want. Maharaja and Signature offer the most room for unique customization. Message us on WhatsApp with your ideas and we'll let you know what's possible within your budget.",
+    bookingNotes:
+      "Wedding season runs November to February. If you want something specific and custom, mention it as early as possible — 3-4 weeks' notice gives us time to plan the details properly.\n\nShare your date, city, venue, and any specific ideas when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any unique ideas you're considering, and we'll let you know what fits your package.",
+    faqs: [
+      {
+        q: "What makes an entry feel unique rather than standard?",
+        a: "Specific touches like custom LED name lettering, a particular lighting theme, an entertainer, or effects timed to a specific moment — layered on top of the reliable truck-and-dhol base.",
+      },
+      {
+        q: "Which package offers the most customization?",
+        a: "Maharaja and Signature offer the most room for unique touches — moving LED panels, custom lettering, entertainers, and effects like pyro and confetti.",
+      },
+      {
+        q: "How much does a unique baraat entry cost?",
+        a: "It depends on the package and any custom touches you add. Message your date and city on WhatsApp for a real quote based on your specific ideas.",
+      },
+      {
+        q: "Can I request a specific color theme for the lighting?",
+        a: "Message us with your preferences and we'll let you know what's possible for your package.",
+      },
+      {
+        q: "How early should I discuss custom ideas?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan any specific requests properly.",
+      },
+      {
+        q: "Is a unique entry much more expensive than a standard one?",
+        a: "It depends on how many custom elements you add — the price scales with the package tier and effects, not a separate 'unique' surcharge.",
+      },
+      {
+        q: "Can you show me examples of custom entries you've done?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past custom entries for inspiration.",
+      },
+      {
+        q: "Do custom LED names cost extra?",
+        a: "Custom LED name lettering is included as part of the Maharaja and Signature packages, not a separate add-on charge.",
+      },
+    ],
+  },
+
+  "best-baraat-entry-ideas": {
+    slug: "best-baraat-entry-ideas",
+    intro:
+      "The best baraat entry ideas usually combine three things well: strong, consistent music, a lively dhol team, and enough visual production to match the scale of your celebration — not just the flashiest single element.\n\nPlanMyBaraat's packages are built around that balance, from Raj Tilak's solid basics to Signature's full production with pyro, confetti, and security.",
+    explanation:
+      "In our experience running entries across Gujarat, the best ones aren't necessarily the most expensive — they're the ones where the package matches the venue, guest count, and family's style. A smaller, tighter guest list often works beautifully with Raj Tilak's straightforward truck-and-dhol entry, while a large destination-style wedding might call for Signature's full production.\n\nWhat consistently makes an entry feel like 'the best' is good timing — the truck, dhol, and groom's arrival all coordinated together — more than any single flashy add-on.",
+    whatsIncluded:
+      "Raj Tilak covers the truck, DJ, 2 dhol, chhatri lights, car, and safa team. Rajwada adds more dhol and an entertainer. Maharaja brings LED visuals and custom lettering. Signature adds pyro, confetti, and security for the most complete production.",
+    pricingGuidance:
+      "Pricing depends on the package that fits your event best, dhol count, and any extra effects. Message us on WhatsApp with your date, city, venue, and guest count, and we'll recommend what actually suits your event rather than just the most expensive option.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll recommend the package that fits your event best.",
+    faqs: [
+      {
+        q: "What's actually the best baraat entry idea?",
+        a: "The one that matches your venue, guest count, and family's style — a smaller entry often works beautifully with Raj Tilak, while a bigger celebration might call for Signature's full production.",
+      },
+      {
+        q: "Is the most expensive package always the best choice?",
+        a: "Not necessarily — the right fit depends on your specific event, not just spending the most. We help you pick based on your actual details.",
+      },
+      {
+        q: "How much does the best entry package cost?",
+        a: "It depends on which package fits your event. Raj Tilak is our most affordable and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "What matters most for a great baraat entry?",
+        a: "Good coordination — the truck, dhol, and groom's arrival timed together well — matters more than any single flashy add-on.",
+      },
+      {
+        q: "How do I know which package is right for my event?",
+        a: "Share your date, city, venue, and guest count on WhatsApp and we'll recommend a package based on what actually fits.",
+      },
+      {
+        q: "How early should I book for the best availability?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window for the best chance at your preferred package and date.",
+      },
+      {
+        q: "Can I see examples of well-executed past entries?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past baraat entries.",
+      },
+      {
+        q: "Does a bigger guest count need a bigger package?",
+        a: "Often yes, since a larger crowd benefits from a stronger sound system and more dhol players, but we'll advise based on your specific numbers.",
+      },
+    ],
+  },
 };

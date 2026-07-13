@@ -914,4 +914,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "wedding-dj-hire-price": {
+    slug: "wedding-dj-hire-price",
+    intro:
+      "Wedding DJ hire price for a baraat entry specifically depends on the package, dhol count, and any extra effects — not a flat number, since the DJ is always bundled with the truck, dhol team, vintage car, and safa team in our packages.\n\nPlanMyBaraat quotes based on your actual date, city, and guest count, so the price you get reflects your real event, not a generic estimate.",
+    explanation:
+      "Because the DJ performs from a truck as part of a moving baraat entry, the hire price includes more than just the artist's time — it covers the truck, sound system, and the coordination needed to keep the DJ working alongside a dhol team and a moving procession. This is different from hiring a DJ for a fixed reception stage.\n\nThe base package price stays the same structure across all tiers: truck, DJ, and dhol as the core, with lighting, effects, and extra entertainers added as you move up.",
+    whatsIncluded:
+      "Every package includes the DJ artist, truck, and sound system. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "We don't publish a flat wedding DJ hire price because it depends on your city, date, guest count, and package choice. Raj Tilak is the most affordable way to get a proper DJ and truck entry, and Signature is the most complete.\n\nMessage us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real price, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February, and DJ hire prices and availability both tighten during that window. 3-4 weeks' notice is a safe bet for peak season.\n\nShare your date, city, venue, and guest count when you reach out for an accurate quote.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll send you a real DJ hire price, usually within the hour.",
+    faqs: [
+      {
+        q: "What's the wedding DJ hire price for a baraat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the price include the truck or just the DJ?",
+        a: "The full entry — DJ, truck, sound system, dhol team, vintage car, and safa team are all included in the package price.",
+      },
+      {
+        q: "Why is baraat DJ hire different from reception DJ hire?",
+        a: "A baraat DJ performs live from a moving truck outdoors with a dancing crowd, which requires different equipment and coordination than a fixed reception setup.",
+      },
+      {
+        q: "Is the starting package good value?",
+        a: "Yes, Raj Tilak includes the truck, DJ, 2 dhol, chhatri lights, car, and safa team — a complete entry at our most affordable tier.",
+      },
+      {
+        q: "Does the price vary by city?",
+        a: "Logistics can vary slightly, which is why we confirm your exact price once we know your date and location.",
+      },
+      {
+        q: "How early should I lock in a hire price?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since prices and availability tighten during peak season.",
+      },
+      {
+        q: "Can I negotiate based on my budget?",
+        a: "Message us with your budget and requirements on WhatsApp and we'll recommend the package that fits best.",
+      },
+      {
+        q: "How do I get an exact hire price?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
+
+  "wedding-dj-near-me-price": {
+    slug: "wedding-dj-near-me-price",
+    intro:
+      "Searching for a wedding DJ near me for the baraat entry usually means you want someone local who knows the area, not a DJ flown in from elsewhere. PlanMyBaraat is Gujarat-based, covering Vadodara, Surat, Ahmedabad, Rajkot, and most cities and towns across the state.\n\nOur DJ comes as part of a full baraat package: the truck, dhol team, vintage car, and safa team, priced based on your actual date and location.",
+    explanation:
+      "Being local matters for a baraat specifically, because the DJ and truck driver need to know how to navigate your city's roads at walking pace with a dancing crowd around them. Our team works across Gujarat regularly, so we're familiar with route planning in most cities, not learning the area for the first time on your wedding day.\n\nWhen you search \"near me,\" we match that to your actual city and confirm truck and DJ availability for your specific date and venue.",
+    whatsIncluded:
+      "Every package includes the DJ artist, truck, and sound system. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects, and we confirm the exact price once we know your city and date. Raj Tilak is the most affordable option and Signature is the most complete.\n\nMessage us on WhatsApp with your city and we'll respond with a real quote for your area.",
+    bookingNotes:
+      "Wedding season runs November to February, and local DJ and truck availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your city, date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your city and wedding date, and we'll confirm availability near you, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you cover DJ services near my city?",
+        a: "We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat. Message us your city to confirm.",
+      },
+      {
+        q: "How much does a wedding DJ near me cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does being local mean lower travel costs?",
+        a: "Being Gujarat-based helps us plan logistics efficiently, though the final price is based on your package choice rather than travel distance in most cases.",
+      },
+      {
+        q: "How do you confirm coverage for my specific area?",
+        a: "Message us your exact city and venue on WhatsApp and we'll confirm truck and DJ availability directly.",
+      },
+      {
+        q: "How early should I book a local DJ?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since local slots fill up fast in peak season.",
+      },
+      {
+        q: "Is the truck driver familiar with local roads?",
+        a: "Yes, our drivers work across Gujarat regularly and are experienced with route planning in most cities and towns we cover.",
+      },
+      {
+        q: "Can I request a specific DJ if I've seen them before?",
+        a: "Message us with details and we'll let you know if that's possible for your date.",
+      },
+      {
+        q: "What's the difference between the packages?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+    ],
+  },
+
+  "professional-dj-for-baraat-entry": {
+    slug: "professional-dj-for-baraat-entry",
+    intro:
+      "A professional DJ for baraat entry means someone experienced specifically with this format — performing live from a moving truck, reading a dancing crowd's energy, and working alongside a dhol team, not just running a standard party playlist.\n\nPlanMyBaraat's DJ artists work with us regularly and are experienced with exactly this kind of entry, included as part of a full baraat package.",
+    explanation:
+      "A baraat entry has a different rhythm than a typical party set — it needs to build energy gradually as the procession moves, sync with the dhol team's live drumming, and peak right around the venue arrival. Our DJs are chosen and trained for this specific skill, not generalist party DJs doing baraat work occasionally.\n\nBecause they work with us regularly rather than being hired last-minute, they're also familiar with how our truck setup works and how to coordinate with the dhol team in real time.",
+    whatsIncluded:
+      "Every package includes the professional DJ artist, truck, and sound system. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for experienced baraat DJs peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm a professional DJ is available, usually within the hour.",
+    faqs: [
+      {
+        q: "What makes a DJ 'professional' for a baraat entry specifically?",
+        a: "Experience with the format — building energy as the procession moves, syncing with live dhol drumming, and peaking around the venue arrival, not just running a standard playlist.",
+      },
+      {
+        q: "How much does a professional DJ for baraat entry cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do your DJs work with the dhol team in real time?",
+        a: "Yes, they coordinate with the dhol players throughout the procession to keep the energy consistent and build toward the venue arrival.",
+      },
+      {
+        q: "Can I hear samples of the DJ's work before booking?",
+        a: "Message us on WhatsApp and we'll share videos of past entries so you can get a sense of the style.",
+      },
+      {
+        q: "How early should I book a professional DJ?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since experienced DJs get booked out fast.",
+      },
+      {
+        q: "Do the DJs take custom song requests?",
+        a: "Yes, they take requests ahead of time and build a set around your preferred entry and dance tracks.",
+      },
+      {
+        q: "Is the DJ the same person who manages the truck?",
+        a: "The DJ focuses on the performance while a separate driver handles the truck, so both jobs are done by specialists.",
+      },
+      {
+        q: "What's included in the starting package?",
+        a: "Raj Tilak covers the professional DJ artist, truck, sound system, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+      },
+    ],
+  },
 };

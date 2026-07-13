@@ -7914,4 +7914,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "dj-truck-for-baraat-surat": {
+    slug: "dj-truck-for-baraat-surat",
+    intro:
+      "A DJ truck for baraat in Surat is the double decker vehicle leading your procession, carrying the sound system and lights while the DJ performs live as the truck moves at walking pace.\n\nPlanMyBaraat provides the truck as part of a full baraat package across Surat, alongside a dhol team, vintage car, and safa team.",
+    explanation:
+      "Surat's mix of newer areas like Vesu and City Light alongside denser neighborhoods like Varachha means our drivers plan the truck's route carefully based on your exact venue. We've handled entries throughout the city regularly.\n\nThe truck itself carries a full concert-grade sound system with the DJ performing live, plus lighting that scales from chhatri lights in the starting package up to moving LED panels in higher tiers.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with production scaling from Raj Tilak's essentials to Signature's full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Surat venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Surat truck availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Surat venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you provide DJ trucks for baraat across Surat?",
+        a: "Yes, we cover all of Surat, from Vesu and Adajan to Varachha and Katargam.",
+      },
+      {
+        q: "How much does a DJ truck for baraat cost in Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the truck come with an experienced local driver?",
+        a: "Yes, our drivers know Surat's roads well and plan the route based on your exact venue.",
+      },
+      {
+        q: "How early should I book a DJ truck for a Surat wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Is the truck bundled with the dhol team automatically?",
+        a: "Yes, the dhol team is included in the same package as the truck, not booked separately.",
+      },
+      {
+        q: "Can the truck navigate Surat's older, denser areas?",
+        a: "In most cases yes, though we check your exact venue in advance since some older areas have narrower lanes.",
+      },
+      {
+        q: "How do I book a DJ truck in Surat?",
+        a: "Message us on WhatsApp with your wedding date and Surat venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's the difference between the package tiers?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, effects, and security.",
+      },
+    ],
+  },
+
+  "dj-truck-for-baraat-ahmedabad": {
+    slug: "dj-truck-for-baraat-ahmedabad",
+    intro:
+      "A DJ truck for baraat in Ahmedabad is the double decker vehicle leading your procession, carrying the sound system and lights while the DJ performs live as the truck moves at walking pace.\n\nPlanMyBaraat provides the truck as part of a full baraat package across Ahmedabad, alongside a dhol team, vintage car, and safa team.",
+    explanation:
+      "Ahmedabad has some of the biggest wedding venues in Gujarat, spread across newer areas like SG Highway as well as older, established neighborhoods like Maninagar. Our drivers plan the truck's route carefully based on your exact venue, and we're familiar with noise curfews in some residential societies.\n\nThe truck itself carries a full concert-grade sound system with the DJ performing live, plus lighting that scales from chhatri lights in the starting package up to moving LED panels in higher tiers.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with production scaling from Raj Tilak's essentials to Signature's full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Ahmedabad venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Ahmedabad truck availability tightens during that window. 4 weeks' notice is a safe bet, especially for popular areas.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Ahmedabad venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you provide DJ trucks for baraat across Ahmedabad?",
+        a: "Yes, we cover all of Ahmedabad, from SG Highway and Satellite to Maninagar and Paldi.",
+      },
+      {
+        q: "How much does a DJ truck for baraat cost in Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the truck come with an experienced local driver?",
+        a: "Yes, our drivers know Ahmedabad's roads well and plan the route based on your exact venue.",
+      },
+      {
+        q: "How early should I book a DJ truck for an Ahmedabad wedding?",
+        a: "4 weeks ahead during wedding season (November to February) is a safe bet, especially for popular areas.",
+      },
+      {
+        q: "Can you plan around noise curfews in residential areas?",
+        a: "Yes, some societies in older parts of Ahmedabad have evening noise rules, and we plan around them.",
+      },
+      {
+        q: "Is the truck bundled with the dhol team automatically?",
+        a: "Yes, the dhol team is included in the same package as the truck, not booked separately.",
+      },
+      {
+        q: "How do I book a DJ truck in Ahmedabad?",
+        a: "Message us on WhatsApp with your wedding date and Ahmedabad venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's the difference between the package tiers?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, effects, and security.",
+      },
+    ],
+  },
+
+  "wedding-dj-truck-vadodara": {
+    slug: "wedding-dj-truck-vadodara",
+    intro:
+      "A wedding DJ truck in Vadodara leads your baraat procession, carrying the sound system, lights, and DJ as it moves at walking pace toward the venue.\n\nPlanMyBaraat is based in Vadodara, providing the truck as part of a full baraat package alongside a dhol team, vintage car, and safa team.",
+    explanation:
+      "Being based in Vadodara means our drivers know the city's roads well, planning routes based on your specific venue, whether it's near Alkapuri, Old Padra Road, or further out toward Waghodia Road. We've handled entries across the city regularly.\n\nThe truck itself carries a full concert-grade sound system with the DJ performing live, plus lighting that scales from chhatri lights in the starting package up to moving LED panels in higher tiers.",
+    whatsIncluded:
+      "Every package includes the wedding DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with production scaling from Raj Tilak's essentials to Signature's full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Vadodara venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Vadodara truck availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Vadodara venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you provide wedding DJ trucks across Vadodara?",
+        a: "Yes, we're based in Vadodara and cover the whole city with our truck packages.",
+      },
+      {
+        q: "How much does a wedding DJ truck cost in Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the truck come with an experienced local driver?",
+        a: "Yes, our drivers know Vadodara's roads well and plan the route based on your exact venue.",
+      },
+      {
+        q: "How early should I book a wedding DJ truck for a Vadodara wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Is the truck bundled with the dhol team automatically?",
+        a: "Yes, the dhol team is included in the same package as the truck, not booked separately.",
+      },
+      {
+        q: "Can the DJ take song requests for our wedding?",
+        a: "Yes, our DJ artists take requests ahead of time and build a set around your preferences.",
+      },
+      {
+        q: "How do I book a wedding DJ truck in Vadodara?",
+        a: "Message us on WhatsApp with your wedding date and Vadodara venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's the difference between the package tiers?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, effects, and security.",
+      },
+    ],
+  },
 };

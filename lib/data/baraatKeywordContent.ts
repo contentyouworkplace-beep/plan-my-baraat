@@ -6214,4 +6214,204 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "how-far-in-advance-to-book-baraat": {
+    slug: "how-far-in-advance-to-book-baraat",
+    intro:
+      "How far in advance to book baraat services depends on your wedding date — during peak season (November to February), we recommend 3-4 weeks' notice, while off-season dates often have more flexibility.\n\nPlanMyBaraat's trucks and dhol teams get booked out fast during the busiest months, so earlier is always safer.",
+    explanation:
+      "Wedding season in Gujarat concentrates heavily in the November to February window, meaning demand for trucks, dhol teams, and specific packages peaks during that stretch. Booking 3-4 weeks ahead gives you a good chance at your preferred package and date, though popular dates within peak season can fill up even earlier.\n\nFor larger productions like Signature, or requests involving specific customization like custom LED lettering, we recommend even more lead time to plan the details properly.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, subject to availability for your specific date.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp as early as possible to confirm availability and get a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe general guideline, with more lead time recommended for popular dates or larger packages.\n\nShare your date, city, venue, and preferred package when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date as early as possible, and we'll confirm what's still available.",
+    faqs: [
+      {
+        q: "How far in advance should I book my baraat?",
+        a: "3-4 weeks' notice is a safe general guideline during wedding season (November to February), with more lead time recommended for popular dates or larger packages.",
+      },
+      {
+        q: "Is off-season booking more flexible?",
+        a: "Yes, dates outside November to February often have more availability and can be booked with less lead time.",
+      },
+      {
+        q: "Do I need more notice for the Signature package specifically?",
+        a: "Yes, since it's a popular top-tier package, booking earlier gives you a better chance at securing it for your date.",
+      },
+      {
+        q: "What happens if I book last minute?",
+        a: "Message us anyway — we'll check what's available for your date, though options may be more limited close to the event.",
+      },
+      {
+        q: "Does custom LED lettering need extra lead time?",
+        a: "Yes, since the name board is custom-built, sharing details as early as possible helps us prepare it properly.",
+      },
+      {
+        q: "Are certain dates within wedding season busier than others?",
+        a: "Yes, auspicious dates can be especially busy — mention your specific date and we'll confirm availability directly.",
+      },
+      {
+        q: "Can I lock in a date without finalizing every detail?",
+        a: "Yes, an advance payment can secure your date while we finalize package specifics closer to the event.",
+      },
+      {
+        q: "How do I check availability for my date?",
+        a: "Message us on WhatsApp with your wedding date and city, and we'll confirm what's available.",
+      },
+    ],
+  },
+
+  "baraat-booking-for-wedding-season": {
+    slug: "baraat-booking-for-wedding-season",
+    intro:
+      "Baraat booking for wedding season (November to February) requires earlier planning than off-season dates, since trucks, dhol teams, and popular packages get booked out fast during Gujarat's busiest wedding months.\n\nPlanMyBaraat recommends 3-4 weeks' notice at minimum for peak season bookings.",
+    explanation:
+      "The concentration of weddings during this window means our team and equipment are in high demand simultaneously across the cities and towns we cover. Booking early gives you the best chance at your preferred package, and specific dates within the season (especially auspicious dates) can fill up even faster.\n\nFor destination-style venues or requests involving customization like specific LED lettering, we recommend booking even earlier to allow time for the additional planning involved.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, subject to availability during the busy wedding season.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp as early as possible during wedding season for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe minimum, with earlier booking recommended for popular dates.\n\nShare your date, city, venue, and preferred package when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date as early as possible during the season, and we'll confirm availability.",
+    faqs: [
+      {
+        q: "Why is wedding season booking more urgent?",
+        a: "November to February concentrates most weddings in Gujarat, so demand for trucks, dhol teams, and packages peaks simultaneously across all the areas we cover.",
+      },
+      {
+        q: "How early should I book during wedding season?",
+        a: "3-4 weeks' notice is a safe minimum, with earlier booking recommended for particularly popular or auspicious dates.",
+      },
+      {
+        q: "Are auspicious dates busier than others?",
+        a: "Yes, mention your specific date and we'll confirm availability directly, since these can fill up especially fast.",
+      },
+      {
+        q: "Does booking early guarantee my preferred package?",
+        a: "It significantly improves your chances, though we recommend confirming as soon as you've decided.",
+      },
+      {
+        q: "What if I'm planning a destination wedding during peak season?",
+        a: "We recommend booking even earlier for destination venues, given the additional route and logistics planning involved.",
+      },
+      {
+        q: "Does custom production, like Signature's effects, need extra lead time?",
+        a: "Yes, more elaborate packages benefit from earlier booking to plan the details properly.",
+      },
+      {
+        q: "What happens if my preferred date is already booked?",
+        a: "Message us anyway — we'll let you know what's available and can suggest alternatives if needed.",
+      },
+      {
+        q: "How do I secure my wedding season date?",
+        a: "Message us on WhatsApp with your date and city as early as possible, and we'll confirm availability and next steps.",
+      },
+    ],
+  },
+
+  "wedding-procession-planner": {
+    slug: "wedding-procession-planner",
+    intro:
+      "A wedding procession planner coordinates the full baraat entry — truck, dhol team, vintage car, and safa team — as one managed operation rather than separate pieces you'd need to arrange independently.\n\nPlanMyBaraat serves this role, planning the route, timing, and overall flow of your specific procession.",
+    explanation:
+      "Planning a wedding procession involves more than booking a truck — it means mapping the route from starting point to venue, timing the groom's vintage car arrival, coordinating the dhol team with the DJ's set, and making sure the safa team has everyone styled before the walk begins.\n\nOur team handles this planning as part of every package, drawing on experience across the cities and towns we cover to anticipate route challenges, timing considerations, and venue-specific logistics.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with full procession planning included as part of the service.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp for a real quote covering the full planned entry.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for procession planning peaks during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll start planning your procession.",
+    faqs: [
+      {
+        q: "What does a wedding procession planner do?",
+        a: "Maps the route, times the vintage car and truck arrival, coordinates the dhol team with the DJ, and ensures the safa team has everyone styled before the walk begins.",
+      },
+      {
+        q: "How much does a wedding procession planner cost?",
+        a: "It depends on the package tier, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is procession planning included with every package?",
+        a: "Yes, route and timing planning is part of every package we offer, not a separate service.",
+      },
+      {
+        q: "How early should I involve a procession planner?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Does the planner account for venue-specific logistics?",
+        a: "Yes, we factor in your specific venue's road access, parking, and typical timing when planning your entry.",
+      },
+      {
+        q: "Can the planner handle unexpected changes on the day?",
+        a: "Yes, our experienced team can adjust timing if needed, since they're familiar with baraat-specific coordination.",
+      },
+      {
+        q: "Which cities do you plan processions in?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "How do I get started with procession planning?",
+        a: "Message us on WhatsApp with your wedding date, city, and venue, and we'll begin planning your entry.",
+      },
+    ],
+  },
+
+  "book-wedding-entertainment-online": {
+    slug: "book-wedding-entertainment-online",
+    intro:
+      "Book wedding entertainment online for your baraat with PlanMyBaraat — a WhatsApp-based process covering the DJ truck, dhol team, and any entertainers or effects included in your chosen package.\n\nMessage us your date, city, and rough guest count, and we'll recommend a package and confirm availability, usually within the hour.",
+    explanation:
+      "Our entertainment offering centers on the baraat entry specifically: a live DJ performing from the truck, a dhol team keeping the rhythm, and (from Rajwada upward) a costumed entertainer engaging directly with the crowd. Higher packages add visual entertainment through LED effects, pyro, and confetti.\n\nBooking online through WhatsApp lets you browse what's included at each tier, ask questions, and confirm whenever is convenient, without needing a phone call during specific hours.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, and dhol team. Rajwada adds a teddy or gorilla performer. Maharaja and Signature add LED visuals and (in Signature) pyro and confetti effects.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. We quote based on your date, city, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and entertainment booking slots fill up fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you message us.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue to book your baraat entertainment, usually confirmed within the hour.",
+    faqs: [
+      {
+        q: "How do I book wedding entertainment online for my baraat?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count. We'll recommend a package and confirm availability, usually within the hour.",
+      },
+      {
+        q: "What entertainment is included in the packages?",
+        a: "A live DJ, dhol team, and (from Rajwada upward) a costumed entertainer, plus LED visuals and effects at higher tiers.",
+      },
+      {
+        q: "How much does wedding entertainment cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can I see videos of the entertainment before booking?",
+        a: "Yes, message us on WhatsApp and we'll share videos of past entries.",
+      },
+      {
+        q: "Is there a form to fill out for online booking?",
+        a: "No, WhatsApp is our main booking channel — it's faster and lets us share quotes and answer questions directly.",
+      },
+      {
+        q: "How early should I book entertainment for my baraat?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since slots fill up fast.",
+      },
+      {
+        q: "Does the entertainer interact with guests directly?",
+        a: "Yes, the costumed performer moves through the crowd, dancing with guests and creating interactive moments.",
+      },
+      {
+        q: "How do I confirm my booking?",
+        a: "Message us on WhatsApp with your wedding date, city, and venue, and we'll guide you through confirming your package.",
+      },
+    ],
+  },
 };

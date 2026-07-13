@@ -5914,4 +5914,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-services-near-me": {
+    slug: "baraat-services-near-me",
+    intro:
+      "Baraat services near me means finding a local provider who covers your specific city or town, with drivers and performers familiar with the area's roads and venues.\n\nPlanMyBaraat operates across Gujarat, covering Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts.",
+    explanation:
+      "Our services cover the complete baraat entry — the truck, dhol team, vintage car, and safa team — as one package, and because we work across Gujarat regularly, our team is familiar with typical routes, venue setups, and logistics in most of the areas we serve.\n\nMessage us your specific city or town, and we'll confirm coverage and connect you with a package that fits your event.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, delivered by our team local to your area.",
+    pricingGuidance:
+      "Pricing depends on the package tier and your specific city, date, and guest count. Message us on WhatsApp to confirm coverage and get a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and local availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your city, date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your city and wedding date, and we'll confirm we cover your area, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you offer baraat services near my city?",
+        a: "We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat. Message us your city to confirm.",
+      },
+      {
+        q: "How much do baraat services near me cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is your team familiar with venues in my area?",
+        a: "Our team works across Gujarat regularly, so they're experienced with typical venue setups and logistics in most areas we cover.",
+      },
+      {
+        q: "How early should I book local baraat services?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since local availability tightens during peak season.",
+      },
+      {
+        q: "What's included in your baraat services?",
+        a: "The DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, all as one package.",
+      },
+      {
+        q: "Can I get a quote specific to my area?",
+        a: "Yes, message us your city and date on WhatsApp and we'll respond with a real, location-specific quote.",
+      },
+      {
+        q: "What if my town isn't listed among the major cities you mention?",
+        a: "Message us your specific location and we'll confirm whether we can cover it.",
+      },
+      {
+        q: "How do I get started with local baraat services?",
+        a: "Message us on WhatsApp with your city, date, and venue, and we'll confirm availability.",
+      },
+    ],
+  },
+
+  "how-to-book-baraat-on-wheels": {
+    slug: "how-to-book-baraat-on-wheels",
+    intro:
+      "How to book baraat on wheels with PlanMyBaraat is a simple, WhatsApp-based process — share your date, city, and rough guest count, and we'll recommend a package and confirm availability, usually within the hour.\n\nThere's no lengthy form or wait for a callback involved.",
+    explanation:
+      "The booking process starts with a message: tell us your wedding date, city, venue, and roughly how many guests will be in the baraat. From there, we recommend a package based on your needs, share a real quote, and once you confirm, we lock in your date with an advance payment.\n\nThis WhatsApp-first approach means you can book whenever is convenient, share photos and details easily, and get quick responses without needing to call during specific business hours.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with the specific tier depending on your preferences and budget.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. We quote based on your date, city, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and booking slots fill up fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you message us to start the process.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue to start the booking process, usually confirmed within the hour.",
+    faqs: [
+      {
+        q: "How do I book baraat on wheels?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count. We'll recommend a package and confirm availability, usually within the hour.",
+      },
+      {
+        q: "Is there a form I need to fill out?",
+        a: "No, WhatsApp is our main booking channel — it's faster and lets us share quotes and answer questions directly.",
+      },
+      {
+        q: "Do I need to pay a deposit to confirm?",
+        a: "Yes, we usually take an advance payment to lock in your date, with the balance due closer to the event.",
+      },
+      {
+        q: "How quickly will I hear back after messaging?",
+        a: "Usually within the hour during business hours.",
+      },
+      {
+        q: "Can I see photos before booking?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past entries.",
+      },
+      {
+        q: "How early should I start the booking process?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since slots fill up fast.",
+      },
+      {
+        q: "What information do I need to provide?",
+        a: "Your wedding date, city, venue, rough guest count, and preferred package — that's enough for us to confirm.",
+      },
+      {
+        q: "Can I change my package after booking?",
+        a: "Message us and we'll see what's possible depending on your date and how far out we are from the event.",
+      },
+    ],
+  },
+
+  "baraat-booking-process": {
+    slug: "baraat-booking-process",
+    intro:
+      "The baraat booking process with PlanMyBaraat happens over WhatsApp, starting with your date, city, and rough guest count, and ending with a confirmed truck, dhol team, vintage car, and safa team for your entry.\n\nThe whole process is designed to be quick and straightforward, without lengthy forms.",
+    explanation:
+      "First, you message us with your wedding details. We respond with package recommendations and a real quote based on your specific date, city, and guest count. Once you decide on a package, we take an advance payment to lock in your date, and confirm the details closer to the event.\n\nOn the wedding day itself, our team arrives with everything coordinated — the truck, dhol players, vintage car, and safa team all working as one operation, without you needing to manage separate vendors.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, confirmed through our booking process.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects, confirmed during the booking conversation. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and the booking process moves fastest when you reach out early. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count to start the process.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue to start the booking process, usually confirmed within the hour.",
+    faqs: [
+      {
+        q: "What are the steps in the baraat booking process?",
+        a: "Message us your details, we recommend a package and share a quote, you confirm with an advance payment, and we finalize details closer to the event.",
+      },
+      {
+        q: "How long does the booking process take?",
+        a: "Usually just a WhatsApp conversation — we respond within the hour, and you can confirm as soon as you're ready.",
+      },
+      {
+        q: "Is a deposit required during the booking process?",
+        a: "Yes, we take an advance payment to lock in your date, with the balance due closer to the event.",
+      },
+      {
+        q: "What details do I need for the booking process?",
+        a: "Your wedding date, city, venue, rough guest count, and preferred package.",
+      },
+      {
+        q: "How early should I start the booking process?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since booking slots fill up fast.",
+      },
+      {
+        q: "Can I make changes during the booking process?",
+        a: "Yes, message us if your plans change and we'll see what's possible.",
+      },
+      {
+        q: "Is the process the same for every package tier?",
+        a: "Yes, the booking process is the same regardless of which package you choose.",
+      },
+      {
+        q: "How do I start the booking process?",
+        a: "Message us on WhatsApp with your wedding date, city, and venue, and we'll take it from there.",
+      },
+    ],
+  },
 };

@@ -1464,4 +1464,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "royal-baraat-entry": {
+    slug: "royal-baraat-entry",
+    intro:
+      "A royal baraat entry aims for that grand, Rajwada-style feel — vintage cars, rich lighting, a full dhol team, and an overall sense of occasion that matches Gujarat's royal wedding traditions.\n\nPlanMyBaraat's Rajwada and Maharaja packages are named and built specifically for this kind of entry, layering more dhol, lighting, and entertainment on top of the base truck setup.",
+    explanation:
+      "The royal feel comes from a combination of things working together: the vintage car for the groom's arrival, chhatri lights or moving LED panels on the truck, a strong dhol team keeping the traditional energy up, and the safa team's turban styling tying the whole look together for the groom and baraatis.\n\nOur Rajwada package specifically builds toward this with full body truck branding and a teddy or gorilla performer for extra entertainment, while Maharaja pushes further with custom LED lettering and moving visual panels.",
+    whatsIncluded:
+      "Raj Tilak covers the essentials with a royal touch through chhatri lights and the vintage car. Rajwada adds full body branding and a performer. Maharaja brings moving LED panels and custom lettering. Signature, the top package, adds security and pyro effects for the most complete royal production.",
+    pricingGuidance:
+      "Pricing depends on the package tier and how much royal-style production you want. Rajwada and Maharaja are built specifically for this look. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and royal-style entries are especially popular during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll recommend the package that gives you the royal entry you're picturing.",
+    faqs: [
+      {
+        q: "What makes an entry feel 'royal'?",
+        a: "A combination of the vintage car, rich lighting, a strong dhol team, and coordinated safa styling — the elements our Rajwada and Maharaja packages are built around.",
+      },
+      {
+        q: "Which package is best for a royal baraat entry?",
+        a: "Rajwada and Maharaja are specifically built for this look, with full body branding, moving LED visuals, and extra entertainment on top of the base setup.",
+      },
+      {
+        q: "How much does a royal baraat entry cost?",
+        a: "It depends on the package tier and production level. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the vintage car part of the royal look?",
+        a: "Yes, the vintage car or baggi is a key part of the royal feel and is included in every package from Raj Tilak upward.",
+      },
+      {
+        q: "Does the dhol team play traditional music for a royal entry?",
+        a: "Yes, our dhol players keep the traditional energy that fits a royal-style baraat entry.",
+      },
+      {
+        q: "How early should I book for a royal entry?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since these entries are especially popular.",
+      },
+      {
+        q: "Can the truck lighting match a royal color theme?",
+        a: "Message us with your preferences and we'll let you know what's possible for your package.",
+      },
+      {
+        q: "Is the safa team part of the royal look too?",
+        a: "Yes, the My Safa team's turban styling for the groom and baraatis is part of every package and adds to the overall royal presentation.",
+      },
+    ],
+  },
+
+  "grand-baraat-entry": {
+    slug: "grand-baraat-entry",
+    intro:
+      "A grand baraat entry is about scale — more dhol, more lighting, a bigger visual production, and enough energy to fill a larger guest list. PlanMyBaraat's Maharaja and Signature packages are built for exactly this kind of scale.\n\nBoth packages layer more dhol players, moving LED visuals, and additional effects on top of the same reliable truck and DJ base every package includes.",
+    explanation:
+      "Scale for a baraat entry mostly comes down to three things: how many dhol players are keeping the energy up, how much visual production the truck carries, and whether there are extra effects timed to the arrival. Maharaja brings 6 dhol and moving LED panels with custom name lettering. Signature adds pyro and confetti effects plus a security team, making it our most production-heavy option.\n\nA grand entry also benefits from good route planning — wider roads let the truck and dancing crowd move more freely, which is something we factor in when recommending a package for your specific venue.",
+    whatsIncluded:
+      "Maharaja includes 6 dhol, moving LED panels, and the groom's name in lights, on top of the truck, DJ, car, and safa team every package has. Signature adds a security team plus pyro and confetti effects for the most complete, grand production.",
+    pricingGuidance:
+      "Pricing depends on the package tier and scale of production. Maharaja and Signature are built specifically for a grand entry. Message us on WhatsApp with your date, city, and guest count for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and grand entries with fuller production are especially popular during peak dates. 3-4 weeks' notice is a safe bet, sometimes longer for very large events.\n\nShare your date, city, venue, and guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and guest count, and we'll recommend the package that matches the scale you're going for.",
+    faqs: [
+      {
+        q: "What makes an entry 'grand'?",
+        a: "More dhol players, moving LED visuals, extra entertainers, and effects like pyro or confetti — the elements that scale up through Maharaja and Signature.",
+      },
+      {
+        q: "Which package is best for a grand baraat entry?",
+        a: "Maharaja and Signature are built specifically for scale, with 6 dhol, moving LED panels, and (in Signature) pyro and confetti effects plus security.",
+      },
+      {
+        q: "How much does a grand baraat entry cost?",
+        a: "It depends on the package tier. Message your date, city, and guest count on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does a grand entry need a bigger venue or wider roads?",
+        a: "Wider roads help the truck and dancing crowd move more freely, so mention your venue details and we'll factor that into our recommendation.",
+      },
+      {
+        q: "How many dhol players come with the grand package options?",
+        a: "Maharaja includes 6 dhol, and Signature includes 6 plus extra entertainment on top.",
+      },
+      {
+        q: "How early should I book for a very large event?",
+        a: "3-4 weeks ahead is a safe minimum during wedding season (November to February), and earlier is better for very large or destination-style events.",
+      },
+      {
+        q: "Does Signature include a security team?",
+        a: "Yes, Signature includes 4 professional bouncers as part of its full production package.",
+      },
+      {
+        q: "Can I combine effects like pyro and confetti with moving LED panels?",
+        a: "Yes, that combination is exactly what the Signature package includes.",
+      },
+    ],
+  },
+
+  "baraat-entry-effects": {
+    slug: "baraat-entry-effects",
+    intro:
+      "Baraat entry effects refer to the extra visual and audio moments layered onto the core truck-and-dhol setup — things like pyro, confetti, LED lighting, and live entertainers that punctuate the entry at key moments.\n\nPlanMyBaraat's packages include a growing range of these effects as you move up the tiers, from Raj Tilak's clean basics to Signature's full production.",
+    explanation:
+      "Effects work best when they're timed well, not just present. Our packages sync effects like pyro guns and confetti cannons to the truck's arrival at the venue, so they land as a climax rather than going off randomly mid-procession. LED lighting effects run throughout the entry, building visual interest the whole way.\n\nEntertainers like a teddy or gorilla performer add a different kind of effect — interactive, crowd-engaging moments rather than a one-off visual burst — and are included from the Rajwada package upward.",
+    whatsIncluded:
+      "Raj Tilak includes chhatri lights and a liquid CO2 gun for a dazzling entry moment. Rajwada adds a teddy or gorilla performer. Maharaja brings moving LED panels, confetti CO2 gun, and hand pyro gun. Signature, the top package, adds pyro highlights, confetti, hand pyro, and a fake money gun for the most complete effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier and which effects are included at that level. Message us on WhatsApp with your date and city, and mention any specific effects you're interested in — we'll match it to a package.",
+    bookingNotes:
+      "Wedding season runs November to February. If you want specific effects timed to a particular moment, mention it early — 3-4 weeks' notice gives us time to plan the details properly.\n\nShare your date, city, venue, and any effect preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any effects you're interested in, and we'll recommend the right package.",
+    faqs: [
+      {
+        q: "What baraat entry effects do you offer?",
+        a: "Liquid CO2 guns, confetti cannons, hand pyro guns, moving LED panels, and fake money guns, layered across our package tiers from Raj Tilak to Signature.",
+      },
+      {
+        q: "Which package has the most effects?",
+        a: "Signature, our top package, includes the fullest range: pyro highlights, confetti, hand pyro, a fake money gun, moving LED panels, and custom LED lettering.",
+      },
+      {
+        q: "Are the effects safe for a large crowd?",
+        a: "Yes, our effects are handled by experienced operators and timed to the truck's arrival for a controlled, safe moment.",
+      },
+      {
+        q: "How much do baraat entry effects cost?",
+        a: "They're included as part of the package tiers rather than priced separately. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can effects be timed to a specific moment, like the groom stepping down?",
+        a: "Yes, message us with your preference and we'll plan the timing around that moment.",
+      },
+      {
+        q: "Does the starting package include any effects?",
+        a: "Yes, Raj Tilak includes a liquid CO2 gun for a dazzling entry moment, on top of chhatri lighting.",
+      },
+      {
+        q: "How early should I request specific effects?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan and confirm the details.",
+      },
+      {
+        q: "Is a security team included with the effects packages?",
+        a: "Yes, Signature includes a professional bouncer team alongside its full effects lineup, useful for crowd management during a bigger production.",
+      },
+    ],
+  },
 };

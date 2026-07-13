@@ -4835,4 +4835,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-dumas-beach-road": {
+    slug: "surat-dumas-beach-road",
+    intro:
+      "Dumas Beach Road is the stretch closest to Surat's well-known beach, further out than the general Dumas Road corridor, with a handful of resort-style venues that make for a genuinely scenic baraat entry. It's a bit of a drive from central Surat, but families who choose it usually want exactly that beachside atmosphere.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of destination-style setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "The road out to Dumas Beach is generally open, making truck access straightforward, though it's a longer route from central Surat, so factor in extra travel time for guests coming from Athwalines or City Light.\n\nWe've handled entries at venues along this stretch and know the timing needed for a smooth beachside entry.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — a striking visual against a beachside backdrop. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car — an excellent photo opportunity near the beach — and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Dumas Beach Road that means planning routes and timing that account for the extra distance from central Surat, so nothing runs late on the day.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the longer routes and destination-style setups this stretch involves.",
+    pricingGuidance:
+      "On how much does baraat cost for a Dumas Beach Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and beachside resort venues here can book out early given their popularity for destination-style weddings. We'd suggest booking your baraat entry at least 3-4 weeks ahead during peak season.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming venue access details early since some resort venues have specific entry protocols.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Dumas Beach Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near Dumas Beach Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Dumas Beach Road far from central Surat?",
+        a: "It's a longer route than most Surat neighborhoods, so factor in extra travel time for guests coming from central areas.",
+      },
+      {
+        q: "How early should I book for a wedding near Dumas Beach?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular beachside venues have become.",
+      },
+      {
+        q: "Are resort venues near the beach good for a full truck entry?",
+        a: "Generally yes — the roads out to Dumas Beach are open, though we confirm specific resort access details ahead of your date.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car — a great option for beachside photos.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-hazira": {
+    slug: "surat-hazira",
+    intro:
+      "Hazira sits at Surat's southern edge, home to the city's port and a major industrial belt, but families connected to the businesses here still host weddings in the surrounding areas. A baraat entry has wide, functional roads to work with, similar to other industrial-adjacent parts of the city.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Roads through Hazira are wide, built for port and industrial traffic, which works well for a full truck setup, though weekday traffic can be heavier than in purely residential areas. Most wedding venues here are on the residential fringes rather than inside the port zone itself.\n\nWe've handled entries connected to this belt before and know how to plan around any weekday industrial traffic for a smooth weekend entry.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Hazira that means knowing exactly where the residential venues sit relative to the port and industrial zone, and planning routes and timing that avoid any unnecessary detours.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Hazira entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, and weekend entries here are usually smoother than weekday ones given the industrial and port traffic.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming your exact venue location given how far south this belt sits.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Hazira, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near Hazira, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is this area good for a full-size truck entry?",
+        a: "Yes, the roads are wide, built for port and industrial traffic, which works well for a large truck setup, though weekend entries avoid the busier weekday traffic.",
+      },
+      {
+        q: "How early should I book for a wedding near Hazira?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are wedding venues inside the port zone or on its edges?",
+        a: "Almost always on the residential fringes rather than inside the port zone itself. Tell us your exact venue and we'll plan the route accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-choryasi": {
+    slug: "surat-choryasi",
+    intro:
+      "Choryasi is the administrative taluka on Surat's outer edge, more semi-rural in character than the city's core, with open roads and a handful of venues that suit bigger, more spread-out baraat entries. Families here often have genuine room to plan a grand entry.\n\nPlanMyBaraat runs baraat on wheels packages built to make the most of that openness: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Choryasi's roads are open and rural in character compared to central Surat, which makes truck access very straightforward, though it's a fair distance from the central city, so factor in a longer route for guests coming from Athwalines or City Light.\n\nWe've handled entries in Choryasi and the surrounding semi-rural venues.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — very visible given how much open space this area has. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to bigger, more elaborate entries.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Choryasi that means being ready to make the most of the open roads here for a bigger, more visible entry than what's practical in Surat's denser neighborhoods.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the longer routes and open-road setups common in this part of the district.",
+    pricingGuidance:
+      "On how much does baraat cost for a Choryasi entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, given the extra travel time involved.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming your exact venue location given how spread out this area is.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Choryasi, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Choryasi, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Choryasi far from central Surat?",
+        a: "It's the outer taluka area, more semi-rural in character, so factor in a longer route for guests coming from central Surat.",
+      },
+      {
+        q: "How early should I book for a Choryasi wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are Choryasi's roads good for a bigger baraat entry?",
+        a: "Yes, the open, semi-rural layout gives plenty of room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Choryasi's open-road entries.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

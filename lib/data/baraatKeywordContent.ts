@@ -6864,4 +6864,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-rituals-and-meaning": {
+    slug: "baraat-rituals-and-meaning",
+    intro:
+      "Baraat rituals and meaning trace back to the groom's traditional procession to the wedding venue, historically on horseback, symbolizing his journey to claim his bride and formally begin the wedding ceremony.\n\nPlanMyBaraat helps modernize this tradition with a double decker DJ truck, dhol team, vintage car, and safa team, while keeping the core spirit of a joyful, celebratory procession intact.",
+    explanation:
+      "The baraat represents the groom's family and friends accompanying him to the bride's venue, a public, celebratory declaration of the wedding before the couple's union is formalized. The music, dancing, and overall energy of the procession are meant to express joy and community support for the couple.\n\nWhile the specific transportation has evolved — from horses to baggis to vintage cars and now often DJ trucks — the underlying meaning remains: a public, joyful procession marking this significant transition for the groom and his family.",
+    whatsIncluded:
+      "Every package includes the modern elements that carry this tradition forward: the DJ truck, dhol team, vintage car or baggi, and safa team turban styling for the groom and baraatis.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll help plan a baraat that honors the tradition with modern production.",
+    faqs: [
+      {
+        q: "What does the baraat symbolize traditionally?",
+        a: "It represents the groom's journey to the bride's venue, accompanied by family and friends, as a public, joyful declaration before the wedding ceremony.",
+      },
+      {
+        q: "How has the baraat evolved over time?",
+        a: "Transportation has shifted from horses to baggis, vintage cars, and now often DJ trucks, though the core meaning of a celebratory procession remains.",
+      },
+      {
+        q: "Does a modern DJ truck entry lose the traditional meaning?",
+        a: "No, the underlying spirit — a public, joyful procession celebrating the groom's journey — carries forward even with modern production elements.",
+      },
+      {
+        q: "Why is the safa or turban part of the tradition?",
+        a: "Turban styling is a traditional element of the groom's ceremonial dress for this significant procession.",
+      },
+      {
+        q: "Is the vintage car a traditional element?",
+        a: "It represents an evolution of the traditional horse or baggi arrival, while our packages also offer the baggi option for a more classic feel.",
+      },
+      {
+        q: "Does the dhol have specific ritual significance?",
+        a: "The dhol has long been part of Indian wedding celebrations, providing the rhythmic, celebratory energy central to the procession's joyful character.",
+      },
+      {
+        q: "How can I honor the tradition while adding modern elements?",
+        a: "Message us your preferences, and we'll help balance traditional elements like the safa and baggi with modern production like the DJ truck and lighting.",
+      },
+      {
+        q: "How do I plan a baraat that fits both traditional and modern elements?",
+        a: "Message us on WhatsApp with your vision, date, and city, and we'll recommend a package that fits.",
+      },
+    ],
+  },
+
+  "what-happens-during-baraat-ceremony": {
+    slug: "what-happens-during-baraat-ceremony",
+    intro:
+      "What happens during baraat ceremony is essentially the groom's procession to the venue — starting with his arrival in a vintage car, joining the dancing crowd, DJ truck, and dhol team, and ending with the formal entrance at the venue gate.\n\nPlanMyBaraat coordinates this whole sequence as one managed entry.",
+    explanation:
+      "The ceremony typically starts with the groom, often styled with a safa turban, arriving in a vintage car or baggi. He then joins the broader baraati group — family and friends dancing alongside the DJ truck and dhol team — for the walk toward the venue. Along the way, the music builds, effects may be timed to specific moments in higher packages, and the whole group moves together toward the entrance.\n\nAt the venue, the bride's family traditionally welcomes the baraat, often with a ritual greeting, before the wedding ceremony itself begins. Our role focuses specifically on the procession leading up to this point.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, coordinating the full procession sequence.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll help plan the full baraat sequence for your event.",
+    faqs: [
+      {
+        q: "What's the typical sequence of events during a baraat?",
+        a: "The groom arrives in a vintage car (often styled with a safa turban), joins the dancing crowd alongside the DJ truck and dhol team, and the whole group processes toward the venue entrance.",
+      },
+      {
+        q: "Does the ceremony include a welcome at the venue?",
+        a: "Traditionally, yes — the bride's family often welcomes the baraat with a ritual greeting before the wedding ceremony begins.",
+      },
+      {
+        q: "How long does the baraat procession typically last?",
+        a: "It varies based on route length and pacing, and we'll help plan timing based on your specific venue and preferences.",
+      },
+      {
+        q: "Does the music play throughout the whole procession?",
+        a: "Yes, our DJ performs continuously from the truck, with the dhol team filling in during transitions.",
+      },
+      {
+        q: "Is the groom's safa styled before or during the procession?",
+        a: "Before — our My Safa team styles the turban ahead of time so the groom is ready when the procession begins.",
+      },
+      {
+        q: "What role does PlanMyBaraat play in this sequence?",
+        a: "We handle the truck, dhol team, vintage car, and safa team coordination for the procession leading up to the venue entrance.",
+      },
+      {
+        q: "Can effects be timed to specific moments in the ceremony?",
+        a: "Yes, higher packages like Maharaja and Signature include effects that can be timed to key moments like the venue arrival.",
+      },
+      {
+        q: "How do I plan the full sequence for my wedding?",
+        a: "Message us on WhatsApp with your date, city, and venue, and we'll help plan the procession from start to finish.",
+      },
+    ],
+  },
+
+  "groom-procession-meaning": {
+    slug: "groom-procession-meaning",
+    intro:
+      "Groom procession meaning centers on the symbolic journey the groom takes with family and friends to the wedding venue, a public celebration marking this significant life transition before the formal ceremony begins.\n\nPlanMyBaraat helps bring this tradition to life with a modern production: DJ truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "The procession represents more than just transportation — it's a public declaration of the wedding, with the groom's community accompanying him in celebration. The music, dancing, and overall energy express collective joy and support, rather than a quiet, private journey.\n\nHistorically involving horses or carriages, the procession has modernized over time, with many families now choosing a DJ truck-led entry for a bigger, more elaborate celebration, while keeping the core meaning — a joyful, communal journey — intact.",
+    whatsIncluded:
+      "Every package includes the elements that carry this tradition forward: the DJ truck, dhol team, vintage car or baggi, and safa team turban styling.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll help plan a procession that honors this tradition.",
+    faqs: [
+      {
+        q: "What does the groom's procession symbolize?",
+        a: "It's a public celebration of the groom's journey to the wedding venue, accompanied by family and friends, marking a significant life transition.",
+      },
+      {
+        q: "Why is the procession celebratory rather than quiet?",
+        a: "It's meant to express collective joy and community support for the couple, which is why music and dancing are central to the tradition.",
+      },
+      {
+        q: "Has the procession's transportation changed over time?",
+        a: "Yes, from horses and carriages historically to vintage cars and DJ trucks in many modern celebrations, though the core meaning remains.",
+      },
+      {
+        q: "Does a modern production still carry the traditional meaning?",
+        a: "Yes, the celebratory, communal spirit of the procession carries forward even with modern elements like the DJ truck and lighting.",
+      },
+      {
+        q: "Is the safa turban part of the procession's traditional significance?",
+        a: "Yes, it's part of the groom's ceremonial dress for this significant journey.",
+      },
+      {
+        q: "Can I keep more traditional elements in my procession?",
+        a: "Yes, our baggi option and safa styling help preserve traditional elements alongside the modern truck production.",
+      },
+      {
+        q: "How does PlanMyBaraat approach this tradition?",
+        a: "We aim to balance traditional elements with modern production, coordinated as one complete package.",
+      },
+      {
+        q: "How do I plan a procession that fits my vision?",
+        a: "Message us on WhatsApp with your preferences, date, and city, and we'll recommend the right package.",
+      },
+    ],
+  },
 };

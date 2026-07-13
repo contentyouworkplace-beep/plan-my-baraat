@@ -1,4 +1,5 @@
 import { BARAAT_CITY_CONTENT } from "@/lib/data/baraatCityContent";
+import { BARAAT_KEYWORD_CONTENT } from "@/lib/data/baraatKeywordContent";
 
 const BASE_URL = "https://planmybaraat.com";
 export const dynamic = "force-dynamic";
@@ -30,6 +31,12 @@ function getUrlsForSection(section: string) {
 
   if (section === "locations") {
     return Object.keys(BARAAT_CITY_CONTENT).map((slug) => `${BASE_URL}/${slug}`);
+  }
+
+  if (section === "keywords") {
+    return Object.keys(BARAAT_KEYWORD_CONTENT).map(
+      (slug) => `${BASE_URL}/baraat-management/${slug}`
+    );
   }
 
   return [];

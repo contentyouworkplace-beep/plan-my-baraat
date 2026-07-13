@@ -8579,4 +8579,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "rajkot-gondal-road": {
+    slug: "rajkot-gondal-road",
+    intro:
+      "Gondal Road is one of Rajkot's major arterial roads, wide and busy, connecting the city to Gondal and lined with plenty of banquet halls and party plots. It's a natural fit for a full-size baraat entry, with the space to let the truck, dhol team, and dancing really open up.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one team instead of several separate vendors.",
+    localArea:
+      "Gondal Road is wide and well-built for truck movement, though it does carry heavy through-traffic to and from Gondal, so we plan timing carefully around that.\n\nWe've handled entries at venues along Gondal Road and know which stretches work best for a big entry.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to Gondal Road's wide, open stretch.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Gondal Road that means knowing how to time the truck's arrival around the highway traffic that runs through here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping the whole entry punctual even on a busy road like this.",
+    pricingGuidance:
+      "On how much does baraat cost for a Gondal Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since Gondal Road's venues fill up fast.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup and timing properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Gondal Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Gondal Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Gondal Road good for a big truck entry?",
+        a: "Yes, it's one of Rajkot's major arterial roads, wide and well-built for a full-size baraat entry.",
+      },
+      {
+        q: "How early should I book for a Gondal Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since venues here fill up fast.",
+      },
+      {
+        q: "Is traffic a concern for a baraat entry on Gondal Road?",
+        a: "It carries heavy through-traffic to Gondal, so we plan the truck's arrival timing carefully around that.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "rajkot-150-feet-ring-road": {
+    slug: "rajkot-150-feet-ring-road",
+    intro:
+      "150 Feet Ring Road is exactly what the name promises — Rajkot's widest ring road, circling the city and home to some of its newest, biggest wedding venues. There's no better road in the city for a full, unrestricted baraat entry.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, so you don't have to coordinate a dj truck rental, dhol group, car, and turban stylist separately.",
+    localArea:
+      "150 Feet Ring Road is wide and open, built for exactly this kind of large-scale entry, with room for the truck to move freely and the whole baraati group to dance without feeling cramped.\n\nWe've handled entries at venues along this ring road and know it well, including which sections get busy around peak wedding hours.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this really stands out on a wide, open road like this. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, ideal for the bigger venues found along this ring road.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for 150 Feet Ring Road that means being ready to make the most of the space here for a bigger, more elaborate entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are used to the scale of entries this road tends to host.",
+    pricingGuidance:
+      "On how much does baraat cost for a 150 Feet Ring Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and this ring road's bigger venues book out fast. 3-4 weeks' notice during peak season is a safe bet.\n\nA rough headcount for the baraati group and your exact venue helps us plan a setup that matches the scale of the space here.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on 150 Feet Ring Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on 150 Feet Ring Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is this road good for a very large baraat entry?",
+        a: "Yes, it's Rajkot's widest ring road, built for exactly this kind of large-scale, unrestricted entry.",
+      },
+      {
+        q: "How early should I book for a wedding on 150 Feet Ring Road?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since the bigger venues here book out fast.",
+      },
+      {
+        q: "Do you know the venues along this ring road well?",
+        a: "Yes, we've handled entries at venues along this road and know which sections get busy around peak wedding hours.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "rajkot-raiya-road": {
+    slug: "rajkot-raiya-road",
+    intro:
+      "Raiya Road is a fast-growing part of Rajkot, with newer residential development and a growing number of wedding venues. It's become a popular choice for families wanting a modern setting for their baraat entry.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking instead of juggling separate vendors.",
+    localArea:
+      "Raiya Road's newer roads are generally wide and well laid out, making truck access straightforward. It connects easily to the rest of Rajkot.\n\nWe've handled entries at venues along Raiya Road and the surrounding newer development.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Raiya Road that means being familiar with this fast-growing part of the city and its newer venues.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and stay up to date as new venues open in this area.",
+    pricingGuidance:
+      "On how much does baraat cost for a Raiya Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, as this area's venues are increasingly in demand.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Raiya Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Raiya Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Raiya Road a newer part of Rajkot?",
+        a: "Yes, it's a fast-growing area with newer residential development and a growing number of wedding venues.",
+      },
+      {
+        q: "How early should I book for a Raiya Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since this area is increasingly in demand.",
+      },
+      {
+        q: "Are Raiya Road's venues easy for the truck to access?",
+        a: "Yes, being newer development, the roads here are generally wide and well laid out.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

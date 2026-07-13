@@ -12227,4 +12227,196 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "kevadia-statue-of-unity-belt": {
+    slug: "kevadia-statue-of-unity-belt",
+    intro:
+      "The Statue of Unity Belt is home to the world's tallest statue and a growing number of resorts and event venues built for tourism. A baraat entry here has a genuinely spectacular backdrop, unlike almost anywhere else in Gujarat.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "This belt has newer, well-built roads made for tourist traffic, so truck access is generally straightforward. We plan the route based on your exact venue in this growing area.\n\nWe've handled entries in the Statue of Unity belt and know the venues here well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — spectacular against this backdrop. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, ideal for a landmark entry like this.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for the Statue of Unity belt that means knowing the resorts and event venues that have opened here as the area has grown into a major destination.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the scale of entries this destination area tends to host.",
+    pricingGuidance:
+      "On how much does baraat cost for an entry near the Statue of Unity: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and this area's venues book out fast given its popularity as a destination wedding spot. 4 weeks' notice during peak season is a safe bet.\n\nA rough headcount for the baraati group and your exact venue helps us plan a setup that matches the scale of this landmark area.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near the Statue of Unity, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near the Statue of Unity?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover destination weddings near the Statue of Unity?",
+        a: "Yes, this belt has become a popular destination wedding spot, and we regularly handle entries at resorts and venues here.",
+      },
+      {
+        q: "How early should I book for a wedding here?",
+        a: "4 weeks ahead during wedding season (November to February) is a safe window, since venues here book out fast.",
+      },
+      {
+        q: "Are the roads here good for a full truck entry?",
+        a: "Yes, this belt has newer, well-built roads made for tourist traffic.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to a landmark entry here.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "kevadia-kevadia-colony": {
+    slug: "kevadia-kevadia-colony",
+    intro:
+      "Kevadia Colony is a well-settled residential area built to support the dam and tourism projects nearby, with a mix of community halls and local venues. A baraat entry here has that comfortable, planned-township feel.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Kevadia Colony's roads are generally well laid out, being a planned township, making truck access straightforward.\n\nWe've handled entries in Kevadia Colony and know the area well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Kevadia Colony that means knowing this planned township and its community halls well.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through this kind of well-laid-out township.",
+    pricingGuidance:
+      "On how much does baraat cost for a Kevadia Colony entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this area.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Kevadia Colony, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Kevadia Colony?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the roads here good for a full truck entry?",
+        a: "Yes, Kevadia Colony is a planned township with generally well laid out roads.",
+      },
+      {
+        q: "How early should I book for a Kevadia Colony wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Is Kevadia Colony close to the Statue of Unity?",
+        a: "Yes, it's a residential area built to support the dam and tourism projects nearby.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "kevadia-ekta-nagar": {
+    slug: "kevadia-ekta-nagar",
+    intro:
+      "Ekta Nagar is the official township built around the Statue of Unity, with modern infrastructure, hotels, and event spaces designed for large gatherings. A baraat entry here has a grand, purpose-built setting.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Ekta Nagar has modern, well-planned roads built for large-scale tourism and events, making truck access straightforward.\n\nWe've handled entries in Ekta Nagar and know the venues here well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to this modern, purpose-built township.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Ekta Nagar that means knowing the hotels and event spaces built for large gatherings in this modern township.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the scale of entries this destination township tends to host.",
+    pricingGuidance:
+      "On how much does baraat cost for an Ekta Nagar entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and this township's venues book out fast given its popularity. 4 weeks' notice during peak season is a safe bet.\n\nA rough headcount for the baraati group and your exact venue helps us plan a setup that matches the scale of this area.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Ekta Nagar, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Ekta Nagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Ekta Nagar good for a large event?",
+        a: "Yes, it's a modern township with hotels and event spaces built for large gatherings.",
+      },
+      {
+        q: "How early should I book for an Ekta Nagar wedding?",
+        a: "4 weeks ahead during wedding season (November to February) is a safe window, since venues here book out fast.",
+      },
+      {
+        q: "Are the roads here good for a full truck entry?",
+        a: "Yes, Ekta Nagar has modern, well-planned roads built for large-scale tourism and events.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "kevadia-sardar-sarovar-dam-area": {
+    slug: "kevadia-sardar-sarovar-dam-area",
+    intro:
+      "The Sardar Sarovar Dam area sits alongside one of India's largest dams, with a few venues offering a dramatic, scenic backdrop for a baraat entry. It's a truly unique setting for a wedding celebration.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "The Sardar Sarovar Dam area has roads built for tourism, generally manageable for truck access, with some venues offering a scenic backdrop near the dam.\n\nWe've handled entries near the Sardar Sarovar Dam area and know the venues well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for the Sardar Sarovar Dam area that means knowing which venues near the dam work best for a grand, scenic entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the setups common in this landmark tourism area.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sardar Sarovar Dam area entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and venues near the dam book out fast given the area's popularity. 4 weeks' notice during peak season is a safe bet.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near the Sardar Sarovar Dam, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near the Sardar Sarovar Dam?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the venues here scenic?",
+        a: "Yes, some venues near the dam offer a dramatic, scenic backdrop, making for a truly unique wedding setting.",
+      },
+      {
+        q: "How early should I book for a wedding here?",
+        a: "4 weeks ahead during wedding season (November to February) is a safe window, since venues near the dam book out fast.",
+      },
+      {
+        q: "Is this area good for a full truck entry?",
+        a: "Yes, roads here are built for tourism and are generally manageable for truck access.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

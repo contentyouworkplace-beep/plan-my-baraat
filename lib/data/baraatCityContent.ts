@@ -11075,4 +11075,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "bharuch-zadeshwar": {
+    slug: "bharuch-zadeshwar",
+    intro:
+      "Zadeshwar is a growing part of Bharuch, with newer development and a handful of venues that have opened as the area has expanded. A baraat entry here fits the neighborhood's newer, more spread-out feel.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Zadeshwar's roads are generally wide and newer, making truck access straightforward. It's within reach of central Bharuch.\n\nWe've handled entries in Zadeshwar and the surrounding newer development.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Zadeshwar that means being familiar with this newer, growing part of the city.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and stay up to date as new venues open in this area.",
+    pricingGuidance:
+      "On how much does baraat cost for a Zadeshwar entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this area.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Zadeshwar, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Zadeshwar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Zadeshwar close to central Bharuch?",
+        a: "Yes, it's within reach of central Bharuch, making it convenient for guests coming from across the city.",
+      },
+      {
+        q: "How early should I book for a Zadeshwar wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Are Zadeshwar's roads good for a truck entry?",
+        a: "Yes, being newer development, the roads here are generally wide and straightforward.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "bharuch-kasak": {
+    slug: "bharuch-kasak",
+    intro:
+      "Kasak is a well-settled residential neighborhood in Bharuch, with a mix of community halls and local venues that regularly host weddings. A baraat entry here has that comfortable, familiar neighborhood feel.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Kasak's roads are generally manageable for truck access, being a settled residential area, though we always confirm your exact venue's approach lane in advance.\n\nWe've handled entries in Kasak and the surrounding neighborhood.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Kasak that means knowing this settled residential neighborhood and its community halls well.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through Bharuch's residential neighborhoods.",
+    pricingGuidance:
+      "On how much does baraat cost for a Kasak entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this area.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Kasak, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Kasak?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the roads here manageable for a truck entry?",
+        a: "Yes, this is a settled residential area with generally manageable roads, though we confirm your exact venue's approach lane in advance.",
+      },
+      {
+        q: "How early should I book for a Kasak wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Is Kasak a residential area?",
+        a: "Yes, it's a settled residential neighborhood with a good mix of community halls used for weddings.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "bharuch-bharuch-town": {
+    slug: "bharuch-bharuch-town",
+    intro:
+      "Bharuch Town is the historic heart of the city, sitting along the Narmada river, with old-style markets, established halls, and easy access from every direction. A baraat entry here feels like a proper city-center celebration.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, so you don't have to arrange a dj truck rental, dhol group, car, and turban stylist separately.",
+    localArea:
+      "Bharuch Town has a mix of older, narrower lanes and some wider connecting roads, so we plan the truck's route carefully based on your exact venue.\n\nWe've handled entries in and around Bharuch Town and know its lanes well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Bharuch Town that means knowing exactly which lanes work for a full-size truck and where a shorter walk-in makes more sense.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through the city's older, denser core.",
+    pricingGuidance:
+      "On how much does baraat cost for a Bharuch Town entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since town venues are popular.\n\nA rough headcount for the baraati group and your exact venue helps us plan the route properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Bharuch Town, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Bharuch Town?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues in Bharuch Town's older lanes?",
+        a: "In most cases yes, though we check your exact venue in advance since some lanes are narrower and may need a shorter walk-in.",
+      },
+      {
+        q: "How early should I book for a Bharuch Town wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since these venues are popular.",
+      },
+      {
+        q: "Is Bharuch Town near the Narmada river?",
+        a: "Yes, it sits along the Narmada, giving some venues a scenic riverside backdrop.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

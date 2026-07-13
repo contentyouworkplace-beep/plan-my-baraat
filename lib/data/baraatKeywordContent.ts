@@ -3064,4 +3064,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "traditional-brass-band-booking": {
+    slug: "traditional-brass-band-booking",
+    intro:
+      "Traditional brass band booking for a baraat is a specific request PlanMyBaraat can discuss alongside our core DJ truck and dhol packages — while our standard offering centers on the modern setup, we're happy to advise on what's possible for a more traditional request.\n\nMessage us on WhatsApp with your vision, and we'll let you know how to approach it.",
+    explanation:
+      "Traditional brass bands bring a specific, classic sound that some families want to preserve as part of their wedding, even alongside modern elements like a DJ truck. We understand this and can discuss combining traditions or advising on options depending on what matters most to you.\n\nOur standard packages already include live dhol drumming, which many families find provides a similar traditional, celebratory energy within a more modern production.",
+    whatsIncluded:
+      "Our standard packages include the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. For traditional brass band-specific requests, message us to discuss options.",
+    pricingGuidance:
+      "Standard package pricing depends on the tier, dhol count, and any extra effects. For traditional brass band requests, message us on WhatsApp and we'll advise on what's possible and provide pricing.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have a specific traditional booking request, mention it as early as possible, ideally 3-4 weeks ahead.\n\nShare your date, city, venue, and specific requirements when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any traditional brass band requirements, and we'll let you know what's possible.",
+    faqs: [
+      {
+        q: "Can I book a traditional brass band through PlanMyBaraat?",
+        a: "Our core packages center on the DJ truck and dhol combination. Message us your specific request and we'll advise on what's possible.",
+      },
+      {
+        q: "What's the alternative you typically recommend?",
+        a: "A DJ truck with live dhol drumming, which offers a modern production while still carrying forward traditional, celebratory energy.",
+      },
+      {
+        q: "How much does traditional brass band booking cost?",
+        a: "Message us with your specific request on WhatsApp and we'll advise on options and pricing.",
+      },
+      {
+        q: "Can traditional and modern elements be combined?",
+        a: "Message us with your vision and we'll let you know what combinations are feasible for your specific event.",
+      },
+      {
+        q: "How early should I discuss this request?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to confirm what's feasible.",
+      },
+      {
+        q: "Do you cover this across all of Gujarat?",
+        a: "We operate across Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts in Gujarat.",
+      },
+      {
+        q: "Is the dhol team a common substitute for a traditional band?",
+        a: "Yes, many families find live dhol drumming alongside the DJ truck provides similar traditional energy in a more modern format.",
+      },
+      {
+        q: "How do I find out what's possible for my wedding?",
+        a: "Message us on WhatsApp with your date, city, and requirements, and we'll advise on the best options.",
+      },
+    ],
+  },
+
+  "shehnai-player-booking": {
+    slug: "shehnai-player-booking",
+    intro:
+      "Shehnai player booking for a wedding brings the classical, ceremonial sound of the traditional wind instrument often associated with the more solemn or ceremonial parts of an Indian wedding — a different feel from the DJ truck's energetic baraat entry.\n\nPlanMyBaraat's core packages focus on the baraat procession itself. Message us if you're specifically interested in shehnai music for another part of your wedding, and we'll advise on what's possible.",
+    explanation:
+      "The shehnai has a distinct role in Indian weddings — often played during specific ceremonial moments rather than the dancing, celebratory baraat entry, which is what our packages are built around. If shehnai music matters to you for a particular moment in your wedding, let us know and we'll advise on how to approach it alongside our core offering.\n\nOur baraat packages themselves focus on the DJ truck, dhol team, and overall procession energy, which serves a different purpose than the more ceremonial shehnai tradition.",
+    whatsIncluded:
+      "Our standard baraat packages include the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. For shehnai-specific requests, message us to discuss options.",
+    pricingGuidance:
+      "Standard baraat package pricing depends on the tier, dhol count, and any extra effects. For shehnai-specific requests, message us on WhatsApp and we'll advise on what's possible.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have a specific shehnai request for another part of your wedding, mention it as early as possible.\n\nShare your date, city, venue, and specific requirements when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any shehnai-specific requirements, and we'll let you know what's possible.",
+    faqs: [
+      {
+        q: "Do you offer shehnai players for baraat entries?",
+        a: "Our core baraat packages center on the DJ truck and dhol combination, which suits the energetic procession format. Message us about shehnai for other parts of your wedding.",
+      },
+      {
+        q: "When is a shehnai typically used in a wedding?",
+        a: "It's often played during more ceremonial or solemn moments, distinct from the celebratory, dancing energy of the baraat entry.",
+      },
+      {
+        q: "How much does shehnai player booking cost?",
+        a: "Message us with your specific request on WhatsApp and we'll advise on options and pricing.",
+      },
+      {
+        q: "Can I add shehnai music to a specific part of my wedding day?",
+        a: "Message us with your vision and we'll let you know what's feasible for your event.",
+      },
+      {
+        q: "How early should I ask about this?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to advise properly.",
+      },
+      {
+        q: "Is the dhol team a good fit for the baraat entry specifically?",
+        a: "Yes, the dhol team is specifically suited to the energetic, dancing format of a baraat entry, unlike the more ceremonial shehnai.",
+      },
+      {
+        q: "Do you operate across Gujarat for this kind of request?",
+        a: "We operate across Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts in Gujarat.",
+      },
+      {
+        q: "How do I find out what's possible for my wedding?",
+        a: "Message us on WhatsApp with your date, city, and requirements, and we'll advise on the best options.",
+      },
+    ],
+  },
+
+  "baraat-band-booking": {
+    slug: "baraat-band-booking",
+    intro:
+      "Baraat band booking with PlanMyBaraat means booking the live dhol team that provides the drumming energy for your wedding procession, alongside the DJ truck, vintage car, and safa team.\n\nOne booking covers the whole entry, with dhol count ranging from 2 players in Raj Tilak up to 6 in Signature.",
+    explanation:
+      "Rather than booking a band separately from the truck and other elements, our approach bundles the dhol team into one coordinated package. This means timing, positioning, and coordination with the DJ are all handled together as one operation, rather than a separately hired band showing up independently.\n\nThe dhol team's role is specifically tuned to a baraat's needs — walking pace, sustained energy, and coordination with a live DJ set, different from a fixed-stage musical performance.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol players. Rajwada steps up to 4. Maharaja and Signature both include 6, alongside the truck, DJ, chhatri lights, a vintage car, and a safa team.",
+    pricingGuidance:
+      "Pricing depends on the package tier and dhol count. We quote based on your date, city, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and baraat band slots fill up fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the band's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How do I book a baraat band?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count. We'll recommend a package and confirm availability, usually within the hour.",
+      },
+      {
+        q: "How much does baraat band booking cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Is the band coordinated with the DJ truck?",
+        a: "Yes, the dhol team works alongside the DJ throughout the procession as one coordinated performance.",
+      },
+      {
+        q: "How many musicians are in the baraat band?",
+        a: "Dhol count ranges from 2 in Raj Tilak to 6 in Signature, depending on your package.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since slots fill up fast.",
+      },
+      {
+        q: "Can I book the band without the truck?",
+        a: "No, the dhol team is included as part of our coordinated baraat packages, not booked separately from the truck.",
+      },
+      {
+        q: "Does the band walk the whole procession route?",
+        a: "Yes, they walk alongside the truck for the entire route, keeping the energy consistent throughout.",
+      },
+      {
+        q: "What's the difference between package tiers for the band?",
+        a: "Raj Tilak includes 2 dhol while Maharaja and Signature include 6, alongside significantly more overall production.",
+      },
+    ],
+  },
 };

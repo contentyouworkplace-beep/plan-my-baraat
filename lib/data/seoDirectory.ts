@@ -389,7 +389,7 @@ export const SEO_KEYWORD_PAGES: SeoKeywordPage[] = PRIORITY_CITIES.flatMap((city
     return {
       slug: `${specialtySlug}-${citySlug}`,
       label: `${category.name} in ${city.name}`,
-      href: `/baraat-management/${specialtySlug}-${citySlug}`,
+      href: `/${specialtySlug}-${citySlug}`,
       cityName: city.name,
       specialtyName: category.name,
       specialtySlug,
@@ -654,7 +654,7 @@ export const BARAAT_KEYWORD_PAGES: BaraatKeywordPage[] = CLEAN_200_KEYWORDS.map(
     slug: s,
     keyword: kw,
     label: kw.charAt(0).toUpperCase() + kw.slice(1),
-    href: `/baraat-management/${s}`,
+    href: `/${s}`,
   };
 });
 

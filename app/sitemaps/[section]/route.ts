@@ -36,7 +36,7 @@ function getUrlsForSection(section: string) {
   }
 
   if (section === "locations") {
-    return ALL_BARAAT_LOCATIONS.map((loc) => `${BASE_URL}/baraat-management/${loc.slug}`);
+    return ALL_BARAAT_LOCATIONS.map((loc) => `${BASE_URL}/${loc.slug}`);
   }
 
   return [];

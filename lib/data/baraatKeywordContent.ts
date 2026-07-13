@@ -7314,4 +7314,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "indian-wedding-traditions-baraat": {
+    slug: "indian-wedding-traditions-baraat",
+    intro:
+      "Indian wedding traditions place the baraat as one of the most celebrated moments — the groom's procession to the venue, accompanied by dancing family and friends, music, and drumming.\n\nPlanMyBaraat specializes in bringing this tradition to life across Gujarat with a modern DJ truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "Within the broader arc of Indian wedding traditions — engagement ceremonies, mehendi, sangeet, and the main wedding ceremony — the baraat stands out as the most public and celebratory moment, a joyful declaration before the couple's formal union. It's meant to be loud, energetic, and memorable.\n\nOur role focuses specifically on this tradition, helping families execute a baraat that balances traditional elements (safa turban styling, vintage car or baggi arrival) with as much or as little modern production (DJ truck, LED lighting, effects) as they want.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car or baggi, and safa team — the core elements of a baraat celebration.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll help plan a baraat that honors this important tradition.",
+    faqs: [
+      {
+        q: "Where does the baraat fit within Indian wedding traditions?",
+        a: "It's one of the most celebrated and public moments, the groom's procession to the venue, distinct from other pre-wedding functions like mehendi or sangeet.",
+      },
+      {
+        q: "Why is the baraat considered so important?",
+        a: "It's a joyful, public declaration before the couple's formal union, meant to be loud, energetic, and memorable for everyone involved.",
+      },
+      {
+        q: "Does the tradition vary across Indian regions?",
+        a: "Yes, different regions have their own specific customs, though the core spirit of a celebratory procession is broadly shared.",
+      },
+      {
+        q: "How does PlanMyBaraat approach this tradition?",
+        a: "We balance traditional elements — safa turban styling, vintage car or baggi — with modern production like the DJ truck and lighting, based on your preferences.",
+      },
+      {
+        q: "How much does honoring this tradition cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can I keep the entry mostly traditional?",
+        a: "Yes, Raj Tilak and Rajwada emphasize classic elements without the heavier LED and effects production of higher tiers.",
+      },
+      {
+        q: "How early should I book for my baraat?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "How do I plan a baraat that fits my family's traditions?",
+        a: "Message us on WhatsApp with your specific customs, date, and city, and we'll advise on what's possible.",
+      },
+    ],
+  },
+
+  "best-month-for-wedding-in-india": {
+    slug: "best-month-for-wedding-in-india",
+    intro:
+      "The best months for weddings in India, especially in Gujarat, typically fall between November and February, when the weather is cooler and considered auspicious for many families.\n\nPlanMyBaraat's busiest season aligns with this window, so booking early is especially important if you're planning during these months.",
+    explanation:
+      "Cooler temperatures during November to February make for more comfortable outdoor celebrations, including baraat processions where guests dance for extended periods. This period also often overlaps with auspicious dates according to Hindu calendars, making it doubly popular for weddings.\n\nOutside this window, some families still choose summer or monsoon dates based on personal circumstances or specific muhurat timing, and we're happy to work with whatever timing your wedding requires.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, available year-round, with peak demand during wedding season.",
+    pricingGuidance:
+      "Pricing depends on the package tier, not the specific month, though availability tightens significantly during peak season. Message us on WhatsApp with your date for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and this is when booking early matters most. 3-4 weeks' notice or more is a safe bet during this window.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, and we'll confirm availability for your specific month.",
+    faqs: [
+      {
+        q: "What are the best months for weddings in India?",
+        a: "November to February is generally considered the best window, especially in Gujarat, due to cooler weather and auspicious timing.",
+      },
+      {
+        q: "Why is cooler weather important for a baraat specifically?",
+        a: "It makes for a more comfortable dancing experience during an extended outdoor procession.",
+      },
+      {
+        q: "Do you still cover weddings outside this window?",
+        a: "Yes, we work with whatever timing your wedding requires, whether that's during peak season or otherwise.",
+      },
+      {
+        q: "How does peak season affect availability?",
+        a: "Availability tightens significantly during November to February, so booking early is especially important during this window.",
+      },
+      {
+        q: "How early should I book during peak season months?",
+        a: "3-4 weeks ahead or more is a safe bet, since demand is highest during this stretch.",
+      },
+      {
+        q: "Does pricing change based on the month?",
+        a: "Pricing depends on the package tier rather than the specific month, though availability is the main consideration during peak season.",
+      },
+      {
+        q: "Is summer a bad time for a baraat?",
+        a: "It requires more careful timing (usually evening) due to heat, but it's still possible — message us and we'll advise on planning.",
+      },
+      {
+        q: "How do I book for my specific wedding month?",
+        a: "Message us on WhatsApp with your wedding date and city, and we'll confirm availability.",
+      },
+    ],
+  },
+
+  "shubh-muhurat-for-wedding": {
+    slug: "shubh-muhurat-for-wedding",
+    intro:
+      "Shubh muhurat for wedding refers to the astrologically auspicious timing many Indian families choose for their ceremony — and PlanMyBaraat plans the baraat entry around whatever specific timing your muhurat requires.\n\nWe coordinate the truck, dhol team, and vintage car arrival to match your exact schedule.",
+    explanation:
+      "Because muhurat timing can fall at any hour, including early morning or late at night, we adjust our setup accordingly — evening lighting effects work differently for a daytime entry, and our team plans logistics around whatever specific timing your family has determined.\n\nMuhurat dates during wedding season (November to February) can be especially popular, meaning trucks and dhol teams may be in high demand for those specific auspicious windows, so we recommend booking as early as possible once your muhurat is confirmed.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, planned around your specific muhurat timing.",
+    pricingGuidance:
+      "Pricing depends on the package tier, not the specific muhurat timing. Message us on WhatsApp with your date and time for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and popular muhurat dates within this window can fill up especially fast. 3-4 weeks' notice or more is a safe bet.\n\nShare your date, muhurat time, city, and venue when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and muhurat timing, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Can you plan a baraat entry around any muhurat timing?",
+        a: "Yes, we adjust our setup and logistics to match whatever specific timing your family's muhurat requires.",
+      },
+      {
+        q: "Does an early morning muhurat change the entry setup?",
+        a: "Yes, lighting effects work differently for daytime entries — we'll plan accordingly based on your timing.",
+      },
+      {
+        q: "Are popular muhurat dates harder to book?",
+        a: "Yes, auspicious dates within wedding season can be especially busy — mention your specific date and we'll confirm availability directly.",
+      },
+      {
+        q: "How much does entry planning around a muhurat cost?",
+        a: "Pricing depends on the package tier, not the specific timing. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "How early should I book once my muhurat is confirmed?",
+        a: "As early as possible, ideally 3-4 weeks ahead or more, especially if your date falls during wedding season (November to February).",
+      },
+      {
+        q: "Can effects like pyro and confetti still work for a daytime muhurat?",
+        a: "They're included as part of the relevant packages regardless of timing, though they're most visually striking in the evening.",
+      },
+      {
+        q: "Does the dhol team's energy change based on timing?",
+        a: "No, our team maintains consistent energy regardless of what time your muhurat is scheduled.",
+      },
+      {
+        q: "How do I plan my entry around my muhurat?",
+        a: "Message us on WhatsApp with your wedding date and exact muhurat time, and we'll plan the entry accordingly.",
+      },
+    ],
+  },
 };

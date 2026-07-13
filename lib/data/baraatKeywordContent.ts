@@ -6564,4 +6564,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "best-time-for-baraat-entry": {
+    slug: "best-time-for-baraat-entry",
+    intro:
+      "The best time for baraat entry is typically evening, when chhatri lights, LED visuals, and any pyro or confetti effects have the most visual impact, and temperatures are more comfortable for dancing.\n\nPlanMyBaraat plans entries around your specific muhurat timing, coordinating the truck and dhol team's arrival to match.",
+    explanation:
+      "Evening entries let the truck's lighting — from chhatri lights in Raj Tilak to moving LED panels in Maharaja and Signature — really stand out, since these effects are far more visible after dark. Cooler evening temperatures also make for a more comfortable dancing experience for the baraati group.\n\nThat said, many families' muhurat timing is set by astrological considerations rather than pure preference, so we work with whatever timing your wedding requires, adjusting our setup and effects accordingly.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, planned around your specific entry timing.",
+    pricingGuidance:
+      "Pricing depends on the package tier, not the timing of your entry. Message us on WhatsApp with your date, time, and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and evening slots are especially popular during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, planned entry time, city, and venue when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and planned entry time, and we'll confirm availability.",
+    faqs: [
+      {
+        q: "Is evening really the best time for a baraat entry?",
+        a: "Evening entries let lighting effects stand out most and offer more comfortable temperatures, though many families' timing is set by their muhurat.",
+      },
+      {
+        q: "Can you accommodate a daytime entry too?",
+        a: "Yes, we work with whatever timing your wedding requires, adjusting the setup accordingly.",
+      },
+      {
+        q: "Does entry timing affect the price?",
+        a: "No, pricing depends on the package tier, not the specific time of your entry.",
+      },
+      {
+        q: "Do LED effects work during the day?",
+        a: "They're included regardless of timing, though they're most visually striking in the evening or at night.",
+      },
+      {
+        q: "How early should I confirm my entry timing?",
+        a: "Share it as early as possible when booking, ideally 3-4 weeks ahead during wedding season (November to February).",
+      },
+      {
+        q: "What if my muhurat is set for early morning?",
+        a: "We'll plan the setup around your specific timing, whatever it is.",
+      },
+      {
+        q: "Does the dhol team's energy change based on timing?",
+        a: "No, our team maintains consistent energy regardless of entry timing.",
+      },
+      {
+        q: "How do I plan my entry timing with you?",
+        a: "Message us on WhatsApp with your wedding date and planned time, and we'll confirm availability and plan accordingly.",
+      },
+    ],
+  },
+
+  "best-baraat-entry-ideas-for-winter": {
+    slug: "best-baraat-entry-ideas-for-winter",
+    intro:
+      "Best baraat entry ideas for winter weddings, which make up most of Gujarat's wedding season (November to February), often lean into evening entries with full lighting production, since winter evenings are cool and comfortable for extended dancing.\n\nPlanMyBaraat's Maharaja and Signature packages, with their moving LED panels and effects, work especially well for winter's cooler, longer evening celebrations.",
+    explanation:
+      "Winter's comfortable evening temperatures mean guests can dance longer without the heat exhaustion that can affect entries during hotter months, making it a great time to go bigger with the entry itself. Full LED lighting, longer dhol performances, and effects like pyro and confetti all read especially well in winter's crisp evening air.\n\nBecause winter is also peak wedding season, booking early — 3-4 weeks ahead or more — is especially important to secure your preferred package and date.",
+    whatsIncluded:
+      "Maharaja includes moving LED panels and custom name lighting. Signature adds pyro, confetti, and CO2 effects on top, well suited to a full winter evening production.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, and guest count. Message us on WhatsApp with your winter wedding date for a real quote.",
+    bookingNotes:
+      "Winter (November to February) is peak wedding season, and availability tightens significantly. 3-4 weeks' notice or more is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your winter wedding date and city, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Why is winter a good time for a bigger baraat production?",
+        a: "Cool evening temperatures let guests dance comfortably for longer, making it a great time for full lighting and effects production.",
+      },
+      {
+        q: "Which package works best for a winter entry?",
+        a: "Maharaja and Signature, with moving LED panels and effects, work especially well for winter's longer, cooler evening celebrations.",
+      },
+      {
+        q: "How much does a winter baraat entry cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is winter more expensive because it's peak season?",
+        a: "Pricing depends on the package tier rather than seasonal surcharges, though availability is tighter, so booking early matters.",
+      },
+      {
+        q: "How early should I book for a winter wedding?",
+        a: "3-4 weeks ahead or more is a safe window, since winter is peak wedding season across Gujarat.",
+      },
+      {
+        q: "Do effects like pyro work well in winter?",
+        a: "Yes, they read especially well in winter's crisp evening air, adding to the overall visual impact.",
+      },
+      {
+        q: "Can the dhol team perform longer in cooler weather?",
+        a: "Cooler temperatures generally make for a more comfortable, sustained performance for the whole team.",
+      },
+      {
+        q: "How do I book for my winter wedding date?",
+        a: "Message us on WhatsApp with your wedding date and city as early as possible, given how busy this season gets.",
+      },
+    ],
+  },
+
+  "best-baraat-entry-ideas-for-summer": {
+    slug: "best-baraat-entry-ideas-for-summer",
+    intro:
+      "Best baraat entry ideas for summer weddings often favor shorter, well-timed evening entries, since Gujarat's summer heat makes extended daytime processions more demanding for guests.\n\nPlanMyBaraat can plan a summer entry timed for cooler evening hours, still delivering the full energy of the truck, dhol team, and effects.",
+    explanation:
+      "Summer weddings benefit from planning the baraat for later in the evening, after the day's peak heat has passed, so guests can dance comfortably. Keeping the procession route as direct as possible also helps, minimizing time spent walking in warmer conditions.\n\nOur team can advise on route and timing specifically to make the most of cooler hours, while still delivering a full, high-energy entry with the truck, dhol team, and any effects you've chosen.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, planned with summer timing considerations in mind.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count, not the season itself. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Summer weddings happen outside Gujarat's main wedding season, so availability is often more flexible. Still, 2-3 weeks' notice is a good practice.\n\nShare your date, city, venue, and preferred evening timing when you reach out.",
+    closing:
+      "Message us on WhatsApp with your summer wedding date and city, and we'll help plan the timing for a comfortable, high-energy entry.",
+    faqs: [
+      {
+        q: "Should I plan my summer baraat entry for the evening?",
+        a: "Yes, timing it for after the day's peak heat has passed makes for a more comfortable experience for the whole baraati group.",
+      },
+      {
+        q: "Does the route matter more in summer?",
+        a: "Yes, keeping the route as direct as possible helps minimize time spent in warmer conditions.",
+      },
+      {
+        q: "How much does a summer baraat entry cost?",
+        a: "It depends on the package, dhol count, and any extra effects, not the season. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is summer availability more flexible than wedding season?",
+        a: "Yes, since summer falls outside Gujarat's main wedding season (November to February), availability is often more flexible.",
+      },
+      {
+        q: "How early should I book for a summer wedding?",
+        a: "2-3 weeks' notice is a good general practice, even with the more flexible summer availability.",
+      },
+      {
+        q: "Can the truck and dhol team handle summer heat?",
+        a: "Yes, though we recommend evening timing for the most comfortable experience for guests and performers alike.",
+      },
+      {
+        q: "Does the lighting still look good in summer evenings?",
+        a: "Yes, chhatri lights and LED effects work well once the sun sets, regardless of season.",
+      },
+      {
+        q: "How do I plan my summer entry timing?",
+        a: "Message us on WhatsApp with your date, city, and venue, and we'll advise on the best evening timing.",
+      },
+    ],
+  },
 };

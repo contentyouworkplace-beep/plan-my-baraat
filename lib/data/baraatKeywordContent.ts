@@ -2914,4 +2914,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "band-baja-for-wedding": {
+    slug: "band-baja-for-wedding",
+    intro:
+      "Band baja for wedding is the traditional term for a live musical procession — historically a brass band, though today it's often replaced or paired with a modern DJ truck setup for a bigger sound.\n\nPlanMyBaraat brings both traditions together: a live dhol team alongside a full DJ truck production, giving you the celebratory energy of a band baja with modern sound and lighting.",
+    explanation:
+      "The classic band baja was a walking brass ensemble leading the procession, and while that tradition still exists in some regions, most modern baraats in Gujarat combine live dhol drumming with a DJ truck for a fuller, louder sound that works better for large guest lists and bigger venues.\n\nOur packages keep the live, celebratory energy of a traditional band baja through the dhol team, while the truck adds the scale and production a modern wedding often wants.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist, along with a dhol team — 2 players in Raj Tilak up to 6 in Signature. A vintage car and safa team are included from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for full baraat productions peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Is band baja the same as what you offer?",
+        a: "We combine the live, celebratory energy of a traditional band baja through our dhol team with a modern DJ truck setup for a fuller, louder production.",
+      },
+      {
+        q: "Do you offer a traditional brass band instead of a DJ truck?",
+        a: "Our core packages are built around the DJ truck and dhol combination. Message us if you're specifically interested in a traditional brass band and we'll let you know what's possible.",
+      },
+      {
+        q: "How much does band baja for wedding cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is live drumming included alongside the DJ truck?",
+        a: "Yes, dhol players are included in every package, working alongside the DJ throughout the procession.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Can I combine traditional and modern elements in my entry?",
+        a: "Yes, our packages already blend live dhol drumming with modern DJ and lighting production for exactly this kind of combination.",
+      },
+      {
+        q: "Does the vintage car come with this package too?",
+        a: "Yes, a vintage car or baggi is included in every package from Raj Tilak upward.",
+      },
+      {
+        q: "What's the difference between the package tiers?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, effects, and a security team.",
+      },
+    ],
+  },
+
+  "brass-band-for-wedding": {
+    slug: "brass-band-for-wedding",
+    intro:
+      "A brass band for wedding is the classic walking musical ensemble traditionally seen leading baraat processions — while PlanMyBaraat's core packages center on the modern DJ truck and dhol combination, we can discuss brass band needs alongside our standard offering.\n\nMessage us on WhatsApp if you're specifically interested in a brass band element for your baraat, and we'll let you know what's possible.",
+    explanation:
+      "Many modern baraats in Gujarat have shifted toward the DJ truck and dhol combination for a bigger, more contemporary sound, but some families still want elements of the traditional brass band experience. Our core packages are built around the truck setup, though we're happy to discuss what's possible if a brass band element matters to you specifically.\n\nReach out with your specific vision and we'll advise on how to incorporate it alongside or instead of our standard packages.",
+    whatsIncluded:
+      "Our standard packages include the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. For brass band inquiries specifically, message us to discuss options.",
+    pricingGuidance:
+      "Our standard package pricing depends on the tier, dhol count, and any extra effects. For brass band-specific requests, message us on WhatsApp and we'll advise on what's possible and provide pricing.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have a specific brass band request, mention it as early as possible, ideally 3-4 weeks ahead.\n\nShare your date, city, venue, and specific requirements when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any brass band-specific requirements, and we'll let you know what's possible.",
+    faqs: [
+      {
+        q: "Do you offer traditional brass bands for baraat?",
+        a: "Our core packages center on the DJ truck and dhol combination. Message us with your specific brass band interest and we'll let you know what's possible.",
+      },
+      {
+        q: "What's included in your standard packages instead?",
+        a: "A DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team — a modern take on the traditional procession.",
+      },
+      {
+        q: "How much does a brass band for wedding cost through you?",
+        a: "Message us with your specific request on WhatsApp and we'll advise on what's possible and provide pricing.",
+      },
+      {
+        q: "Can I combine a brass band with your DJ truck package?",
+        a: "Message us with your vision and we'll let you know what combinations are feasible for your event.",
+      },
+      {
+        q: "How early should I discuss a brass band request?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan and confirm what's feasible.",
+      },
+      {
+        q: "Is the dhol team a good alternative to a brass band?",
+        a: "Yes, many families find the live dhol drumming alongside the DJ truck gives similar celebratory energy with a more modern production.",
+      },
+      {
+        q: "Do you cover this across Gujarat?",
+        a: "We operate across Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts in Gujarat.",
+      },
+      {
+        q: "How do I find out what's possible for my event?",
+        a: "Message us on WhatsApp with your date, city, and specific requirements, and we'll advise on the best options.",
+      },
+    ],
+  },
+
+  "brass-band-for-baraat": {
+    slug: "brass-band-for-baraat",
+    intro:
+      "A brass band for baraat is the traditional walking musical ensemble that historically led wedding processions — PlanMyBaraat's core packages center on the modern DJ truck and dhol combination, but we're happy to discuss brass band-specific requests.\n\nMessage us on WhatsApp with your vision, and we'll let you know what's possible alongside or instead of our standard offering.",
+    explanation:
+      "The shift toward DJ trucks and dhol teams reflects a broader trend in Gujarat wedding processions, offering bigger sound and more visual production than a traditional brass band typically provides. That said, we understand some families want to keep specific traditional elements, and we're open to discussing what's feasible.\n\nOur standard packages already include live dhol drumming, which carries forward some of the traditional, celebratory energy associated with a brass band procession.",
+    whatsIncluded:
+      "Our standard packages include the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. For brass band-specific requests, message us to discuss options.",
+    pricingGuidance:
+      "Standard package pricing depends on the tier, dhol count, and any extra effects. For brass band-specific requests, message us on WhatsApp and we'll advise on what's possible and provide pricing.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have a specific brass band request, mention it as early as possible, ideally 3-4 weeks ahead.\n\nShare your date, city, venue, and specific requirements when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any brass band-specific requirements, and we'll let you know what's possible.",
+    faqs: [
+      {
+        q: "Do you provide brass bands for baraat processions?",
+        a: "Our core packages center on the DJ truck and dhol combination. Message us your specific brass band interest and we'll advise on what's possible.",
+      },
+      {
+        q: "What do your standard packages include instead?",
+        a: "A DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, offering a modern take on the traditional procession.",
+      },
+      {
+        q: "How much does a brass band for baraat cost?",
+        a: "Message us with your specific request on WhatsApp and we'll advise on options and pricing.",
+      },
+      {
+        q: "Can the dhol team give a similar traditional feel?",
+        a: "Yes, live dhol drumming carries forward some of the traditional, celebratory energy associated with a brass band.",
+      },
+      {
+        q: "How early should I ask about this?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to confirm what's feasible for your event.",
+      },
+      {
+        q: "Do you serve all of Gujarat for this kind of request?",
+        a: "We operate across Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts in Gujarat.",
+      },
+      {
+        q: "Is a brass band more traditional than a DJ truck setup?",
+        a: "Historically yes, though DJ truck and dhol combinations have become the modern standard for most baraats in the region.",
+      },
+      {
+        q: "How do I find out what's possible for my specific wedding?",
+        a: "Message us on WhatsApp with your date, city, and requirements, and we'll advise on the best options for your event.",
+      },
+    ],
+  },
 };

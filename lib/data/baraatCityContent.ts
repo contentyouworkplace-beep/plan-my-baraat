@@ -3251,4 +3251,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-varachha": {
+    slug: "surat-varachha",
+    intro:
+      "Varachha is one of Surat's most densely populated neighborhoods, home to a huge number of diamond-cutting and textile workers, and weddings here happen close together on the calendar during peak season. A baraat entry needs to be planned carefully given how much activity this part of the city sees on any given evening.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Varachha's streets are dense and can get busy, especially in the evening when the diamond and textile workshops let out. Some societies here have earlier noise timing preferences than newer parts of Surat, so we factor that into the plan.\n\nWe've handled a large number of entries in Varachha and know which streets and timing windows work best for this densely populated part of the city.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a practical choice for Varachha's busier streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, which we can time to fit within the area's typical evening windows.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Varachha that means knowing when the streets are busiest with workshop traffic, and which societies prefer music to wrap up earlier in the evening.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the specific timing needs of this densely populated neighborhood.",
+    pricingGuidance:
+      "On how much does baraat cost for a Varachha entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Varachha sees a huge volume of weddings during that window given the population density. We'd recommend booking your baraat entry at least 3-4 weeks ahead during peak season.\n\nIf your society has an evening noise preference, let us know the cutoff time and we'll plan the dhol and any pyro or confetti to finish before then. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your area in Varachha, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Varachha, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and area on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does Varachha get very busy during wedding season?",
+        a: "Yes, given how densely populated it is, this area sees a huge number of weddings during peak season. Booking early is especially important here.",
+      },
+      {
+        q: "How early should I book for a Varachha wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how much demand this area sees.",
+      },
+      {
+        q: "Are there noise timing preferences in Varachha societies?",
+        a: "Some societies here prefer music to wrap up earlier in the evening. Tell us the cutoff time and we'll plan the dhol and any effects to finish before then.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-katargam": {
+    slug: "surat-katargam",
+    intro:
+      "Katargam is another of Surat's busy northern neighborhoods, closely tied to the city's textile and diamond industries, with dense housing and a steady stream of weddings during peak season. A baraat entry here happens against a genuinely lively neighborhood backdrop.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Katargam's streets can get busy, especially around the Katargam Ring Road stretch, and some residential lanes are narrower than Surat's newer western suburbs. We plan the truck's route and timing carefully for this part of the city.\n\nWe've handled a good number of entries in Katargam and know which streets and timing windows work best.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a practical choice for Katargam's busier streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, timed carefully for this part of the city.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Katargam that means knowing which streets get busiest and planning around the area's evening rhythms tied to the textile and diamond trades.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries in this densely populated part of Surat.",
+    pricingGuidance:
+      "On how much does baraat cost for a Katargam entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Katargam sees a lot of wedding activity during that window. We'd recommend booking your baraat entry at least 3 weeks ahead during peak season.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming whether your venue is near the Ring Road or deeper into the residential lanes.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your area in Katargam, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Katargam, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and area on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover both Katargam and the Katargam Ring Road area?",
+        a: "Yes, we cover the whole Katargam pocket including the Ring Road stretch. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "How early should I book for a Katargam wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, given how much wedding activity this area sees.",
+      },
+      {
+        q: "Are Katargam's streets good for a full-size truck?",
+        a: "Some residential lanes are narrower than newer parts of Surat, so we plan the truck's route carefully based on your exact venue.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-pal": {
+    slug: "surat-pal",
+    intro:
+      "Pal is one of Surat's newer, more upscale neighborhoods, close to Adajan, with wide roads and a growing number of banquet halls and lawns. A grand baraat entry here has plenty of room to be as elaborate as the family wants.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Pal's roads are wide and well-planned, making truck access straightforward for most venues. It connects easily to Adajan and Adajan Patiya, so guests from that broader western Surat pocket have an easy route in.\n\nWe've handled a good number of entries in Pal's newer venue clusters.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this reads especially well on Pal's wider roads. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a fast-growing area like Pal that means staying current on new venues as they open, and planning routes that make full use of the wider roads here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more open entries Pal's layout allows for.",
+    pricingGuidance:
+      "On how much does baraat cost for a Pal entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Pal's popularity as a newer venue hub means booking 3-4 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this area allows for a bigger entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Pal, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Pal, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Pal's roads good for a bigger baraat entry?",
+        a: "Yes, since this is a newer part of Surat, the roads are wide and well-planned, giving good room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "How early should I book for a Pal wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this area has become.",
+      },
+      {
+        q: "Do you cover venues near Adajan and Adajan Patiya too?",
+        a: "Yes, we cover the broader western Surat pocket including Adajan and Adajan Patiya. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

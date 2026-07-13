@@ -1475,4 +1475,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "vadodara-tandalja": {
+    slug: "vadodara-tandalja",
+    intro:
+      "Tandalja sits in south-central Vadodara, a growing residential pocket with a mix of established societies and newer venues that have opened as the area's developed. A baraat entry here tends to have a comfortable, neighborhood feel — good for families who want a proper entry without the scale and crowd of the bigger corridors.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Tandalja's roads are generally manageable for a full truck setup, though some of the older society lanes are narrower. It's close to Manjalpur and Vasna, so guests coming from that broader south Vadodara pocket have an easy route in.\n\nWe've handled entries across Tandalja's venue clusters, and if your hall is inside a specific residential society, let us know so we can check the entry point in advance.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Tandalja that means knowing which society entrances work for a full-size truck and which need a shorter walk-in led by the dhol team.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping things smooth for entries across this part of south Vadodara.",
+    pricingGuidance:
+      "On how much does baraat cost for a Tandalja entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is a safe bet for this part of the city.\n\nIf your venue is inside a residential society, let us know the entry point in advance. A rough headcount for the baraati group also helps us plan the setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Tandalja, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Tandalja, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues inside Tandalja's residential societies?",
+        a: "In most cases yes, though some older society lanes are narrower. Tell us your exact venue and we'll check access in advance.",
+      },
+      {
+        q: "How early should I book for a Tandalja wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover venues near Manjalpur and Vasna too?",
+        a: "Yes, we cover the broader south Vadodara pocket including Manjalpur and Vasna. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-new-vip-road": {
+    slug: "vadodara-new-vip-road",
+    intro:
+      "New VIP Road is one of Vadodara's newer premium wedding corridors — wide, modern, and lined with some of the city's larger, more upscale venues. A grand baraat entry here has plenty of room for a full-scale production, which is why it's become a popular choice for families wanting a bigger, more elaborate entry.\n\nPlanMyBaraat runs baraat on wheels packages designed for exactly this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "New VIP Road is wide for most of its length, with good parking near most major venues — similar in scale to Old Padra Road, but generally newer development. It's become one of Vadodara's most in-demand wedding stretches, so expect other baraats on the same road during peak season weekends.\n\nWe've run a good number of entries along this corridor and know the timing and positioning that works best for the bigger halls here.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this road's width and modern venues make for a strong visual entry. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to the scale of weddings here.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and New VIP Road is one of the corridors we work often — we know how each major venue here handles truck access and parking, and plan around it in advance.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger, more competitive entries common along this stretch.",
+    pricingGuidance:
+      "On how much does baraat cost along New VIP Road: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team, which suits the bigger crowds common on this stretch.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and New VIP Road is one of the most booked corridors in Vadodara during that time. We'd recommend locking in your baraat entry at least 4 weeks ahead if your date falls in peak season.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how many bigger, more elaborate entries happen along this road.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on New VIP Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on New VIP Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Why is New VIP Road popular for baraat entries?",
+        a: "It's a wide, modern corridor with some of Vadodara's larger, more upscale venues, giving plenty of room for a big truck, dhol team, and crowd.",
+      },
+      {
+        q: "How early should I book for a New VIP Road wedding?",
+        a: "At least 4 weeks ahead during wedding season (November to February) — this is one of the most booked corridors in the city.",
+      },
+      {
+        q: "Will there be other baraats on the same road on my wedding date?",
+        a: "It's likely, especially on Saturday evenings during peak season. We plan your entry's timing and positioning to make sure it still stands out.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to New VIP Road's bigger weddings.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-harni": {
+    slug: "vadodara-harni",
+    intro:
+      "Harni sits in Vadodara's northeast, close to the airport, and has grown into a mix of residential development and a handful of event venues that benefit from wider, newer roads. A baraat entry here has good open space to work with, and being near the airport means it's convenient for families expecting guests to fly in.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Harni's roads are generally wide, given how much of this area has developed more recently, making truck access straightforward. It's a bit further from the central Alkapuri-Sayajigunj pocket, so if your venue is out this way, factor in a slightly longer route from other parts of the city.\n\nWe've handled entries in Harni and the surrounding areas, and given the proximity to the airport, we're used to coordinating timing around guests arriving close to the wedding date.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Harni that means knowing the routes connecting this northeast pocket to the rest of Vadodara, and planning timing that accounts for guests who might be arriving from the airport close to the wedding date.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight regardless of how far out your venue is.",
+    pricingGuidance:
+      "On how much does baraat cost for a Harni entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet. Outside season, a week or two usually works.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth letting us know if a lot of your guests are flying in close to the date so we can plan timing accordingly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Harni, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Harni, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Harni far from central Vadodara?",
+        a: "It's a bit further out in the northeast of the city, so factor in a slightly longer route if guests are coming from Alkapuri or Sayajigunj.",
+      },
+      {
+        q: "How early should I book for a Harni wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window. Outside season, a week or two of notice usually works.",
+      },
+      {
+        q: "Is Harni convenient for guests flying in for the wedding?",
+        a: "Yes, being close to the airport makes it convenient for out-of-town guests. We're used to coordinating baraat timing around flight-in guest schedules.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

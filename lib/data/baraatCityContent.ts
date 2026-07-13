@@ -6851,4 +6851,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "ahmedabad-odhav": {
+    slug: "ahmedabad-odhav",
+    intro:
+      "Odhav is part of Ahmedabad's eastern industrial belt, but the residential pockets around it host a steady number of weddings, particularly for families connected to the businesses here. A baraat entry has wide, functional roads to work with.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Roads through Odhav are generally wide given the industrial development, making truck access straightforward. Most wedding venues here are in the residential pockets rather than the industrial core.\n\nWe've handled entries in Odhav and the surrounding eastern Ahmedabad neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Odhav that means knowing which stretches are residential versus industrial, and planning weekend entries around any weekday traffic.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of east Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for an Odhav entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming whether your venue is closer to the residential or industrial side of Odhav.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Odhav, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Odhav, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Odhav good for a full-size truck entry?",
+        a: "Yes, roads here are generally wide given the industrial development, making truck access straightforward for most residential venues.",
+      },
+      {
+        q: "How early should I book for an Odhav wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are wedding venues in Odhav close to the industrial zone?",
+        a: "Most are in residential pockets rather than the industrial core. Tell us your exact venue and we'll plan the route accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-vatva": {
+    slug: "ahmedabad-vatva",
+    intro:
+      "Vatva is home to one of Ahmedabad's largest industrial zones, in the city's southeast, but the neighborhoods surrounding it still host a steady number of weddings for families connected to local businesses. A baraat entry has wide, functional roads to work with.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Roads through Vatva are wide, built for industrial traffic, which works well for a full truck setup, though weekday traffic can be heavier than in purely residential areas. Most wedding venues are on the residential fringes rather than inside the industrial zone itself.\n\nWe've handled entries in this belt before and know how to plan around any weekday industrial traffic for a smooth weekend entry.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Vatva that means knowing exactly where the residential venues sit relative to the industrial zone, and planning routes and timing that avoid any unnecessary detours.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Vatva entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, and weekend entries here are usually smoother than weekday ones given the industrial traffic.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming your exact venue location given how far this industrial belt sits.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Vatva, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near Vatva, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is this area good for a full-size truck entry?",
+        a: "Yes, the roads are wide, built for industrial traffic, which works well for a large truck setup, though weekend entries avoid the busier weekday traffic.",
+      },
+      {
+        q: "How early should I book for a wedding near Vatva?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are wedding venues inside the industrial zone or on its edges?",
+        a: "Almost always on the residential fringes rather than inside the industrial zone itself. Tell us your exact venue and we'll plan the route accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-isanpur": {
+    slug: "ahmedabad-isanpur",
+    intro:
+      "Isanpur sits in south Ahmedabad, close to the city's industrial belt, with a mix of working-class residential neighborhoods and a handful of local venues. A baraat entry here has a genuinely local, community feel.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Isanpur's roads are generally manageable for a full truck setup, being close to but distinct from the deeper industrial zone. It connects to Vatva and the broader southern Ahmedabad pocket.\n\nWe've handled entries in Isanpur and the surrounding south Ahmedabad neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Isanpur that means knowing the connecting routes to Vatva and the broader southern pocket well, which helps when guests are spread across that side of Ahmedabad.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for an Isanpur entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the right setup for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Isanpur, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Isanpur, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Isanpur's roads good for a truck entry?",
+        a: "Yes, they're generally manageable for a full truck setup, being close to but distinct from the deeper industrial zone.",
+      },
+      {
+        q: "How early should I book for an Isanpur wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover venues near Vatva too?",
+        a: "Yes, we cover the broader southern Ahmedabad pocket including Vatva. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

@@ -2214,4 +2214,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "fireworks-for-wedding": {
+    slug: "fireworks-for-wedding",
+    intro:
+      "Fireworks for wedding baraats usually refers to the pyro and spark effects timed to the entry, giving the truck's arrival a dramatic visual climax rather than traditional aerial fireworks.\n\nPlanMyBaraat includes pyro highlights and hand pyro gun effects as part of our Signature package, designed specifically for close-proximity baraat use.",
+    explanation:
+      "Traditional aerial fireworks require significant open space and specific permissions, which isn't practical for most baraat venues. Our pyro effects are designed for the actual format of a baraat entry — close to the truck, timed to a specific moment, and operated safely by our experienced team without needing a large open field.\n\nThis gives you the dramatic visual impact associated with fireworks, adapted specifically for a procession moving through a venue or neighborhood setting.",
+    whatsIncluded:
+      "Signature includes pyro highlights on entry and a hand pyro gun, alongside confetti CO2 gun, liquid CO2 gun, moving LED panels, custom name lighting, 6 dhol, an American vintage car, 4 professional bouncers, and a safa team.",
+    pricingGuidance:
+      "Pyro effects are included as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February. Mention your venue's space and any fire safety policies early — 3-4 weeks' notice gives us time to plan and coordinate properly.\n\nShare your date, city, venue, and venue details when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with pyro effects for your entry.",
+    faqs: [
+      {
+        q: "Do you offer traditional aerial fireworks?",
+        a: "We offer pyro and spark effects designed for close-proximity baraat use, timed to the truck's arrival, rather than traditional aerial fireworks that need open space.",
+      },
+      {
+        q: "Which package includes these effects?",
+        a: "Signature, our top package, includes pyro highlights and a hand pyro gun as part of its full production.",
+      },
+      {
+        q: "How much do fireworks-style effects for wedding cost?",
+        a: "They're included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is it safe to use pyro effects near my venue?",
+        a: "Yes, our team operates the effects safely and we recommend confirming your venue's fire safety policies in advance.",
+      },
+      {
+        q: "How early should I discuss this with my venue?",
+        a: "As early as possible, ideally 3-4 weeks ahead, to allow time for venue coordination on safety requirements.",
+      },
+      {
+        q: "Do I need a large open space for this effect?",
+        a: "No, our pyro effects are designed for close-proximity baraat use, not requiring the space traditional aerial fireworks need.",
+      },
+      {
+        q: "Is this effect combined with other visuals?",
+        a: "Yes, Signature combines pyro with confetti, CO2 effects, and moving LED panels for a fuller visual moment.",
+      },
+      {
+        q: "How do I book this effect for my baraat?",
+        a: "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the Signature package's available.",
+      },
+    ],
+  },
+
+  "wedding-fireworks-rental": {
+    slug: "wedding-fireworks-rental",
+    intro:
+      "Wedding fireworks rental searches for baraat entries usually lead to PlanMyBaraat's pyro effects, which are operated by our team as part of the Signature package rather than rented as standalone equipment.\n\nThis bundled approach means the pyro effects are safely timed to your truck's arrival, coordinated with the rest of your entry.",
+    explanation:
+      "Renting fireworks-style equipment on its own would leave you responsible for safe operation, timing, and coordination with the rest of your baraat — a significant undertaking on your wedding day. Our approach handles all of this as part of the Signature package, with our experienced team managing setup, timing, and safety.\n\nThe effects are specifically chosen and adapted for close-proximity baraat use, not general aerial fireworks, which wouldn't be practical for most venues.",
+    whatsIncluded:
+      "Signature includes pyro highlights on entry and a hand pyro gun, alongside confetti CO2 gun, liquid CO2 gun, moving LED panels, custom name lighting, 6 dhol, an American vintage car, 4 professional bouncers, and a safa team.",
+    pricingGuidance:
+      "There's no separate fireworks rental price — the pyro effects are included as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet, especially to allow time for venue coordination on safety.\n\nShare your date, city, venue, and any venue safety policies when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with pyro effects.",
+    faqs: [
+      {
+        q: "Can I rent fireworks equipment on its own?",
+        a: "No, our pyro effects come operated by our team as part of the Signature package, not as standalone equipment rental.",
+      },
+      {
+        q: "What's the wedding fireworks rental price?",
+        a: "There's no separate rental price — pyro effects are included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Who operates the pyro equipment safely?",
+        a: "Our experienced team handles setup, timing, and operation as part of the package.",
+      },
+      {
+        q: "Do you need permission from my venue?",
+        a: "We recommend confirming your venue's fire safety policies in advance, and we'll coordinate accordingly.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, especially for venue coordination.",
+      },
+      {
+        q: "Is this effect suitable for indoor venues?",
+        a: "It's designed for outdoor baraat entries — mention your venue setup and we'll advise on what's appropriate.",
+      },
+      {
+        q: "What package tier includes this effect?",
+        a: "Signature, our top package, includes pyro highlights and hand pyro gun effects.",
+      },
+      {
+        q: "Can I combine this with confetti and LED effects?",
+        a: "Yes, Signature combines pyro with confetti, CO2 effects, and moving LED panels.",
+      },
+    ],
+  },
+
+  "fake-money-gun-rental": {
+    slug: "fake-money-gun-rental",
+    intro:
+      "A fake money gun rental for a baraat entry adds a fun, celebratory burst of flying cash-style notes, a playful effect that's become popular for grand entries and celebrations.\n\nPlanMyBaraat includes a fake money gun as part of our Signature package, our most complete production tier.",
+    explanation:
+      "The money gun effect is more playful than dramatic — it's designed to add a burst of fun and celebration rather than a visually intense moment like pyro or confetti. It works well combined with the rest of Signature's effects lineup, adding variety to the overall production.\n\nOur team operates the effect as part of the coordinated entry, timed alongside the truck's arrival and other visual moments.",
+    whatsIncluded:
+      "Signature includes the fake money gun alongside pyro highlights, confetti CO2 gun, liquid CO2 gun, moving LED panels, custom name lighting, 6 dhol, an American vintage car, 4 professional bouncers, and a safa team.",
+    pricingGuidance:
+      "The fake money gun is included as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with the fake money gun effect.",
+    faqs: [
+      {
+        q: "Which package includes the fake money gun?",
+        a: "Signature, our top package, includes the fake money gun as part of its full production lineup.",
+      },
+      {
+        q: "How much does fake money gun rental cost?",
+        a: "It's included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can I rent just the money gun without the rest of the package?",
+        a: "No, it's included as part of the Signature baraat package, operated by our team alongside the truck and other effects.",
+      },
+      {
+        q: "Is this effect safe to use near guests?",
+        a: "Yes, it's a playful, low-risk effect operated by our team with appropriate crowd positioning.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since Signature is a popular package during peak season.",
+      },
+      {
+        q: "Can the money gun be timed to a specific moment?",
+        a: "Yes, message us with your preference and we'll coordinate the timing with the rest of the entry.",
+      },
+      {
+        q: "What other effects come with the money gun in Signature?",
+        a: "Pyro highlights, confetti, CO2 effects, moving LED panels, and custom name lighting, alongside 6 dhol and a security team.",
+      },
+      {
+        q: "Is this effect suitable for sangeet or other functions too?",
+        a: "It's included as part of our baraat entry package — mention if you're interested in it for another function and we'll let you know what's possible.",
+      },
+    ],
+  },
 };

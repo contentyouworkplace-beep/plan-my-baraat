@@ -46,9 +46,6 @@ export const BARAAT_CITIES: BaraatLocation[] = [
   city("Rajpipla", "Narmada, Gujarat"),
   city("Kevadia", "Narmada, Gujarat"),
   city("Chhota Udepur", GJ),
-  city("Mumbai", "Maharashtra"),
-  city("Delhi NCR", "Delhi NCR"),
-  city("Bengaluru", "Karnataka"),
 ];
 
 const VADODARA_AREAS = [

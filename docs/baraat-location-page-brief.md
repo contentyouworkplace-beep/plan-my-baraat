@@ -1,6 +1,6 @@
 # Baraat location page — content & build brief
 
-Use this to build every remaining location page (20 cities, 243 areas, 56 towns — 318 left after Vadodara). One page at a time, in this order: **cities first, then areas, then towns.**
+Use this to build every remaining location page (17 cities, 243 areas, 56 towns — 316 total, 2 done so far). One page at a time, in this order: **cities first, then that city's areas, then standalone towns.** Mumbai, Delhi NCR, and Bengaluru were removed from scope — Gujarat only.
 
 ## Where things live
 
@@ -56,8 +56,8 @@ Use this to build every remaining location page (20 cities, 243 areas, 56 towns 
 ## Progress
 
 - [x] Vadodara (city) — live
-- [ ] Surat (city)
-- [ ] Ahmedabad (city)
+- [x] Surat (city) — live
+- [ ] Ahmedabad (city) — next
 - [ ] Gandhinagar (city)
 - [ ] Rajkot (city)
 - [ ] Bhavnagar (city)
@@ -72,8 +72,5 @@ Use this to build every remaining location page (20 cities, 243 areas, 56 towns 
 - [ ] Rajpipla (city)
 - [ ] Kevadia (city)
 - [ ] Chhota Udepur (city)
-- [ ] Mumbai (city)
-- [ ] Delhi NCR (city)
-- [ ] Bengaluru (city)
 - [ ] 243 areas (after their parent cities are done)
 - [ ] 56 towns

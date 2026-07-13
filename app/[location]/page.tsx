@@ -108,8 +108,31 @@ export default function LocationPage({
   ];
 
   const childAreas = ALL_BARAAT_LOCATIONS.filter(
-    (l) => l.parentCity === loc.slug && (l.type === "area" || l.type === "town")
+    (l) =>
+      l.parentCity === loc.slug &&
+      (l.type === "area" || l.type === "town") &&
+      Boolean(BARAAT_CITY_CONTENT[l.slug])
   );
+
+  const siblingAreas =
+    childAreas.length === 0 && loc.parentCity
+      ? ALL_BARAAT_LOCATIONS.filter(
+          (l) =>
+            l.parentCity === loc.parentCity &&
+            l.slug !== loc.slug &&
+            Boolean(BARAAT_CITY_CONTENT[l.slug])
+        )
+      : [];
+
+  const areasBlock = childAreas.length > 0 ? childAreas : siblingAreas;
+  const areasTitle =
+    childAreas.length > 0
+      ? `Areas we serve in ${loc.name}`
+      : `Other areas we serve near ${loc.name}`;
+  const areasSummary =
+    childAreas.length > 0
+      ? `${childAreas.length} localities across ${loc.name} where we run baraat packages.`
+      : `${areasBlock.length} more localities in ${parent?.name ?? loc.state} where we run baraat packages.`;
 
   return (
     <>
@@ -287,13 +310,13 @@ export default function LocationPage({
         </section>
 
         {/* ── Areas mesh ── */}
-        {childAreas.length > 0 ? (
+        {areasBlock.length > 0 ? (
           <section className="border-t border-black/8 bg-[#f7f1ea] px-4 py-12 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl">
               <SeoLinkBlock
-                title={`Areas we serve in ${loc.name}`}
-                summary={`${childAreas.length} localities across ${loc.name} where we run baraat packages.`}
-                items={childAreas.map((a) => ({ label: a.name, href: `/${a.slug}` }))}
+                title={areasTitle}
+                summary={areasSummary}
+                items={areasBlock.map((a) => ({ label: a.name, href: `/${a.slug}` }))}
               />
             </div>
           </section>

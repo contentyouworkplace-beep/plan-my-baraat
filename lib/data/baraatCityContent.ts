@@ -4403,4 +4403,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-new-textile-market-belt": {
+    slug: "surat-new-textile-market-belt",
+    intro:
+      "The New Textile Market belt sits at the heart of Surat's famous textile trade, a genuinely commercial pocket, but many families connected to the trade host their weddings in nearby venues. A baraat entry here has a special resonance — this is the trade that built much of the city's wealth.\n\nPlanMyBaraat runs baraat on wheels packages adapted for this kind of commercial-adjacent setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking, with timing planned around market hours.",
+    localArea:
+      "The textile market streets themselves are busy through the day and into the evening, so we typically plan the truck's route around the venue rather than through the deepest market lanes, timing the entry for when trading activity has wound down.\n\nWe've handled entries connected to this belt before and know the timing that works best around the market's typical hours.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, adapted carefully for this busier commercial pocket.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for the textile market belt that means knowing the market's rhythm — when it's busiest, when it starts winding down — and planning your baraat's timing around that.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the specific logistics of an entry connected to this busy commercial area.",
+    pricingGuidance:
+      "On how much does baraat cost for an entry near the New Textile Market belt: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, and it helps us plan the timing around market hours specifically.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near the New Textile Market belt, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near the New Textile Market belt?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck navigate the textile market streets?",
+        a: "The truck typically parks at the nearest accessible point outside the busiest market lanes, with timing planned around when trading activity winds down for the evening.",
+      },
+      {
+        q: "How early should I book for a wedding near this belt?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does market activity affect baraat timing here?",
+        a: "It can, so we plan the entry timing around typical market hours to avoid the busiest periods.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, well suited to this commercial pocket's busier streets. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-dindoli": {
+    slug: "surat-dindoli",
+    intro:
+      "Dindoli is a growing residential neighborhood in southeast Surat, with newer housing developments and a handful of local venues. A baraat entry here tends to be a comfortable, uncrowded affair, similar to other newer pockets on the city's edges.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Dindoli's roads are generally manageable for a full truck setup, being a newer residential development. It's a bit further from central Surat, so factor in a slightly longer route for guests coming from Athwalines or City Light.\n\nWe've handled entries in Dindoli and the surrounding southeast Surat venues.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Dindoli that means staying current on the newer venues opening as the area develops, and planning routes that work with the residential layout here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries across this part of southeast Surat.",
+    pricingGuidance:
+      "On how much does baraat cost for a Dindoli entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this growing part of the city.\n\nA rough headcount for the baraati group helps us plan the right setup for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Dindoli, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Dindoli, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Dindoli far from central Surat?",
+        a: "It's a newer neighborhood in the southeast, so factor in a slightly longer route for guests coming from central areas like Athwalines or City Light.",
+      },
+      {
+        q: "How early should I book for a Dindoli wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Are Dindoli's roads good for a truck entry?",
+        a: "Yes, since this is a newer residential development, roads are generally manageable for a full truck setup.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-nana-varachha": {
+    slug: "surat-nana-varachha",
+    intro:
+      "Nana Varachha is a distinct pocket within the broader Varachha area, similarly dense and residential, with its own set of community halls. A baraat entry here shares much of Varachha's lively, closely-packed character.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Nana Varachha's streets are dense and can get busy, similar to the wider Varachha pocket, with some noise timing preferences among local societies. We plan the truck's route and timing carefully for this densely populated part of the city.\n\nWe've handled a number of entries in Nana Varachha and know which streets and timing windows work best.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a practical choice for this area's busier streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, which we can time to fit within typical evening windows here.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Nana Varachha that means knowing when the streets are busiest and which societies prefer music to wrap up earlier in the evening.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the specific timing needs of this densely populated neighborhood.",
+    pricingGuidance:
+      "On how much does baraat cost for a Nana Varachha entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and this pocket sees a lot of wedding activity during that window given the population density. We'd recommend booking your baraat entry at least 3 weeks ahead during peak season.\n\nIf your society has an evening noise preference, let us know the cutoff time and we'll plan the dhol and any pyro or confetti to finish before then.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your area in Nana Varachha, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Nana Varachha, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and area on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Nana Varachha different from the main Varachha area?",
+        a: "It's a distinct pocket within the broader Varachha neighborhood, with a similar dense, residential character and its own community halls.",
+      },
+      {
+        q: "How early should I book for a Nana Varachha wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, given how much wedding activity this area sees.",
+      },
+      {
+        q: "Are there noise timing preferences in Nana Varachha societies?",
+        a: "Some societies here prefer music to wrap up earlier in the evening. Tell us the cutoff time and we'll plan the dhol and any effects to finish before then.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

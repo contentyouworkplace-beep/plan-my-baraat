@@ -6563,4 +6563,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "ahmedabad-motera": {
+    slug: "ahmedabad-motera",
+    intro:
+      "Motera is best known as home to one of the world's biggest cricket stadiums, and this riverside pocket of north Ahmedabad has grown alongside it, with newer residential development and a handful of venues. A grand baraat entry here has that same sense of scale the neighborhood is known for.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Motera's roads are generally wide, given the development around the stadium, making truck access straightforward. On stadium event days, traffic in the area can build up significantly, so we plan around the local event calendar where possible.\n\nWe've handled entries in Motera and the surrounding riverside neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Motera that means checking whether there's a stadium event around your wedding date, since match-day traffic can significantly affect timing in this part of the city.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of north Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for a Motera entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, and it's worth checking the stadium event calendar for your wedding date, since large events can affect traffic and parking in the area.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Motera, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Motera, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does stadium traffic affect baraat entries in Motera?",
+        a: "It can, on days with a major match or event nearby. We check the local event calendar when planning your date and adjust timing accordingly.",
+      },
+      {
+        q: "How early should I book for a Motera wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are Motera's roads good for a truck entry?",
+        a: "Yes, generally wide given the development around the stadium, making truck access straightforward outside of major event days.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-sabarmati": {
+    slug: "ahmedabad-sabarmati",
+    intro:
+      "Sabarmati sits along the river in northwest Ahmedabad, a settled residential neighborhood with a mix of established housing and a handful of local venues. A baraat entry here has a comfortable, riverside-adjacent character.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Sabarmati's roads are generally manageable for a full truck setup, being an established residential area. It connects to Chandkheda and the broader northwestern Ahmedabad pocket.\n\nWe've handled entries in Sabarmati's venue clusters and residential societies.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Sabarmati that means knowing which society entrances work for a full truck and which need a shorter walk-in led by the dhol team.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries across this part of northwest Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sabarmati entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nIf your venue is inside a residential society, let us know the entry point in advance. A rough headcount for the baraati group also helps.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Sabarmati, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Sabarmati, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues inside Sabarmati's residential societies?",
+        a: "In most cases yes, though some society lanes are narrower. Tell us your exact venue and we'll check access in advance.",
+      },
+      {
+        q: "How early should I book for a Sabarmati wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover venues near Chandkheda too?",
+        a: "Yes, we cover the broader northwestern Ahmedabad pocket including Chandkheda. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-chandlodia": {
+    slug: "ahmedabad-chandlodia",
+    intro:
+      "Chandlodia is a growing residential pocket close to Chandkheda in north Ahmedabad, with a mix of newer housing and a handful of local venues. A baraat entry here has room to move without the crowding of the busier central corridors.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Chandlodia's roads are generally manageable for a full truck setup, similar to neighboring Chandkheda. It's part of the broader northern growth corridor, so guests from that side of Ahmedabad have an easy route in.\n\nWe've handled entries in Chandlodia's venue clusters and residential societies.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Chandlodia that means staying current on the area's growth and keeping our route knowledge up to date as new venues open.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of north Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for a Chandlodia entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this growing part of the city.\n\nA rough headcount for the baraati group helps us plan the right setup for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Chandlodia, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Chandlodia, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Chandlodia's roads good for a truck entry?",
+        a: "Yes, being part of the newer northern growth corridor, roads are generally manageable for a full truck setup.",
+      },
+      {
+        q: "How early should I book for a Chandlodia wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Do you cover venues near Chandkheda too?",
+        a: "Yes, we cover the broader northern Ahmedabad pocket including Chandkheda. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

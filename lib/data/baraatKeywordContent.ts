@@ -1064,4 +1064,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "non-stop-dj-for-wedding": {
+    slug: "non-stop-dj-for-wedding",
+    intro:
+      "A non stop DJ for wedding means the music doesn't cut out between the starting point and the venue — the DJ keeps the set going continuously for the whole baraat procession, so the energy never drops.\n\nPlanMyBaraat's DJ performs live from the truck for the entire route, included as part of a full baraat package alongside a dhol team, a vintage car, and a safa team.",
+    explanation:
+      "Gaps in the music during a baraat can kill the momentum, especially if the procession is long or the route has stops. Our DJs are experienced with keeping a continuous set running, transitioning smoothly between tracks and working with the dhol team's live drumming to fill any natural pauses.\n\nThe truck's sound system is built for sustained outdoor use too, so there's no risk of the equipment cutting out partway through the entry.",
+    whatsIncluded:
+      "Every package includes the DJ artist, truck, and sound system. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count, along with your expected route length, when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Does the music really run non stop the whole route?",
+        a: "Yes, the DJ keeps the set continuous for the whole procession, transitioning smoothly between tracks and working with the dhol team during any natural pauses.",
+      },
+      {
+        q: "How much does a non stop DJ for wedding cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "What if my baraat route is unusually long?",
+        a: "Let us know the expected route length when you book so we can plan the set and timing accordingly.",
+      },
+      {
+        q: "Can the sound system handle a long, continuous set?",
+        a: "Yes, it's built for sustained outdoor use throughout the whole entry, not just short bursts.",
+      },
+      {
+        q: "Does the dhol team play the whole time too?",
+        a: "The dhol team works alongside the DJ, keeping the energy up especially between tracks or during any natural transitions.",
+      },
+      {
+        q: "How early should I book for a longer route?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, and mentioning your route length helps us plan properly.",
+      },
+      {
+        q: "Can the DJ take requests throughout the set?",
+        a: "Yes, our DJs take requests ahead of time and build a continuous set around your preferred tracks.",
+      },
+      {
+        q: "What's included in the starting package?",
+        a: "Raj Tilak covers the DJ artist, truck, sound system, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+      },
+    ],
+  },
+
+  "dj-jockey-hire-near-me": {
+    slug: "dj-jockey-hire-near-me",
+    intro:
+      "DJ jockey hire near me for a baraat means finding a live performer local to your city who can work the truck setup, not just play a fixed track list from a laptop.\n\nPlanMyBaraat's DJ jockeys work across Gujarat regularly and come as part of a full baraat package: the truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "A DJ jockey specifically refers to the live performer working the decks and reading the crowd, as opposed to a pre-recorded playlist system. For a baraat, this matters because the DJ needs to adjust in real time — building energy as the procession moves, responding to the dhol team, and timing the set to peak around the venue arrival.\n\nOur DJ jockeys are experienced with exactly this format and work with us regularly across the cities and towns we cover in Gujarat.",
+    whatsIncluded:
+      "Every package includes the DJ jockey, truck, and sound system. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and DJ jockey availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your city, date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your city and wedding date, and we'll confirm a DJ jockey's available near you, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you have DJ jockeys near my city?",
+        a: "We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat. Message us your city to confirm.",
+      },
+      {
+        q: "How much does DJ jockey hire near me cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the DJ jockey a live performer or a fixed playlist?",
+        a: "A live performer who reads the crowd and adjusts the set in real time, not a pre-set playlist running unattended.",
+      },
+      {
+        q: "Does the jockey work with the truck sound system?",
+        a: "Yes, the DJ jockey performs from the truck using the built-in sound system, included as part of the package.",
+      },
+      {
+        q: "How early should I book a DJ jockey near me?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Can I request specific tracks for the jockey to play?",
+        a: "Yes, our DJ jockeys take requests ahead of time and build a set around your preferences.",
+      },
+      {
+        q: "Is the jockey experienced with baraat-specific pacing?",
+        a: "Yes, they're chosen and experienced specifically for baraat entries, not generalist party DJing.",
+      },
+      {
+        q: "What's the difference between the packages?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+    ],
+  },
+
+  "sound-and-light-setup-for-wedding": {
+    slug: "sound-and-light-setup-for-wedding",
+    intro:
+      "A sound and light setup for wedding baraat entries needs to work outdoors, on the move, and be visible and audible to a large dancing crowd — which is exactly what PlanMyBaraat's truck-mounted system is built for.\n\nThe sound and light setup comes as part of a full baraat package, alongside a dhol team, a vintage car, and a safa team.",
+    explanation:
+      "Sound and lighting for a baraat is different from a fixed venue setup — everything needs to be mounted on a vehicle that moves at walking pace while still delivering clear audio and visible lighting to a crowd around it. Our double decker truck carries a concert-grade sound system on the lower deck and lighting rigs across both levels.\n\nChhatri lights come standard, giving the entry a warm, traditional evening look. Higher packages add moving LED panels and custom name lettering, making the truck a visual centerpiece as much as a sound source.",
+    whatsIncluded:
+      "Every package includes the sound system, DJ artist, and base lighting. Raj Tilak includes chhatri lights. Rajwada adds branding on the truck body. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds pyro and confetti effects on top of the full lighting setup.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, how elaborate a lighting setup you want, and any extra effects. Raj Tilak is the most affordable option with solid sound and lighting included. Signature costs more because it includes the most complete visual and audio production.\n\nMessage us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and evening entries with full sound and light setups are especially popular during that stretch. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the setup's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Is the sound and light setup built for outdoor use?",
+        a: "Yes, it's specifically designed for outdoor, moving-crowd baraat use, not adapted from an indoor venue setup.",
+      },
+      {
+        q: "How much does a sound and light setup for wedding cost?",
+        a: "It depends on the package, dhol count, and how elaborate the lighting is. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the lighting work while the truck is moving?",
+        a: "Yes, it's designed to stay bright and visible for the whole moving procession, not just when parked.",
+      },
+      {
+        q: "Can I get custom LED name lighting?",
+        a: "Yes, the Maharaja and Signature packages include the groom's name displayed in custom LED lettering on the truck.",
+      },
+      {
+        q: "How early should I book for a full sound and light setup?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since evening entries with full setups are popular.",
+      },
+      {
+        q: "Is the sound quality good enough for a large crowd?",
+        a: "Yes, the truck carries a concert-grade sound system sized for outdoor, moving-crowd use.",
+      },
+      {
+        q: "What lighting comes with the starting package?",
+        a: "Raj Tilak includes chhatri lights around the truck, giving a warm, traditional evening look.",
+      },
+      {
+        q: "Which package has the most complete sound and light production?",
+        a: "Signature, our top package, includes the full sound system, moving LED panels, custom name lighting, and pyro and confetti effects.",
+      },
+    ],
+  },
 };

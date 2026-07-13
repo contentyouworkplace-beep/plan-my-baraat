@@ -6414,4 +6414,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "how-many-dhol-players-needed-for-baraat": {
+    slug: "how-many-dhol-players-needed-for-baraat",
+    intro:
+      "How many dhol players needed for baraat depends mostly on your guest count and how much energy you want the procession to have — PlanMyBaraat's packages range from 2 players in Raj Tilak up to 6 in Signature.\n\nFor most mid-sized weddings, 2-4 dhol players provide plenty of energy, while larger celebrations often benefit from the full 6-player lineup.",
+    explanation:
+      "For a smaller, more intimate guest list, 2 dhol players (Raj Tilak) usually provide enough rhythm and energy without feeling excessive. As guest count grows, more players help the sound carry across a bigger, more spread-out crowd and keep the energy consistent throughout a longer procession.\n\n6 dhol players, included in Maharaja and Signature, work well for larger celebrations or when the family specifically wants a bigger, more elaborate sound presence throughout the entry.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol players. Rajwada steps up to 4. Maharaja and Signature both include 6, alongside the truck, DJ, chhatri lights, a vintage car, and a safa team.",
+    pricingGuidance:
+      "Pricing depends on the package tier and dhol count. Message us on WhatsApp with your guest count, and we'll recommend the right number of players and give you a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your rough guest count, and we'll recommend the right dhol team size for your baraat.",
+    faqs: [
+      {
+        q: "How many dhol players do I need for a small wedding?",
+        a: "2 dhol players (included in Raj Tilak) usually provide plenty of energy for a smaller, more intimate guest list.",
+      },
+      {
+        q: "How many dhol players do I need for a large wedding?",
+        a: "6 dhol players (included in Maharaja and Signature) work well for larger celebrations with bigger guest counts.",
+      },
+      {
+        q: "Is 4 dhol players a good middle ground?",
+        a: "Yes, Rajwada's 4 dhol players suit mid-sized weddings that want more energy than the starting tier but don't need the full 6-player lineup.",
+      },
+      {
+        q: "Does more dhol players cost more?",
+        a: "Dhol count scales with the package tier, so more players come with the corresponding package price. Message us for a real quote.",
+      },
+      {
+        q: "Can I request extra dhol players beyond my package?",
+        a: "Message us with your specific requirements and we'll let you know what's possible for your booking.",
+      },
+      {
+        q: "How early should I decide on dhol count?",
+        a: "As early as possible, ideally 3-4 weeks ahead during wedding season (November to February), so we can confirm the right package.",
+      },
+      {
+        q: "Do more dhol players mean a louder, more chaotic sound?",
+        a: "No, our players are experienced and coordinate together, so more players add fuller sound rather than chaos.",
+      },
+      {
+        q: "How do I decide on the right number for my wedding?",
+        a: "Message us your rough guest count on WhatsApp and we'll recommend the package with the right dhol count.",
+      },
+    ],
+  },
+
+  "what-is-included-in-a-baraat-setup": {
+    slug: "what-is-included-in-a-baraat-setup",
+    intro:
+      "What is included in a baraat setup with PlanMyBaraat is the same core across every package: a DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team — with more production added at higher tiers.\n\nUnderstanding what's included helps you compare our packages against any other quotes you might be considering.",
+    explanation:
+      "Raj Tilak, our starting package, includes the truck, DJ, 2 dhol players, chhatri lights, a vintage car, and safa team turban styling. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, our top package, adds a security team plus pyro and confetti effects.\n\nAcross all tiers, the setup is designed as a complete entry, not a truck rental with everything else arranged separately — this is worth keeping in mind when comparing against other providers who might only offer the truck.",
+    whatsIncluded:
+      "Raj Tilak: truck, DJ, 2 dhol, chhatri lights, car, safa team. Rajwada: adds 2 dhol and an entertainer. Maharaja: 6 dhol, LED panels, custom lettering. Signature: adds pyro, confetti, CO2 effects, fake money gun, American vintage car, and security.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll walk you through exactly what's included in each package.",
+    faqs: [
+      {
+        q: "What's included in the basic baraat setup?",
+        a: "Raj Tilak includes the truck, DJ, 2 dhol, chhatri lights, a vintage car, and a safa team — a complete entry at our most affordable tier.",
+      },
+      {
+        q: "Is the vintage car included or a separate cost?",
+        a: "It's included in every package from Raj Tilak upward, not a separate cost.",
+      },
+      {
+        q: "What's included in the top-tier setup?",
+        a: "Signature includes 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and 4 professional bouncers.",
+      },
+      {
+        q: "Is the safa team part of every setup?",
+        a: "Yes, turban styling for the groom and baraati group is included in every package.",
+      },
+      {
+        q: "Does the setup include the DJ's performance or just equipment?",
+        a: "Both — a professional DJ artist performs live from the truck, not just equipment rental.",
+      },
+      {
+        q: "How do the setups differ in terms of dhol count?",
+        a: "Raj Tilak has 2, Rajwada has 4, and Maharaja and Signature both have 6 dhol players.",
+      },
+      {
+        q: "Are effects like pyro included in every setup?",
+        a: "No, pyro and confetti effects are specific to the Signature package.",
+      },
+      {
+        q: "How do I get exact details for my specific event?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll walk you through the package options.",
+      },
+    ],
+  },
+
+  "things-to-know-before-booking-baraat": {
+    slug: "things-to-know-before-booking-baraat",
+    intro:
+      "Things to know before booking baraat services include understanding what's included in each package, how far in advance to book, and what details help us give you an accurate quote.\n\nThis quick guide covers what to think about before reaching out to PlanMyBaraat.",
+    explanation:
+      "First, know your rough guest count — this affects how many dhol players and how strong a sound system you'll want. Second, know your venue and any access considerations, like narrower roads or noise curfews, since these affect route planning. Third, decide your priorities: a solid, reliable entry (Raj Tilak) versus a bigger, more elaborate production (Maharaja or Signature).\n\nFinally, timing matters — wedding season (November to February) books out fast, so reaching out 3-4 weeks ahead gives you the best chance at your preferred package and date.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with the specifics varying by tier.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp with these details for a real, accurate quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll help you get started.",
+    faqs: [
+      {
+        q: "What should I know before booking a baraat service?",
+        a: "Your rough guest count, venue access details, your priorities (reliable entry vs. bigger production), and booking timing all matter for getting an accurate quote and the right package.",
+      },
+      {
+        q: "How does guest count affect my booking?",
+        a: "It affects how many dhol players and how strong a sound system you'll want — larger groups often benefit from higher-tier packages.",
+      },
+      {
+        q: "Should I know about my venue's access before booking?",
+        a: "Yes, narrower roads or noise curfews can affect route and timing planning, so sharing venue details helps us plan properly.",
+      },
+      {
+        q: "How much does it typically cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "How early should I start the booking process?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "What if I'm not sure which package fits my needs?",
+        a: "Message us your priorities, guest count, and venue details, and we'll recommend the right tier.",
+      },
+      {
+        q: "Do I need to decide on customizations before booking?",
+        a: "Not necessarily, though mentioning any specific ideas early gives us more time to plan the details.",
+      },
+      {
+        q: "What's the first step to booking?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll take it from there.",
+      },
+    ],
+  },
 };

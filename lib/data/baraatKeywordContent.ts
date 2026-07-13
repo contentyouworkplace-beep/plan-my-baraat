@@ -7764,4 +7764,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-on-wheels-gandhinagar": {
+    slug: "baraat-on-wheels-gandhinagar",
+    intro:
+      "Baraat on wheels in Gandhinagar means a double decker DJ truck leading your procession, with a dhol team, vintage car, and safa team all coordinated as one booking.\n\nPlanMyBaraat covers all of Gandhinagar, from the numbered sectors to Kudasan, Raysan, Koba, and Adalaj.",
+    explanation:
+      "Gandhinagar's planned-city layout with its numbered sectors makes for generally straightforward route planning, while newer growth areas like Kudasan and Randesan have their own newer road networks. Our team plans around your exact venue and area within the city.\n\nWe've handled entries across Gandhinagar regularly, including its many well-known sector venues and the newer areas that have developed around the city's edges.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. Raj Tilak starts with 2 dhol, up through Signature's 6 dhol and full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Gandhinagar venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Gandhinagar venues book out fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Gandhinagar venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you cover all of Gandhinagar for baraat on wheels?",
+        a: "Yes, we cover all of Gandhinagar, from the numbered sectors to Kudasan, Raysan, Koba, and Adalaj.",
+      },
+      {
+        q: "How much does baraat on wheels cost in Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the roads in Gandhinagar's sectors good for a truck entry?",
+        a: "Yes, the planned-city layout with numbered sectors generally makes for straightforward truck access.",
+      },
+      {
+        q: "How early should I book for a Gandhinagar wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since venues book out fast.",
+      },
+      {
+        q: "Do you cover the newer growth areas like Kudasan and Randesan?",
+        a: "Yes, we've handled entries across these newer areas as well as the established sectors.",
+      },
+      {
+        q: "Is the safa team included for Gandhinagar bookings?",
+        a: "Yes, turban styling for the groom and baraati group is included in every package.",
+      },
+      {
+        q: "How do I book a baraat on wheels entry in Gandhinagar?",
+        a: "Message us on WhatsApp with your wedding date and Gandhinagar venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's the difference between packages for a Gandhinagar entry?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, LED screens, effects, and security.",
+      },
+    ],
+  },
+
+  "baraat-on-wheels-rajkot": {
+    slug: "baraat-on-wheels-rajkot",
+    intro:
+      "Baraat on wheels in Rajkot means a double decker DJ truck leading your procession, with a dhol team, vintage car, and safa team all coordinated as one booking.\n\nPlanMyBaraat covers all of Rajkot, from Kalawad Road and University Road to Gondal Road and beyond.",
+    explanation:
+      "Rajkot weddings have a reputation across Saurashtra for being big, loud, and genuinely fun, and our team is built to match that energy. Wide roads like Kalawad Road and 150 Feet Ring Road are made for exactly this kind of grand baraat entry, with room for a full crowd, a proper truck, and the dhol team to really open up.\n\nWe've handled entries across Rajkot's neighborhoods, from the busier central areas to the newer developing parts of the city.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. Raj Tilak starts with 2 dhol, up through Signature's 6 dhol and full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Rajkot venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Rajkot venues book out fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Rajkot venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you cover all of Rajkot for baraat on wheels?",
+        a: "Yes, we cover all of Rajkot, from Kalawad Road and University Road to Gondal Road and beyond.",
+      },
+      {
+        q: "How much does baraat on wheels cost in Rajkot?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Rajkot known for big baraat entries?",
+        a: "Yes, Rajkot weddings have a reputation across Saurashtra for being big, loud, and genuinely fun.",
+      },
+      {
+        q: "How early should I book for a Rajkot wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since venues book out fast.",
+      },
+      {
+        q: "Are Rajkot's roads good for a grand entry?",
+        a: "Yes, wide roads like Kalawad Road and 150 Feet Ring Road are made for exactly this kind of large-scale procession.",
+      },
+      {
+        q: "Is the vintage car included for Rajkot bookings?",
+        a: "Yes, starting from Raj Tilak, with Signature upgrading to an American vintage car.",
+      },
+      {
+        q: "How do I book a baraat on wheels entry in Rajkot?",
+        a: "Message us on WhatsApp with your wedding date and Rajkot venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's the difference between packages for a Rajkot entry?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, LED screens, effects, and security.",
+      },
+    ],
+  },
+
+  "dj-truck-for-baraat-vadodara": {
+    slug: "dj-truck-for-baraat-vadodara",
+    intro:
+      "A DJ truck for baraat in Vadodara is the double decker vehicle leading your procession, carrying the sound system and lights while the DJ performs live as the truck moves at walking pace.\n\nPlanMyBaraat is based in Vadodara, providing the truck as part of a full baraat package alongside a dhol team, vintage car, and safa team.",
+    explanation:
+      "Being based in Vadodara means our drivers know the city's roads well, from wider stretches to the busier central areas, and plan the truck's route based on your exact venue. We've handled entries across the city regularly, from Alkapuri to Waghodia Road.\n\nThe truck itself carries a full concert-grade sound system with the DJ performing live, plus lighting that scales from chhatri lights in the starting package up to moving LED panels in higher tiers.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with production scaling from Raj Tilak's essentials to Signature's full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Vadodara venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Vadodara truck availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Vadodara venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you provide DJ trucks for baraat across Vadodara?",
+        a: "Yes, we're based in Vadodara and cover the whole city with our DJ truck packages.",
+      },
+      {
+        q: "How much does a DJ truck for baraat cost in Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the truck come with an experienced local driver?",
+        a: "Yes, our drivers know Vadodara's roads well and plan the route based on your exact venue.",
+      },
+      {
+        q: "How early should I book a DJ truck for a Vadodara wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Is the truck bundled with the dhol team automatically?",
+        a: "Yes, the dhol team is included in the same package as the truck, not booked separately.",
+      },
+      {
+        q: "Can the truck play custom song requests?",
+        a: "Yes, our DJ artists take requests ahead of time and build a set around your preferences.",
+      },
+      {
+        q: "How do I book a DJ truck in Vadodara?",
+        a: "Message us on WhatsApp with your wedding date and Vadodara venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's the difference between the package tiers?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, effects, and security.",
+      },
+    ],
+  },
 };

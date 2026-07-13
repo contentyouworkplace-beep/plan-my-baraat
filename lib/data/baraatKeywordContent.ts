@@ -5464,4 +5464,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-setup-comparison": {
+    slug: "baraat-setup-comparison",
+    intro:
+      "A baraat setup comparison across PlanMyBaraat's four packages shows a clear progression — Raj Tilak's essentials, Rajwada's added dhol and entertainer, Maharaja's LED production, and Signature's full effects and security lineup.\n\nMessage us on WhatsApp with your date and city, and we'll send you a real, side-by-side comparison with pricing.",
+    explanation:
+      "The comparison starts with what's shared: every package includes the truck, DJ artist, sound system, a vintage car, and the safa team's turban styling. From there, the differences are dhol count (2 to 6), lighting production (chhatri lights to moving LED panels with custom name lettering), entertainment (a teddy or gorilla performer from Rajwada upward), and effects (pyro, confetti, and CO2 guns specific to Maharaja and Signature).\n\nSignature also uniquely includes a security team and the premium American vintage car, making it the most complete comparison point among the four.",
+    whatsIncluded:
+      "Raj Tilak: truck, DJ, 2 dhol, chhatri lights, car, safa team. Rajwada: adds 2 dhol and an entertainer. Maharaja: 6 dhol, LED panels, custom lettering. Signature: adds pyro, confetti, CO2 effects, fake money gun, American vintage car, and security.",
+    pricingGuidance:
+      "Pricing varies by city, date, and guest count across all four tiers. Message us on WhatsApp and we'll send you real numbers for each package to compare directly.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet, giving you time to compare before booking.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll send you a full comparison of our packages with real pricing.",
+    faqs: [
+      {
+        q: "What's the quickest way to see a baraat setup comparison?",
+        a: "Message us your date and city on WhatsApp and we'll send a real side-by-side comparison with pricing for all four packages.",
+      },
+      {
+        q: "What's shared across all four packages?",
+        a: "The truck, DJ artist, sound system, a vintage car, and the safa team's turban styling are included in every tier.",
+      },
+      {
+        q: "What differs the most between the packages?",
+        a: "Dhol count, lighting production, entertainment, and effects like pyro and confetti scale up significantly from Raj Tilak to Signature.",
+      },
+      {
+        q: "Is Signature significantly more expensive than Raj Tilak?",
+        a: "Yes, reflecting its much larger production — 6 dhol, full LED lighting, effects, the premium vintage car, and security.",
+      },
+      {
+        q: "How do I know which tier is right for me after comparing?",
+        a: "Message us your venue, guest count, and priorities and we'll recommend the tier that fits best.",
+      },
+      {
+        q: "How early should I do this comparison before booking?",
+        a: "As early as possible, ideally 3-4 weeks ahead during wedding season (November to February), to give yourself time to decide.",
+      },
+      {
+        q: "Can I see photos comparing the different tiers?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past entries at different package levels.",
+      },
+      {
+        q: "Is the vintage car the same across all tiers?",
+        a: "Raj Tilak through Maharaja include a vintage car or baggi, while Signature specifically upgrades to an American vintage car.",
+      },
+    ],
+  },
+
+  "all-inclusive-baraat-entry-service": {
+    slug: "all-inclusive-baraat-entry-service",
+    intro:
+      "An all inclusive baraat entry service means one booking covers everything — the truck, dhol team, vintage car, and safa team — instead of coordinating multiple vendors separately.\n\nEvery PlanMyBaraat package, from Raj Tilak to Signature, is built this way, so you get a complete entry with one point of contact.",
+    explanation:
+      "Rather than separately sourcing a DJ truck rental, a dhol group, a car for the groom, and a turban stylist, our all inclusive approach bundles everything into one coordinated booking. This means timing, positioning, and the overall flow of the entry are planned together by one team, not stitched together on the day from independent vendors.\n\nThis matters especially for a baraat, where the truck, dhol, and groom's arrival all need to move in sync — much easier when one team is managing the whole thing.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team as the core all-inclusive base, with higher tiers adding more dhol, LED production, entertainers, and effects.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. We quote based on your date, city, and guest count. Message us on WhatsApp for a real quote covering the full all-inclusive service.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for full-service packages peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the all-inclusive package's available, usually within the hour.",
+    faqs: [
+      {
+        q: "What does 'all inclusive' mean for your baraat service?",
+        a: "One booking covers the truck, dhol team, vintage car, and safa team together, coordinated by one team rather than separate vendors.",
+      },
+      {
+        q: "Is this different from booking each piece separately?",
+        a: "Yes, separate bookings mean coordinating multiple vendors' schedules independently, while our all-inclusive approach handles timing and positioning as one operation.",
+      },
+      {
+        q: "How much does the all-inclusive service cost?",
+        a: "It depends on the package tier, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does every package tier offer this all-inclusive structure?",
+        a: "Yes, from Raj Tilak to Signature, every package bundles the truck, dhol, car, and safa team together.",
+      },
+      {
+        q: "How early should I book an all-inclusive package?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Does the all-inclusive service handle timing coordination too?",
+        a: "Yes, our team plans the timing and positioning of the truck, dhol, and groom's arrival together as one coordinated entry.",
+      },
+      {
+        q: "Is this more reliable than separate vendors?",
+        a: "Yes, since one team manages the whole entry, there's less risk of miscommunication or timing issues between separately hired vendors.",
+      },
+      {
+        q: "How do I book the all-inclusive service?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count, and we'll confirm availability.",
+      },
+    ],
+  },
+
+  "full-inclusive-baraat-entry": {
+    slug: "full-inclusive-baraat-entry",
+    intro:
+      "A full inclusive baraat entry covers the truck, dhol team, vintage car, and safa team as one coordinated package, so you're not piecing together multiple separate vendors for your procession.\n\nPlanMyBaraat's packages, from Raj Tilak to Signature, are built this way from the start.",
+    explanation:
+      "Full inclusion means every core element of the baraat — the truck's sound and lighting, live dhol drumming, the groom's vintage car arrival, and turban styling for the group — comes as one booking with one team managing the timing and coordination.\n\nThis is different from a partial service that covers just the truck or just the dhol, leaving you to arrange the rest independently and hope everything lines up on the wedding day.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team as the full inclusive base, with higher tiers adding more dhol, LED production, entertainers, and effects.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. We quote based on your date, city, and guest count. Message us on WhatsApp for a real quote covering the full inclusive entry.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for fully inclusive packages peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the full inclusive package's available, usually within the hour.",
+    faqs: [
+      {
+        q: "What does 'full inclusive' mean for a baraat entry?",
+        a: "Every core element — truck, dhol, vintage car, and safa team — is included in one booking, managed by one coordinated team.",
+      },
+      {
+        q: "Is this different from a partial baraat service?",
+        a: "Yes, a partial service might cover just the truck or just the dhol, leaving you to arrange the rest separately.",
+      },
+      {
+        q: "How much does a full inclusive baraat entry cost?",
+        a: "It depends on the package tier, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does every package tier offer full inclusion?",
+        a: "Yes, from Raj Tilak to Signature, every package includes the truck, dhol, car, and safa team.",
+      },
+      {
+        q: "How early should I book a full inclusive package?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Does full inclusion cover timing coordination too?",
+        a: "Yes, our team plans the timing and positioning of the truck, dhol, and groom's arrival together.",
+      },
+      {
+        q: "Is a full inclusive entry more expensive than piecing it together myself?",
+        a: "It's typically comparable or better value, since you avoid coordination gaps and multiple vendor markups by booking through one team.",
+      },
+      {
+        q: "How do I book a full inclusive entry?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count, and we'll confirm availability.",
+      },
+    ],
+  },
 };

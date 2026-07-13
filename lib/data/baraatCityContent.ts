@@ -3395,4 +3395,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-dumas-road": {
+    slug: "surat-dumas-road",
+    intro:
+      "Dumas Road runs out toward Surat's well-known Dumas Beach, and the venues along this stretch benefit from a more open, scenic setting than the denser parts of the city. A grand baraat entry here has that seaside-adjacent feel, with wide roads for most of the way.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Dumas Road is generally wide and straightforward for a full truck setup, especially the stretch closer to the city. It connects to Athwalines and Bhatar, so guests from that broader central-west Surat pocket have an easy route in.\n\nWe've handled entries along Dumas Road and, if your venue is closer to the beach itself, we'll confirm the route and timing in advance.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car — a great photo opportunity given the scenic surroundings — and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Dumas Road that means knowing the stretch from the city side out toward the beach, so we can plan the right route whether your venue is close to town or further out.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries along this corridor.",
+    pricingGuidance:
+      "On how much does baraat cost for a Dumas Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming your exact venue location given how far this road stretches toward the coast.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Dumas Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Dumas Road, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover venues near Dumas Beach as well as closer to the city?",
+        a: "Yes, we cover the full corridor. Tell us your exact venue and we'll confirm the route, whether it's closer to town or further out toward the beach.",
+      },
+      {
+        q: "How early should I book for a Dumas Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Is Dumas Road good for a full truck entry?",
+        a: "Yes, especially the stretch closer to the city, which is generally wide and straightforward for a double decker truck.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car — a good option for photos given the scenic setting.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-rander": {
+    slug: "surat-rander",
+    intro:
+      "Rander sits across the Tapi river from central Surat, one of the city's oldest neighborhoods with a genuinely historic character all its own. A baraat entry here often means crossing the river as part of the route, which adds a bit of its own drama to the procession.\n\nPlanMyBaraat runs baraat on wheels packages that account for that kind of route: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Rander's older lanes are narrower than the newer parts of Surat, similar in character to some of Vadodara's old-city neighborhoods, so we typically plan for the truck to stop at the nearest accessible point with the dhol team leading the final stretch.\n\nWe've handled entries in Rander before and know the crossing timing that works best to avoid river-bridge traffic.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a practical choice for Rander's older, narrower streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, adapted carefully for this historic part of the city.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Rander that means knowing the bridge crossing timing and exactly where the truck can reach before the streets narrow into the old town.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the specific logistics of a river-crossing, old-town entry.",
+    pricingGuidance:
+      "On how much does baraat cost for a Rander entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point and works well given the narrower old-town streets. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice during peak season is a safe bet, with a bit of extra buffer given the bridge crossing involved.\n\nA rough headcount for the baraati group helps us plan how much space the group needs for any walking portion of the entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Rander, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Rander, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the baraat route cross the Tapi river to reach Rander?",
+        a: "It can, depending on where your venue and starting point are. We plan the timing around bridge traffic so the procession stays on schedule.",
+      },
+      {
+        q: "How early should I book for a Rander wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, with a bit of extra buffer if the route involves crossing the river.",
+      },
+      {
+        q: "Can a truck reach venues in Rander's old-town lanes?",
+        a: "Not always all the way — we park at the nearest accessible point and have the dhol team lead the group on foot for the final stretch, which is standard for this historic part of the city.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, well suited to Rander's narrower streets. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-bhatar": {
+    slug: "surat-bhatar",
+    intro:
+      "Bhatar is a settled residential neighborhood connecting Athwalines and Ghod Dod Road, with a good number of community halls and a comfortable, established feel. A baraat entry here tends to be a straightforward affair, without the scale of Vesu or the density of Varachha.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Bhatar's roads are moderate in width, comfortable for a truck setup in most cases. It connects easily to Athwalines and Ghod Dod Road, so guests coming from either side of central Surat have a straightforward route in.\n\nWe've handled a good number of entries in this part of the city.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Bhatar that means knowing the connecting routes to Athwalines and Ghod Dod Road well, which helps when guests are spread across that broader central Surat pocket.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Bhatar entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the right setup for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Bhatar, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Bhatar, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Bhatar's roads good for a truck entry?",
+        a: "Yes, they're moderate in width and generally comfortable for a full truck setup.",
+      },
+      {
+        q: "How early should I book for a Bhatar wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover venues near Athwalines and Ghod Dod Road too?",
+        a: "Yes, we cover the broader central Surat pocket including Athwalines and Ghod Dod Road. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

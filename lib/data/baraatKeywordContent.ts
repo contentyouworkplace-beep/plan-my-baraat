@@ -2514,4 +2514,104 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "mascot-artist-for-wedding": {
+    slug: "mascot-artist-for-wedding",
+    intro:
+      "A mascot artist for wedding baraats is a costumed performer — like a teddy bear or gorilla character — who dances through the crowd during the procession, adding a fun, visually distinct presence to the entry.\n\nPlanMyBaraat includes a mascot performer as part of our Rajwada package and above, alongside the truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "The mascot works the crowd directly, unlike the DJ or dhol team who perform from a fixed position — dancing alongside guests, posing for photos, and adding a lighthearted visual element to balance the more traditional aspects of the procession.\n\nThis is a popular addition for families who want the entry to feel playful and interactive, not just musically loud, and works well alongside the dhol team's energy throughout the walk.",
+    whatsIncluded:
+      "Rajwada includes 1 teddy or gorilla artist alongside the truck, DJ, 4 dhol, chhatri lights, a vintage car, and a safa team. Maharaja and Signature carry this mascot forward alongside their additional production.",
+    pricingGuidance:
+      "The mascot artist is included from the Rajwada package upward. Message us on WhatsApp with your date and city, and we'll walk you through what's included and give you a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for packages with entertainers peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm a package with a mascot artist for your baraat.",
+    faqs: [
+      {
+        q: "What kind of mascot character do you offer?",
+        a: "A teddy bear or gorilla costume, chosen for its fun, crowd-pleasing character, included from the Rajwada package upward.",
+      },
+      {
+        q: "How much does a mascot artist for wedding cost?",
+        a: "It's included as part of the Rajwada package and above. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the mascot dance with guests directly?",
+        a: "Yes, they move through the crowd, dancing with guests and creating fun, interactive photo moments throughout the procession.",
+      },
+      {
+        q: "Is the mascot artist available in the starting package?",
+        a: "No, it's included from Rajwada upward, not in Raj Tilak, our starting tier.",
+      },
+      {
+        q: "How early should I book a package with a mascot?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since these packages are popular.",
+      },
+      {
+        q: "Does the mascot work alongside the dhol team?",
+        a: "Yes, they add to the overall energy of the procession alongside the truck, DJ, and dhol team.",
+      },
+      {
+        q: "Can I request a different mascot character?",
+        a: "Message us with your preferences on WhatsApp and we'll let you know what's possible.",
+      },
+      {
+        q: "Is the mascot suitable for all ages in the crowd?",
+        a: "Yes, it's a family-friendly, playful character designed to entertain guests of all ages.",
+      },
+    ],
+  },
+
+  "crowd-engagement-artist-wedding": {
+    slug: "crowd-engagement-artist-wedding",
+    intro:
+      "A crowd engagement artist for wedding baraats works the procession directly, interacting with guests, encouraging dancing, and keeping the energy up beyond what music alone provides.\n\nPlanMyBaraat includes a teddy or gorilla performer for this role as part of our Rajwada package and above.",
+    explanation:
+      "While the DJ and dhol team provide the music and rhythm, a crowd engagement artist adds a personal, interactive layer — moving through the group, dancing with individual guests, and helping keep momentum up especially during longer processions or quieter musical stretches.\n\nThis role works best alongside a strong music setup rather than replacing it, which is why it's included as an add-on to the truck and dhol combination rather than a standalone booking.",
+    whatsIncluded:
+      "Rajwada includes 1 teddy or gorilla artist alongside the truck, DJ, 4 dhol, chhatri lights, a vintage car, and a safa team. Maharaja and Signature carry this forward with additional production layered on top.",
+    pricingGuidance:
+      "The crowd engagement artist is included from the Rajwada package upward. Message us on WhatsApp with your date and city, and we'll give you a real quote covering the full package.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for packages with entertainers peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm a package with a crowd engagement artist for your baraat.",
+    faqs: [
+      {
+        q: "What does a crowd engagement artist actually do during the baraat?",
+        a: "They move through the procession, dancing with guests directly and helping keep energy up throughout the walk, especially during quieter musical moments.",
+      },
+      {
+        q: "Which package includes this?",
+        a: "Rajwada and above include a teddy or gorilla performer for crowd engagement.",
+      },
+      {
+        q: "How much does a crowd engagement artist cost?",
+        a: "It's included as part of the Rajwada package and above. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does this replace the need for a DJ or dhol team?",
+        a: "No, it works alongside the music setup rather than replacing it — the truck, DJ, and dhol team are the foundation, with the entertainer adding to that energy.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since these packages are popular.",
+      },
+      {
+        q: "Is this available in the starting package?",
+        a: "No, it's included from Rajwada upward, not in Raj Tilak.",
+      },
+      {
+        q: "Does the artist interact with the whole guest list or just a few people?",
+        a: "They move through the whole crowd during the procession, engaging with as many guests as possible along the way.",
+      },
+      {
+        q: "What costume does the crowd engagement artist wear?",
+        a: "A teddy bear or gorilla costume, chosen for being fun and approachable for guests of all ages.",
+      },
+    ],
+  },
 };

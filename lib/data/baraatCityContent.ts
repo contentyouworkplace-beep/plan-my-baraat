@@ -6275,4 +6275,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "ahmedabad-judges-bungalow-road": {
+    slug: "ahmedabad-judges-bungalow-road",
+    intro:
+      "Judges Bungalow Road is an upscale stretch near Bodakdev and Thaltej, known for its high-end residences and a handful of premium event venues. A grand baraat entry here fits the polished character of this part of the city.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Judges Bungalow Road is wide and well-maintained, making truck access straightforward. It connects easily to Bodakdev and Thaltej, so guests from that broader western Ahmedabad pocket have an easy route in.\n\nWe've handled a good number of entries along this stretch.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Judges Bungalow Road that means knowing how the premium venues here handle truck access and parking, and planning around it in advance.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger, more upscale entries common in this part of Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for a Judges Bungalow Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and premium venues along this stretch get booked out early during that window. We'd recommend locking in your baraat entry at least 4 weeks ahead if your date falls in peak season.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Judges Bungalow Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Judges Bungalow Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Judges Bungalow Road good for a bigger baraat entry?",
+        a: "Yes, the roads are wide and well-maintained, and the area has premium venues, giving good room for a bigger production.",
+      },
+      {
+        q: "How early should I book for a wedding here?",
+        a: "At least 4 weeks ahead during wedding season (November to February), since premium venues along this stretch are in high demand.",
+      },
+      {
+        q: "Do you cover venues near Bodakdev and Thaltej too?",
+        a: "Yes, we cover the broader western Ahmedabad pocket including Bodakdev and Thaltej. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-sindhu-bhavan-road": {
+    slug: "ahmedabad-sindhu-bhavan-road",
+    intro:
+      "Sindhu Bhavan Road is one of Ahmedabad's most in-demand wedding corridors, wide and lined with premium lawns and banquet halls. A grand baraat entry here has all the room it needs for a full-scale production, which is exactly why this stretch stays booked out during peak season.\n\nPlanMyBaraat runs baraat on wheels packages designed for exactly this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Sindhu Bhavan Road is wide for most of its length, with good parking near most of the major venues. It's one of the busiest wedding corridors in Ahmedabad during peak season, so on a Saturday evening you'll likely see other baraats along the same stretch.\n\nWe've run a large number of entries along this road, so we know the timing and positioning that works best for each of the bigger halls here.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this road's width and lighting make for a strong visual entry. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to the scale of weddings this corridor typically hosts.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and Sindhu Bhavan Road is one of the corridors we work most often — which means we know exactly how each major hall here handles truck access and parking, and we plan around it rather than guessing.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger, more competitive entries common along this stretch.",
+    pricingGuidance:
+      "On how much does baraat cost along Sindhu Bhavan Road: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team, which suits the bigger crowds common on this stretch.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Sindhu Bhavan Road is one of the most booked corridors in Ahmedabad during that time. We'd strongly recommend locking in your baraat entry at least 4-5 weeks ahead if your date falls in peak season, since both venues and our booking calendar fill up fast here.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how many bigger, more elaborate entries happen along this road.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Sindhu Bhavan Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Sindhu Bhavan Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Why is Sindhu Bhavan Road so popular for baraat entries?",
+        a: "It's one of Ahmedabad's widest, best-lit wedding corridors, with several premium lawns and banquet halls, giving plenty of room for a large truck, dhol team, and crowd.",
+      },
+      {
+        q: "How early should I book for a Sindhu Bhavan Road wedding?",
+        a: "At least 4-5 weeks ahead during wedding season (November to February) — this is one of the most booked corridors in Ahmedabad, both for venues and for our truck calendar.",
+      },
+      {
+        q: "Will there be other baraats on the same road on my wedding date?",
+        a: "It's very likely, especially on Saturday evenings during peak season. We plan your entry's timing and positioning to make sure it still stands out.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to the scale of Sindhu Bhavan Road weddings.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-shilaj": {
+    slug: "ahmedabad-shilaj",
+    intro:
+      "Shilaj is one of Ahmedabad's newer far-western neighborhoods, close to Shela and South Bopal, with wide open roads and venues that keep opening as the area expands. A grand baraat entry here has plenty of room to be as elaborate as the family wants.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Shilaj's roads are wide and new, making it one of the easier parts of Ahmedabad for a full truck setup. Being at the far edge of the western growth corridor, it's a fair distance from central Ahmedabad, so factor in extra travel time for guests coming from Navrangpura or CG Road.\n\nWe've handled entries at several of the newer venues here, and since the area keeps expanding, if your hall is somewhere very recently built, just flag it when you message us.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — Shilaj's wide roads make this a strong visual choice. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to the bigger, more open entries this area allows for.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a fast-developing area like Shilaj that means staying current on new venues as they open, and planning routes that make full use of the open roads here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more elaborate entries this area allows for.",
+    pricingGuidance:
+      "On how much does baraat cost for a Shilaj entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team, which suits the scale of weddings this newer area tends to host.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and this area's popularity as a newer venue hub means booking 3-4 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this area allows for a bigger entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Shilaj, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Shilaj, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Shilaj far from central Ahmedabad?",
+        a: "It's at the far edge of the western growth corridor, so factor in extra travel time if guests are coming from Navrangpura or CG Road.",
+      },
+      {
+        q: "How early should I book for a Shilaj wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this newer area has become.",
+      },
+      {
+        q: "Are Shilaj's roads good for a bigger baraat entry?",
+        a: "Yes, since this is one of the newest parts of Ahmedabad, the roads are wide and open, giving plenty of room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Shilaj's open-road entries.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

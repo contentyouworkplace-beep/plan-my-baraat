@@ -5014,4 +5014,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-setup-for-budget-wedding": {
+    slug: "baraat-setup-for-budget-wedding",
+    intro:
+      "A baraat setup for budget wedding doesn't have to mean cutting corners — PlanMyBaraat's Raj Tilak package gives you a complete entry: truck, DJ, dhol team, vintage car, and safa team, at our most accessible price point.\n\nMessage us on WhatsApp with your date and city, and we'll help you plan a baraat that fits your budget without missing the essentials.",
+    explanation:
+      "For families working within a tighter budget, Raj Tilak includes everything a baraat entry genuinely needs — a proper double decker truck, live DJ performance, 2 dhol players, chhatri lighting, a vintage car for the groom, and turban styling for the baraati group.\n\nWe've found that a well-executed Raj Tilak entry often feels just as celebratory as a bigger production, since the core elements — good music, live drumming, and a dignified groom's arrival — are all there.",
+    whatsIncluded:
+      "Raj Tilak includes the DJ truck, sound system, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team — the complete entry at our budget-friendly tier.",
+    pricingGuidance:
+      "Raj Tilak's exact price varies slightly by city, date, and guest count. Message us on WhatsApp with your details, and we'll respond with the real number for your budget.",
+    bookingNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice is usually enough for the starting package, though earlier is always safer.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and budget range, and we'll recommend a setup that fits, usually within the hour.",
+    faqs: [
+      {
+        q: "What's the best baraat setup for a budget wedding?",
+        a: "Raj Tilak, our starting package, gives you a complete entry — truck, DJ, 2 dhol, chhatri lights, car, and safa team — at our most affordable price point.",
+      },
+      {
+        q: "Does a budget setup feel less celebratory?",
+        a: "Not necessarily — the core elements that make a baraat feel celebratory (music, live drumming, the groom's arrival) are all included even at the starting tier.",
+      },
+      {
+        q: "How much does a budget baraat setup cost?",
+        a: "It varies slightly by city, date, and guest count. Message us on WhatsApp with your details for the exact number.",
+      },
+      {
+        q: "Can I add small upgrades without jumping to the next tier?",
+        a: "Message us with your specific needs and budget, and we'll let you know what's possible.",
+      },
+      {
+        q: "How early should I book for a budget-friendly entry?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough for Raj Tilak.",
+      },
+      {
+        q: "Is the vintage car included even in the budget package?",
+        a: "Yes, a vintage car or baggi is included in every package, including Raj Tilak.",
+      },
+      {
+        q: "Does a smaller guest list work well with the budget package?",
+        a: "Yes, Raj Tilak works especially well for smaller to mid-sized guest lists, and we can advise based on your specific numbers.",
+      },
+      {
+        q: "How do I get a quote that fits my budget?",
+        a: "Message us on WhatsApp with your wedding date, city, and budget range, and we'll recommend the right package.",
+      },
+    ],
+  },
+
+  "baraat-setup-for-luxury-wedding": {
+    slug: "baraat-setup-for-luxury-wedding",
+    intro:
+      "A baraat setup for luxury wedding calls for PlanMyBaraat's Maharaja or Signature packages, built with the extra production, dhol count, and effects a bigger, more elaborate celebration deserves.\n\nMessage us on WhatsApp with your date, city, and vision, and we'll recommend the right tier for a luxury entry.",
+    explanation:
+      "Maharaja steps up with 6 dhol players, moving LED panels, and the groom's name displayed in custom lettering — a strong step above the base tiers. Signature goes further, adding pyro highlights, confetti and CO2 effects, a fake money gun, an American vintage car, and 4 professional bouncers for full crowd management.\n\nThese higher tiers are designed for families who want the entry itself to feel like a major production, matching the scale of a larger, more elaborate wedding celebration.",
+    whatsIncluded:
+      "Maharaja includes 6 dhol, moving LED panels, custom name lighting, a vintage car, and a safa team. Signature adds pyro, confetti, CO2 effects, a fake money gun, an American vintage car, and 4 professional bouncers.",
+    pricingGuidance:
+      "Maharaja and Signature pricing varies by city, date, and guest count. Message us on WhatsApp with your details, and we'll respond with real numbers for both tiers.",
+    bookingNotes:
+      "Wedding season runs November to February, and our higher-tier packages are especially popular during that stretch. 3-4 weeks' notice or more is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll recommend Maharaja or Signature based on your vision, usually within the hour.",
+    faqs: [
+      {
+        q: "Which package is best for a luxury wedding?",
+        a: "Maharaja and Signature are built for this — more dhol, LED visuals, entertainers, and (in Signature) effects like pyro and confetti plus a security team.",
+      },
+      {
+        q: "What's the difference between Maharaja and Signature for a luxury entry?",
+        a: "Maharaja includes 6 dhol and LED visuals; Signature adds pyro, confetti, CO2 effects, a fake money gun, the American vintage car, and security.",
+      },
+      {
+        q: "How much does a luxury baraat setup cost?",
+        a: "It varies by city, date, and guest count. Message us on WhatsApp with your details for real numbers on Maharaja and Signature.",
+      },
+      {
+        q: "Is Signature the most complete luxury option?",
+        a: "Yes, it's our top package with the fullest production lineup available.",
+      },
+      {
+        q: "How early should I book for a luxury entry?",
+        a: "3-4 weeks ahead or more during wedding season (November to February) is a safe window, since these packages are popular.",
+      },
+      {
+        q: "Does a luxury setup include a premium vintage car?",
+        a: "Yes, Signature specifically includes an American vintage car for a more premium look.",
+      },
+      {
+        q: "Is security included with the luxury package?",
+        a: "Yes, Signature includes 4 professional bouncers as part of its full production.",
+      },
+      {
+        q: "How do I plan a luxury entry for my wedding?",
+        a: "Message us on WhatsApp with your date, city, and vision, and we'll recommend the right package and give you a real quote.",
+      },
+    ],
+  },
+
+  "baraat-budget-planning-guide": {
+    slug: "baraat-budget-planning-guide",
+    intro:
+      "A baraat budget planning guide starts with knowing what drives cost — package tier, dhol count, and any extra effects — so you can decide where to spend and where to keep things simple.\n\nPlanMyBaraat's four packages give you a clear structure to plan against, from Raj Tilak's essentials to Signature's full production.",
+    explanation:
+      "Start by deciding on your priorities: if a strong, reliable entry matters most, Raj Tilak covers the truck, DJ, dhol, car, and safa team at our most affordable tier. If visual production matters more — LED visuals, custom lighting, entertainers — Maharaja is worth considering. If you want the fullest, most memorable production with effects and security, Signature is built for that.\n\nGuest count also matters for planning — a larger crowd often benefits from more dhol players and a stronger sound system, which naturally points toward the higher tiers.",
+    whatsIncluded:
+      "Raj Tilak covers the essentials. Rajwada adds more dhol and an entertainer. Maharaja brings LED visuals and custom lettering. Signature adds pyro, confetti, and security for the most complete production.",
+    pricingGuidance:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll walk you through real pricing for each package so you can plan your budget with actual numbers.",
+    bookingNotes:
+      "Wedding season runs November to February. Planning your budget early — ideally 3-4 weeks ahead — gives you time to compare packages without rushing a decision.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll help you plan a baraat budget that fits your priorities.",
+    faqs: [
+      {
+        q: "How do I start planning my baraat budget?",
+        a: "Decide what matters most — a solid, reliable entry (Raj Tilak), visual production (Maharaja), or the fullest experience (Signature) — then message us for real pricing on that tier.",
+      },
+      {
+        q: "What drives the cost of a baraat setup?",
+        a: "Package tier, dhol count, and any extra effects like pyro or confetti are the main cost drivers.",
+      },
+      {
+        q: "Should guest count affect my budget planning?",
+        a: "Yes, a larger crowd often benefits from more dhol players and a stronger sound system, which points toward the higher tiers.",
+      },
+      {
+        q: "Is it better to start with the cheapest package and add on?",
+        a: "It's usually clearer to pick the package tier that matches your priorities from the start — message us and we'll help you decide.",
+      },
+      {
+        q: "How early should I plan my baraat budget?",
+        a: "As early as possible, ideally 3-4 weeks ahead during wedding season (November to February), to compare packages without rushing.",
+      },
+      {
+        q: "Can I get real prices for all four packages to compare?",
+        a: "Yes, message us your date and city and we'll walk you through pricing for each tier.",
+      },
+      {
+        q: "Does the vintage car cost extra on top of my budget?",
+        a: "No, a vintage car or baggi is included in every package, not a separate add-on.",
+      },
+      {
+        q: "How do I get a personalized budget plan?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll help you plan based on real numbers.",
+      },
+    ],
+  },
 };

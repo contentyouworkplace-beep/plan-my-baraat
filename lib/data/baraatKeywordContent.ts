@@ -464,4 +464,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "mobile-dj-truck-for-baraat": {
+    slug: "mobile-dj-truck-for-baraat",
+    intro:
+      "A mobile DJ truck for baraat is exactly what it sounds like — a truck-mounted DJ setup that moves with the procession instead of staying fixed at one point, so the music never stops as the baraati group walks toward the venue.\n\nPlanMyBaraat's mobile DJ truck comes as part of a full baraat package, alongside a dhol team, a vintage car, and a safa team.",
+    explanation:
+      "The mobility is the whole point — a fixed sound system at the venue entrance means the baraat walks in silence until they arrive, which defeats the purpose of a grand entry. Our truck carries the sound system and DJ artist and moves at walking pace for the entire route, so the music and energy build the whole way, not just at the last few steps.\n\nThe dhol team walks alongside the truck to keep rhythm going between DJ tracks, and the whole procession arrives at the venue together as one continuous celebration.",
+    whatsIncluded:
+      "Every package includes the mobile DJ truck, sound system, and DJ artist. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team are included from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and mobile DJ trucks get booked out fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Does the mobile DJ truck play music the whole route?",
+        a: "Yes, the DJ performs live from the truck for the entire walk from the starting point to the venue, not just at the entrance.",
+      },
+      {
+        q: "How much does a mobile DJ truck for baraat cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "What speed does the truck move at?",
+        a: "It moves at walking pace so the baraati group can dance alongside it comfortably the whole way.",
+      },
+      {
+        q: "Can the truck navigate narrow lanes?",
+        a: "In most cases yes, though we check your exact venue's approach road in advance since some older neighborhoods have narrower lanes.",
+      },
+      {
+        q: "How early should I book a mobile DJ truck?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since trucks get booked out fast.",
+      },
+      {
+        q: "Is the dhol team included with the truck?",
+        a: "Yes, dhol players are included in every package alongside the truck, not booked separately.",
+      },
+      {
+        q: "Does the truck have lighting for evening entries?",
+        a: "Yes, chhatri lights come with the starting package, and higher tiers add moving LED panels.",
+      },
+      {
+        q: "What's included in the starting package?",
+        a: "Raj Tilak covers the truck, DJ, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+      },
+    ],
+  },
+
+  "wedding-dj-truck-with-lights": {
+    slug: "wedding-dj-truck-with-lights",
+    intro:
+      "A wedding DJ truck with lights is the standard setup for an evening baraat entry — the truck carries not just the sound system but a full lighting rig, so the entry looks as good as it sounds once the sun goes down.\n\nPlanMyBaraat's DJ truck comes with lighting built in from the starting package, as part of a complete baraat entry alongside a dhol team, a vintage car, and a safa team.",
+    explanation:
+      "Chhatri lights — traditional umbrella-style lights carried or mounted around the truck — come standard with every package, giving the entry a warm, festive glow for evening processions. On higher packages, we add moving LED panels along the truck body and custom LED lettering that spells out the groom's name, visible from a distance as the truck approaches.\n\nThe lighting is designed to work with the truck's movement, so it stays bright and visible the whole route, not just when the truck is stationary.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, and lighting as the base. Raj Tilak includes 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and how much lighting and effects you want. Raj Tilak is the most affordable option with proper chhatri lighting included. Signature costs more because it includes moving LED panels, custom name lighting, and more.\n\nMessage us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and evening entries with full lighting are especially popular during that stretch. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Does every package include lighting on the truck?",
+        a: "Yes, chhatri lights come with every package starting from Raj Tilak, and higher tiers add moving LED panels and custom name lettering.",
+      },
+      {
+        q: "How much does a wedding DJ truck with lights cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the lights spell out our names?",
+        a: "Yes, the Maharaja and Signature packages include the groom's name displayed in custom LED lettering on the truck.",
+      },
+      {
+        q: "Is the lighting good enough for a night entry?",
+        a: "Yes, the lighting setup is built specifically for evening and night baraat entries, when it has the most visual impact.",
+      },
+      {
+        q: "How early should I book for an evening entry?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since evening slots are especially popular.",
+      },
+      {
+        q: "Does the lighting work while the truck is moving?",
+        a: "Yes, it's designed to stay bright and visible for the whole moving procession, not just when the truck is parked.",
+      },
+      {
+        q: "Can I choose a specific lighting color theme?",
+        a: "Message us on WhatsApp with your preferences and we'll let you know what's possible for your package.",
+      },
+      {
+        q: "What's the difference between the package tiers?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+    ],
+  },
+
+  "dj-truck-with-sound-system-rental": {
+    slug: "dj-truck-with-sound-system-rental",
+    intro:
+      "Searching for a DJ truck with sound system rental usually means you want to be sure the audio quality is genuinely good, not just a truck with a small speaker bolted on. PlanMyBaraat's trucks carry a concert-grade sound system built for outdoor, moving-crowd use.\n\nThe truck and sound system come as part of a full baraat package, alongside a dhol team, a vintage car, and a safa team.",
+    explanation:
+      "Outdoor sound for a moving crowd is different from indoor venue audio — it needs to project clearly over dhol drums, crowd noise, and open-air acoustics without distortion. Our trucks are fitted with a professional sound system sized for this exact use, run by a DJ artist who performs live rather than just playing a fixed playlist.\n\nThe sound system sits on the lower deck of the double decker truck, with the DJ performing on the upper deck, so the audio quality holds up even as the truck moves at walking pace through a dancing crowd.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist as the base. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Raj Tilak is the most affordable option with a proper sound system included. Signature costs more because it includes more overall production.\n\nMessage us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for full sound setups peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Is the sound system good enough for a large outdoor crowd?",
+        a: "Yes, the truck carries a concert-grade sound system specifically built for outdoor, moving-crowd baraat use.",
+      },
+      {
+        q: "How much does a DJ truck with sound system rental cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does a live DJ operate the sound system?",
+        a: "Yes, a professional DJ artist performs live from the truck rather than just running a fixed playlist.",
+      },
+      {
+        q: "Can the sound system handle both music and announcements?",
+        a: "Yes, it's set up for both continuous music and any announcements you might need during the procession.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since trucks get booked out fast.",
+      },
+      {
+        q: "Does the sound quality hold up while the truck is moving?",
+        a: "Yes, it's designed for exactly that — steady, clear sound as the truck moves at walking pace through the crowd.",
+      },
+      {
+        q: "Is the dhol team included with the sound system rental?",
+        a: "Yes, dhol players are included in every package, not booked separately from the truck.",
+      },
+      {
+        q: "What's included in the starting package?",
+        a: "Raj Tilak covers the truck, sound system, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+      },
+    ],
+  },
 };

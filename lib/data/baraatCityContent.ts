@@ -3107,4 +3107,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-piplod": {
+    slug: "surat-piplod",
+    intro:
+      "Piplod sits close to City Light, another of Surat's upscale, well-connected neighborhoods, with a good mix of banquet halls and society venues. A baraat entry here benefits from wide roads and a genuinely central location that most guests can reach easily.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Piplod's roads are generally wide, making truck access straightforward for most venues. It connects easily to City Light and Athwalines, so guests from that broader central Surat pocket have an easy route in.\n\nWe've handled a good number of entries in Piplod's venue clusters and residential societies.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Piplod that means knowing the connecting routes to City Light and Athwalines well, which helps when guests are spread across that central Surat pocket.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Piplod entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice during peak season is a safe bet given how popular this central pocket is.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Piplod, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Piplod, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Piplod's roads good for a truck entry?",
+        a: "Yes, they're generally wide, making truck access straightforward for most venues in the area.",
+      },
+      {
+        q: "How early should I book for a Piplod wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this pocket is.",
+      },
+      {
+        q: "Do you cover venues near City Light and Athwalines too?",
+        a: "Yes, we cover the broader central Surat pocket including City Light and Athwalines. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-athwalines": {
+    slug: "surat-athwalines",
+    intro:
+      "Athwalines is one of Surat's older, more established neighborhoods, central and dense, with a mix of residential buildings and long-running community halls. A baraat entry here has a genuinely local character, closer in feel to Vadodara's Alkapuri than to Surat's newer western suburbs.\n\nPlanMyBaraat runs baraat on wheels packages adapted for this kind of busier, more established setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Athwalines' roads are busier and a bit narrower than City Light or Vesu, given how central and established this neighborhood is. Parking near venues can be tighter, so we scope the exact route and stopping point in advance.\n\nIt's centrally located, connecting easily to Ghod Dod Road and Nanpura, making it convenient for guests coming from across the city even with busier immediate streets.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a solid fit for Athwalines' busier, more central streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, useful given how much foot traffic this area gets in the evening.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Athwalines that means knowing which streets can take a full-size truck and where we need to plan a shorter final stretch on foot with the dhol team leading.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and several have handled entries in this exact part of Surat before.",
+    pricingGuidance:
+      "On how much does baraat cost for an Athwalines entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point and often works well here given the tighter street layout. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. We'd recommend locking in your baraat entry at least 3 weeks ahead if your date falls in peak season, since this central neighborhood books up alongside the rest of Surat's busy season.\n\nGiven the tighter parking, let us know your venue's exact access point so we can plan the truck's position in advance. A rough headcount for the baraati group also helps.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Athwalines, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Athwalines, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can a double decker truck reach venues in Athwalines?",
+        a: "In most cases yes, though some streets are narrower than Surat's newer suburbs. We check your exact venue in advance and plan the truck's stopping point accordingly.",
+      },
+      {
+        q: "How early should I book for an Athwalines wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since this central neighborhood is one of Surat's busiest.",
+      },
+      {
+        q: "Is parking a problem for the DJ truck near Athwalines venues?",
+        a: "It can be tighter than newer parts of the city. Let us know your venue's exact access point and we'll plan the truck's position accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, sized well for Athwalines' narrower streets. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-ghod-dod-road": {
+    slug: "surat-ghod-dod-road",
+    intro:
+      "Ghod Dod Road is one of Surat's busiest commercial arteries, lined with shops, offices, and a number of wedding halls that have hosted baraat entries for years. It's a high-visibility spot — a lot of people will see your entry, simply because of how much traffic this road carries.\n\nPlanMyBaraat runs baraat on wheels packages built to work with that kind of busy commercial corridor: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Ghod Dod Road is busy through most of the evening given the commercial activity, so parking near venues can be tighter than in the newer western suburbs. We scout the exact route and plan the truck's stopping point in advance to avoid delays.\n\nIt connects easily to Athwalines and Nanpura, making it convenient for guests coming from across central Surat.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, which works well given this road's busier, narrower stretches in parts. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, useful given the amount of foot traffic on this road.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Ghod Dod Road that means knowing which stretches get busiest in the evening, and timing your entry to avoid getting stuck en route to the venue.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly and are used to navigating Surat's busier commercial corridors without losing time.",
+    pricingGuidance:
+      "On how much does baraat cost for a Ghod Dod Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. We'd suggest locking in your baraat entry at least 3 weeks ahead during peak season, since venues on this busy corridor book up alongside the rest of Surat's season.\n\nGiven how busy the road gets, let us know your venue's exact access point so we can plan the truck's timing to avoid traffic. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Ghod Dod Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Ghod Dod Road, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is traffic a problem for a baraat entry on Ghod Dod Road?",
+        a: "It can get busy in the evening given the commercial activity. We plan the truck's timing and route to avoid the worst of it and reach your venue on schedule.",
+      },
+      {
+        q: "How early should I book for a Ghod Dod Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Is parking tight for venues on this road?",
+        a: "It can be, given how commercial and busy the area is. Let us know your venue's exact access point so we can plan the truck's stopping position in advance.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, sized well for this road's busier stretches. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

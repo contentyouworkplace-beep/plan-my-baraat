@@ -4864,4 +4864,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-starting-price": {
+    slug: "baraat-starting-price",
+    intro:
+      "Baraat starting price refers to our most affordable package, Raj Tilak, which still includes a complete entry: the truck, DJ, dhol team, vintage car, and safa team.\n\nMessage us on WhatsApp with your date and city, and we'll give you the exact starting price for your specific wedding.",
+    explanation:
+      "Raj Tilak is built to be a genuinely complete baraat entry at our most accessible price point, not a stripped-down version missing key pieces. It includes the truck, sound system, DJ artist, 2 dhol players, chhatri lights, a vintage car, and the safa team's turban styling.\n\nFrom there, Rajwada, Maharaja, and Signature each add more production — more dhol, LED visuals, entertainers, and effects — for families wanting a bigger, more elaborate entry.",
+    whatsIncluded:
+      "Raj Tilak includes the DJ truck, sound system, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team — the complete starting-price entry.",
+    pricingGuidance:
+      "The starting price reflects Raj Tilak's package cost, which varies slightly by city, date, and guest count. Message us on WhatsApp with your details, and we'll respond with the exact starting price for your event.",
+    bookingNotes:
+      "Wedding season runs November to February, and even our starting package books out fast during that window. 2-3 weeks' notice is usually enough.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll send you the exact starting price for Raj Tilak, usually within the hour.",
+    faqs: [
+      {
+        q: "What's included in the baraat starting price?",
+        a: "Raj Tilak, our starting package, includes the truck, DJ, 2 dhol, chhatri lights, a vintage car, and a safa team — a complete entry.",
+      },
+      {
+        q: "Is the starting price a stripped-down version of the full entry?",
+        a: "No, it's a complete baraat entry with all the core pieces, just with less dhol, lighting, and effects than the higher tiers.",
+      },
+      {
+        q: "How much is the exact starting price for my wedding?",
+        a: "It varies slightly by city, date, and guest count. Message us on WhatsApp with your details for the exact number.",
+      },
+      {
+        q: "Can I upgrade from the starting package later?",
+        a: "Message us if your plans change and we'll see what's possible depending on your date and how far out we are from the event.",
+      },
+      {
+        q: "How early should I book the starting package?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough, though earlier is always safer.",
+      },
+      {
+        q: "Is the starting price good value?",
+        a: "Yes, it includes the full core entry — truck, DJ, dhol, car, and safa team — without the extra production of higher tiers.",
+      },
+      {
+        q: "Does the starting price include the vintage car?",
+        a: "Yes, a vintage car or baggi is included even at the starting price tier.",
+      },
+      {
+        q: "How do I get the exact starting price?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
+
+  "cheapest-baraat-setup": {
+    slug: "cheapest-baraat-setup",
+    intro:
+      "The cheapest baraat setup PlanMyBaraat offers is Raj Tilak, and it's still a complete entry — the truck, DJ, dhol team, vintage car, and safa team, not a partial or stripped-down version.\n\nMessage us on WhatsApp with your date and city, and we'll give you the exact price for the cheapest option that fits your event.",
+    explanation:
+      "We built Raj Tilak specifically to be a genuinely usable, complete package at our most accessible price point, rather than cutting corners on the core elements. Every family gets the truck, sound system, DJ artist, dhol players, vintage car, and safa team, regardless of which tier they choose.\n\nWhat differs between Raj Tilak and the higher tiers is the amount of extra production — more dhol, LED visuals, entertainers, and effects — not the fundamentals of the entry itself.",
+    whatsIncluded:
+      "Raj Tilak includes the DJ truck, sound system, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+    pricingGuidance:
+      "The cheapest setup's exact price varies slightly by city, date, and guest count. Message us on WhatsApp with your details, and we'll respond with the real number for Raj Tilak.",
+    bookingNotes:
+      "Wedding season runs November to February, and even our cheapest package books out fast during that window. 2-3 weeks' notice is usually enough.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll send you the exact price for the cheapest baraat setup, usually within the hour.",
+    faqs: [
+      {
+        q: "What's the cheapest baraat setup you offer?",
+        a: "Raj Tilak, our starting package, includes the truck, DJ, 2 dhol, chhatri lights, a vintage car, and a safa team — a complete entry at our most affordable tier.",
+      },
+      {
+        q: "Is the cheapest setup missing any important elements?",
+        a: "No, it includes all the core pieces of a baraat entry — just with less production (fewer dhol, simpler lighting) than the higher tiers.",
+      },
+      {
+        q: "How much is the cheapest baraat setup exactly?",
+        a: "It varies slightly by city, date, and guest count. Message us on WhatsApp with your details for the exact number.",
+      },
+      {
+        q: "Is the cheapest option good enough for a proper baraat?",
+        a: "Yes, families regularly book Raj Tilak for a solid, complete entry — it's not a lesser version, just a leaner production.",
+      },
+      {
+        q: "How early should I book the cheapest package?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough, though earlier is always safer.",
+      },
+      {
+        q: "Does the cheapest setup include a vintage car?",
+        a: "Yes, a vintage car or baggi is included even at this tier.",
+      },
+      {
+        q: "Can I add extras to the cheapest setup?",
+        a: "Message us with your specific needs on WhatsApp and we'll let you know what's possible.",
+      },
+      {
+        q: "How do I get the exact price?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
+
+  "most-expensive-baraat-setup": {
+    slug: "most-expensive-baraat-setup",
+    intro:
+      "The most expensive baraat setup PlanMyBaraat offers is Signature, our top package, built for families wanting the fullest, most elaborate production for their entry.\n\nMessage us on WhatsApp with your date and city, and we'll give you the exact price for Signature.",
+    explanation:
+      "Signature includes 6 dhol players, moving LED panels, the groom's name spelled out in custom lettering, pyro highlights, confetti and CO2 effects, a fake money gun, an American vintage car, and 4 professional bouncers for crowd management — the most complete version of everything our other packages offer.\n\nIt's built for larger celebrations where scale and visual production matter, giving the entry a truly grand, memorable feel from start to finish.",
+    whatsIncluded:
+      "Signature includes the DJ truck, sound system, DJ artist, 6 dhol, moving LED panels, custom name lighting, pyro highlights, confetti CO2 gun, liquid CO2 gun, hand pyro gun, a fake money gun, an American vintage car, 4 professional bouncers, and a safa team.",
+    pricingGuidance:
+      "Signature's exact price varies by city, date, and guest count. Message us on WhatsApp with your details, and we'll respond with the real number for the full production.",
+    bookingNotes:
+      "Wedding season runs November to February, and Signature availability tightens during that window since it's a popular top-tier choice. 3-4 weeks' notice or more is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll send you the exact price for the Signature package, usually within the hour.",
+    faqs: [
+      {
+        q: "What's the most expensive baraat setup you offer?",
+        a: "Signature, our top package, includes the fullest production: 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and a security team.",
+      },
+      {
+        q: "Is Signature worth the higher price?",
+        a: "It depends on how much production and scale you want — Signature is built for families specifically wanting the fullest, most memorable entry.",
+      },
+      {
+        q: "How much does Signature exactly cost?",
+        a: "It varies by city, date, and guest count. Message us on WhatsApp with your details for the exact number.",
+      },
+      {
+        q: "What makes Signature the most complete package?",
+        a: "It includes the maximum dhol count, full LED and effects lineup, the premium American vintage car, and a dedicated security team, on top of the core truck and DJ.",
+      },
+      {
+        q: "How early should I book Signature?",
+        a: "3-4 weeks ahead or more during wedding season (November to February) is a safe window, since it's a popular top-tier choice.",
+      },
+      {
+        q: "Does Signature include a security team?",
+        a: "Yes, 4 professional bouncers are part of the Signature package.",
+      },
+      {
+        q: "Is Signature suitable for large guest lists?",
+        a: "Yes, it's built for bigger, more elaborate celebrations with the production to match a larger guest count.",
+      },
+      {
+        q: "How do I get the exact price?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
 };

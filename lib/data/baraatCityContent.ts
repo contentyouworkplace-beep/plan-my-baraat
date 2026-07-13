@@ -1187,4 +1187,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "vadodara-waghodia-road": {
+    slug: "vadodara-waghodia-road",
+    intro:
+      "Waghodia Road runs out toward Vadodara's eastern industrial belt, and while the stretch closer to GIDC is mostly commercial, the residential and venue pockets nearer the city side host a steady number of weddings. A grand baraat entry here usually has more open road to work with than the older parts of central Vadodara.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Waghodia Road itself is wide and straightforward for a full truck setup, though traffic can build up near the industrial belt during weekday evenings. Most wedding venues here are closer to the city-side end of the road rather than deep into the GIDC stretch.\n\nWe've handled entries across this corridor and the connecting pockets, and if your venue is further out toward the industrial area, just flag it when you message us so we can plan the timing around any weekday traffic.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up, which works well on this open stretch of road. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Waghodia Road that means knowing when weekday traffic near the industrial belt tends to build up, so we plan weekend and evening entries around that rather than assuming the road's always clear.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight whether your venue's closer to the city side or further out.",
+    pricingGuidance:
+      "On how much does baraat cost for a Waghodia Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this corridor. Outside season, a week or two usually works.\n\nIf your venue is closer to the industrial end of the road, let us know so we can plan around any weekday traffic patterns. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Waghodia Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Waghodia Road, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Waghodia Road good for a double decker truck entry?",
+        a: "Yes, it's generally wide and open, making truck access straightforward, though traffic can build up near the industrial belt on weekday evenings.",
+      },
+      {
+        q: "How early should I book for a Waghodia Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window. Outside season, a week or two of notice usually works.",
+      },
+      {
+        q: "Do you cover venues further out toward the GIDC belt?",
+        a: "Yes, though most weddings happen closer to the city-side end of the road. Tell us your exact venue and we'll plan the route and timing accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-vasna-bhayli-road": {
+    slug: "vadodara-vasna-bhayli-road",
+    intro:
+      "Vasna-Bhayli Road is one of Vadodara's fastest-developing western corridors, connecting the Vasna side of the city out toward Bhayli, with newer residential projects and event venues going up along the way. A grand baraat entry here benefits from wide, newer roads that make for a smooth, open procession.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of growth corridor: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "This stretch is well-planned and wide for most of its length, making it one of the easier corridors in Vadodara for a full truck setup. It connects to Gotri and Sama on one side and out toward Bhayli on the other, so we're familiar with the venues spread across that whole western belt.\n\nSince this area keeps growing, if your venue is at a very new development, just mention it when you message us and we'll confirm the route ahead of time.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — a strong fit for this open, newer corridor. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a growing corridor like Vasna-Bhayli Road that means keeping up with new venues as they open, rather than working from an outdated picture of the area.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more open-road entries this stretch typically allows for.",
+    pricingGuidance:
+      "On how much does baraat cost along Vasna-Bhayli Road: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and this corridor's popularity as a newer venue hub means 3 weeks' notice is a safe bet during peak season.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this stretch gives for a bigger, more elaborate entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue along Vasna-Bhayli Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Vasna-Bhayli Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is this corridor good for a bigger baraat entry?",
+        a: "Yes, since the road is wide and newer, it works well for bigger processions with a larger truck setup and more room for the dhol team.",
+      },
+      {
+        q: "How early should I book for a wedding along this road?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, given how popular this corridor has become for newer venues.",
+      },
+      {
+        q: "Do you cover both the Vasna side and the Bhayli end of this road?",
+        a: "Yes, we cover the full corridor, connecting to Gotri and Sama on one side and Bhayli on the other. Tell us your exact venue when you message us.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-old-padra-road": {
+    slug: "vadodara-old-padra-road",
+    intro:
+      "Old Padra Road is one of Vadodara's premier wedding corridors — wide, well-lit, and lined with some of the city's bigger banquet halls and lawns. If you want a grand baraat entry with room for a full crowd, a large truck, and a dhol team that can really open up, this is one of the best stretches in the city for it.\n\nPlanMyBaraat runs baraat on wheels packages designed for exactly this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Old Padra Road is wide for most of its length, with good parking near most of the major venues. It's one of the busiest wedding corridors in Vadodara during peak season, so on a Saturday evening you'll likely see other baraats along the same stretch.\n\nWe've run a large number of entries along this road, so we know the timing and positioning that works best for each of the bigger halls here.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this road's width and lighting make for a strong visual entry. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to the scale of weddings this corridor typically hosts.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and Old Padra Road is one of the corridors we work most often — which means we know exactly how each major hall here handles truck access and parking, and we plan around it rather than guessing.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger, more competitive entries common along this stretch.",
+    pricingGuidance:
+      "On how much does baraat cost along Old Padra Road: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team, which suits the bigger crowds common on this stretch.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Old Padra Road is one of the most booked corridors in Vadodara during that time. We'd strongly recommend locking in your baraat entry at least 4 weeks ahead if your date falls in peak season, since both venues and our booking calendar fill up fast here.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how many bigger, more elaborate entries happen along this road.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Old Padra Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Old Padra Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Why is Old Padra Road popular for baraat entries?",
+        a: "It's one of Vadodara's widest, best-lit wedding corridors, with several of the city's bigger banquet halls and lawns, giving plenty of room for a large truck, dhol team, and crowd.",
+      },
+      {
+        q: "How early should I book for an Old Padra Road wedding?",
+        a: "At least 4 weeks ahead during wedding season (November to February) — this is one of the most booked corridors in Vadodara, both for venues and for our truck calendar.",
+      },
+      {
+        q: "Will there be other baraats on the same road on my wedding date?",
+        a: "It's likely, especially on Saturday evenings during peak season. We plan your entry's timing and positioning to make sure it still stands out.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to the scale of Old Padra Road weddings.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

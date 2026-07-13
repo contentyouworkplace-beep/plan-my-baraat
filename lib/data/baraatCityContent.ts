@@ -1331,4 +1331,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "vadodara-fatehgunj": {
+    slug: "vadodara-fatehgunj",
+    intro:
+      "Fatehgunj sits close to Vadodara's railway station, and it's one of the busier, more commercial parts of the city — a mix of shops, older residential buildings, and a fair number of wedding halls tucked into the neighborhood. A baraat entry here has to work around genuinely busy streets, especially in the evening.\n\nPlanMyBaraat runs baraat on wheels packages that account for that kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Fatehgunj's roads are busy through most of the evening given how close it is to the station and the amount of commercial activity here. Parking near venues can be tighter than in the newer western suburbs, so we scout the exact route and stopping point in advance.\n\nIt's centrally located, connecting easily to Sayajigunj and Race Course Circle, which makes it convenient for guests coming from across the city even if the immediate streets are busier.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, which works well given Fatehgunj's busier, narrower streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Fatehgunj that means knowing which streets get busiest around the station in the evening, and timing your entry to avoid getting stuck en route to the venue.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly and are used to navigating Vadodara's busier central pockets without losing time.",
+    pricingGuidance:
+      "On how much does baraat cost for a Fatehgunj entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. We'd suggest locking in your baraat entry at least 3 weeks ahead during peak season, since venues in this central pocket book up alongside the rest of Vadodara's busy season.\n\nGiven how busy the streets get near the station, let us know your venue's exact access point so we can plan the truck's timing to avoid traffic. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Fatehgunj, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Fatehgunj, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is traffic near the railway station a problem for a baraat entry?",
+        a: "It can get busy in the evening. We plan the truck's timing and route to avoid the worst of it and reach your venue on schedule.",
+      },
+      {
+        q: "How early should I book for a Fatehgunj wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since this central pocket books up alongside the rest of the city.",
+      },
+      {
+        q: "Is parking tight for venues in Fatehgunj?",
+        a: "It can be, given how commercial and busy the area is. Let us know your venue's exact access point so we can plan the truck's stopping position in advance.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, sized well for Fatehgunj's busier streets. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-sama": {
+    slug: "vadodara-sama",
+    intro:
+      "Sama is one of Vadodara's more upscale western neighborhoods, with newer residential developments and event venues that tend to have better road access than the older parts of the city. A grand baraat entry here has room to be as elaborate as the family wants, given how much space the newer roads allow.\n\nPlanMyBaraat runs baraat on wheels packages built for that kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Sama's roads are generally wide and well-planned, making truck access straightforward compared to Vadodara's old city core. It sits close to Gotri and Subhanpura, so if your guests are spread across that western pocket, our team already knows how the areas connect.\n\nWe've handled a good number of entries in Sama's venue clusters, and the roads here typically allow for a bigger, more visible entry than tighter central neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up, which shows up well on Sama's wider roads. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Sama that means being familiar with the newer venues that have opened here as the area's developed, and planning routes that make the most of the wider roads.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more open entries this part of the city allows for.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sama entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Sama's popularity as an upscale venue area means booking 3 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this area typically allows for a bigger, more elaborate entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Sama, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Sama, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Sama's roads good for a bigger baraat entry?",
+        a: "Yes, the roads here are generally wide and well-planned, giving good room for a full truck setup and a bigger, more elaborate procession.",
+      },
+      {
+        q: "How early should I book for a Sama wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, given how popular this area has become for weddings.",
+      },
+      {
+        q: "Do you cover venues near Gotri and Subhanpura too?",
+        a: "Yes, we cover the broader western Vadodara pocket including Gotri and Subhanpura. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Sama's bigger, open-road entries.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-subhanpura": {
+    slug: "vadodara-subhanpura",
+    intro:
+      "Subhanpura sits between Vadodara's central neighborhoods and the newer western suburbs, with a mix of established housing and a growing number of event venues. A baraat entry here often has an easy time of it — roads are reasonably wide without the congestion of the old city core.\n\nPlanMyBaraat runs baraat on wheels packages built for exactly this kind of area: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Subhanpura's roads are a comfortable middle ground — wider than Alkapuri or old-city Vadodara, but more established than the very newest western developments. It connects easily to Sama and Diwalipura, so guests coming from either direction have a straightforward route in.\n\nWe've handled a good number of entries in this part of the city, and most venues here are easy for a full truck setup to reach.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Subhanpura that means knowing the connecting routes to Sama and Diwalipura well, which helps when guests are spread across that middle pocket of the city.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of Vadodara.",
+    pricingGuidance:
+      "On how much does baraat cost for a Subhanpura entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city. Outside season, a week or two usually works.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Subhanpura, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Subhanpura, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Subhanpura's roads good for a truck entry?",
+        a: "Yes, they're generally wider and more accessible than Vadodara's old city core, making a full truck setup straightforward for most venues.",
+      },
+      {
+        q: "How early should I book for a Subhanpura wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window. Outside season, a week or two of notice usually works.",
+      },
+      {
+        q: "Do you cover venues connecting to Sama and Diwalipura?",
+        a: "Yes, we cover the broader pocket including Sama and Diwalipura. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

@@ -9155,4 +9155,244 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "rajkot-sadar": {
+    slug: "rajkot-sadar",
+    intro:
+      "Sadar is one of Rajkot's oldest, most central neighborhoods, packed with local shops, old-style buildings, and community halls that have hosted weddings for generations. A baraat entry here has that classic, old-Rajkot character.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Sadar's lanes are older and narrower than the newer parts of Rajkot, so we plan the truck's route carefully based on your exact venue, sometimes with a shorter walk-in for the final stretch.\n\nWe've handled entries in Sadar and know the area's older lanes well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Sadar that means knowing exactly where the truck can go and where a shorter walk-in works better, given the older lanes here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through Rajkot's oldest neighborhoods.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sadar entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for a Sadar entry.\n\nA rough headcount for the baraati group and your exact venue helps us plan the route properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Sadar, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Sadar, Rajkot?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues in Sadar's older lanes?",
+        a: "In most cases yes, though we check your exact venue in advance, since some lanes are narrower and may need a shorter walk-in for the final stretch.",
+      },
+      {
+        q: "How early should I book for a Sadar wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Is Sadar a central part of Rajkot?",
+        a: "Yes, it's one of the city's oldest, most central neighborhoods.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "rajkot-panchvati": {
+    slug: "rajkot-panchvati",
+    intro:
+      "Panchvati is a well-settled residential neighborhood in Rajkot, known for its community halls and a strong sense of local identity. A baraat entry here has that comfortable, familiar neighborhood energy.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one team.",
+    localArea:
+      "Panchvati's roads are generally manageable for truck access, being a settled residential area, though we always confirm your exact venue's approach lane in advance.\n\nWe've handled entries in Panchvati and the surrounding neighborhood.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Panchvati that means knowing this settled residential neighborhood and its community halls well.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through Rajkot's residential neighborhoods.",
+    pricingGuidance:
+      "On how much does baraat cost for a Panchvati entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this area.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Panchvati, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Panchvati?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the roads here manageable for a truck entry?",
+        a: "Yes, this is a settled residential area with generally manageable roads, though we confirm your exact venue's approach lane in advance.",
+      },
+      {
+        q: "How early should I book for a Panchvati wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Is Panchvati a residential area?",
+        a: "Yes, it's a well-settled residential neighborhood with a strong local community.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "rajkot-vavdi": {
+    slug: "rajkot-vavdi",
+    intro:
+      "Vavdi is a growing residential neighborhood on Rajkot's edge, with newer housing and a handful of venues that have opened as the area has developed. A baraat entry here fits the neighborhood's newer, more spread-out feel.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Vavdi's roads are a mix of newer development and older approach roads, so we plan the truck's route based on your exact venue. It's a bit further from central Rajkot.\n\nWe've handled entries in Vavdi and the surrounding neighborhood.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Vavdi that means knowing the routes connecting this growing area to central Rajkot.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the longer routes common to this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Vavdi entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this area.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Vavdi, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Vavdi?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Vavdi far from central Rajkot?",
+        a: "It's a bit further out, so factor in a slightly longer route for guests coming from the city center.",
+      },
+      {
+        q: "How early should I book for a Vavdi wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Are Vavdi's roads good for a truck entry?",
+        a: "Yes, though we check your exact venue in advance since this area has a mix of newer and older approach roads.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "rajkot-ayodhya-chowk": {
+    slug: "rajkot-ayodhya-chowk",
+    intro:
+      "Ayodhya Chowk is a well-known junction area in Rajkot, close to several local halls and easy for guests from across the city to locate. A baraat entry here benefits from being at a central, recognizable point.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Ayodhya Chowk is a busy junction, so we plan the truck's arrival timing carefully to avoid the peak traffic windows around it. Venues nearby are generally easy to reach.\n\nWe've handled entries at venues near Ayodhya Chowk and know the timing that works best.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Ayodhya Chowk that means knowing exactly when to route the truck around this busy junction to avoid delays.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight even near one of Rajkot's busier landmarks.",
+    pricingGuidance:
+      "On how much does baraat cost for an Ayodhya Chowk entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, given how central and busy this landmark area is.\n\nA rough headcount for the baraati group and your exact venue helps us plan the timing properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Ayodhya Chowk, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near Ayodhya Chowk?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Ayodhya Chowk a busy junction?",
+        a: "Yes, it's a well-known, busy landmark area, so we plan the truck's arrival timing carefully around peak traffic.",
+      },
+      {
+        q: "How early should I book for a wedding near Ayodhya Chowk?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Is it easy for guests to find venues near Ayodhya Chowk?",
+        a: "Yes, being a well-known landmark, it's easy for guests from across the city to locate.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "rajkot-aji-dam-road": {
+    slug: "rajkot-aji-dam-road",
+    intro:
+      "Aji Dam Road runs alongside Rajkot's well-known reservoir, with open roads and some of the city's more scenic venues nearby. A baraat entry here has a bit of a scenic, relaxed feel compared to the busier central roads.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Aji Dam Road is generally wide and open, making truck access straightforward. Some venues here offer a scenic backdrop near the reservoir, which makes for great entry photos.\n\nWe've handled entries at venues along Aji Dam Road and know the area well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Aji Dam Road that means knowing which venues along this scenic stretch work best for a grand entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the open-road setups common in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for an Aji Dam Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since venues near the reservoir are popular.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Aji Dam Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Aji Dam Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the venues on Aji Dam Road scenic?",
+        a: "Yes, some venues here offer a scenic backdrop near the reservoir, which makes for great entry photos.",
+      },
+      {
+        q: "How early should I book for an Aji Dam Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since venues near the reservoir are popular.",
+      },
+      {
+        q: "Is Aji Dam Road good for a full truck entry?",
+        a: "Yes, it's generally wide and open, making truck access straightforward.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

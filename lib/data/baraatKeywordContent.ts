@@ -3714,4 +3714,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "ghodi-for-baraat": {
+    slug: "ghodi-for-baraat",
+    intro:
+      "Ghodi for baraat refers to the traditional mare used for the groom's ceremonial arrival, a well-known custom in many Indian wedding traditions, especially in North Indian-style baraats.\n\nPlanMyBaraat's standard packages include a vintage car or baggi. Message us if a ghodi specifically matters to your entry, and we'll discuss what's possible.",
+    explanation:
+      "The ghodi tradition carries deep cultural significance, with the groom riding to the venue on a decorated mare as part of the ceremonial procession. Our core packages focus on the vintage car or baggi option, and we're happy to discuss a ghodi-specific request separately from our standard offering.\n\nBecause this involves a live animal and specific ceremonial customs, coordination and timing require more careful planning than our standard vehicle options.",
+    whatsIncluded:
+      "Our standard packages include a vintage car or baggi option, alongside the DJ truck, dhol team, and safa team. For ghodi-specific requests, message us to discuss options.",
+    pricingGuidance:
+      "Standard package pricing includes the vintage car or baggi option. For a ghodi-specific request, message us on WhatsApp and we'll advise on what's possible and provide pricing.",
+    bookingNotes:
+      "Wedding season runs November to February. If a ghodi matters specifically to you, mention it as early as possible, ideally 3-4 weeks ahead or more, given the additional planning involved.\n\nShare your date, city, venue, and specific preference when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and your preference for a ghodi, and we'll let you know what's possible.",
+    faqs: [
+      {
+        q: "Do you offer a ghodi for the groom's arrival?",
+        a: "Our standard packages include a vintage car or baggi. Message us with your specific interest in a ghodi and we'll let you know what's possible.",
+      },
+      {
+        q: "How much does a ghodi for baraat cost?",
+        a: "Message us with your specific request on WhatsApp and we'll advise on options and pricing.",
+      },
+      {
+        q: "Is the ghodi tradition specific to certain regions?",
+        a: "It's especially common in North Indian-style baraats, though families across regions sometimes choose to include it.",
+      },
+      {
+        q: "How early should I request this option?",
+        a: "As early as possible, ideally 3-4 weeks ahead or more, since a ghodi arrival requires more careful planning.",
+      },
+      {
+        q: "Is a baggi a good alternative if a ghodi isn't available?",
+        a: "Yes, our baggi option offers a similar traditional feel and is included as a standard option in our packages.",
+      },
+      {
+        q: "Does the ghodi come decorated?",
+        a: "If arranged, the mare would be appropriately decorated for the occasion — discuss specifics with us when you reach out.",
+      },
+      {
+        q: "Do you handle the safety and coordination for a ghodi entry?",
+        a: "This would need to be discussed and coordinated carefully — message us with your specific request and we'll advise on what's involved.",
+      },
+      {
+        q: "How do I find out if this is available for my wedding?",
+        a: "Message us on WhatsApp with your details, and we'll let you know what's possible.",
+      },
+    ],
+  },
+
+  "classic-car-for-groom-entry": {
+    slug: "classic-car-for-groom-entry",
+    intro:
+      "A classic car for groom entry gives the wedding procession a stylish, elegant start, before the truck and dhol take over for the main baraat energy.\n\nPlanMyBaraat includes a vintage car in every package from Raj Tilak upward, with Signature specifically upgrading to an American vintage car.",
+    explanation:
+      "The classic car arrival is often one of the most photographed moments of the day, giving the groom a memorable, dignified entrance. Our cars are maintained specifically for wedding use, and drivers coordinate arrival timing carefully with the rest of the procession.\n\nAs you move up the package tiers, the car options improve, with Signature specifically featuring an American vintage car for the most premium look.",
+    whatsIncluded:
+      "Raj Tilak through Maharaja include a vintage car or baggi for the groom's arrival. Signature upgrades this specifically to an American vintage car, alongside the truck, dhol team, and safa team.",
+    pricingGuidance:
+      "The classic car is included in every package, so pricing reflects the overall tier. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and classic car availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the classic car's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Is a classic car included in every package?",
+        a: "Yes, every package from Raj Tilak includes a vintage car or baggi, with Signature upgrading specifically to an American vintage car.",
+      },
+      {
+        q: "How much does a classic car for groom entry cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I request a specific classic car model?",
+        a: "Message us with your preferences on WhatsApp and we'll let you know what's available for your date.",
+      },
+      {
+        q: "Does the classic car come with a driver?",
+        a: "Yes, an experienced driver comes with the car, coordinated with the rest of the baraat timing.",
+      },
+      {
+        q: "How early should I book to secure a specific car?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Is the American vintage car only available in Signature?",
+        a: "Yes, that specific upgrade is included in our top package, while other tiers include a standard vintage car or baggi.",
+      },
+      {
+        q: "Does the car arrive with the truck or separately?",
+        a: "The groom typically arrives in the car separately and joins the procession near the entrance, coordinated with the truck's timing.",
+      },
+      {
+        q: "Can I see photos of the classic car options?",
+        a: "Yes, message us on WhatsApp and we'll share photos of the cars we work with.",
+      },
+    ],
+  },
+
+  "american-vintage-car-for-wedding": {
+    slug: "american-vintage-car-for-wedding",
+    intro:
+      "An American vintage car for wedding baraats gives the groom's arrival a distinctly premium, classic look, and it's specifically included in PlanMyBaraat's Signature package, our top tier.\n\nThe car comes alongside the DJ truck, 6 dhol, moving LED panels, and a full effects lineup in Signature's complete production.",
+    explanation:
+      "American vintage cars have a particular styling and presence that stands out from more common vintage car options, making them a popular choice for families wanting the most premium look for the groom's arrival. It's specifically featured in Signature to match the top package's overall production level.\n\nThe car is maintained specifically for wedding use, with an experienced driver coordinating arrival timing with the truck and dhol team.",
+    whatsIncluded:
+      "Signature includes the American vintage car alongside the DJ truck, sound system, DJ artist, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, a security team, and a safa team.",
+    pricingGuidance:
+      "The American vintage car is included specifically in the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February, and Signature package (including the American vintage car) availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with the American vintage car.",
+    faqs: [
+      {
+        q: "Which package includes the American vintage car?",
+        a: "Signature, our top package, specifically features the American vintage car alongside its full production lineup.",
+      },
+      {
+        q: "How much does an American vintage car for wedding cost?",
+        a: "It's included as part of the Signature package. Message your date and city on WhatsApp for a real quote covering the full production.",
+      },
+      {
+        q: "Is the American vintage car different from the standard vintage car?",
+        a: "Yes, it has a distinctly premium styling and presence, specifically chosen for our top-tier package.",
+      },
+      {
+        q: "Can I upgrade to just the American vintage car without the full Signature package?",
+        a: "The car is included as part of the Signature package's complete production. Message us with your specific interest and we'll advise on options.",
+      },
+      {
+        q: "How early should I book for the Signature package?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since this popular top-tier package books out fast.",
+      },
+      {
+        q: "Does the car come with a professional driver?",
+        a: "Yes, an experienced driver coordinates the car's timing with the rest of the Signature package production.",
+      },
+      {
+        q: "Can I see photos of the American vintage car?",
+        a: "Yes, message us on WhatsApp and we'll share photos of the specific vehicle for your reference.",
+      },
+      {
+        q: "What else comes with the Signature package?",
+        a: "6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, a security team, and a safa team, alongside the American vintage car.",
+      },
+    ],
+  },
 };

@@ -1763,4 +1763,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "vadodara-nizampura": {
+    slug: "vadodara-nizampura",
+    intro:
+      "Nizampura is a well-established, central-north neighborhood in Vadodara, dense with housing societies and community halls similar in character to Karelibaug. A baraat entry here has a genuinely local feel, with familiar faces from the neighborhood often watching the procession go by.\n\nPlanMyBaraat runs baraat on wheels packages built to work in a dense residential setting like this: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Nizampura's roads are a mix of moderate-width main stretches and narrower society lanes, so we plan the truck's route and stopping point carefully, especially for venues inside residential complexes. It connects easily to Karelibaug and Race Course Circle, making it convenient for guests from either side of central Vadodara.\n\nWe've handled a good number of entries here, and know which streets and societies work best for a full-size truck versus a shorter walk-in approach.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a good fit for Nizampura's residential character. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Nizampura that means knowing which society gates work for a full truck and where a shorter walk-in with the dhol leading is the better approach.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly and are used to navigating Vadodara's denser residential neighborhoods without losing time.",
+    pricingGuidance:
+      "On how much does baraat cost for a Nizampura entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point and often suits Nizampura's residential scale well. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since community halls here can book out during busy dates.\n\nIf your venue is inside a residential society, let us know the gate or entry point in advance. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Nizampura, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Nizampura, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the DJ truck reach venues inside Nizampura's residential societies?",
+        a: "In most cases yes, though some gates are narrower than a standalone hall's entrance. Tell us your exact venue and we'll check access in advance.",
+      },
+      {
+        q: "How early should I book for a Nizampura wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since community halls here can book out during peak dates.",
+      },
+      {
+        q: "Is Nizampura close to other central Vadodara areas?",
+        a: "Yes, it connects easily to Karelibaug and Race Course Circle, so guests from either side of central Vadodara can reach it without difficulty.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, sized well for Nizampura's residential streets. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-makarpura": {
+    slug: "vadodara-makarpura",
+    intro:
+      "Makarpura is best known for its industrial GIDC belt in south Vadodara, but the residential pockets around it host a steady number of weddings too. A baraat entry here usually means wide, functional roads built for industrial traffic, which actually works in favor of a big truck setup.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Makarpura's roads are generally wide given the industrial development in the area, making truck access straightforward. Most wedding venues here are in the residential pockets rather than the industrial core, and we've handled a number of entries in this part of south Vadodara.\n\nIf your venue is closer to the GIDC belt itself, let us know so we can plan around any weekday industrial traffic.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Makarpura that means knowing which stretches are purely industrial versus residential, and planning weekend entries to avoid any weekday traffic patterns tied to the GIDC belt.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Makarpura entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming whether your venue is closer to the residential or industrial side of Makarpura.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Makarpura, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Makarpura, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Makarpura good for a double decker truck entry?",
+        a: "Yes, roads here are generally wide given the industrial development, making truck access straightforward for most venues.",
+      },
+      {
+        q: "How early should I book for a Makarpura wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover venues near the GIDC belt itself?",
+        a: "Yes, though most weddings happen in the residential pockets. Tell us your exact venue and we'll plan around any weekday industrial traffic if needed.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-gorwa": {
+    slug: "vadodara-gorwa",
+    intro:
+      "Gorwa sits in west Vadodara, a settled residential neighborhood with a mix of older and newer housing, and a growing number of event venues as the area's developed. A baraat entry here tends to be a comfortable, mid-scale affair — not as tight as the old city core, not as sprawling as the newest western suburbs.\n\nPlanMyBaraat runs baraat on wheels packages built for exactly this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Gorwa's roads are generally manageable for a full truck setup, with a mix of wider main stretches and some narrower society lanes. It connects easily to Vasna and the broader western pocket of the city, so guests from that side have an easy route in.\n\nWe've handled a good number of entries across Gorwa's venue clusters and residential societies.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Gorwa that means knowing which societies have wider entry points for a full truck and which need a shorter walk-in led by the dhol team.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries across this part of west Vadodara.",
+    pricingGuidance:
+      "On how much does baraat cost for a Gorwa entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nIf your venue is inside a residential society, let us know the entry point in advance. A rough headcount for the baraati group also helps us plan the setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Gorwa, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Gorwa, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues inside Gorwa's residential societies?",
+        a: "In most cases yes, though some society lanes are narrower. Tell us your exact venue and we'll check access in advance.",
+      },
+      {
+        q: "How early should I book for a Gorwa wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover venues near Vasna too?",
+        a: "Yes, we cover the broader western Vadodara pocket including Vasna. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

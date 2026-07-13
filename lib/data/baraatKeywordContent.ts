@@ -5164,4 +5164,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "how-much-does-a-wedding-dj-cost": {
+    slug: "how-much-does-a-wedding-dj-cost",
+    intro:
+      "How much does a wedding DJ cost for the baraat entry specifically depends on the package, dhol count, and any extra effects — since our DJ is always bundled with the truck, dhol team, vintage car, and safa team, not sold separately.\n\nPlanMyBaraat quotes based on your actual date, city, and guest count, so the price reflects your real event.",
+    explanation:
+      "Because the DJ performs from a truck as part of a moving baraat entry, the cost includes more than just the artist's time — it covers the truck, sound system, and coordination needed to keep the DJ working alongside a dhol team and moving procession. This is different from hiring a DJ for a fixed reception stage.\n\nThe base package structure stays the same across all tiers: truck, DJ, and dhol as the core, with lighting, effects, and extra entertainers added as you move up.",
+    whatsIncluded:
+      "Every package includes the DJ artist, truck, and sound system. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.",
+    pricingGuidance:
+      "We don't publish a flat wedding DJ cost because it depends on your city, date, guest count, and package choice. Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real price, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February, and DJ availability and prices both tighten during that window. 3-4 weeks' notice is a safe bet for peak season.\n\nShare your date, city, venue, and guest count when you reach out for an accurate quote.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll send you a real DJ cost, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a wedding DJ cost for a baraat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the cost include the truck or just the DJ artist?",
+        a: "The full entry — DJ, truck, sound system, dhol team, vintage car, and safa team are all included in the package price.",
+      },
+      {
+        q: "Why is baraat DJ cost different from reception DJ cost?",
+        a: "A baraat DJ performs live from a moving truck outdoors with a dancing crowd, which requires different equipment and coordination than a fixed reception setup.",
+      },
+      {
+        q: "Is the starting package good value for a wedding DJ?",
+        a: "Yes, Raj Tilak includes the truck, DJ, 2 dhol, chhatri lights, car, and safa team — a complete entry at our most affordable tier.",
+      },
+      {
+        q: "Does the DJ cost vary by city?",
+        a: "Logistics can vary slightly, which is why we confirm your exact price once we know your date and location.",
+      },
+      {
+        q: "How early should I lock in a DJ cost?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since prices and availability tighten during peak season.",
+      },
+      {
+        q: "Can I negotiate based on my budget?",
+        a: "Message us with your budget and requirements on WhatsApp and we'll recommend the package that fits best.",
+      },
+      {
+        q: "How do I get an exact DJ cost?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
+
+  "how-much-does-a-baraat-setup-cost": {
+    slug: "how-much-does-a-baraat-setup-cost",
+    intro:
+      "How much does a baraat setup cost is one of the first questions almost every family asks us, and the honest answer is that it depends on the package, dhol count, and any extra effects — not a single fixed number.\n\nPlanMyBaraat offers four packages — Raj Tilak, Rajwada, Maharaja, and Signature — each building on the last with more dhol, more visual effects, and more entertainment.",
+    explanation:
+      "The base of every package is the same: a double decker DJ truck, a professional DJ artist, a vintage car for the groom, and a safa team for turban styling. What changes as you move up the tiers is the number of dhol players (2 in Raj Tilak, up to 6 in Signature), the lighting and LED setup, and extra elements like a teddy or gorilla performer, pyro effects, confetti cannons, and a security team on the top package.\n\nBecause the base is consistent across every tier, the price difference between packages comes down to exactly how much extra production you want on top of a solid, working baraat entry.",
+    whatsIncluded:
+      "Raj Tilak includes the DJ truck, sound system, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.",
+    pricingGuidance:
+      "We don't publish one flat number for baraat setup cost because your actual quote depends on the package, dhol count, extra effects, your city, and your guest count. Message us on WhatsApp with your wedding date, city, and rough guest count — we'll respond with an actual quote, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February across Gujarat, and prices and availability both tighten up during that window. Booking 3-4 weeks ahead during peak season is a safe bet.\n\nShare your date, city, venue, and roughly how many guests will be in the baraat.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll send you a real quote for the package that fits your baraat, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on average?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote instead of a generic estimate.",
+      },
+      {
+        q: "What's included in the baraat setup cost?",
+        a: "Every package includes the DJ truck, sound system, DJ artist, dhol team, a vintage car, and a safa team. Higher tiers add more dhol, LED visuals, entertainers, and effects like pyro and confetti.",
+      },
+      {
+        q: "Why don't you list a fixed price?",
+        a: "Because the real cost depends on your city, date, guest count, and which add-ons you want, so a single flat number would be misleading. We quote based on your actual details.",
+      },
+      {
+        q: "Is the cheapest package still a full baraat setup?",
+        a: "Yes, Raj Tilak includes the truck, DJ, 2 dhol, chhatri lights, a vintage car, and a safa team — it's a complete entry, just with less production than the higher tiers.",
+      },
+      {
+        q: "Does the guest count affect the setup cost?",
+        a: "It can factor into our recommendation, since a bigger baraati group sometimes calls for a bigger sound setup or more dhol, but the packages themselves are fixed tiers.",
+      },
+      {
+        q: "How much more does the top package cost compared to the starting one?",
+        a: "Signature costs more than Raj Tilak because it includes triple the dhol count, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Do prices change based on the city?",
+        a: "Yes, logistics can vary slightly by city, which is why we confirm your exact quote once we know your date and location rather than quoting blind.",
+      },
+      {
+        q: "How do I get an exact quote?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
+
+  "wedding-dj-package-price": {
+    slug: "wedding-dj-package-price",
+    intro:
+      "Wedding DJ package price for a baraat entry reflects the full package — truck, DJ, dhol team, vintage car, and safa team — not just the DJ's fee on its own.\n\nPlanMyBaraat's four packages each build on the last, from Raj Tilak's essentials to Signature's full production.",
+    explanation:
+      "Every package includes the truck, sound system, and DJ artist as the base, with the package price scaling up based on dhol count, lighting production, entertainers, and effects. This bundled pricing means you're not separately sourcing and coordinating a DJ, sound equipment, dhol players, and a car.\n\nComparing our package prices against a bare DJ quote elsewhere isn't quite apples to apples, since our price covers the entire baraat entry, not just the music.",
+    whatsIncluded:
+      "Raj Tilak includes the DJ artist, truck, sound system, 2 dhol, chhatri lights, a vintage car, and a safa team. Rajwada, Maharaja, and Signature add progressively more dhol, LED visuals, entertainers, and effects.",
+    pricingGuidance:
+      "Package pricing depends on the tier, dhol count, and any extra effects. Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real price, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February, and package prices and availability both tighten during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and guest count when you reach out for an accurate quote.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll send you a real DJ package price, usually within the hour.",
+    faqs: [
+      {
+        q: "What's the wedding DJ package price?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the package price include more than just the DJ?",
+        a: "Yes, it covers the truck, sound system, dhol team, vintage car, and safa team, not just the DJ's performance fee.",
+      },
+      {
+        q: "Why might this cost more than a standalone DJ quote?",
+        a: "Because it bundles the entire baraat entry — truck, dhol, car, and safa team — rather than just the music, so it's not directly comparable to a bare DJ fee.",
+      },
+      {
+        q: "Is the starting package price good value?",
+        a: "Yes, Raj Tilak includes the truck, DJ, 2 dhol, chhatri lights, car, and safa team — a complete entry at our most affordable tier.",
+      },
+      {
+        q: "How early should I lock in a package price?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since prices and availability tighten during peak season.",
+      },
+      {
+        q: "Does the price vary by city?",
+        a: "Logistics can vary slightly, which is why we confirm your exact price once we know your date and location.",
+      },
+      {
+        q: "Can I compare prices across all four packages?",
+        a: "Yes, message us your date and city and we'll walk you through pricing for each tier.",
+      },
+      {
+        q: "How do I get an exact package price?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
 };

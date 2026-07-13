@@ -4264,4 +4264,204 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "rajputi-pagdi-rent": {
+    slug: "rajputi-pagdi-rent",
+    intro:
+      "Rajputi pagdi rent for a wedding refers to the distinctive royal Rajasthani-style turban, known for its bold color and structured shape — a popular choice for grooms wanting a specifically regal look.\n\nPlanMyBaraat's My Safa team can style a Rajputi pagdi as part of our packages — message us with your preference and we'll confirm what's available.",
+    explanation:
+      "The Rajputi pagdi style has a distinct silhouette and color tradition compared to other turban styles, often chosen to match a royal or Rajwada-style wedding theme. Our stylists are experienced with different regional turban styles, including Rajputi, and can discuss what's possible for your specific vision.\n\nThis styling is included as part of our packages alongside the truck, dhol team, and vintage car, coordinated with the rest of your entry's timing.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes turban styling by the My Safa team, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car. Mention your preference for the Rajputi style specifically.",
+    pricingGuidance:
+      "Turban styling is included in every package. Message us on WhatsApp with your date, city, and preference for a Rajputi pagdi, and we'll give you a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February. If you want a specific Rajputi style, mention it early — 3-4 weeks' notice gives us time to plan the details properly.\n\nShare your date, city, venue, and style preference when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and preference for a Rajputi pagdi, and we'll confirm what's possible.",
+    faqs: [
+      {
+        q: "Can I get a Rajputi-style pagdi for my baraat?",
+        a: "Message us with your preference on WhatsApp — our My Safa team is experienced with different regional turban styles including Rajputi.",
+      },
+      {
+        q: "How much does a Rajputi pagdi cost as part of the package?",
+        a: "It's included as part of every package. Message your date, city, and style preference on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "What makes Rajputi pagdi different from other turban styles?",
+        a: "It has a distinct silhouette and bold color tradition associated with Rajasthani royal styling, often chosen for a specifically regal look.",
+      },
+      {
+        q: "Can the color be customized to match my outfit?",
+        a: "Yes, message us with your color preferences and we'll coordinate accordingly.",
+      },
+      {
+        q: "How early should I mention this preference?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan the styling properly.",
+      },
+      {
+        q: "Is this style included in every package tier?",
+        a: "The turban styling service itself is included in every package — mention the specific Rajputi style and we'll confirm it fits your booking.",
+      },
+      {
+        q: "Does the whole baraati group wear the same style?",
+        a: "Message us with your preference for a coordinated group look, and we'll discuss what's possible.",
+      },
+      {
+        q: "How early should I book overall?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+    ],
+  },
+
+  "wedding-turban-rental": {
+    slug: "wedding-turban-rental",
+    intro:
+      "Wedding turban rental for a baraat is included as part of PlanMyBaraat's packages, with our My Safa team handling both the fabric and the styling rather than a separate rental you'd arrange on your own.\n\nEvery package from Raj Tilak upward includes this service alongside the truck, dhol team, and vintage car.",
+    explanation:
+      "Rather than renting a turban independently and finding someone to style it separately, our approach bundles fabric and styling into the package, with our experienced team handling both. This removes another coordination step from your wedding planning.\n\nOur stylists work with different fabrics, colors, and regional styles, and can coordinate the look with the groom's outfit and overall wedding theme.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes turban rental and styling by the My Safa team, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "Turban rental and styling is included in every package, so there's no separate rental price. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have specific style or color preferences, mention them early — 3-4 weeks' notice gives us time to plan the details.\n\nShare your date, city, venue, and preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any turban preferences, and we'll confirm availability.",
+    faqs: [
+      {
+        q: "Is the turban rental and styling included together?",
+        a: "Yes, our My Safa team handles both sourcing and tying as part of every package from Raj Tilak upward.",
+      },
+      {
+        q: "How much does wedding turban rental cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I choose the turban color and fabric?",
+        a: "Yes, message us with your preferences and we'll coordinate accordingly.",
+      },
+      {
+        q: "Does the rental include styling for the full baraati group?",
+        a: "Yes, the My Safa team styles turbans for the groom and the wider baraati group as needed.",
+      },
+      {
+        q: "How early should I share my preferences?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan the details properly.",
+      },
+      {
+        q: "Is the turban included at every package tier?",
+        a: "Yes, it's included from Raj Tilak through Signature.",
+      },
+      {
+        q: "Does the turban hold up through the whole procession?",
+        a: "Yes, it's styled to stay in place through dancing and walking, not just for initial photos.",
+      },
+      {
+        q: "How early should I book overall?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+    ],
+  },
+
+  "groom-styling-for-wedding": {
+    slug: "groom-styling-for-wedding",
+    intro:
+      "Groom styling for wedding baraats centers on the turban and overall look for the entry — PlanMyBaraat's My Safa team handles this as part of every package, coordinating the groom's appearance with the vintage car and overall entry aesthetic.\n\nThis styling is included from Raj Tilak upward, alongside the DJ truck, dhol team, and vintage car.",
+    explanation:
+      "Groom styling for the baraat specifically focuses on the turban and how it complements the rest of the entry — the vintage car, the outfit, and the overall visual impression as the groom joins the procession. Our stylists coordinate this with your specific outfit and preferences.\n\nBecause the styling happens before the procession begins, timing is coordinated with the rest of the entry's schedule, ensuring the groom is ready right when the truck and dhol team arrive.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes groom turban styling by the My Safa team, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "Groom styling is included in every package, so pricing reflects the overall tier. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have specific styling preferences, mention them early — 3-4 weeks' notice gives us time to plan the details.\n\nShare your date, city, venue, and any styling preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any styling preferences, and we'll confirm availability.",
+    faqs: [
+      {
+        q: "What does groom styling for the baraat include?",
+        a: "Primarily turban styling by our My Safa team, coordinated with the groom's outfit and the overall look of the entry.",
+      },
+      {
+        q: "How much does groom styling for wedding cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can the styling match my outfit color and theme?",
+        a: "Yes, message us with your outfit details and we'll coordinate the turban styling accordingly.",
+      },
+      {
+        q: "When does the styling happen relative to the procession?",
+        a: "Before the entry begins, timed so the groom is ready right when the truck and dhol team arrive.",
+      },
+      {
+        q: "How early should I discuss styling preferences?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan the details properly.",
+      },
+      {
+        q: "Is styling included at every package tier?",
+        a: "Yes, it's included from Raj Tilak through Signature.",
+      },
+      {
+        q: "Does the groom's styling coordinate with the baraati group's look?",
+        a: "Yes, the My Safa team can style the wider group too, for a coordinated overall appearance.",
+      },
+      {
+        q: "How early should I book overall?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+    ],
+  },
+
+  "groom-safa-near-me": {
+    slug: "groom-safa-near-me",
+    intro:
+      "Searching for groom safa near me means finding a local turban stylist for the baraat, one who knows the timing and pacing your specific city and venue require.\n\nPlanMyBaraat's My Safa team works across Gujarat regularly, included in every package from Raj Tilak upward.",
+    explanation:
+      "Being local matters for safa styling specifically because our team needs to coordinate arrival timing with the truck, dhol team, and your venue's schedule — something that's easier when the stylists work across your region regularly rather than being flown in for a single event.\n\nWe cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns across Gujarat, so message us your city to confirm coverage near you.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes the My Safa team, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "Safa styling is included in every package, and pricing is confirmed once we know your city and date. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and local safa team availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your city, date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your city and wedding date, and we'll confirm the safa team's available near you, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you offer safa styling near my city?",
+        a: "We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat. Message us your city to confirm.",
+      },
+      {
+        q: "How much does groom safa near me cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Is the stylist team familiar with my local venue?",
+        a: "Our team works across Gujarat regularly, so they're experienced with typical venue setups and timing in most areas we cover.",
+      },
+      {
+        q: "How early should I book a local safa team?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since local availability tightens during peak season.",
+      },
+      {
+        q: "Does being local mean faster response times?",
+        a: "Being Gujarat-based helps us plan logistics efficiently and respond quickly to your inquiries.",
+      },
+      {
+        q: "How do I confirm coverage for my specific area?",
+        a: "Message us your exact city and venue on WhatsApp and we'll confirm the safa team's availability directly.",
+      },
+      {
+        q: "Can I request a specific stylist if I've seen their work before?",
+        a: "Message us with details and we'll let you know if that's possible for your date.",
+      },
+      {
+        q: "What cities do you cover for safa styling?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+    ],
+  },
 };

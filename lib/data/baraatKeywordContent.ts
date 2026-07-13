@@ -7614,4 +7614,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-on-wheels-mumbai": {
+    slug: "baraat-on-wheels-mumbai",
+    intro:
+      "If you're searching for baraat on wheels in Mumbai, PlanMyBaraat is a Gujarat-based service and doesn't currently operate in Mumbai. We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns across Gujarat.\n\nIf your wedding is happening in one of our Gujarat locations, or if guests are traveling from Mumbai to a Gujarat venue, message us and we'll confirm what's possible.",
+    explanation:
+      "We've built our team, drivers, and vendor relationships specifically around Gujarat, which is what lets us offer the level of local knowledge and coordination we do in the cities we serve. Rather than stretching into Mumbai without that same local depth, we've kept our focus within Gujarat.\n\nIf you have any connection to a Gujarat venue or city for your wedding, we'd be glad to help — message us with the details and we'll confirm.",
+    whatsIncluded:
+      "Our packages — DJ truck, dhol team, vintage car, and safa team — are available across our Gujarat coverage area, not currently in Mumbai.",
+    pricingGuidance:
+      "Since we don't operate in Mumbai, we can't provide pricing for that city. If your event is in Gujarat, message us your date and city for a real quote.",
+    bookingNotes:
+      "If your wedding venue is in Gujarat, even if some guests are traveling from Mumbai, message us with your Gujarat location and date.",
+    closing:
+      "Message us on WhatsApp if your wedding is happening in Gujarat, and we'll confirm what's possible.",
+    faqs: [
+      {
+        q: "Do you offer baraat on wheels in Mumbai?",
+        a: "No, we're a Gujarat-based service covering Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns in Gujarat, not Mumbai.",
+      },
+      {
+        q: "Can you recommend someone in Mumbai?",
+        a: "We don't have a specific referral for Mumbai, but we're happy to help if any part of your wedding is happening in Gujarat.",
+      },
+      {
+        q: "What if my venue is technically near the Gujarat-Maharashtra border?",
+        a: "Message us your exact location and we'll confirm whether it falls within our coverage area.",
+      },
+      {
+        q: "Do you plan to expand to Mumbai in the future?",
+        a: "We're currently focused on Gujarat. If that changes, we'll update our coverage information.",
+      },
+      {
+        q: "Can I still get pricing information for reference?",
+        a: "Our pricing structure is specific to our Gujarat operations, so it may not translate directly to Mumbai given different local logistics.",
+      },
+      {
+        q: "Are your packages the same everywhere you operate?",
+        a: "Yes, our four packages — Raj Tilak, Rajwada, Maharaja, Signature — are consistent across all the Gujarat cities and towns we serve.",
+      },
+      {
+        q: "What cities do you actually cover?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "How do I check if you cover my specific location?",
+        a: "Message us on WhatsApp with your exact city or venue, and we'll confirm directly.",
+      },
+    ],
+  },
+
+  "baraat-on-wheels-delhi-ncr": {
+    slug: "baraat-on-wheels-delhi-ncr",
+    intro:
+      "If you're searching for baraat on wheels in Delhi NCR, PlanMyBaraat is a Gujarat-based service and doesn't currently operate in Delhi NCR. We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns across Gujarat.\n\nIf your wedding is happening in one of our Gujarat locations, message us and we'll confirm what's possible.",
+    explanation:
+      "Our team, drivers, and vendor relationships are built specifically around Gujarat's cities and towns, which is what allows us to offer the local knowledge and coordination we do within our coverage area. We've chosen to focus on doing this well within Gujarat rather than expanding broadly without that same depth.\n\nIf any part of your wedding connects to a Gujarat venue, we'd be glad to help — message us with the details.",
+    whatsIncluded:
+      "Our packages — DJ truck, dhol team, vintage car, and safa team — are available across our Gujarat coverage area, not currently in Delhi NCR.",
+    pricingGuidance:
+      "Since we don't operate in Delhi NCR, we can't provide pricing for that region. If your event is in Gujarat, message us your date and city for a real quote.",
+    bookingNotes:
+      "If your wedding venue is in Gujarat, even if some guests are traveling from Delhi NCR, message us with your Gujarat location and date.",
+    closing:
+      "Message us on WhatsApp if your wedding is happening in Gujarat, and we'll confirm what's possible.",
+    faqs: [
+      {
+        q: "Do you offer baraat on wheels in Delhi NCR?",
+        a: "No, we're a Gujarat-based service covering Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns in Gujarat, not Delhi NCR.",
+      },
+      {
+        q: "Can you recommend someone in Delhi NCR?",
+        a: "We don't have a specific referral for Delhi NCR, but we're happy to help if any part of your wedding is happening in Gujarat.",
+      },
+      {
+        q: "Do you plan to expand to Delhi NCR in the future?",
+        a: "We're currently focused on Gujarat. If that changes, we'll update our coverage information.",
+      },
+      {
+        q: "Can I still get pricing information for reference?",
+        a: "Our pricing structure is specific to our Gujarat operations, so it may not translate directly to Delhi NCR given different local logistics.",
+      },
+      {
+        q: "Are your packages the same everywhere you operate?",
+        a: "Yes, our four packages — Raj Tilak, Rajwada, Maharaja, Signature — are consistent across all the Gujarat cities and towns we serve.",
+      },
+      {
+        q: "What if part of my wedding is in Gujarat and part in Delhi NCR?",
+        a: "Message us the Gujarat portion details and we'll confirm what we can help with.",
+      },
+      {
+        q: "What cities do you actually cover?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "How do I check if you cover my specific location?",
+        a: "Message us on WhatsApp with your exact city or venue, and we'll confirm directly.",
+      },
+    ],
+  },
+
+  "baraat-on-wheels-bengaluru": {
+    slug: "baraat-on-wheels-bengaluru",
+    intro:
+      "If you're searching for baraat on wheels in Bengaluru, PlanMyBaraat is a Gujarat-based service and doesn't currently operate in Bengaluru. We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns across Gujarat.\n\nIf your wedding is happening in one of our Gujarat locations, message us and we'll confirm what's possible.",
+    explanation:
+      "Our team, drivers, and vendor relationships are built specifically around Gujarat, which is what allows us to offer the local knowledge and coordination we do within our coverage area. Rather than expanding into Bengaluru without that same local depth, we've focused on serving Gujarat well.\n\nIf any part of your wedding connects to a Gujarat venue, we'd be glad to help — message us with the details.",
+    whatsIncluded:
+      "Our packages — DJ truck, dhol team, vintage car, and safa team — are available across our Gujarat coverage area, not currently in Bengaluru.",
+    pricingGuidance:
+      "Since we don't operate in Bengaluru, we can't provide pricing for that city. If your event is in Gujarat, message us your date and city for a real quote.",
+    bookingNotes:
+      "If your wedding venue is in Gujarat, even if some guests are traveling from Bengaluru, message us with your Gujarat location and date.",
+    closing:
+      "Message us on WhatsApp if your wedding is happening in Gujarat, and we'll confirm what's possible.",
+    faqs: [
+      {
+        q: "Do you offer baraat on wheels in Bengaluru?",
+        a: "No, we're a Gujarat-based service covering Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns in Gujarat, not Bengaluru.",
+      },
+      {
+        q: "Can you recommend someone in Bengaluru?",
+        a: "We don't have a specific referral for Bengaluru, but we're happy to help if any part of your wedding is happening in Gujarat.",
+      },
+      {
+        q: "Do you plan to expand to Bengaluru in the future?",
+        a: "We're currently focused on Gujarat. If that changes, we'll update our coverage information.",
+      },
+      {
+        q: "Can I still get pricing information for reference?",
+        a: "Our pricing structure is specific to our Gujarat operations, so it may not translate directly to Bengaluru given different local logistics.",
+      },
+      {
+        q: "Are your packages the same everywhere you operate?",
+        a: "Yes, our four packages — Raj Tilak, Rajwada, Maharaja, Signature — are consistent across all the Gujarat cities and towns we serve.",
+      },
+      {
+        q: "What if my family is from Bengaluru but marrying into a Gujarati family?",
+        a: "If the wedding venue is in Gujarat, message us the details and we'll confirm coverage.",
+      },
+      {
+        q: "What cities do you actually cover?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "How do I check if you cover my specific location?",
+        a: "Message us on WhatsApp with your exact city or venue, and we'll confirm directly.",
+      },
+    ],
+  },
 };

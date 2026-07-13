@@ -2195,4 +2195,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "vadodara-panigate": {
+    slug: "vadodara-panigate",
+    intro:
+      "Panigate takes its name from one of Vadodara's historic city gates, and the neighborhood around it is still dense with older housing and community halls tucked into residential lanes. A baraat entry here is a genuinely neighborhood affair — narrower streets mean the whole block tends to notice when a procession comes through.\n\nPlanMyBaraat runs baraat on wheels packages adapted for this kind of old-city residential setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking, with the route planned around the area's narrower lanes.",
+    localArea:
+      "Panigate's lanes are tighter than Vadodara's newer suburbs, similar in character to nearby Gendigate and Salatwada, so we typically plan for the truck to stop at the closest accessible point with the dhol team leading the final stretch on foot.\n\nWe've handled entries through this part of the old city and know which lanes work for foot traffic and where the truck has the best access.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a practical choice for Panigate's narrower streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, adapted carefully for tighter old-city spaces.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Panigate that means knowing exactly where the truck can park closest to your venue and how to route the walking portion so the dhol team has room to perform properly.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are used to adapting the setup for Vadodara's older residential lanes.",
+    pricingGuidance:
+      "On how much does baraat cost for a Panigate entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point and works well given the narrower streets. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, and knowing your exact venue early helps us plan the walking route properly.\n\nA rough headcount for the baraati group helps us plan how much space the group needs for the walking portion of the entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Panigate, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near Panigate, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues in Panigate's residential lanes?",
+        a: "Not always all the way — we park at the nearest accessible point and have the dhol team lead the group on foot for the final stretch, which is standard for this part of the old city.",
+      },
+      {
+        q: "How early should I book for a Panigate wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Is Panigate close to other old-city areas like Gendigate?",
+        a: "Yes, it's part of the same historic core as Gendigate and Salatwada, and we handle entries across this whole pocket regularly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, well suited to Panigate's narrower lanes. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-salatwada": {
+    slug: "vadodara-salatwada",
+    intro:
+      "Salatwada sits close to Sursagar Lake, right in the heart of old Vadodara, with a mix of commercial activity and residential lanes that have hosted weddings for generations. A baraat entry near the lake has a certain charm to it — open water on one side, dense old-city streets on the other.\n\nPlanMyBaraat runs baraat on wheels packages adapted for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking, with the route planned around both the lakeside stretch and the narrower lanes further in.",
+    localArea:
+      "The road along Sursagar Lake itself is reasonably open, but the lanes further into Salatwada narrow quickly, similar to nearby Panigate and Gendigate. We plan the truck's route to make the most of the lakeside stretch before switching to a walking approach if your venue is deeper into the old city.\n\nWe've handled entries in this part of Vadodara and know how to sequence the truck and walking portions for the best effect near the lake.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up, which looks striking along the open lakeside stretch. Signature, the top package, adds a security team plus pyro and confetti effects, positioned carefully depending on how close your venue is to the lake versus the narrower inner lanes.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car — a great photo opportunity near Sursagar — and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Salatwada that means knowing exactly how far the truck can go along the lakeside road before the streets narrow, and planning the most scenic and practical route for your specific venue.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with this mix of open lakeside road and tighter old-city lanes.",
+    pricingGuidance:
+      "On how much does baraat cost for a Salatwada entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, and telling us your exact venue helps us plan whether the entry stays along the open lakeside road or needs a walking portion further in.\n\nA rough headcount for the baraati group also helps with planning the setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Salatwada, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near Salatwada, Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck go all the way along Sursagar Lake?",
+        a: "The lakeside stretch itself is reasonably open, but lanes further into Salatwada narrow quickly. We plan the route based on exactly where your venue is.",
+      },
+      {
+        q: "How early should I book for a Salatwada wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does a lakeside baraat entry cost more?",
+        a: "Not necessarily — pricing is based on the package and effects you choose, not the specific route, though we do factor in whether a walking portion is needed.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car — a nice option for photos near the lake.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "vadodara-kirti-mandir-road": {
+    slug: "vadodara-kirti-mandir-road",
+    intro:
+      "Kirti Mandir Road takes its name from the royal cenotaph nearby, and it sits at something of a crossing point between Vadodara's old city and its more modern central areas. A baraat entry along this stretch gets some of both worlds — a bit of history in the surroundings, but roads wide enough for a proper truck setup.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of in-between location: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Kirti Mandir Road itself is wider than the deep old-city lanes nearby, making it more manageable for a full truck setup than areas like Mandvi or Panigate. It connects central Vadodara to the older parts of the city, so it's a useful route for guests coming from either direction.\n\nWe've handled entries along this stretch and in the surrounding pockets, and know the timing that works best given how central this location is.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group — a fitting touch given the heritage character of this part of the city.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Kirti Mandir Road that means knowing how to use the wider stretch here effectively while still being ready to adapt if your venue is a bit further into the older lanes nearby.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with this kind of transitional area between old and new Vadodara.",
+    pricingGuidance:
+      "On how much does baraat cost along Kirti Mandir Road: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and letting us know your exact venue helps us confirm whether the entry stays on the main road or needs to adapt for narrower lanes nearby.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Kirti Mandir Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near Kirti Mandir Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is this road wide enough for a full truck entry?",
+        a: "Yes, it's generally wider than the deep old-city lanes nearby, making truck access more straightforward than areas like Mandvi.",
+      },
+      {
+        q: "How early should I book for a wedding near Kirti Mandir Road?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does this location connect well to both old and new Vadodara?",
+        a: "Yes, it sits between the historic core and the more modern central areas, making it a convenient route for guests from either direction.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

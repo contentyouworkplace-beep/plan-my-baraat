@@ -3564,4 +3564,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baggi-rental-for-wedding": {
+    slug: "baggi-rental-for-wedding",
+    intro:
+      "Baggi rental for wedding baraats is included as part of PlanMyBaraat's full package, not a standalone item you'd need to arrange separately from the truck and dhol team.\n\nA baggi is offered as an option alongside the vintage car in every package from Raj Tilak upward.",
+    explanation:
+      "Rather than renting a horse-drawn carriage independently and coordinating its timing with a separately hired truck and dhol team, our approach bundles the baggi into the same booking, so our team plans the route and timing around it as one coordinated operation.\n\nBecause a baggi involves live horses, our team factors in road conditions, route length, and timing more carefully than with a standard vintage car.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes the option of a vintage car or baggi for the groom, alongside the DJ truck, sound system, DJ artist, dhol team, and safa team.",
+    pricingGuidance:
+      "The baggi option is included as part of the package, so there's no separate rental price. Message us on WhatsApp with your date, city, and preference for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and baggi availability can be more limited than vintage cars, so mention your preference as early as possible.\n\nShare your date, city, venue, and preference when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and preference for a baggi, and we'll confirm availability.",
+    faqs: [
+      {
+        q: "Can I rent a baggi without the rest of the baraat package?",
+        a: "No, the baggi option is included as part of our baraat packages alongside the truck and dhol team, not rented separately.",
+      },
+      {
+        q: "What's the baggi rental price for a wedding?",
+        a: "There's no separate rental price — it's included in the package. Message your date, city, and preference on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the baggi come with an experienced handler?",
+        a: "Yes, an experienced handler accompanies the baggi, coordinated with the rest of the baraat timing.",
+      },
+      {
+        q: "How far in advance should I request a baggi?",
+        a: "As early as possible, ideally 3-4 weeks ahead or more, since baggi availability can be more limited than vintage cars.",
+      },
+      {
+        q: "Are there road condition requirements for a baggi?",
+        a: "Yes, our team factors in road conditions and route length when planning a baggi-based entry — mention your venue details when booking.",
+      },
+      {
+        q: "Can I switch from a baggi to a vintage car later?",
+        a: "Message us as soon as possible if your preference changes, and we'll check what's still available for your date.",
+      },
+      {
+        q: "Is the baggi decorated for the wedding?",
+        a: "Yes, it's styled appropriately for the occasion as part of the package.",
+      },
+      {
+        q: "Does the baggi work for all venue types?",
+        a: "It works best on roads suitable for horse-drawn transport — mention your venue and we'll advise on suitability.",
+      },
+    ],
+  },
+
+  "horse-for-baraat": {
+    slug: "horse-for-baraat",
+    intro:
+      "A horse for baraat is the classic option for the groom's arrival, offering a traditional, ceremonial entrance often associated with royal wedding processions across India.\n\nPlanMyBaraat can discuss a horse-based arrival alongside our standard vintage car or baggi options — message us if this specifically matters to your entry.",
+    explanation:
+      "The horse arrival carries deep traditional significance in Indian weddings, and some families specifically want this element as part of their baraat. Our core packages include a vintage car or baggi as the standard option, and we're happy to discuss horse-specific requests separately.\n\nBecause this involves a live animal, careful route planning, timing, and coordination with the rest of the procession matter even more than with a baggi or car.",
+    whatsIncluded:
+      "Our standard packages include a vintage car or baggi option, alongside the DJ truck, dhol team, and safa team. For horse-specific requests, message us to discuss options and any additional coordination needed.",
+    pricingGuidance:
+      "Standard package pricing includes the vintage car or baggi option. For a horse-specific request, message us on WhatsApp and we'll advise on what's possible and provide pricing.",
+    bookingNotes:
+      "Wedding season runs November to February. If a horse arrival matters specifically to you, mention it as early as possible, ideally 3-4 weeks ahead or more, since this requires more planning.\n\nShare your date, city, venue, and specific preference when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and your preference for a horse arrival, and we'll let you know what's possible.",
+    faqs: [
+      {
+        q: "Do you offer a horse for the groom's arrival?",
+        a: "Our standard packages include a vintage car or baggi. Message us with your specific interest in a horse arrival and we'll let you know what's possible.",
+      },
+      {
+        q: "How much does a horse for baraat cost?",
+        a: "Message us with your specific request on WhatsApp and we'll advise on options and pricing.",
+      },
+      {
+        q: "Is the horse decorated for the wedding?",
+        a: "If arranged, the horse would be appropriately styled for the occasion — discuss specifics with us when you reach out.",
+      },
+      {
+        q: "How early should I request this option?",
+        a: "As early as possible, ideally 3-4 weeks ahead or more, since a horse arrival requires more careful planning and coordination.",
+      },
+      {
+        q: "Is a baggi a good alternative if a horse isn't available?",
+        a: "Yes, our baggi option offers a similar traditional, ceremonial feel and is included as a standard option in our packages.",
+      },
+      {
+        q: "Does a horse arrival require specific venue conditions?",
+        a: "Yes, road and venue conditions matter for a horse-based entry — mention your venue details and we'll advise on suitability.",
+      },
+      {
+        q: "Do you handle safety and coordination for a horse arrival?",
+        a: "This would need to be discussed and coordinated carefully — message us with your specific request and we'll advise on what's involved.",
+      },
+      {
+        q: "How do I find out if this is available for my date and city?",
+        a: "Message us on WhatsApp with your details, and we'll let you know what's possible.",
+      },
+    ],
+  },
+
+  "horse-carriage-for-wedding": {
+    slug: "horse-carriage-for-wedding",
+    intro:
+      "A horse carriage for wedding, also called a baggi, is the traditional carriage option for the groom's arrival, offering a classic, regal look for the start of the baraat procession.\n\nPlanMyBaraat includes a baggi as an option alongside the vintage car in every package from Raj Tilak upward.",
+    explanation:
+      "The horse carriage brings a distinctly royal, ceremonial feel to the groom's arrival, often chosen by families who want that classic Rajwada-style look for their entry. It's one of two arrival options included in our packages, alongside the vintage car.\n\nBecause it involves live horses, we factor in road conditions and route planning more carefully than with a standard car, and we recommend mentioning your preference early so we can plan accordingly.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes the option of a vintage car or horse carriage (baggi) for the groom, alongside the DJ truck, sound system, DJ artist, dhol team, and safa team.",
+    pricingGuidance:
+      "The horse carriage option is included as part of the package. Message us on WhatsApp with your date, city, and preference for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and horse carriage availability can be more limited than vintage cars, so mention your preference as early as possible.\n\nShare your date, city, venue, and preference when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and preference for a horse carriage, and we'll confirm availability.",
+    faqs: [
+      {
+        q: "Is a horse carriage the same as a baggi?",
+        a: "Yes, baggi is the term we use for the traditional horse-drawn carriage option included in our packages.",
+      },
+      {
+        q: "How much does a horse carriage for wedding cost?",
+        a: "It's included as part of the package. Message your date, city, and preference on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the horse carriage more traditional than a car?",
+        a: "Yes, it carries a distinctly royal, ceremonial feel often associated with classic Rajwada-style processions.",
+      },
+      {
+        q: "How early should I request a horse carriage specifically?",
+        a: "As early as possible, ideally 3-4 weeks ahead or more, since availability can be more limited than vintage cars.",
+      },
+      {
+        q: "Does the carriage require specific road conditions?",
+        a: "Yes, we factor in road conditions and route length when planning a carriage-based entry — mention your venue details when booking.",
+      },
+      {
+        q: "Is an experienced handler included?",
+        a: "Yes, an experienced handler accompanies the carriage, coordinated with the rest of the baraat timing.",
+      },
+      {
+        q: "Can I switch between a carriage and a vintage car?",
+        a: "Message us as soon as possible if your preference changes, and we'll check availability for your date.",
+      },
+      {
+        q: "Is the carriage decorated for the occasion?",
+        a: "Yes, it's styled appropriately for the wedding as part of the package.",
+      },
+    ],
+  },
 };

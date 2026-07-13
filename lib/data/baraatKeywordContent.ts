@@ -614,4 +614,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-entry-truck-booking": {
+    slug: "baraat-entry-truck-booking",
+    intro:
+      "Baraat entry truck booking is the process of reserving the double decker DJ truck that leads your wedding procession — and with PlanMyBaraat, that booking covers the whole entry, not just the vehicle.\n\nOne booking gets you the truck, a dhol team, a vintage car for the groom, and a safa team, coordinated as a single service from date confirmation through the entry itself.",
+    explanation:
+      "A baraat entry truck booking typically starts with a WhatsApp conversation about your date, city, venue, and rough guest count. From there we recommend a package, confirm the truck's availability, and lock in the date. On the day, our team handles the truck, dhol, car, and safa styling as one coordinated operation rather than separate vendors showing up independently.\n\nThis matters because timing is everything in a baraat — the truck, dhol, and groom's car all need to arrive and move together, which is much easier when one team is managing all of it.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and truck booking slots fill up fast during that window. 3-4 weeks' notice is a safe bet for peak season dates.\n\nWhen you reach out, share your date, city, venue, and rough guest count — we'll confirm availability and walk you through the packages.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How does baraat entry truck booking work?",
+        a: "Message us on WhatsApp with your date, city, venue, and rough guest count. We'll recommend a package, confirm truck availability, and lock in your date.",
+      },
+      {
+        q: "How much does baraat entry truck booking cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do I need to pay a deposit to confirm the booking?",
+        a: "Yes, we usually take an advance payment to lock in your date, with the balance due closer to the event. We'll share exact terms once you confirm a package.",
+      },
+      {
+        q: "What happens if my wedding date changes?",
+        a: "Message us as soon as you know so we can check truck availability for the new date and adjust the booking.",
+      },
+      {
+        q: "How far in advance should I complete the booking?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since booking slots fill up fast.",
+      },
+      {
+        q: "Is the whole team coordinated under one booking?",
+        a: "Yes, the truck, dhol team, car, and safa team are all managed by us as one operation, not separate vendors.",
+      },
+      {
+        q: "Can I change my package after booking?",
+        a: "Message us and we'll see what's possible depending on your date and how far out we are from the event.",
+      },
+      {
+        q: "What info do you need to confirm a booking?",
+        a: "Your wedding date, city, venue, rough guest count, and preferred package — that's enough for us to confirm and lock in the truck.",
+      },
+    ],
+  },
+
+  "baraat-truck-decoration-ideas": {
+    slug: "baraat-truck-decoration-ideas",
+    intro:
+      "Baraat truck decoration ideas usually come up once families have picked a package and start thinking about how to make the truck feel personal — custom branding, lighting themes, and small touches that make the entry feel like theirs specifically.\n\nPlanMyBaraat's packages come with a base level of decoration and lighting built in, with more customization available as you move up the package tiers.",
+    explanation:
+      "Every truck comes with chhatri lights as standard, giving a warm, traditional look right out of the starting package. From there, decoration options scale up: full body flex branding on the truck at the Rajwada tier, custom theme branding at Maharaja, and the groom's name spelled out in LED lettering from Maharaja upward.\n\nBeyond the truck itself, decoration extends to the overall look of the entry — the vintage car is styled for the occasion, and the safa team's turban styling for the groom and baraatis adds another visual layer to the whole procession.",
+    whatsIncluded:
+      "Raj Tilak includes chhatri lights around the truck. Rajwada adds full body custom flex branding. Maharaja brings custom theme branding, moving LED panels, and the groom's name in LED letters. Signature includes all of this plus pyro and confetti effects timed to the truck's arrival for maximum visual impact.\n\nA vintage car and safa team are styled as part of every package, adding to the overall decorated look of the entry.",
+    pricingGuidance:
+      "Decoration level scales with the package tier — the more elaborate the branding and lighting you want, the higher up the tiers you'll look. Raj Tilak covers the basics well, while Maharaja and Signature offer the most customization.\n\nMessage us on WhatsApp with your date and city, and mention any specific decoration ideas you have — we'll let you know what's possible within each package.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have specific decoration or branding requests, mention them early — 3-4 weeks' notice gives us time to plan the details properly.\n\nShare your date, city, venue, and any decoration preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any decoration ideas you have in mind, and we'll let you know what fits your package.",
+    faqs: [
+      {
+        q: "Can I customize the truck's decoration?",
+        a: "Yes, decoration options scale with the package — full body branding from Rajwada upward, and custom theme branding with LED name lettering from Maharaja upward.",
+      },
+      {
+        q: "What decoration comes with the starting package?",
+        a: "Raj Tilak includes chhatri lights around the truck, giving a warm, traditional look for the entry.",
+      },
+      {
+        q: "Can the truck display our names?",
+        a: "Yes, the Maharaja and Signature packages include the groom's name displayed in custom LED lettering on the truck.",
+      },
+      {
+        q: "Are there theme options for the truck branding?",
+        a: "Yes, custom theme branding is available from the Maharaja package upward — message us with your ideas on WhatsApp.",
+      },
+      {
+        q: "Does decoration cost extra on top of the package price?",
+        a: "No, the decoration level is built into each package tier, so there's no separate add-on charge for the base decoration included in your chosen package.",
+      },
+      {
+        q: "How early should I share decoration ideas?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan any specific branding or theme details properly.",
+      },
+      {
+        q: "Is the vintage car decorated too?",
+        a: "Yes, the vintage car is styled for the occasion as part of every package, not left plain.",
+      },
+      {
+        q: "Which package has the most decoration options?",
+        a: "Signature, our top package, includes the most decoration along with pyro and confetti effects for maximum visual impact.",
+      },
+    ],
+  },
+
+  "baraat-truck-price": {
+    slug: "baraat-truck-price",
+    intro:
+      "Baraat truck price depends on which package you pick, how many dhol players you want, and whether you add effects like pyro or confetti — there's no single flat number, but there is a clear range across our four packages.\n\nPlanMyBaraat's baraat truck price always covers the full entry: the truck, dhol team, vintage car, and safa team together, not the truck alone.",
+    explanation:
+      "The base — truck, sound system, and DJ artist — is consistent across every package. What moves the price up as you go through the tiers is the dhol count (2 to 6), the lighting and LED setup, and extras like a teddy or gorilla performer, pyro effects, confetti cannons, and a security team on Signature, our top package.\n\nBecause the price always includes the vintage car and safa team too, it's worth comparing against the full entry cost elsewhere, not just a bare truck rental quote.",
+    whatsIncluded:
+      "Raj Tilak includes the truck, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature adds a security team plus pyro and confetti effects.",
+    pricingGuidance:
+      "We don't publish a flat baraat truck price because it depends on your city, date, guest count, and package choice. Raj Tilak is the most affordable way to get a proper truck entry, and Signature is the most complete.\n\nMessage us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real price, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February, and both price and truck availability tighten during that window. 3-4 weeks' notice is a safe bet for peak season.\n\nShare your date, city, venue, and guest count when you reach out for an accurate quote.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll send you a real baraat truck price, usually within the hour.",
+    faqs: [
+      {
+        q: "What's the baraat truck price range?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the price include just the truck or the full entry?",
+        a: "The full entry — truck, dhol team, vintage car, and safa team are all included in every package price.",
+      },
+      {
+        q: "Is Raj Tilak a full baraat entry or a stripped-down version?",
+        a: "It's a complete entry with the truck, DJ, 2 dhol, chhatri lights, car, and safa team — just with less production than the higher tiers, not missing any core piece.",
+      },
+      {
+        q: "Why is Signature more expensive?",
+        a: "It includes 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team — significantly more production than the starting package.",
+      },
+      {
+        q: "Does the price change based on my city?",
+        a: "Logistics can vary slightly, which is why we confirm your exact price once we know your date and location rather than quoting blind.",
+      },
+      {
+        q: "How early should I lock in a price?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since prices and availability both tighten during peak season.",
+      },
+      {
+        q: "Can I negotiate the baraat truck price?",
+        a: "Message us with your budget and requirements on WhatsApp and we'll recommend the package that fits best.",
+      },
+      {
+        q: "How do I get an exact price for my date?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
 };

@@ -2364,4 +2364,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "money-gun-for-sangeet": {
+    slug: "money-gun-for-sangeet",
+    intro:
+      "A money gun for sangeet is a fun, playful effect that showers flying cash-style notes during a celebration moment — while PlanMyBaraat's core packages are built around the baraat entry, the same fake money gun featured in our Signature package can be discussed for other functions too.\n\nMessage us on WhatsApp if you're interested in this effect for your sangeet, and we'll let you know what's possible.",
+    explanation:
+      "Our packages are primarily designed around the baraat procession — the truck, dhol, vintage car, and safa team all built for that specific moment. The fake money gun featured in Signature is part of that entry production, timed to the truck's arrival.\n\nIf you're looking for the effect specifically for a sangeet function separate from the baraat, reach out and describe what you need — we'll advise on what we can offer.",
+    whatsIncluded:
+      "The fake money gun is included as part of our Signature baraat package, alongside pyro highlights, confetti, CO2 effects, moving LED panels, 6 dhol, an American vintage car, a security team, and a safa team.",
+    pricingGuidance:
+      "The money gun effect is bundled into the Signature package pricing rather than sold separately. Message us on WhatsApp with details on what you're planning, and we'll let you know what's possible and give you a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. Mention your specific function and timing needs early so we can plan accordingly.\n\nShare your date, city, venue, and what function you're planning this for when you reach out.",
+    closing:
+      "Message us on WhatsApp with your event details, and we'll let you know what we can offer for your celebration.",
+    faqs: [
+      {
+        q: "Do you offer a money gun specifically for sangeet functions?",
+        a: "Our packages are built around the baraat entry, where the fake money gun is included in Signature. Message us with your sangeet plans and we'll let you know what's possible.",
+      },
+      {
+        q: "How much does a money gun for sangeet cost?",
+        a: "It's part of our Signature baraat package pricing. Message your event details on WhatsApp for a real quote and to discuss options for other functions.",
+      },
+      {
+        q: "Is this effect safe to use indoors?",
+        a: "This depends on the venue — mention your setup and we'll advise on what's appropriate.",
+      },
+      {
+        q: "Can I book just the money gun effect without the full baraat package?",
+        a: "Message us with what you're planning and we'll let you know what's possible outside of the standard baraat entry package.",
+      },
+      {
+        q: "How early should I ask about this for my sangeet?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan and confirm what's feasible.",
+      },
+      {
+        q: "What other effects are similar to the money gun?",
+        a: "Confetti cannons and CO2 guns offer a similar celebratory burst effect and are included in our Maharaja and Signature packages.",
+      },
+      {
+        q: "Is the money gun effect messy to clean up?",
+        a: "There's some cleanup involved, similar to confetti, which is worth discussing with your venue in advance.",
+      },
+      {
+        q: "How do I find out if this is available for my event?",
+        a: "Message us on WhatsApp with your date, city, and what you're planning, and we'll let you know what's possible.",
+      },
+    ],
+  },
+
+  "entertainer-for-baraat": {
+    slug: "entertainer-for-baraat",
+    intro:
+      "An entertainer for baraat adds a live, interactive element to the procession beyond music — a costumed performer who engages directly with the dancing crowd and adds a fun, memorable moment to the entry.\n\nPlanMyBaraat includes a teddy or gorilla performer as part of our Rajwada package and above, alongside the truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "A costumed entertainer works differently from the DJ or dhol team — they move through the crowd directly, dancing with guests, taking photos, and creating spontaneous, interactive moments that a fixed performance can't. It's a popular addition for families who want the entry to feel playful, not just musically loud.\n\nThe entertainer works alongside the truck and dhol team throughout the procession, adding to the overall energy rather than performing separately.",
+    whatsIncluded:
+      "Rajwada includes 1 teddy or gorilla artist alongside the truck, DJ, 4 dhol, chhatri lights, a vintage car, and a safa team. Maharaja and Signature carry this entertainer forward alongside their additional effects and production.",
+    pricingGuidance:
+      "The entertainer is included from the Rajwada package upward. Message us on WhatsApp with your date and city, and we'll walk you through what's included at each tier and give you a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for packages with entertainers peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm a package with an entertainer for your baraat.",
+    faqs: [
+      {
+        q: "Which package includes an entertainer?",
+        a: "Rajwada and above include a teddy or gorilla performer alongside the truck, dhol, car, and safa team.",
+      },
+      {
+        q: "How much does an entertainer for baraat cost?",
+        a: "It's included as part of the Rajwada package and above. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the entertainer interact directly with guests?",
+        a: "Yes, they move through the crowd, dancing with guests and creating interactive, photo-worthy moments throughout the procession.",
+      },
+      {
+        q: "What kind of costume does the entertainer wear?",
+        a: "A teddy bear or gorilla costume, chosen for its crowd-pleasing, fun character.",
+      },
+      {
+        q: "How early should I book a package with an entertainer?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since these packages are popular.",
+      },
+      {
+        q: "Is the entertainer available in the starting package?",
+        a: "No, the entertainer is included from Rajwada upward, not in Raj Tilak.",
+      },
+      {
+        q: "Does the entertainer work alongside the dhol team?",
+        a: "Yes, they add to the overall energy of the procession alongside the truck, DJ, and dhol team.",
+      },
+      {
+        q: "Can I request a specific costume theme?",
+        a: "Message us with your preferences and we'll let you know what's possible.",
+      },
+    ],
+  },
+
+  "entertainer-for-groom-entry": {
+    slug: "entertainer-for-groom-entry",
+    intro:
+      "An entertainer for groom entry adds a lively, interactive presence to the procession, dancing alongside the crowd and creating a fun, energetic atmosphere as the groom makes his way toward the venue.\n\nPlanMyBaraat includes a teddy or gorilla performer as part of our Rajwada package and above.",
+    explanation:
+      "While the groom typically arrives in a vintage car and joins the procession, the entertainer works the crowd around him — engaging with guests, dancing, and adding a playful visual element that complements the more formal, royal feel of the vintage car arrival.\n\nThis combination — dignified groom entry plus playful crowd entertainment — is part of what makes our Rajwada package and above feel like a fuller celebration rather than just a procession.",
+    whatsIncluded:
+      "Rajwada includes 1 teddy or gorilla artist alongside the truck, DJ, 4 dhol, chhatri lights, a vintage car, and a safa team. Maharaja and Signature carry this entertainer forward with additional production layered on top.",
+    pricingGuidance:
+      "The entertainer is included from the Rajwada package upward. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm a package with an entertainer for the groom's entry.",
+    faqs: [
+      {
+        q: "Does the entertainer perform specifically for the groom?",
+        a: "The entertainer works the crowd throughout the procession, adding energy around the groom's entry rather than a solo performance just for him.",
+      },
+      {
+        q: "Which package includes this?",
+        a: "Rajwada and above include a teddy or gorilla performer alongside the vintage car and rest of the entry.",
+      },
+      {
+        q: "How much does an entertainer for groom entry cost?",
+        a: "It's included as part of the Rajwada package and above. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the groom still arrive in a vintage car with this package?",
+        a: "Yes, the vintage car is included in every package from Raj Tilak upward, and the entertainer adds to the overall procession energy alongside it.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since these packages are popular.",
+      },
+      {
+        q: "Can the entertainer take photos with guests?",
+        a: "Yes, they typically move through the crowd, dancing and creating photo-worthy moments throughout the procession.",
+      },
+      {
+        q: "Is this available in the starting package?",
+        a: "No, it's included from Rajwada upward, not in Raj Tilak, our starting tier.",
+      },
+      {
+        q: "What's the difference between Rajwada and Maharaja for this?",
+        a: "Both include the entertainer; Maharaja adds moving LED panels and custom name lighting on top.",
+      },
+    ],
+  },
 };

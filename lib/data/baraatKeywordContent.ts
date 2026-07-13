@@ -6064,4 +6064,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "advance-payment-for-baraat-service": {
+    slug: "advance-payment-for-baraat-service",
+    intro:
+      "Advance payment for baraat service is how PlanMyBaraat locks in your date once you've decided on a package — a standard part of confirming a truck, dhol team, vintage car, and safa team for your specific wedding day.\n\nMessage us on WhatsApp with your details, and we'll share exact advance payment terms once your package is confirmed.",
+    explanation:
+      "Because wedding dates, especially during peak season, get booked out fast, an advance payment secures your truck and team for that specific date rather than leaving it open to other inquiries. The balance is typically due closer to the event.\n\nThis is standard practice across event services generally, and we're transparent about the terms once you've settled on a package, so there are no surprises later in the process.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, confirmed once the advance payment is received.",
+    pricingGuidance:
+      "The advance payment amount depends on your total package cost, which is based on the tier, dhol count, and any extra effects. Message us on WhatsApp for the exact terms once we've confirmed your package.",
+    bookingNotes:
+      "Wedding season runs November to February, and confirming with an advance payment early secures your date during this busy window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and preferred package when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and preferred package, and we'll share advance payment details to lock in your booking.",
+    faqs: [
+      {
+        q: "Do I need to pay an advance to confirm my baraat booking?",
+        a: "Yes, an advance payment locks in your date and package, with the balance due closer to the event.",
+      },
+      {
+        q: "How much is the advance payment?",
+        a: "It depends on your total package cost. Message us on WhatsApp for exact terms once your package is confirmed.",
+      },
+      {
+        q: "When is the remaining balance due?",
+        a: "Typically closer to the event date — we'll confirm exact timing when discussing your booking.",
+      },
+      {
+        q: "Is the advance payment refundable?",
+        a: "Message us with any specific concerns about cancellations, and we'll walk you through our policy.",
+      },
+      {
+        q: "How early should I pay the advance to secure my date?",
+        a: "As early as possible, ideally 3-4 weeks ahead during wedding season (November to February), since dates fill up fast.",
+      },
+      {
+        q: "What payment methods are accepted?",
+        a: "Message us on WhatsApp and we'll share the accepted payment methods for your booking.",
+      },
+      {
+        q: "Does the advance lock in a specific package or just the date?",
+        a: "It locks in both your date and the specific package you've chosen.",
+      },
+      {
+        q: "How do I proceed with payment?",
+        a: "Message us on WhatsApp with your wedding date, city, and preferred package, and we'll share the next steps.",
+      },
+    ],
+  },
+
+  "baraat-cancellation-policy": {
+    slug: "baraat-cancellation-policy",
+    intro:
+      "Baraat cancellation policy details vary based on how far in advance you cancel relative to your event date — message us on WhatsApp with your specific situation, and we'll walk you through the terms clearly.\n\nWe aim to be transparent about cancellation terms from the start of your booking.",
+    explanation:
+      "Because a confirmed booking holds your date and reserves our truck, dhol team, and other resources for that specific day, cancellation policies typically account for how much notice you're able to give. Earlier cancellations generally have more flexibility than last-minute changes close to the event.\n\nWe understand wedding plans can shift, and we try to work with families as reasonably as possible while also protecting the commitment we've made to hold your date exclusively.",
+    whatsIncluded:
+      "Cancellation terms apply to all our packages equally, regardless of which tier — truck, dhol, vintage car, and safa team — you've booked.",
+    pricingGuidance:
+      "Cancellation and refund terms depend on your specific booking and timing. Message us on WhatsApp with your situation and we'll explain the applicable terms clearly.",
+    bookingNotes:
+      "If your wedding date changes, message us as soon as you know so we can advise on rebooking or cancellation terms for your new plans.\n\nShare your original booking details and new date (if applicable) when you reach out.",
+    closing:
+      "Message us on WhatsApp with your specific situation, and we'll walk you through our cancellation policy clearly.",
+    faqs: [
+      {
+        q: "What is your baraat cancellation policy?",
+        a: "Terms depend on how far in advance you cancel relative to your event date. Message us with your specific situation and we'll explain clearly.",
+      },
+      {
+        q: "Can I get a refund if I cancel my booking?",
+        a: "This depends on timing and your specific booking — message us and we'll walk you through what applies to your situation.",
+      },
+      {
+        q: "What if my wedding date changes instead of a full cancellation?",
+        a: "Message us as soon as you know so we can check availability for the new date and discuss rebooking.",
+      },
+      {
+        q: "Is there a deadline for cancellation without penalty?",
+        a: "This varies by booking — message us your specific timeline and we'll clarify what applies.",
+      },
+      {
+        q: "Does the cancellation policy differ by package tier?",
+        a: "No, our cancellation terms apply consistently regardless of which package you've booked.",
+      },
+      {
+        q: "How do I request a cancellation?",
+        a: "Message us on WhatsApp with your booking details and the reason for cancellation, and we'll guide you through the process.",
+      },
+      {
+        q: "What happens to my advance payment if I cancel?",
+        a: "This depends on timing — message us your specific situation and we'll explain what applies.",
+      },
+      {
+        q: "Who do I contact for cancellation questions?",
+        a: "Message us on WhatsApp with your booking details, and we'll address your specific situation.",
+      },
+    ],
+  },
+
+  "baraat-customization-options": {
+    slug: "baraat-customization-options",
+    intro:
+      "Baraat customization options let you tailor elements of your entry within our package structure — from custom LED name lettering to specific song requests and lighting themes.\n\nPlanMyBaraat's Maharaja and Signature packages offer the most room for customization, on top of the reliable base every package includes.",
+    explanation:
+      "While the core structure of each package is fixed, there's meaningful room to personalize within it — the exact spelling and style of the groom's name in LED lettering, preferred songs for the DJ set, specific timing for effects like pyro and confetti, and coordination of the safa team's turban colors with the wedding outfit.\n\nMessage us with your specific ideas, and we'll let you know what's possible within your chosen package tier, or whether a different tier might better accommodate what you're picturing.",
+    whatsIncluded:
+      "Customization varies by package: Maharaja and Signature offer LED name lettering and moving visual panels, while all tiers allow some level of song requests and turban style coordination.",
+    pricingGuidance:
+      "Customization options are generally included within the relevant package tier rather than priced as separate add-ons. Message us on WhatsApp with your specific ideas, and we'll let you know what's possible and provide pricing.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have specific customization requests, mention them early — 3-4 weeks' notice gives us time to plan the details properly.\n\nShare your date, city, venue, and any customization ideas when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any customization ideas, and we'll let you know what's possible.",
+    faqs: [
+      {
+        q: "What can I customize in my baraat entry?",
+        a: "LED name lettering, song requests, effect timing, and turban color coordination are all areas where we can personalize within your package.",
+      },
+      {
+        q: "Which package offers the most customization?",
+        a: "Maharaja and Signature offer the most room, with LED visuals and custom lettering as part of their standard inclusions.",
+      },
+      {
+        q: "Do customizations cost extra?",
+        a: "Most customization options are included within the relevant package tier. Message us your specific request and we'll clarify any pricing.",
+      },
+      {
+        q: "Can I request a specific color theme for the lighting?",
+        a: "Message us with your preferences and we'll let you know what's possible for your package.",
+      },
+      {
+        q: "How early should I share customization requests?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we have time to plan the details properly.",
+      },
+      {
+        q: "Can I request specific songs for the DJ?",
+        a: "Yes, our DJ artists take requests ahead of time and build a set around your preferences.",
+      },
+      {
+        q: "Can I customize the safa team's turban colors?",
+        a: "Yes, message us with your outfit details and we'll coordinate the turban styling accordingly.",
+      },
+      {
+        q: "How do I discuss my customization ideas?",
+        a: "Message us on WhatsApp with your date, city, and specific ideas, and we'll let you know what's possible.",
+      },
+    ],
+  },
 };

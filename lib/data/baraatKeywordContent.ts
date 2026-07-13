@@ -4464,4 +4464,254 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "bouncers-for-wedding": {
+    slug: "bouncers-for-wedding",
+    intro:
+      "Bouncers for wedding baraats help manage the crowd around the truck and dancing procession, especially useful for larger guest lists or venues with tighter access points.\n\nPlanMyBaraat includes 4 professional bouncers as part of our Signature package, our most complete production tier.",
+    explanation:
+      "As a baraat grows in scale — more guests, bigger production, effects like pyro and confetti — having trained security helps keep the crowd safely positioned around the truck and any effects happening. This is why we specifically include bouncers in Signature, our top-tier package built for bigger, more elaborate entries.\n\nOur bouncers are trained and professional, focused on smooth crowd management rather than a heavy-handed presence, so the celebratory feel of the entry isn't disrupted.",
+    whatsIncluded:
+      "Signature includes 4 professional bouncers alongside the DJ truck, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and a safa team.",
+    pricingGuidance:
+      "Bouncers are included specifically as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February, and Signature package availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with bouncers for your entry.",
+    faqs: [
+      {
+        q: "Which package includes bouncers?",
+        a: "Signature, our top package, includes 4 professional bouncers as part of its full production.",
+      },
+      {
+        q: "How much do bouncers for wedding cost?",
+        a: "They're included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Why are bouncers included with the top package specifically?",
+        a: "Signature is built for bigger, more elaborate entries, and having trained security helps manage the crowd around the truck and any effects like pyro or confetti.",
+      },
+      {
+        q: "Are the bouncers trained specifically for wedding events?",
+        a: "Yes, they're professional and focused on smooth crowd management, keeping the celebratory feel of the entry intact.",
+      },
+      {
+        q: "How early should I book for the Signature package?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since this package is popular during peak season.",
+      },
+      {
+        q: "Can I add bouncers to a lower-tier package?",
+        a: "Message us with your specific needs on WhatsApp and we'll let you know what's possible.",
+      },
+      {
+        q: "Do bouncers help with pyro and confetti effect safety?",
+        a: "Yes, they help manage crowd positioning around effects for a safer, smoother experience.",
+      },
+      {
+        q: "How many bouncers come with the Signature package?",
+        a: "4 professional bouncers are included as part of Signature's full production.",
+      },
+    ],
+  },
+
+  "professional-bouncers-for-wedding": {
+    slug: "professional-bouncers-for-wedding",
+    intro:
+      "Professional bouncers for wedding baraats add trained crowd management to a bigger, more elaborate entry, especially useful when effects like pyro and confetti are part of the production.\n\nPlanMyBaraat includes 4 professional bouncers as part of our Signature package.",
+    explanation:
+      "Being \"professional\" matters here — these aren't generic security hired last minute, but trained personnel experienced with wedding events specifically, focused on smooth, respectful crowd management rather than a disruptive presence.\n\nThey work alongside the rest of the Signature package's production, helping position the crowd safely around the truck and any effects timed to the entry's key moments.",
+    whatsIncluded:
+      "Signature includes 4 professional bouncers alongside the DJ truck, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and a safa team.",
+    pricingGuidance:
+      "Professional bouncers are included specifically as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February, and Signature package availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with professional bouncers.",
+    faqs: [
+      {
+        q: "What makes the bouncers 'professional'?",
+        a: "They're trained personnel experienced with wedding events specifically, focused on smooth, respectful crowd management.",
+      },
+      {
+        q: "How much do professional bouncers for wedding cost?",
+        a: "They're included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do the bouncers interfere with the celebratory feel of the entry?",
+        a: "No, they're focused on smooth crowd management without disrupting the celebration.",
+      },
+      {
+        q: "Is this included at every package tier?",
+        a: "No, professional bouncers are specific to the Signature package, our top-tier production.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since Signature is popular during peak season.",
+      },
+      {
+        q: "Do bouncers help manage effects like pyro and confetti?",
+        a: "Yes, they help position the crowd safely around effects timed to the entry's key moments.",
+      },
+      {
+        q: "How many bouncers are typically provided?",
+        a: "Signature includes 4 professional bouncers as part of its full production.",
+      },
+      {
+        q: "What else comes with Signature besides bouncers?",
+        a: "6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, and an American vintage car.",
+      },
+    ],
+  },
+
+  "security-guards-for-wedding-event": {
+    slug: "security-guards-for-wedding-event",
+    intro:
+      "Security guards for wedding events help manage crowd flow and safety around a larger baraat entry, especially one with effects and a bigger production, like PlanMyBaraat's Signature package.\n\nSignature includes 4 professional bouncers as part of its complete production tier.",
+    explanation:
+      "For a bigger baraat entry — more guests, more production, effects timed to specific moments — having dedicated security helps keep everything running smoothly and safely. This is why bouncers are specifically part of our top-tier package rather than a universal add-on.\n\nThey coordinate with the rest of our team, positioning themselves around the truck and any effects to help manage crowd flow without disrupting the celebration.",
+    whatsIncluded:
+      "Signature includes 4 professional bouncers alongside the DJ truck, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and a safa team.",
+    pricingGuidance:
+      "Security guards are included specifically as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February, and Signature package availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with security included.",
+    faqs: [
+      {
+        q: "Do you provide security guards for wedding events?",
+        a: "Signature, our top package, includes 4 professional bouncers as part of its full production.",
+      },
+      {
+        q: "How much do security guards for wedding event cost?",
+        a: "They're included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Why is security needed for a baraat specifically?",
+        a: "For bigger entries with more guests and effects like pyro and confetti, dedicated security helps manage crowd flow and safety around key moments.",
+      },
+      {
+        q: "Is security included at lower package tiers?",
+        a: "No, it's specific to the Signature package, our top-tier production.",
+      },
+      {
+        q: "How early should I book Signature for the security inclusion?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do the guards manage venue entry too?",
+        a: "Their focus is on the baraat procession and crowd positioning around the truck and effects — discuss any additional venue needs with us directly.",
+      },
+      {
+        q: "How many security personnel are included?",
+        a: "4 professional bouncers are included as part of the Signature package.",
+      },
+      {
+        q: "Can I add security to a smaller package?",
+        a: "Message us with your specific needs on WhatsApp and we'll let you know what's possible.",
+      },
+    ],
+  },
+
+  "crowd-control-security-wedding": {
+    slug: "crowd-control-security-wedding",
+    intro:
+      "Crowd control security for wedding baraats helps manage guest positioning around the truck and any effects, especially important for bigger, more elaborate entries.\n\nPlanMyBaraat's Signature package includes 4 professional bouncers specifically for this purpose.",
+    explanation:
+      "A large baraati group dancing around a moving truck, combined with effects like pyro and confetti timed to specific moments, benefits from trained crowd control to keep everyone safely positioned. This is a specific need at the scale of our Signature package's production.\n\nOur bouncers work alongside the rest of the team, coordinating positioning without disrupting the flow or energy of the celebration.",
+    whatsIncluded:
+      "Signature includes 4 professional bouncers alongside the DJ truck, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and a safa team.",
+    pricingGuidance:
+      "Crowd control security is included specifically as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February, and Signature package availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with crowd control security.",
+    faqs: [
+      {
+        q: "Why does a baraat need crowd control security?",
+        a: "For bigger entries with a large dancing crowd and effects like pyro and confetti, trained crowd control helps keep everyone safely positioned around the truck.",
+      },
+      {
+        q: "How much does crowd control security for wedding cost?",
+        a: "It's included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is this included in every package?",
+        a: "No, it's specific to the Signature package, our top-tier production built for bigger entries.",
+      },
+      {
+        q: "Does crowd control affect the celebratory energy of the entry?",
+        a: "No, our bouncers coordinate positioning without disrupting the flow or energy of the celebration.",
+      },
+      {
+        q: "How early should I book for Signature?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since this package is popular during peak season.",
+      },
+      {
+        q: "How many security personnel handle crowd control?",
+        a: "4 professional bouncers are included as part of the Signature package.",
+      },
+      {
+        q: "Do they help specifically during pyro and confetti moments?",
+        a: "Yes, they help position the crowd safely around effects timed to the entry's key moments.",
+      },
+      {
+        q: "What's the full Signature package lineup?",
+        a: "The truck, DJ, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and a safa team, alongside the security team.",
+      },
+    ],
+  },
+
+  "bouncer-hiring-for-wedding-events": {
+    slug: "bouncer-hiring-for-wedding-events",
+    intro:
+      "Bouncer hiring for wedding events is included as part of PlanMyBaraat's Signature package, not a separate service you'd need to arrange independently alongside the truck and dhol team.\n\nSignature includes 4 professional bouncers as part of its complete production.",
+    explanation:
+      "Rather than hiring security independently and coordinating their positioning around a separately booked truck and effects, our approach bundles bouncers into the Signature package, so they're part of the same coordinated team managing your entry.\n\nThis means they're briefed on the specific timing of effects like pyro and confetti, and positioned accordingly as part of the overall plan, rather than working with limited information about the event.",
+    whatsIncluded:
+      "Signature includes 4 professional bouncers alongside the DJ truck, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and a safa team.",
+    pricingGuidance:
+      "Bouncer hiring is included specifically as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February, and Signature package availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with bouncers included.",
+    faqs: [
+      {
+        q: "Can I hire bouncers separately from the baraat package?",
+        a: "No, bouncers are included as part of the Signature package, coordinated with the rest of our team, not hired independently.",
+      },
+      {
+        q: "What's the bouncer hiring price for wedding events?",
+        a: "There's no separate hiring price — it's included in the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the bouncers briefed on the event's specific timing?",
+        a: "Yes, they're part of our coordinated team and briefed on effects like pyro and confetti timing as part of the overall plan.",
+      },
+      {
+        q: "Is this available at lower package tiers?",
+        a: "No, it's specific to the Signature package, our top-tier production.",
+      },
+      {
+        q: "How early should I book to include bouncers?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since Signature is popular during peak season.",
+      },
+      {
+        q: "How many bouncers are included?",
+        a: "4 professional bouncers are part of the Signature package.",
+      },
+      {
+        q: "Do the bouncers work with the rest of our team on the day?",
+        a: "Yes, they're coordinated with the truck, DJ, dhol team, and effects timing as one operation.",
+      },
+      {
+        q: "What's the full Signature package lineup?",
+        a: "The truck, DJ, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, an American vintage car, and a safa team.",
+      },
+    ],
+  },
 };

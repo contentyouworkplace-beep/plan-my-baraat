@@ -1,10 +1,10 @@
 ---
-import Layout from "../../layouts/Layout.astro";
-import { ALL_BARAAT_LOCATIONS, getLocationBySlug } from "../../data/baraatLocations";
-import { BARAAT_PACKAGES } from "../../data/packagesData";
-import { WHATSAPP_NUMBER } from "../../data/whatsapp";
-import { locationIntro, locationWhyUs, locationClosing } from "../../data/baraatContentVariants";
-import { getLocationMeta } from "../../data/seoMeta";
+import Layout from "../layouts/Layout.astro";
+import { ALL_BARAAT_LOCATIONS, getLocationBySlug } from "../data/baraatLocations";
+import { BARAAT_PACKAGES } from "../data/packagesData";
+import { WHATSAPP_NUMBER } from "../data/whatsapp";
+import { locationIntro, locationWhyUs, locationClosing } from "../data/baraatContentVariants";
+import { getLocationMeta } from "../data/seoMeta";
 
 export function getStaticPaths() {
   return ALL_BARAAT_LOCATIONS.map((l) => ({ params: { location: l.slug } }));

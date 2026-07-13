@@ -5614,4 +5614,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "custom-baraat-pricing": {
+    slug: "custom-baraat-pricing",
+    intro:
+      "Custom baraat pricing reflects the fact that every wedding is different — your city, date, guest count, and specific package choice all factor into the final number, rather than a one-size-fits-all rate.\n\nPlanMyBaraat quotes based on your actual event details, giving you a price that reflects your specific baraat, not a generic estimate.",
+    explanation:
+      "Rather than a fixed price sheet, we build your quote around what you actually need — which package tier fits your vision, how many dhol players you want, whether you're adding effects like pyro or confetti, and any specific requests you have. This means two families with different needs get different, accurate prices rather than the same generic number.\n\nCustom pricing also means we can advise on trade-offs — for example, if budget is a priority, we can suggest where to save without losing the core experience.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with the specific mix and quantity depending on your chosen tier and any custom requests.",
+    pricingGuidance:
+      "We build custom quotes based on your city, date, guest count, and package preferences. Message us on WhatsApp with your details and any specific requests, and we'll respond with a real, tailored price.",
+    bookingNotes:
+      "Wedding season runs November to February. If you have specific custom requests, mention them early — 3-4 weeks' notice gives us time to plan the details properly.\n\nShare your date, city, venue, guest count, and any custom requirements when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and any custom requirements, and we'll build a tailored quote for your baraat.",
+    faqs: [
+      {
+        q: "Do you offer custom baraat pricing?",
+        a: "Yes, we quote based on your actual event details — city, date, guest count, and package choice — rather than a fixed generic rate.",
+      },
+      {
+        q: "How does custom pricing work?",
+        a: "Message us your date, city, and specific requirements, and we'll build a quote tailored to your event, not a generic estimate.",
+      },
+      {
+        q: "Can you help me find the right balance between budget and production?",
+        a: "Yes, tell us your budget and priorities and we'll advise on where to invest and where to keep things simple.",
+      },
+      {
+        q: "Is custom pricing more expensive than standard packages?",
+        a: "No, our four packages already provide the pricing structure — 'custom' means the exact quote reflects your specific date, city, and guest count within that structure.",
+      },
+      {
+        q: "How early should I request a custom quote?",
+        a: "As early as possible, ideally 3-4 weeks ahead during wedding season (November to February), especially if you have specific requests.",
+      },
+      {
+        q: "Can I customize a package with specific add-ons?",
+        a: "Message us with your specific requests and we'll let you know what's possible within your chosen package tier.",
+      },
+      {
+        q: "Does the guest count affect my custom price?",
+        a: "It can factor into our recommendation, since a bigger baraati group sometimes calls for a bigger sound setup or more dhol.",
+      },
+      {
+        q: "How do I get my custom quote?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real, tailored number.",
+      },
+    ],
+  },
+
+  "baraat-setup-for-guests-count": {
+    slug: "baraat-setup-for-guests-count",
+    intro:
+      "Baraat setup for guests count is about matching the right package to your specific crowd size — a smaller guest list often works well with Raj Tilak, while a larger baraati group typically benefits from more dhol and a stronger sound system.\n\nPlanMyBaraat can recommend the right tier once we know your rough headcount.",
+    explanation:
+      "Guest count affects a few practical things: how many dhol players are needed to keep the energy up across a bigger group, whether the sound system needs to project further, and how much room the truck needs on your route. For smaller, more intimate weddings, Raj Tilak's 2 dhol players and standard sound setup are usually plenty.\n\nFor larger celebrations, Maharaja or Signature's 6 dhol players and more powerful production help keep everyone engaged, especially across a bigger, more spread-out crowd.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol, suited to smaller guest lists. Rajwada steps up to 4. Maharaja and Signature both include 6 dhol along with stronger production, suited to larger celebrations.",
+    pricingGuidance:
+      "Pricing depends on the package tier that fits your guest count, along with your city and date. Message us on WhatsApp with your rough headcount, and we'll recommend the right package and give you a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll recommend the right package for your crowd size.",
+    faqs: [
+      {
+        q: "Which package is best for a small guest list?",
+        a: "Raj Tilak, with 2 dhol players and a standard sound setup, works well for smaller, more intimate baraati groups.",
+      },
+      {
+        q: "Which package is best for a large guest list?",
+        a: "Maharaja or Signature, with 6 dhol players and stronger production, suit larger, more spread-out celebrations better.",
+      },
+      {
+        q: "Does guest count change the price?",
+        a: "It can factor into our recommendation, since a bigger group sometimes calls for a bigger setup, but message us your specific numbers for an accurate quote.",
+      },
+      {
+        q: "What if I'm not sure of my exact guest count yet?",
+        a: "A rough estimate is enough for us to recommend a package — message us what you have and we'll advise accordingly.",
+      },
+      {
+        q: "Does a bigger crowd need a bigger truck?",
+        a: "The truck size is generally consistent; what scales with guest count is dhol players and sound projection strength.",
+      },
+      {
+        q: "How early should I book based on my guest count?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, especially for larger events needing the higher tiers.",
+      },
+      {
+        q: "Can I upgrade dhol count without upgrading the whole package?",
+        a: "Message us with your specific needs and we'll let you know what's possible.",
+      },
+      {
+        q: "How do I find out which package fits my guest count?",
+        a: "Message us on WhatsApp with your rough headcount, date, and city, and we'll recommend the right package.",
+      },
+    ],
+  },
+
+  "baraat-setup-for-destination-wedding": {
+    slug: "baraat-setup-for-destination-wedding",
+    intro:
+      "A baraat setup for destination wedding needs extra planning around venue access, guest travel logistics, and unfamiliar routes — PlanMyBaraat covers destination-style venues across Gujarat, including areas like the Statue of Unity belt.\n\nMessage us on WhatsApp with your destination venue details, and we'll confirm what's possible for your specific location.",
+    explanation:
+      "Destination weddings often happen at resorts or event spaces built for exactly this kind of celebration, sometimes in areas we're less routinely booked in than major cities. We plan the truck route carefully around these venues, accounting for road access, parking for the truck, and guest travel patterns unique to a destination location.\n\nBecause destination venues can book out fast and require more logistics planning, we recommend reaching out earlier than usual for these events.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with route planning adjusted specifically for your destination venue.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your specific destination location, and guest count. Message us on WhatsApp with your venue details, and we'll respond with a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and destination venues book out especially fast during that window. 4 weeks' notice or more is a safe bet for these events.\n\nShare your date, destination venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and destination venue, and we'll confirm what's possible for your baraat entry.",
+    faqs: [
+      {
+        q: "Do you cover destination wedding venues?",
+        a: "Yes, we cover destination-style venues across Gujarat, including areas like the Statue of Unity belt. Message us your specific venue to confirm.",
+      },
+      {
+        q: "How much does a baraat setup for destination wedding cost?",
+        a: "It depends on the package, your specific location, and guest count. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "How early should I book for a destination wedding?",
+        a: "4 weeks or more is a safe window, since destination venues book out especially fast during peak season.",
+      },
+      {
+        q: "Does the truck route need special planning for destination venues?",
+        a: "Yes, we plan around road access, parking, and guest travel patterns specific to the destination location.",
+      },
+      {
+        q: "Are all packages available for destination weddings?",
+        a: "Message us with your specific venue and we'll confirm which packages are best suited for that location.",
+      },
+      {
+        q: "Does guest travel affect the baraat planning?",
+        a: "Yes, destination weddings often have unique guest travel patterns, which we factor into route and timing planning.",
+      },
+      {
+        q: "Is the vintage car suitable for destination venue roads?",
+        a: "We assess this based on your specific venue's road conditions when planning the entry.",
+      },
+      {
+        q: "How do I confirm coverage for my destination venue?",
+        a: "Message us on WhatsApp with your venue name and location, and we'll confirm what's possible.",
+      },
+    ],
+  },
 };

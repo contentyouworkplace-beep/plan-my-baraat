@@ -3539,4 +3539,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-palanpur-road": {
+    slug: "surat-palanpur-road",
+    intro:
+      "Palanpur Road connects toward Adajan, a mixed commercial and residential stretch with a handful of banquet halls that have become popular for their easy access. A baraat entry here benefits from reasonably wide roads and a central location within western Surat.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Palanpur Road is generally wide enough for a full truck setup, though commercial sections can get busy in the evening. It connects easily to Adajan and Pal, so guests from that broader western Surat pocket have an easy route in.\n\nWe've handled a good number of entries along this stretch and the connecting neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Palanpur Road that means knowing when the commercial stretches get busiest, so we can time your baraat's arrival to avoid delays.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries along this corridor.",
+    pricingGuidance:
+      "On how much does baraat cost for a Palanpur Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Palanpur Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Palanpur Road, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Palanpur Road good for a full truck entry?",
+        a: "Yes, it's generally wide enough for a full truck setup, though commercial sections can get busy in the evening.",
+      },
+      {
+        q: "How early should I book for a Palanpur Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover venues near Adajan and Pal too?",
+        a: "Yes, we cover the broader western Surat pocket including Adajan and Pal. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-nanpura": {
+    slug: "surat-nanpura",
+    intro:
+      "Nanpura is an established, central Surat neighborhood, connecting Athwalines and Ghod Dod Road, with a mix of older residential buildings and long-running community halls. A baraat entry here has a genuinely local, neighborhood feel.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Nanpura's roads are a mix of moderate-width main stretches and narrower society lanes, similar in character to Athwalines nearby. We plan the truck's route and stopping point carefully, especially for venues inside residential complexes.\n\nWe've handled a good number of entries in Nanpura and the surrounding central Surat neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a good fit for Nanpura's residential character. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Nanpura that means knowing which society gates work for a full truck and where a shorter walk-in with the dhol team leading is the better approach.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly and are used to navigating Surat's denser central neighborhoods without losing time.",
+    pricingGuidance:
+      "On how much does baraat cost for a Nanpura entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point and often suits Nanpura's residential scale well. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since community halls here can book out during busy dates.\n\nIf your venue is inside a residential society, let us know the entry point in advance. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Nanpura, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Nanpura, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the DJ truck reach venues inside Nanpura's residential societies?",
+        a: "In most cases yes, though some gates are narrower than a standalone hall's entrance. Tell us your exact venue and we'll check access in advance.",
+      },
+      {
+        q: "How early should I book for a Nanpura wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Is Nanpura close to Athwalines and Ghod Dod Road?",
+        a: "Yes, it connects easily to both, so guests from either side of central Surat can reach it without difficulty.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, sized well for Nanpura's residential streets. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-udhna": {
+    slug: "surat-udhna",
+    intro:
+      "Udhna sits in south Surat, tied closely to the city's textile industry and railway network, with a busy, working character. A baraat entry here happens against a genuinely industrious backdrop — this is a part of the city that's always in motion.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Udhna's roads are generally wide given the industrial and rail-adjacent development, though traffic can build up near the station and textile market areas. Most wedding venues are in the residential pockets rather than the industrial core.\n\nWe've handled entries across Udhna and the connecting south Surat neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Udhna that means knowing when the station and market areas get busiest, so we plan your baraat's timing to avoid the heaviest traffic.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this busy part of south Surat.",
+    pricingGuidance:
+      "On how much does baraat cost for an Udhna entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nGiven how busy this area gets near the station and market, let us know your venue's exact access point so we can plan the truck's timing to avoid delays. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Udhna, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Udhna, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is traffic near Udhna station a problem for a baraat entry?",
+        a: "It can get busy, especially near the station and textile market areas. We plan the truck's timing and route to avoid the worst of it.",
+      },
+      {
+        q: "How early should I book for an Udhna wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are wedding venues in Udhna close to the industrial zone?",
+        a: "Most are in residential pockets rather than the industrial core. Tell us your exact venue and we'll plan the route accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

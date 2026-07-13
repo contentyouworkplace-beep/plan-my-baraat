@@ -3964,4 +3964,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "safa-for-groom": {
+    slug: "safa-for-groom",
+    intro:
+      "A safa for groom is the traditional turban tied specifically for the wedding day, a key part of the groom's look for the baraat entry and ceremony.\n\nPlanMyBaraat includes the My Safa team as part of every package from Raj Tilak upward, styling the groom's turban alongside the rest of the baraati group.",
+    explanation:
+      "The safa isn't just tied once and left alone — our team arrives early enough to style it properly before the procession begins, making sure it holds up through the dancing, walking, and photos that follow. The style and color can often be coordinated with the groom's outfit for a cohesive look.\n\nBeyond the groom, the My Safa team also styles turbans for the wider baraati group, so the whole procession has a consistent, polished appearance, not just the groom individually.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes the My Safa team for the groom and baraati group, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "The safa styling is included in every package, so pricing reflects the overall tier. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and safa team availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the safa team's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Is the safa included in every package?",
+        a: "Yes, the My Safa team styles the groom's turban as part of every package from Raj Tilak upward.",
+      },
+      {
+        q: "How much does a safa for groom cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can the safa color match the groom's outfit?",
+        a: "Message us with your outfit details and preferences on WhatsApp and we'll coordinate the styling accordingly.",
+      },
+      {
+        q: "How early does the safa team arrive before the entry?",
+        a: "Early enough to style the turban properly before the procession begins — we'll confirm exact timing when planning your entry.",
+      },
+      {
+        q: "Does the safa stay in place through dancing and walking?",
+        a: "Yes, it's tied to hold up through the full procession, not just for initial photos.",
+      },
+      {
+        q: "How early should I book for safa styling?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Does the safa team style just the groom or others too?",
+        a: "The My Safa team styles turbans for the groom and the full baraati group, not just the groom individually.",
+      },
+      {
+        q: "Is the safa styling different for each package tier?",
+        a: "The styling itself is consistent — what changes across tiers is the rest of the production, like dhol count and effects.",
+      },
+    ],
+  },
+
+  "safa-team-booking": {
+    slug: "safa-team-booking",
+    intro:
+      "Safa team booking with PlanMyBaraat is included as part of the full baraat package, not a separate service you'd need to arrange on your own alongside the truck and dhol team.\n\nThe My Safa team styles turbans for the groom and baraati group in every package from Raj Tilak upward.",
+    explanation:
+      "Rather than booking a turban stylist separately and coordinating their arrival time with your other vendors, our approach bundles the safa team into the same booking as the rest of the entry. This means they arrive at the right time, coordinated with the truck and dhol team's schedule.\n\nThe My Safa team works with us regularly, so they're experienced with baraat-day timing and pacing, not hired ad hoc for each event.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes the My Safa team, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "Safa team booking is included in every package, so there's no separate booking fee. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February, and safa team availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the safa team's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How do I book the safa team?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count. The My Safa team is included as part of every package we confirm.",
+      },
+      {
+        q: "How much does safa team booking cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I book just the safa team without the rest of the baraat package?",
+        a: "No, the safa team is included as part of our baraat packages alongside the truck and dhol team, not booked separately.",
+      },
+      {
+        q: "Is the safa team experienced with baraat-day timing?",
+        a: "Yes, they work with us regularly and coordinate with the rest of the entry's schedule, not hired independently.",
+      },
+      {
+        q: "How early should I book to secure the safa team?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Do they style the whole baraati group or just the groom?",
+        a: "The My Safa team styles turbans for the groom and the full baraati group, not just the groom individually.",
+      },
+      {
+        q: "Can I request a specific turban style when booking?",
+        a: "Message us with your preferences on WhatsApp and we'll coordinate accordingly.",
+      },
+      {
+        q: "Is the safa team part of every package tier?",
+        a: "Yes, they're included in every package from Raj Tilak to Signature.",
+      },
+    ],
+  },
+
+  "safa-team-for-wedding": {
+    slug: "safa-team-for-wedding",
+    intro:
+      "A safa team for wedding baraats handles the traditional turban styling for the groom and the wider baraati group, a key visual element of the procession alongside the truck and dhol setup.\n\nPlanMyBaraat's My Safa team is included in every package from Raj Tilak upward.",
+    explanation:
+      "The safa team's work happens before the procession starts, styling turbans for the groom and as many of the baraati group as needed, so everyone looks polished and coordinated as the entry begins. This is a detail that adds significantly to the overall visual impression of the baraat.\n\nBecause they work with us regularly, the My Safa team is used to coordinating their timing with the truck's arrival and the rest of the entry's schedule, rather than working independently.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes the My Safa team, alongside the DJ truck, sound system, DJ artist, dhol team, and vintage car.",
+    pricingGuidance:
+      "The safa team is included in every package, so pricing reflects the overall tier. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and safa team availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the safa team's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Is the safa team included in every package?",
+        a: "Yes, the My Safa team is included in every package from Raj Tilak upward, styling turbans for the groom and baraati group.",
+      },
+      {
+        q: "How much does a safa team for wedding cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "How many people can the safa team style?",
+        a: "They can style turbans for the groom and a good portion of the baraati group — let us know your guest count and we'll plan accordingly.",
+      },
+      {
+        q: "How early do they arrive before the procession?",
+        a: "Early enough to style everyone properly before the entry begins — we'll confirm exact timing when planning your event.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Can the turban style be customized?",
+        a: "Message us with your preferences on WhatsApp and we'll coordinate the styling accordingly.",
+      },
+      {
+        q: "Does the safa team coordinate with the truck's timing?",
+        a: "Yes, they work with us regularly and coordinate their schedule with the rest of the baraat entry.",
+      },
+      {
+        q: "Is this a separate cost from the truck package?",
+        a: "No, it's included as part of every package, not a separate line item.",
+      },
+    ],
+  },
 };

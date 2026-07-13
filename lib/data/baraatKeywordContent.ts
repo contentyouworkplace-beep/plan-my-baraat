@@ -3414,4 +3414,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "vintage-car-for-baraat": {
+    slug: "vintage-car-for-baraat",
+    intro:
+      "A vintage car for baraat is how the groom typically arrives and joins the wedding procession, adding a classic, elegant element to the entry before the truck, dhol, and dancing crowd take over.\n\nPlanMyBaraat includes a vintage car in every package, from Raj Tilak upward, alongside the DJ truck, dhol team, and safa team.",
+    explanation:
+      "The vintage car arrival is often one of the first photographed moments of the baraat, giving the groom a dignified, classic entrance before joining the louder, more energetic procession with the truck and dhol. It sets a tone that contrasts nicely with the celebratory chaos that follows.\n\nOur vintage cars are maintained specifically for wedding use, with drivers experienced in coordinating arrival timing with the rest of the procession.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes a vintage car or baggi for the groom, alongside the DJ truck, sound system, DJ artist, dhol team, and safa team. Signature upgrades this to an American vintage car specifically.",
+    pricingGuidance:
+      "The vintage car is included in every package, so pricing reflects the overall tier rather than a separate car rental charge. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and vintage car availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the vintage car's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Is a vintage car included in every package?",
+        a: "Yes, every package from Raj Tilak includes a vintage car or baggi for the groom, with Signature upgrading to an American vintage car specifically.",
+      },
+      {
+        q: "How much does a vintage car for baraat cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I choose the specific vintage car model?",
+        a: "Message us with your preferences on WhatsApp and we'll let you know what's available for your date.",
+      },
+      {
+        q: "Does the vintage car come with a driver?",
+        a: "Yes, an experienced driver comes with the car, coordinated with the rest of the baraat timing.",
+      },
+      {
+        q: "How early should I book to secure a specific vintage car?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since vintage car availability tightens during peak season.",
+      },
+      {
+        q: "Is the American vintage car only in the Signature package?",
+        a: "Yes, Signature specifically upgrades the vehicle to an American vintage car, while other packages include a standard vintage car or baggi.",
+      },
+      {
+        q: "Does the car join the truck procession or arrive separately?",
+        a: "The groom typically arrives in the car separately and joins the procession near the entrance, coordinated with the truck's timing.",
+      },
+      {
+        q: "Can I see photos of the vintage cars available?",
+        a: "Yes, message us on WhatsApp and we'll share photos of the cars we work with.",
+      },
+    ],
+  },
+
+  "vintage-car-rental-for-wedding": {
+    slug: "vintage-car-rental-for-wedding",
+    intro:
+      "Vintage car rental for wedding baraats with PlanMyBaraat is included as part of the full package, not a standalone rental you'd need to arrange separately alongside the truck and dhol team.\n\nEvery package from Raj Tilak includes a vintage car or baggi for the groom's arrival.",
+    explanation:
+      "Renting a vintage car on its own would still leave you to coordinate the timing with a separately hired truck and dhol team — potentially three different vendors managing three different schedules. Our approach bundles the car into the same booking as the rest of the baraat, so timing is coordinated by one team.\n\nThe car is maintained specifically for wedding use, and the driver is experienced with baraat timing, joining the procession at the right moment rather than arriving independently.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes a vintage car or baggi, alongside the DJ truck, sound system, DJ artist, dhol team, and safa team. Signature upgrades this to an American vintage car.",
+    pricingGuidance:
+      "The vintage car is included in every package, so there's no separate rental price. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February, and vintage car availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the vintage car's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Can I rent a vintage car without the rest of the baraat package?",
+        a: "No, the vintage car is included as part of our baraat packages alongside the truck and dhol team, not rented separately.",
+      },
+      {
+        q: "What's the vintage car rental price for a wedding?",
+        a: "There's no separate rental price — it's included in every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Is the driver experienced with baraat timing specifically?",
+        a: "Yes, our drivers are experienced with coordinating the groom's arrival timing alongside the truck and dhol team.",
+      },
+      {
+        q: "Does every package include the same vintage car?",
+        a: "Raj Tilak through Maharaja include a vintage car or baggi, while Signature specifically upgrades to an American vintage car.",
+      },
+      {
+        q: "How early should I book to secure vintage car availability?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Can I request a specific car color or model?",
+        a: "Message us with your preferences on WhatsApp and we'll let you know what's available for your date.",
+      },
+      {
+        q: "Is the car decorated for the wedding?",
+        a: "Yes, the vintage car is styled appropriately for the occasion as part of the package.",
+      },
+      {
+        q: "Does the vintage car join the truck procession together?",
+        a: "The groom typically arrives separately and joins the procession near the entrance, coordinated with the truck's timing.",
+      },
+    ],
+  },
+
+  "baggi-for-wedding": {
+    slug: "baggi-for-wedding",
+    intro:
+      "A baggi for wedding baraats is the traditional horse-drawn carriage option for the groom's arrival, offering a classic, regal alternative to a vintage car for families who want that specific look.\n\nPlanMyBaraat includes a vintage car or baggi in every package, from Raj Tilak upward, depending on availability and preference.",
+    explanation:
+      "The baggi carries a distinctly traditional, royal feel, often associated with classic Rajwada-style wedding processions. It's one of two options — alongside the vintage car — included in our packages for the groom's arrival, and families can discuss which fits their vision better.\n\nBecause a baggi involves a horse and carriage, coordination and route planning matter more than with a car — our team accounts for this when planning your specific procession.",
+    whatsIncluded:
+      "Every package from Raj Tilak includes a vintage car or baggi option for the groom, alongside the DJ truck, sound system, DJ artist, dhol team, and safa team.",
+    pricingGuidance:
+      "The baggi option is included as part of the package, so pricing reflects the overall tier. Message us on WhatsApp with your date, city, and preference between car or baggi for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and baggi availability can be more limited than vintage cars, so mention your preference early. 3-4 weeks' notice is a safe bet, longer if possible for a baggi specifically.\n\nShare your date, city, venue, and preference when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and your preference for a baggi, and we'll confirm availability.",
+    faqs: [
+      {
+        q: "Is a baggi included in every package?",
+        a: "A vintage car or baggi option is included from Raj Tilak upward — mention your preference and we'll confirm availability for your date.",
+      },
+      {
+        q: "How much does a baggi for wedding cost?",
+        a: "It's included as part of the package. Message your date, city, and preference on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is a baggi more traditional than a vintage car?",
+        a: "Yes, the horse-drawn baggi carries a distinctly traditional, royal feel often associated with classic Rajwada-style processions.",
+      },
+      {
+        q: "Does a baggi require more route planning than a car?",
+        a: "Yes, since it involves a horse and carriage, we account for this specifically when planning your procession route.",
+      },
+      {
+        q: "How early should I request a baggi specifically?",
+        a: "As early as possible, ideally 3-4 weeks ahead or more, since baggi availability can be more limited than vintage cars.",
+      },
+      {
+        q: "Can I choose between a car and a baggi?",
+        a: "Yes, message us your preference and we'll confirm what's available for your date and location.",
+      },
+      {
+        q: "Is the baggi decorated for the occasion?",
+        a: "Yes, it's styled appropriately for the wedding as part of the package.",
+      },
+      {
+        q: "Does the safa team match the baggi's traditional style?",
+        a: "The safa team's turban styling for the groom and baraatis complements either option, car or baggi, as part of the overall entry look.",
+      },
+    ],
+  },
 };

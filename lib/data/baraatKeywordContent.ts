@@ -1764,4 +1764,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "custom-led-name-board-wedding": {
+    slug: "custom-led-name-board-wedding",
+    intro:
+      "A custom LED name board for wedding baraats is the mounted display on the truck that spells out the groom's name in lights, built specifically for each booking rather than a generic stock sign.\n\nPlanMyBaraat includes this custom LED name board as part of our Maharaja and Signature packages, alongside moving LED panels and the rest of the truck production.",
+    explanation:
+      "The name board is prepared ahead of time based on the exact spelling and details you provide, then mounted securely on the truck body alongside the moving LED panels. It's designed to stay legible and bright from a distance, so guests can spot the truck and recognize the personal touch as it approaches.\n\nBecause it's custom for each wedding, this is one of the more personal elements in our packages compared to standard lighting or effects that look the same for every booking.",
+    whatsIncluded:
+      "Maharaja includes the custom LED name board alongside moving LED panels, 6 dhol, a vintage car, and a safa team. Signature includes the same name board plus pyro, confetti, and a security team.",
+    pricingGuidance:
+      "The custom LED name board is included as part of the Maharaja and Signature packages, not priced separately. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. Since the board is custom-built, share the exact name spelling as early as possible — 3-4 weeks' notice gives us time to prepare it properly.\n\nShare your date, city, venue, and the name details when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and the exact name spelling, and we'll confirm the custom board for your package.",
+    faqs: [
+      {
+        q: "Which package includes a custom LED name board?",
+        a: "Maharaja and Signature both include a custom LED name board displaying the groom's name on the truck.",
+      },
+      {
+        q: "How much does a custom LED name board for wedding cost?",
+        a: "It's included as part of the Maharaja and Signature packages. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "How long does the board take to prepare?",
+        a: "We recommend sharing the name details as early as possible, ideally 3-4 weeks ahead, since the board is custom-built for each booking.",
+      },
+      {
+        q: "Can the board include a wedding date or short message too?",
+        a: "Message us with your specific request and we'll let you know what's possible.",
+      },
+      {
+        q: "Is the board secure on the truck while it's moving?",
+        a: "Yes, it's mounted securely and stays visible and stable throughout the moving procession.",
+      },
+      {
+        q: "Can I see a sample of a past name board before booking?",
+        a: "Yes, message us on WhatsApp and we'll share photos of past custom boards for reference.",
+      },
+      {
+        q: "Does the board work for daytime entries too?",
+        a: "It's most visually striking in the evening, though it's included as part of the package regardless of timing.",
+      },
+      {
+        q: "What else comes with the Maharaja package?",
+        a: "Moving LED panels, 6 dhol, the truck, DJ, vintage car, and safa team, alongside the custom name board.",
+      },
+    ],
+  },
+
+  "confetti-cannon-for-wedding": {
+    slug: "confetti-cannon-for-wedding",
+    intro:
+      "A confetti cannon for wedding baraats adds a burst of celebration timed to a specific moment — usually the truck's arrival at the venue or the groom stepping down — turning that instant into a clear visual climax.\n\nPlanMyBaraat includes confetti cannon effects as part of our Maharaja and Signature packages, alongside the rest of the truck production.",
+    explanation:
+      "The confetti cannon is operated by our team, not a self-service unit, so the timing is coordinated with the truck's arrival and the DJ's set for maximum impact. It's one of several effects available at the higher package tiers, alongside pyro and moving LED visuals.\n\nBecause it's a physical effect involving equipment and safety considerations, we handle the setup and operation as part of the package rather than renting out the cannon itself.",
+    whatsIncluded:
+      "Maharaja includes a confetti CO2 gun as part of its effects lineup, alongside moving LED panels, 6 dhol, a vintage car, and a safa team. Signature includes the same confetti effect plus pyro highlights, hand pyro, and a security team.",
+    pricingGuidance:
+      "The confetti cannon effect is included as part of the Maharaja and Signature packages, not priced as a standalone rental. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. If you want the confetti timed to a specific moment, mention it early — 3-4 weeks' notice gives us time to plan the details.\n\nShare your date, city, venue, and any timing preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the confetti effect for your package.",
+    faqs: [
+      {
+        q: "Which package includes a confetti cannon?",
+        a: "Maharaja and Signature both include confetti CO2 gun effects as part of their production.",
+      },
+      {
+        q: "How much does a confetti cannon for wedding cost?",
+        a: "It's included as part of the Maharaja and Signature packages. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the confetti cannon safe for guests nearby?",
+        a: "Yes, it's operated by our experienced team with safety in mind, timed and positioned appropriately for the crowd.",
+      },
+      {
+        q: "Can the confetti be timed to a specific moment?",
+        a: "Yes, message us with your preference — usually the truck's arrival or the groom stepping down — and we'll plan the timing.",
+      },
+      {
+        q: "How early should I request this effect?",
+        a: "As early as possible, ideally 3-4 weeks ahead, so we can plan the timing and logistics properly.",
+      },
+      {
+        q: "Does the confetti create a mess that needs cleanup?",
+        a: "There is some cleanup involved after a confetti effect, which is worth discussing with your venue in advance.",
+      },
+      {
+        q: "Can I combine confetti with pyro effects?",
+        a: "Yes, that combination is part of the Signature package's full effects lineup.",
+      },
+      {
+        q: "Is the confetti cannon rented separately from the truck?",
+        a: "No, it's included and operated as part of the Maharaja and Signature packages, coordinated with the rest of the truck production.",
+      },
+    ],
+  },
+
+  "confetti-cannon-rental-near-me": {
+    slug: "confetti-cannon-rental-near-me",
+    intro:
+      "Confetti cannon rental near me for a baraat entry means finding a local team who can operate the effect safely and time it to your truck's arrival, not just a generic party rental.\n\nPlanMyBaraat operates across Gujarat, including confetti cannon effects as part of our Maharaja and Signature baraat packages.",
+    explanation:
+      "Rather than renting the cannon on its own, our confetti effect comes operated by our team, coordinated with the truck's timing, the DJ's set, and any other effects like pyro. This ensures the moment lands properly rather than going off at the wrong time or in the wrong spot relative to your guests.\n\nWe cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns across Gujarat, so message us your city to confirm coverage near you.",
+    whatsIncluded:
+      "Maharaja includes a confetti CO2 gun as part of its effects lineup, alongside moving LED panels, 6 dhol, a vintage car, and a safa team. Signature includes the same confetti effect plus pyro highlights and a security team.",
+    pricingGuidance:
+      "The confetti effect is included as part of the Maharaja and Signature packages. Message us on WhatsApp with your city and date for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for full-effects packages peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your city, date, venue, and any timing preferences when you reach out.",
+    closing:
+      "Message us on WhatsApp with your city and wedding date, and we'll confirm the confetti effect's available near you.",
+    faqs: [
+      {
+        q: "Do you offer confetti cannon rental near my city?",
+        a: "We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat. Message us your city to confirm.",
+      },
+      {
+        q: "How much does confetti cannon rental near me cost?",
+        a: "It's included as part of the Maharaja and Signature packages. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the confetti cannon operated by your team or self-service?",
+        a: "It's operated by our experienced team, coordinated with the truck's arrival timing rather than a self-service rental.",
+      },
+      {
+        q: "Can I rent just the confetti cannon without the truck?",
+        a: "No, it's included as part of the Maharaja and Signature baraat packages rather than a standalone rental.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since full-effects packages are popular during peak season.",
+      },
+      {
+        q: "Does the effect work well with an outdoor venue?",
+        a: "Yes, it's designed for outdoor baraat use and coordinated with the truck's arrival at the venue.",
+      },
+      {
+        q: "Is cleanup included after the confetti effect?",
+        a: "This is worth discussing with your venue directly, since cleanup expectations can vary by location.",
+      },
+      {
+        q: "What's the difference between Maharaja and Signature for this effect?",
+        a: "Both include the confetti cannon; Signature adds pyro highlights, hand pyro, a fake money gun, and a security team on top.",
+      },
+    ],
+  },
 };

@@ -5764,4 +5764,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-planner-near-me": {
+    slug: "baraat-planner-near-me",
+    intro:
+      "Searching for a baraat planner near me means finding a local team who knows your city's roads, venues, and typical wedding timing — not a generic vendor unfamiliar with the area.\n\nPlanMyBaraat operates across Gujarat regularly, covering Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts.",
+    explanation:
+      "Being local matters because a baraat planner needs to understand route planning, typical venue setups, and even things like noise curfews in specific neighborhoods. Our team works across Gujarat regularly, not flown in for a single event, so we're familiar with the practical realities of planning a procession in most of the cities and towns we cover.\n\nWe handle the whole entry — truck, dhol, vintage car, and safa team — as one coordinated booking, so you deal with a single local team rather than piecing together separate vendors.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, planned around your specific local venue and route.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp with your city to confirm coverage and get a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and local availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your city, date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your city and wedding date, and we'll confirm we cover your area, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you cover baraat planning near my city?",
+        a: "We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat. Message us your city to confirm.",
+      },
+      {
+        q: "How much does a baraat planner near me cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does being local mean better route planning?",
+        a: "Yes, our team works across Gujarat regularly and understands typical route lengths, venue access, and local timing considerations.",
+      },
+      {
+        q: "How early should I book a local baraat planner?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since local availability tightens during peak season.",
+      },
+      {
+        q: "Does local knowledge include noise curfews or restrictions?",
+        a: "Yes, our team is familiar with typical local considerations in the areas we serve and plans accordingly.",
+      },
+      {
+        q: "Can I get a quote specific to my city?",
+        a: "Yes, message us your city and date on WhatsApp and we'll respond with a real, location-specific quote.",
+      },
+      {
+        q: "What cities do you cover for baraat planning?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "How do I confirm coverage for my specific area?",
+        a: "Message us your exact city and venue on WhatsApp and we'll confirm directly.",
+      },
+    ],
+  },
+
+  "baraat-planning-company": {
+    slug: "baraat-planning-company",
+    intro:
+      "A baraat planning company handles the whole procession — truck, dhol team, vintage car, and safa team — as one coordinated booking, rather than you sourcing each element separately.\n\nPlanMyBaraat is a Gujarat-based baraat planning company, working across Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns in the state.",
+    explanation:
+      "As a dedicated planning company, our focus is specifically the baraat entry — not weddings broadly, but this exact moment of the procession. That focus means our drivers, DJs, dhol players, and safa artists work with us regularly and are experienced specifically with baraat timing and pacing.\n\nWe handle route planning, timing coordination between the truck and dhol team, and the overall flow of the entry, so you have one point of contact rather than managing multiple vendors independently.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, coordinated by our team as one complete service.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for our services peaks during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "What does a baraat planning company do?",
+        a: "We handle the whole procession — truck, dhol team, vintage car, and safa team — as one coordinated booking, rather than separate vendors.",
+      },
+      {
+        q: "How much does a baraat planning company charge?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is PlanMyBaraat focused only on the baraat entry?",
+        a: "Yes, our focus is specifically on the baraat procession, which is why our team is experienced specifically with its timing and pacing.",
+      },
+      {
+        q: "How early should I contact a baraat planning company?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Do you handle all logistics, including timing?",
+        a: "Yes, we plan the route, timing coordination between the truck and dhol team, and the overall flow of the entry.",
+      },
+      {
+        q: "Which cities does your company cover?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "Is one team responsible for the whole entry?",
+        a: "Yes, you deal with one point of contact for the truck, dhol, car, and safa team, not multiple separate vendors.",
+      },
+      {
+        q: "How do I get started with a baraat planning company?",
+        a: "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability and recommend a package.",
+      },
+    ],
+  },
+
+  "baraat-organizer": {
+    slug: "baraat-organizer",
+    intro:
+      "A baraat organizer coordinates the whole procession on your wedding day, managing the truck, dhol team, vintage car, and safa team so everything moves together smoothly.\n\nPlanMyBaraat serves as your baraat organizer, handling this coordination as part of every package we offer.",
+    explanation:
+      "Organizing a baraat means more than just showing up with a truck — it means planning the route, timing the groom's vintage car arrival with the truck's approach, coordinating the dhol team with the DJ's set, and making sure the safa team has styled everyone before the procession starts.\n\nOur team handles this coordination as a single operation, so you don't need to separately manage the timing and communication between multiple independent vendors on your wedding day.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, coordinated together by our team as your baraat organizer.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for organized baraat services peaks during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "What does a baraat organizer actually coordinate?",
+        a: "The route, timing between the truck and groom's car, coordination between the dhol team and DJ, and making sure the safa team has everyone styled before the procession starts.",
+      },
+      {
+        q: "How much does a baraat organizer cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do I still need to manage timing myself on the wedding day?",
+        a: "No, our team handles the coordination as one operation, so you don't need to separately manage multiple vendors.",
+      },
+      {
+        q: "How early should I book a baraat organizer?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Is the organizer present throughout the whole procession?",
+        a: "Yes, our team coordinates the entry from start to finish, not just at the beginning.",
+      },
+      {
+        q: "Does the organizer handle unexpected timing changes?",
+        a: "Yes, our experienced team can adjust on the day if timing shifts, since they're familiar with baraat-specific coordination.",
+      },
+      {
+        q: "Which cities do you organize baraats in?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "How do I get started?",
+        a: "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability and recommend a package.",
+      },
+    ],
+  },
 };

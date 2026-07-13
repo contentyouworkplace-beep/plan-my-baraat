@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 
+import MetaPixel from "@/components/MetaPixel";
 import { generateJsonLdOrganization, generateJsonLdWebSite } from "@/lib/seoHelpers";
 import "./globals.css";
 
@@ -65,6 +66,7 @@ export default function RootLayout({
       <body
         className={`${manropeHeading.variable} ${manropeBody.variable} font-sans antialiased bg-[#fcfbf9] text-[#1c1917]`}
       >
+        <MetaPixel />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: organizationSchema }}

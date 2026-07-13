@@ -744,6 +744,24 @@ export async function getBaraatEnquiries(filters?: BaraatEnquiryFilters): Promis
   );
 }
 
+export async function getBaraatEnquiryById(id: string): Promise<BaraatEnquiry | null> {
+  return runQuery(
+    async () => {
+      const { data, error } = await crmSupabase
+        .from('crm_baraat_enquiries')
+        .select('*')
+        .eq('id', id)
+        .single();
+      if (error) throw error;
+      return data;
+    },
+    () => {
+      const list = getList('crm_baraat_enquiries', INITIAL_BARAAT_ENQUIRIES);
+      return list.find((entry) => entry.id === id) ?? null;
+    }
+  );
+}
+
 export async function createBaraatEnquiry(payload: {
   customer_name: string;
   event_date: string;

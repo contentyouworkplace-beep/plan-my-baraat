@@ -1,7 +1,8 @@
 'use client';
 
+import Link from 'next/link';
 import { useEffect, useState, useCallback } from 'react';
-import { Search, Filter, Trash2, Loader2, X, MessageSquare } from 'lucide-react';
+import { Search, Filter, Trash2, Loader2, X, MessageSquare, ChevronRight } from 'lucide-react';
 import CrmHeader from '../components/CrmHeader';
 import StatusBadge from '../components/StatusBadge';
 import ConfirmDialog from '../components/ConfirmDialog';
@@ -124,6 +125,7 @@ export default function BaraatLeadsPage() {
                       <th className="text-left px-5 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Customer</th>
                       <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Event Date</th>
                       <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Package</th>
+                      <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Lead Details</th>
                       <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Status</th>
                       <th className="text-left px-4 py-3.5 text-xs font-semibold text-gray-500 uppercase tracking-wider">Received</th>
                       <th className="px-4 py-3.5"></th>
@@ -147,6 +149,9 @@ export default function BaraatLeadsPage() {
                           {e.event_date ? new Date(e.event_date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: '2-digit' }) : '—'}
                         </td>
                         <td className="px-4 py-4 text-gray-600 font-medium">{e.package_name}</td>
+                        <td className="px-4 py-4 text-xs text-gray-500 max-w-[280px]">
+                          <p className="line-clamp-3 whitespace-pre-line">{e.remarks || 'No extra details'}</p>
+                        </td>
                         <td className="px-4 py-4">
                           <select
                             value={e.status}
@@ -162,6 +167,13 @@ export default function BaraatLeadsPage() {
                         </td>
                         <td className="px-4 py-4">
                           <div className="flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                            <Link
+                              href={`/crm/baraat-leads/${e.id}`}
+                              className="p-1.5 rounded-lg text-gray-400 hover:text-blue-600 hover:bg-blue-50 transition-colors"
+                              title="View details"
+                            >
+                              <ChevronRight size={15} />
+                            </Link>
                             <button onClick={() => setDeleteTarget(e)} className="p-1.5 rounded-lg text-gray-400 hover:text-red-600 hover:bg-red-50 transition-colors"><Trash2 size={15} /></button>
                           </div>
                         </td>
@@ -191,7 +203,9 @@ export default function BaraatLeadsPage() {
                       <span>·</span>
                       <span>{e.package_name}</span>
                     </div>
+                    <p className="mt-2 text-xs leading-5 text-gray-500 whitespace-pre-line">{e.remarks || 'No extra details'}</p>
                     <div className="flex gap-2 mt-3">
+                      <Link href={`/crm/baraat-leads/${e.id}`} className="flex-1 py-1.5 text-center text-xs border border-blue-200 rounded-lg text-blue-600 hover:bg-blue-50 transition-colors">View</Link>
                       <button onClick={() => setDeleteTarget(e)} className="flex-1 py-1.5 text-xs border border-red-200 rounded-lg text-red-600 hover:bg-red-50 transition-colors">Delete</button>
                     </div>
                   </div>

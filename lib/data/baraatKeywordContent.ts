@@ -764,4 +764,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "book-baraat-dj-truck-online": {
+    slug: "book-baraat-dj-truck-online",
+    intro:
+      "Booking a baraat DJ truck online with PlanMyBaraat starts with a WhatsApp message, not a long form — you tell us your date, city, and rough guest count, and we take it from there.\n\nThe online booking process covers the full entry: the truck, a dhol team, a vintage car, and a safa team, not just the vehicle.",
+    explanation:
+      "Instead of filling out a lengthy form and waiting for a callback, our process is built around WhatsApp because that's where most of the actual back-and-forth happens anyway — sharing photos, confirming dates, answering questions. You reach out, we respond with package options and a real quote, and once you confirm, we lock in your date.\n\nThis online-first approach also means you can browse packages, see what's included, and start the conversation whenever it's convenient, without needing to call during office hours.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February, and online booking slots fill up fast during that window. 3-4 weeks' notice is a safe bet for peak season.\n\nShare your date, city, venue, and rough guest count when you message us — that's enough to get started.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue to start the booking process, usually confirmed within the hour.",
+    faqs: [
+      {
+        q: "How do I book a baraat DJ truck online?",
+        a: "Message us on WhatsApp with your wedding date, city, venue, and rough guest count. We'll recommend a package and confirm availability, usually within the hour.",
+      },
+      {
+        q: "Is there a website form I need to fill out?",
+        a: "No, WhatsApp is our main booking channel — it's faster and lets us share photos, quotes, and answer questions directly.",
+      },
+      {
+        q: "How much does the truck cost when booked online?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city for a real quote.",
+      },
+      {
+        q: "Can I pay a deposit online?",
+        a: "Yes, we'll share payment details once you confirm your package and date, and take an advance to lock in the booking.",
+      },
+      {
+        q: "How quickly do you respond to online inquiries?",
+        a: "Usually within the hour during business hours, sometimes faster during less busy periods.",
+      },
+      {
+        q: "Can I see photos of the truck before booking online?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of the truck and past setups.",
+      },
+      {
+        q: "How early should I book online for peak season?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since slots fill up fast.",
+      },
+      {
+        q: "What details do I need to book online?",
+        a: "Your wedding date, city, venue, rough guest count, and preferred package — that's enough for us to confirm.",
+      },
+    ],
+  },
+
+  "baraat-dj-on-rent": {
+    slug: "baraat-dj-on-rent",
+    intro:
+      "Baraat DJ on rent typically means you want a DJ specifically for the wedding procession, not the whole reception — someone who can perform live from a truck as the baraati group dances toward the venue.\n\nPlanMyBaraat's DJ comes as part of a full baraat package: the truck, the DJ artist, a dhol team, a vintage car, and a safa team, all together.",
+    explanation:
+      "Renting just a DJ without the truck and sound infrastructure leaves you without a way to actually deliver that sound to a moving crowd outdoors. Our packages solve this by pairing the DJ with the double decker truck that carries the sound system, so the DJ has a proper stage and equipment built for exactly this use.\n\nThe DJ artist performs live, taking song requests ahead of time and building a set that works with the dhol team's rhythm, rather than just running a fixed playlist.",
+    whatsIncluded:
+      "Every package includes the DJ artist, truck, and sound system as the base. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and DJ availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the DJ and truck are available, usually within the hour.",
+    faqs: [
+      {
+        q: "Can I rent just a DJ without the truck?",
+        a: "We package the DJ with the truck and sound system, since that's what makes the performance actually work for a moving baraat crowd outdoors.",
+      },
+      {
+        q: "How much does baraat DJ on rent cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the DJ take song requests?",
+        a: "Yes, our DJ artists take requests ahead of time and build a set around your preferred entry and dance tracks.",
+      },
+      {
+        q: "Is the DJ experienced with baraat entries specifically?",
+        a: "Yes, our DJs work with us regularly and are experienced with the pacing and energy a baraat procession needs, not just standard party sets.",
+      },
+      {
+        q: "How early should I book the DJ?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since DJ and truck availability both tighten during peak season.",
+      },
+      {
+        q: "Does the DJ coordinate with the dhol team?",
+        a: "Yes, the DJ and dhol team work together during the procession to keep the energy consistent throughout.",
+      },
+      {
+        q: "What equipment does the DJ use?",
+        a: "A professional sound system mounted on the truck, sized for outdoor, moving-crowd baraat use.",
+      },
+      {
+        q: "What's included in the starting package?",
+        a: "Raj Tilak covers the DJ artist, truck, sound system, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+      },
+    ],
+  },
+
+  "dj-on-rent-for-wedding": {
+    slug: "dj-on-rent-for-wedding",
+    intro:
+      "DJ on rent for wedding is a broad search, but if you're planning the baraat entry specifically, PlanMyBaraat's DJ comes as part of a complete package built for exactly that moment — the walk from the starting point to the venue.\n\nThe DJ, truck, dhol team, vintage car, and safa team are all booked together as one service.",
+    explanation:
+      "A general wedding DJ rental usually covers the reception or sangeet, playing from a fixed setup indoors or at a stage. A baraat DJ is different — they perform live from a moving truck, outdoors, with a crowd walking and dancing around the vehicle the whole time.\n\nOur DJ artists are specifically experienced with this format: reading the crowd's energy while the truck moves, working with the dhol team's rhythm, and building toward the venue arrival as a climax.",
+    whatsIncluded:
+      "Every package includes the DJ artist, truck, and sound system. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and DJ availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Is a baraat DJ different from a reception DJ?",
+        a: "Yes, a baraat DJ performs live from a moving truck outdoors, working with a walking, dancing crowd — different pacing and setup than a fixed reception DJ.",
+      },
+      {
+        q: "How much does DJ on rent for wedding cost for the baraat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can I also book a separate DJ for the reception?",
+        a: "Our packages focus specifically on the baraat entry — for reception DJ needs, mention it to us and we'll let you know what's possible.",
+      },
+      {
+        q: "Does the baraat DJ come with the truck automatically?",
+        a: "Yes, the DJ, truck, and sound system are bundled together in every package, not booked separately.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Can the DJ play regional and Bollywood songs?",
+        a: "Yes, our DJ artists take requests across genres and build a set that matches your preferences.",
+      },
+      {
+        q: "Is the dhol team part of the same booking?",
+        a: "Yes, dhol players are included in every package alongside the DJ and truck.",
+      },
+      {
+        q: "What's the difference between the packages?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+    ],
+  },
 };

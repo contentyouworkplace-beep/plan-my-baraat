@@ -277,7 +277,7 @@ export function generateJsonLdOrganization(): string {
     "@type": "Organization",
     name: "PlanMyBaraat",
     url: "https://planmybaraat.com",
-    logo: "https://planmybaraat.com/icon-mark-512.png",
+    logo: "https://planmybaraat.com/pmbsite.png",
     sameAs: [],
     contactPoint: {
       "@type": "ContactPoint",

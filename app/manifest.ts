@@ -12,8 +12,13 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#1c1917",
     icons: [
       {
-        src: "/icon-mark-180.png",
+        src: "/pmbsite.png",
         sizes: "180x180",
+        type: "image/png",
+      },
+      {
+        src: "/pmbsite.png",
+        sizes: "500x500",
         type: "image/png",
       },
       {

@@ -32,14 +32,22 @@ export const metadata: Metadata = {
     google: "hbBQfovzIXc0-N1ZQAI1rgLmP3l-YWXf4nepmks8kjg",
   },
   icons: {
-    icon: "/icon-mark-32.png",
+    icon: "/pmbsite.png",
     apple: "/icon-mark-180.png",
-    shortcut: "/icon-mark-32.png",
+    shortcut: "/pmbsite.png",
   },
   openGraph: {
     title: "PlanMyBaraat | Wedding Vendors & Baraat Services Across India",
     description:
       "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities.",
+    images: [
+      {
+        url: "/pmbsite.png",
+        width: 500,
+        height: 500,
+        alt: "PlanMyBaraat",
+      },
+    ],
     url: "/",
     siteName: "PlanMyBaraat",
     locale: "en_IN",
@@ -50,6 +58,7 @@ export const metadata: Metadata = {
     title: "PlanMyBaraat | Wedding Vendors & Baraat Services Across India",
     description:
       "Discover verified wedding vendors, venues, and baraat services across India's most popular wedding cities.",
+    images: ["/pmbsite.png"],
   },
 };
 

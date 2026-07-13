@@ -7475,4 +7475,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "gandhinagar-sector-21": {
+    slug: "gandhinagar-sector-21",
+    intro:
+      "Sector 21 sits close to Mahatma Mandir, Gandhinagar's well-known convention and exhibition center, with the same wide, planned roads found across the city's grid. A baraat entry here has plenty of room, and the area's landmark status makes it an easy meeting point for guests.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Sector 21's roads are wide and well-maintained, making truck access straightforward. Being close to Mahatma Mandir, it's a well-recognized part of the city, easy for guests to find.\n\nWe've handled a good number of entries in Sector 21 and the surrounding sectors.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Sector 21 that means knowing the sector's community hall access points and typical parking layout for a smooth entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sector 21 entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this sector. If there's a major event at Mahatma Mandir around your date, let us know so we can plan around any extra traffic.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Sector 21, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Sector 21, Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Sector 21 close to Mahatma Mandir?",
+        a: "Yes, it's near the Mahatma Mandir convention center, a well-known landmark that makes the area easy for guests to find.",
+      },
+      {
+        q: "How early should I book for a Sector 21 wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does an event at Mahatma Mandir affect baraat timing nearby?",
+        a: "It can, if there's a major exhibition or convention around your date. Let us know and we'll plan the route and timing around any extra traffic.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "gandhinagar-sector-22": {
+    slug: "gandhinagar-sector-22",
+    intro:
+      "Sector 22 sits close to Gandhinagar's main highway junction, with the same wide, planned roads found across the city's grid layout. A baraat entry here has plenty of room to work with, and the area's access to the highway makes it convenient for guests traveling from outside the city.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Sector 22's roads are wide and well-maintained, making truck access straightforward. Its proximity to the main highway junction makes it easy for guests coming from Ahmedabad or other nearby cities.\n\nWe've handled a good number of entries in Sector 22 and the surrounding sectors.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Sector 22 that means knowing the sector's community hall access points and how it connects to the highway for guests coming from outside Gandhinagar.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sector 22 entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this sector.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Sector 22, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Sector 22, Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Sector 22 convenient for guests coming from Ahmedabad?",
+        a: "Yes, being close to the main highway junction, it's an easy stop for guests traveling from Ahmedabad or other nearby cities.",
+      },
+      {
+        q: "How early should I book for a Sector 22 wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are Sector 22's roads good for a full truck entry?",
+        a: "Yes, being part of Gandhinagar's planned grid layout, roads here are wide and straightforward for a double decker truck.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "gandhinagar-sector-26": {
+    slug: "gandhinagar-sector-26",
+    intro:
+      "Sector 26 is a settled residential sector in Gandhinagar, with the same wide, planned roads found across the city's grid layout. A baraat entry here has plenty of room, without the crowding you'd find in denser parts of Gujarat's bigger cities.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Sector 26's roads are wide and well-maintained, making truck access straightforward. It connects easily to neighboring sectors, so guests from across Gandhinagar have an easy route in.\n\nWe've handled a good number of entries in Sector 26 and the surrounding sectors.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Sector 26 that means knowing the sector's community hall access points and typical parking layout for a smooth entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a Sector 26 entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this sector.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Sector 26, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Sector 26, Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Sector 26's roads good for a full truck entry?",
+        a: "Yes, being part of Gandhinagar's planned grid layout, roads here are wide and straightforward for a double decker truck.",
+      },
+      {
+        q: "How early should I book for a Sector 26 wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover neighboring sectors too?",
+        a: "Yes, we cover Gandhinagar's full sector grid. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

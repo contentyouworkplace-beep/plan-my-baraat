@@ -795,4 +795,108 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  kevadia: {
+    slug: "kevadia",
+    intro:
+      "Kevadia has changed a lot in the last few years — it's now known across India as the home of the Statue of Unity, and that's brought new resorts and event venues into what used to be a quiet spot near the Sardar Sarovar Dam. A grand baraat entry near Ekta Nagar or the Statue of Unity belt has a backdrop most cities can't match.\n\nPlanMyBaraat runs baraat on wheels packages built for this setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "We cover the Statue of Unity belt, Kevadia Colony, Ekta Nagar, and the Sardar Sarovar Dam area. Roads here are newer and well-built, given how much tourism infrastructure has gone in, which generally makes truck access straightforward.\n\nIf your venue is at one of the resorts or event spaces in this belt, let us know when you message us so we can confirm access in advance.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up, which stands out well against Kevadia's newer venue backdrops. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and we've kept up with how quickly Kevadia has developed — new resorts, new access roads, and venues that didn't exist a few years ago. That means we plan each entry here based on the venue's current setup, not outdated assumptions.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, which matters especially for a destination-style wedding where everything needs to come together smoothly in one visit.",
+    pricingGuidance:
+      "On how much does baraat cost in Kevadia: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nSince some Kevadia venues are resort-style and a bit further from other cities, factor in a little extra planning time. Message us on WhatsApp with your date and venue and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Kevadia's resort venues can book out early given how popular the area's become for destination-style events. If you're planning a wedding here, we'd suggest reaching out a bit earlier than usual — 3-4 weeks ahead is a safer window.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming venue access details early since some resorts have specific entry protocols.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Kevadia, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Kevadia?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover resort venues near the Statue of Unity?",
+        a: "Yes, we cover the Statue of Unity belt, Kevadia Colony, Ekta Nagar, and the Sardar Sarovar Dam area. Tell us your exact venue and we'll confirm access in advance.",
+      },
+      {
+        q: "How early should I book a dj truck for baraat in Kevadia?",
+        a: "3-4 weeks ahead is a safer window here, since Kevadia's resort venues have gotten popular for destination-style weddings and can book out early.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "How many dhol players come with each package?",
+        a: "Raj Tilak includes 2, Rajwada includes 4, Maharaja includes 6, and Signature includes 6 plus extra effects. We can usually add more dhol players for a small additional cost.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+      {
+        q: "Can you handle entries at newer resort venues in the area?",
+        a: "Yes, we regularly check in on new venues as Kevadia continues to develop, and we'll confirm access and setup specifics with the resort ahead of your date.",
+      },
+    ],
+  },
+
+  "chhota-udepur": {
+    slug: "chhota-udepur",
+    intro:
+      "Chhota Udepur is a smaller town with a strong tribal cultural identity, and weddings here often blend that local character with the same energy any Gujarati baraat brings. A grand baraat entry through Chhota Udepur Town or along Kawant Road still draws attention in a close-knit community like this.\n\nPlanMyBaraat runs baraat on wheels packages built for that: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "We cover Chhota Udepur Town, Kawant Road, and the Bodeli belt. Roads here are more rural and open in stretches, which generally works well for a full truck setup, though the town center itself is more compact.\n\nIf your venue is somewhere else around Chhota Udepur, let us know when you message us and we'll confirm the route.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a solid fit for a smaller-town entry. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a smaller town like Chhota Udepur that means planning the route carefully for the more compact town center while making the most of the wider stretches along Kawant Road and toward Bodeli.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, which keeps things running smoothly even in a smaller, tighter-knit town where word travels fast.",
+    pricingGuidance:
+      "On how much does baraat cost in Chhota Udepur: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. Chhota Udepur is a smaller town, so 2 weeks' notice is usually enough even during peak season.\n\nA rough headcount for the baraati group helps us plan the setup, especially for entries through the more compact town center.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your area in Chhota Udepur, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Chhota Udepur?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and area on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover areas near Kawant Road and Bodeli?",
+        a: "Yes, we cover Chhota Udepur Town, Kawant Road, and the Bodeli belt. Tell us your exact venue when you message us.",
+      },
+      {
+        q: "How early should I book a dj truck for baraat in Chhota Udepur?",
+        a: "2 weeks ahead is usually enough, even during wedding season (November to February), since it's a smaller town with less booking pressure.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "How many dhol players come with each package?",
+        a: "Raj Tilak includes 2, Rajwada includes 4, Maharaja includes 6, and Signature includes 6 plus extra effects. We can usually add more dhol players for a small additional cost.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+      {
+        q: "Can you manage a truck entry through the compact town center?",
+        a: "Yes, we plan the route in advance and can adjust the setup if the town center streets are tighter, making the most of the wider roads nearby.",
+      },
+    ],
+  },
 };

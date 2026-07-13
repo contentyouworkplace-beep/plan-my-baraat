@@ -8195,4 +8195,244 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "gandhinagar-kolvada": {
+    slug: "gandhinagar-kolvada",
+    intro:
+      "Kolvada is a village-turned-suburb settlement on Gandhinagar's edge, with a mix of older lanes and newer connecting roads. A baraat entry here has a genuine local feel, similar to nearby Vavol.\n\nPlanMyBaraat runs baraat on wheels packages adapted for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Kolvada's streets are a mix of older village lanes and newer roads, so we plan the truck's route based on your exact venue. It's within reach of the main Gandhinagar sectors.\n\nWe've handled entries in Kolvada and the surrounding settlements.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Kolvada that means knowing which lanes work for a full-size truck and where a shorter walk-in is the better approach.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through Gujarat's smaller settlements.",
+    pricingGuidance:
+      "On how much does baraat cost for a Kolvada entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this smaller settlement.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Kolvada, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Kolvada?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues in Kolvada's older lanes?",
+        a: "In most cases yes, though we check your exact venue in advance since some village-era lanes are narrower than the newer sectors.",
+      },
+      {
+        q: "How early should I book for a Kolvada wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Is Kolvada close to the main Gandhinagar sectors?",
+        a: "Yes, it's within reach of the main sectors, making it convenient for guests from central Gandhinagar.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "gandhinagar-por": {
+    slug: "gandhinagar-por",
+    intro:
+      "Por is a quieter village settlement on Gandhinagar's outskirts, with open roads and a relaxed pace compared to the busier central sectors. A baraat entry here has plenty of room to be as grand as the family wants.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Por's roads are open and rural in character, making truck access straightforward. It's a bit further from central Gandhinagar, so factor in a longer route for guests coming from Kudasan or the main sectors.\n\nWe've handled entries in Por and the surrounding outskirt venues.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to bigger, more elaborate entries.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Por that means being ready to make the most of the open roads here for a bigger, more visible entry than what's practical in Gandhinagar's denser sectors.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the longer routes and open-road setups common in this part of the district.",
+    pricingGuidance:
+      "On how much does baraat cost for a Por entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough, given the extra travel time involved.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming your exact venue location given how spread out this area is.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Por, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Por, Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Por far from central Gandhinagar?",
+        a: "It's on the outskirts, so factor in a longer route for guests coming from Kudasan or the main sectors.",
+      },
+      {
+        q: "How early should I book for a Por wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Are Por's roads good for a bigger baraat entry?",
+        a: "Yes, the open, rural layout gives plenty of room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "gandhinagar-ognaj": {
+    slug: "gandhinagar-ognaj",
+    intro:
+      "Ognaj sits right on the border between Gandhinagar and Ahmedabad's SG Highway extension, with newer development and wide roads typical of that growth corridor. A grand baraat entry here has plenty of room, and the location works well for families with guests coming from both cities.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Ognaj's roads are wide and newer, making truck access straightforward. Being on the Gandhinagar-Ahmedabad border, it's convenient for guests coming from either city.\n\nWe've handled entries in Ognaj and the surrounding border-area venues.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Ognaj that means knowing the routes connecting both Gandhinagar and Ahmedabad, which helps when guests are coming from either city.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this border area.",
+    pricingGuidance:
+      "On how much does baraat cost for an Ognaj entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, given how popular this growth corridor has become.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Ognaj, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Ognaj?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Ognaj convenient for guests from both Gandhinagar and Ahmedabad?",
+        a: "Yes, sitting on the border between the two cities, it's an easy stop for guests coming from either direction.",
+      },
+      {
+        q: "How early should I book for an Ognaj wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, given how popular this growth corridor has become.",
+      },
+      {
+        q: "Are Ognaj's roads good for a full truck entry?",
+        a: "Yes, being newer development, roads here are generally wide and straightforward for a double decker truck.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "gandhinagar-chiloda": {
+    slug: "gandhinagar-chiloda",
+    intro:
+      "Chiloda is an outer, more semi-rural part of the Gandhinagar district, with open roads and a relaxed pace. A baraat entry here has genuine room to move, well suited to a bigger, more spread-out procession.\n\nPlanMyBaraat runs baraat on wheels packages built to make the most of that openness: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Chiloda's roads are open and rural in character, making truck access straightforward. It's a fair distance from central Gandhinagar, so factor in extra travel time for guests coming from Kudasan or the main sectors.\n\nWe've handled entries in Chiloda and the surrounding semi-rural venues.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — very visible given how much open space this area has. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to bigger, more elaborate entries.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Chiloda that means being ready to make the most of the open roads here for a bigger, more visible entry than what's practical in Gandhinagar's denser sectors.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the longer routes and open-road setups common in this part of the district.",
+    pricingGuidance:
+      "On how much does baraat cost for a Chiloda entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, given the extra travel time involved.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming your exact venue location given how spread out this area is.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Chiloda, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Chiloda, Gandhinagar?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Chiloda far from central Gandhinagar?",
+        a: "It's an outer, semi-rural part of the district, so factor in extra travel time for guests coming from the main sectors.",
+      },
+      {
+        q: "How early should I book for a Chiloda wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are Chiloda's roads good for a bigger baraat entry?",
+        a: "Yes, the open, semi-rural layout gives plenty of room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team, well suited to Chiloda's open-road entries.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "gandhinagar-pdpu-road-belt": {
+    slug: "gandhinagar-pdpu-road-belt",
+    intro:
+      "The PDPU Road belt takes its name from the well-known petroleum university nearby, an academic and institutional corridor with wide, well-planned roads. A baraat entry here draws on the area's mix of student, faculty, and professional families.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "The PDPU Road belt has wide, well-maintained roads, built alongside the university and institutional campuses, making truck access straightforward. It connects easily to the broader Gandhinagar growth corridor.\n\nWe've handled entries connected to this belt and know the timing that works best around the local institutional calendar.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for the PDPU Road belt that means knowing the institutional area's traffic patterns, so we plan around any academic events that might affect timing.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of the city.",
+    pricingGuidance:
+      "On how much does baraat cost for a PDPU Road belt entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near the PDPU Road belt, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near the PDPU Road belt?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the roads here good for a full truck entry?",
+        a: "Yes, this belt has wide, well-maintained roads built alongside the university and institutional campuses.",
+      },
+      {
+        q: "How early should I book for a wedding near this belt?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does the university calendar affect baraat timing here?",
+        a: "It can occasionally, around major academic events. Let us know your date and we'll check for any local scheduling conflicts.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

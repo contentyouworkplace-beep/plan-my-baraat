@@ -3214,4 +3214,204 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "chhatri-lights-for-baraat": {
+    slug: "chhatri-lights-for-baraat",
+    intro:
+      "Chhatri lights for baraat are the traditional umbrella-style lights that give a wedding procession its classic, warm evening glow — a staple of Indian baraat entries for generations.\n\nPlanMyBaraat includes chhatri lights as standard in every package, starting from Raj Tilak, our most affordable tier.",
+    explanation:
+      "The chhatri light style creates a soft, festive canopy of light around the procession, traditionally carried by attendants walking alongside the baraat. This traditional look pairs well with the truck and dhol setup, giving the entry a warm, celebratory feel especially for evening processions.\n\nHigher packages add more chhatri lights and combine them with modern LED elements, but the traditional chhatri look remains included at every tier as the visual foundation of the entry.",
+    whatsIncluded:
+      "Raj Tilak includes 8 chhatri lights. Rajwada steps up to 10 premium chhatri lights. Maharaja and Signature both include 10 premium chhatri lights alongside their additional LED and effects production.",
+    pricingGuidance:
+      "Chhatri lights are included in every package, so pricing reflects the overall tier rather than a separate lighting charge. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and evening entries with chhatri lighting are especially popular during that stretch. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Are chhatri lights included in every package?",
+        a: "Yes, every package includes chhatri lights, starting with 8 in Raj Tilak and 10 premium chhatri lights from Rajwada upward.",
+      },
+      {
+        q: "How much do chhatri lights for baraat cost?",
+        a: "They're included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Do chhatri lights work well for a daytime entry too?",
+        a: "They're most visually striking in the evening, though they're included as part of the package regardless of timing.",
+      },
+      {
+        q: "How many chhatri lights come with the higher packages?",
+        a: "Rajwada, Maharaja, and Signature all include 10 premium chhatri lights.",
+      },
+      {
+        q: "How early should I book for an evening entry with chhatri lighting?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since evening entries are especially popular.",
+      },
+      {
+        q: "Are chhatri lights carried by attendants or mounted on the truck?",
+        a: "They're set up around the procession as part of the overall lighting production, coordinated by our team.",
+      },
+      {
+        q: "Can chhatri lights be combined with LED effects?",
+        a: "Yes, Maharaja and Signature combine premium chhatri lights with moving LED panels and custom name lighting for a fuller visual production.",
+      },
+      {
+        q: "Is the traditional look still popular for modern baraats?",
+        a: "Yes, many families combine the classic chhatri look with modern elements like the DJ truck for a blend of tradition and production.",
+      },
+    ],
+  },
+
+  "chhatri-lights-rental-wedding": {
+    slug: "chhatri-lights-rental-wedding",
+    intro:
+      "Chhatri lights rental for wedding baraats is included as standard in every PlanMyBaraat package, rather than a separate rental you'd need to arrange on your own.\n\nThe lights come as part of the full entry, alongside the DJ truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "Rather than renting chhatri lights separately and coordinating attendants to carry or set them up, our packages bundle the lighting into the overall production, managed by our team alongside the truck and dhol. This removes one more piece of coordination from your wedding day.\n\nThe number and quality of chhatri lights scale with the package tier — 8 lights in Raj Tilak, and 10 premium chhatri lights from Rajwada upward.",
+    whatsIncluded:
+      "Raj Tilak includes 8 chhatri lights. Rajwada, Maharaja, and Signature all include 10 premium chhatri lights, alongside the truck, DJ, dhol team, vintage car, and safa team.",
+    pricingGuidance:
+      "There's no separate chhatri lights rental price — they're included in every package. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February, and evening entries with chhatri lighting are especially popular during that stretch. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Can I rent chhatri lights separately from the truck?",
+        a: "No, chhatri lights are included as part of every baraat package, managed by our team alongside the truck and dhol, not rented separately.",
+      },
+      {
+        q: "What's the chhatri lights rental price for a wedding?",
+        a: "There's no separate rental price — they're included in every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "How many lights come with each package?",
+        a: "Raj Tilak includes 8 chhatri lights, and Rajwada, Maharaja, and Signature all include 10 premium chhatri lights.",
+      },
+      {
+        q: "Does the lighting require extra setup time?",
+        a: "It's coordinated as part of our team's overall setup, managed alongside the truck and dhol arrangement.",
+      },
+      {
+        q: "How early should I book for chhatri lighting?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since evening entries are popular.",
+      },
+      {
+        q: "Is the traditional look available with modern effects too?",
+        a: "Yes, Maharaja and Signature combine premium chhatri lights with moving LED panels and other modern effects.",
+      },
+      {
+        q: "Do the lights work for a daytime baraat too?",
+        a: "They're most visually striking in the evening, though included regardless of timing.",
+      },
+      {
+        q: "Is there a way to see the lighting setup before booking?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past setups.",
+      },
+    ],
+  },
+
+  "umbrella-lights-for-wedding": {
+    slug: "umbrella-lights-for-wedding",
+    intro:
+      "Umbrella lights for wedding baraats, also known as chhatri lights, are the traditional canopy-style lights that give a procession its warm, classic evening glow.\n\nPlanMyBaraat includes umbrella lights as standard in every package, starting with 8 in Raj Tilak and 10 premium lights from Rajwada upward.",
+    explanation:
+      "The umbrella-shaped design creates a soft, festive light pattern that's been part of Indian wedding processions for generations, giving the entry a distinctly traditional and celebratory look. It works especially well combined with the truck and dhol setup for evening entries.\n\nHigher packages upgrade to premium umbrella lights and combine them with modern LED elements, but the classic look remains included at every tier.",
+    whatsIncluded:
+      "Raj Tilak includes 8 umbrella lights. Rajwada, Maharaja, and Signature all include 10 premium umbrella lights, alongside the truck, DJ, dhol team, vintage car, and safa team.",
+    pricingGuidance:
+      "Umbrella lights are included in every package, so pricing reflects the overall package tier. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and evening entries with umbrella lighting are especially popular during that stretch. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Are umbrella lights the same as chhatri lights?",
+        a: "Yes, they're the same traditional canopy-style lighting, included in every package starting with 8 in Raj Tilak.",
+      },
+      {
+        q: "How much do umbrella lights for wedding cost?",
+        a: "They're included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "How many umbrella lights come with each package tier?",
+        a: "Raj Tilak includes 8, and Rajwada, Maharaja, and Signature all include 10 premium umbrella lights.",
+      },
+      {
+        q: "Do umbrella lights work for a daytime entry?",
+        a: "They're most visually striking in the evening, though included regardless of timing.",
+      },
+      {
+        q: "How early should I book for umbrella lighting?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since evening entries are popular.",
+      },
+      {
+        q: "Can umbrella lights be combined with modern LED effects?",
+        a: "Yes, Maharaja and Signature combine premium umbrella lights with moving LED panels for a fuller visual production.",
+      },
+      {
+        q: "Is this a traditional or modern lighting style?",
+        a: "It's traditional, dating back generations in Indian wedding processions, though it pairs well with modern elements like the DJ truck.",
+      },
+      {
+        q: "Can I see photos of the umbrella lighting setup?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past setups.",
+      },
+    ],
+  },
+
+  "traditional-light-decoration-wedding": {
+    slug: "traditional-light-decoration-wedding",
+    intro:
+      "Traditional light decoration for wedding baraats centers on chhatri or umbrella-style lighting, giving the procession its classic, warm evening glow — a look that's been part of Indian wedding entries for generations.\n\nPlanMyBaraat includes traditional lighting as standard in every package, starting with 8 chhatri lights in Raj Tilak and 10 premium lights from Rajwada upward.",
+    explanation:
+      "The traditional lighting style creates a soft, celebratory canopy effect that pairs naturally with the dhol team's live drumming and the overall festive feel of a baraat entry. It's a look that's remained popular even as trucks, DJs, and modern LED elements have become common additions.\n\nOur packages blend this traditional lighting with modern production as you move up the tiers, giving families the choice of keeping the entry mostly traditional or adding contemporary LED visuals on top.",
+    whatsIncluded:
+      "Raj Tilak includes 8 chhatri lights as the traditional lighting base. Rajwada, Maharaja, and Signature all include 10 premium chhatri lights, with Maharaja and Signature adding modern LED panels on top.",
+    pricingGuidance:
+      "Traditional light decoration is included in every package. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February, and evening entries with traditional lighting are especially popular during that stretch. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "What does traditional light decoration include?",
+        a: "Chhatri or umbrella-style lighting, included in every package starting with 8 lights in Raj Tilak and 10 premium lights from Rajwada upward.",
+      },
+      {
+        q: "How much does traditional light decoration for wedding cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I keep the entry purely traditional without modern LED effects?",
+        a: "Yes, Raj Tilak and Rajwada focus on the traditional chhatri lighting without the moving LED panels included in higher tiers.",
+      },
+      {
+        q: "Does traditional lighting work for a daytime baraat?",
+        a: "It's most visually striking in the evening, though included regardless of timing.",
+      },
+      {
+        q: "How early should I book for traditional lighting?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since evening entries are popular.",
+      },
+      {
+        q: "Can traditional and modern lighting be combined?",
+        a: "Yes, Maharaja and Signature combine premium chhatri lights with modern moving LED panels for a blended look.",
+      },
+      {
+        q: "Is traditional lighting still common for modern baraats?",
+        a: "Yes, many families keep the classic chhatri look even while adding a modern truck and DJ setup.",
+      },
+      {
+        q: "Can I see examples of the traditional lighting setup?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past setups.",
+      },
+    ],
+  },
 };

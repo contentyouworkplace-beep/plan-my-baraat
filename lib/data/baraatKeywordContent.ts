@@ -8064,4 +8064,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-entry-service-vadodara": {
+    slug: "baraat-entry-service-vadodara",
+    intro:
+      "A baraat entry service in Vadodara from PlanMyBaraat covers the whole procession — DJ truck, dhol team, vintage car, and safa team — coordinated as one booking with our locally based team.\n\nWe've handled entries across Vadodara's neighborhoods, from Alkapuri to Waghodia Road.",
+    explanation:
+      "As a Vadodara-based service, our team knows the city's roads, typical venue setups, and logistics well, which shapes how we plan route timing and truck access for your specific venue. This local depth is what lets us coordinate the whole entry smoothly rather than treating it as a one-off booking.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly across the city, not hired independently for each event.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, delivered by our Vadodara-based team.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for our Vadodara service peaks during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Vadodara venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "What does your baraat entry service in Vadodara include?",
+        a: "The DJ truck, dhol team, vintage car, and safa team, all coordinated as one booking by our locally based team.",
+      },
+      {
+        q: "How much does the service cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is your team actually based in Vadodara?",
+        a: "Yes, we're headquartered in Vadodara and know the city's roads and venues well.",
+      },
+      {
+        q: "How early should I book this service?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Do the same drivers and performers work with you regularly?",
+        a: "Yes, our team works with us regularly across the city, not hired independently for each event.",
+      },
+      {
+        q: "Which areas of Vadodara do you cover?",
+        a: "We cover the whole city, including Alkapuri, Sayajigunj, Old Padra Road, and Waghodia Road.",
+      },
+      {
+        q: "How do I book the service?",
+        a: "Message us on WhatsApp with your wedding date and Vadodara venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's included in the starting package?",
+        a: "Raj Tilak covers the truck, DJ, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+      },
+    ],
+  },
+
+  "best-baraat-company-in-gujarat": {
+    slug: "best-baraat-company-in-gujarat",
+    intro:
+      "PlanMyBaraat is a Gujarat-based baraat company operating across Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns in the state, offering DJ truck, dhol team, vintage car, and safa team packages as one coordinated booking.\n\nMessage us on WhatsApp with your wedding date and city, and we'll help plan your entry.",
+    explanation:
+      "What we focus on is doing the baraat entry specifically well — our drivers, DJs, dhol players, and safa artists work with us regularly, giving us consistency and local knowledge across the areas we cover. Rather than trying to be everything to every wedding, we've built our team and packages around this one specific moment.\n\nOur four packages, Raj Tilak through Signature, give families a clear range to choose from, whether they want a solid, reliable entry or a full, elaborate production.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with production scaling from Raj Tilak's essentials to Signature's full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand peaks during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "What makes PlanMyBaraat a strong baraat company in Gujarat?",
+        a: "Our focused specialization on the baraat entry specifically, with a consistent team working with us regularly across the cities and towns we cover.",
+      },
+      {
+        q: "Which cities does the company cover?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "How much does the company charge?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "How early should I book with this company?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Is the whole entry handled by one team?",
+        a: "Yes, the truck, dhol, car, and safa team are all coordinated by our team as one operation.",
+      },
+      {
+        q: "Can I see photos of past entries the company has done?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past work.",
+      },
+      {
+        q: "What packages does the company offer?",
+        a: "Raj Tilak, Rajwada, Maharaja, and Signature, each building on the last with more dhol, LED production, entertainers, and effects.",
+      },
+      {
+        q: "How do I get started with the company?",
+        a: "Message us on WhatsApp with your wedding date and city, and we'll recommend a package.",
+      },
+    ],
+  },
+
+  "baraat-service-provider-gujarat": {
+    slug: "baraat-service-provider-gujarat",
+    intro:
+      "PlanMyBaraat is a baraat service provider operating across Gujarat, covering Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most cities and towns in the state.\n\nWe provide the DJ truck, dhol team, vintage car, and safa team as one coordinated package for your wedding procession.",
+    explanation:
+      "As a dedicated service provider, our focus is specifically the baraat entry, not general wedding planning. This focus means our drivers, DJs, dhol players, and safa artists are experienced specifically with baraat timing and pacing, rather than being general event staff.\n\nOur four package tiers give you a clear structure to choose from based on your priorities — a reliable, complete entry, or a bigger, more elaborate production with more dhol, lighting, and effects.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with production scaling from Raj Tilak's essentials to Signature's full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for our services peaks during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "What services does this provider offer across Gujarat?",
+        a: "The DJ truck, dhol team, vintage car, and safa team, coordinated as one package for the baraat entry.",
+      },
+      {
+        q: "Which cities does the service provider cover?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "How much does the service cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "How early should I book with this provider?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Is this provider focused specifically on baraat services?",
+        a: "Yes, our focus is specifically the baraat entry, which is why our team is experienced specifically with its timing and pacing.",
+      },
+      {
+        q: "Does the provider handle all logistics for the entry?",
+        a: "Yes, route planning, timing coordination, and the overall flow of the procession are all handled as one operation.",
+      },
+      {
+        q: "What packages does the provider offer?",
+        a: "Raj Tilak, Rajwada, Maharaja, and Signature, each building on the last with more dhol, LED production, entertainers, and effects.",
+      },
+      {
+        q: "How do I get started with this provider?",
+        a: "Message us on WhatsApp with your wedding date and city, and we'll recommend a package.",
+      },
+    ],
+  },
 };

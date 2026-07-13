@@ -7464,4 +7464,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-on-wheels-vadodara": {
+    slug: "baraat-on-wheels-vadodara",
+    intro:
+      "Baraat on wheels in Vadodara means a double decker DJ truck leading your procession, with a dhol team, vintage car, and safa team all coordinated as one booking.\n\nPlanMyBaraat is based in Vadodara and covers the whole city, from Alkapuri and Sayajigunj to Waghodia Road and beyond.",
+    explanation:
+      "Being based in Vadodara means we know the city's roads well, from the wider stretches near Old Padra Road to the busier central areas around Sayajigunj. Our drivers plan truck routes based on your exact venue, and our team is familiar with typical venue setups across the city.\n\nWe've handled entries across Vadodara's neighborhoods regularly, so timing and logistics are planned with real local knowledge, not guesswork.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. Raj Tilak starts with 2 dhol, up through Signature's 6 dhol and full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Vadodara venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Vadodara venues book out fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Vadodara venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you cover all of Vadodara for baraat on wheels?",
+        a: "Yes, we're based in Vadodara and cover the whole city, from Alkapuri and Sayajigunj to Waghodia Road and beyond.",
+      },
+      {
+        q: "How much does baraat on wheels cost in Vadodara?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are you familiar with Vadodara's venue locations?",
+        a: "Yes, we've handled entries across Vadodara's neighborhoods regularly and plan routes based on real local knowledge.",
+      },
+      {
+        q: "How early should I book for a Vadodara wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since venues book out fast.",
+      },
+      {
+        q: "Can the truck navigate Vadodara's busier central areas?",
+        a: "Yes, though we plan routes carefully around busier areas like Sayajigunj based on your exact venue.",
+      },
+      {
+        q: "Is the vintage car included for Vadodara bookings?",
+        a: "Yes, a vintage car or baggi is included in every package from Raj Tilak upward.",
+      },
+      {
+        q: "How do I book a baraat on wheels entry in Vadodara?",
+        a: "Message us on WhatsApp with your wedding date and Vadodara venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's the difference between packages for a Vadodara entry?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, LED screens, effects, and security.",
+      },
+    ],
+  },
+
+  "baraat-on-wheels-surat": {
+    slug: "baraat-on-wheels-surat",
+    intro:
+      "Baraat on wheels in Surat means a double decker DJ truck leading your procession, with a dhol team, vintage car, and safa team all coordinated as one booking.\n\nPlanMyBaraat covers all of Surat, from Vesu and Adajan to Varachha and Katargam.",
+    explanation:
+      "Surat's mix of newer developed areas like Vesu and City Light alongside older, denser neighborhoods like Varachha means route planning varies significantly across the city. Our team accounts for this based on your exact venue.\n\nWe've handled entries throughout Surat regularly, giving us real familiarity with typical venue access, timing, and logistics across the city's different areas.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. Raj Tilak starts with 2 dhol, up through Signature's 6 dhol and full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Surat venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Surat venues book out fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Surat venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you cover all of Surat for baraat on wheels?",
+        a: "Yes, we cover all of Surat, from Vesu and Adajan to Varachha and Katargam.",
+      },
+      {
+        q: "How much does baraat on wheels cost in Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are you familiar with Surat's newer and older areas?",
+        a: "Yes, we've handled entries across both newer developed areas and older, denser neighborhoods regularly.",
+      },
+      {
+        q: "How early should I book for a Surat wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since venues book out fast.",
+      },
+      {
+        q: "Can the truck navigate Surat's older neighborhoods?",
+        a: "In most cases yes, though we check your exact venue in advance since some older areas have narrower lanes.",
+      },
+      {
+        q: "Is the dhol team included for Surat bookings?",
+        a: "Yes, dhol players are included in every package, from 2 in Raj Tilak up to 6 in Signature.",
+      },
+      {
+        q: "How do I book a baraat on wheels entry in Surat?",
+        a: "Message us on WhatsApp with your wedding date and Surat venue, and we'll confirm availability.",
+      },
+      {
+        q: "What's the difference between packages for a Surat entry?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, LED screens, effects, and security.",
+      },
+    ],
+  },
+
+  "baraat-on-wheels-ahmedabad": {
+    slug: "baraat-on-wheels-ahmedabad",
+    intro:
+      "Baraat on wheels in Ahmedabad means a double decker DJ truck leading your procession, with a dhol team, vintage car, and safa team all coordinated as one booking.\n\nPlanMyBaraat covers all of Ahmedabad, from SG Highway and Satellite to Maninagar and Paldi.",
+    explanation:
+      "Ahmedabad has some of the biggest wedding venues in Gujarat, spread across newer areas like SG Highway and Sindhu Bhavan Road as well as older, established neighborhoods like Maninagar and Paldi. Our team plans routes based on your specific venue and area.\n\nWe cover the whole city, adjusting for road width, traffic patterns, and noise curfews that can vary between Ahmedabad's newer and older neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team. Raj Tilak starts with 2 dhol, up through Signature's 6 dhol and full effects lineup.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and Ahmedabad venue for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and Ahmedabad venues book out fast during that window, especially popular areas. 4 weeks' notice is a safe bet.\n\nShare your date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and Ahmedabad venue, and we'll confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you cover both SG Highway venues and older areas like Maninagar?",
+        a: "Yes, we cover all of Ahmedabad, from the newer venues on SG Highway and Sindhu Bhavan Road to older, established areas like Maninagar and Paldi.",
+      },
+      {
+        q: "How much does baraat on wheels cost in Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "How far in advance should I book a DJ truck for baraat in Ahmedabad?",
+        a: "During wedding season (November to February), 4 weeks ahead is a safe bet, especially for popular areas.",
+      },
+      {
+        q: "Can you plan around noise curfews in residential areas?",
+        a: "Yes. Some societies in older parts of Ahmedabad, like Maninagar and Paldi, have evening noise rules, and we plan around them.",
+      },
+      {
+        q: "Is the vintage car included for Ahmedabad bookings?",
+        a: "Yes, starting from Raj Tilak. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the real difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the basics — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, effects, and a security team.",
+      },
+      {
+        q: "How many dhol players come with each package?",
+        a: "Raj Tilak includes 2, Rajwada includes 4, Maharaja includes 6, and Signature includes 6 plus extra entertainment.",
+      },
+      {
+        q: "How do I book a baraat on wheels entry in Ahmedabad?",
+        a: "Message us on WhatsApp with your wedding date and Ahmedabad venue, and we'll confirm availability.",
+      },
+    ],
+  },
 };

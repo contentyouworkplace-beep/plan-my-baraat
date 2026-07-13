@@ -5314,4 +5314,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-entry-cost": {
+    slug: "baraat-entry-cost",
+    intro:
+      "Baraat entry cost depends on the package, dhol count, and any extra effects you add — not a single flat number, but a clear range across our four packages.\n\nPlanMyBaraat's baraat entry cost always covers the full production: the truck, dhol team, vintage car, and safa team together.",
+    explanation:
+      "The base of the entry — truck, sound system, and DJ artist — is consistent across every package. What moves the cost up as you go through the tiers is the dhol count (2 to 6), the lighting and LED setup, and extras like a teddy or gorilla performer, pyro effects, confetti cannons, and a security team on Signature, our top package.\n\nBecause the entry cost always includes the vintage car and safa team too, it's worth comparing against the full production elsewhere, not just a bare truck rental quote.",
+    whatsIncluded:
+      "Raj Tilak includes the truck, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature adds a security team plus pyro and confetti effects.",
+    pricingGuidance:
+      "We don't publish a flat baraat entry cost because it depends on your city, date, guest count, and package choice. Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real price, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February, and both cost and truck availability tighten during that window. 3-4 weeks' notice is a safe bet for peak season.\n\nShare your date, city, venue, and guest count when you reach out for an accurate quote.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll send you a real baraat entry cost, usually within the hour.",
+    faqs: [
+      {
+        q: "What's the baraat entry cost range?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the entry cost include just the truck or the full production?",
+        a: "The full production — truck, dhol team, vintage car, and safa team are all included in every package price.",
+      },
+      {
+        q: "Is the starting package a full entry or a stripped-down version?",
+        a: "It's a complete entry with the truck, DJ, 2 dhol, chhatri lights, car, and safa team — just with less production than the higher tiers.",
+      },
+      {
+        q: "Why is Signature more expensive?",
+        a: "It includes 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team — significantly more production than the starting package.",
+      },
+      {
+        q: "Does the entry cost change based on my city?",
+        a: "Logistics can vary slightly, which is why we confirm your exact price once we know your date and location.",
+      },
+      {
+        q: "How early should I lock in an entry cost?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since costs and availability both tighten during peak season.",
+      },
+      {
+        q: "Can I negotiate the baraat entry cost?",
+        a: "Message us with your budget and requirements on WhatsApp and we'll recommend the package that fits best.",
+      },
+      {
+        q: "How do I get an exact cost for my date?",
+        a: "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll respond with a real number, usually within the hour.",
+      },
+    ],
+  },
+
+  "how-to-choose-baraat-setup": {
+    slug: "how-to-choose-baraat-setup",
+    intro:
+      "How to choose baraat setup comes down to matching your priorities, guest count, and venue to the right package — PlanMyBaraat's four tiers each build on the last, from Raj Tilak's essentials to Signature's full production.\n\nMessage us on WhatsApp with your date, city, and vision, and we'll help you decide.",
+    explanation:
+      "Start by thinking about what matters most: if a reliable, complete entry is your priority, Raj Tilak covers the truck, DJ, dhol, car, and safa team well. If you want more visual production — LED visuals, an entertainer, more dhol — Rajwada or Maharaja fit better. If you want the fullest, most memorable experience with effects and security, Signature is built for that.\n\nGuest count and venue also matter — a bigger crowd or a venue with wider roads often works well with a higher-tier package's stronger sound and more elaborate production, while a smaller, more intimate wedding might suit Raj Tilak just fine.",
+    whatsIncluded:
+      "Raj Tilak covers the essentials. Rajwada adds more dhol and an entertainer. Maharaja brings LED visuals and custom lettering. Signature adds pyro, confetti, and security for the most complete production.",
+    pricingGuidance:
+      "Pricing depends on which package fits your event best. Message us on WhatsApp with your date, city, venue, and guest count, and we'll recommend the right tier along with a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll help you choose the right baraat setup.",
+    faqs: [
+      {
+        q: "How do I choose the right baraat setup?",
+        a: "Think about your priorities — a solid, reliable entry (Raj Tilak), more visual production (Rajwada/Maharaja), or the fullest experience (Signature) — and message us with your date and city for a recommendation.",
+      },
+      {
+        q: "Does guest count affect which setup I should pick?",
+        a: "Yes, a larger crowd often benefits from more dhol players and a stronger sound system, which points toward the higher tiers.",
+      },
+      {
+        q: "Does my venue affect which package fits best?",
+        a: "Yes, wider roads and bigger venues can accommodate a more elaborate production, while a smaller, intimate wedding might suit a simpler setup.",
+      },
+      {
+        q: "Should I always pick the most expensive package?",
+        a: "Not necessarily — the right fit depends on your specific event, not just spending the most.",
+      },
+      {
+        q: "How much does each package cost?",
+        a: "It depends on your city, date, and guest count. Message us on WhatsApp and we'll walk you through real pricing for each tier.",
+      },
+      {
+        q: "How early should I decide on a package?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window for the best chance at your preferred package and date.",
+      },
+      {
+        q: "Can I see examples of past entries at each tier?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past baraat entries.",
+      },
+      {
+        q: "Can I get help deciding based on my specific event?",
+        a: "Yes, share your date, city, venue, and guest count on WhatsApp and we'll recommend a package based on what actually fits.",
+      },
+    ],
+  },
+
+  "compare-baraat-setups": {
+    slug: "compare-baraat-setups",
+    intro:
+      "To compare baraat setups, it helps to look at what each package tier adds beyond the shared base — the truck, DJ, dhol, vintage car, and safa team every package includes.\n\nPlanMyBaraat's four packages — Raj Tilak, Rajwada, Maharaja, and Signature — each layer on more production as you move up.",
+    explanation:
+      "Raj Tilak includes 2 dhol, chhatri lights, a vintage car, and a safa team alongside the truck and DJ. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings the count to 6 dhol, plus moving LED panels and custom name lighting. Signature keeps the 6 dhol and LED setup, adding pyro highlights, confetti and CO2 effects, a fake money gun, an American vintage car, and 4 professional bouncers.\n\nComparing them side by side, the jump from Raj Tilak to Rajwada is mostly about dhol count and an entertainer, while the jump to Maharaja and Signature adds significantly more visual and effects production.",
+    whatsIncluded:
+      "Every package shares the truck, DJ, vintage car, and safa team as the base, with dhol count, lighting, entertainers, and effects scaling up from Raj Tilak to Signature.",
+    pricingGuidance:
+      "Pricing depends on which package you're comparing and your city, date, and guest count. Message us on WhatsApp and we'll give you real quotes across all four tiers to compare directly.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates, giving you time to compare before booking.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll send you a side-by-side comparison of our packages.",
+    faqs: [
+      {
+        q: "What's the easiest way to compare baraat setups?",
+        a: "Look at what each tier adds beyond the shared base (truck, DJ, dhol, car, safa team) — dhol count, lighting, entertainers, and effects all scale up from Raj Tilak to Signature.",
+      },
+      {
+        q: "What's the main difference between Raj Tilak and Rajwada?",
+        a: "Rajwada adds 2 more dhol (4 total) and a teddy or gorilla performer on top of Raj Tilak's essentials.",
+      },
+      {
+        q: "What does Maharaja add over Rajwada?",
+        a: "Maharaja brings the dhol count to 6 and adds moving LED panels plus custom name lighting.",
+      },
+      {
+        q: "What's unique to Signature compared to Maharaja?",
+        a: "Signature adds pyro highlights, confetti and CO2 effects, a fake money gun, an American vintage car, and 4 professional bouncers.",
+      },
+      {
+        q: "How much does each package cost?",
+        a: "It varies by city, date, and guest count. Message us on WhatsApp and we'll send you real quotes for all four tiers.",
+      },
+      {
+        q: "Is there a big price jump between tiers?",
+        a: "The jump reflects the added production — more dhol, LED visuals, and effects — message us for exact numbers to compare.",
+      },
+      {
+        q: "How early should I compare before booking?",
+        a: "As early as possible, ideally 3-4 weeks ahead during wedding season (November to February), to give yourself time to decide.",
+      },
+      {
+        q: "Can you help me decide which package fits my event?",
+        a: "Yes, share your date, city, venue, and guest count on WhatsApp and we'll recommend the right tier.",
+      },
+    ],
+  },
 };

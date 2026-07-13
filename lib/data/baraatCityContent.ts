@@ -10115,4 +10115,100 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "jamnagar-ranjit-sagar-road": {
+    slug: "jamnagar-ranjit-sagar-road",
+    intro:
+      "Ranjit Sagar Road runs near Jamnagar's well-known lake, with a few venues offering a scenic backdrop for a baraat entry. It's a slightly more relaxed setting compared to the busier central roads.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Ranjit Sagar Road is generally manageable for truck access, with some venues offering a scenic backdrop near the lake, which makes for great entry photos.\n\nWe've handled entries at venues along Ranjit Sagar Road and know the area well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Ranjit Sagar Road that means knowing which venues near the lake work best for a grand entry.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the setups common along this scenic corridor.",
+    pricingGuidance:
+      "On how much does baraat cost for a Ranjit Sagar Road entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since venues near the lake are popular.\n\nA rough headcount for the baraati group and your exact venue helps us plan the setup properly.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Ranjit Sagar Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Ranjit Sagar Road?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are the venues here scenic?",
+        a: "Yes, some venues along Ranjit Sagar Road offer a scenic backdrop near the lake, which makes for great entry photos.",
+      },
+      {
+        q: "How early should I book for a wedding here?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since venues near the lake are popular.",
+      },
+      {
+        q: "Is Ranjit Sagar Road good for a full truck entry?",
+        a: "Yes, it's generally manageable for truck access.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "jamnagar-guru-gobind-singh-marg": {
+    slug: "jamnagar-guru-gobind-singh-marg",
+    intro:
+      "Guru Gobind Singh Marg is a well-known central road in Jamnagar, home to a mix of shops, offices, and community halls that regularly host weddings. A baraat entry here has that classic central-city energy.\n\nPlanMyBaraat brings the whole entry together as one booking: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all coordinated as one team.",
+    localArea:
+      "Guru Gobind Singh Marg is centrally located, with a mix of commercial and residential stretches. We plan the truck's route around your exact venue, since some sections get busier than others.\n\nWe've handled entries along Guru Gobind Singh Marg and know the area well.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Guru Gobind Singh Marg that means knowing which stretches of this central road work best for a full-size truck.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping the whole entry punctual even on a busy central road.",
+    pricingGuidance:
+      "On how much does baraat cost for a Guru Gobind Singh Marg entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this central area.\n\nA rough headcount for the baraati group helps us plan the setup properly for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Guru Gobind Singh Marg, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Guru Gobind Singh Marg?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Guru Gobind Singh Marg a busy road?",
+        a: "It's a mix of commercial and residential stretches, and some sections get busier than others, so we plan the route around your exact venue.",
+      },
+      {
+        q: "How early should I book for a wedding here?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Is Guru Gobind Singh Marg centrally located?",
+        a: "Yes, it's a well-known central road in Jamnagar, easily reachable from across the city.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

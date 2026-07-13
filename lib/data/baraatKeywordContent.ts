@@ -7164,4 +7164,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "baraat-entry-trends": {
+    slug: "baraat-entry-trends",
+    intro:
+      "Baraat entry trends have moved steadily toward bigger production over the past several years — moving LED panels, custom name lighting, and effects like pyro and confetti have become increasingly common, especially in Gujarat.\n\nPlanMyBaraat's Maharaja and Signature packages reflect these current trends, layered on top of the classic truck and dhol foundation.",
+    explanation:
+      "The biggest trend shift has been toward treating the truck as a visual production, not just a sound source — moving LED panels, custom lettering with the groom's name, and synchronized effects have become standard requests for families wanting a memorable, shareable entry.\n\nAt the same time, some families are leaning back into more traditional elements like baggis and classic chhatri lighting, so there's no single dominant trend — more a range of options families are mixing based on their specific preferences.",
+    whatsIncluded:
+      "Maharaja and Signature reflect current trends with LED panels, custom lettering, and (in Signature) pyro, confetti, and CO2 effects, while Raj Tilak and Rajwada maintain a more classic approach.",
+    pricingGuidance:
+      "Pricing depends on the package tier and how much current production you want to incorporate. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and trend-forward packages like Signature are especially popular during that stretch. 3-4 weeks' notice or more is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll help you incorporate current trends into your entry.",
+    faqs: [
+      {
+        q: "What are the current baraat entry trends?",
+        a: "Moving LED panels, custom name lighting, and effects like pyro and confetti have become increasingly common, especially in Gujarat.",
+      },
+      {
+        q: "Which package reflects the latest trends?",
+        a: "Maharaja and Signature are built specifically around this modern production style.",
+      },
+      {
+        q: "Is everyone moving toward bigger production?",
+        a: "Not entirely — some families are also leaning into traditional elements like baggis and classic lighting, so it's more a range of options than one dominant trend.",
+      },
+      {
+        q: "How much does a trend-forward baraat entry cost?",
+        a: "It depends on the package tier. Message your date and city on WhatsApp for a real quote on Maharaja or Signature.",
+      },
+      {
+        q: "How early should I book for a trend-forward package?",
+        a: "3-4 weeks ahead or more during wedding season (November to February) is a safe window, since these packages are popular.",
+      },
+      {
+        q: "Can you show me examples of current trending entries?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of recent baraat entries.",
+      },
+      {
+        q: "Are custom LED name displays a popular trend?",
+        a: "Yes, they're one of the most requested modern touches, included in our Maharaja and Signature packages.",
+      },
+      {
+        q: "How do I incorporate current trends into my entry?",
+        a: "Message us on WhatsApp with your date, city, and vision, and we'll recommend the right package.",
+      },
+    ],
+  },
+
+  "how-to-plan-baraat-entry": {
+    slug: "how-to-plan-baraat-entry",
+    intro:
+      "How to plan baraat entry starts with your priorities — a reliable, complete entry versus a bigger, more elaborate production — then your guest count, venue, and timing.\n\nPlanMyBaraat helps with this planning as part of every package, from Raj Tilak's essentials to Signature's full production.",
+    explanation:
+      "Start by deciding what matters most to you: if a solid, dependable entry with the core elements is the priority, Raj Tilak covers the truck, DJ, dhol, car, and safa team well. If visual production and effects matter more, Maharaja or Signature fit better.\n\nFrom there, share your guest count (which affects dhol count and sound needs), your venue details (which affect route planning), and your preferred timing (evening entries showcase lighting best). We'll use these details to recommend the right package and plan the specifics.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team, with planning tailored to your specific event.",
+    pricingGuidance:
+      "Pricing depends on the package tier, your city, date, and guest count. Message us on WhatsApp with these details for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates, giving us time to plan properly.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and vision, and we'll help you plan your baraat entry step by step.",
+    faqs: [
+      {
+        q: "Where do I start when planning a baraat entry?",
+        a: "Decide your priorities first — a reliable entry (Raj Tilak) versus more production (Maharaja/Signature) — then share your guest count, venue, and timing with us.",
+      },
+      {
+        q: "How does guest count factor into planning?",
+        a: "It affects dhol count and sound system needs — a larger crowd often benefits from more players and stronger sound.",
+      },
+      {
+        q: "Does venue location matter for planning?",
+        a: "Yes, road width and access affect route planning, especially for larger trucks or a baggi-based entry.",
+      },
+      {
+        q: "What timing should I plan for?",
+        a: "Evening entries showcase lighting effects best, though we can plan around your specific muhurat timing.",
+      },
+      {
+        q: "How much does baraat entry planning cost?",
+        a: "It's included as part of your package. Message your date, city, and guest count on WhatsApp for a real quote.",
+      },
+      {
+        q: "How early should I start planning?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, giving us time to plan properly.",
+      },
+      {
+        q: "Can I make changes to my plan after booking?",
+        a: "Message us if your plans change and we'll see what's possible depending on your date and timing.",
+      },
+      {
+        q: "How do I get started planning?",
+        a: "Message us on WhatsApp with your wedding date, city, and vision, and we'll walk you through the process.",
+      },
+    ],
+  },
+
+  "baraat-vs-wedding-procession": {
+    slug: "baraat-vs-wedding-procession",
+    intro:
+      "Baraat vs wedding procession — the terms are often used interchangeably, though 'baraat' specifically refers to the Indian tradition of the groom's procession to the wedding venue, accompanied by family, friends, music, and dancing.\n\nPlanMyBaraat specializes specifically in this tradition, with packages built around the DJ truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "A general 'wedding procession' could refer to various cultural traditions of moving toward a ceremony, but 'baraat' specifically carries the cultural weight and specific customs of Indian weddings — the celebratory, dancing energy, the dhol drumming, and the groom's traditional arrival, whether by horse, baggi, or modern vintage car.\n\nOur focus is specifically on the baraat tradition and its modern expression, which is why our packages are built around elements — the truck, dhol, safa styling — specific to this format rather than a generic procession service.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, DJ artist, dhol team, vintage car, and safa team — elements specific to the baraat tradition.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll help plan your baraat entry.",
+    faqs: [
+      {
+        q: "Is baraat the same as a general wedding procession?",
+        a: "Baraat specifically refers to the Indian tradition of the groom's celebratory procession, distinct from generic wedding processions in other cultures.",
+      },
+      {
+        q: "What makes baraat distinct from other wedding traditions?",
+        a: "The celebratory dancing, dhol drumming, and specific groom's arrival customs (horse, baggi, or vintage car) are unique to this tradition.",
+      },
+      {
+        q: "Does PlanMyBaraat handle general wedding processions too?",
+        a: "Our focus is specifically on the baraat tradition and its elements — truck, dhol, safa styling, and vintage car.",
+      },
+      {
+        q: "Why is the dhol specific to baraat rather than general processions?",
+        a: "It's a longstanding part of Indian wedding celebrations, providing the rhythmic, celebratory energy central to the baraat's character.",
+      },
+      {
+        q: "How much does a baraat-specific entry cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the safa turban unique to the baraat tradition?",
+        a: "It's a traditional element of the groom's ceremonial dress specifically for this celebratory procession.",
+      },
+      {
+        q: "How early should I book for a baraat entry?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "How do I plan my baraat specifically?",
+        a: "Message us on WhatsApp with your date, city, and vision, and we'll recommend the right package for this specific tradition.",
+      },
+    ],
+  },
 };

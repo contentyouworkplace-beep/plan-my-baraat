@@ -6707,4 +6707,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "ahmedabad-ranip": {
+    slug: "ahmedabad-ranip",
+    intro:
+      "Ranip is an established residential neighborhood in north Ahmedabad, with a mix of older housing and a handful of community halls. A baraat entry here has a genuinely local feel, similar to other settled northern Ahmedabad pockets.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Ranip's roads are generally manageable for a full truck setup, being an established residential area. It connects to New Ranip and the broader northern Ahmedabad pocket.\n\nWe've handled entries in Ranip's venue clusters and residential societies.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Ranip that means knowing which society entrances work for a full truck and which need a shorter walk-in led by the dhol team.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries across this part of north Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for a Ranip entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nIf your venue is inside a residential society, let us know the entry point in advance. A rough headcount for the baraati group also helps.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Ranip, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Ranip, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can the truck reach venues inside Ranip's residential societies?",
+        a: "In most cases yes, though some society lanes are narrower. Tell us your exact venue and we'll check access in advance.",
+      },
+      {
+        q: "How early should I book for a Ranip wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you cover venues near New Ranip too?",
+        a: "Yes, we cover the broader northern Ahmedabad pocket including New Ranip. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-new-ranip": {
+    slug: "ahmedabad-new-ranip",
+    intro:
+      "New Ranip is the newer extension of the Ranip neighborhood in north Ahmedabad, with more recently built housing and a handful of venues. A baraat entry here has a straightforward, uncrowded feel.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "New Ranip's roads are generally wider than older Ranip, being newer development, making truck access straightforward. It connects easily to Ranip and the broader northern Ahmedabad pocket.\n\nWe've handled entries in New Ranip's venue clusters.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for New Ranip that means staying current on the newer venues opening as the area develops.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries across this part of north Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for a New Ranip entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice during peak season is usually enough for this growing part of the city.\n\nA rough headcount for the baraati group helps us plan the right setup for your venue.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in New Ranip, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in New Ranip, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are New Ranip's roads good for a truck entry?",
+        a: "Yes, being newer development, roads are generally wider than older Ranip, making truck access straightforward.",
+      },
+      {
+        q: "How early should I book for a New Ranip wedding?",
+        a: "2-3 weeks ahead during wedding season (November to February) is usually enough.",
+      },
+      {
+        q: "Do you cover venues near Ranip too?",
+        a: "Yes, we cover the broader northern Ahmedabad pocket including Ranip. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-naroda": {
+    slug: "ahmedabad-naroda",
+    intro:
+      "Naroda is one of Ahmedabad's older industrial hubs in the east, but the residential neighborhoods around it host a steady number of weddings, particularly for families connected to the area's businesses. A baraat entry has wide, functional roads to work with.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Roads through Naroda are generally wide given the industrial development, making truck access straightforward. Most wedding venues here are in the residential pockets rather than the industrial core.\n\nWe've handled entries in Naroda and the surrounding eastern Ahmedabad neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Naroda that means knowing which stretches are residential versus industrial, and planning weekend entries around any weekday traffic.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of east Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for a Naroda entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming whether your venue is closer to the residential or industrial side of Naroda.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Naroda, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Naroda, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Naroda good for a full-size truck entry?",
+        a: "Yes, roads here are generally wide given the industrial development, making truck access straightforward for most residential venues.",
+      },
+      {
+        q: "How early should I book for a Naroda wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Are wedding venues in Naroda close to the industrial zone?",
+        a: "Most are in residential pockets rather than the industrial core. Tell us your exact venue and we'll plan the route accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

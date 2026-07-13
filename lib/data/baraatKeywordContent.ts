@@ -1614,4 +1614,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "led-screen-for-wedding-truck": {
+    slug: "led-screen-for-wedding-truck",
+    intro:
+      "An LED screen for wedding truck usually refers to the moving LED panels mounted on the truck body that display visuals, patterns, or lighting effects as the baraat procession moves toward the venue.\n\nPlanMyBaraat includes moving LED panels from our Maharaja package upward, as part of a full baraat entry with a dhol team, vintage car, and safa team.",
+    explanation:
+      "The LED screens run along the truck body and add a dynamic visual layer beyond static chhatri lights — patterns, colors, and effects that catch the eye from a distance and build anticipation as the truck approaches. Combined with the groom's name spelled out in LED lettering, the truck becomes a visual centerpiece as much as a sound source.\n\nThe screens are built into the truck structure rather than added separately, so they're properly integrated with the sound and lighting system rather than a bolt-on extra.",
+    whatsIncluded:
+      "Raj Tilak and Rajwada include chhatri lights and truck branding without LED screens. Maharaja introduces moving LED panels and custom name lettering. Signature includes the same LED setup plus pyro and confetti effects for the most complete visual production.",
+    pricingGuidance:
+      "LED screens are included from the Maharaja package upward. Message us on WhatsApp with your date and city, and we'll walk you through what's included at each tier and give you a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for LED-equipped packages peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm availability for a package with LED screens, usually within the hour.",
+    faqs: [
+      {
+        q: "Which package includes LED screens on the truck?",
+        a: "Maharaja and Signature include moving LED panels mounted on the truck body, along with custom LED name lettering.",
+      },
+      {
+        q: "How much does an LED screen for wedding truck cost?",
+        a: "It's included as part of the Maharaja and Signature packages. Message your date and city on WhatsApp for a real quote covering the full package.",
+      },
+      {
+        q: "Are the LED screens visible during the day too?",
+        a: "They're most visually striking in evening or night entries, though they're included regardless of timing in the relevant packages.",
+      },
+      {
+        q: "Can the screens display custom graphics?",
+        a: "Message us with your specific requests on WhatsApp and we'll let you know what's possible.",
+      },
+      {
+        q: "How early should I book a package with LED screens?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since these higher-tier packages are popular.",
+      },
+      {
+        q: "Do the LED screens work while the truck is moving?",
+        a: "Yes, they're designed to stay visible and functional throughout the moving procession.",
+      },
+      {
+        q: "Is the LED screen part of the truck or a separate rental?",
+        a: "It's built into the truck structure as part of the Maharaja and Signature packages, not a separate rental.",
+      },
+      {
+        q: "What else comes with a package that has LED screens?",
+        a: "Maharaja includes 6 dhol, the groom's name in lights, a vintage car, and a safa team alongside the LED panels.",
+      },
+    ],
+  },
+
+  "moving-led-panel-rental-india": {
+    slug: "moving-led-panel-rental-india",
+    intro:
+      "Moving LED panel rental in India for wedding baraats usually means finding a vendor who can integrate the panels properly with the truck, sound, and lighting setup, not just rent a screen on its own.\n\nPlanMyBaraat includes moving LED panels as part of our Maharaja and Signature packages, fully integrated with the truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "A standalone LED panel rental would need to be mounted, powered, and synced separately from your truck and sound system, adding coordination complexity on the wedding day. Our approach builds the LED panels directly into the truck package, so everything works together as one unit from the start.\n\nWe operate across Gujarat specifically, so if you're searching more broadly for India-wide options, we can confirm whether we cover your city directly.",
+    whatsIncluded:
+      "Maharaja includes moving LED panels and custom name lettering on the truck, alongside 6 dhol, a vintage car, and a safa team. Signature includes the same LED setup plus pyro, confetti, and a security team.",
+    pricingGuidance:
+      "Pricing depends on the package tier, since LED panels are included as part of Maharaja and Signature rather than priced as a standalone rental. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for LED-equipped packages peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm coverage and availability for a package with moving LED panels.",
+    faqs: [
+      {
+        q: "Do you rent LED panels on their own?",
+        a: "No, our moving LED panels come integrated with the truck as part of the Maharaja and Signature packages, not as a standalone rental.",
+      },
+      {
+        q: "Which cities in India do you cover?",
+        a: "We're Gujarat-based, covering Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts in the state. Message us your city to confirm.",
+      },
+      {
+        q: "How much does moving LED panel inclusion cost?",
+        a: "It's part of the Maharaja and Signature package pricing. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the LED panel setup reliable for outdoor use?",
+        a: "Yes, it's built into the truck structure specifically for outdoor, moving-crowd baraat use.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since these packages are popular.",
+      },
+      {
+        q: "Can the panels be synced with the DJ's set?",
+        a: "The lighting is coordinated to complement the overall energy of the procession alongside the DJ's performance.",
+      },
+      {
+        q: "Do the panels come with a technician on-site?",
+        a: "The setup is handled as part of our team's coordinated operation, so it's managed alongside the truck and sound system.",
+      },
+      {
+        q: "What's the difference between Maharaja and Signature for LED panels?",
+        a: "Both include the same moving LED panels and custom lettering; Signature adds pyro, confetti, and a security team on top.",
+      },
+    ],
+  },
+
+  "groom-name-light-display": {
+    slug: "groom-name-light-display",
+    intro:
+      "A groom name light display is custom LED lettering mounted on the truck that spells out the groom's name, visible to guests well before the truck arrives at the venue — a popular personal touch for a baraat entry.\n\nPlanMyBaraat includes this as part of our Maharaja and Signature packages, alongside moving LED panels and the rest of the truck production.",
+    explanation:
+      "The name display sits on the truck body alongside the moving LED panels, custom-built for each booking rather than a generic template. It's one of the most personal touches available in our packages, since it's specific to your wedding rather than a standard visual effect.\n\nCombined with the rest of the LED setup, the name display makes the truck instantly identifiable and adds a memorable, personal element that guests notice and remember.",
+    whatsIncluded:
+      "Maharaja includes the groom's name in custom LED letters alongside moving LED panels, 6 dhol, a vintage car, and a safa team. Signature includes the same name display plus pyro, confetti, and a security team.",
+    pricingGuidance:
+      "The name display is included as part of the Maharaja and Signature packages, not priced separately. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. Since the name display is custom-built, mention it early — 3-4 weeks' notice gives us time to prepare it properly.\n\nShare your date, city, venue, and the exact spelling of the name when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and the groom's name, and we'll confirm the custom display for your package.",
+    faqs: [
+      {
+        q: "Which package includes the groom's name in lights?",
+        a: "Maharaja and Signature both include custom LED lettering displaying the groom's name on the truck.",
+      },
+      {
+        q: "How much does a groom name light display cost?",
+        a: "It's included as part of the Maharaja and Signature packages. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can I choose the font or style of the lettering?",
+        a: "Message us with your preferences and we'll let you know what's possible for your booking.",
+      },
+      {
+        q: "How far in advance do you need the name for the display?",
+        a: "As early as possible, ideally 3-4 weeks ahead, since the lettering is custom-built for each booking.",
+      },
+      {
+        q: "Is the display visible during the day?",
+        a: "It's most visually striking in evening or night entries, though it's part of the package regardless of timing.",
+      },
+      {
+        q: "Can the display include both names, like the couple's names together?",
+        a: "Message us with your specific request and we'll let you know what's possible.",
+      },
+      {
+        q: "Does the name display work while the truck is moving?",
+        a: "Yes, it's mounted securely on the truck body and stays visible throughout the moving procession.",
+      },
+      {
+        q: "What else comes with the package that includes the name display?",
+        a: "Maharaja includes moving LED panels, 6 dhol, the truck, DJ, vintage car, and safa team alongside the name display.",
+      },
+    ],
+  },
 };

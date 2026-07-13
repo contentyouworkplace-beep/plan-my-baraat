@@ -10,12 +10,10 @@ import EnquireNowButton from "@/components/EnquireNowButton";
 import LeadCaptureForm from "@/components/LeadCaptureForm";
 import SeoLinkBlock from "@/components/SeoLinkBlock";
 import { ALL_BARAAT_LOCATIONS, getLocationBySlug } from "@/lib/data/baraatLocations";
-import { getSeoPageContent } from "@/lib/data/seoContentEngine";
+import { BARAAT_CITY_CONTENT } from "@/lib/data/baraatCityContent";
 import { BARAAT_PACKAGES } from "@/lib/packagesData";
 import { SITE_IMAGES } from "@/lib/siteImages";
 import { WHATSAPP_NUMBER } from "@/lib/seoHelpers";
-import { CLEAN_200_KEYWORDS, SEO_KEYWORD_PAGES } from "@/lib/data/seoDirectory";
-
 import {
   generateJsonLdBreadcrumbGeneric,
   generateJsonLdServiceGeneric,
@@ -25,16 +23,7 @@ import {
 const BASE_URL = "https://planmybaraat.com";
 
 export function generateStaticParams() {
-  const locationSlugs = ALL_BARAAT_LOCATIONS.map((loc) => ({ location: loc.slug }));
-  const seoKeywordSlugs = SEO_KEYWORD_PAGES.map((page) => ({ location: page.slug }));
-  const keywordSlugs = CLEAN_200_KEYWORDS.map((kw) => ({
-    location: kw
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, "")
-      .trim()
-      .replace(/\s+/g, "-"),
-  }));
-  return [...locationSlugs, ...seoKeywordSlugs, ...keywordSlugs];
+  return Object.keys(BARAAT_CITY_CONTENT).map((slug) => ({ location: slug }));
 }
 
 function paragraphs(text: string) {
@@ -46,154 +35,124 @@ export async function generateMetadata({
 }: {
   params: { location: string };
 }): Promise<Metadata> {
-  const content = getSeoPageContent(params.location);
-  if (!content) return {};
+  const loc = getLocationBySlug(params.location);
+  const content = BARAAT_CITY_CONTENT[params.location];
+  if (!loc || !content) return {};
+
+  const title = `Baraat Packages in ${loc.name}`;
+  const description = `DJ truck, dhol team, vintage car, and safa styling for your baraat in ${loc.name}, ${loc.state}. Four curated packages, real pricing guidance, one WhatsApp enquiry.`;
+  const canonical = `/${params.location}`;
 
   return {
-    title: content.metaTitle,
-    description: content.metaDescription,
-    alternates: {
-      canonical: `/${params.location}`,
-    },
+    title,
+    description,
+    alternates: { canonical },
     openGraph: {
-      title: content.metaTitle,
-      description: content.metaDescription,
-      url: `/${params.location}`,
+      title,
+      description,
+      url: canonical,
       siteName: "PlanMyBaraat",
       type: "website",
     },
     twitter: {
       card: "summary_large_image",
-      title: content.metaTitle,
-      description: content.metaDescription,
+      title,
+      description,
     },
   };
 }
 
-export default function BaraatUnifiedPage({
+export default function LocationPage({
   params,
 }: {
   params: { location: string };
 }) {
   const loc = getLocationBySlug(params.location);
-  const content = getSeoPageContent(params.location);
+  const content = BARAAT_CITY_CONTENT[params.location];
 
-  if (!content) notFound();
+  if (!loc || !content) notFound();
 
-  // Determine breadcrumbs
+  const parent = loc.parentCity
+    ? ALL_BARAAT_LOCATIONS.find((l) => l.slug === loc.parentCity && l.type === "city")
+    : undefined;
+  const displayRegion = parent ? `${loc.name}, ${parent.name}` : `${loc.name}, ${loc.state}`;
+
+  const waText = encodeURIComponent(
+    `Hi PlanMyBaraat!\n\nI'm looking for baraat package services in ${loc.name}${parent ? `, ${parent.name}` : ""}. Please share package details and availability.`
+  );
+  const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`;
+
   const breadcrumbItems = [
     { name: "Home", url: BASE_URL },
-    ...(loc?.parentCity ? [{ name: loc.parentCity.toUpperCase(), url: `${BASE_URL}/${loc.parentCity}` }] : []),
-    { name: loc ? loc.name : content.pageTitle, url: `${BASE_URL}/${params.location}` },
+    ...(parent ? [{ name: parent.name, url: `${BASE_URL}/${parent.slug}` }] : []),
+    { name: loc.name, url: `${BASE_URL}/${loc.slug}` },
   ];
 
   const jsonLdBreadcrumb = generateJsonLdBreadcrumbGeneric(breadcrumbItems);
   const jsonLdService = generateJsonLdServiceGeneric({
-    name: content.pageTitle,
-    description: content.metaDescription,
-    areaServedName: loc ? `${loc.name}, ${loc.state}` : "Gujarat",
-    url: `${BASE_URL}/${params.location}`,
+    name: `Baraat Package Services in ${loc.name}`,
+    description: `DJ truck, dhol team, vintage car, and safa styling for baraat processions in ${loc.name}, ${loc.state}.`,
+    areaServedName: displayRegion,
+    url: `${BASE_URL}/${loc.slug}`,
   });
   const jsonLdFaq = generateJsonLdFAQGeneric(content.faqs);
 
-  const sections = [
-    { eyebrow: "Local Knowledge", heading: "Baraat Operations & Logistics", body: content.localArea },
-    { eyebrow: "What's Included", heading: "Baraat Package Features & Details", body: content.whatsIncluded },
-    { eyebrow: "Why Choose Us", heading: "Gujarat's Professional Baraat Team", body: content.whyUs },
-    { eyebrow: "Pricing", heading: "Baraat Package Pricing & Quotes", body: content.pricingGuidance },
-    { eyebrow: "Planning", heading: "Procession Timing & Curfew Notes", body: content.planningNotes },
+  const sections: Array<{ eyebrow: string; heading: string; body: string }> = [
+    { eyebrow: "Local Area", heading: `Where we work in ${loc.name}`, body: content.localArea },
+    { eyebrow: "What's Included", heading: "What every package includes", body: content.whatsIncluded },
+    { eyebrow: "Why PlanMyBaraat", heading: `Why families in ${loc.name} choose us`, body: content.whyUs },
+    { eyebrow: "Pricing", heading: "How pricing works", body: content.pricingGuidance },
+    { eyebrow: "Planning", heading: "Planning your baraat entry", body: content.planningNotes },
   ];
 
-  const waText = encodeURIComponent(
-    `Hi PlanMyBaraat!\n\nI am interested in ${content.pageTitle}. Please share package details and availability.`
+  const childAreas = ALL_BARAAT_LOCATIONS.filter(
+    (l) => l.parentCity === loc.slug && (l.type === "area" || l.type === "town")
   );
-  const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`;
-
-  // Local links navigation mesh
-  let relatedLinks: { label: string; href: string }[] = [];
-  if (loc) {
-    if (loc.type === "city") {
-      // Show areas of this city
-      const childAreas = ALL_BARAAT_LOCATIONS.filter(
-        (a) => a.parentCity === loc.slug && a.type === "area"
-      );
-      relatedLinks = childAreas.map((a) => ({ label: a.name, href: `/${a.slug}` }));
-    } else if (loc.type === "area" && loc.parentCity) {
-      // Show sibling areas
-      const siblingAreas = ALL_BARAAT_LOCATIONS.filter(
-        (a) => a.parentCity === loc.parentCity && a.type === "area" && a.slug !== loc.slug
-      ).slice(0, 15);
-      relatedLinks = siblingAreas.map((a) => ({ label: a.name, href: `/${a.slug}` }));
-    }
-  } else {
-    // For keyword pages, link to major priority cities
-    const priorityCities = ALL_BARAAT_LOCATIONS.filter((l) => l.type === "city").slice(0, 10);
-    relatedLinks = priorityCities.map((c) => ({
-      label: `${content.pageTitle} in ${c.name}`,
-      href: `/${params.location}-${c.slug}`,
-    }));
-  }
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdBreadcrumb }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdService }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: jsonLdFaq }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdBreadcrumb }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdService }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: jsonLdFaq }} />
 
       <SiteHeader />
 
-      <main className="relative flex-grow bg-[#fcfbf9] text-black">
-        {/* Hero Section */}
-        <section className="relative overflow-hidden border-b border-black/10 bg-[#F8F4EE] px-4 pb-16 pt-20 text-center sm:px-6 lg:px-8">
-          <div className="absolute inset-0 opacity-5">
-            <Image
-              src={SITE_IMAGES.goldCrownMoment}
-              alt=""
-              fill
-              className="object-cover grayscale"
-              priority
-            />
-          </div>
-          <div className="relative z-10 mx-auto max-w-3xl space-y-4">
-            <nav className="mb-6 flex items-center justify-center gap-1.5 text-[10px] font-bold uppercase tracking-widest text-black/40">
-              <Link href="/" className="hover:text-[#9F1239]">
-                Home
-              </Link>
+      <main className="bg-[#fcfbf9] text-[#1c1917]">
+        {/* ── Hero ── */}
+        <section className="border-b border-black/8 px-4 pb-16 pt-8 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-3xl text-center">
+            <nav className="mb-3 flex items-center justify-center gap-1 text-[9px] uppercase tracking-wide text-black/30">
+              <Link href="/" className="hover:text-[#9F1239]">Home</Link>
               <span>/</span>
-              <span className="text-black/80">{loc ? loc.name : "Guide"}</span>
+              {parent ? (
+                <>
+                  <Link href={`/${parent.slug}`} className="hover:text-[#9F1239]">{parent.name}</Link>
+                  <span>/</span>
+                </>
+              ) : null}
+              <span className="text-black/50">{loc.name}</span>
             </nav>
-            <span className="inline-block text-[10px] font-bold uppercase tracking-[0.24em] text-[#9F1239]">
-              {loc ? `${loc.name} Baraat Services` : "Baraat Procession Guide"}
+
+            <span className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#9F1239]">
+              {displayRegion}
             </span>
             <h1 className="mt-3 font-serif text-4xl font-black leading-tight tracking-wide text-black sm:text-5xl">
-              {content.pageTitle}
+              Baraat Packages in {loc.name}
             </h1>
             <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-black/60 sm:text-base">
-              {content.pageSubtitle}
+              A double-decker DJ truck, a dhol team, a vintage car, and safa styling —
+              booked as one package for your baraat entry in {loc.name}.
             </p>
           </div>
 
           <div className="mx-auto mt-10 max-w-xl">
-            <LeadCaptureForm
-              variant="hero"
-              defaultLocation={loc ? loc.name : ""}
-              defaultPackage=""
-            />
+            <LeadCaptureForm variant="hero" defaultLocation={loc.name} />
           </div>
 
           <div className="mx-auto mt-10 max-w-4xl overflow-hidden rounded-[28px]">
             <Image
               src={SITE_IMAGES.heroFloral}
-              alt={`Baraat entry setup`}
+              alt={`Baraat procession in ${loc.name}`}
               width={1600}
               height={1000}
               className="h-auto w-full object-cover"
@@ -202,7 +161,7 @@ export default function BaraatUnifiedPage({
           </div>
         </section>
 
-        {/* Intro */}
+        {/* ── Intro ── */}
         <section className="px-4 py-14 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl space-y-4 text-[0.95rem] leading-relaxed text-black/70">
             {paragraphs(content.intro).map((p, i) => (
@@ -211,7 +170,7 @@ export default function BaraatUnifiedPage({
           </div>
         </section>
 
-        {/* Packages */}
+        {/* ── Packages ── */}
         <section className="border-y border-black/8 bg-[#F8F4EE] px-4 py-16 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-6xl">
             <div className="text-center">
@@ -219,7 +178,7 @@ export default function BaraatUnifiedPage({
                 Our Packages
               </span>
               <h2 className="mt-2 font-serif text-2xl font-black tracking-wide text-black sm:text-3xl">
-                Choose your entry setup
+                Choose your entry for {loc.name}
               </h2>
             </div>
             <div className="mt-10 grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
@@ -250,6 +209,8 @@ export default function BaraatUnifiedPage({
                     </EnquireNowButton>
                     <a
                       href={`/packages/${pkg.id}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="flex h-11 items-center justify-center rounded-full border border-black/15 px-4 text-[10px] font-bold uppercase tracking-widest text-black/60 transition-colors hover:border-black/30 hover:text-black"
                     >
                       View
@@ -261,7 +222,7 @@ export default function BaraatUnifiedPage({
           </div>
         </section>
 
-        {/* Body Sections */}
+        {/* ── Body sections ── */}
         {sections.map((section, idx) => (
           <section
             key={section.heading}
@@ -283,14 +244,14 @@ export default function BaraatUnifiedPage({
           </section>
         ))}
 
-        {/* FAQs */}
+        {/* ── FAQ ── */}
         <section className="border-t border-black/8 px-4 py-16 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl">
             <span className="text-[10px] font-bold uppercase tracking-[0.24em] text-[#9F1239]">
               Common Questions
             </span>
             <h2 className="mt-2 font-serif text-2xl font-black tracking-wide text-black">
-              Frequently Asked Questions
+              FAQs for a baraat in {loc.name}
             </h2>
             <div className="mt-6">
               <FAQAccordion
@@ -300,11 +261,11 @@ export default function BaraatUnifiedPage({
           </div>
         </section>
 
-        {/* Closing CTA */}
+        {/* ── Closing CTA ── */}
         <section className="bg-[#1c1917] px-4 py-16 text-center sm:px-6 lg:px-8">
           <div className="mx-auto max-w-xl">
             <h2 className="font-serif text-2xl font-black tracking-wide text-white sm:text-3xl">
-              Ready to plan your baraat procession?
+              Ready to plan your baraat in {loc.name}?
             </h2>
             <p className="mt-3 text-sm text-white/60">{content.closing}</p>
             <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
@@ -323,14 +284,14 @@ export default function BaraatUnifiedPage({
           </div>
         </section>
 
-        {/* Related Links Mesh */}
-        {relatedLinks.length > 0 ? (
+        {/* ── Areas mesh ── */}
+        {childAreas.length > 0 ? (
           <section className="border-t border-black/8 bg-[#f7f1ea] px-4 py-12 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl">
               <SeoLinkBlock
-                title="Explore Other Areas & Keywords"
-                summary="Browse other wedding entry solutions and locations in our Gujarat network."
-                items={relatedLinks}
+                title={`Areas we serve in ${loc.name}`}
+                summary={`${childAreas.length} localities across ${loc.name} where we run baraat packages.`}
+                items={childAreas.map((a) => ({ label: a.name, href: `/${a.slug}` }))}
               />
             </div>
           </section>

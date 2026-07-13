@@ -2,8 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { Mail, MapPin, PhoneCall } from "lucide-react";
 
-import PublicSeoFooter from "./PublicSeoFooter";
-
 const QUICK_LINKS = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About Us" },
@@ -22,7 +20,6 @@ const PACKAGE_LINKS = [
 export default function SiteFooter() {
   return (
     <>
-      <PublicSeoFooter />
       <footer className="border-t border-black/8 bg-[#F8F4EE] text-black/50">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-4 lg:px-8">
           <div className="space-y-4">

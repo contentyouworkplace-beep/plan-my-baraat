@@ -1,7 +1,7 @@
 const BASE_URL = "https://planmybaraat.com";
 export const dynamic = "force-dynamic";
 
-const sections = ["core", "keywords", "locations"];
+const sections = ["core", "locations"];
 
 function buildSitemapIndexXml() {
   const entries = sections

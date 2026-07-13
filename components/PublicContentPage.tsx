@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
 import PublicHeader from "./PublicHeader";
-import PublicSeoFooter from "./PublicSeoFooter";
 
 interface PublicContentPageProps {
   eyebrow: string;
@@ -88,16 +86,8 @@ export default function PublicContentPage({
           >
             {ctaLabel}
           </a>
-          <Link
-            href="/city"
-            className="rounded-full border border-stone-400 px-6 py-3 text-sm font-semibold text-stone-800 transition hover:border-stone-700 hover:bg-[#F8F4EE]"
-          >
-            Browse cities
-          </Link>
         </div>
       </section>
-
-      <PublicSeoFooter />
     </main>
   );
 }

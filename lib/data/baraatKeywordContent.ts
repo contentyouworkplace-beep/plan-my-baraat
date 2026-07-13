@@ -314,4 +314,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "dj-truck-booking-price": {
+    slug: "dj-truck-booking-price",
+    intro:
+      "DJ truck booking price is what most people are really asking when they search for baraat truck costs — they want a sense of the range before they reach out. The honest answer: it depends on the package, dhol count, and any extra effects, not a single fixed number.\n\nPlanMyBaraat's DJ truck comes as part of a full baraat package — truck, dhol team, vintage car, and safa team — so the booking price covers the whole entry, not just the vehicle.",
+    explanation:
+      "The base of every package — truck, sound system, and DJ artist — stays the same across all four tiers. What changes the booking price is the number of dhol players (2 to 6), the lighting and LED setup on the truck, and add-ons like a teddy or gorilla performer, pyro effects, confetti cannons, and a security team on the top package.\n\nBecause the truck is never sold as a standalone item, the booking price you get quoted already includes the vintage car and safa team, which is worth keeping in mind when comparing against a bare equipment rental elsewhere.",
+    whatsIncluded:
+      "Raj Tilak, our starting package, includes the truck, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.",
+    pricingGuidance:
+      "We don't publish one flat number because the real booking price depends on your city, date, guest count, and which package and add-ons you want. Raj Tilak is the most affordable way to get a proper truck entry, and Signature is the most complete, production-heavy option.\n\nThe fastest way to get an exact price is to message us on WhatsApp with your wedding date, city, and rough guest count — we'll respond with a real quote, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February, and truck booking prices and availability both tighten during that window. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and guest count when you reach out — that's enough for an accurate quote.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and rough guest count, and we'll send you a real booking price, usually within the hour.",
+    faqs: [
+      {
+        q: "What's the DJ truck booking price range?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the booking price include the dhol team?",
+        a: "Yes, dhol players are included in every package — 2 in Raj Tilak, up to 6 in Signature — so it's not a separate line item.",
+      },
+      {
+        q: "Is a deposit needed to confirm the booking?",
+        a: "Yes, we usually take an advance payment to lock in your date, with the balance due closer to the event. We'll share exact terms once you confirm your package.",
+      },
+      {
+        q: "Why do prices vary between quotes I've seen online?",
+        a: "Different vendors bundle different things — some quote the truck alone, others include dhol, car, and safa team like we do. Compare what's actually included, not just the number.",
+      },
+      {
+        q: "Does the price change by city?",
+        a: "Logistics can vary slightly by city, which is why we confirm your exact price once we know your date and location rather than quoting blind.",
+      },
+      {
+        q: "How early should I lock in a booking price?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since prices and truck availability both tighten during peak season.",
+      },
+      {
+        q: "Can I customize a package to fit my budget?",
+        a: "Yes, tell us your budget and requirements on WhatsApp and we'll recommend the package tier that fits best.",
+      },
+      {
+        q: "What's the cheapest way to book a DJ truck?",
+        a: "Raj Tilak is our most affordable package and still includes the full entry — truck, DJ, 2 dhol, chhatri lights, car, and safa team.",
+      },
+    ],
+  },
+
+  "dj-van-for-wedding": {
+    slug: "dj-van-for-wedding",
+    intro:
+      "A DJ van for wedding is another name for the same double decker truck setup — a vehicle carrying the sound system and DJ that leads the baraat procession toward the venue, with the whole group dancing alongside it.\n\nPlanMyBaraat's DJ van comes as part of a complete baraat package: the vehicle itself, a dhol team, a vintage car for the groom, and a safa team, booked together as one service.",
+    explanation:
+      "Whether you call it a DJ van, DJ truck, or baraat truck, the setup is the same — a two-level structure with the sound system on the lower deck and the DJ performing live on the upper deck, visible above the crowd. The vehicle moves at walking pace so the baraati group can dance alongside it the whole way to the venue.\n\nWe use a mini double decker structure specifically, which gives better visibility and sound projection than a regular van with speakers mounted on top.",
+    whatsIncluded:
+      "Every package includes the DJ van, sound system, and DJ artist as the base. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your actual date, city, and guest count.\n\nMessage us on WhatsApp with your details and we'll respond with a real quote, usually within the hour.",
+    bookingNotes:
+      "Wedding season runs November to February, and DJ vans get booked out fast during that window. 3-4 weeks' notice is a safe bet for peak season.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the DJ van's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Is a DJ van the same as a DJ truck?",
+        a: "Yes, we use the same double decker truck structure for both — the terms are used interchangeably by different families searching for the same setup.",
+      },
+      {
+        q: "How much does a DJ van for wedding cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the DJ van come with lighting?",
+        a: "Yes, chhatri lights come with the starting package, and higher tiers add moving LED panels and custom name displays on the vehicle.",
+      },
+      {
+        q: "Can the DJ van play a custom playlist?",
+        a: "Yes, our DJ artists take song requests ahead of time and build a set around your preferred entry and dance tracks.",
+      },
+      {
+        q: "How far in advance should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since vans get booked out fast.",
+      },
+      {
+        q: "Does the van include the dhol team?",
+        a: "Yes, dhol players are included in every package, not booked separately.",
+      },
+      {
+        q: "What cities do you offer this in?",
+        a: "We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+      {
+        q: "What's included in the starting package?",
+        a: "Raj Tilak covers the DJ van, DJ artist, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+      },
+    ],
+  },
+
+  "dj-on-wheels-for-wedding": {
+    slug: "dj-on-wheels-for-wedding",
+    intro:
+      "DJ on wheels for wedding describes a moving DJ setup mounted on a truck, built for baraat entries where the music needs to travel with the procession rather than stay fixed in one spot.\n\nPlanMyBaraat runs this as a full package: a double decker DJ truck, a dhol team, a vintage car, and a safa team, booked together for your baraat entry.",
+    explanation:
+      "A DJ on wheels setup solves the core problem of a moving procession — a fixed sound system can't follow the crowd, and a portable speaker isn't loud enough for a large group. Our double decker truck carries a full concert sound system and the DJ artist performs live from the upper deck as the truck moves at walking pace.\n\nThe dhol team walks alongside or just ahead of the truck to keep the energy up between DJ tracks, and the whole procession moves together toward the venue entrance.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team are included from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for DJ on wheels setups peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "What does DJ on wheels mean exactly?",
+        a: "It's a DJ setup mounted on a moving truck, so the music travels with the baraat procession instead of staying fixed at the venue entrance.",
+      },
+      {
+        q: "How much does DJ on wheels for wedding cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does the truck stop at the venue or keep moving?",
+        a: "It moves the whole way from the starting point to the venue entrance, then typically stops once the baraat has arrived.",
+      },
+      {
+        q: "Is the sound quality good for an outdoor crowd?",
+        a: "Yes, the truck carries a concert-grade sound system built for open-air, moving-crowd use.",
+      },
+      {
+        q: "How early should I book?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does the package include the groom's transport?",
+        a: "Yes, a vintage car or baggi is included in every package from Raj Tilak upward.",
+      },
+      {
+        q: "Can I request specific songs for the entry?",
+        a: "Yes, our DJ artists take requests ahead of time and build the set around your preferred entry and dance tracks.",
+      },
+      {
+        q: "What's the difference between the packages?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+    ],
+  },
 };

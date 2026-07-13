@@ -1214,4 +1214,104 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "concert-style-sound-system-wedding": {
+    slug: "concert-style-sound-system-wedding",
+    intro:
+      "A concert style sound system for wedding baraat entries means audio that's actually built for a large outdoor crowd, not a small party speaker stretched beyond its limits. PlanMyBaraat's trucks carry exactly this kind of setup.\n\nThe concert style sound system comes as part of a full baraat package, alongside a dhol team, a vintage car, and a safa team.",
+    explanation:
+      "Concert-grade audio means clean, powerful sound that holds up over distance and crowd noise, run by a professional DJ artist who knows how to manage levels for an outdoor, moving environment. This is a meaningful step up from a standard party PA system, which often distorts or loses clarity once you add a large dancing crowd and open-air acoustics.\n\nThe system sits on the lower deck of our double decker truck, with the DJ performing live on the upper deck, so both power and control stay consistent as the truck moves through the procession.",
+    whatsIncluded:
+      "Every package includes the concert style sound system, truck, and DJ artist. Raj Tilak adds 2 dhol and chhatri lights. Rajwada steps up to 4 dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects.\n\nA vintage car and safa team come with every package from Raj Tilak upward.",
+    pricingGuidance:
+      "Pricing depends on the package, dhol count, and any extra effects. Raj Tilak is the most affordable option with a proper concert-grade system included. Signature costs more because it includes more overall production.\n\nMessage us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for full sound production peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability, usually within the hour.",
+    faqs: [
+      {
+        q: "Is the sound system really concert grade?",
+        a: "Yes, it's professional-grade audio equipment built for outdoor, large-crowd use, run by a trained DJ artist rather than a basic party speaker.",
+      },
+      {
+        q: "How much does a concert style sound system for wedding cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Does it distort at higher volumes?",
+        a: "No, the system is sized to run clean at the volumes needed for an outdoor baraat crowd without distortion.",
+      },
+      {
+        q: "Can the system handle both music and live dhol sound?",
+        a: "Yes, the sound is balanced to work alongside the live dhol drumming rather than competing with it.",
+      },
+      {
+        q: "How early should I book for a full sound production?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since demand peaks then.",
+      },
+      {
+        q: "Is the system operated by a trained technician?",
+        a: "The DJ artist manages the sound levels and mix throughout the performance as part of the package.",
+      },
+      {
+        q: "Does the sound system come with the truck automatically?",
+        a: "Yes, the sound system, DJ, and truck are all bundled together in every package.",
+      },
+      {
+        q: "What's included in the starting package?",
+        a: "Raj Tilak covers the sound system, DJ artist, truck, 2 dhol, chhatri lights, a vintage car, and a safa team.",
+      },
+    ],
+  },
+
+  "intelligent-lighting-rental-wedding": {
+    slug: "intelligent-lighting-rental-wedding",
+    intro:
+      "Intelligent lighting rental for wedding baraat entries refers to programmable, moving lights — not just static bulbs — that add visual movement and effects to the truck as it processes toward the venue.\n\nPlanMyBaraat's higher packages include intelligent, moving LED lighting as part of the truck setup, alongside a dhol team, vintage car, and safa team.",
+    explanation:
+      "Standard chhatri lights give a warm, traditional glow, but intelligent lighting adds programmable movement — panels that shift patterns, colors that sync with the music, and custom effects that make the truck feel more like a moving stage production. This is included from our Maharaja package upward.\n\nCombined with the groom's name spelled out in LED lettering, the intelligent lighting setup turns the truck into a visual centerpiece that's noticeable well before it arrives at the venue.",
+    whatsIncluded:
+      "Raj Tilak includes chhatri lights as the base lighting. Rajwada adds full body branding with additional lighting. Maharaja introduces moving LED panels and the groom's name in LED letters — the intelligent lighting tier. Signature includes all of this plus pyro and confetti effects synced to the truck's arrival.",
+    pricingGuidance:
+      "Intelligent lighting is included from the Maharaja package upward, so pricing reflects that tier and above. Message us on WhatsApp with your date and city, and we'll walk you through what's included at each level and give you a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and demand for higher-tier packages with full lighting production peaks then. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm availability for a package with intelligent lighting, usually within the hour.",
+    faqs: [
+      {
+        q: "Which package includes intelligent lighting?",
+        a: "Maharaja and Signature include moving LED panels and custom LED name lettering — our intelligent, programmable lighting tier.",
+      },
+      {
+        q: "How much does intelligent lighting rental for wedding cost?",
+        a: "It's included as part of the Maharaja and Signature packages. Message your date and city on WhatsApp for a real quote covering the full package.",
+      },
+      {
+        q: "Does the lighting sync with the music?",
+        a: "Yes, the moving LED panels are set up to complement the DJ's set and the overall energy of the procession.",
+      },
+      {
+        q: "Can the lights display our names?",
+        a: "Yes, the groom's name is displayed in custom LED lettering as part of the Maharaja and Signature packages.",
+      },
+      {
+        q: "Is intelligent lighting worth it over the base chhatri lights?",
+        a: "It depends on how much visual production you want — chhatri lights give a traditional look, while intelligent lighting adds movement and a more modern, dramatic effect.",
+      },
+      {
+        q: "How early should I book a package with intelligent lighting?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since higher-tier packages are popular during peak season.",
+      },
+      {
+        q: "Does the lighting work well for daytime entries too?",
+        a: "It's most visually striking in evening or night entries, though it's included regardless of timing in the relevant packages.",
+      },
+      {
+        q: "What else comes with the Maharaja package besides lighting?",
+        a: "Maharaja includes 6 dhol, moving LED panels, the groom's name in lights, the truck, DJ, vintage car, and safa team.",
+      },
+    ],
+  },
 };

@@ -2614,4 +2614,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "dhol-for-wedding": {
+    slug: "dhol-for-wedding",
+    intro:
+      "Dhol for wedding baraats is the traditional double-sided drum played live throughout the procession, giving the entry its core rhythm and energy alongside the DJ truck's music.\n\nPlanMyBaraat includes a dhol team in every package, starting from 2 players in Raj Tilak up to 6 in Signature, alongside the truck, vintage car, and safa team.",
+    explanation:
+      "The dhol is central to any baraat — its beat is what most people associate with the celebratory, dancing energy of the procession. Our players work alongside the DJ, filling in during transitions and adding a live, physical energy that recorded music alone doesn't provide.\n\nPlayers are experienced with baraat-specific rhythms and pacing, keeping the beat consistent as the truck moves at walking pace and the crowd dances around it.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol players. Rajwada steps up to 4. Maharaja and Signature both include 6 dhol, with Signature adding extra entertainment on top. All tiers include the truck, DJ, chhatri lights, a vintage car, and a safa team alongside the dhol team.",
+    pricingGuidance:
+      "Pricing depends on the package tier and dhol count. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and dhol teams get booked out fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the dhol team's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How many dhol players come with each package?",
+        a: "Raj Tilak includes 2, Rajwada includes 4, and Maharaja and Signature both include 6, with Signature adding extra entertainment on top.",
+      },
+      {
+        q: "How much does dhol for wedding cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Can I request more dhol players than the package includes?",
+        a: "Message us with your preference and we'll let you know what's possible for your booking.",
+      },
+      {
+        q: "Do the dhol players work with the DJ or separately?",
+        a: "They coordinate together throughout the procession, filling in during DJ transitions and keeping the energy consistent.",
+      },
+      {
+        q: "How early should I book a dhol team?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since dhol teams get booked out fast.",
+      },
+      {
+        q: "Are the dhol players experienced with baraat pacing specifically?",
+        a: "Yes, they work with us regularly and are experienced with the rhythm and pacing a moving baraat procession needs.",
+      },
+      {
+        q: "Is the dhol team booked separately from the truck?",
+        a: "No, dhol players are included in the same package as the truck, not booked separately.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature for dhol count?",
+        a: "Raj Tilak includes 2 dhol while Signature includes 6, alongside significantly more production overall.",
+      },
+    ],
+  },
+
+  "dhol-player-near-me": {
+    slug: "dhol-player-near-me",
+    intro:
+      "Searching for a dhol player near me for a baraat means finding local, experienced players who know the pacing a wedding procession needs — not just any drummer, but one used to walking alongside a moving crowd for an extended period.\n\nPlanMyBaraat's dhol players work across Gujarat regularly, included as part of every baraat package alongside the truck, vintage car, and safa team.",
+    explanation:
+      "Baraat dhol playing is physically demanding and requires a different skill set than a studio or stage performance — players need stamina for a long walking procession, awareness of the crowd's energy, and coordination with the DJ's live set. Our players work with us regularly across the cities and towns we cover, so they're experienced with exactly this format.\n\nBeing local also means our team knows typical route lengths and timing in different cities, helping plan the right pacing for your specific procession.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol players. Rajwada steps up to 4. Maharaja and Signature both include 6, alongside the truck, DJ, chhatri lights, a vintage car, and a safa team.",
+    pricingGuidance:
+      "Pricing depends on the package tier and dhol count. We confirm the exact price once we know your city and date. Message us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and local dhol availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your city, date, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your city and wedding date, and we'll confirm a dhol team's available near you, usually within the hour.",
+    faqs: [
+      {
+        q: "Do you have dhol players near my city?",
+        a: "We cover Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat. Message us your city to confirm.",
+      },
+      {
+        q: "How much does a dhol player near me cost?",
+        a: "It's included as part of every package. Message your date and city on WhatsApp for a real quote covering the full entry.",
+      },
+      {
+        q: "Are the players experienced with long processions?",
+        a: "Yes, they're chosen for stamina and experience with the pacing a moving baraat needs, not just short performances.",
+      },
+      {
+        q: "How many dhol players are typically needed for a baraat?",
+        a: "It depends on your package and guest count — our tiers range from 2 to 6 dhol players, and we'll recommend based on your event size.",
+      },
+      {
+        q: "How early should I book local dhol players?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since local availability tightens during peak season.",
+      },
+      {
+        q: "Do the players know the local route timing?",
+        a: "Yes, our team works across Gujarat regularly and understands typical route lengths and timing in the cities we cover.",
+      },
+      {
+        q: "Can I book just dhol players without the full package?",
+        a: "Dhol players are included as part of our baraat packages alongside the truck, car, and safa team, not booked as a standalone service.",
+      },
+      {
+        q: "What cities do you cover for dhol players?",
+        a: "Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts across Gujarat.",
+      },
+    ],
+  },
+
+  "dhol-team-for-baraat": {
+    slug: "dhol-team-for-baraat",
+    intro:
+      "A dhol team for baraat is the group of drummers who provide the live rhythm for your wedding procession, working alongside the DJ truck to keep the energy consistent from start to finish.\n\nPlanMyBaraat includes a dhol team in every package, from 2 players in Raj Tilak up to 6 in Signature, alongside the truck, vintage car, and safa team.",
+    explanation:
+      "The dhol team's role goes beyond just playing music — they help pace the procession, respond to the crowd's energy, and fill in during moments when the DJ transitions between tracks. A well-coordinated team makes the whole entry feel seamless rather than like two separate performances happening at once.\n\nOur players work with us regularly, so they're familiar with our truck setup and DJ style, making the coordination smoother than a last-minute hired group would be.",
+    whatsIncluded:
+      "Raj Tilak includes 2 dhol players and chhatri lights. Rajwada steps up to 4 dhol and adds a teddy or gorilla performer. Maharaja and Signature both include 6 dhol, with Signature adding pyro, confetti, and security on top.",
+    pricingGuidance:
+      "Pricing depends on the package tier and dhol count. Raj Tilak is the most affordable option and Signature is the most complete. We quote based on your date, city, and guest count.\n\nMessage us on WhatsApp for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February, and dhol teams get booked out fast during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the dhol team's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How does the dhol team coordinate with the DJ truck?",
+        a: "They work together throughout the procession, with the dhol filling in during DJ transitions and matching the overall energy of the entry.",
+      },
+      {
+        q: "How much does a dhol team for baraat cost?",
+        a: "It's included as part of every package, from 2 players in Raj Tilak to 6 in Signature. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the dhol team the same players every time or does it vary?",
+        a: "Our players work with us regularly, so the team is consistent and experienced with our setup rather than hired ad hoc for each event.",
+      },
+      {
+        q: "How many dhol players do I need for my guest count?",
+        a: "We'll recommend based on your specific guest count and venue — message us the details and we'll suggest the right package.",
+      },
+      {
+        q: "How early should I book a dhol team?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since teams get booked out fast.",
+      },
+      {
+        q: "Do the dhol players walk the whole route?",
+        a: "Yes, they walk alongside the truck for the entire procession, keeping the rhythm going from start to finish.",
+      },
+      {
+        q: "Is the dhol team included even in the cheapest package?",
+        a: "Yes, Raj Tilak includes 2 dhol players even at our most affordable tier.",
+      },
+      {
+        q: "What's the maximum number of dhol players available?",
+        a: "Our Maharaja and Signature packages both include 6 dhol players, our highest tier.",
+      },
+    ],
+  },
 };

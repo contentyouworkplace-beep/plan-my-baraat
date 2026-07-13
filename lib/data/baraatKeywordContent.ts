@@ -3864,4 +3864,104 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "imported-vintage-car-rental-india": {
+    slug: "imported-vintage-car-rental-india",
+    intro:
+      "Imported vintage car rental in India for wedding baraats usually points toward premium options like American vintage cars — a style PlanMyBaraat includes specifically in our Signature package.\n\nWe operate across Gujarat, so if you're searching more broadly for India-wide options, message us to confirm coverage in your city.",
+    explanation:
+      "Imported vintage cars carry a distinct look and presence compared to locally sourced vintage options, which is why they're specifically featured in our top-tier Signature package rather than the standard vehicle offering. The car comes as part of a full baraat entry, not a standalone rental.\n\nBecause imported vehicles require more specialized maintenance and availability planning, we recommend booking well in advance if this specific option matters to your entry.",
+    whatsIncluded:
+      "Signature includes the American vintage car alongside the DJ truck, sound system, DJ artist, 6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, a security team, and a safa team.",
+    pricingGuidance:
+      "The imported vintage car is included as part of the Signature package. Message us on WhatsApp with your date and city for a real quote covering the full production.",
+    bookingNotes:
+      "Wedding season runs November to February, and Signature package availability tightens during that window, especially for the imported car option. 3-4 weeks' notice or more is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll confirm the Signature package with the imported vintage car.",
+    faqs: [
+      {
+        q: "Do you offer imported vintage cars for weddings?",
+        a: "Yes, our Signature package specifically features an American vintage car as part of its full production.",
+      },
+      {
+        q: "Which cities in India do you cover?",
+        a: "We're Gujarat-based, covering Vadodara, Surat, Ahmedabad, Gandhinagar, Rajkot, and most major towns and districts in the state. Message us your city to confirm.",
+      },
+      {
+        q: "How much does imported vintage car rental cost?",
+        a: "It's included as part of the Signature package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is the imported car reliable for wedding-day use?",
+        a: "Yes, it's maintained specifically for wedding use with an experienced driver coordinating timing.",
+      },
+      {
+        q: "How early should I book for the imported car option?",
+        a: "3-4 weeks ahead or more is a safe window during wedding season (November to February), since this specific option has more limited availability.",
+      },
+      {
+        q: "Can I rent just the imported car without the rest of Signature?",
+        a: "The car is included as part of the Signature package's complete production. Message us with your specific interest and we'll advise on options.",
+      },
+      {
+        q: "Can I see photos of the imported vintage car?",
+        a: "Yes, message us on WhatsApp and we'll share photos of the specific vehicle.",
+      },
+      {
+        q: "What else does Signature include besides the car?",
+        a: "6 dhol, moving LED panels, custom name lighting, pyro and confetti effects, and a security team.",
+      },
+    ],
+  },
+
+  "wedding-car-rental-vintage": {
+    slug: "wedding-car-rental-vintage",
+    intro:
+      "Wedding car rental for a vintage-style groom's arrival is included as part of PlanMyBaraat's full baraat package, not a separate rental you'd need to coordinate on your own.\n\nEvery package from Raj Tilak upward includes a vintage car or baggi, with Signature specifically featuring an American vintage car.",
+    explanation:
+      "Rather than sourcing a vintage car rental independently and coordinating its timing with a separately hired truck and dhol team, our approach bundles the car into the same booking as the rest of the baraat entry. This means timing, positioning, and coordination are all handled by one team.\n\nThe car is maintained specifically for wedding use, and our drivers are experienced with baraat-specific timing, joining the procession at the right moment.",
+    whatsIncluded:
+      "Raj Tilak through Maharaja include a vintage car or baggi. Signature upgrades this to an American vintage car, alongside the truck, DJ, dhol team, and safa team.",
+    pricingGuidance:
+      "The vintage car is included in every package, so there's no separate rental price. Message us on WhatsApp with your date and city for a real quote covering the full entry.",
+    bookingNotes:
+      "Wedding season runs November to February, and vintage car availability tightens during that window. 3-4 weeks' notice is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date, city, and venue, and we'll confirm the vintage car's available, usually within the hour.",
+    faqs: [
+      {
+        q: "Can I rent a vintage car without the rest of the baraat package?",
+        a: "No, the vintage car is included as part of our baraat packages alongside the truck and dhol team, not rented separately.",
+      },
+      {
+        q: "What's the vintage car rental price for a wedding?",
+        a: "There's no separate rental price — it's included in every package. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "Which package includes the premium American vintage car?",
+        a: "Signature, our top package, specifically features the American vintage car.",
+      },
+      {
+        q: "Does the car come with a driver?",
+        a: "Yes, an experienced driver coordinates the car's timing with the rest of the baraat.",
+      },
+      {
+        q: "How early should I book vintage car availability?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, since availability tightens during peak season.",
+      },
+      {
+        q: "Can I request a specific vintage car color or style?",
+        a: "Message us with your preferences on WhatsApp and we'll let you know what's available for your date.",
+      },
+      {
+        q: "Is the car decorated for the wedding?",
+        a: "Yes, it's styled appropriately for the occasion as part of the package.",
+      },
+      {
+        q: "Does the vintage car join the truck procession together?",
+        a: "The groom typically arrives separately and joins the procession near the entrance, coordinated with the truck's timing.",
+      },
+    ],
+  },
 };

@@ -7014,4 +7014,154 @@ export const BARAAT_KEYWORD_CONTENT: Record<string, KeywordContent> = {
       },
     ],
   },
+
+  "groom-procession-traditions-india": {
+    slug: "groom-procession-traditions-india",
+    intro:
+      "Groom procession traditions across India vary by region, but the core idea is consistent — the groom, accompanied by family and friends, travels to the wedding venue in a celebratory, public procession.\n\nPlanMyBaraat brings this tradition to life in Gujarat with a modern production: DJ truck, dhol team, vintage car, and safa team.",
+    explanation:
+      "Different regions have their own specific customs — the ghodi (horse) tradition especially prominent in North Indian weddings, various styles of dhol and band accompaniment, and regional variations in the groom's attire and turban styling. In Gujarat specifically, baraats have embraced the modern DJ truck format, blending regional traditions with contemporary production.\n\nOur packages reflect this blend, keeping traditional elements like the safa turban and vintage car or baggi option, while adding modern elements like the DJ truck and lighting production that have become standard for Gujarat weddings.",
+    whatsIncluded:
+      "Every package includes the DJ truck, dhol team, vintage car or baggi, and safa team, reflecting a blend of traditional and modern procession elements.",
+    pricingGuidance:
+      "Pricing depends on the package tier, dhol count, and any extra effects. Message us on WhatsApp with your date and city for a real quote.",
+    bookingNotes:
+      "Wedding season runs November to February. 3-4 weeks' notice is a safe bet for peak season dates.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll help plan a procession honoring your specific traditions.",
+    faqs: [
+      {
+        q: "Do groom procession traditions vary across India?",
+        a: "Yes, different regions have their own specific customs, though the core idea of a celebratory, public procession to the venue is consistent.",
+      },
+      {
+        q: "What's the tradition specific to Gujarat weddings?",
+        a: "Gujarat has embraced the modern DJ truck format for baraat entries, blending regional traditions with contemporary production.",
+      },
+      {
+        q: "Is the ghodi (horse) tradition common in Gujarat?",
+        a: "It's more prominent in North Indian-style weddings, though some families incorporate it. Message us if this specifically matters to your entry.",
+      },
+      {
+        q: "How does PlanMyBaraat blend tradition and modern production?",
+        a: "We keep traditional elements like the safa turban and vintage car or baggi option, while adding modern elements like the DJ truck and lighting.",
+      },
+      {
+        q: "Can I incorporate specific regional traditions from my family?",
+        a: "Message us your specific traditions and we'll let you know what's possible to incorporate.",
+      },
+      {
+        q: "Does the safa styling vary by region?",
+        a: "Yes, and our stylists are experienced with different regional turban styles — mention your specific tradition when booking.",
+      },
+      {
+        q: "How much does a procession honoring specific traditions cost?",
+        a: "It depends on the package, dhol count, and any extra effects. Message your date and city on WhatsApp for a real quote.",
+      },
+      {
+        q: "How do I plan a procession that fits my family's traditions?",
+        a: "Message us on WhatsApp with your specific customs, date, and city, and we'll advise on what's possible.",
+      },
+    ],
+  },
+
+  "modern-baraat-entry-ideas": {
+    slug: "modern-baraat-entry-ideas",
+    intro:
+      "Modern baraat entry ideas center on the DJ truck format — moving LED panels, custom lighting, effects like pyro and confetti, and a live DJ set — a significant shift from the traditional small band and walking procession.\n\nPlanMyBaraat's Maharaja and Signature packages are built specifically around this modern production style.",
+    explanation:
+      "Modern entries treat the baraat as a full production, not just transportation — the truck becomes a moving stage with sound, lighting, and visual effects timed to specific moments. This shift has become especially popular in Gujarat, where families increasingly want the entry itself to feel like a memorable event.\n\nOur higher-tier packages layer in these modern elements progressively: Maharaja brings moving LED panels and custom name lettering, while Signature adds pyro highlights, confetti, CO2 effects, a fake money gun, and a dedicated security team for full crowd management.",
+    whatsIncluded:
+      "Maharaja includes 6 dhol, moving LED panels, and custom name lighting. Signature adds pyro, confetti, CO2 effects, a fake money gun, an American vintage car, and a security team.",
+    pricingGuidance:
+      "Pricing depends on the package tier and how much modern production you want. Message us on WhatsApp with your date and city for a real quote on Maharaja or Signature.",
+    bookingNotes:
+      "Wedding season runs November to February, and our modern-production packages are especially popular during that stretch. 3-4 weeks' notice or more is a safe bet.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll recommend the right modern package for your vision.",
+    faqs: [
+      {
+        q: "What makes an entry feel 'modern'?",
+        a: "Moving LED panels, custom lighting, effects like pyro and confetti, and a live DJ set — a significant production beyond the traditional walking procession.",
+      },
+      {
+        q: "Which package is best for a modern entry?",
+        a: "Maharaja and Signature are built specifically for this, with LED visuals and (in Signature) a full effects lineup.",
+      },
+      {
+        q: "How much does a modern baraat entry cost?",
+        a: "It depends on the package tier. Message your date and city on WhatsApp for a real quote on Maharaja or Signature.",
+      },
+      {
+        q: "Is a modern entry more complex to plan?",
+        a: "It requires more coordination for effects timing, which is why we recommend booking earlier for these packages.",
+      },
+      {
+        q: "How early should I book for a modern production entry?",
+        a: "3-4 weeks ahead or more during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does modern mean losing traditional elements entirely?",
+        a: "No, the safa turban and vintage car remain part of every package, blending tradition with modern production.",
+      },
+      {
+        q: "Can I see examples of modern entries you've done?",
+        a: "Yes, message us on WhatsApp and we'll share photos and videos of past Maharaja and Signature entries.",
+      },
+      {
+        q: "How do I plan a modern entry for my wedding?",
+        a: "Message us on WhatsApp with your date, city, and vision, and we'll recommend the right package.",
+      },
+    ],
+  },
+
+  "traditional-baraat-entry-ideas": {
+    slug: "traditional-baraat-entry-ideas",
+    intro:
+      "Traditional baraat entry ideas lean into classic elements — chhatri lighting, a baggi or vintage car, live dhol drumming, and safa turban styling — without the heavier modern production of LED panels and pyro effects.\n\nPlanMyBaraat's Raj Tilak and Rajwada packages fit this more classic, traditional feel.",
+    explanation:
+      "A traditional entry focuses on the fundamentals that have defined baraat processions for generations: warm chhatri lighting, the groom's classic vintage car or baggi arrival, live dhol drumming providing the celebratory rhythm, and coordinated safa turban styling for the groom and baraati group.\n\nOur Raj Tilak and Rajwada packages emphasize these traditional elements without the heavier LED visuals and effects found in Maharaja and Signature, giving families who prefer a more classic look a strong, complete option.",
+    whatsIncluded:
+      "Raj Tilak includes the truck, DJ, 2 dhol, chhatri lights, a vintage car or baggi, and a safa team. Rajwada adds 2 more dhol and a teddy or gorilla performer, still within a classic, traditional feel.",
+    pricingGuidance:
+      "Pricing depends on the package tier. Message us on WhatsApp with your date and city for a real quote on Raj Tilak or Rajwada.",
+    bookingNotes:
+      "Wedding season runs November to February. 2-3 weeks' notice is usually enough for these packages.\n\nShare your date, city, venue, and rough guest count when you reach out.",
+    closing:
+      "Message us on WhatsApp with your wedding date and city, and we'll recommend a traditional-style package for your entry.",
+    faqs: [
+      {
+        q: "What makes an entry feel 'traditional'?",
+        a: "Chhatri lighting, a baggi or vintage car, live dhol drumming, and safa turban styling, without the heavier LED and effects production of higher tiers.",
+      },
+      {
+        q: "Which package is best for a traditional entry?",
+        a: "Raj Tilak and Rajwada emphasize these classic elements without the heavier modern production.",
+      },
+      {
+        q: "Can I choose a baggi instead of a vintage car for a traditional look?",
+        a: "Yes, message us your preference and we'll confirm availability for a baggi-based entry.",
+      },
+      {
+        q: "How much does a traditional baraat entry cost?",
+        a: "It depends on the package. Message your date and city on WhatsApp for a real quote on Raj Tilak or Rajwada.",
+      },
+      {
+        q: "How early should I book a traditional-style package?",
+        a: "2-3 weeks' notice is usually enough, though earlier is always safer during wedding season (November to February).",
+      },
+      {
+        q: "Does a traditional entry still include a DJ truck?",
+        a: "Yes, all our packages include the truck and DJ, giving even a traditional-leaning entry a strong sound foundation.",
+      },
+      {
+        q: "Is chhatri lighting part of the traditional look?",
+        a: "Yes, it's the classic umbrella-style lighting included in every package, giving a warm, festive glow.",
+      },
+      {
+        q: "How do I plan a traditional entry for my wedding?",
+        a: "Message us on WhatsApp with your date, city, and vision, and we'll recommend Raj Tilak or Rajwada.",
+      },
+    ],
+  },
 };

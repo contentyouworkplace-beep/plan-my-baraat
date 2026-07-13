@@ -5123,4 +5123,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "ahmedabad-prahlad-nagar": {
+    slug: "ahmedabad-prahlad-nagar",
+    intro:
+      "Prahlad Nagar is one of Ahmedabad's newer high-rise and commercial hubs, close to SG Highway, with wide roads and a growing number of banquet halls catering to the area's upscale crowd. A grand baraat entry here has plenty of room to be as elaborate as the family wants.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Prahlad Nagar's roads are wide and well-planned, making truck access straightforward for most venues. It connects easily to SG Highway and Satellite, so guests from that broader western Ahmedabad pocket have an easy route in.\n\nWe've handled a good number of entries in Prahlad Nagar's newer venue clusters.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — this reads especially well on Prahlad Nagar's wide roads. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for a fast-growing area like Prahlad Nagar that means staying current on new venues as they open, and planning routes that make full use of the wider roads here.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable with the bigger, more open entries this part of the city allows for.",
+    pricingGuidance:
+      "On how much does baraat cost for a Prahlad Nagar entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Prahlad Nagar's popularity as a newer venue hub means booking 3-4 weeks ahead during peak season is a safe bet.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how much room this area allows for a bigger entry.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Prahlad Nagar, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Prahlad Nagar, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Are Prahlad Nagar's roads good for a bigger baraat entry?",
+        a: "Yes, since this is a newer part of Ahmedabad, the roads are wide and well-planned, giving good room for a bigger, more elaborate procession.",
+      },
+      {
+        q: "How early should I book for a Prahlad Nagar wedding?",
+        a: "3-4 weeks ahead during wedding season (November to February) is a safe window, given how popular this area has become.",
+      },
+      {
+        q: "Do you cover venues near SG Highway and Satellite too?",
+        a: "Yes, we cover the broader western Ahmedabad pocket including SG Highway and Satellite. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-vastrapur": {
+    slug: "ahmedabad-vastrapur",
+    intro:
+      "Vastrapur is known for its lake, one of Ahmedabad's most recognizable landmarks, and the neighborhood around it is a well-established, upscale part of the city with a strong mix of banquet halls and society venues. A baraat entry here has a scenic, established feel to it.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Vastrapur's main roads are wide and well-maintained, making truck access straightforward for most venues. Some venues sit close enough to Vastrapur Lake to make for a scenic entry, and it connects easily to Satellite and Bodakdev.\n\nWe've handled a good number of entries in Vastrapur and know the timing and positioning that works best for the area's popular halls.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival, well suited to the scale of weddings common here.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car — a great photo opportunity near the lake — and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and Vastrapur is one of the neighborhoods we work most regularly — we know how each major venue handles truck access and parking, and plan around it in advance.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with the bigger, more competitive entries common in this part of Ahmedabad.",
+    pricingGuidance:
+      "On how much does baraat cost for a Vastrapur entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February, and Vastrapur's popular halls get booked out early during that window. We'd recommend locking in your baraat entry at least 4 weeks ahead if your date falls in peak season.\n\nA rough headcount for the baraati group helps us plan the setup, especially given how many bigger entries happen in this part of the city.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Vastrapur, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Vastrapur, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Do you cover venues near Vastrapur Lake?",
+        a: "Yes, some venues are close enough to the lake for a scenic entry. Tell us your exact venue and we'll confirm the route.",
+      },
+      {
+        q: "How early should I book for a Vastrapur wedding?",
+        a: "At least 4 weeks ahead during wedding season (November to February), since this is one of the more in-demand areas in Ahmedabad.",
+      },
+      {
+        q: "Is Vastrapur good for a bigger baraat entry?",
+        a: "Yes, the roads are wide and well-maintained, and the area has popular banquet halls, giving plenty of room for a bigger production.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car — a good option for photos near the lake.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "ahmedabad-navrangpura": {
+    slug: "ahmedabad-navrangpura",
+    intro:
+      "Navrangpura is one of Ahmedabad's older, more established central neighborhoods, dense with commercial activity and long-running community halls. A baraat entry here has a genuinely local character, closer in feel to some of Vadodara's Alkapuri than to the newer SG Highway sprawl.\n\nPlanMyBaraat runs baraat on wheels packages adapted for this kind of busier, more established setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Navrangpura's roads are busier and a bit narrower than SG Highway or Satellite, given how central and established this neighborhood is. Parking near venues can be tighter, so we scope the exact route and stopping point in advance.\n\nIt's centrally located, connecting easily to CG Road and Ellisbridge, making it convenient for guests coming from across the city even with busier immediate streets.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights, a solid fit for Navrangpura's busier, more central streets. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects, useful given how much foot traffic this area gets in the evening.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Navrangpura that means knowing which streets can take a full-size truck and where we need to plan a shorter final stretch on foot with the dhol team leading.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and several have handled entries in this exact part of Ahmedabad before.",
+    pricingGuidance:
+      "On how much does baraat cost for a Navrangpura entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point and often works well here given the tighter street layout. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. We'd recommend locking in your baraat entry at least 3 weeks ahead if your date falls in peak season, since this central neighborhood books up alongside the rest of Ahmedabad's busy season.\n\nGiven the tighter parking, let us know your venue's exact access point so we can plan the truck's position in advance. A rough headcount for the baraati group also helps.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Navrangpura, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Navrangpura, Ahmedabad?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Can a double decker truck reach venues in Navrangpura?",
+        a: "In most cases yes, though some streets are narrower than Ahmedabad's newer suburbs. We check your exact venue in advance and plan the truck's stopping point accordingly.",
+      },
+      {
+        q: "How early should I book for a Navrangpura wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, since this central neighborhood is one of Ahmedabad's busiest.",
+      },
+      {
+        q: "Is parking a problem for the DJ truck near Navrangpura venues?",
+        a: "It can be tighter than newer parts of the city. Let us know your venue's exact access point and we'll plan the truck's position accordingly.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team, sized well for Navrangpura's narrower streets. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

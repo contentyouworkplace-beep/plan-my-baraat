@@ -3971,4 +3971,148 @@ export const BARAAT_CITY_CONTENT: Record<string, CityContent> = {
       },
     ],
   },
+
+  "surat-pandesara": {
+    slug: "surat-pandesara",
+    intro:
+      "Pandesara is part of Surat's southern industrial belt, tied closely to the GIDC zone, but the residential neighborhoods around it host a steady number of weddings. A baraat entry here usually has wide, functional roads to work with, built originally for industrial traffic.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of setting: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Pandesara's roads are generally wide given the industrial development, making truck access straightforward. Most wedding venues here are on the residential side rather than inside the GIDC zone itself.\n\nWe've handled entries in Pandesara and the surrounding southern Surat neighborhoods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Pandesara that means knowing which stretches are residential versus industrial, and planning weekend entries around any weekday GIDC traffic.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, keeping timing tight for entries in this part of south Surat.",
+    pricingGuidance:
+      "On how much does baraat cost for a Pandesara entry: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet for this part of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and it's worth confirming whether your venue is closer to the residential or industrial side of Pandesara.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue in Pandesara, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost in Pandesara, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Pandesara good for a full-size truck entry?",
+        a: "Yes, roads here are generally wide given the industrial development, making truck access straightforward for most residential venues.",
+      },
+      {
+        q: "How early should I book for a Pandesara wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Do you plan around GIDC traffic near Pandesara?",
+        a: "Yes, weekend entries are usually smoother, and we plan timing to avoid any weekday traffic tied to the industrial zone.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-adajan-patiya": {
+    slug: "surat-adajan-patiya",
+    intro:
+      "Adajan Patiya is a busy junction within the broader Adajan neighborhood, a natural landmark for directions and a hub in its own right, with venues clustered around the crossing. A baraat entry here gets noticed simply because of how much traffic passes through this junction.\n\nPlanMyBaraat runs baraat on wheels packages built to make the most of that visibility: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "The roads around Adajan Patiya are generally well-maintained, though the junction itself sees regular traffic, so we plan the truck's timing carefully around that. It's centrally positioned within Adajan, making it convenient for guests coming from most parts of western Surat.\n\nWe've run entries through this area and know the timing that works best to avoid the junction's busiest periods.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up — visible to a good amount of passing traffic given the central junction location. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for an area as central as Adajan Patiya that means knowing when the regular traffic peaks are, so we time your baraat's arrival to avoid getting stuck at the junction.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are experienced with entries through busy, central parts of Surat like this one.",
+    pricingGuidance:
+      "On how much does baraat cost near Adajan Patiya: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. Given how central this location is, we'd suggest booking your baraat entry at least 3 weeks ahead during peak season.\n\nSince the junction gets regular traffic, let us know your venue's exact access point so we can plan the truck's approach to avoid delays. A rough headcount for the baraati group also helps with setup.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue near Adajan Patiya, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost near Adajan Patiya?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is traffic a problem for a baraat entry near Adajan Patiya?",
+        a: "It can get busy with regular traffic, so we plan the truck's timing carefully to avoid the junction's peak periods.",
+      },
+      {
+        q: "How early should I book for a wedding near Adajan Patiya?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window, given how central and popular this location is.",
+      },
+      {
+        q: "Is Adajan Patiya convenient for guests from across Surat?",
+        a: "Yes, its central position within Adajan makes it easy to reach for guests coming from most parts of western Surat.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
+
+  "surat-ring-road": {
+    slug: "surat-ring-road",
+    intro:
+      "Ring Road circles a good portion of Surat, and venues along it draw from multiple neighborhoods given how connected this corridor is to the rest of the city. A baraat entry along Ring Road benefits from wide lanes and easy access from almost any direction.\n\nPlanMyBaraat runs baraat on wheels packages built for this kind of connector road: a double decker dj truck for baraat, a dhol team, a vintage car or baggi, and a safa team, all handled as one booking.",
+    localArea:
+      "Ring Road is wide for most of its length, making it one of the easier corridors in Surat for a full truck setup. Because it connects so many neighborhoods, traffic volume varies by stretch and time of day, so we plan the exact timing based on your venue's specific location along the road.\n\nWe've handled entries at multiple points along Ring Road and know the timing that works best for each stretch.",
+    whatsIncluded:
+      "Every package includes the DJ truck, sound system, and DJ artist. Raj Tilak comes with 2 dhol and chhatri lights. Rajwada adds 2 more dhol and a teddy or gorilla performer. Maharaja brings moving LED panels and the groom's name lit up. Signature, the top package, adds a security team plus pyro and confetti effects timed to the truck's arrival.\n\nThe vintage car and safa team come with every package from Raj Tilak upward, so even the entry-level package includes a proper car and full turban styling for the baraati group.",
+    whyUs:
+      "We're a Gujarat-based baraat planner, and for Ring Road that means knowing which stretches connect to which neighborhoods, and planning the most efficient route based on exactly where your venue sits along this long corridor.\n\nOur drivers, DJs, dhol players, and safa artists work with us regularly, and are comfortable navigating this connector road's varying traffic patterns.",
+    pricingGuidance:
+      "On how much does baraat cost along Ring Road: it depends on the package, dhol count, and any extra effects like pyro or confetti. Raj Tilak is the most affordable starting point. Signature costs more because it includes more — bigger truck branding, more dhol, LED visuals, and a security team.\n\nWe quote based on your actual date and guest count. Message us on WhatsApp and we'll respond with a real quote, usually within the hour.",
+    planningNotes:
+      "Wedding season runs November to February. 3 weeks' notice during peak season is a safe bet, since venues along Ring Road serve a large catchment of the city.\n\nA rough headcount for the baraati group helps us plan the setup, and letting us know exactly which stretch of Ring Road your venue is on helps us plan the route and timing.",
+    closing:
+      "Message us on WhatsApp with your wedding date, your venue on Ring Road, and roughly how many guests are in the baraat. We'll recommend a package and confirm the truck's available, usually within the hour.",
+    faqs: [
+      {
+        q: "How much does a baraat setup cost on Ring Road, Surat?",
+        a: "It depends on the package, dhol count, and any extra effects. Raj Tilak is our most affordable package and Signature is the most complete. Message your date and venue on WhatsApp for a real quote.",
+      },
+      {
+        q: "Is Ring Road good for a full truck entry?",
+        a: "Yes, it's wide for most of its length, making it one of the easier corridors in Surat for a double decker truck.",
+      },
+      {
+        q: "How early should I book for a Ring Road wedding?",
+        a: "3 weeks ahead during wedding season (November to February) is a safe window.",
+      },
+      {
+        q: "Does traffic vary a lot along Ring Road?",
+        a: "Yes, since it connects many neighborhoods, traffic volume changes by stretch and time of day. We plan timing based on your venue's exact location.",
+      },
+      {
+        q: "Is the vintage car included in every package?",
+        a: "Yes, starting from Raj Tilak. You don't need to arrange a car separately. The Signature package upgrades this to a premium American vintage car.",
+      },
+      {
+        q: "What's the difference between Raj Tilak and Signature?",
+        a: "Raj Tilak covers the essentials — truck, DJ, 2 dhol, chhatri lights, car, and safa team. Signature adds 6 dhol, moving LED screens, the groom's name in lights, pyro and confetti effects, and a security team.",
+      },
+      {
+        q: "Does the safa team cover the whole baraati group?",
+        a: "Yes, the My Safa team ties turbans for the groom and everyone walking in the baraat, not just the groom, and arrives early enough for everyone to be ready on time.",
+      },
+    ],
+  },
 };

@@ -108,6 +108,7 @@ export interface BaraatEnquiry {
   id: string;
   customer_name: string;
   event_date: string | null;
+  location: string | null;
   mobile: string;
   package_name: string;
   status: CrmStatus;

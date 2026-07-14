@@ -125,6 +125,10 @@ export default function BaraatLeadDetailPage() {
                   </div>
                 </div>
                 <div className="rounded-xl bg-gray-50 p-4 sm:col-span-2">
+                  <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">Event Location</p>
+                  <p className="mt-2 text-gray-800">{lead.location || 'Not shared'}</p>
+                </div>
+                <div className="rounded-xl bg-gray-50 p-4 sm:col-span-2">
                   <p className="text-xs font-semibold uppercase tracking-wide text-gray-400">Package Interested</p>
                   <p className="mt-2 text-gray-800">{lead.package_name}</p>
                 </div>

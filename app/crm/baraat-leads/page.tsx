@@ -142,6 +142,7 @@ export default function BaraatLeadsPage() {
                             <div>
                               <p className="font-semibold text-gray-900">{e.customer_name}</p>
                               <p className="text-xs text-gray-400">{e.mobile}</p>
+                              {e.location ? <p className="text-xs text-gray-500">{e.location}</p> : null}
                             </div>
                           </div>
                         </td>
@@ -194,6 +195,7 @@ export default function BaraatLeadsPage() {
                         <div className="min-w-0">
                           <p className="font-semibold text-gray-900 truncate">{e.customer_name}</p>
                           <p className="text-xs text-gray-400">{e.mobile}</p>
+                          {e.location ? <p className="text-xs text-gray-500 truncate">{e.location}</p> : null}
                         </div>
                       </div>
                       <StatusBadge status={e.status} size="sm" />

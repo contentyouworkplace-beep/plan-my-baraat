@@ -37,9 +37,22 @@
       </div>
 
       <div class="space-y-1.5">
-        <label class="text-[10px] uppercase text-black/50 font-bold tracking-widest">Event Location *</label>
-        <input id="enquiry-location" type="text" placeholder="e.g. Vadodara, Alkapuri" required
+        <label class="text-[10px] uppercase text-black/50 font-bold tracking-widest">Venue Name *</label>
+        <input id="enquiry-venue-name" type="text" placeholder="e.g. LVP Banquets, Vadodara" required
           class="w-full bg-black/5 border border-black/15 px-3.5 py-2.5 text-sm focus:outline-none focus:border-[#E70D1D] text-black placeholder:text-black/30" />
+      </div>
+
+      <div class="space-y-1.5">
+        <label class="text-[10px] uppercase text-black/50 font-bold tracking-widest">Budget *</label>
+        <select id="enquiry-budget" required
+          class="w-full bg-black/5 border border-black/15 px-3.5 py-2.5 text-sm focus:outline-none focus:border-[#E70D1D] text-black">
+          <option value="">Select your budget</option>
+          <option value="1 lakh to 1.5 lakh">1 lakh to 1.5 lakh</option>
+          <option value="1.5 lakh to 2.5 lakh">1.5 lakh to 2.5 lakh</option>
+          <option value="2.5 lakh to 3.5 lakh">2.5 lakh to 3.5 lakh</option>
+          <option value="3.5 lakh to 4.5 lakh">3.5 lakh to 4.5 lakh</option>
+          <option value="Above 4.5 lakh">Above 4.5 lakh</option>
+        </select>
       </div>
 
       <div class="space-y-1.5">
@@ -73,7 +86,8 @@
   const successPkgEl = document.getElementById("enquiry-success-pkg")!;
   const nameInput = document.getElementById("enquiry-name") as HTMLInputElement;
   const dateInput = document.getElementById("enquiry-date") as HTMLInputElement;
-  const locationInput = document.getElementById("enquiry-location") as HTMLInputElement;
+  const venueNameInput = document.getElementById("enquiry-venue-name") as HTMLInputElement;
+  const budgetInput = document.getElementById("enquiry-budget") as HTMLSelectElement;
   const phoneInput = document.getElementById("enquiry-phone") as HTMLInputElement;
   const submitBtn = document.getElementById("enquiry-submit") as HTMLButtonElement;
   const submitLabel = document.getElementById("enquiry-submit-label")!;
@@ -115,10 +129,11 @@
     e.preventDefault();
     const name = nameInput.value.trim();
     const eventDate = dateInput.value;
-    const location = locationInput.value.trim();
+    const venueName = venueNameInput.value.trim();
+    const budget = budgetInput.value;
     const phone = phoneInput.value.trim();
 
-    if (!name || !eventDate || !location || !/^[6-9]\d{9}$/.test(phone)) {
+    if (!name || !eventDate || !venueName || !budget || !/^[6-9]\d{9}$/.test(phone)) {
       return;
     }
 
@@ -130,24 +145,25 @@
         const enquiryPayload = {
           customer_name: name,
           event_date: eventDate,
-          location,
+          venue_name: venueName,
+          budget,
           mobile: phone,
           package_name: currentPackage,
           status: "New",
-          remarks: `Event Location: ${location}`,
+          remarks: `Venue Name: ${venueName}\nBudget: ${budget}`,
         };
 
         const { error } = await supabase.from("crm_baraat_enquiries").insert([enquiryPayload]);
 
-        // Keep the form working even before the DB column is migrated.
-        if (error && error.message?.toLowerCase().includes("location")) {
+        // Keep the form working even before the DB columns are migrated.
+        if (error && (error.message?.toLowerCase().includes("venue_name") || error.message?.toLowerCase().includes("budget"))) {
           const fallbackPayload = {
             customer_name: name,
             event_date: eventDate,
             mobile: phone,
             package_name: currentPackage,
             status: "New",
-            remarks: `Event Location: ${location}`,
+            remarks: `Venue Name: ${venueName}\nBudget: ${budget}`,
           };
 
           const fallbackResult = await supabase.from("crm_baraat_enquiries").insert([fallbackPayload]);
@@ -160,7 +176,7 @@
       }
     }
 
-    const link = buildPackageWhatsAppLink(name, phone, eventDate, currentPackage, location);
+    const link = buildPackageWhatsAppLink(name, phone, eventDate, currentPackage, venueName, budget);
     window.open(link, "_blank");
 
     submitBtn.disabled = false;

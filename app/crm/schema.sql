@@ -97,6 +97,8 @@ CREATE TABLE IF NOT EXISTS crm_baraat_enquiries (
     customer_name VARCHAR(255) NOT NULL,
     event_date DATE,
     location VARCHAR(255),
+    venue_name VARCHAR(255),
+    budget VARCHAR(255),
     mobile VARCHAR(50) NOT NULL,
     package_name VARCHAR(255) NOT NULL,
     status VARCHAR(50) DEFAULT 'New' CHECK (status IN ('New', 'Contacted', 'Interested', 'Converted', 'Lost')),
@@ -106,6 +108,8 @@ CREATE TABLE IF NOT EXISTS crm_baraat_enquiries (
 );
 
 ALTER TABLE crm_baraat_enquiries ADD COLUMN IF NOT EXISTS location VARCHAR(255);
+ALTER TABLE crm_baraat_enquiries ADD COLUMN IF NOT EXISTS venue_name VARCHAR(255);
+ALTER TABLE crm_baraat_enquiries ADD COLUMN IF NOT EXISTS budget VARCHAR(255);
 
 -- ─── ROW LEVEL SECURITY (RLS) POLICIES ──────────────────────────────────────
 

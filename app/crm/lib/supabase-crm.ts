@@ -718,7 +718,7 @@ export async function getBaraatEnquiries(filters?: BaraatEnquiryFilters): Promis
 
       if (filters?.search) {
         query = query.or(
-          `customer_name.ilike.%${filters.search}%,mobile.ilike.%${filters.search}%,location.ilike.%${filters.search}%`
+          `customer_name.ilike.%${filters.search}%,mobile.ilike.%${filters.search}%,location.ilike.%${filters.search}%,venue_name.ilike.%${filters.search}%,budget.ilike.%${filters.search}%`
         );
       }
       if (filters?.status) query = query.eq('status', filters.status);
@@ -735,7 +735,9 @@ export async function getBaraatEnquiries(filters?: BaraatEnquiryFilters): Promis
         list = list.filter(e =>
           e.customer_name.toLowerCase().includes(search) ||
           e.mobile.toLowerCase().includes(search) ||
-          (e.location || '').toLowerCase().includes(search)
+          (e.location || '').toLowerCase().includes(search) ||
+          (e.venue_name || '').toLowerCase().includes(search) ||
+          (e.budget || '').toLowerCase().includes(search)
         );
       }
       if (filters?.status) list = list.filter(e => e.status === filters.status);
@@ -767,6 +769,8 @@ export async function createBaraatEnquiry(payload: {
   customer_name: string;
   event_date: string;
   location: string;
+  venue_name: string;
+  budget: string;
   mobile: string;
   package_name: string;
 }): Promise<BaraatEnquiry> {
@@ -787,10 +791,12 @@ export async function createBaraatEnquiry(payload: {
         customer_name: payload.customer_name,
         event_date: payload.event_date,
         location: payload.location,
+        venue_name: payload.venue_name,
+        budget: payload.budget,
         mobile: payload.mobile,
         package_name: payload.package_name,
         status: 'New',
-        remarks: `Event Location: ${payload.location}`,
+        remarks: `Venue Name: ${payload.venue_name}\nBudget: ${payload.budget}`,
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString()
       };

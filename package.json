@@ -2,6 +2,9 @@
   "name": "planmybaraat",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
     "dev": "npm run build:marketing && next dev",
     "build:marketing": "npm --prefix astro-site ci && npm --prefix astro-site run build && node scripts/sync-astro-build.mjs",

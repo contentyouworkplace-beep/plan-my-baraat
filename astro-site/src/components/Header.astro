@@ -6,28 +6,31 @@ const navItems = [
   { href: "/gallery", label: "Gallery" },
   { href: "/testimonials", label: "Testimonials" },
   { href: "/contact", label: "Contact Us" },
+  { href: "/baraat-management", label: "Baraat Management" },
 ];
 
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#E70D1D]/15 shadow-sm">
-  <div class="h-[3px] bg-[#E70D1D]"></div>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<header class="sticky top-0 z-40 border-b border-[rgba(184,134,11,0.18)] bg-[rgba(252,251,249,0.88)] backdrop-blur-xl shadow-[0_12px_30px_-24px_rgba(0,0,0,0.35)]">
+  <div class="h-[3px] bg-gradient-to-r from-[#8c6200] via-[#be123c] to-[#8c6200]"></div>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-6">
     <a href="/" class="flex flex-col items-start gap-0.5 cursor-pointer select-none">
       <img src="/logo.png" alt="PlanMyBaraat" width="170" height="46" class="h-10 w-auto object-contain" />
-      <span class="text-[9px] uppercase tracking-widest font-bold text-black leading-tight">Managed by Ronak</span>
-      <span class="text-[7px] uppercase tracking-widest font-medium text-black/40 leading-tight">CEO &amp; Director, Safawala.com</span>
+      <span class="text-[9px] uppercase tracking-[0.28em] font-bold text-black/80 leading-tight">Managed by Ronak</span>
+      <span class="text-[7px] uppercase tracking-[0.24em] font-medium text-black/45 leading-tight">CEO &amp; Director, Safawala.com</span>
     </a>
 
-    <nav class="hidden lg:flex items-center gap-1">
+    <nav class="hidden lg:flex items-center gap-1.5">
       {navItems.map((item) => {
         const active = item.href === "/" ? currentPath === "/" : currentPath.startsWith(item.href);
         return (
           <a
             href={item.href}
-            class={`px-4 py-2 text-xs font-bold uppercase tracking-[0.15em] transition-all duration-200 border ${
-              active ? "text-[#E70D1D] border-[#E70D1D]/40" : "text-black/50 hover:text-black border-transparent"
+            class={`relative px-4 py-2 text-[11px] font-bold uppercase tracking-[0.18em] transition-all duration-200 border rounded-full ${
+              active
+                ? "text-[#9f1239] border-[rgba(184,134,11,0.28)] bg-white/70 shadow-[0_10px_24px_-18px_rgba(159,18,57,0.55)]"
+                : "text-black/55 hover:text-black border-transparent hover:border-[rgba(184,134,11,0.18)]"
             }`}
           >
             {item.label}
@@ -38,7 +41,7 @@ const currentPath = Astro.url.pathname;
 
     <button
       id="mobile-menu-toggle"
-      class="lg:hidden p-3 border border-black/10 text-black/70 hover:text-[#E70D1D] hover:border-[#E70D1D]/30 transition-all"
+      class="lg:hidden p-3 border border-[rgba(184,134,11,0.18)] bg-white/60 text-black/70 hover:text-[#9f1239] hover:border-[rgba(159,18,57,0.28)] transition-all rounded-full"
       aria-label="Toggle menu"
     >
       <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
@@ -46,10 +49,10 @@ const currentPath = Astro.url.pathname;
     </button>
   </div>
 
-  <nav id="mobile-nav" class="hidden lg:hidden border-t border-[#E70D1D]/15 bg-white">
+  <nav id="mobile-nav" class="hidden lg:hidden border-t border-[rgba(184,134,11,0.16)] bg-[rgba(252,251,249,0.96)] backdrop-blur-xl">
     <div class="flex flex-col">
       {navItems.map((item) => (
-        <a href={item.href} class="px-6 py-4 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-[#E70D1D] border-b border-black/5 transition-colors">
+        <a href={item.href} class="px-6 py-4 text-xs font-bold uppercase tracking-[0.18em] text-black/65 hover:text-[#9f1239] border-b border-black/5 transition-colors">
           {item.label}
         </a>
       ))}

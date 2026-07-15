@@ -15,134 +15,162 @@ const STATS = [
 ];
 
 const STEPS = [
-  { title: "Pick a Package", text: "Browse Raj Tilak, Rajwada, Maharaja or Signature and shortlist what fits your celebration." },
-  { title: "Share Your Details", text: "Send your name, event, and number — our team calls you back within hours." },
-  { title: "Customize & Confirm", text: "We tailor the truck branding, dhol count, lights and effects to your baraat, then lock the date." },
+  {
+    title: "Pick Your Package",
+    text: "Choose the baraat style that fits your family, budget, guest count and venue flow.",
+  },
+  {
+    title: "Share Venue & Budget",
+    text: "Send your venue name, city, date and budget range on WhatsApp for a sharper quote.",
+  },
+  {
+    title: "Lock the Experience",
+    text: "We align dhol, DJ truck, entry timing, safa team and special effects into one managed plan.",
+  },
 ];
 
 const meta = getHomeMeta();
 ---
 
 <Layout title={meta.title} description={meta.description}>
-  {/* Hero */}
-  <section class="relative overflow-hidden bg-white">
-    <div class="absolute inset-0 opacity-40">
-      <img src={SITE_IMAGES.traditionalCouple} alt="" class="w-full h-full object-cover grayscale" />
-    </div>
-    <div class="absolute inset-0 bg-white/80"></div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
-      <div class="space-y-7 text-center lg:text-left">
-        <div class="inline-flex items-center gap-2.5 border border-[#E70D1D]/30 px-5 py-1.5 text-[10px] md:text-[11px] font-bold text-[#E70D1D] tracking-widest uppercase">
-          Gujarat's Trusted Baraat Specialists
-        </div>
+  <section class="section-shell relative overflow-hidden">
+    <div class="hero-orb hero-orb--gold h-56 w-56 -left-20 top-20"></div>
+    <div class="hero-orb hero-orb--rose h-72 w-72 right-0 top-12"></div>
+    <div class="absolute inset-0 royal-grid opacity-[0.16]"></div>
 
-        <h1 class="text-4xl sm:text-5xl md:text-6xl font-serif font-black tracking-wide leading-tight text-black">
-          Your Baraat.<br />
-          <span class="text-[#E70D1D]">Royally Reimagined.</span>
-        </h1>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-18 md:pt-20 md:pb-24 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-[1.05fr_0.95fr] gap-12 items-center">
+        <div class="space-y-8">
+          <div class="inline-flex items-center gap-3 rounded-full border border-[rgba(184,134,11,0.22)] bg-white/75 px-4 py-2 text-[11px] uppercase tracking-[0.22em] font-bold text-[#8c6200] shadow-[0_18px_38px_-28px_rgba(184,134,11,0.65)]">
+            <span>Vadodara Based</span>
+            <span class="h-1.5 w-1.5 rounded-full bg-[#9f1239]"></span>
+            <span>Serving Gujarat Weddings</span>
+          </div>
 
-        <p class="text-black/60 text-sm md:text-base leading-relaxed max-w-lg mx-auto lg:mx-0">
-          Double-decker DJ trucks, dhol, pyro, vintage cars and safa teams — assembled into four ready-made
-          packages so your entry is unforgettable and your planning is effortless.
-        </p>
+          <div class="space-y-4">
+            <p class="text-[11px] uppercase tracking-[0.3em] font-bold text-[#9f1239]">Premium Baraat Planning</p>
+            <h1 class="font-serif text-4xl sm:text-5xl xl:text-6xl leading-[1.05] text-[#1c1917] max-w-3xl">
+              Your baraat deserves a grand arrival.
+              <span class="block gold-text-shimmer mt-2">We plan it with precision and style.</span>
+            </h1>
+            <p class="text-base md:text-lg text-black/65 leading-8 max-w-2xl">
+              PlanMyBaraat creates premium baraat packages in Vadodara, Ahmedabad, Surat and across Gujarat with
+              DJ truck entries, vintage cars, live dhol, safa teams, pyro effects and one-point coordination.
+            </p>
+          </div>
 
-        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
-          <a href="#packages" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
-            Explore Packages
-          </a>
-        </div>
-      </div>
+          <div class="flex flex-wrap items-center gap-4">
+            <a href="#packages" class="inline-flex items-center justify-center h-13 px-8 rounded-full bg-[#9f1239] hover:bg-[#7e1535] text-white text-xs md:text-sm font-bold uppercase tracking-[0.18em] shadow-[0_20px_40px_-22px_rgba(159,18,57,0.9)]">
+              Explore Packages
+            </a>
+            <a href="/baraat-management" class="inline-flex items-center justify-center h-13 px-8 rounded-full border border-[rgba(184,134,11,0.28)] bg-white/75 text-[#1c1917] hover:text-[#9f1239] hover:border-[rgba(159,18,57,0.3)] text-xs md:text-sm font-bold uppercase tracking-[0.18em]">
+              View Keyword Pages
+            </a>
+          </div>
 
-      <div class="relative h-[360px] sm:h-[420px] lg:h-[480px]">
-        <div class="absolute top-0 right-0 w-[72%] h-[78%] overflow-hidden border border-[#E70D1D]/25">
-          <img src={SITE_IMAGES.heroMain} alt="Royal Indian wedding celebration" class="w-full h-full object-cover grayscale-[15%]" />
-        </div>
-        <div class="absolute bottom-0 left-0 w-[58%] h-[55%] overflow-hidden border border-[#E70D1D]/25">
-          <img src={SITE_IMAGES.heroFloral} alt="Gold floral wedding decor" class="w-full h-full object-cover grayscale-[15%]" />
-        </div>
-        <div class="absolute bottom-6 right-4 bg-white border border-[#E70D1D]/30 px-5 py-3.5 flex items-center gap-3 shadow-md">
-          <div>
-            <p class="font-serif font-black text-sm text-black leading-none">500+ Baraats</p>
-            <p class="text-[9px] uppercase tracking-widest text-black/40 mt-1">Delivered Since 2021</p>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-2">
+            {STATS.map((s) => (
+              <div class="glass-panel rounded-[24px] p-5 text-center">
+                <div class="font-serif text-2xl md:text-3xl text-[#1c1917]">{s.value}</div>
+                <div class="mt-2 text-[10px] uppercase tracking-[0.22em] font-bold text-black/45">{s.label}</div>
+              </div>
+            ))}
           </div>
         </div>
-        <p class="absolute bottom-0 right-4 translate-y-[calc(100%+10px)] text-[9px] uppercase tracking-widest text-black/40 font-bold text-right">
-          Proudly Serving the Wedding Industry Since Our 3rd Generation
+
+        <div class="relative min-h-[520px]">
+          <div class="glass-panel rounded-[32px] p-4 md:p-5 absolute top-0 right-0 w-[78%] md:w-[72%]">
+            <div class="overflow-hidden rounded-[26px] aspect-[4/5]">
+              <img src={SITE_IMAGES.heroMain} alt="Premium baraat setup in Gujarat" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <div class="glass-panel rounded-[28px] p-3 absolute left-0 bottom-16 w-[54%]">
+            <div class="overflow-hidden rounded-[22px] aspect-[4/3]">
+              <img src={SITE_IMAGES.heroFloral} alt="Royal baraat floral styling" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <div class="absolute left-[8%] top-[16%] glass-panel rounded-[24px] px-5 py-4 max-w-[220px]">
+            <div class="text-[10px] uppercase tracking-[0.22em] font-bold text-[#9f1239]">Managed Entry Flow</div>
+            <p class="mt-2 text-sm leading-6 text-black/65">
+              DJ truck, dhol, car, groom timing and venue movement planned as one smooth sequence.
+            </p>
+          </div>
+
+          <div class="absolute right-2 bottom-0 glass-panel rounded-[24px] px-5 py-4 max-w-[240px]">
+            <div class="text-[10px] uppercase tracking-[0.22em] font-bold text-[#8c6200]">Venue First Planning</div>
+            <p class="mt-2 text-sm leading-6 text-black/65">
+              Built for city weddings, venue movement, guest flow and memorable groom entries across Gujarat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="glass-panel rounded-[32px] p-8 md:p-10 grid grid-cols-1 lg:grid-cols-[0.9fr_1.1fr] gap-10 items-center">
+      <div class="overflow-hidden rounded-[28px] aspect-[4/5] md:aspect-[4/4.6]">
+        <img src={SITE_IMAGES.goldCrownMoment} alt="Groom royal entry moment" class="w-full h-full object-cover" />
+      </div>
+
+      <div class="space-y-6">
+        <div>
+          <p class="text-[11px] uppercase tracking-[0.28em] font-bold text-[#9f1239]">Why Families Book Us</p>
+          <h2 class="font-serif text-3xl md:text-4xl text-[#1c1917] leading-tight mt-3">
+            We don’t just send vendors. We manage the full baraat experience.
+          </h2>
+        </div>
+
+        <p class="text-base text-black/65 leading-8">
+          Families across Vadodara and Gujarat come to PlanMyBaraat when they want one responsible team for
+          the full entry experience instead of coordinating multiple suppliers on a high-pressure wedding day.
         </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {ABOUT_POINTS.map((point) => (
+            <div class="rounded-[22px] border border-[rgba(184,134,11,0.16)] bg-white/70 p-5">
+              <div class="flex items-start gap-3">
+                <span class="mt-1 h-2.5 w-2.5 rounded-full bg-[#9f1239]"></span>
+                <p class="text-sm leading-7 text-black/70">{point}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        <a href="/about" class="inline-flex items-center justify-center h-12 px-7 rounded-full border border-[rgba(184,134,11,0.24)] bg-white/75 text-[#1c1917] hover:text-[#9f1239] hover:border-[rgba(159,18,57,0.28)] text-xs font-bold uppercase tracking-[0.18em]">
+          Read Our Story
+        </a>
       </div>
     </div>
   </section>
 
-  {/* Stats */}
-  <section class="border-y border-black/10 bg-[#F7F7F7]">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-2 md:grid-cols-4 gap-6">
-      {STATS.map((s) => (
-        <div class="flex flex-col items-center text-center gap-2">
-          <span class="font-serif font-black text-xl md:text-2xl text-black">{s.value}</span>
-          <span class="text-[9px] uppercase tracking-widest text-black/40 font-bold">{s.label}</span>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
+    <div class="text-center max-w-3xl mx-auto">
+      <p class="text-[11px] uppercase tracking-[0.28em] font-bold text-[#9f1239]">How It Works</p>
+      <h2 class="font-serif text-3xl md:text-4xl text-[#1c1917] mt-3">A simpler booking flow for a bigger baraat impact</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+      {STEPS.map((step, index) => (
+        <div class="glass-panel glass-panel-hover rounded-[28px] p-7 relative overflow-hidden">
+          <span class="absolute right-5 top-3 font-serif text-6xl text-[#b8860b]/12">0{index + 1}</span>
+          <p class="text-[11px] uppercase tracking-[0.24em] font-bold text-[#8c6200]">Step {index + 1}</p>
+          <h3 class="font-serif text-2xl text-[#1c1917] mt-3">{step.title}</h3>
+          <p class="text-sm text-black/65 leading-7 mt-4">{step.text}</p>
         </div>
       ))}
     </div>
   </section>
 
-  {/* About teaser */}
-  <section id="about" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-    <div class="relative h-[300px] sm:h-[380px] lg:h-[440px] order-2 lg:order-1">
-      <div class="absolute inset-0 overflow-hidden border border-[#E70D1D]/25">
-        <img src={SITE_IMAGES.goldCrownMoment} alt="PlanMyBaraat team at a wedding celebration" class="w-full h-full object-cover grayscale-[15%]" />
-      </div>
-    </div>
-
-    <div class="space-y-6 order-1 lg:order-2">
-      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">About Us</span>
-      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">
-        Gujarat's Trusted Name in Baraat Celebrations
-      </h2>
-      <p class="text-black/60 text-sm leading-relaxed">
-        PlanMyBaraat by Ronak brings together everything a groom's entry needs — double-decker DJ trucks,
-        vintage cars, dhol artists, pyro effects, and safa teams — under one roof, so families can focus on
-        celebrating instead of coordinating five different vendors.
-      </p>
-      <ul class="space-y-3">
-        {ABOUT_POINTS.map((point) => (
-          <li class="flex items-start gap-3 text-xs text-black/70">
-            <span class="text-[#E70D1D] mt-0.5">✓</span>
-            <span>{point}</span>
-          </li>
-        ))}
-      </ul>
-      <a href="/about" class="inline-flex items-center gap-2.5 h-11 px-6 border border-black/20 text-black font-extrabold uppercase tracking-widest text-xs hover:border-[#E70D1D]/50 hover:text-[#E70D1D] transition-all duration-300">
-        Read Our Story
-      </a>
-    </div>
-  </section>
-
-  {/* How it works */}
-  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-10">
-    <div class="text-center space-y-1">
-      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Simple Process</span>
-      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">How It Works</h2>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      {STEPS.map((step, i) => (
-        <div class="relative bg-white border border-black/10 p-7 shadow-sm">
-          <span class="absolute -top-4 -left-2 font-serif font-black text-5xl text-black/5">0{i + 1}</span>
-          <h3 class="font-serif font-black text-lg text-black relative z-10">{step.title}</h3>
-          <p class="text-xs text-black/50 leading-relaxed mt-2 relative z-10">{step.text}</p>
-        </div>
-      ))}
-    </div>
-  </section>
-
-  {/* Packages */}
   <section id="packages" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
-    <div class="text-center space-y-1">
-      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Curated Baraat Packages</span>
-      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">Choose Your Royal Experience</h2>
-      <p class="text-black/50 text-xs md:text-sm max-w-2xl mx-auto pt-2">
-        Every package can be customized — enquire on WhatsApp with your name, event, and number to get a
-        personalized quote and availability.
+    <div class="text-center max-w-3xl mx-auto">
+      <p class="text-[11px] uppercase tracking-[0.28em] font-bold text-[#9f1239]">Baraat Packages in Gujarat</p>
+      <h2 class="font-serif text-3xl md:text-4xl text-[#1c1917] mt-3">Choose a package, then customize it for your venue and city</h2>
+      <p class="text-base text-black/60 leading-8 mt-4">
+        Each package is structured for search intent and real bookings: price-aware, city-relevant and ready
+        for WhatsApp enquiries with venue name and budget range.
       </p>
     </div>
 
@@ -153,109 +181,92 @@ const meta = getHomeMeta();
     </div>
   </section>
 
-  {/* Gallery teaser */}
-  <section id="gallery" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
-    <div class="text-center space-y-1">
-      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Moments We Love</span>
-      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">From Real Celebrations</h2>
-    </div>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-[0.95fr_1.05fr] gap-10 items-start">
+      <div class="space-y-5">
+        <p class="text-[11px] uppercase tracking-[0.28em] font-bold text-[#9f1239]">Gallery Preview</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-[#1c1917] leading-tight">
+          Real visual mood from baraats, venue entries and groom celebrations
+        </h2>
+        <p class="text-base text-black/60 leading-8">
+          Browse moments inspired by real celebrations, venue styling and grand baraat entries across Vadodara,
+          Ahmedabad, Surat and destination weddings in Gujarat.
+        </p>
+        <a href="/gallery" class="inline-flex items-center justify-center h-12 px-7 rounded-full bg-[#1c1917] hover:bg-[#9f1239] text-white text-xs font-bold uppercase tracking-[0.18em]">
+          View Full Gallery
+        </a>
+      </div>
 
-    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
-      {GALLERY_IMAGES.slice(0, 5).map((g, i) => (
-        <div class={`relative overflow-hidden group border border-black/10 ${i === 0 ? "col-span-2 row-span-2 aspect-square md:aspect-auto md:h-full" : "aspect-square"}`}>
-          <img src={g.src} alt={g.label} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-          <span class="absolute bottom-3 left-3 text-[10px] uppercase font-bold tracking-widest text-white">{g.label}</span>
-        </div>
-      ))}
-
-      <div class="relative overflow-hidden group border border-black/10 aspect-square bg-[#F7F7F7]">
-        <img src={GALLERY_VIDEOS[0].thumb} alt={GALLERY_VIDEOS[0].label} class="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105" />
-        <div class="absolute inset-0 bg-black/40"></div>
-        <div class="absolute inset-0 flex items-center justify-center">
-          <div class="h-12 w-12 rounded-full bg-[#E70D1D] flex items-center justify-center">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+      <div class="grid grid-cols-2 gap-4">
+        {GALLERY_IMAGES.slice(0, 4).map((g, index) => (
+          <div class={`overflow-hidden rounded-[26px] ${index === 0 ? "col-span-2 aspect-[16/9]" : "aspect-square"} shadow-[0_24px_50px_-28px_rgba(0,0,0,0.45)]`}>
+            <img src={g.src} alt={g.label} class="w-full h-full object-cover transition-transform duration-500 hover:scale-105" />
           </div>
+        ))}
+        <div class="col-span-2 glass-panel rounded-[28px] p-5 flex items-center justify-between gap-4">
+          <div>
+            <p class="text-[11px] uppercase tracking-[0.24em] font-bold text-[#8c6200]">{GALLERY_VIDEOS[0].label}</p>
+            <p class="text-sm text-black/60 mt-2">Short-form venue and baraat highlights built for trust, proof and conversion.</p>
+          </div>
+          <div class="shrink-0 h-14 w-14 rounded-full bg-[#9f1239] text-white flex items-center justify-center text-xl">▶</div>
         </div>
-        <span class="absolute top-3 right-3 text-[9px] font-bold text-white bg-black/60 px-2 py-0.5">{GALLERY_VIDEOS[0].duration}</span>
-        <span class="absolute bottom-3 left-3 text-[10px] uppercase font-bold tracking-widest text-white">{GALLERY_VIDEOS[0].label}</span>
       </div>
     </div>
-
-    <div class="text-center">
-      <a href="/gallery" class="inline-flex items-center gap-2.5 h-12 px-8 border border-black/20 text-black font-extrabold uppercase tracking-widest text-xs hover:border-[#E70D1D]/50 hover:text-[#E70D1D] transition-all duration-300">
-        View Full Gallery
-      </a>
-    </div>
   </section>
 
-  {/* Testimonials teaser */}
-  <section id="testimonials" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
-    <div class="text-center space-y-1">
-      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">What Families Say</span>
-      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">Testimonials</h2>
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="text-center max-w-3xl mx-auto">
+      <p class="text-[11px] uppercase tracking-[0.28em] font-bold text-[#9f1239]">Testimonials</p>
+      <h2 class="font-serif text-3xl md:text-4xl text-[#1c1917] mt-3">Families remember the coordination as much as the entry</h2>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
       {TESTIMONIALS.slice(0, 3).map((t) => (
-        <div class="p-8 bg-white border border-black/10 text-center relative overflow-hidden flex flex-col shadow-sm">
-          <p class="font-serif italic text-xs md:text-sm text-black/80 leading-relaxed flex-1">"{t.quote}"</p>
-          <div class="text-[10px] uppercase tracking-widest font-bold text-[#E70D1D] mt-5">{t.name} • {t.place}</div>
+        <div class="glass-panel glass-panel-hover rounded-[28px] p-7 flex flex-col">
+          <p class="font-serif text-lg leading-8 text-[#1c1917]">“{t.quote}”</p>
+          <p class="mt-6 text-[11px] uppercase tracking-[0.22em] font-bold text-[#9f1239]">{t.name}</p>
+          <p class="mt-1 text-sm text-black/50">{t.place}</p>
         </div>
       ))}
     </div>
-
-    <div class="text-center">
-      <a href="/testimonials" class="inline-flex items-center gap-2.5 h-12 px-8 border border-black/20 text-black font-extrabold uppercase tracking-widest text-xs hover:border-[#E70D1D]/50 hover:text-[#E70D1D] transition-all duration-300">
-        View All Testimonials
-      </a>
-    </div>
   </section>
 
-  {/* Contact teaser */}
-  <section id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-10">
-    <div class="text-center space-y-1">
-      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Get In Touch</span>
-      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">Contact Us</h2>
-      <p class="text-black/50 text-xs md:text-sm max-w-2xl mx-auto pt-2">
-        Have a question before you enquire? Reach us directly — we usually reply within minutes on WhatsApp.
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {CONTACT_DETAILS.map((c) => (
-        <div class="bg-white border border-black/10 p-6 space-y-3 shadow-sm">
-          <span class="text-[9px] uppercase tracking-widest text-black/40 font-bold block">{c.label}</span>
-          {"href" in c ? (
-            <a href={c.href} target="_blank" rel="noopener noreferrer" class="text-xs text-black/80 hover:text-[#E70D1D] transition-colors leading-relaxed block">{c.value}</a>
-          ) : (
-            <p class="text-xs text-black/80 leading-relaxed">{c.value}</p>
-          )}
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-18">
+    <div class="glass-panel rounded-[34px] overflow-hidden grid grid-cols-1 lg:grid-cols-[0.95fr_1.05fr]">
+      <div class="p-8 md:p-10 lg:p-12 space-y-5">
+        <p class="text-[11px] uppercase tracking-[0.28em] font-bold text-[#9f1239]">Contact & Booking</p>
+        <h2 class="font-serif text-3xl md:text-4xl text-[#1c1917] leading-tight">Share your venue name, city and budget. We’ll guide the rest.</h2>
+        <p class="text-base text-black/60 leading-8">
+          Tell us your venue name, city, preferred package and budget range. We will suggest the best entry flow,
+          required elements and package fit for your celebration.
+        </p>
+        <div class="space-y-4">
+          {CONTACT_DETAILS.map((c) => (
+            <div class="rounded-[22px] border border-[rgba(184,134,11,0.16)] bg-white/70 px-5 py-4">
+              <p class="text-[10px] uppercase tracking-[0.22em] font-bold text-[#8c6200]">{c.label}</p>
+              {"href" in c ? (
+                <a href={c.href} target="_blank" rel="noopener noreferrer" class="block mt-2 text-sm text-black/70 hover:text-[#9f1239] break-words">
+                  {c.value}
+                </a>
+              ) : (
+                <p class="mt-2 text-sm text-black/70 leading-7">{c.value}</p>
+              )}
+            </div>
+          ))}
         </div>
-      ))}
-    </div>
+      </div>
 
-    <div class="text-center">
-      <a href="https://wa.me/918830612287" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
-        Chat With Us on WhatsApp
-      </a>
-    </div>
-  </section>
-
-  {/* CTA Banner */}
-  <section class="relative overflow-hidden">
-    <div class="relative h-[280px] md:h-[340px]">
-      <img src={SITE_IMAGES.ctaBanner} alt="Book your baraat celebration" class="w-full h-full object-cover grayscale-[30%]" />
-      <div class="absolute inset-0 bg-white/85"></div>
-      <div class="absolute inset-0 flex items-center">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <div class="text-center md:text-left space-y-2">
-            <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">Ready to Plan Your Baraat?</h2>
-            <p class="text-black/60 text-xs md:text-sm">Tell us your name, event, and number — we'll take it from there.</p>
+      <div class="relative min-h-[360px] lg:min-h-full">
+        <img src={SITE_IMAGES.ctaBanner} alt="Royal wedding venue in Gujarat" class="absolute inset-0 w-full h-full object-cover" />
+        <div class="absolute inset-0 bg-gradient-to-br from-[#1c1917]/30 via-[#9f1239]/30 to-[#b8860b]/20"></div>
+        <div class="absolute inset-0 p-8 md:p-10 lg:p-12 flex items-end">
+          <div class="glass-panel rounded-[28px] p-6 max-w-md">
+            <p class="text-[10px] uppercase tracking-[0.22em] font-bold text-[#9f1239]">Plan With Clarity</p>
+            <p class="mt-3 text-sm leading-7 text-black/70">
+              From package browsing to venue-specific enquiries, every step is designed to make booking your
+              baraat faster, clearer and more premium.
+            </p>
           </div>
-          <a href="#packages" class="inline-flex items-center justify-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300 mx-auto md:mx-0">
-            Enquire Now
-          </a>
         </div>
       </div>
     </div>

@@ -17,58 +17,66 @@ const packageLinks = [
 ---
 
 <footer class="bg-white text-black/50 border-t border-[#E70D1D]/15">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-    <div class="space-y-4">
-      <img src="/logo.png" alt="PlanMyBaraat" width="150" height="40" class="h-9 w-auto object-contain" />
-      <p class="text-xs leading-relaxed">
-        Gujarat's trusted baraat specialists — double-decker DJ trucks, vintage cars, dhol, pyro effects,
-        and safa teams, delivered as ready-made royal packages.
-      </p>
-    </div>
+  <div class="relative overflow-hidden border-t border-[rgba(184,134,11,0.14)] bg-[linear-gradient(180deg,rgba(255,255,255,0.88),rgba(248,244,238,0.96))]">
+    <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-[#b8860b]/50 to-transparent"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1.2fr_0.9fr_0.9fr_1.1fr] gap-10 relative">
+      <div class="space-y-5">
+        <img src="/logo.png" alt="PlanMyBaraat" width="160" height="42" class="h-10 w-auto object-contain" />
+        <p class="text-sm leading-relaxed text-black/65 max-w-md">
+          Premium baraat planning for Vadodara, Ahmedabad, Surat and Gujarat with DJ truck entries, vintage
+          cars, live dhol, safa teams, pyro effects and venue-level coordination.
+        </p>
+        <div class="inline-flex items-center gap-3 rounded-full border border-[rgba(184,134,11,0.22)] bg-white/70 px-4 py-2 text-[11px] uppercase tracking-[0.18em] font-bold text-[#8c6200]">
+          <span>500+ Baraats Delivered</span>
+          <span class="h-1.5 w-1.5 rounded-full bg-[#9f1239]"></span>
+          <span>Vadodara HQ</span>
+        </div>
+      </div>
 
-    <div class="space-y-4">
-      <h3 class="text-[10px] uppercase tracking-widest font-bold text-black">Quick Links</h3>
-      <ul class="space-y-2.5">
-        {quickLinks.map((l) => (
-          <li>
-            <a href={l.href} class="text-xs hover:text-[#E70D1D] transition-colors">{l.label}</a>
+      <div class="space-y-4">
+        <h3 class="text-[10px] uppercase tracking-[0.24em] font-bold text-black">Quick Links</h3>
+        <ul class="space-y-2.5">
+          {quickLinks.map((l) => (
+            <li>
+              <a href={l.href} class="text-sm text-black/60 hover:text-[#9f1239] transition-colors">{l.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="space-y-4">
+        <h3 class="text-[10px] uppercase tracking-[0.24em] font-bold text-black">Packages</h3>
+        <ul class="space-y-2.5">
+          {packageLinks.map((l) => (
+            <li>
+              <a href={l.href} class="text-sm text-black/60 hover:text-[#9f1239] transition-colors">{l.label}</a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="space-y-4">
+        <h3 class="text-[10px] uppercase tracking-[0.24em] font-bold text-black">Contact</h3>
+        <ul class="space-y-3.5">
+          <li class="flex items-start gap-2.5 text-sm text-black/65">
+            <span class="text-[#9f1239]">☎</span>
+            <a href="tel:+918830612287" class="hover:text-[#9f1239] transition-colors">+91 88306 12287</a>
           </li>
-        ))}
-      </ul>
-    </div>
-
-    <div class="space-y-4">
-      <h3 class="text-[10px] uppercase tracking-widest font-bold text-black">Packages</h3>
-      <ul class="space-y-2.5">
-        {packageLinks.map((l) => (
-          <li>
-            <a href={l.href} class="text-xs hover:text-[#E70D1D] transition-colors">{l.label}</a>
+          <li class="flex items-start gap-2.5 text-sm text-black/65">
+            <span class="text-[#9f1239]">✉</span>
+            <a href="https://www.planmybaraat.com" target="_blank" rel="noopener noreferrer" class="hover:text-[#9f1239] transition-colors">www.planmybaraat.com</a>
           </li>
-        ))}
-      </ul>
-    </div>
-
-    <div class="space-y-4">
-      <h3 class="text-[10px] uppercase tracking-widest font-bold text-black">Contact</h3>
-      <ul class="space-y-3">
-        <li class="flex items-start gap-2.5 text-xs">
-          <span class="text-[#E70D1D]">☎</span>
-          <a href="tel:+918830612287" class="hover:text-[#E70D1D] transition-colors">+91 88306 12287</a>
-        </li>
-        <li class="flex items-start gap-2.5 text-xs">
-          <span class="text-[#E70D1D]">✉</span>
-          <a href="https://www.planmybaraat.com" target="_blank" rel="noopener noreferrer" class="hover:text-[#E70D1D] transition-colors">www.planmybaraat.com</a>
-        </li>
-        <li class="flex items-start gap-2.5 text-xs">
-          <span class="text-[#E70D1D]">📍</span>
-          <span>Vadodara, Gujarat – 391110</span>
-        </li>
-      </ul>
+          <li class="flex items-start gap-2.5 text-sm text-black/65">
+            <span class="text-[#9f1239]">📍</span>
+            <span>Broadway Signature, Bhayli Canal Ring Road, Vadodara, Gujarat - 391110</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
-  <div class="border-t border-black/10 py-6 text-center">
-    <p class="text-[10px] uppercase tracking-widest font-semibold">
+  <div class="border-t border-black/10 py-6 text-center bg-[rgba(255,255,255,0.72)]">
+    <p class="text-[10px] uppercase tracking-[0.22em] font-semibold text-black/60">
       © 2026 PlanMyBaraat Corp • Delhi • Mumbai • Ahmedabad • Surat • Vadodara • Bangalore
     </p>
   </div>

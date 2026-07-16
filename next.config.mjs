@@ -32,7 +32,7 @@ const nextConfig = {
           destination: "/baraat-management/:slug/index.html",
         },
         {
-          source: "/:slug((?!crm$|api$|_next$|_vercel$|.*\\..*).+)",
+          source: "/:slug((?!crm(?:/|$)|api(?:/|$)|_next(?:/|$)|_vercel(?:/|$)|.*\\..*).+)",
           destination: "/:slug/index.html",
         },
       ],

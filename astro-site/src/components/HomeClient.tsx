@@ -267,10 +267,10 @@ function PackagesSection() {
               </ul>
               <div className="mt-7 flex flex-col gap-3">
                 <a href={`/packages/${pkg.id}`} className="inline-flex h-11 items-center justify-center border border-black/15 px-5 text-[11px] font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:border-[#E70D1D]/45 hover:text-[#E70D1D]">View Details</a>
-                <a href={`https://wa.me/918830612287?text=${encodeURIComponent(`Hi PlanMyBaraat, I want details for ${pkg.name}. My venue name is ______, city is ______ and my budget range is ______.`)}`} target="_blank" rel="noopener noreferrer" className="inline-flex h-12 items-center justify-center gap-2.5 bg-[#E70D1D] px-5 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a]">
+                <button type="button" data-package={pkg.name} className="enquire-btn inline-flex h-12 items-center justify-center gap-2.5 bg-[#E70D1D] px-5 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a]">
                   <MessageCircle className="h-4 w-4" />
                   Enquire on WhatsApp
-                </a>
+                </button>
               </div>
             </div>
           </FadeUp>

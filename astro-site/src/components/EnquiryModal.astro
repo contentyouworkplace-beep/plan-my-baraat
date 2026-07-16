@@ -26,25 +26,25 @@
 
       <div class="space-y-1.5">
         <label class="text-[10px] uppercase text-black/50 font-bold tracking-widest">Your Name *</label>
-        <input id="enquiry-name" type="text" placeholder="e.g. Rahul Sharma" required
+        <input id="enquiry-name" name="name" type="text" placeholder="e.g. Rahul Sharma" required
           class="w-full bg-black/5 border border-black/15 px-3.5 py-2.5 text-sm focus:outline-none focus:border-[#E70D1D] text-black placeholder:text-black/30" />
       </div>
 
       <div class="space-y-1.5">
         <label class="text-[10px] uppercase text-black/50 font-bold tracking-widest">Event Date *</label>
-        <input id="enquiry-date" type="date" required
+        <input id="enquiry-date" name="event_date" type="date" required
           class="w-full bg-black/5 border border-black/15 px-3.5 py-2.5 text-sm focus:outline-none focus:border-[#E70D1D] text-black" />
       </div>
 
       <div class="space-y-1.5">
         <label class="text-[10px] uppercase text-black/50 font-bold tracking-widest">Venue Name *</label>
-        <input id="enquiry-venue-name" type="text" placeholder="e.g. LVP Banquets, Vadodara" required
+        <input id="enquiry-venue-name" name="venue_name" type="text" placeholder="e.g. LVP Banquets, Vadodara" required
           class="w-full bg-black/5 border border-black/15 px-3.5 py-2.5 text-sm focus:outline-none focus:border-[#E70D1D] text-black placeholder:text-black/30" />
       </div>
 
       <div class="space-y-1.5">
         <label class="text-[10px] uppercase text-black/50 font-bold tracking-widest">Budget *</label>
-        <select id="enquiry-budget" required
+        <select id="enquiry-budget" name="budget" required
           class="w-full bg-black/5 border border-black/15 px-3.5 py-2.5 text-sm focus:outline-none focus:border-[#E70D1D] text-black">
           <option value="">Select your budget</option>
           <option value="1 lakh to 1.5 lakh">1 lakh to 1.5 lakh</option>
@@ -59,7 +59,7 @@
         <label class="text-[10px] uppercase text-black/50 font-bold tracking-widest">Phone Number *</label>
         <div class="flex items-center gap-2">
           <span class="text-sm font-semibold text-black/60 bg-black/5 border border-black/15 px-3 py-2.5">+91</span>
-          <input id="enquiry-phone" type="tel" placeholder="9876543210" pattern="[6-9][0-9]{9}" maxlength="10" required
+          <input id="enquiry-phone" name="phone" type="tel" placeholder="9876543210" pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" required
             class="flex-1 bg-black/5 border border-black/15 px-3.5 py-2.5 text-sm focus:outline-none focus:border-[#E70D1D] text-black placeholder:text-black/30" />
         </div>
       </div>
@@ -115,7 +115,15 @@
 
   document.querySelectorAll(".enquire-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
-      const pkg = btn.getAttribute("data-package") || "";
+      const pkg = btn.getAttribute("data-package") || btn.getAttribute("data-enquiry-label") || "";
+      openModal(pkg);
+    });
+  });
+
+  document.querySelectorAll(".enquire-link").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const pkg = link.getAttribute("data-package") || link.getAttribute("data-enquiry-label") || "";
       openModal(pkg);
     });
   });
@@ -127,6 +135,11 @@
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
+
+    if (!form.reportValidity()) {
+      return;
+    }
+
     const name = nameInput.value.trim();
     const eventDate = dateInput.value;
     const venueName = venueNameInput.value.trim();

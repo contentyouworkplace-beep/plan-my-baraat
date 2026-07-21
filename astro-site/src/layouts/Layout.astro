@@ -2,7 +2,6 @@
 import "../styles/global.css";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import EnquiryModal from "../components/EnquiryModal.astro";
 
 interface Props {
   title?: string;
@@ -25,14 +24,13 @@ const {
     <title>{title}</title>
     <meta name="description" content={description} />
   </head>
-  <body class="text-black antialiased">
+  <body class="bg-white text-black antialiased">
     <div class="min-h-screen flex flex-col">
       <Header />
       <main class="flex-grow">
         <slot />
       </main>
       <Footer />
-      <EnquiryModal />
     </div>
   </body>
 </html>

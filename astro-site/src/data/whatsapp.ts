@@ -4,12 +4,10 @@ export function buildPackageWhatsAppLink(
   name: string,
   phone: string,
   eventDate: string,
-  packageName: string,
-  venueName: string,
-  budget: string
+  packageName: string
 ): string {
   const msg = encodeURIComponent(
-    `Hi PlanMyBaraat! 🎊\n\nI'm interested in the *${packageName}*.\n\nName: ${name}\nPhone: ${phone}\nEvent Date: ${eventDate}\nVenue Name: ${venueName}\nBudget: ${budget}\n\nPlease share more details and availability!`
+    `Hi PlanMyBaraat! 🎊\n\nI'm interested in the *${packageName}*.\n\nName: ${name}\nPhone: ${phone}\nEvent Date: ${eventDate}\n\nPlease share more details and availability!`
   );
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }

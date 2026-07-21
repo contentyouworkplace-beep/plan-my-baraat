@@ -1,25 +1,133 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import { BARAAT_CITIES, BARAAT_AREAS, BARAAT_TOWNS } from "../../data/baraatLocations";
 import { BARAAT_KEYWORDS } from "../../data/baraatKeywords";
-import { getKeywordIndexMeta } from "../../data/seoMeta";
+import { BARAAT_PACKAGES } from "../../data/packagesData";
+import { WHATSAPP_NUMBER } from "../../data/whatsapp";
 
 const categories = Array.from(new Set(BARAAT_KEYWORDS.map((k) => k.category)));
-const meta = getKeywordIndexMeta();
+const waText = encodeURIComponent("Hi PlanMyBaraat! I am interested in checking your baraat packages and rates.");
+const globalWaLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`;
 ---
 
-<Layout title={meta.title} description={meta.description}>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-12">
-    <div class="text-center space-y-3">
+<Layout title="Baraat Packages & Locations Directory | PlanMyBaraat" description="Choose from our four royal packages (Raj Tilak, Rajwada, Maharaja, Signature) and browse our complete Gujarat locations & services directory.">
+  {/* Hero */}
+  <section class="border-b border-[#E70D1D]/15 bg-[#FAF6F0]">
+    <div class="max-w-7xl mx-auto px-6 py-16 lg:px-10 text-center space-y-4">
+      <p class="text-xs font-bold uppercase tracking-[0.2em] text-[#E70D1D]">
+        Baraat Directory
+      </p>
+      <h1 class="text-4xl font-extrabold tracking-tight text-black sm:text-5xl font-serif">
+        Baraat Packages & Directory
+      </h1>
+      <p class="max-w-2xl mx-auto text-sm leading-relaxed text-black/60">
+        Browse our ready-made wedding procession packages and explore our complete service coverage across Gujarat's cities, neighborhoods, and towns.
+      </p>
+    </div>
+  </section>
+
+  {/* Packages Section */}
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-10">
+    <div class="text-center space-y-1">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Choose Your Entry</span>
+      <h2 class="font-serif font-black text-2xl md:text-3xl text-black tracking-wide">Our Royal Procession Packages</h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+      {BARAAT_PACKAGES.map((pkg) => {
+        const pkgWaText = encodeURIComponent(`Hi PlanMyBaraat! I'm interested in booking the ${pkg.name} Package. Please share availability and rates.`);
+        const pkgWaLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${pkgWaText}`;
+        return (
+          <div class="border border-black/10 p-6 bg-white shadow-sm flex flex-col justify-between">
+            <div class="space-y-4">
+              <h3 class="font-serif font-black text-xl text-black">{pkg.name}</h3>
+              <span class="text-[9px] uppercase font-bold tracking-widest text-[#E70D1D] block">{pkg.tagline}</span>
+              <p class="text-xs text-black/50 leading-relaxed">{pkg.description}</p>
+              <ul class="space-y-2 pt-2">
+                {pkg.features.map((f) => (
+                  <li class="flex items-start gap-2 text-xs text-black/70">
+                    <span class="text-[#E70D1D] mt-0.5">✓</span>
+                    <span>{f}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div class="mt-6 pt-4 border-t border-black/5">
+              <a href={pkgWaLink} target="_blank" rel="noopener noreferrer" class="w-full inline-flex items-center justify-center h-10 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-[10px] transition-colors">
+                Enquire Now
+              </a>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  </section>
+
+  {/* Service Areas Section */}
+  <section class="border-t border-[#E70D1D]/15 bg-[#FAF6F0] py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+      <div class="text-center space-y-2">
+        <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Coverage</span>
+        <h2 class="font-serif font-black text-2xl md:text-3xl text-black tracking-wide">Where We Deliver Baraats</h2>
+        <p class="text-black/60 text-xs max-w-lg mx-auto">
+          Explore local neighborhoods, priority cities, and towns in our serving zone.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {BARAAT_CITIES.map((c) => {
+          const areasForCity = BARAAT_AREAS.filter((a) => a.parentCity === c.slug);
+          return (
+            <div class="border border-black/10 p-5 space-y-3 bg-white">
+              <a href={`/baraat-management/${c.slug}`} class="font-serif font-black text-base text-black hover:text-[#E70D1D] transition-colors block">
+                {c.name}
+              </a>
+              <p class="text-[10px] text-black/40 uppercase tracking-widest font-semibold">{c.state}</p>
+              {areasForCity.length > 0 && (
+                <div class="flex flex-wrap gap-1.5 pt-1">
+                  {areasForCity.slice(0, 8).map((a) => (
+                    <a href={`/baraat-management/${a.slug}`} class="text-[10px] px-2 py-1 border border-black/10 text-black/60 hover:border-[#E70D1D]/40 hover:text-[#E70D1D] transition-colors">
+                      {a.name}
+                    </a>
+                  ))}
+                  {areasForCity.length > 8 && (
+                    <a href={`/baraat-management/${c.slug}`} class="text-[10px] px-2 py-1 text-[#E70D1D] font-bold">
+                      +{areasForCity.length - 8} more
+                    </a>
+                  )}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      <div class="space-y-4 pt-4">
+        <h3 class="font-serif font-black text-lg text-black tracking-wide">Smaller Towns We Serve</h3>
+        <div class="flex flex-wrap gap-2">
+          {BARAAT_TOWNS.map((t) => (
+            <a href={`/baraat-management/${t.slug}`} class="text-xs px-3 py-1.5 border border-black/10 bg-white text-black/60 hover:border-[#E70D1D]/40 hover:text-[#E70D1D] transition-colors">
+              {t.name}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {/* Services Guide & Keywords */}
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-12">
+    <div class="text-center space-y-2">
       <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Guide</span>
-      <h1 class="font-serif font-black text-3xl md:text-5xl text-black tracking-wide">Baraat Management Guide</h1>
-      <p class="text-black/60 text-sm max-w-2xl mx-auto">
-        Browse by topic — every element of a PlanMyBaraat package explained, plus pricing and booking answers.
+      <h2 class="font-serif font-black text-2xl md:text-3xl text-black tracking-wide">Baraat Services Guide</h2>
+      <p class="text-black/60 text-xs max-w-lg mx-auto">
+        Read detailed guides on every element of a modern wedding procession.
       </p>
     </div>
 
     {categories.map((cat) => (
       <div class="space-y-3">
-        <h2 class="font-serif font-black text-lg text-black tracking-wide border-b border-black/10 pb-2">{cat}</h2>
+        <h3 class="font-serif font-black text-base text-black tracking-wide border-b border-black/10 pb-2">{cat}</h3>
         <div class="flex flex-wrap gap-2">
           {BARAAT_KEYWORDS.filter((k) => k.category === cat).map((k) => (
             <a href={`/baraat-management/${k.slug}`} class="text-xs px-3 py-1.5 border border-black/10 text-black/60 hover:border-[#E70D1D]/40 hover:text-[#E70D1D] transition-colors capitalize">
@@ -29,5 +137,5 @@ const meta = getKeywordIndexMeta();
         </div>
       </div>
     ))}
-  </div>
+  </section>
 </Layout>

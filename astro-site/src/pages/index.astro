@@ -1,10 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import PackageCard from "../components/PackageCard.astro";
+import EnquiryModal from "../components/EnquiryModal.astro";
 import { BARAAT_PACKAGES } from "../data/packagesData";
 import { SITE_IMAGES } from "../data/siteImages";
 import { ABOUT_POINTS, TESTIMONIALS, CONTACT_DETAILS, GALLERY_IMAGES, GALLERY_VIDEOS } from "../data/siteContent";
-import { getHomeMeta } from "../data/seoMeta";
 
 const STATS = [
   { value: "500+", label: "Baraats Organized" },
@@ -15,86 +15,87 @@ const STATS = [
 
 const STEPS = [
   { title: "Pick a Package", text: "Browse Raj Tilak, Rajwada, Maharaja or Signature and shortlist what fits your celebration." },
-  { title: "Share Venue & Budget", text: "Send your venue name, city and budget range on WhatsApp so we can guide the right setup faster." },
+  { title: "Share Your Details", text: "Send your name, event, and number — our team calls you back within hours." },
   { title: "Customize & Confirm", text: "We tailor the truck branding, dhol count, lights and effects to your baraat, then lock the date." },
 ];
-
-const meta = getHomeMeta();
 ---
 
-<Layout title={meta.title} description={meta.description}>
+<Layout>
+  {/* Hero */}
   <section class="relative overflow-hidden bg-white">
     <div class="absolute inset-0 opacity-40">
-      <img src={SITE_IMAGES.traditionalCouple} alt="" class="h-full w-full object-cover grayscale" />
+      <img src={SITE_IMAGES.traditionalCouple} alt="" class="w-full h-full object-cover grayscale" />
     </div>
     <div class="absolute inset-0 bg-white/80"></div>
-    <div class="relative z-10 mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
       <div class="space-y-7 text-center lg:text-left">
-        <div class="inline-flex items-center gap-2.5 border border-[#E70D1D]/30 px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest text-[#E70D1D] md:text-[11px]">
+        <div class="inline-flex items-center gap-2.5 border border-[#E70D1D]/30 px-5 py-1.5 text-[10px] md:text-[11px] font-bold text-[#E70D1D] tracking-widest uppercase">
           Gujarat's Trusted Baraat Specialists
         </div>
 
-        <h1 class="font-serif text-4xl font-black leading-tight tracking-wide text-black sm:text-5xl md:text-6xl">
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-serif font-black tracking-wide leading-tight text-black">
           Your Baraat.<br />
           <span class="text-[#E70D1D]">Royally Reimagined.</span>
         </h1>
 
-        <p class="mx-auto max-w-lg text-sm leading-relaxed text-black/60 lg:mx-0 md:text-base">
+        <p class="text-black/60 text-sm md:text-base leading-relaxed max-w-lg mx-auto lg:mx-0">
           Double-decker DJ trucks, dhol, pyro, vintage cars and safa teams — assembled into four ready-made
           packages so your entry is unforgettable and your planning is effortless.
         </p>
 
-        <div class="flex flex-wrap items-center justify-center gap-4 pt-2 lg:justify-start">
-          <a href="#packages" class="inline-flex h-12 items-center gap-2.5 bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a]">
+        <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+          <a href="#packages" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
             Explore Packages
           </a>
         </div>
       </div>
 
       <div class="relative h-[360px] sm:h-[420px] lg:h-[480px]">
-        <div class="absolute right-0 top-0 h-[78%] w-[72%] overflow-hidden border border-[#E70D1D]/25">
-          <img src={SITE_IMAGES.heroMain} alt="Royal Indian wedding celebration" class="h-full w-full object-cover grayscale-[15%]" />
+        <div class="absolute top-0 right-0 w-[72%] h-[78%] overflow-hidden border border-[#E70D1D]/25">
+          <img src={SITE_IMAGES.heroMain} alt="Royal Indian wedding celebration" class="w-full h-full object-cover grayscale-[15%]" />
         </div>
-        <div class="absolute bottom-0 left-0 h-[55%] w-[58%] overflow-hidden border border-[#E70D1D]/25">
-          <img src={SITE_IMAGES.heroFloral} alt="Gold floral wedding decor" class="h-full w-full object-cover grayscale-[15%]" />
+        <div class="absolute bottom-0 left-0 w-[58%] h-[55%] overflow-hidden border border-[#E70D1D]/25">
+          <img src={SITE_IMAGES.heroFloral} alt="Gold floral wedding decor" class="w-full h-full object-cover grayscale-[15%]" />
         </div>
-        <div class="absolute bottom-6 right-4 flex items-center gap-3 border border-[#E70D1D]/30 bg-white px-5 py-3.5 shadow-md">
+        <div class="absolute bottom-6 right-4 bg-white border border-[#E70D1D]/30 px-5 py-3.5 flex items-center gap-3 shadow-md">
           <div>
-            <p class="font-serif text-sm font-black leading-none text-black">500+ Baraats</p>
-            <p class="mt-1 text-[9px] uppercase tracking-widest text-black/40">Delivered Since 2021</p>
+            <p class="font-serif font-black text-sm text-black leading-none">500+ Baraats</p>
+            <p class="text-[9px] uppercase tracking-widest text-black/40 mt-1">Delivered Since 2021</p>
           </div>
         </div>
-        <p class="absolute bottom-0 right-4 translate-y-[calc(100%+10px)] text-right text-[9px] font-bold uppercase tracking-widest text-black/40">
+        <p class="absolute bottom-0 right-4 translate-y-[calc(100%+10px)] text-[9px] uppercase tracking-widest text-black/40 font-bold text-right">
           Proudly Serving the Wedding Industry Since Our 3rd Generation
         </p>
       </div>
     </div>
   </section>
 
+  {/* Stats */}
   <section class="border-y border-black/10 bg-[#F7F7F7]">
-    <div class="mx-auto grid max-w-7xl grid-cols-2 gap-6 px-4 py-10 sm:px-6 lg:px-8 md:grid-cols-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 grid grid-cols-2 md:grid-cols-4 gap-6">
       {STATS.map((s) => (
-        <div class="flex flex-col items-center gap-2 text-center">
-          <span class="font-serif text-xl font-black text-black md:text-2xl">{s.value}</span>
-          <span class="text-[9px] font-bold uppercase tracking-widest text-black/40">{s.label}</span>
+        <div class="flex flex-col items-center text-center gap-2">
+          <span class="font-serif font-black text-xl md:text-2xl text-black">{s.value}</span>
+          <span class="text-[9px] uppercase tracking-widest text-black/40 font-bold">{s.label}</span>
         </div>
       ))}
     </div>
   </section>
 
-  <section id="about" class="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-4 py-16 sm:px-6 lg:grid-cols-2 lg:px-8">
-    <div class="relative order-2 h-[300px] sm:h-[380px] lg:order-1 lg:h-[440px]">
+  {/* About teaser */}
+  <section id="about" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div class="relative h-[300px] sm:h-[380px] lg:h-[440px] order-2 lg:order-1">
       <div class="absolute inset-0 overflow-hidden border border-[#E70D1D]/25">
-        <img src={SITE_IMAGES.goldCrownMoment} alt="PlanMyBaraat team at a wedding celebration" class="h-full w-full object-cover grayscale-[15%]" />
+        <img src={SITE_IMAGES.goldCrownMoment} alt="PlanMyBaraat team at a wedding celebration" class="w-full h-full object-cover grayscale-[15%]" />
       </div>
     </div>
 
-    <div class="order-1 space-y-6 lg:order-2">
-      <span class="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">About Us</span>
-      <h2 class="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">
+    <div class="space-y-6 order-1 lg:order-2">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">About Us</span>
+      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">
         Gujarat's Trusted Name in Baraat Celebrations
       </h2>
-      <p class="text-sm leading-relaxed text-black/60">
+      <p class="text-black/60 text-sm leading-relaxed">
         PlanMyBaraat by Ronak brings together everything a groom's entry needs — double-decker DJ trucks,
         vintage cars, dhol artists, pyro effects, and safa teams — under one roof, so families can focus on
         celebrating instead of coordinating five different vendors.
@@ -102,152 +103,160 @@ const meta = getHomeMeta();
       <ul class="space-y-3">
         {ABOUT_POINTS.map((point) => (
           <li class="flex items-start gap-3 text-xs text-black/70">
-            <span class="mt-0.5 text-[#E70D1D]">✓</span>
+            <span class="text-[#E70D1D] mt-0.5">✓</span>
             <span>{point}</span>
           </li>
         ))}
       </ul>
-      <a href="/about" class="inline-flex h-11 items-center gap-2.5 border border-black/20 px-6 text-xs font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:border-[#E70D1D]/50 hover:text-[#E70D1D]">
+      <a href="/about" class="inline-flex items-center gap-2.5 h-11 px-6 border border-black/20 text-black font-extrabold uppercase tracking-widest text-xs hover:border-[#E70D1D]/50 hover:text-[#E70D1D] transition-all duration-300">
         Read Our Story
       </a>
     </div>
   </section>
 
-  <section class="mx-auto max-w-7xl space-y-10 px-4 py-16 sm:px-6 lg:px-8">
-    <div class="space-y-1 text-center">
-      <span class="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">Simple Process</span>
-      <h2 class="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">How It Works</h2>
+  {/* How it works */}
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-10">
+    <div class="text-center space-y-1">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Simple Process</span>
+      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">How It Works</h2>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       {STEPS.map((step, i) => (
-        <div class="relative border border-black/10 bg-white p-7 shadow-sm">
-          <span class="absolute -left-2 -top-4 font-serif text-5xl font-black text-black/5">0{i + 1}</span>
-          <h3 class="relative z-10 font-serif text-lg font-black text-black">{step.title}</h3>
-          <p class="relative z-10 mt-2 text-xs leading-relaxed text-black/50">{step.text}</p>
+        <div class="relative bg-white border border-black/10 p-7 shadow-sm">
+          <span class="absolute -top-4 -left-2 font-serif font-black text-5xl text-black/5">0{i + 1}</span>
+          <h3 class="font-serif font-black text-lg text-black relative z-10">{step.title}</h3>
+          <p class="text-xs text-black/50 leading-relaxed mt-2 relative z-10">{step.text}</p>
         </div>
       ))}
     </div>
   </section>
 
-  <section id="packages" class="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:px-8">
-    <div class="space-y-1 text-center">
-      <span class="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">Curated Baraat Packages</span>
-      <h2 class="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">Choose Your Royal Experience</h2>
-      <p class="mx-auto max-w-2xl pt-2 text-xs text-black/50 md:text-sm">
-        Every package can be customized — enquire on WhatsApp with your venue name, city and budget range to get a
+  {/* Packages */}
+  <section id="packages" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
+    <div class="text-center space-y-1">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Curated Baraat Packages</span>
+      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">Choose Your Royal Experience</h2>
+      <p class="text-black/50 text-xs md:text-sm max-w-2xl mx-auto pt-2">
+        Every package can be customized — enquire on WhatsApp with your name, event, and number to get a
         personalized quote and availability.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
       {BARAAT_PACKAGES.map((pkg, i) => (
         <PackageCard pkg={pkg} featured={i === 2} />
       ))}
     </div>
   </section>
 
-  <section id="gallery" class="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:px-8">
-    <div class="space-y-1 text-center">
-      <span class="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">Moments We Love</span>
-      <h2 class="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">From Real Celebrations</h2>
+  {/* Gallery teaser */}
+  <section id="gallery" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
+    <div class="text-center space-y-1">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Moments We Love</span>
+      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">From Real Celebrations</h2>
     </div>
 
-    <div class="grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-5">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
       {GALLERY_IMAGES.slice(0, 5).map((g, i) => (
-        <div class={`group relative overflow-hidden border border-black/10 ${i === 0 ? "col-span-2 row-span-2 aspect-square md:aspect-auto md:h-full" : "aspect-square"}`}>
-          <img src={g.src} alt={g.label} class="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105" />
+        <div class={`relative overflow-hidden group border border-black/10 ${i === 0 ? "col-span-2 row-span-2 aspect-square md:aspect-auto md:h-full" : "aspect-square"}`}>
+          <img src={g.src} alt={g.label} class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
           <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
-          <span class="absolute bottom-3 left-3 text-[10px] font-bold uppercase tracking-widest text-white">{g.label}</span>
+          <span class="absolute bottom-3 left-3 text-[10px] uppercase font-bold tracking-widest text-white">{g.label}</span>
         </div>
       ))}
 
-      <div class="group relative aspect-square overflow-hidden border border-black/10 bg-[#F7F7F7]">
-        <img src={GALLERY_VIDEOS[0].thumb} alt={GALLERY_VIDEOS[0].label} class="h-full w-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105" />
+      <div class="relative overflow-hidden group border border-black/10 aspect-square bg-[#F7F7F7]">
+        <img src={GALLERY_VIDEOS[0].thumb} alt={GALLERY_VIDEOS[0].label} class="w-full h-full object-cover opacity-50 transition-transform duration-700 group-hover:scale-105" />
         <div class="absolute inset-0 bg-black/40"></div>
         <div class="absolute inset-0 flex items-center justify-center">
-          <div class="flex h-12 w-12 items-center justify-center rounded-full bg-[#E70D1D]">
+          <div class="h-12 w-12 rounded-full bg-[#E70D1D] flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="white"><polygon points="6 3 20 12 6 21 6 3"/></svg>
           </div>
         </div>
-        <span class="absolute right-3 top-3 bg-black/60 px-2 py-0.5 text-[9px] font-bold text-white">{GALLERY_VIDEOS[0].duration}</span>
-        <span class="absolute bottom-3 left-3 text-[10px] font-bold uppercase tracking-widest text-white">{GALLERY_VIDEOS[0].label}</span>
+        <span class="absolute top-3 right-3 text-[9px] font-bold text-white bg-black/60 px-2 py-0.5">{GALLERY_VIDEOS[0].duration}</span>
+        <span class="absolute bottom-3 left-3 text-[10px] uppercase font-bold tracking-widest text-white">{GALLERY_VIDEOS[0].label}</span>
       </div>
     </div>
 
     <div class="text-center">
-      <a href="/gallery" class="inline-flex h-12 items-center gap-2.5 border border-black/20 px-8 text-xs font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:border-[#E70D1D]/50 hover:text-[#E70D1D]">
+      <a href="/gallery" class="inline-flex items-center gap-2.5 h-12 px-8 border border-black/20 text-black font-extrabold uppercase tracking-widest text-xs hover:border-[#E70D1D]/50 hover:text-[#E70D1D] transition-all duration-300">
         View Full Gallery
       </a>
     </div>
   </section>
 
-  <section id="testimonials" class="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:px-8">
-    <div class="space-y-1 text-center">
-      <span class="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">What Families Say</span>
-      <h2 class="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">Testimonials</h2>
+  {/* Testimonials teaser */}
+  <section id="testimonials" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-8">
+    <div class="text-center space-y-1">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">What Families Say</span>
+      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">Testimonials</h2>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       {TESTIMONIALS.slice(0, 3).map((t) => (
-        <div class="relative flex flex-col overflow-hidden border border-black/10 bg-white p-8 text-center shadow-sm">
-          <p class="flex-1 font-serif text-xs italic leading-relaxed text-black/80 md:text-sm">"{t.quote}"</p>
-          <div class="mt-5 text-[10px] font-bold uppercase tracking-widest text-[#E70D1D]">{t.name} • {t.place}</div>
+        <div class="p-8 bg-white border border-black/10 text-center relative overflow-hidden flex flex-col shadow-sm">
+          <p class="font-serif italic text-xs md:text-sm text-black/80 leading-relaxed flex-1">"{t.quote}"</p>
+          <div class="text-[10px] uppercase tracking-widest font-bold text-[#E70D1D] mt-5">{t.name} • {t.place}</div>
         </div>
       ))}
     </div>
 
     <div class="text-center">
-      <a href="/testimonials" class="inline-flex h-12 items-center gap-2.5 border border-black/20 px-8 text-xs font-extrabold uppercase tracking-widest text-black transition-all duration-300 hover:border-[#E70D1D]/50 hover:text-[#E70D1D]">
+      <a href="/testimonials" class="inline-flex items-center gap-2.5 h-12 px-8 border border-black/20 text-black font-extrabold uppercase tracking-widest text-xs hover:border-[#E70D1D]/50 hover:text-[#E70D1D] transition-all duration-300">
         View All Testimonials
       </a>
     </div>
   </section>
 
-  <section id="contact" class="mx-auto max-w-7xl space-y-10 px-4 py-16 sm:px-6 lg:px-8">
-    <div class="space-y-1 text-center">
-      <span class="block text-[9px] font-bold uppercase tracking-widest text-[#E70D1D]">Get In Touch</span>
-      <h2 class="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">Contact Us</h2>
-      <p class="mx-auto max-w-2xl pt-2 text-xs text-black/50 md:text-sm">
+  {/* Contact teaser */}
+  <section id="contact" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 space-y-10">
+    <div class="text-center space-y-1">
+      <span class="text-[9px] uppercase text-[#E70D1D] font-bold tracking-widest block">Get In Touch</span>
+      <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">Contact Us</h2>
+      <p class="text-black/50 text-xs md:text-sm max-w-2xl mx-auto pt-2">
         Have a question before you enquire? Reach us directly — we usually reply within minutes on WhatsApp.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {CONTACT_DETAILS.map((c) => (
-        <div class="space-y-3 border border-black/10 bg-white p-6 shadow-sm">
-          <span class="block text-[9px] font-bold uppercase tracking-widest text-black/40">{c.label}</span>
+        <div class="bg-white border border-black/10 p-6 space-y-3 shadow-sm">
+          <span class="text-[9px] uppercase tracking-widest text-black/40 font-bold block">{c.label}</span>
           {"href" in c ? (
-            <a href={c.href} target="_blank" rel="noopener noreferrer" class="block text-xs leading-relaxed text-black/80 transition-colors hover:text-[#E70D1D]">{c.value}</a>
+            <a href={c.href} target="_blank" rel="noopener noreferrer" class="text-xs text-black/80 hover:text-[#E70D1D] transition-colors leading-relaxed block">{c.value}</a>
           ) : (
-            <p class="text-xs leading-relaxed text-black/80">{c.value}</p>
+            <p class="text-xs text-black/80 leading-relaxed">{c.value}</p>
           )}
         </div>
       ))}
     </div>
 
     <div class="text-center">
-      <a href="https://wa.me/918830612287" target="_blank" rel="noopener noreferrer" class="inline-flex h-12 items-center gap-2.5 bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a]">
+      <a href="https://wa.me/918830612287" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
         Chat With Us on WhatsApp
       </a>
     </div>
   </section>
 
+  {/* CTA Banner */}
   <section class="relative overflow-hidden">
     <div class="relative h-[280px] md:h-[340px]">
-      <img src={SITE_IMAGES.ctaBanner} alt="Book your baraat celebration" class="h-full w-full object-cover grayscale-[30%]" />
+      <img src={SITE_IMAGES.ctaBanner} alt="Book your baraat celebration" class="w-full h-full object-cover grayscale-[30%]" />
       <div class="absolute inset-0 bg-white/85"></div>
       <div class="absolute inset-0 flex items-center">
-        <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
-          <div class="space-y-2 text-center md:text-left">
-            <h2 class="font-serif text-2xl font-black tracking-wide text-black md:text-4xl">Ready to Plan Your Baraat?</h2>
-            <p class="text-xs text-black/60 md:text-sm">Tell us your venue name, city and budget range — we'll take it from there.</p>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div class="text-center md:text-left space-y-2">
+            <h2 class="font-serif font-black text-2xl md:text-4xl text-black tracking-wide">Ready to Plan Your Baraat?</h2>
+            <p class="text-black/60 text-xs md:text-sm">Tell us your name, event, and number — we'll take it from there.</p>
           </div>
-          <a href="#packages" class="mx-auto inline-flex h-12 items-center justify-center gap-2.5 bg-[#E70D1D] px-8 text-xs font-extrabold uppercase tracking-widest text-white transition-all duration-300 hover:bg-[#c40d1a] md:mx-0">
+          <a href="#packages" class="inline-flex items-center justify-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300 mx-auto md:mx-0">
             Enquire Now
           </a>
         </div>
       </div>
     </div>
   </section>
+
+  <EnquiryModal />
 </Layout>

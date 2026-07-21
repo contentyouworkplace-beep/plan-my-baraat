@@ -2,7 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import { BARAAT_PACKAGES } from "../../data/packagesData";
 import { getPackageDetail } from "../../data/packageDetails";
-import { getPackageMeta } from "../../data/seoMeta";
+import { WHATSAPP_NUMBER } from "../../data/whatsapp";
 
 export function getStaticPaths() {
   return BARAAT_PACKAGES.map((pkg) => ({ params: { package: pkg.id } }));
@@ -15,10 +15,16 @@ const detail = getPackageDetail(pkg.id);
 
 const otherPackages = BARAAT_PACKAGES.filter((p) => p.id !== pkg.id);
 
-const meta = getPackageMeta(pkg);
+const waText = encodeURIComponent(
+  `Hi PlanMyBaraat! 🎊\n\nI'm interested in the *${pkg.name}*. Please share more details and availability!`
+);
+const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`;
+
+const title = `${pkg.name} — ${pkg.tagline} | PlanMyBaraat`;
+const description = `${pkg.description} See everything included in the ${pkg.name} and get a WhatsApp quote.`;
 ---
 
-<Layout title={meta.title} description={meta.description}>
+<Layout title={title} description={description}>
   <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-8 text-center space-y-4">
     <nav class="text-[10px] uppercase tracking-widest text-black/40 flex items-center justify-center gap-1.5">
       <a href="/" class="hover:text-[#E70D1D]">Home</a>
@@ -32,9 +38,9 @@ const meta = getPackageMeta(pkg);
     <h1 class="font-serif font-black text-3xl md:text-5xl text-black tracking-wide">{pkg.name}</h1>
     <p class="text-black/60 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">{pkg.description}</p>
 
-    <button type="button" data-package={pkg.name} class="enquire-btn inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
+    <a href={waLink} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
       Enquire on WhatsApp
-    </button>
+    </a>
   </section>
 
   <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-4">
@@ -89,8 +95,8 @@ const meta = getPackageMeta(pkg);
   </section>
 
   <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 text-center">
-    <button type="button" data-package={pkg.name} class="enquire-btn inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
+    <a href={waLink} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
       Get a Quote for {pkg.name} on WhatsApp
-    </button>
+    </a>
   </section>
 </Layout>

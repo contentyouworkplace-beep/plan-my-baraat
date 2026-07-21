@@ -10,30 +10,28 @@ const { pkg, featured = false } = Astro.props;
 ---
 
 <div
-  class={`relative flex flex-col rounded-[28px] border p-7 transition-all duration-300 hover:-translate-y-1 shadow-[0_16px_40px_-30px_rgba(0,0,0,0.35)] ${
-    featured
-      ? "bg-[linear-gradient(180deg,rgba(255,255,255,0.96),rgba(253,244,247,0.94))] border-[rgba(159,18,57,0.34)]"
-      : "bg-[rgba(255,255,255,0.82)] border-[rgba(184,134,11,0.14)] hover:border-[rgba(159,18,57,0.24)]"
+  class={`relative flex flex-col border p-7 transition-all duration-300 hover:-translate-y-1 ${
+    featured ? "bg-[#FFF5F5] border-[#E70D1D]/50" : "bg-white border-black/10 hover:border-[#E70D1D]/30"
   }`}
 >
   {featured && (
-    <span class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-[#9f1239] text-white text-[9px] font-black uppercase tracking-[0.22em] px-4 py-1.5 shadow-[0_16px_28px_-16px_rgba(159,18,57,0.9)]">
+    <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#E70D1D] text-white text-[9px] font-black uppercase tracking-widest px-4 py-1">
       Most Popular
     </span>
   )}
 
-  <div class="h-11 w-11 rounded-full border border-[rgba(184,134,11,0.26)] bg-white/80 flex items-center justify-center mb-4 text-[#9f1239]">
+  <div class="h-11 w-11 border border-[#E70D1D]/30 flex items-center justify-center mb-4 text-[#E70D1D]">
     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z"/><path d="M5 21h14"/></svg>
   </div>
 
   <h3 class="font-serif font-black text-xl tracking-wide text-black">{pkg.name}</h3>
-  <span class="text-[10px] uppercase font-bold tracking-[0.22em] mt-1 text-[#9f1239]">{pkg.tagline}</span>
-  <p class="text-xs mt-3 leading-relaxed text-black/55">{pkg.description}</p>
+  <span class="text-[10px] uppercase font-bold tracking-widest mt-1 text-[#E70D1D]">{pkg.tagline}</span>
+  <p class="text-xs mt-3 leading-relaxed text-black/50">{pkg.description}</p>
 
   <ul class="mt-5 space-y-2.5 flex-1">
     {pkg.features.map((feature) => (
       <li class="flex items-start gap-2.5 text-xs leading-snug">
-        <svg class="h-3.5 w-3.5 mt-0.5 shrink-0 text-[#9f1239]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        <svg class="h-3.5 w-3.5 mt-0.5 shrink-0 text-[#E70D1D]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
         <span class="text-black/75">{feature}</span>
       </li>
     ))}
@@ -41,15 +39,15 @@ const { pkg, featured = false } = Astro.props;
 
   <a
     href={`/packages/${pkg.id}`}
-    class="mt-7 w-full h-11 rounded-full border border-[rgba(184,134,11,0.22)] hover:border-[rgba(159,18,57,0.34)] hover:text-[#9f1239] text-black font-bold uppercase tracking-[0.18em] text-[11px] flex items-center justify-center transition-all duration-300"
+    class="mt-7 w-full h-11 border border-black/15 hover:border-[#E70D1D]/40 hover:text-[#E70D1D] text-black font-bold uppercase tracking-widest text-[11px] flex items-center justify-center transition-all duration-300"
   >
     View Full Details
   </a>
 
   <button
     type="button"
-    class={`enquire-btn mt-3 w-full h-12 rounded-full font-extrabold uppercase tracking-[0.18em] text-xs flex items-center justify-center gap-2.5 transition-all duration-300 ${
-      featured ? "bg-[#9f1239] hover:bg-[#7e1535] text-white" : "bg-[#1c1917] hover:bg-[#9f1239] text-white"
+    class={`enquire-btn mt-3 w-full h-12 font-extrabold uppercase tracking-widest text-xs flex items-center justify-center gap-2.5 transition-all duration-300 ${
+      featured ? "bg-[#E70D1D] hover:bg-[#c40d1a] text-white" : "bg-black hover:bg-[#E70D1D] text-white"
     }`}
     data-package={pkg.name}
   >

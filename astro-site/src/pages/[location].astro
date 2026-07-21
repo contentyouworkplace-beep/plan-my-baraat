@@ -1,9 +1,9 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import { ALL_BARAAT_LOCATIONS, getLocationBySlug } from "../data/baraatLocations";
-import { BARAAT_PACKAGES } from "../data/packagesData";
-import { locationIntro, locationWhyUs, locationClosing } from "../data/baraatContentVariants";
-import { getLocationMeta } from "../data/seoMeta";
+import Layout from "../../layouts/Layout.astro";
+import { ALL_BARAAT_LOCATIONS, getLocationBySlug } from "../../data/baraatLocations";
+import { BARAAT_PACKAGES } from "../../data/packagesData";
+import { WHATSAPP_NUMBER } from "../../data/whatsapp";
+import { locationIntro, locationWhyUs, locationClosing } from "../../data/baraatContentVariants";
 
 export function getStaticPaths() {
   return ALL_BARAAT_LOCATIONS.map((l) => ({ params: { location: l.slug } }));
@@ -17,10 +17,16 @@ const parent = loc.parentCity ? ALL_BARAAT_LOCATIONS.find((l) => l.slug === loc.
 const regionPhrase = parent ? `in ${loc.name}, ${parent.name}` : `in ${loc.name}`;
 const displayRegion = parent ? `${loc.name}, ${parent.name}` : `${loc.name}, ${loc.state}`;
 
-const meta = getLocationMeta(loc, parent);
+const waText = encodeURIComponent(
+  `Hi PlanMyBaraat! 🎊\n\nI'm looking for baraat package services in ${loc.name}${parent ? `, ${parent.name}` : ""}. Please share package details and availability.`
+);
+const waLink = `https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`;
+
+const title = `Baraat Package Services in ${loc.name} | PlanMyBaraat`;
+const description = `DJ truck, dhol team, vintage car, and safa styling for your baraat in ${loc.name}, ${loc.state}. Four curated packages, one WhatsApp enquiry.`;
 ---
 
-<Layout title={meta.title} description={meta.description}>
+<Layout title={title} description={description}>
   <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-8 text-center space-y-4">
     <nav class="text-[10px] uppercase tracking-widest text-black/40 flex items-center justify-center gap-1.5">
       <a href="/" class="hover:text-[#E70D1D]">Home</a>
@@ -39,9 +45,9 @@ const meta = getLocationMeta(loc, parent);
       {locationIntro(loc.slug, { name: loc.name, region: regionPhrase, tier: loc.type })}
     </p>
 
-    <button type="button" data-package={`Baraat Package Services in ${displayRegion}`} class="enquire-btn inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
+    <a href={waLink} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
       Enquire on WhatsApp
-    </button>
+    </a>
   </section>
 
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-8">
@@ -78,8 +84,8 @@ const meta = getLocationMeta(loc, parent);
 
   <section class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 text-center space-y-4">
     <p class="text-black/70 text-sm">{locationClosing(loc.slug, { name: loc.name, region: regionPhrase, tier: loc.type })}</p>
-    <button type="button" data-package={`Baraat Package Services in ${displayRegion}`} class="enquire-btn inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
+    <a href={waLink} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 h-12 px-8 bg-[#E70D1D] hover:bg-[#c40d1a] text-white font-extrabold uppercase tracking-widest text-xs transition-all duration-300">
       Chat on WhatsApp
-    </button>
+    </a>
   </section>
 </Layout>

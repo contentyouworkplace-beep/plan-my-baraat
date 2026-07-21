@@ -2,18 +2,15 @@
 import Layout from "../layouts/Layout.astro";
 import { SITE_IMAGES } from "../data/siteImages";
 import { ABOUT_POINTS } from "../data/siteContent";
-import { getAboutMeta } from "../data/seoMeta";
 
 const VALUES = [
   { title: "3rd Generation Legacy", text: "Three generations deep in the Indian wedding industry — this isn't a startup, it's a family craft." },
   { title: "One Point of Contact", text: "From your first WhatsApp message to the last dhol beat, one team owns your entire baraat." },
   { title: "In-House Fleet", text: "Our own double-decker DJ trucks and vintage cars — no third-party subcontracting, no delays." },
 ];
-
-const meta = getAboutMeta();
 ---
 
-<Layout title={meta.title} description={meta.description}>
+<Layout title="About Us | PlanMyBaraat">
   <section class="relative overflow-hidden bg-white border-b border-black/10">
     <div class="absolute inset-0 opacity-25">
       <img src={SITE_IMAGES.goldCrownMoment} alt="" class="w-full h-full object-cover grayscale" />

@@ -20,7 +20,7 @@ export default function LeadCaptureForm({
 }: LeadCaptureFormProps) {
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-  const [location, setLocation] = useState(defaultLocation);
+  const [venue, setVenue] = useState(defaultLocation);
   const [packageInterested, setPackageInterested] = useState(defaultPackage);
   const [requirement, setRequirement] = useState("");
   const [submitted, setSubmitted] = useState(false);
@@ -33,7 +33,7 @@ export default function LeadCaptureForm({
     if (!name.trim()) newErrors.name = "Please enter your name";
     if (!phone.trim() || !/^[6-9]\d{9}$/.test(phone.trim()))
       newErrors.phone = "Enter a valid 10-digit Indian mobile number";
-    if (!location.trim()) newErrors.location = "Please enter your city or area";
+    if (!venue.trim()) newErrors.venue = "Please enter your venue name";
     if (!packageInterested) newErrors.packageInterested = "Please select a package";
     if (!requirement.trim() || requirement.trim().length < 10)
       newErrors.requirement = "Please describe your requirement (min 10 chars)";
@@ -60,7 +60,7 @@ export default function LeadCaptureForm({
             event_date: null,
             mobile: phone.trim(),
             package_name: packageInterested,
-            remarks: `Location: ${location.trim()}\nRequirement: ${requirement.trim()}`,
+            remarks: `Venue: ${venue.trim()}\nRequirement: ${requirement.trim()}`,
             status: "New",
           },
         ]);
@@ -77,7 +77,7 @@ export default function LeadCaptureForm({
           event_date: null,
           mobile: phone.trim(),
           package_name: packageInterested,
-          remarks: `Location: ${location.trim()}\nRequirement: ${requirement.trim()}`,
+          remarks: `Venue: ${venue.trim()}\nRequirement: ${requirement.trim()}`,
           status: "New",
           created_at: new Date().toISOString(),
           updated_at: new Date().toISOString(),
@@ -91,7 +91,7 @@ export default function LeadCaptureForm({
     trackMetaEvent("Lead", {
       content_name: packageInterested,
       content_category: "Baraat Package Enquiry",
-      city: location.trim(),
+      venue: venue.trim(),
       value: 1,
       currency: "INR",
     });
@@ -99,7 +99,7 @@ export default function LeadCaptureForm({
     const whatsappLink = buildWhatsAppLink(
       name.trim(),
       `+91 ${phone.trim()}`,
-      location.trim(),
+      venue.trim(),
       "Baraat package",
       "Not shared",
       requirement.trim(),
@@ -125,7 +125,7 @@ export default function LeadCaptureForm({
             setSubmitted(false);
             setName("");
             setPhone("");
-            setLocation(defaultLocation);
+            setVenue(defaultLocation);
             setPackageInterested(defaultPackage);
             setRequirement("");
           }}
@@ -191,21 +191,20 @@ export default function LeadCaptureForm({
           {errors.phone && <span className="wa-error">{errors.phone}</span>}
         </div>
 
-        {/* Location */}
+        {/* Venue */}
         <div className="wa-field-group wa-field-full">
-          <label className="wa-label" htmlFor="lead-location">
-            Your City / Area *
+          <label className="wa-label" htmlFor="lead-venue">
+            Venue Name *
           </label>
           <input
-            id="lead-location"
+            id="lead-venue"
             type="text"
-            className={`wa-input ${errors.location ? "wa-input-error" : ""}`}
-            placeholder="e.g. Vadodara, Alkapuri"
-            value={location}
-            onChange={(e) => setLocation(e.target.value)}
-            autoComplete="address-level2"
+            className={`wa-input ${errors.venue ? "wa-input-error" : ""}`}
+            placeholder="e.g. LVP Banquets, Vadodara"
+            value={venue}
+            onChange={(e) => setVenue(e.target.value)}
           />
-          {errors.location && <span className="wa-error">{errors.location}</span>}
+          {errors.venue && <span className="wa-error">{errors.venue}</span>}
         </div>
 
         {/* Package */}

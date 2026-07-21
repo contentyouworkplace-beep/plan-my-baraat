@@ -38,7 +38,7 @@ export const WHATSAPP_NUMBER = "918830612287"; // PlanMyBaraat WhatsApp Business
 export function buildWhatsAppLink(
   name: string,
   phone: string,
-  city: string,
+  location: string,
   specialty: string,
   date: string,
   requirement: string,
@@ -46,7 +46,7 @@ export function buildWhatsAppLink(
 ): string {
   const packageLine = packageInterested ? `\nPackage Interested: ${packageInterested}` : "";
   const msg = encodeURIComponent(
-    `Hi PlanMyBaraat!\n\nName: ${name}\nPhone: ${phone}\nCity: ${city}\nLooking for: ${specialty}\nWedding Date: ${date}${packageLine}\n\nRequirement:\n${requirement}\n\nPlease help me find the best vendors!`
+    `Hi PlanMyBaraat!\n\nName: ${name}\nPhone: ${phone}\nLocation: ${location}\nLooking for: ${specialty}\nWedding Date: ${date}${packageLine}\n\nRequirement:\n${requirement}\n\nPlease help me find the best vendors!`
   );
   return `https://wa.me/${WHATSAPP_NUMBER}?text=${msg}`;
 }
